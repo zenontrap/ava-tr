@@ -35,3 +35,29 @@ Kurulum Talimatları
 - yeni bir terminal acıp dosyaların bulunduğu klasöre tekrardan giderek bu sefer'de
   python3 server.py yazıyoruz.
 ```
+# Komutlar
+--------
+
+set uid: kullanıcı sayısı : role 1   "13" kullanıcının id        
+
+1 : sadece mute yetkisi                                 ör :   set uid:13:role 1
+
+2 : etkinlik kapatma ve mute yetkisi                    ör :   set uid:13:role 2
+
+3 : Moderatör Yetkisi                                   ör :   set uid:13:role 3
+
+4 : Admin Yetkisi                                       ör :   set uid:13:role 4
+ 
+5 : Gizli Admin Yetkisi ( Herşeye Tam Erişim)           ör :   set uid:13:role 5
+
+# Kaynak Verme Komutları 
+
+set uid: kullanıcı sayısı : gld miktar    "Gold Verme"         Ör  : set uid:13:gld 99999
+
+set uid: kullanıcı sayısı : slvr miktar   "Silver verme"       Ör  : set uid:13:slvr 99999
+
+set uid: kullanıcı sayısı : exp           "Level Xp Verme"     Ör  : set uid:13:exp 99999
+
+set uid: kullanıcı sayısı : crt           " İmaj Verme "     ör  : set uid:13:crt 99999
+ 
+set uid: kullanıcı sayısı : hrt           " Konfor verme"        ör  : set uid:13:hrt 99999
