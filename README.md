@@ -3,7 +3,16 @@ Oyuna gelecek olan güncellemeri buradan takip edebilirsiniz.   Oyununuzu günce
 
 # Kurulum ve başlatma
 Uyarı: Windows üzerinde çalışma garanti edilmez ve onu desteklemeyeceğiz. ANCAK: sunucuyu herhangi bir sorun olmadan Windows'da başlatabilirsiniz ve bunun için kodu düzenlemeniz bile gerekmez.
-
+ 
+ # İletişim 
+ Kuramayan arkadşar için  https://discord.gg/WNarqw4 bu discord adresine katılabilirsiniz.
+ Sizlere her türlü konuda yardımcı olurum. 
+* Youtube Kanalıma Abone Olursanız Sevinirim.
+ https://www.youtube.com/channel/UCwtU6EBcXZVjd8g2-fzdh4A
+ 
+- Kurulum videosu 
+ 
+ 
 # Gerekli Olanlar. 
 - Ubuntu +18.04 Üstü
 - Python3  
