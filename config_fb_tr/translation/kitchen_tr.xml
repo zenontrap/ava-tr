@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<dictionary>
+    
+    <locale name="tr">
+        
+		<!-- DECOR -->
+		
+		<message key="kitchenDecor1Title">Elma Tabağı</message>
+		<message key="kitchenDecor2Title">Şamdan</message>
+		<message key="kitchenDecor3Title">Çay Kasesi</message>
+		<message key="kitchenDecor4Title">Çay Kasesi</message>
+		<message key="kitchenDecor5Title">Yemek takımı</message>
+		<message key="kitchenDecor6Title">Yemek takımı</message>
+		<message key="kitchenDecor7Title">Limonlar</message>
+		<message key="kitchenDecor8Title">Peçetelik</message>
+		
+		<message key="halloweenKitchenDecor1Title">Cadılar Bayramı Kan Bardağı</message>
+		
+		<!-- NY DECOR -->
+		
+		<message key="wineglassGoldNYTitle">Şampanya Kadehi</message>
+		<message key="wineglassBlueNYTitle">Şampanya Kadehi</message>
+		<message key="turkeyVegetableNYTitle">Kızarmış Hindi</message>
+		<message key="shishkebabNYTitle">Barbekü</message>
+		<message key="potatoGreenNYTitle">Yeşillikli Patates</message>
+		<message key="lollipopNYTitle">Buzlu Şeker</message>
+		<message key="cakeStrawberryNYTitle">Tatil Pastası</message>
+		<message key="cakePieceNYTitle">Dilim Pasta</message>
+		<message key="plateBlueNYTitle">Yemek takımı</message>
+		<message key="beconEggNYTitle">Sosisli Yumurta</message>
+		
+		<!-- BACHELOR DECOR -->
+		
+		<message key="wineglassRedBachelorTitle">Bardak Şarap</message>
+		<message key="orangeJuiceBachelorTitle">Portakal Suyu</message>
+		<message key="cocktaileJuiceRedBachelorTitle">Bekar Kokteyli</message>
+		<message key="candleMiniBachelorTitle">Bekar Mumu</message>
+		<message key="plateGrayBachelorTitle">Bekar Yemek Takımı</message>
+		
+		<!-- REFRIGERATOR -->
+		
+		<message key="refrigerator1Title">İki Kapılı Gümüş Buzdolabı</message>
+		<message key="refrigerator2Title">Donduruculu İki Kapılı Buzdolabı</message>
+		<message key="refrigerator3Title">Dondurucu Bölmeli Buzdolabı</message>
+		
+		<!-- CHAIR -->
+		
+		<message key="kitchenChair1Title">Mutfak Sandalyesi</message>
+		<message key="kitchenChair2Title">Cilalı Sandalye</message>
+		<message key="kitchenChair3Title">Çizgili Sandalye</message>
+		<message key="kitchenChair4Title">Mutfak Sandalyesi</message>
+		
+		<!-- TABLE -->
+		
+		<message key="kitchenTable1Title">Mutfak Masası</message>
+		<message key="kitchenTable2Title">Cilalı Mutfak Masası</message>
+		<message key="kitchenTable3Title">Mutfak Masası</message>
+		<message key="kitchenTable4Title">Mutfak Masası</message>
+		
+		<!-- KITCHEN UNITS -->
+
+		<!-- BASE UNIT -->
+
+		<message key="kitchenUnitBase1Title">Dolap</message>
+		<message key="kitchenUnitBase2Title">Dolap</message>
+		<message key="kitchenUnitBase3Title">Köşe Dolabı</message>
+		<message key="kitchenUnitBase4Title">Lavabo</message>
+		<message key="kitchenUnitBase5Title">Lavabo</message>
+		<message key="kitchenUnitBase6Title">Gaz Ocağı</message>
+		<message key="kitchenUnitBase7Title">Duvar Rafları</message>
+		<message key="kitchenUnitBase8Title">Duvar Rafları</message>
+		<message key="kitchenUnitBase9Title">Duvar Rafları</message>
+		<message key="kitchenUnitBase10Title">Duvar Rafları</message>
+		<message key="kitchenUnitBase11Title">Duvar Rafları</message>
+		
+		<!-- BLACK UNIT -->
+
+		<message key="kitchenUnitBlack1Title">Dolap</message>
+		<message key="kitchenUnitBlack2Title">Dolap</message>
+		<message key="kitchenUnitBlack3Title">Köşe Dolabı</message>
+		<message key="kitchenUnitBlack4Title">Dolap</message>
+		<message key="kitchenUnitBlack5Title">Lavabo</message>
+		<message key="kitchenUnitBlack6Title">Lavabo</message>
+		<message key="kitchenUnitBlack7Title">Gaz Ocağı</message>
+		<message key="kitchenUnitBlack8Title">Duvar Rafları</message>
+		<message key="kitchenUnitBlack9Title">Duvar Rafları</message>
+		<message key="kitchenUnitBlack10Title">Duvar Rafları</message>
+		<message key="kitchenUnitBlack11Title">Duvar Rafları</message>
+		<message key="kitchenUnitBlack12Title">Duvar Rafları</message>
+		
+		<!-- MARBLE UNIT -->
+
+		<message key="kitchenUnitMarble1Title">Dolap</message>
+		<message key="kitchenUnitMarble2Title">Dolap</message>
+		<message key="kitchenUnitMarble3Title">Köşe Dolabı</message>
+		<message key="kitchenUnitMarble4Title">Dolap</message>
+		<message key="kitchenUnitMarble5Title">Lavabo</message>
+		<message key="kitchenUnitMarble6Title">Lavabo</message>
+		<message key="kitchenUnitMarble7Title">Gaz Ocağı</message>
+		<message key="kitchenUnitMarble8Title">Duvar Rafları</message>
+		<message key="kitchenUnitMarble9Title">Duvar Rafları</message>
+		<message key="kitchenUnitMarble10Title">Duvar Rafları</message>
+		<message key="kitchenUnitMarble11Title">Duvar Rafları</message>
+		<message key="kitchenUnitMarble12Title">Duvar Rafları</message>
+		
+		<!-- GIRL UNIT -->
+
+		<message key="kitchenUnitGirl1Title">Dolap</message>
+		<message key="kitchenUnitGirl2Title">Dolap</message>
+		<message key="kitchenUnitGirl3Title">Köşe Dolabı</message>
+		<message key="kitchenUnitGirl4Title">Dolap</message>
+		<message key="kitchenUnitGirl5Title">Gaz Ocağı</message>
+		<message key="kitchenUnitGirl6Title">Duvar Rafları</message>
+		<message key="kitchenUnitGirl7Title">Duvar Rafları</message>
+		<message key="kitchenUnitGirl8Title">Duvar Rafları</message>
+		
+		<!-- WEDDING-PETTING -->
+		
+		<message key="weddingCakeTitle">Düğün Pastası</message>
+		<message key="weddingCakeOrangeTitle">Düğün Pastası</message>
+		<message key="weddingFlatTitle">Misafir için Yemek Takımı</message>
+		<message key="weddingFlatOrangeTitle">Misafir için Yemek Takımı</message>
+		<message key="weddingGlassBrideTitle">Gelinin Kadehi</message>
+		<message key="weddingGlassBridegroomTitle">Damadın Kadehi</message>
+		<message key="weddingTeaserviceTitle">Hediye Çay Seti</message>
+
+		<!-- SEA KITCHEN -->
+		
+		<message key="seaKitchenCollection">Deniz Esintisi</message>
+		<message key="chairBlueSeaLabel">Mutfak Sandalyesi</message>
+		<message key="chairWhiteSeaLabel">Mutfak Sandalyesi</message>
+		<message key="armchairSeaLabel">Deniz Esintisi Koltuk</message>
+		<message key="tableSeaLabel">Mutfak Masası</message>
+		<message key="unitBoardSeaLabel">Dolap</message>
+		<message key="unitBoxSeaLabel">Dolap</message>
+		<message key="unitCupboardSeaLabel">Dolap</message>
+		<message key="unitSinkSeaLabel">Lavabo</message>
+		<message key="unitStoveSeaLabel">Gaz Ocağı</message>
+		<message key="unitCupboardTopSeaLabel">Duvar Rafları</message>
+		<message key="unitExtractorFanSeaLabel">Davlumbaz</message>
+		<message key="unitMicrovaweTopSeaLabel">Mikrodalga fırın</message>
+
+        <message key="jntFrdg">Odacının Buzdolabı</message>
+        <message key="jntrSmvr">Odacının Çaydanlığı</message>
+        <message key="jntrSdMchn">Odacının İçecek Dolabı</message>
+
+		<message key="refrigeratorDescription">Bahçede ya da meydanda çalıştıktan sonra gücünü geri kazanman gerek. İşte bunun cevabı da bir buzdolabı!</message>
+	</locale>
+	
+</dictionary>

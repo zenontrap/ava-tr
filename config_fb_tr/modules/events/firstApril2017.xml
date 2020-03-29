@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="firstApril2017" goldRate="0.1">
+    <inventory>
+        <category id="craftLoot">
+            <item id="fa17Smile" name="SmileLoot@firstApril2017" canBuy="0"/>
+        </category>
+    </inventory>
+
+    <awards>
+        <award id="1" index="1" itemType="clothesSet" itemId="boyDrlBlrnCsm" gender="1" smilesPrice="3000"
+               receiveIcon="BoyBallerinaClothesSet@firstApril2017"/>
+        <award id="2" index="2" itemType="clothesSet" itemId="boyDrlCookCsm" gender="1" smilesPrice="3450"
+               receiveIcon="BoyCookClothesSet@firstApril2017"/>
+        <award id="3" index="3" itemType="clothesSet" itemId="boyAprPixCsm" gender="1" smilesPrice="3750"
+               receiveIcon="BoyPixieClothesSet@firstApril2017"/>
+        <award id="4" index="1" itemType="clothesSet" itemId="grlDrlHckCsm" gender="2" smilesPrice="3000"
+               receiveIcon="GirlHockeyClothesSet@firstApril2017"/>
+        <award id="5" index="2" itemType="clothesSet" itemId="grlAprChrCsm" gender="2" smilesPrice="3450"
+               receiveIcon="GirlChaplinClothesSet@firstApril2017"/>
+        <award id="6" index="3" itemType="clothesSet" itemId="grlDrlBkrCsm" gender="2" smilesPrice="3750"
+               receiveIcon="GirlBikerClothesSet@firstApril2017"/>
+        <award id="7" itemType="game" itemId="jacuzziWorms" count="10" smilesPrice="30"/>
+        <award id="8" itemType="game" itemId="applianceBat" count="10" smilesPrice="30"/>
+        <award id="9" itemType="game" itemId="chairBomb" count="10" smilesPrice="30"/>
+        <award id="10" itemType="game" itemId="scrdvr" count="5" smilesPrice="75"/>
+        <award id="11" itemType="game" itemId="wllgrfft1" count="5" smilesPrice="60"/>
+        <award id="12" itemType="game" itemId="wllgrfft2" count="5" smilesPrice="30"/>
+        <award id="13" itemType="game" itemId="wllgrfft3" count="5" smilesPrice="30"/>
+        <award id="14" itemType="game" itemId="wllgrfft4" count="5" smilesPrice="30"/>
+        <award id="15" itemType="game" itemId="wllgrfft5" count="5" smilesPrice="60"/>
+        <award id="16" itemType="game" itemId="wllgrfft6" count="5" smilesPrice="75"/>
+    </awards>
+</module>

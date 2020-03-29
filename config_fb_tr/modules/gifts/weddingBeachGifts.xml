@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <group id="weddingBeachGiftsGroup">
+
+        <category id="resources" typeIds="weddingBeachGift1">
+            <item typeId="silver" minCount="500" maxCount="2000"/>
+            <item typeId="energy" minCount="50" maxCount="500"/>
+        </category>
+
+        <category id="resources" typeIds="weddingBeachGift2">
+            <item typeId="silver" minCount="1500" maxCount="7500"/>
+            <item typeId="energy" minCount="100" maxCount="999"/>
+            <item typeId="gold" minCount="2" maxCount="10"/>
+        </category>
+
+        <category id="resources" typeIds="weddingBeachGift3">
+            <item typeId="silver" minCount="5000" maxCount="25000"/>
+            <item typeId="energy" minCount="500" maxCount="2500"/>
+            <item typeId="gold" minCount="5" maxCount="30"/>
+        </category>
+
+        <category id="loot" typeIds="weddingBeachGift1,weddingBeachGift2,weddingBeachGift3">
+            <item typeId="generosity" minCount="5" maxCount="30"/>
+            <item typeId="love" minCount="5" maxCount="50"/>
+            <item typeId="hatred" minCount="5" maxCount="50"/>
+            <item typeId="happiness" minCount="10" maxCount="100"/>
+            <item typeId="water" minCount="5" maxCount="30"/>
+            <item typeId="phial" minCount="2" maxCount="10"/>
+            <item typeId="bigPhial" minCount="2" maxCount="5"/>
+            <item typeId="clay" minCount="5" maxCount="30"/>
+            <item typeId="likeCoin" minCount="2" maxCount="10"/>
+            <item typeId="feather" minCount="2" maxCount="8"/>
+            <item typeId="bow" minCount="2" maxCount="5"/>
+            <item typeId="flowerBud" minCount="5" maxCount="30"/>
+            <item typeId="wrappingPaper" minCount="2" maxCount="10"/>
+            <item typeId="peaceOfWood" minCount="5" maxCount="30"/>
+            <item typeId="photograph" minCount="2" maxCount="15"/>
+            <item typeId="peaceOfIron" minCount="5" maxCount="30"/>
+            <item typeId="swordHilt" minCount="3" maxCount="10"/>
+            <item typeId="wick" minCount="2" maxCount="10"/>
+            <item typeId="bitOfGlass" minCount="2" maxCount="5"/>
+            <item typeId="clover" minCount="2" maxCount="5"/>
+            <item typeId="thread" minCount="2" maxCount="5"/>
+            <item typeId="gameChips" minCount="5" maxCount="20"/>
+        </category>
+
+        <category id="silverGifts" typeIds="weddingBeachGift1">
+            <item typeId="vaseGlam" maxCount="1"/>
+            <item typeId="vaseGold" maxCount="1"/>
+            <item typeId="vaseGoldLight" maxCount="1"/>
+            <item typeId="vaseRose" maxCount="1"/>
+            <item typeId="vaseWoodFlower" maxCount="1"/>
+            <item typeId="vaseForget" maxCount="1"/>
+            <item typeId="vaseHead" maxCount="1"/>
+            <item typeId="vaseBachelor" maxCount="1"/>
+            <item typeId="pictureBeach" maxCount="1"/>
+            <item typeId="pictureElf" maxCount="1"/>
+            <item typeId="pictureGirl" maxCount="1"/>
+            <item typeId="pictureArtDeco" maxCount="1"/>
+            <item typeId="carpet4" maxCount="1"/>
+            <item typeId="carpet7" maxCount="1"/>
+            <item typeId="carpet9" maxCount="1"/>
+            <item typeId="carpetArtdeco" maxCount="1"/>
+            <item typeId="carpetGhost" maxCount="1"/>
+            <item typeId="lamp2" maxCount="1"/>
+            <item typeId="lamp7" maxCount="1"/>
+            <item typeId="lamp8" maxCount="1"/>
+            <item typeId="lamp9" maxCount="1"/>
+            <item typeId="lampArtDeco" maxCount="1"/>
+            <item typeId="lampDeco" maxCount="1"/>
+            <item typeId="bigMaskVenice" maxCount="1"/>
+            <item typeId="trayVenice" maxCount="1"/>
+            <item typeId="casketGold" maxCount="1"/>
+            <item typeId="pokerFireplace" maxCount="1"/>
+            <item typeId="fireWood" maxCount="1"/>
+            <item typeId="fireWoodLight" maxCount="1"/>
+            <item typeId="bookArt" maxCount="1"/>
+            <item typeId="amuletArt" maxCount="1"/>
+            <item typeId="maskArt" maxCount="1"/>
+            <item typeId="bookTrBth" maxCount="1"/>
+            <item typeId="loveBalloon" maxCount="1"/>
+            <item typeId="pirateShip" maxCount="1"/>
+            <item typeId="regimentBachelor" maxCount="1"/>
+            <item typeId="applianceTv1" maxCount="1"/>
+            <item typeId="applianceNotebook3" maxCount="1"/>
+            <item typeId="applianceMusicCenter1" maxCount="1"/>
+            <item typeId="applianceMusicCenter2" maxCount="1"/>
+            <item typeId="acoustic2" maxCount="1"/>
+            <item typeId="miscAppliance1" maxCount="1"/>
+            <item typeId="fireplace1" maxCount="1"/>
+            <item typeId="vsTrBth" maxCount="1"/>
+            <item typeId="tblTrBth" maxCount="1"/>
+            <item typeId="clmnCnn" maxCount="1"/>
+        </category>
+
+        <category id="social" typeIds="weddingBeachGift2,weddingBeachGift3">
+            <item typeId="coffeBean" minCount="3" maxCount="12"/>
+            <item typeId="mintLeaf" minCount="3" maxCount="12"/>
+            <item typeId="jarOfPaint" minCount="3" maxCount="12"/>
+            <item typeId="cloth" minCount="3" maxCount="12"/>
+            <item typeId="glass" minCount="3" maxCount="12"/>
+            <item typeId="grindstone" minCount="3" maxCount="12"/>
+            <item typeId="peaceOfWax" minCount="3" maxCount="12"/>
+            <item typeId="pollen" minCount="3" maxCount="12"/>
+            <item typeId="fasten" minCount="3" maxCount="12"/>
+            <item typeId="egg" minCount="3" maxCount="12"/>
+            <item typeId="artificialSnow" minCount="3" maxCount="12"/>
+            <item typeId="confetti" minCount="3" maxCount="12"/>
+            <item typeId="gingerForm" minCount="3" maxCount="12"/>
+            <item typeId="shell" minCount="3" maxCount="15"/>
+            <item typeId="pearl" minCount="2" maxCount="8"/>
+        </category>
+
+        <category id="trifle" typeIds="weddingBeachGift2">
+            <item typeId="craftedCoffee" minCount="1" maxCount="5"/>
+            <item typeId="craftedEnergyDrink" minCount="1" maxCount="5"/>
+            <item typeId="gameChips" minCount="5" maxCount="30"/>
+            <item typeId="aqF1" minCount="3" maxCount="10"/>
+            <item typeId="aqF2" minCount="3" maxCount="10"/>
+            <item typeId="aqF3" minCount="3" maxCount="10"/>
+            <item typeId="aqF4" minCount="3" maxCount="10"/>
+            <item typeId="applianceBat" minCount="3" maxCount="10"/>
+            <item typeId="jacuzziWorms" minCount="3" maxCount="10"/>
+            <item typeId="chairBomb" minCount="3" maxCount="10"/>
+            <item typeId="scrdvr" minCount="2" maxCount="5"/>
+            <item typeId="wllgrfft1" minCount="1" maxCount="3"/>
+            <item typeId="wllgrfft2" minCount="1" maxCount="3"/>
+            <item typeId="wllgrfft3" minCount="1" maxCount="3"/>
+            <item typeId="wllgrfft4" minCount="1" maxCount="3"/>
+            <item typeId="shellNecklace" minCount="1" maxCount="2"/>
+            <item typeId="pearlNecklace" maxCount="1"/>
+        </category>
+
+        <category id="goldGifts" typeIds="weddingBeachGift2">
+            <item typeId="carpet5" maxCount="1"/>
+            <item typeId="fireplace5" maxCount="1"/>
+            <item typeId="catArt" maxCount="1"/>
+            <item typeId="miniFountain" maxCount="1"/>
+            <item typeId="roseBasket" maxCount="1"/>
+            <item typeId="wheel" maxCount="1"/>
+            <item typeId="applianceTv2" maxCount="1"/>
+            <item typeId="applianceMusicCenter4" maxCount="1"/>
+            <item typeId="sofa11" maxCount="1"/>
+            <item typeId="sofaArtdeco1" maxCount="1"/>
+            <item typeId="armchair10" maxCount="1"/>
+            <item typeId="frnWll4" maxCount="1"/>
+            <item typeId="caseArtdecoLong" maxCount="1"/>
+            <item typeId="bed2" maxCount="1"/>
+            <item typeId="bedArtdeko1" maxCount="1"/>
+            <item typeId="table10" maxCount="1"/>
+            <item typeId="jacuzzi3" maxCount="1"/>
+            <item typeId="door3" maxCount="1"/>
+            <item typeId="doorVip1" maxCount="1"/>
+            <item typeId="fshBch1" maxCount="1"/>
+            <item typeId="plmBch1" maxCount="1"/>
+            <item typeId="plmBch2" maxCount="1"/>
+            <item typeId="plmBch3" maxCount="1"/>
+            <item typeId="tptJpn" maxCount="1"/>
+            <item typeId="pctTrBth" maxCount="1"/>
+            <item typeId="pctTrBth" maxCount="1"/>
+            <item typeId="tblJpn1" maxCount="1"/>
+            <item typeId="blueFlower" maxCount="1"/>
+            <item typeId="redTopiary" maxCount="1"/>
+            <item typeId="torchFlower" maxCount="1"/>
+            <item typeId="flvrMya" maxCount="1"/>
+            <item typeId="treeMya" maxCount="1"/>
+            <item typeId="cllsSea" maxCount="1"/>
+            <item typeId="pctrPrns" maxCount="1"/>
+            <item typeId="cptSea" maxCount="1"/>
+            <item typeId="lmpPrns" maxCount="1"/>
+            <item typeId="garlandNYSphere" maxCount="1"/>
+            <item typeId="presentNYGold" maxCount="1"/>
+            <item typeId="presentNYRed" maxCount="1"/>
+            <item typeId="sockNYGold" maxCount="1"/>
+            <item typeId="treeNYPresent" maxCount="1"/>
+            <item typeId="wreathNYGold" maxCount="1"/>
+            <item typeId="decorNYFir2" maxCount="1"/>
+            <item typeId="decorNYFir3" maxCount="1"/>
+            <item typeId="tblCtr2" maxCount="1"/>
+            <item typeId="ptCtr" maxCount="1"/>
+            <item typeId="tshMya" maxCount="1"/>
+            <item typeId="mnnwsNYRf" maxCount="1"/>
+            <item typeId="plntNYRf" minCount="1" maxCount="3"/>
+            <item typeId="fuelGRtr" maxCount="1"/>
+            <item typeId="spwGRtr" maxCount="1"/>
+            <item typeId="trsGRtr" maxCount="1"/>
+            <item typeId="tlpnGRtr" maxCount="1"/>
+            <item typeId="bdAln" maxCount="1"/>
+            <item typeId="chrAln1" maxCount="1"/>
+            <item typeId="chrAln2" maxCount="1"/>
+            <item typeId="chrNYRf" maxCount="1"/>
+            <item typeId="tblAln" maxCount="1"/>
+            <item typeId="tblCtr1" maxCount="1"/>
+            <item typeId="tblNYRf" maxCount="1"/>
+            <item typeId="nsPrns" maxCount="1"/>
+            <item typeId="tvAln" maxCount="1"/>
+            <item typeId="frPltCnn" maxCount="1"/>
+            <item typeId="actAln" maxCount="1"/>
+            <item typeId="vntFeb23" maxCount="1"/>
+            <item typeId="bdTrBth" maxCount="1"/>
+            <item typeId="clmTrBth" maxCount="1"/>
+            <item typeId="chrTrBth" maxCount="1"/>
+        </category>
+
+        <category id="epicTropic" typeIds="weddingBeachGift3">
+            <item typeId="lnfb" minCount="1" maxCount="3"/>
+            <item typeId="ctfb" minCount="1" maxCount="3"/>
+            <item typeId="rdwd" minCount="1" maxCount="3"/>
+            <item typeId="ttm" minCount="1" maxCount="3"/>
+            <item typeId="glz" minCount="1" maxCount="3"/>
+            <item typeId="bckt" minCount="1" maxCount="3"/>
+        </category>
+
+        <category id="vipGifts" typeIds="weddingBeachGift3">
+            <item typeId="wtrfll1" maxCount="1"/>
+            <item typeId="wtrfll2" maxCount="1"/>
+            <item typeId="wtrfll3" maxCount="1"/>
+            <item typeId="wtrfll4" maxCount="1"/>
+            <item typeId="wtrfll5" maxCount="1"/>
+            <item typeId="fireplace2" maxCount="1"/>
+            <item typeId="pictureEinstein" maxCount="1"/>
+            <item typeId="fireplace3" maxCount="1"/>
+            <item typeId="fireplace4" maxCount="1"/>
+            <item typeId="guitar" maxCount="1"/>
+            <item typeId="sofaVip1" maxCount="1"/>
+            <item typeId="sofaVip2" maxCount="1"/>
+            <item typeId="sofaVip3" maxCount="1"/>
+            <item typeId="sofaVip4" maxCount="1"/>
+            <item typeId="armchairVip1" maxCount="1"/>
+            <item typeId="armchairVip2" maxCount="1"/>
+            <item typeId="armchairVip3" maxCount="1"/>
+            <item typeId="vpTbl1" maxCount="1"/>
+            <item typeId="frnWll2" maxCount="1"/>
+            <item typeId="bedVip1" maxCount="1"/>
+            <item typeId="bedVip3" maxCount="1"/>
+            <item typeId="carpet5" maxCount="1"/>
+            <item typeId="fireplace5" maxCount="1"/>
+            <item typeId="catArt" maxCount="1"/>
+            <item typeId="miniFountain" maxCount="1"/>
+            <item typeId="roseBasket" maxCount="1"/>
+            <item typeId="wheel" maxCount="1"/>
+            <item typeId="applianceTv2" maxCount="1"/>
+            <item typeId="applianceMusicCenter3" maxCount="1"/>
+            <item typeId="sofa11" maxCount="1"/>
+            <item typeId="sofaArtdeco1" maxCount="1"/>
+            <item typeId="frnWll4" maxCount="1"/>
+            <item typeId="caseArtdecoLong" maxCount="1"/>
+            <item typeId="bed2" maxCount="1"/>
+            <item typeId="bedArtdeko1" maxCount="1"/>
+            <item typeId="table10" maxCount="1"/>
+            <item typeId="jacuzzi3" maxCount="1"/>
+            <item typeId="door3" maxCount="1"/>
+            <item typeId="doorVip1" maxCount="1"/>
+            <item typeId="poolBch" maxCount="1"/>
+            <item typeId="ktnJpnBl" maxCount="1"/>
+            <item typeId="ktnJpnRd" maxCount="1"/>
+            <item typeId="lampJpn" maxCount="1"/>
+            <item typeId="cptJpn" maxCount="1"/>
+            <item typeId="sfPrncss" maxCount="1"/>
+            <item typeId="chrBch" maxCount="1"/>
+            <item typeId="tblArtNv1" maxCount="1"/>
+            <item typeId="tblArtNv2" maxCount="1"/>
+            <item typeId="tblBch1" maxCount="1"/>
+            <item typeId="bdJpn1" maxCount="1"/>
+            <item typeId="bedBch" maxCount="1"/>
+            <item typeId="cptPrns" maxCount="1"/>
+            <item typeId="cptAln" maxCount="1"/>
+            <item typeId="cptMya" maxCount="1"/>
+            <item typeId="lmpArtNv" maxCount="1"/>
+            <item typeId="lmpFeb23" maxCount="1"/>
+            <item typeId="lmpMaya2" maxCount="1"/>
+            <item typeId="cndlStckCstl" maxCount="1"/>
+            <item typeId="ppAln1" maxCount="1"/>
+            <item typeId="csPrns" maxCount="1"/>
+            <item typeId="fireExtGRtr" maxCount="1"/>
+            <item typeId="sfCtr" maxCount="1"/>
+            <item typeId="sfMya" maxCount="1"/>
+            <item typeId="chrAln3" maxCount="1"/>
+            <item typeId="armPrncssBrwn" maxCount="1"/>
+            <item typeId="armPrncssGrn" maxCount="1"/>
+            <item typeId="tblGRtr" maxCount="1"/>
+            <item typeId="lngNYRf" maxCount="1"/>
+            <item typeId="csCtr" maxCount="1"/>
+            <item typeId="csMya" maxCount="1"/>
+            <item typeId="fireplaceCtr" maxCount="1"/>
+            <item typeId="djAln" maxCount="1"/>
+            <item typeId="tspNYRf" maxCount="1"/>
+            <item typeId="bnclrNYRf" maxCount="1"/>
+            <item typeId="bdPrncss" maxCount="1"/>
+            <item typeId="barAln" maxCount="1"/>
+            <item typeId="mrrMya" maxCount="1"/>
+            <item typeId="bthMya" maxCount="1"/>
+            <item typeId="clckFeb23" maxCount="1"/>
+            <item typeId="drktGRtr" maxCount="1"/>
+            <item typeId="" maxCount="1"/>
+        </category>
+
+        <category id="vipTrifle" typeIds="weddingBeachGift3">
+            <item typeId="gameChips" minCount="10" maxCount="30"/>
+            <item typeId="craftedCoffee" minCount="2" maxCount="10"/>
+            <item typeId="craftedEnergyDrink" minCount="1" maxCount="5"/>
+            <item typeId="aqF1" minCount="2" maxCount="6"/>
+            <item typeId="aqF2" minCount="2" maxCount="6"/>
+            <item typeId="aqF3" minCount="2" maxCount="6"/>
+            <item typeId="aqF4" minCount="2" maxCount="6"/>
+            <item typeId="applianceBat" minCount="3" maxCount="10"/>
+            <item typeId="jacuzziWorms" minCount="3" maxCount="10"/>
+            <item typeId="chairBomb" minCount="3" maxCount="10"/>
+            <item typeId="scrdvr" minCount="2" maxCount="5"/>
+            <item typeId="wllgrfft1" minCount="1" maxCount="3"/>
+            <item typeId="wllgrfft2" minCount="1" maxCount="3"/>
+            <item typeId="wllgrfft3" minCount="1" maxCount="3"/>
+            <item typeId="wllgrfft4" minCount="1" maxCount="3"/>
+            <item typeId="shellNecklace" minCount="1" maxCount="5"/>
+            <item typeId="pearlNecklace" minCount="1" maxCount="3"/>
+        </category>
+
+    </group>
+</config>

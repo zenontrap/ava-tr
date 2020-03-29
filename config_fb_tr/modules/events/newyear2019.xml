@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module id="newyear2019">
+    <stages>
+        <stage stageId="1"/>
+        <stage stageId="2"/>
+        <stage stageId="3"/>
+        <stage stageId="4"/>
+    </stages>
+
+    <snowFlakeAward winSnowflakeCount="20" participationSnowflakeCount="8" jurySnowflakeCount="4" crownRate="1"/>
+
+    <awards>
+        <award id="1" itemType="clothes" itemId="boyRbnNY19" gender="1"
+               points="10"
+               icon="FinishDialogAwardRibbonIcon@newyear2019"
+               receiveIcon="NY19Ribbon@newyear2019"
+               hint="#rbnNY19Label"/>
+        <award id="2" itemType="clothes" itemId="girlRbnNY19" gender="2"
+               points="10"
+               icon="FinishDialogAwardRibbonIcon@newyear2019"
+               receiveIcon="NY19Ribbon@newyear2019"
+               hint="#rbnNY19Label"/>
+        <award id="3" itemType="clothes" itemId="boyCrwnNY19" gender="1"
+               points="50"
+               icon="FinishDialogAwardBoyCrownIcon@newyear2019"
+               receiveIcon="NY19BoyCrown@newyear2019"
+               hint="#crwnNY19Label"/>
+        <award id="4" itemType="clothes" itemId="girlCrwnNY19" gender="2"
+               points="50"
+               icon="FinishDialogAwardGirlCrownIcon@newyear2019"
+               receiveIcon="NY19GirlCrown@newyear2019"
+               hint="#crwnNY19Label"/>
+        <award id="5" itemType="trophy" itemId="newYear2019"
+               points="100"
+               count="1576702740"
+               icon="FinishDialogAwardTitleIcon@newyear2019"
+               receiveIcon="NY18Trophy@newyear2019"
+               hint="#newYear2019Title"/>
+    </awards>
+
+    <exchangeGifts>
+        <exchangeGift awardId="1" itemId="ny19Gft1" points="500" icon="PresentNY2016S@location"
+                      previewImage="CirclePresentNY2019S@newyear2019" hint="#newYear16Gift1Label" itemType="game"/>
+        <exchangeGift awardId="2" itemId="ny19Gft2" points="1500" icon="PresentNY2016M@location"
+                      previewImage="CirclePresentNY2019M@newyear2019" hint="#newYear16Gift2Label" itemType="game"/>
+        <exchangeGift awardId="3" itemId="ny19Gft3" points="3000" icon="PresentNY2016L@location"
+                      previewImage="CirclePresentNY2019L@newyear2019" hint="#newYear16Gift3Label" itemType="game"/>
+    </exchangeGifts>
+
+    <exchangeItems>
+        <!-- BOY -->
+        <exchangeItem id="1" itemType="clothes" itemId="boyHatNYLmt" gender="1" stageId="1" points="200"/>
+        <exchangeItem id="2" itemType="clothes" itemId="boyTShrtNYLmt" gender="1" stageId="1" points="350"/>
+        <exchangeItem id="3" itemType="clothes" itemId="boyShrtsNYLmt" gender="1" stageId="1" points="300"/>
+        <exchangeItem id="4" itemType="clothes" itemId="boyBtsNYLmt" gender="1" stageId="1" points="200"/>
+        <exchangeItem id="5" itemType="clothes" itemId="boyScksNYLmt" gender="1" stageId="1" points="100"/>
+        <exchangeItem id="6" itemType="clothes" itemId="boyOvrNYBttl" gender="1" stageId="1" points="500"/>
+
+        <exchangeItem id="7" itemType="clothes" itemId="boyTShrtNYFlsh" gender="1" stageId="2" points="350"/>
+        <exchangeItem id="8" itemType="clothes" itemId="boyPntsNYFtnss" gender="1" stageId="2" points="300"/>
+        <exchangeItem id="9" itemType="clothes" itemId="boyJcktNYFtnss" gender="1" stageId="2" points="500"/>
+        <exchangeItem id="10" itemType="clothes" itemId="boyBgNYFtnss" gender="1" stageId="2" points="250"/>
+        <exchangeItem id="11" itemType="clothes" itemId="boyPlvNYVllg" gender="1" stageId="2" points="380"/>
+        <exchangeItem id="12" itemType="clothes" itemId="boyBtsNYBlt" gender="1" stageId="2" points="250"/>
+
+        <exchangeItem id="13" itemType="clothes" itemId="boyGlssNYDbl" gender="1" stageId="3" points="300"/>
+        <exchangeItem id="14" itemType="clothes" itemId="boyTShrtNYDbl" gender="1" stageId="3" points="400"/>
+        <exchangeItem id="15" itemType="clothes" itemId="boyBtsNYDbl" gender="1" stageId="3" points="200"/>
+        <exchangeItem id="16" itemType="clothes" itemId="boyGlssNYInf" gender="1" stageId="3" points="250"/>
+        <exchangeItem id="17" itemType="clothes" itemId="boyJcktNYRckr" gender="1" stageId="3" points="500"/>
+        <exchangeItem id="18" itemType="clothes" itemId="boyBtsNYRckr" gender="1" stageId="3" points="300"/>
+
+        <exchangeItem id="19" itemType="clothes" itemId="boyTShrtNYFr" gender="1" stageId="4" points="500"/>
+        <exchangeItem id="20" itemType="clothes" itemId="boyPntsNYFr" gender="1" stageId="4" points="350"/>
+        <exchangeItem id="21" itemType="clothes" itemId="boyErrNYFr" gender="1" stageId="4" points="270"/>
+        <exchangeItem id="22" itemType="clothes" itemId="boyBrclNYFr" gender="1" stageId="4" points="230"/>
+        <exchangeItem id="23" itemType="clothes" itemId="boyPlvNYFre" gender="1" stageId="4" points="500"/>
+        <exchangeItem id="24" itemType="clothes" itemId="boyPntsNYStrp" gender="1" stageId="4" points="400"/>
+
+        <!-- GIRL -->
+        <exchangeItem id="25" itemType="clothes" itemId="girlGlssNYElgnc" gender="2" stageId="1" points="250"/>
+        <exchangeItem id="26" itemType="clothes" itemId="girlTShrtNYElgnc" gender="2" stageId="1" points="300"/>
+        <exchangeItem id="27" itemType="clothes" itemId="girlPntsNYElgnc" gender="2" stageId="1" points="450"/>
+        <exchangeItem id="28" itemType="clothes" itemId="girlBgNYElgnc" gender="2" stageId="1" points="150"/>
+        <exchangeItem id="29" itemType="clothes" itemId="girlJcktNYElgnc" gender="2" stageId="1" points="500"/>
+        <exchangeItem id="30" itemType="clothes" itemId="girlDrssNYHld" gender="2" stageId="1" points="500"/>
+
+        <exchangeItem id="31" itemType="clothes" itemId="girlTShirtNYFtnss" gender="2" stageId="2" points="350"/>
+        <exchangeItem id="32" itemType="clothes" itemId="girlPntsNYFtnss" gender="2" stageId="2" points="300"/>
+        <exchangeItem id="33" itemType="clothes" itemId="girlBtsNYFtnss" gender="2" stageId="2" points="250"/>
+        <exchangeItem id="34" itemType="clothes" itemId="girlJcktNYFtnss" gender="2" stageId="2" points="500"/>
+        <exchangeItem id="35" itemType="clothes" itemId="girlSktNYVg" gender="2" stageId="2" points="300"/>
+        <exchangeItem id="36" itemType="clothes" itemId="girlTShrtNYVg" gender="2" stageId="2" points="300"/>
+
+        <exchangeItem id="37" itemType="clothes" itemId="girlDrssNYLv" gender="2" stageId="3" points="500"/>
+        <exchangeItem id="38" itemType="clothes" itemId="girlErrNYLv" gender="2" stageId="3" points="200"/>
+        <exchangeItem id="39" itemType="clothes" itemId="girlPlvNYGrc" gender="2" stageId="3" points="350"/>
+        <exchangeItem id="40" itemType="clothes" itemId="girlSktNYBlm" gender="2" stageId="3" points="250"/>
+        <exchangeItem id="41" itemType="clothes" itemId="girlBtsNYHld" gender="2" stageId="3" points="150"/>
+        <exchangeItem id="42" itemType="clothes" itemId="girlPntsNYShd" gender="2" stageId="3" points="400"/>
+
+        <exchangeItem id="43" itemType="clothes" itemId="girlPlvNYFre" gender="2" stageId="4" points="500"/>
+        <exchangeItem id="44" itemType="clothes" itemId="girlTShrtNYFr" gender="2" stageId="4" points="350"/>
+        <exchangeItem id="45" itemType="clothes" itemId="girlErrNYFr" gender="2" stageId="4" points="100"/>
+        <exchangeItem id="46" itemType="clothes" itemId="girlPlvNYFr" gender="2" stageId="4" points="450"/>
+        <exchangeItem id="47" itemType="clothes" itemId="girlPntsNYFr" gender="2" stageId="4" points="350"/>
+        <exchangeItem id="48" itemType="clothes" itemId="girlBtsNYFr" gender="2" stageId="4" points="200"/>
+    </exchangeItems>
+
+    <snowflakePacks>
+        <pack id="snowflakePack50" snowflakeCount="50" gold="10" bonus="0"/>
+        <pack id="snowflakePack100" snowflakeCount="250" gold="50" bonus="25"/>
+        <pack id="snowflakePack300" snowflakeCount="500" gold="100" bonus="100"/>
+    </snowflakePacks>
+
+    <inventory>
+        <category id="craftLoot">
+            <item id="ny19Tangerine" name="TangerineLoot@newyear2019" gold="5"/>
+            <item id="ny19Crown" name="CrownIcon@newyear2019" icon="CrownIcon@newyear2019" label="#ny19BillingCrownHintTitle" description="#ny19CrownHintDescription"/>
+        </category>
+    </inventory>
+
+    <craft>
+        <craftedItem title="#ny19BillingCrownHintTitle" itemId="ny19Crown" holiday="">
+            <component itemId="diligence" count="47"/>
+            <component itemId="industry" count="47"/>
+            <component itemId="peaceOfIron" count="42"/>
+            <component itemId="happiness" count="65"/>
+        </craftedItem>
+    </craft>
+
+    <cityEventLocation id="module" index="-1" category="module" targetId="podium" subTargetId="pdme">
+        <icon name="EventLocationIcon@podium" title="#podiumTitle"/>
+        <module filterIcon="EventFilterIcon@podium" filterLabel="podiumTitle"
+            categoryIcon="EventCategoryIcon@podium">
+            <price gold="10" silver="5000"/>
+        </module>
+    </cityEventLocation>
+
+    <locationSound>
+        <sound id="Podium1" library="sounds"/>
+        <sound id="Podium2" library="sounds"/>
+        <sound id="Podium3" library="sounds"/>
+        <sound id="Podium4" library="sounds"/>
+        <sound id="Podium5" library="sounds"/>
+        <sound id="Podium6" library="sounds"/>
+    </locationSound>
+</module>

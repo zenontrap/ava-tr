@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<dictionary>
+    <locale name="tr">
+        <message key="ny18GoToSkiResortButtonHint">Kayak Oteli</message>
+        <message key="ny18LockObjectHint">:time: sonra açılıyor</message>
+        <message key="ny18MittensLabel">Eldiven</message>
+        <message key="ny18MittensDescription">Mini oyunları kazanarak elde edilebilir</message>
+        <message key="ny18UseMittensWearDialogMessage">Ellerini sıcak tutmak için eldivenleri giy, sonra eldivenlerin ıslanana kadar kar topu atabilirsin.</message>
+        <message key="ny18NotEnoughMittensWearDialogMessage">Eldivenin yok mu? Hiç sorun değil! Bedava eldiven kazanmak için mini oyunları oyna!</message>
+        <message key="ny18ThrowSnowballMenuTitle">Kar Topu</message>
+        <message key="ny18ThrowSnowballNotificationTitle">Dikkat et! Kar topu!</message>
+        <message key="ny18ThrowSnowballNotificationMessage">:userName: :genderDrop: sana bir kar topu attı.</message>
+        <message key="NY18ProgressDialogTitle">Kişisel Kazanımlar</message>
+        <message key="ny18InfoDialogTitle">Kayak Oteli!</message>
+        <message key="ny18InfoDialogDescription">Kayak oteli halka açıldı! Şimdiden arkadaşlarına kar topu atabilirsin! Yeni özellikler daha sonra açılacak. Oynadığın için havalı hediyeler alacaksın! Oynama zamanı! Maceralar seni bekliyor!</message>
+        <message key="ny18PutInTitle">tak</message>
+        <message key="ny18NeedLabel">İhtiyacın var</message>
+        <message key="ny18CurrentLabel">var</message>
+        <message key="ny18SnowboardHint">Dekoratif Tahta</message>
+        <message key="ny18BoyClothesSetHint">Kar Kayakçısı Kıyafeti</message>
+        <message key="ny18GirlClothesSetHint">Kar Kayakçısı Kadın Kıyafeti</message>
+        <message key="ny18AnimationHint">Eşsiz Mutluluk Animasyonu</message>
+        <message key="ny18TrophyHint">Dağın Efendisi</message>
+        <message key="ny18SnowboardDialogDescription">Misafirlerin bu kar kayağını gördüğünde senin ne kadar havalı olduğunu fark edecekler! Ah, bu arada çok güzel görünüyor!</message>
+        <message key="ny18ClothesSetDialogDescription">Her kayakçısının ekipmana ihtiyacı vardır! Koleksiyonun için moda bir kar geçirmez kıyafet al!</message>
+        <message key="ny18AnimationDialogDescription">Zaferlerini ve üstünlüğünü kendine özel mutluluk duygularınla göster!</message>
+        <message key="ny18TrophyDialogDescription">Uzaktan bile bakan herkes eşsiz unvanın “Tepelerin Fatihi”ni fark edecek! Noel Özel’deki üstün performansının altını çiziyor.</message>
+        <message key="ny18NpcMessage1">Harika! Bana Kar Savaşını hatırlatıyor... Anladın sen ne demek istediğimi.</message>
+        <message key="ny18NpcMessage2">Yukarıda, dağın sırtının arkasında ne var acaba?!</message>
+        <message key="ny18NpcMessage3">Vay... Burası gerçekten de çok soğukmuş! Bere takmak yerinde olur!</message>
+        <message key="ny18NpcMessage4">Güneşli ve karlı bir gün seni her zamankinden daha havalı gösterebilir!</message>
+        <message key="ny18NpcMessage5">Aynam nerede benim? Sakın bana karda düşürdüğümü söyleme!</message>
+        <message key="ny18NpcMessage6">Eldiven olmadan kar topu fırlatmak çok zorlu bir iş.</message>
+        <message key="ny18NpcMessage7">Kar kayağım çok eskimiş görünüyor... Sanırım yeni bir tane almanın zamanı geldi.</message>
+        <message key="ny18NpcMessage8">Haydi yarışalım!</message>
+        <message key="ny18NpcMessage9">Bunun yerine kayak kiralayamaz mıydın?</message>
+        <message key="ny18NpcMessage10">Kiralama sürem bitmeden birkaç tur daha kayabilir miyim acaba!</message>
+        <message key="ny18NpcMessage11">Noel hediyelerini hazırlamamızın zamanı geldi.</message>
+        <message key="ny18NpcMessage12">Umarım hediyemden eşsiz bir şey çıkar!</message>
+        <message key="ny18NpcMessage13">Acaba Alex bana hediyesini çoktan aldı mı!</message>
+        <message key="ny18NpcMessage14">Harika! Hediyemden Kristal Küre çıktı! Şimdi geleceğim hakkında her şeyi öğrenebilirim!</message>
+        <message key="ny18NpcMessage15">Haydi toplanalım!</message>
+        <message key="ny18NpcMessage16">Haydi çocuklar! Mary ve ben ısırmayız!</message>
+        <message key="ny18NpcMessage17">Eş zamanlı hareket etmek büyüleyici!</message>
+        <message key="ny18NpcMessage18">Dans etmeyi alışkanlık hâline getireceğim sanırım...</message>
+        <message key="ny18NpcMessage19">Kulvarı biraz daha zorlu yapsak nasıl olur? Çok kolay görünüyor!</message>
+        <message key="ny18NpcMessage20">Ah, senin için her şey kolay!</message>
+        <message key="ny18NpcMessage21">Merak ediyorum acaba bu sezonun en havalı ve en erkeksi kar kayakçısı kim olacak!</message>
+        <message key="ny18NpcMessage22">Kız da olabilir! :D</message>
+        <message key="ny18NpcMessage23">Hey, Hediye Dükkânı! Bir bakmak ister misin?</message>
+        <message key="ny18NpcMessage24">Belki gelecek sefere. Cüzdanımı evde unuttum.</message>
+        <message key="ny18NpcMessage25">Burası çok havalı! Kimin tropikal ülkelere ihtiyacı var ki artık?</message>
+        <message key="ny18NpcMessage26">Hey Alex, Tropikana’ya gitmeyi çoktan planladık bile!</message>
+        <message key="ny18NpcMessage27">Harika! Grup fotoğrafına ne dersiniz?</message>
+        <message key="ny18NpcMessage28">Tabii mi, neden olmasın!</message>
+        <message key="ny18NpcMessage29">Kalabalıkta eğlenmek onca yarıştan sonra çok rahatlatıcı!</message>
+        <message key="ny18NpcMessage30">Bu doğru!</message>
+        <message key="danceFloorHintTitle">Dans Pisti</message>
+        <message key="danceFloorHintDescription">Diğer bütün kayakçıları davet edip, dans pistinde kalabalık oluştur! Grup fotoğrafı ile maceralarını an!</message>
+        <message key="snowboardRaceEntranceHintTitle">Kayak Alanı</message>
+        <message key="snowboardRaceEntranceHintDescription">Kar kayağı yarışlarına katılıp diğer katılımcılarla rekabet et! Katılmak için bir kar kayağı kiralamalı ya da kendin bir tane yapmalısın.</message>
+        <message key="snowboardRatingBoardHintTitle">Kar Kayağı Sıralamaları</message>
+        <message key="snowboardRatingBoardHintDescription">Diğer katılımcılarla yarışıp sıralama puanları kazan! Eşsiz bir unvan kazanma ve Avataria sakinleri arasına meşhur olma şansını yakala!</message>
+        <message key="giftMarketHintTitle">Hediye Dükkânı</message>
+        <message key="giftMarketHintDescription">Burada kendin ve arkadaşların için hediye alabilirsin! Ne zaman istersen gel! Herkesin hediyelerinde eşsiz promosyonlar kazanma şansı var!</message>
+        <message key="ny18AwardDialogMessage">Al, topladığın puanlar karşılığında bu muhteşem ödül senin. Çalışmaya devam et bu haberi arkadaşların ile paylaştığından emin ol!</message>
+        <message key="ny18AwardReceivedMessage">Topladığım puanlar karşılığında bu muhteşem ödül benim oldu. Sen de kazanmak ister misin? Oyunda görüşürüz! :link:</message>
+        <gender key="ny18AllDoneDescription">
+            <form>Tebrikler! Tüm ödülleri topladın.</form>
+            <form>Tebrikler! Tüm ödülleri topladın.</form>
+        </gender>
+    </locale>
+</dictionary>

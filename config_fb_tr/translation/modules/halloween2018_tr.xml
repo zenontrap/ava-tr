@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+        <message key="hw18MainNpcName">Jack</message>
+        <message key="hw18ParticipationDialogTitle">Avataria’da Cadılar Bayramı!</message>
+        <message key="hw18ParticipationDialogDescription">Etkinliğe katılıp korkunç kostümler kazan! Kıyafet ve diğer ödüllere sahip olmak istiyorsan şu çok basit kuralları takip et: Çanaklarda bal kabağı yetiştir, onları mesleklerden ya da komşuların için temizlik yaparak kazan. Bal kabaklarını parkta, yeni Hafıza oyununda kullanıp şeker kazan. Şekerleri tüyler ürperten ödüllerle takas et.</message>
+        <message key="hw18ExchangeDialogTitle">Bal kabaklarını hediyeler ile takas et!</message>
+        <message key="hw18ExchangeDialogDescription">Mesleklerden ya da komşularından bal kabağı toplayarak zaman kaybetmek istemiyor musun? Hemen şimdi bir Bal Kabağı Çanağı al, :hours: başı :pumpkins: elde etmeyi garantile!</message>
+        <message key="hw18GetAfterTime">Bal kabağının büyümesi :time: alır.</message>
+        <message key="hw18DoubleAwardButtonTitle">:count: için iki katı</message>
+        <message key="hw18DoubleAwardPanelDescription">Ödülünü iki katına çıkarmaya hazırım ama yalnızca daha fazla ödeme yaparsan!</message>
+        <message key="hw18BuyCandiesDialogTitle">Şeker al</message>
+        <message key="hw18BuyCandiesDialogDescription">Yeteri kadar şekerin yok mu? Şimdi stokunu doldurma zamanı. Özel fırsatlardan yararlanma şansını kaçırma!</message>
+        <message key="hw18CandyExchangeDialogTitle">Şekerleri hediyeler ile takas et!</message>
+        <message key="hw18CandyExchangeDialogDescription">Şekerleri her hafta eşsiz ödüller ile takas et!</message>
+        <message key="hw18StageAwardsTitle">:date: sonra açılıyor</message>
+        <message key="hw18HasItemHint">Bu eşyaya zaten sahipsin</message>
+        <message key="hw18CanBuyLaterHint">Daha sonra erişilebilir olacak</message>
+        <message key="hw18InfernalRabbitHint">Şeytanî Tavşan</message>
+        <message key="hw18EvilFlowerHint">Şeytan Çiçeği</message>
+        <message key="hw18WitchFireplaceHint">Cadının Kalbi</message>
+        <message key="hw18WindowMoonViewHint">Dolunay Pencere</message>
+        <message key="hw18BoyCostumeHalloweenSawHint">Billy</message>
+        <message key="hw18BoyCostumeHalloweenPyramidHint">Piramit Kafa</message>
+        <message key="hw18BoyCostumeHalloweenPennyHint">O</message>
+        <message key="hw18BoyCostumeHalloweenJackHint">Jack</message>
+        <message key="hw18GirlCostumeHalloweenSawHint">Samantha</message>
+        <message key="hw18GirlCostumeHalloweenCallHint">Samara</message>
+        <message key="hw18GirlCostumeHalloweenPennyHint">O</message>
+        <message key="hw18GirlCostumeHalloweenJillHint">Jane</message>
+        <message key="hw18TrophyHint">Cadılar Bayramı Unvanı</message>
+        <message key="hw18JackStickerPackHint">Jane Yapıştırma</message>
+        <message key="hw18BatChatDecorHint">Küçük Fare</message>
+        <message key="hw18GhostMobileDecorHint">Hayalet</message>
+        <message key="hw18NpcMessage1">Oldukça ilginç pek çok şey seni bekliyor! Zaman kaybetme sakın, yoksa arkadaşların sana fark atar.</message>
+        <message key="hw18NpcMessage2">Etkinlikte yer almak istiyor musun? Sana bunu nasıl yapacağını söyleyebilirim!</message>
+        <message key="hw18NpcMessage3">Asıl soru kaç tane bal kabağı toplayabileceğin...</message>
+        <message key="hw18NpcMessage4">Rezervlerde bu kadar bal kabağı varken endişe etmene hiç gerek yok.</message>
+        <message key="hw18NpcMessage5">Her yeni kafa benim için yeni bir hayat demek. Denemek istemez misin?</message>
+        <message key="hw18NpcMessage6">Hangisini daha çok seviyorsun? Bal kabağı mı şeker mi?</message>
+        <message key="hw18NpcMessage7">Bence bal kabağı yetiştir. Çok ilginç bir hobi.</message>
+        <message key="hw18NpcMessage8">Benimle bir oyun oynamaya var mısın?</message>
+        <message key="hw18NpcMessage9">Kafama bakma, aslında zehir gibi akıllı ve alçak gönüllüyüm.</message>
+        <message key="hw18NpcMessage10">Sana baktıkça aslında hangimiz kafa yerine bal kabağı taşıyor diye tereddüte düşüyorum.</message>
+        <message key="hw18NpcMessage11">Ah! Sana bu hediyeleri vermek beni nasıl da üzüyor...</message>
+        <message key="hw18NpcMessage12">Kaybedebilirsin ama pes etmemelisin!</message>
+        <message key="hw18NpcMessage13">Hmm, belki ben de yeni bir kıyafet denemeliyim. Ne de olsa bayram!</message>
+        <message key="hw18NpcMessage14">Lütfen bana unvanım ile seslen: Kabaklar Kralı Jack.</message>
+        <message key="hw18NpcMessage15">Acele et, saat hızla ilerliyor. Bal kabakların çok yakında şeye dönüşecek... Hmm...</message>
+        <message key="hw18NpcMessage16">Denemelisin, fazla uzun kalmayacağım!</message>
+        <message key="hw18NpcMessage17">Biriktirdiklerini hediyeler ile takas etmeyi unutma yoksa hediyeyi rüyanda görürsün.</message>
+        <plural key="hw18Pumpkins">
+            <form>Bal Kabağı</form>
+            <form>Bal Kabakları</form>
+            <form>Bal Kabakları</form>
+        </plural>
+    </locale>
+</dictionary>

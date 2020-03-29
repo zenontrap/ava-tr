@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+        <message key="sd2015WelcomeDialogTitle">İlkbahar ve Güneş Tatili</message>
+        <message key="sd2015WelcomeDialogMessage1">Komşularını ziyaret ederek ve oyun içi aksiyonları tamamlayarak boş cam şişeler topla. Ne kadar çok komşun varsa ve ne kadar aktifsen, o kadar çok cam şişe toplarsın.</message>
+        <message key="sd2015WelcomeDialogMessage2">Boş cam şişeleri gün ışığıyla doldur. Bunun için, Sokak konumuna yerleştirdiğimiz güneş ışını jeneratörünü kullanabilirsin. Bu alet boş şişelerini güneşle dolduracak!</message>
+        <message key="sd2015WelcomeDialogMessage3">Yeni Kuş Kafesi odasını ÜCRETSİZ al! Kuşlarını dolu şişelerle mutlu et.</message>
+        <message key="sd15GotoSD15RoomButtonHint">Kuş Kafesi</message>
+        <message key="sd15CreateHouseRoomDialogTitle">Yeni Bir Kuş Kafesi</message>
+        <message key="sd15CreateHouseRoomDialogMessage">Yeni Kuş Kafesi odasını ücretsiz almak ister misin? Alabilirsin; ama yalnızca bu özel etkinlik boyunca!</message>
+        <message key="sd15CreateHouseRoomDialogFriendMessage">Arkadaşının hâlâ bir kuş kafesi yok mu? Arkadaşını oyunu oynamaya davet edelim. Eğleniriz!</message>
+        <message key="sd2015ProgressDialogTitle">Benim Kuş Kafesim</message>
+        <message key="sd2015ProgressDialogMessage">Buradan kafesinde işlerin nasıl gittiğini görebilirsin. Kafes üzerinde ne kadar çok güneş ışını kullanırsan, o kadar güzel kuşlar içinde yaşamaya gelecektir.</message>
+        <message key="sd2015AwardDialogTitle">Tebrikler!</message>
+        <message key="sd2015AwardDialogMessage">Topladığın güneş ışınlarının sıcaklığını alan kafesin gittikçe daha iyi hale geliyor. Şimdi daha da ferah ve güzel! Böyle devam edersen, birbirinden güzel kuşlar gününe neşe katacak!</message>
+        <message key="sd2015AskEmptyFlacksDialogTitle">Yardımın lazım!</message>
+        <message key="sd2015AskEmptyFlacksDialogMessage">Yeterince cam şişen yok mu? Arkadaşlarından oyuna katılmalarını iste, böylece içini güneş ışığıyla dolduracağın daha çok cam şişen olabilir.</message>
+        <message key="sd2015WallMessage1">Gel de kafesimde yaşamaya başlayan muhteşem kuşları gör! Onlardan sen de ister misin? Belki benden çoğuna bile sahip olursun? Sana seve seve yardım ederim! :link:</message>
+        <message key="sd2015WallMessage2">Yardım! Kafesimde kuşlarıma yetecek kadar güneş ışını yok. Gel sen de oyna; birbirimize yardım ederiz! :link:</message>
+        <message key="sd15CantCollectEmptyFlacksLabel">:time: sonra toplanabilecek</message>
+        <message key="sd15CollectEmptyFlacksDialogTitle">Cam Şişeler Topla</message>
+        <message key="sd15CollectEmptyFlacksDialogDescription">Komşuların ne kadar aktifse, her gün o kadar çok cam şişe toplayabilirsin. Oyundaki çeşitli aksiyonları tamamlayarak da cam şişe elde edebilirsin.</message>
+        <message key="sd15CollectRequestNotAllowedLabel">Arkadaşın uzun zamandır oynamadı.</message>
+        <message key="sd2015NotEnoughEmptyFlacksDialogMessage">Yeterli sayıda boş şişen yok. Komşularını ziyaret ederek ya da oyun içindeki aksiyonları tamamlayarak elde edebilirsin. Yine de yetmiyor mu?</message>
+        <message key="sd2015NotEnoughEmptyFlacksGotoStreetDialogMessage">Yeterli sayıda dolu şişen yok. Onları dışarıda doldurabilirsin. Oraya hemen gidelim ister misin?</message>
+    </locale>
+</dictionary>

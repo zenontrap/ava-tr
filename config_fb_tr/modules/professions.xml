@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <!-- GARDENER -->
+    <profession id="grdnr" locationId="garden" title="#professionsGardenerTitle" progressTitle="#professionsGardenerProgressTitle">
+        <level level="1" maxProgress="60" questId="grdnPro_q1"/>
+        <level level="2" maxProgress="145" questId="grdnPro_q2">
+            <awards>
+                <award typeId="chrGrdGft" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="3" maxProgress="285" questId="grdnPro_q3">
+            <awards>
+                <award typeId="grdnDsyBqt" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="4" maxProgress="485" questId="grdnPro_q4">
+            <awards>
+                <award typeId="flrGrdGft" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="5" maxProgress="765" questId="grdnPro_q5">
+            <awards>
+                <award typeId="grdFrmBtrfl1" awardType="craft" count="1"/>
+                <award typeId="grdFrmBtrfl2" awardType="craft" count="1"/>
+                <award typeId="grdFrmBtrfl3" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="6" maxProgress="1185" questId="grdnPro_q6">
+            <awards>
+                <award typeId="tblGrdnrGft" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="7" maxProgress="1745" questId="grdnPro_q7">
+            <awards>
+                <award typeId="wllGrdGft" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="8" maxProgress="2445" questId="grdnPro_q8">
+            <awards>
+                <award typeId="wdwGrdGft" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="9" maxProgress="3295" questId="grdnPro_q9">
+            <awards>
+                <award typeId="grdnrHrbrm" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="10" maxProgress="4295" questId="grdnPro_q10">
+            <awards>
+                <award typeId="wrdGrdnrGft" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="11" maxProgress="5495" questId="grdnPro_q11">
+            <awards>
+                <award typeId="grdnFlwrBskt" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="12" maxProgress="6895" questId="grdnPro_q12">
+            <awards>
+                <award typeId="chstGrdnrGft" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="13" maxProgress="8595" questId="grdnPro_q13">
+            <awards>
+                <award typeId="grdnrBtrflCol" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="14" maxProgress="10595" questId="grdnPro_q14">
+            <awards>
+                <award typeId="sfGrdnrGft" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="15" maxProgress="12695" questId="grdnPro_q15">
+            <awards>
+                <award typeId="grdnFlwrbd" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="16" maxProgress="14895" questId="grdnPro_q16">
+            <awards>
+                <award typeId="gold" awardType="resource" count="150"/>
+                <award typeId="skill" awardType="loot" count="130"/>
+                <award typeId="diligence" awardType="loot" count="30"/>
+            </awards>
+        </level>
+        <level level="17" maxProgress="17195" questId="grdnPro_q17">
+            <awards>
+                <award typeId="gold" awardType="resource" count="150"/>
+                <award typeId="skill" awardType="loot" count="60"/>
+                <award typeId="diligence" awardType="loot" count="70"/>
+            </awards>
+        </level>
+        <level level="18" maxProgress="19595" questId="grdnPro_q18">
+            <awards>
+                <award typeId="gold" awardType="resource" count="150"/>
+                <award typeId="skill" awardType="loot" count="160"/>
+                <award typeId="diligence" awardType="loot" count="35"/>
+            </awards>
+        </level>
+        <level level="19" maxProgress="22095" questId="grdnPro_q19">
+            <awards>
+                <award typeId="gold" awardType="resource" count="150"/>
+                <award typeId="skill" awardType="loot" count="75"/>
+                <award typeId="diligence" awardType="loot" count="90"/>
+            </awards>
+        </level>
+        <level level="20" maxProgress="24695" questId="grdnPro_q20">
+            <awards>
+                <award typeId="gold" awardType="resource" count="150"/>
+                <award awardType="clothesSet" typeId="boyPrfGdn" gender="1"/>
+                <award awardType="clothesSet" typeId="grlPrfGdn" gender="2"/>
+            </awards>
+        </level>
+    </profession>
+
+    <!-- JANITOR -->
+    <profession id="jntr" locationId="garbage" title="#professionsJanitorTitle" progressTitle="#professionsJanitorProgressTitle">
+        <level level="1" maxProgress="95" questId="grbgPro_q1"/>
+        <level level="2" maxProgress="235" questId="grbgPro_q2">
+            <awards>
+                <award typeId="jntrSmvr" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="3" maxProgress="455" questId="grbgPro_q3">
+            <awards>
+                <award typeId="jntrGrmphn" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="4" maxProgress="775" questId="grbgPro_q4">
+            <awards>
+                <award typeId="jntrJkbx" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="5" maxProgress="1225" questId="grbgPro_q5">
+            <awards>
+                <award typeId="jntrGrndClck" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="6" maxProgress="1875" questId="grbgPro_q6">
+            <awards>
+                <award typeId="jntrSdMchn" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="7" maxProgress="2775" questId="grbgPro_q7">
+            <awards>
+                <award typeId="jntrHrgls" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="8" maxProgress="3875" questId="grbgPro_q8">
+            <awards>
+                <award typeId="jntrKnght" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="9" maxProgress="5175" questId="grbgPro_q9">
+            <awards>
+                <award typeId="jntFrdg" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="10" maxProgress="6675" questId="grbgPro_q10">
+            <awards>
+                <award typeId="jntrTrnsstr" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="11" maxProgress="8475" questId="grbgPro_q11">
+            <awards>
+                <award typeId="jntrRckr" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="12" maxProgress="10675" questId="grbgPro_q12">
+            <awards>
+                <award typeId="jntrCckClck" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="13" maxProgress="13375" questId="grbgPro_q13">
+            <awards>
+                <award typeId="jntrRlw" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="14" maxProgress="16575" questId="grbgPro_q14">
+            <awards>
+                <award typeId="jntrFrplc" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="15" maxProgress="19875" questId="grbgPro_q15">
+            <awards>
+                <award typeId="carJntr" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="16" maxProgress="23275" questId="grbgPro_q16">
+            <awards>
+                <award typeId="gold" awardType="resource" count="150"/>
+                <award typeId="industry" awardType="loot" count="90"/>
+                <award typeId="luck" awardType="loot" count="20"/>
+            </awards>
+        </level>
+        <level level="17" maxProgress="26775" questId="grbgPro_q17">
+            <awards>
+                <award typeId="gold" awardType="resource" count="150"/>
+                <award typeId="industry" awardType="loot" count="40"/>
+                <award typeId="luck" awardType="loot" count="45"/>
+            </awards>
+        </level>
+        <level level="18" maxProgress="30375" questId="grbgPro_q18">
+            <awards>
+                <award typeId="gold" awardType="resource" count="150"/>
+                <award typeId="industry" awardType="loot" count="105"/>
+                <award typeId="luck" awardType="loot" count="25"/>
+            </awards>
+        </level>
+        <level level="19" maxProgress="34075" questId="grbgPro_q19">
+            <awards>
+                <award typeId="gold" awardType="resource" count="150"/>
+                <award typeId="industry" awardType="loot" count="50"/>
+                <award typeId="luck" awardType="loot" count="60"/>
+            </awards>
+        </level>
+        <level level="20" maxProgress="37875" questId="grbgPro_q20">
+            <awards>
+                <award typeId="gold" awardType="resource" count="150"/>
+                <award awardType="clothesSet" typeId="boyPrfClr" gender="1"/>
+                <award awardType="clothesSet" typeId="grlPrfClr" gender="2"/>
+            </awards>
+        </level>
+    </profession>
+
+    <!-- PHOTOGRAPHER -->
+    <profession id="phtghr" locationId="photoSalon" title="#professionsPhotographerTitle" progressTitle="#professionsPhotographerProgressTitle">
+        <!-- 50, 150, 250, 350, 450 -->
+        <level level="1" maxProgress="20" questId="phtghrPro_q1"/>
+        <level level="2" maxProgress="50" questId="phtghrPro_q2">
+            <awards>
+                <award typeId="gold" awardType="resource" count="20"/>
+                <award typeId="phtghrFilm12" awardType="craft"/>
+            </awards>
+        </level>
+        <level level="3" maxProgress="95" questId="phtghrPro_q3">
+            <awards>
+                <award typeId="gold" awardType="resource" count="40"/>
+                <award typeId="cafe" awardType="location" iconPath="PhotographerCafeIcon@location"/>
+            </awards>
+        </level>
+        <level level="4" maxProgress="170" questId="phtghrPro_q4">
+            <awards>
+                <award typeId="gold" awardType="resource" count="60"/>
+                <award typeId="proPhtTbl" awardType="gift" count="1"/>
+                <award typeId="proPhtCff" awardType="gift" count="2"/>
+                <award typeId="proPhtPctr" awardType="gift" count="1"/>
+            </awards>
+        </level>
+        <level level="5" maxProgress="275" questId="phtghrPro_q5">
+            <awards>
+                <award typeId="gold" awardType="resource" count="80"/>
+                <award typeId="park" awardType="location" iconPath="PhotographerParkIcon@location"/>
+            </awards>
+        </level>
+        <level level="6" maxProgress="415" questId="phtghrPro_q6">
+            <awards>
+                <award typeId="gold" awardType="resource" count="100"/>
+                <award typeId="phtghrFilm24" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="7" maxProgress="590" questId="phtghrPro_q7">
+            <awards>
+                <award typeId="gold" awardType="resource" count="120"/>
+                <award typeId="proPhtVs" awardType="gift" count="2"/>
+                <award typeId="proPhtWll" awardType="gift" count="1"/>
+                <award typeId="proPhtChr" awardType="gift" count="1"/>
+            </awards>
+        </level>
+        <level level="8" maxProgress="805" questId="phtghrPro_q8">
+            <awards>
+                <award typeId="gold" awardType="resource" count="140"/>
+                <award typeId="club" awardType="location" iconPath="PhotographerClubIcon@location"/>
+            </awards>
+        </level>
+        <level level="9" maxProgress="1060" questId="phtghrPro_q9">
+            <awards>
+                <award typeId="gold" awardType="resource" count="160"/>
+                <award typeId="proPhtCmr" awardType="gift" count="1"/>
+                <award typeId="proPhtTri" awardType="gift" count="1"/>
+            </awards>
+        </level>
+        <level level="10" maxProgress="1360" questId="phtghrPro_q10">
+            <awards>
+                <award typeId="gold" awardType="resource" count="180"/>
+                <award typeId="phtghrFilm36" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="11" maxProgress="1710" questId="phtghrPro_q11">
+            <awards>
+                <award typeId="gold" awardType="resource" count="200"/>
+                <award typeId="proPhtCrpt" awardType="gift" count="2"/>
+                <award typeId="proPhtUmrl" awardType="gift" count="1"/>
+                <award typeId="proPhtFlr" awardType="gift" count="1"/>
+            </awards>
+        </level>
+        <level level="12" maxProgress="2110" questId="phtghrPro_q12">
+            <awards>
+                <award typeId="gold" awardType="resource" count="220"/>
+                <award typeId="canyon" awardType="location" iconPath="PhotographerCanyonIcon@location"/>
+            </awards>
+        </level>
+        <level level="13" maxProgress="2560" questId="phtghrPro_q13">
+            <awards>
+                <award typeId="gold" awardType="resource" count="240"/>
+                <award typeId="proPhtFn1" awardType="gift" count="1"/>
+                <award typeId="proPhtScrn" awardType="gift" count="1"/>
+                <award typeId="proPhtLmp" awardType="gift" count="1"/>
+            </awards>
+        </level>
+        <level level="14" maxProgress="3060" questId="phtghrPro_q14">
+            <awards>
+                <award typeId="gold" awardType="resource" count="260"/>
+                <award typeId="proPhtFn2" awardType="gift" count="1"/>
+                <award typeId="proPhtDr" awardType="gift" count="1"/>
+                <award typeId="proPhtSf" awardType="gift" count="1"/>
+            </awards>
+        </level>
+        <level level="15" maxProgress="3610" questId="phtghrPro_q15">
+            <awards>
+                <award typeId="gold" awardType="resource" count="280"/>
+                <award typeId="weddingBeach" awardType="location" iconPath="PhotographerWeddingIcon@location"/>
+            </awards>
+        </level>
+        <level level="16" maxProgress="4170" questId="phtghrPro_q16">
+            <awards>
+                <award typeId="gold" awardType="resource" count="150"/>
+                <award typeId="muse" awardType="loot" count="25"/>
+                <award typeId="idea" awardType="loot" count="25"/>
+            </awards>
+        </level>
+        <level level="17" maxProgress="4740" questId="phtghrPro_q17">
+            <awards>
+                <award typeId="gold" awardType="resource" count="150"/>
+                <award typeId="muse" awardType="loot" count="10"/>
+                <award typeId="idea" awardType="loot" count="55"/>
+            </awards>
+        </level>
+        <level level="18" maxProgress="5320" questId="phtghrPro_q18">
+            <awards>
+                <award typeId="gold" awardType="resource" count="150"/>
+                <award typeId="muse" awardType="loot" count="30"/>
+                <award typeId="idea" awardType="loot" count="25"/>
+            </awards>
+        </level>
+        <level level="19" maxProgress="5910" questId="phtghrPro_q19">
+            <awards>
+                <award typeId="gold" awardType="resource" count="150"/>
+                <award typeId="muse" awardType="loot" count="15"/>
+                <award typeId="idea" awardType="loot" count="70"/>
+            </awards>
+        </level>
+        <level level="20" maxProgress="6610" questId="phtghrPro_q20">
+            <awards>
+                <award typeId="gold" awardType="resource" count="150"/>
+                <award awardType="clothesSet" typeId="boyPrfPhr" gender="1"/>
+                <award awardType="clothesSet" typeId="grlPrfPhr" gender="2"/>
+            </awards>
+        </level>
+    </profession>
+
+    <!-- VISAGIST -->
+    <profession id="vsgst" locationId="salon" title="#professionsVisagistTitle" progressTitle="#professionsVisagistProgressTitle">
+        <level level="1" maxProgress="10" questId="vsgstPro_q1"/>
+        <level level="2" maxProgress="25" questId="vsgstPro_q2">
+            <awards>
+                <award typeId="gold" awardType="resource" count="20"/>
+                <award typeId="vsgstSmallSet" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="3" maxProgress="50" questId="vsgstPro_q3">
+            <awards>
+                <award typeId="gold" awardType="resource" count="40"/>
+                <award typeId="Boy:10:4" awardType="appearance" count="1"/>
+                <award typeId="Boy:10:5" awardType="appearance" count="1"/>
+                <award typeId="Boy:10:6" awardType="appearance" count="1"/>
+                <award typeId="Girl:10:4" awardType="appearance" count="1"/>
+                <award typeId="Girl:10:5" awardType="appearance" count="1"/>
+                <award typeId="Girl:10:6" awardType="appearance" count="1"/>
+            </awards>
+        </level>
+        <level level="4" maxProgress="85" questId="vsgstPro_q4">
+            <awards>
+                <award typeId="gold" awardType="resource" count="60"/>
+                <award typeId="Girl:9:4" awardType="appearance" count="1"/>
+                <award typeId="Girl:9:5" awardType="appearance" count="1"/>
+                <award typeId="Girl:9:6" awardType="appearance" count="1"/>
+            </awards>
+        </level>
+        <level level="5" maxProgress="145" questId="vsgstPro_q5">
+            <awards>
+                <award typeId="gold" awardType="resource" count="80"/>
+                <award typeId="Girl:8:17" awardType="appearance" count="1"/>
+                <award typeId="Girl:8:18" awardType="appearance" count="1"/>
+                <award typeId="Girl:8:19" awardType="appearance" count="1"/>
+                <award typeId="color" awardType="color"/>
+            </awards>
+        </level>
+        <level level="6" maxProgress="240" questId="vsgstPro_q6">
+            <awards>
+                <award typeId="gold" awardType="resource" count="100"/>
+                <award typeId="Boy:9:4" awardType="appearance" count="1"/>
+                <award typeId="Boy:9:5" awardType="appearance" count="1"/>
+                <award typeId="Boy:9:6" awardType="appearance" count="1"/>
+            </awards>
+        </level>
+        <level level="7" maxProgress="360" questId="vsgstPro_q7">
+            <awards>
+                <award typeId="gold" awardType="resource" count="120"/>
+                <award typeId="vsgstMediumSet" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="8" maxProgress="500" questId="vsgstPro_q8">
+            <awards>
+                <award typeId="gold" awardType="resource" count="140"/>
+                <award typeId="Girl:6:11" awardType="appearance" count="1"/>
+                <award typeId="Girl:6:12" awardType="appearance" count="1"/>
+                <award typeId="Girl:6:13" awardType="appearance" count="1"/>
+            </awards>
+        </level>
+        <level level="9" maxProgress="660" questId="vsgstPro_q9">
+            <awards>
+                <award typeId="gold" awardType="resource" count="160"/>
+                <award typeId="Girl:10:7" awardType="appearance" count="1"/>
+                <award typeId="Girl:10:8" awardType="appearance" count="1"/>
+                <award typeId="Girl:10:9" awardType="appearance" count="1"/>
+            </awards>
+        </level>
+        <level level="10" maxProgress="850" questId="vsgstPro_q10">
+            <awards>
+                <award typeId="gold" awardType="resource" count="180"/>
+                <award typeId="Boy:10:7" awardType="appearance" count="1"/>
+                <award typeId="Boy:10:8" awardType="appearance" count="1"/>
+                <award typeId="Boy:10:9" awardType="appearance" count="1"/>
+            </awards>
+        </level>
+        <level level="11" maxProgress="1110" questId="vsgstPro_q11">
+            <awards>
+                <award typeId="gold" awardType="resource" count="200"/>
+                <award typeId="Girl:8:20" awardType="appearance" count="1"/>
+                <award typeId="Girl:8:21" awardType="appearance" count="1"/>
+                <award typeId="Girl:8:22" awardType="appearance" count="1"/>
+                <award typeId="color" awardType="color"/>
+            </awards>
+        </level>
+        <level level="12" maxProgress="1430" questId="vsgstPro_q12">
+            <awards>
+                <award typeId="gold" awardType="resource" count="220"/>
+                <award typeId="vsgstLargeSet" awardType="craft" count="1"/>
+            </awards>
+        </level>
+        <level level="13" maxProgress="1790" questId="vsgstPro_q13">
+            <awards>
+                <award typeId="gold" awardType="resource" count="240"/>
+                <award typeId="Girl:9:7" awardType="appearance" count="1"/>
+                <award typeId="Girl:9:8" awardType="appearance" count="1"/>
+                <award typeId="Girl:9:9" awardType="appearance" count="1"/>
+            </awards>
+        </level>
+        <level level="14" maxProgress="2190" questId="vsgstPro_q14">
+            <awards>
+                <award typeId="gold" awardType="resource" count="260"/>
+                <award typeId="Boy:9:7" awardType="appearance" count="1"/>
+                <award typeId="Boy:9:8" awardType="appearance" count="1"/>
+                <award typeId="Boy:9:9" awardType="appearance" count="1"/>
+            </awards>
+        </level>
+        <level level="15" maxProgress="2640" questId="vsgstPro_q15">
+            <awards>
+                <award typeId="gold" awardType="resource" count="280"/>
+                <award typeId="Girl:6:14" awardType="appearance" count="1"/>
+                <award typeId="Girl:6:15" awardType="appearance" count="1"/>
+                <award typeId="Girl:6:16" awardType="appearance" count="1"/>
+            </awards>
+        </level>
+        <level level="16" maxProgress="3100" questId="vsgstPro_q16">
+            <awards>
+                <award typeId="gold" awardType="resource" count="150"/>
+                <award typeId="glamor" awardType="loot" count="25"/>
+                <award typeId="beauty" awardType="loot" count="25"/>
+            </awards>
+        </level>
+        <level level="17" maxProgress="3570" questId="vsgstPro_q17">
+            <awards>
+                <award typeId="gold" awardType="resource" count="150"/>
+                <award typeId="glamor" awardType="loot" count="10"/>
+                <award typeId="beauty" awardType="loot" count="55"/>
+            </awards>
+        </level>
+        <level level="18" maxProgress="4050" questId="vsgstPro_q18">
+            <awards>
+                <award typeId="gold" awardType="resource" count="150"/>
+                <award typeId="glamor" awardType="loot" count="30"/>
+                <award typeId="beauty" awardType="loot" count="25"/>
+            </awards>
+        </level>
+        <level level="19" maxProgress="4540" questId="vsgstPro_q19">
+            <awards>
+                <award typeId="gold" awardType="resource" count="150"/>
+                <award typeId="glamor" awardType="loot" count="15"/>
+                <award typeId="beauty" awardType="loot" count="70"/>
+            </awards>
+        </level>
+        <level level="20" maxProgress="5040" questId="vsgstPro_q20">
+            <awards>
+                <award typeId="gold" awardType="resource" count="150"/>
+                <award awardType="clothesSet" typeId="boyPrfVsg" gender="1"/>
+                <award awardType="clothesSet" typeId="grlPrfVsg" gender="2"/>
+            </awards>
+        </level>
+    </profession>
+</config>

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <params donateFactor="3" joinMinLevel="15" numberOfClansSentToUser="50" clanLocationLockPriceInCoins="100"
+        clanLocationLockTimeInHours="4"/>
+    <newClan>
+        <price gold="100"/>
+        <condition minPlayerLevel="15"/>
+    </newClan>
+
+    <requests deleteRequestsTaskPeriod="1800" requestLifeTime="604800"/>
+    <memberActivity updateMemberCompetitionHour="21"/>
+
+    <levels>
+        <level id="1" masterCount="1" memberCount="40" color="0x264157">
+            <upgradeConditions levelPoints="30"/>
+            <awards>
+                <award type="smallChest"  value="6400"/>
+                <award type="mediumChest" value="11200"/>
+                <award type="bigChest"  value="16000"/>
+            </awards>
+        </level>
+
+        <level id="2" masterCount="2" memberCount="45" color="0xa0111e">
+            <upgradeConditions minMemberCount="1" minActivityPoints="500" clanCoin="1000" levelPoints="70"/>
+            <awards>
+                <award type="smallChest"  value="7200"/>
+                <award type="mediumChest" value="12600"/>
+                <award type="bigChest"  value="18000"/>
+            </awards>
+        </level>
+        <level id="3" masterCount="3" memberCount="50" color="0x046639">
+            <upgradeConditions minMemberCount="2" minActivityPoints="500" clanCoin="1000" levelPoints="150"/>
+            <awards>
+                <award type="smallChest"  value="8000"/>
+                <award type="mediumChest" value="14000"/>
+                <award type="bigChest"  value="20000"/>
+            </awards>
+        </level>
+        <level id="4" masterCount="3" memberCount="55" color="0xc75000">
+            <upgradeConditions minMemberCount="2" minActivityPoints="500" clanCoin="1000" levelPoints="230"/>
+            <awards>
+                <award type="smallChest"  value="8800"/>
+                <award type="mediumChest" value="15400"/>
+                <award type="bigChest"  value="22000"/>
+            </awards>
+        </level>
+        <level id="5" masterCount="3" memberCount="60" color="0x6a3474">
+            <upgradeConditions minMemberCount="2" minActivityPoints="500" clanCoin="1000" levelPoints="300"/>
+            <awards>
+                <award type="smallChest"  value="9600"/>
+                <award type="mediumChest" value="16800"/>
+                <award type="bigChest"  value="24000"/>
+            </awards>
+        </level>
+        <level id="6" masterCount="3" memberCount="65" color="0xefb60a">
+            <upgradeConditions minMemberCount="2" minActivityPoints="500" clanCoin="1000" levelPoints="450"/>
+            <awards>
+                <award type="smallChest"  value="10400"/>
+                <award type="mediumChest" value="18200"/>
+                <award type="bigChest"  value="26000"/>
+            </awards>
+        </level>
+        <level id="7" masterCount="3" memberCount="70" color="0xbadb1e">
+            <upgradeConditions minMemberCount="2" minActivityPoints="500" clanCoin="1000" levelPoints="600"/>
+            <awards>
+                <award type="smallChest"  value="11200"/>
+                <award type="mediumChest" value="19600"/>
+                <award type="bigChest"  value="28000"/>
+            </awards>
+        </level>
+        <level id="8" masterCount="3" memberCount="80" color="0xbf318b">
+            <upgradeConditions minMemberCount="2" minActivityPoints="500" clanCoin="1000" levelPoints="900"/>
+            <awards>
+                <award type="smallChest"  value="12800"/>
+                <award type="mediumChest" value="22400"/>
+                <award type="bigChest"  value="32000"/>
+            </awards>
+        </level>
+        <level id="9" masterCount="3" memberCount="90" color="0xbf318b">
+            <upgradeConditions minMemberCount="2" minActivityPoints="500" clanCoin="1000" levelPoints="1200"/>
+            <awards>
+                <award type="smallChest"  value="14400"/>
+                <award type="mediumChest" value="25200"/>
+                <award type="bigChest"  value="36000"/>
+            </awards>
+        </level>
+        <level id="10" masterCount="3" memberCount="100" color="0xbf318b">
+            <upgradeConditions/>
+            <awards>
+                <award type="smallChest"  value="16000"/>
+                <award type="mediumChest" value="28000"/>
+                <award type="bigChest"  value="40000"/>
+            </awards>
+        </level>
+    </levels>
+
+    <chests>
+        <chest type="smallChest" silver="500" ruby="25" energy="150"/>
+        <chest type="mediumChest" silver="1500" ruby="20" resourcesCount="4">
+            <resourceList>
+                <resource type="clay" count="4"/>
+                <resource type="peaceOfWood" count="4"/>
+                <resource type="water" count="4"/>
+                <resource type="flowerBud" count="4"/>
+                <resource type="phial" count="4"/>
+                <resource type="bigPhial" count="4"/>
+                <resource type="bow" count="4"/>
+                <resource type="wrappingPaper" count="4"/>
+                <resource type="peaceOfIron" count="4"/>
+                <resource type="likeCoin" count="4"/>
+                <resource type="photograph" count="4"/>
+                <resource type="swordHilt" count="4"/>
+                <resource type="generosity" count="4"/>
+                <resource type="love" count="4"/>
+                <resource type="hatred" count="4"/>
+                <resource type="happiness" count="4"/>
+                <resource type="feather" count="4"/>
+                <resource type="wick" count="4"/>
+                <resource type="thread" count="4"/>
+                <resource type="coffeBean" count="4"/>
+                <resource type="mintLeaf" count="4"/>
+                <resource type="jarOfPaint" count="4"/>
+                <resource type="cloth" count="4"/>
+                <resource type="glass" count="4"/>
+                <resource type="grindstone" count="4"/>
+                <resource type="peaceOfWax" count="4"/>
+                <resource type="pollen" count="4"/>
+                <resource type="fasten" count="4"/>
+                <resource type="beauty" count="4"/>
+                <resource type="glamor" count="4"/>
+                <resource type="idea" count="4"/>
+                <resource type="muse" count="4"/>
+                <resource type="diligence" count="4"/>
+                <resource type="skill" count="4"/>
+                <resource type="industry" count="4"/>
+                <resource type="luck" count="4"/>
+                <resource type="pearl" count="4"/>
+                <resource type="shell" count="4"/>
+                <resource type="screw" count="4"/>
+                <resource type="wrench" count="4"/>
+            </resourceList>
+        </chest>
+        <chest type="bigChest" gold="2" ruby="15" resourcesCount="6">
+            <resourceList>
+                <resource type="clay" count="6"/>
+                <resource type="peaceOfWood" count="6"/>
+                <resource type="water" count="6"/>
+                <resource type="flowerBud" count="6"/>
+                <resource type="phial" count="6"/>
+                <resource type="bigPhial" count="6"/>
+                <resource type="bow" count="6"/>
+                <resource type="wrappingPaper" count="6"/>
+                <resource type="peaceOfIron" count="6"/>
+                <resource type="likeCoin" count="6"/>
+                <resource type="photograph" count="6"/>
+                <resource type="swordHilt" count="6"/>
+                <resource type="generosity" count="6"/>
+                <resource type="love" count="6"/>
+                <resource type="hatred" count="6"/>
+                <resource type="happiness" count="6"/>
+                <resource type="feather" count="6"/>
+                <resource type="wick" count="6"/>
+                <resource type="thread" count="6"/>
+                <resource type="coffeBean" count="6"/>
+                <resource type="mintLeaf" count="6"/>
+                <resource type="jarOfPaint" count="6"/>
+                <resource type="cloth" count="6"/>
+                <resource type="glass" count="6"/>
+                <resource type="grindstone" count="6"/>
+                <resource type="peaceOfWax" count="6"/>
+                <resource type="pollen" count="6"/>
+                <resource type="fasten" count="6"/>
+                <resource type="beauty" count="6"/>
+                <resource type="glamor" count="6"/>
+                <resource type="idea" count="6"/>
+                <resource type="muse" count="6"/>
+                <resource type="diligence" count="6"/>
+                <resource type="skill" count="6"/>
+                <resource type="industry" count="6"/>
+                <resource type="luck" count="6"/>
+                <resource type="pearl" count="6"/>
+                <resource type="shell" count="6"/>
+                <resource type="screw" count="6"/>
+                <resource type="wrench" count="6"/>
+            </resourceList>
+        </chest>
+    </chests>
+
+    <rating taskPeriod="30" competitionPeriod="604800" maxCountTopClans="10">
+        <awards place="1">
+            <award itemId="clanRating1" itemType="trophy" count="604800"/>
+            <award itemId="gold" itemType="resource" count="10"/>
+        </awards>
+
+        <awards place="2">
+            <award itemId="clanRating2" itemType="trophy" count="604800"/>
+            <award itemId="gold" itemType="resource" count="8"/>
+        </awards>
+
+        <awards place="3">
+            <award itemId="clanRating3" itemType="trophy" count="604800"/>
+            <award itemId="gold" itemType="resource" count="5"/>
+        </awards>
+    </rating>
+
+    <roomDesigns>
+        <roomDesign id="glamour" title="glamourClanTitle" description="glamourClanDescription"/>
+        <roomDesign id="scifi" title="scifiClanTitle" description="scifiClanDescription"/>
+        <roomDesign id="magic" title="magicClanTitle" description="magicClanDescription"/>
+        <roomDesign id="apocalypse" title="apocalypseClanTitle" description="apocalypseClanDescription"/>
+    </roomDesigns>
+
+    <logos>
+        <logo id="1" />
+        <logo id="2" />
+        <logo id="3" />
+        <logo id="4" />
+        <logo id="5" />
+        <logo id="6" />
+        <logo id="7" />
+        <logo id="8" />
+        <logo id="9" />
+        <logo id="10" />
+        <logo id="11" />
+        <logo id="12" />
+        <logo id="13" />
+        <logo id="14" />
+        <logo id="15" />
+        <logo id="16" />
+        <logo id="17" />
+        <logo id="18" />
+        <logo id="19" />
+        <logo id="20" />
+        <logo id="21" />
+        <logo id="22" />
+        <logo id="23" />
+        <logo id="24" />
+        <logo id="25" />
+        <logo id="26" />
+        <logo id="27" />
+        <logo id="28" />
+        <logo id="29" />
+        <logo id="30" />
+        <logo id="31" />
+        <logo id="32" />
+        <logo id="33" />
+        <logo id="34" />
+        <logo id="35" />
+        <logo id="36" />
+        <logo id="37" />
+        <logo id="38" />
+        <logo id="39" />
+        <logo id="40" />
+        <logo id="41" />
+        <logo id="42" />
+        <logo id="43" />
+        <logo id="44" />
+        <logo id="45" />
+        <logo id="46" />
+        <logo id="47" />
+        <logo id="48" />
+        <logo id="49" />
+        <logo id="50" />
+        <logo id="51" />
+        <logo id="52" />
+        <logo id="53" />
+        <logo id="54" />
+        <logo id="55" />
+        <logo id="56" />
+        <logo id="57" />
+        <logo id="58" />
+        <logo id="59" />
+        <logo id="60" />
+        <logo id="61" />
+        <logo id="62" />
+        <logo id="63" />
+        <logo id="64" />
+        <logo id="65" />
+        <logo id="66" />
+        <logo id="67" />
+        <logo id="68" />
+        <logo id="69" />
+        <logo id="70" />
+        <logo id="71" />
+        <logo id="72" />
+        <logo id="73" />
+        <logo id="74" />
+        <logo id="75" />
+        <logo id="76" />
+        <logo id="77" />
+        <logo id="78" />
+        <logo id="79" />
+        <logo id="80" />
+    </logos>
+
+    <roomPrices>
+        <room number="2" coinPrice="4000"/>
+        <room number="3" coinPrice="5000"/>
+        <room number="4" coinPrice="7000"/>
+        <room number="5" coinPrice="10000"/>
+        <room number="6" coinPrice="14000"/>
+        <room number="7" coinPrice="19000"/>
+        <room number="8" coinPrice="25000"/>
+        <room number="9" coinPrice="32000"/>
+        <room number="10" coinPrice="40000"/>
+        <room number="11" coinPrice="49000"/>
+        <room number="12" coinPrice="59000"/>
+        <room number="13" coinPrice="70000"/>
+        <room number="14" coinPrice="82000"/>
+        <room number="15" coinPrice="95000"/>
+        <room number="16" coinPrice="109000"/>
+        <room number="17" coinPrice="124000"/>
+    </roomPrices>
+</config>

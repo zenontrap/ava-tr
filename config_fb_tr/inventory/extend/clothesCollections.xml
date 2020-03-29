@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clothesCollections>
+
+    <!--<clothesCollection id="halloween2017B" label="#hw17CllctnLabel" gender="boy">
+        <item itemId="boyTShrt1Hlw17Csl"/>
+        <item itemId="boyGlssHlw17Csl"/>
+        <item itemId="boyTShrt2Hlw17Csl"/>
+        <item itemId="boyEarrHlw17Csl"/>
+        <item itemId="boyTShrt3Hlw17Csl"/>
+        <item itemId="boyShrtHlw17Csl"/>
+    </clothesCollection>
+
+    <clothesCollection id="halloween2017G" label="#hw17CllctnLabel" gender="girl">
+        <item itemId="grlTShrtHlw17Csl1"/>
+        <item itemId="grlGlssHlw17Csl"/>
+        <item itemId="grlTShrtHlw17Csl2"/>
+        <item itemId="grlEarrHlw17Csl"/>
+        <item itemId="grlPllvrHlw17Csl"/>
+        <item itemId="grlShrtHlw17Csl"/>
+    </clothesCollection>-->
+
+    <clothesCollection id="anime2015B" label="#anime2015CollectionLabel" gender="boy">
+        <item itemId="anmBAnm1Jck"/>
+        <item itemId="anmBAnm1Pnts"/>
+        <item itemId="anmBAnm1Shs"/>
+        <item itemId="anmBAnm1Tsht"/>
+
+        <item itemId="anmBAnm2Jck"/>
+        <item itemId="anmBAnm2Pnts"/>
+        <item itemId="anmBAnm2Shs"/>
+        <item itemId="anmBAnm2Tsht"/>
+
+        <item itemId="anmBAnm3Brcl"/>
+        <item itemId="anmBAnm3Ht"/>
+        <item itemId="anmBAnm3Jck"/>
+        <item itemId="anmBAnm3Pnts"/>
+        <item itemId="anmBAnm3Scf"/>
+        <item itemId="anmBAnm3Shs"/>
+        <item itemId="anmBAnm3Tsht"/>
+
+        <item itemId="anmBSchJck"/>
+        <item itemId="anmBSchPnts"/>
+        <item itemId="anmBSchShs"/>
+        <item itemId="anmBSchTsht"/>
+    </clothesCollection>
+
+    <clothesCollection id="casual2015B" label="#casual2015CollectionLabel" gender="boy">
+        <item itemId="csl15BBrvErr"/>
+        <item itemId="csl15BBrvJck"/>
+        <item itemId="csl15BBrvPts"/>
+        <item itemId="csl15BBrvPdt"/>
+        <item itemId="csl15BBrvShs"/>
+        <item itemId="csl15BBrvTsht"/>
+        <item itemId="csl15BBrvWtch"/>
+
+        <item itemId="csl15BFrtPts"/>
+        <item itemId="csl15BFrtShs"/>
+        <item itemId="csl15BFrtTsht"/>
+
+        <item itemId="csl15BNrdJck"/>
+        <item itemId="csl15BNrdPts"/>
+        <item itemId="csl15BNrdPdt"/>
+        <item itemId="csl15BNrdBts"/>
+        <item itemId="csl15BNrdTsht"/>
+
+        <item itemId="csl15BScnBg"/>
+        <item itemId="csl15BScnPts"/>
+        <item itemId="csl15BScnScf"/>
+        <item itemId="csl15BScnShs"/>
+        <item itemId="csl15BScnTsht"/>
+        <item itemId="csl15BScnWtch"/>
+
+        <item itemId="boyHvnBrcl"/>
+        <item itemId="boyHvnGls"/>
+        <item itemId="boyHvnHat"/>
+        <item itemId="boyHvnShs"/>
+        <item itemId="boyHvnShorts"/>
+        <item itemId="boyHvnTSht"/>
+        <item itemId="boyMimBrcl"/>
+        <item itemId="boyMimGls"/>
+        <item itemId="boyMimJkt"/>
+        <item itemId="boyMimPnt"/>
+        <item itemId="boyMimShs"/>
+        <item itemId="boyMimTSht"/>
+
+        <item itemId="boyTShrt1Hlw17Csl"/>
+        <item itemId="boyGlssHlw17Csl"/>
+        <item itemId="boyTShrt2Hlw17Csl"/>
+        <item itemId="boyEarrHlw17Csl"/>
+        <item itemId="boyTShrt3Hlw17Csl"/>
+        <item itemId="boyShrtHlw17Csl"/>
+    </clothesCollection>
+
+    <clothesCollection id="east2015B" label="#east015CollectionLabel" gender="boy">
+        <item itemId="east15NjBts"/>
+        <item itemId="east15NjGlv"/>
+        <item itemId="east15NjJck"/>
+        <item itemId="east15NjKtn"/>
+        <item itemId="east15NjMsk"/>
+        <item itemId="east15NjPts"/>
+        <item itemId="east15NjScf"/>
+        <item itemId="east15NjShr"/>
+
+        <item itemId="east15NblBts"/>
+        <item itemId="east15NblClk"/>
+        <item itemId="east15NblHr"/>
+        <item itemId="east15NblJck"/>
+        <item itemId="east15NblPts"/>
+    </clothesCollection>
+
+    <clothesCollection id="gangster2015B" label="#gangster2015CollectionLabel" gender="boy">
+        <item itemId="gstrBBdtBts"/>
+        <item itemId="gstrBBdtGn"/>
+        <item itemId="gstrBBdtHt"/>
+        <item itemId="gstrBBdtHlstr"/>
+        <item itemId="gstrBBdtPts"/>
+        <item itemId="gstrBBdtTsht"/>
+        <item itemId="gstrBBdtVst"/>
+
+        <item itemId="gstrBBssBts"/>
+        <item itemId="gstrBBssGn"/>
+        <item itemId="gstrBBssHt"/>
+        <item itemId="gstrBBssJck"/>
+        <item itemId="gstrBBssPts"/>
+        <item itemId="gstrBBssPdt"/>
+        <item itemId="gstrBBssTsht"/>
+    </clothesCollection>
+
+    <clothesCollection id="racer2015B" label="#racer2015CollectionLabel" gender="boy">
+        <item itemId="rcrBEvgGss"/>
+        <item itemId="rcrBEvgOvr"/>
+
+        <item itemId="rcrBStgHlm"/>
+        <item itemId="rcrBStgOvr"/>
+
+        <item itemId="rcrBRtrHlm"/>
+        <item itemId="rcrBRtrJck"/>
+        <item itemId="rcrBRtrOvr"/>
+        <item itemId="rcrBRtrShs"/>
+    </clothesCollection>
+
+    <clothesCollection id="anime2015G" label="#anime2015CollectionLabel" gender="girl">
+        <item itemId="anmGAnmDss"/>
+        <item itemId="anmGAnmErr"/>
+        <item itemId="anmGAnmHt"/>
+        <item itemId="anmGAnmLcs"/>
+        <item itemId="anmGAnmPll"/>
+        <item itemId="anmGAnmShs"/>
+
+        <item itemId="anmGLlt1Bw"/>
+        <item itemId="anmGLlt1Dss"/>
+        <item itemId="anmGLlt1Lcs"/>
+        <item itemId="anmGLlt1Shs"/>
+
+        <item itemId="anmGLlt2Dss"/>
+        <item itemId="anmGLlt2Ht"/>
+        <item itemId="anmGLlt2Shs"/>
+
+        <item itemId="anmGSchLcs"/>
+        <item itemId="anmGSchShs"/>
+        <item itemId="anmGSchSkt"/>
+        <item itemId="anmGSchTSht"/>
+    </clothesCollection>
+
+    <clothesCollection id="casual2015G" label="#casual2015CollectionLabel" gender="girl">
+        <item itemId="csl15GCGErr"/>
+        <item itemId="csl15GCGJck"/>
+        <item itemId="csl15GCGRm"/>
+        <item itemId="csl15GCGShs"/>
+        <item itemId="csl15GCGSkt"/>
+        <item itemId="csl15GCGStk"/>
+        <item itemId="csl15GCGTsht"/>
+
+        <item itemId="csl15GFrErr"/>
+        <item itemId="csl15GFrHt"/>
+        <item itemId="csl15GFrShs"/>
+        <item itemId="csl15GFrShrt"/>
+        <item itemId="csl15GFrTgh"/>
+        <item itemId="csl15GFrTsht"/>
+
+        <item itemId="csl15GNdErr"/>
+        <item itemId="csl15GNdPts"/>
+        <item itemId="csl15GNdPdt"/>
+        <item itemId="csl15GNdShs"/>
+        <item itemId="csl15GNdTsht"/>
+
+        <item itemId="csl15GScnErr"/>
+        <item itemId="csl15GScnGlv"/>
+        <item itemId="csl15GScnShs"/>
+        <item itemId="csl15GScnSkt"/>
+        <item itemId="csl15GScnStk"/>
+        <item itemId="csl15GScnTsht"/>
+        <item itemId="csl15GScnRm"/>
+
+        <item itemId="grlLmnErr"/>
+        <item itemId="grlLmnGls"/>
+        <item itemId="grlLmnShs"/>
+        <item itemId="grlLmnTSht"/>
+        <item itemId="grlLmnBrcl"/>
+        <item itemId="grlLmnJkt"/>
+        <item itemId="grlLmnSkt"/>
+        <item itemId="grlRsBg"/>
+        <item itemId="grlRsErr"/>
+        <item itemId="grlRsShs"/>
+        <item itemId="grlRsShrt"/>
+        <item itemId="grlRsTSht"/>
+
+        <item itemId="grlTShrtHlw17Csl1"/>
+        <item itemId="grlGlssHlw17Csl"/>
+        <item itemId="grlTShrtHlw17Csl2"/>
+        <item itemId="grlEarrHlw17Csl"/>
+        <item itemId="grlPllvrHlw17Csl"/>
+        <item itemId="grlShrtHlw17Csl"/>
+    </clothesCollection>
+
+    <clothesCollection id="east2015G" label="#east2015CollectionLabel" gender="girl">
+        <item itemId="east15GChnBts"/>
+        <item itemId="east15GChnDss"/>
+        <item itemId="east15GChnFr"/>
+        <item itemId="east15GChnHr"/>
+        <item itemId="east15GChnPdt"/>
+
+        <item itemId="east15GJpnBts"/>
+        <item itemId="east15GJpnDss"/>
+        <item itemId="east15GJpnHr"/>
+        <item itemId="east15GJpnPdt"/>
+        <item itemId="east15GJpnSks"/>
+    </clothesCollection>
+
+    <clothesCollection id="gangster2015G" label="#gangster2015CollectionLabel" gender="girl">
+        <item itemId="gstrGGngBts"/>
+        <item itemId="gstrGGngDss"/>
+        <item itemId="gstrGGngErr"/>
+        <item itemId="gstrGGngFn"/>
+        <item itemId="gstrGGngFr"/>
+        <item itemId="gstrGGngPdt"/>
+        <item itemId="gstrGGngRm"/>
+
+        <item itemId="gstrGMnxBts"/>
+        <item itemId="gstrGMnxDss"/>
+        <item itemId="gstrGMnxErr"/>
+        <item itemId="gstrGMnxGlv"/>
+        <item itemId="gstrGMnxGn"/>
+        <item itemId="gstrGMnxPdt"/>
+        <item itemId="gstrGMnxRm"/>
+        <item itemId="gstrGMnxStk"/>
+    </clothesCollection>
+
+    <clothesCollection id="racer2015G" label="#racer2015CollectionLabel" gender="girl">
+        <item itemId="rcrGEvgGss"/>
+        <item itemId="rcrGEvgOvr"/>
+        <item itemId="rcrGRcrHlm"/>
+        <item itemId="rcrGRcrLcs"/>
+        <item itemId="rcrGRcrOvr"/>
+        <item itemId="rcrGRcrShs"/>
+
+        <item itemId="rcrGRtrGss"/>
+        <item itemId="rcrGRtrGlv"/>
+        <item itemId="rcrGRtrJkt"/>
+        <item itemId="rcrGRtrPnts"/>
+        <item itemId="rcrGRtrScf"/>
+        <item itemId="rcrGRtrShs"/>
+    </clothesCollection>
+
+    <!--<clothesCollection id="newYearBoy16" label="#newYearBoy16Label" gender="boy">-->
+    <!--<item itemId="bNY16BArt"/>-->
+    <!--<item itemId="bNY16FCt"/>-->
+    <!--<item itemId="bNY16Hdphn"/>-->
+    <!--<item itemId="bNY16Mttns"/>-->
+    <!--<item itemId="bNY16Ovrll"/>-->
+    <!--<item itemId="bNY16Shs"/>-->
+    <!--</clothesCollection>-->
+
+    <!--<clothesCollection id="newYearGirl16" label="#newYearGirl16Label" gender="girl">-->
+    <!--<item itemId="gNY16Cllr"/>-->
+    <!--<item itemId="gNY16BArt"/>-->
+    <!--<item itemId="gNY16Mttns"/>-->
+    <!--<item itemId="gNY16Ovrll"/>-->
+    <!--<item itemId="gNY16Rim"/>-->
+    <!--<item itemId="gNY16Shs"/>-->
+    <!--</clothesCollection>-->
+
+    <clothesCollection id="hospitalBoy" label="#hsptlLbl" gender="boy">
+        <item itemId="hspBHTBag"/>
+        <item itemId="hspBHTGss"/>
+        <item itemId="hspBHTOvr"/>
+        <item itemId="hspBRtrGss"/>
+        <item itemId="hspBRtrHt"/>
+        <item itemId="hspBRtrOvr"/>
+        <item itemId="hspBRtrStt"/>
+    </clothesCollection>
+
+    <clothesCollection id="hospitalGirl" label="#hsptlLbl" gender="girl">
+        <item itemId="hspGHTGss"/>
+        <item itemId="hspGHTSrg"/>
+        <item itemId="hspGHTOvr"/>
+        <item itemId="hspGRtrDcr"/>
+        <item itemId="hspGRtrOvr"/>
+        <item itemId="hspGRtrSrg"/>
+    </clothesCollection>
+
+    <!--
+    <clothesCollection id="hlwnPlaqueDoctor" label="#halloweenPlaqueDoctorLabel" gender="boy">
+        <item itemId="hlwn2015PDBts"/>
+        <item itemId="hlwn2015PDCt"/>
+        <item itemId="hlwn2015PDGlv"/>
+        <item itemId="hlwn2015PDHat"/>
+        <item itemId="hlwn2015PDHlmt"/>
+        <item itemId="hlwn2015PDPnts"/>
+        <item itemId="hlwn2015PDRats"/>
+    </clothesCollection>
+
+    <clothesCollection id="hlwnGentleman" label="#halloweenGentleManLabel" gender="boy">
+        <item itemId="hlwn2015BBts"/>
+        <item itemId="hlwn2015BHat"/>
+        <item itemId="hlwn2015BMncl"/>
+        <item itemId="hlwn2015BPts"/>
+        <item itemId="hlwn2015BShrt"/>
+        <item itemId="hlwn2015BStck"/>
+    </clothesCollection>
+
+    <clothesCollection id="hlwnBlackWidow" label="#halloweenBlackWidowLabel" gender="girl">
+        <item itemId="hlwn2015BWBts"/>
+        <item itemId="hlwn2015BWDrs"/>
+        <item itemId="hlwn2015BWHat"/>
+    </clothesCollection>
+
+    <clothesCollection id="hlwnMadam" label="#halloweenMadamLabel" gender="girl">
+        <item itemId="hlwn2015GBts"/>
+        <item itemId="hlwn2015GDrs"/>
+        <item itemId="hlwn2015GGlv"/>
+        <item itemId="hlwn2015GHat"/>
+        <item itemId="hlwn2015GPlrn"/>
+        <item itemId="hlwn2015GPndnt"/>
+        <item itemId="hlwn2015GStck"/>
+    </clothesCollection>
+    -->
+
+    <clothesCollection id="superHeroBoy" label="#superHeroLabel" gender="boy">
+        <item itemId="sphrAvmnOvrl"/>
+        <item itemId="sphrBlcmnGlss"/>
+        <item itemId="sphrBlcmnOvrl"/>
+        <item itemId="sphrRbmnHlmt"/>
+        <item itemId="sphrRbmnOvrl"/>
+        <item itemId="sphrDmnSmrHlmt"/>
+        <item itemId="sphrDmnSmrLnc"/>
+        <item itemId="sphrDmnSmrOvrl"/>
+        <item itemId="boyJktMsk"/>
+        <item itemId="boyJkrJkt"/>
+        <item itemId="boyJkrPnt"/>
+        <item itemId="boyJkrShs"/>
+        <item itemId="boyJkrKcl"/>
+        <item itemId="boyJkrTt"/>
+        <item itemId="boyJkrPnd"/>
+        <item itemId="boyDrStrgOvrl"/>
+        <item itemId="boyRbnMsk"/>
+        <item itemId="boyRbnOvrl"/>
+        <item itemId="boyRbnNck"/>
+        <item itemId="boyNNnjMsk"/>
+        <item itemId="boyNNnjOvrl"/>
+    </clothesCollection>
+
+    <clothesCollection id="superHeroGirl" label="#superHeroLabel" gender="girl">
+        <item itemId="sphrAvgrlDcr"/>
+        <item itemId="sphrAvgrlOvrl"/>
+        <item itemId="sphrBlcgrlGlss"/>
+        <item itemId="sphrBlcgrlOvrl"/>
+        <item itemId="sphrRbgrlHlmt"/>
+        <item itemId="sphrRbgrlOvrl"/>
+        <item itemId="sphrWtchSphr"/>
+        <item itemId="sphrWtchHlmt"/>
+        <item itemId="sphrWtchOvrl"/>
+        <item itemId="grlHrlHt"/>
+        <item itemId="grlHrlJkt"/>
+        <item itemId="grlHrlTSht"/>
+        <item itemId="grlHrlPnts"/>
+        <item itemId="grlHrlBts"/>
+        <item itemId="grlHrlBat"/>
+        <item itemId="grlRWmnHlm"/>
+        <item itemId="grlRwmnOvr"/>
+        <item itemId="grlRwmnFBll"/>
+        <item itemId="grlIvyHlm"/>
+        <item itemId="grlIvyOvr"/>
+        <item itemId="grlWNnjOvr"/>
+    </clothesCollection>
+
+    <clothesCollection id="conanClothesBoy" label="#conanCollectionLabel" gender="boy">
+        <item itemId="boyCnnSh"/>
+        <item itemId="boyCnnBrclt"/>
+        <item itemId="boyCnnDcr"/>
+        <item itemId="boyCnnOvrlls"/>
+    </clothesCollection>
+    <clothesCollection id="conanClothesGirl" label="#conanCollectionLabel" gender="girl">
+        <item itemId="grlDrsCnn"/>
+        <item itemId="grlCnnShoes"/>
+        <item itemId="grlCnnDcr"/>
+        <item itemId="grlCnnBrclt"/>
+        <item itemId="grlCnnAcs"/>
+        <item itemId="grlCnnErr"/>
+    </clothesCollection>
+
+    <clothesCollection id="amazingClothesBoy" label="#amusimentCollectionLabel" gender="boy">
+        <item itemId="boySMR14TShirt3"/>
+        <item itemId="boyPslnShirt3"/>
+        <item itemId="boySMR14TShirt4"/>
+        <item itemId="boySMR14TShirt2"/>
+        <item itemId="boySMR14Jckt3"/>
+        <item itemId="boySMR14Jckt2"/>
+        <item itemId="boyPslnJckt5"/>
+        <item itemId="boyPslnJckt3"/>
+        <item itemId="boyWntrJckt6"/>
+        <item itemId="boyWntrJckt1"/>
+        <item itemId="boyWntrJckt3"/>
+        <item itemId="boyCtlTsh1"/>
+        <item itemId="boyCtlTsh3"/>
+        <item itemId="boyCtlTsh9"/>
+        <item itemId="boyCtlTsh7"/>
+        <item itemId="boyCtlTsh13"/>
+        <item itemId="boyCtlJck9"/>
+        <item itemId="boyShirt18"/>
+        <item itemId="boyShirt13"/>
+        <item itemId="boyJacket8"/>
+        <item itemId="boyPslnPants6"/>
+        <item itemId="boyPslnPants3"/>
+        <item itemId="boySMR14Shorts2"/>
+        <item itemId="boyCtlPts9"/>
+        <item itemId="boyCtlPts2"/>
+        <item itemId="boyCtlPts1"/>
+        <item itemId="boyPants17"/>
+        <item itemId="boySMR14Sh3"/>
+        <item itemId="boyPslnSh11"/>
+        <item itemId="boyWntrSh1"/>
+        <item itemId="boyCtlSh11"/>
+        <item itemId="boyShoes17"/>
+        <item itemId="boyShoes5"/>
+        <item itemId="boySMR14Bag"/>
+        <item itemId="boySMR14Neck2"/>
+        <item itemId="boyPslnNeck9"/>
+        <item itemId="boySMR14Hat"/>
+        <item itemId="boyPslnNeck4"/>
+        <item itemId="boyPSHat8"/>
+        <item itemId="boyPSHat4"/>
+        <item itemId="boyPslnGls1"/>
+        <item itemId="boyWntHt3"/>
+        <item itemId="boyWntScf2"/>
+        <item itemId="boyWntHt1"/>
+        <item itemId="boyCtlBdn2"/>
+        <item itemId="boyCtlGl2"/>
+        <item itemId="boyPslnHlm1"/>
+        <item itemId="boyPslnHlm2"/>
+        <item itemId="boyDecor12"/>
+        <item itemId="boyCtlTto1"/>
+        <item itemId="boyDecor20"/>
+        <item itemId="boyDecor6"/>
+    </clothesCollection>
+    <clothesCollection id="amazingClothesGirl" label="#amusimentCollectionLabel" gender="girl">
+        <item itemId="gSMR14TSht1"/>
+        <item itemId="gPslnTop4"/>
+        <item itemId="gPslnTop3"/>
+        <item itemId="gPslnTop1"/>
+        <item itemId="girlPslnStck2"/>
+        <item itemId="gSMR14Skrt1"/>
+        <item itemId="girlPslnShorts2"/>
+        <item itemId="gPslnSkrt1"/>
+        <item itemId="girlPants15"/>
+        <item itemId="girlPants14"/>
+        <item itemId="girlPantyhose5"/>
+        <item itemId="girlPslnSuit10"/>
+        <item itemId="gDrssCoc14"/>
+        <item itemId="gDrssCoc7"/>
+        <item itemId="girlEvng6"/>
+        <item itemId="gShsPsln8"/>
+        <item itemId="gShsPsln10"/>
+        <item itemId="gShsWntr5"/>
+        <item itemId="gShsWntr3"/>
+        <item itemId="gShsCoc8"/>
+        <item itemId="gShsCoc2"/>
+        <item itemId="girlShoes32"/>
+        <item itemId="girlShoes17"/>
+        <item itemId="girlShoes3"/>
+        <item itemId="girlPslnTto1"/>
+        <item itemId="gSMR14Rim1"/>
+        <item itemId="gSMR14Rim2"/>
+        <item itemId="gHtsPsln5"/>
+        <item itemId="girlPslnHlm1"/>
+        <item itemId="girlPslnHlm2"/>
+        <item itemId="gHtsPsln4"/>
+        <item itemId="gHtsPsln3"/>
+        <item itemId="gHtsPsln2"/>
+        <item itemId="girlPslnHdpns1"/>
+        <item itemId="gHtsWntr1"/>
+        <item itemId="gSMR14Ear2"/>
+        <item itemId="girlPareo1"/>
+        <item itemId="girlDecor6"/>
+        <item itemId="gJackCoct2"/>
+        <item itemId="girlEvng12"/>
+        <item itemId="gHairpCoc3"/>
+        <item itemId="gHairpCoc4"/>
+        <item itemId="girlTiara4"/>
+        <item itemId="girlTiara3"/>
+        <item itemId="gSMR14Bag1"/>
+        <item itemId="gHtsCoc1"/>
+        <item itemId="gSMRGls1"/>
+        <item itemId="girlPslnGlass3"/>
+        <item itemId="girlPslnGlass4"/>
+        <item itemId="girlPslnSuit4"/>
+        <item itemId="girlPslnSuit5"/>
+        <item itemId="girlPslnSuit6"/>
+    </clothesCollection>
+
+    <!-- AUTUMN 2017 -->
+    <clothesCollection id="autumnCollectionBoy" label="#autumnCollectionLabel" gender="boy">
+        <item itemId="boyBlMntnGls"/>
+        <item itemId="boyBlMntnJkt"/>
+        <item itemId="boyBlMntnPnt"/>
+        <item itemId="boyBlMntnShs"/>
+        <item itemId="boyBlMntnTSht"/>
+        <item itemId="boyBrnCtShs"/>
+        <item itemId="boyBrnCtJkt"/>
+        <item itemId="boyBrnCtPnt"/>
+        <item itemId="boyBrnCtTSht"/>
+        <item itemId="boyBrnCtScf"/>
+        <item itemId="boyBneHat"/>
+        <item itemId="boyBneJkt"/>
+        <item itemId="boyBnePnt"/>
+        <item itemId="boyBneTSht"/>
+        <item itemId="boyBneShs"/>
+        <item itemId="boyYlwScBag"/>
+        <item itemId="boyYlwScShs"/>
+        <item itemId="boyYlwScJkt"/>
+        <item itemId="boyYlwScPnt"/>
+        <item itemId="boyYlwScScf"/>
+        <item itemId="boyYlwScTSht"/>
+    </clothesCollection>
+    <clothesCollection id="autumnCollectionGirl" label="#autumnCollectionLabel" gender="girl">
+        <item itemId="grlBlDrsBg"/>
+        <item itemId="grlBlDrsDrs"/>
+        <item itemId="grlBlDrsErr"/>
+        <item itemId="grlBlDrsScf"/>
+        <item itemId="grlBlDrsShs"/>
+        <item itemId="grlBlDrsStk"/>
+        <item itemId="grlPnkRsErr"/>
+        <item itemId="grlPnkRsJkt"/>
+        <item itemId="grlPnkRsPnts"/>
+        <item itemId="grlPnkRsShs"/>
+        <item itemId="grlPnkRsTSht"/>
+        <item itemId="grlRdRrBg"/>
+        <item itemId="grlRdRrDrs"/>
+        <item itemId="grlRdRrErr"/>
+        <item itemId="grlRdRrShs"/>
+        <item itemId="grlRdRrStk"/>
+        <item itemId="grlYllwRnShs"/>
+        <item itemId="grlYllwRnJkt"/>
+        <item itemId="grlYllwRnTSht"/>
+        <item itemId="grlYllwRnPnts"/>
+        <item itemId="grlYllwRnNckl"/>
+    </clothesCollection>
+</clothesCollections>

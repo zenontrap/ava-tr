@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="springDay2019" makePhotoFilmPrice="5" validateAward="true">
+
+    <awards>
+        <award id="1" maxProgress="1200" itemType="clothesSet" itemId="boyFrogSet" gender="1"
+            icon="BoyCostumeSD2019Icon@springDay2019" receiveIcon="BoyCostumeAward@springDay2019"/>
+        <award id="2" maxProgress="1200" itemType="clothesSet" itemId="girlFrogSet" gender="2"
+            icon="GirlCostumeSD2019Icon@springDay2019" receiveIcon="GirlCostumeAward@springDay2019"/>
+    </awards>
+
+    <resourcesConfig>
+        <coin workDropCount="1" neighbourDropCount="2" vipPresentRatio="300"/>
+    </resourcesConfig>
+
+    <inventory>
+        <category id="craftLoot">
+            <item id="sd19Coin" description="#sd19CoinDescription" probability="1" gold="100"
+                  name="Coin@springDay2019" icon="CoinCraftIcon@springDay2019" label="#sd19CoinTitle"/>
+        </category>
+    </inventory>
+
+    <friendHints>
+        <friendHint delay="3000" ttl="10000" message="#sd19FriendHelpMessage"/>
+    </friendHints>
+
+    <wishes count="3">
+        <furniture>
+            <item id="hlwnBlrmPn" price="810"/>
+            <item id="valentineBearViolet" price="390"/>
+            <item id="valentineBearRed" price="390"/>
+            <item id="valentineBearPink" price="390"/>
+            <item id="pctr1may14" price="700"/>
+            <item id="drSV14" price="600"/>
+            <item id="dram1" price="670"/>
+            <item id="dram2" price="670"/>
+            <item id="drSV15" price="900"/>
+            <item id="ny19Pn" price="690"/>
+        </furniture>
+        <tech>
+            <item id="flrAq1" price="790"/>
+            <item id="wllAq1" price="790"/>
+            <item id="intFlr2" price="999"/>
+            <item id="intFlr1" price="999"/>
+            <item id="hrsAms1" price="790"/>
+            <item id="hrsAms2" price="790"/>
+            <item id="hrsAms3" price="820"/>
+            <item id="dzo19Pln" price="1250"/>
+            <item id="bikeChpprRd" price="550"/>
+            <item id="bikeChpprBl" price="550"/>
+            <item id="bikeRsrGrn" price="550"/>
+            <item id="colorWheel" price="400"/>
+            <item id="colorBigCarpet" price="150"/>
+            <item id="colorSmallCarpet" price="120"/>
+        </tech>
+        <clothes>
+            <item id="boyTblSmlAm" price="720"/>
+            <item id="girlTblSmlAm" price="720"/>
+            <item id="boyTblSmlHp" price="720"/>
+            <item id="girlTblSmlHp" price="720"/>
+            <item id="boyTblSmlSh" price="720"/>
+            <item id="girlTblSmlSh" price="720"/>
+            <item id="boyFA18Msk3" price="820"/>
+            <item id="girlFA18Msk3" price="820"/>
+            <item id="boyFA18Msk5" price="820"/>
+            <item id="girlFA18Msk5" price="820"/>
+            <item id="boyKgrmBr" price="820"/>
+            <item id="girlKgrmBr" price="820"/>
+            <item id="boyKgrmDr" price="820"/>
+            <item id="girlKgrmDr" price="820"/>
+            <item id="boyGlssPxl" price="999"/>
+            <item id="girlGlssPxl" price="999"/>
+            <item id="boyAB18Hat6" price="250"/>
+            <item id="girlAB18Hat6" price="250"/>
+            <item id="boyAB18Hat5" price="350"/>
+            <item id="girlAB18Hat5" price="350"/>
+            <item id="boyAB18Hat4" price="700"/>
+            <item id="girlAB18Hat4" price="700"/>
+            <item id="boyAB18Hat3" price="450"/>
+            <item id="girlAB18Hat3" price="450"/>
+            <item id="boyAB18Hat2" price="300"/>
+            <item id="girlAB18Hat2" price="300"/>
+            <item id="boyAB18Hat1" price="950"/>
+            <item id="girlAB18Hat1" price="950"/>
+            <item id="boyGlssEyes" price="999"/>
+            <item id="girlGlssEyes" price="999"/>
+            <item id="boyHlmtHlwnJack" price="690"/>
+            <item id="girlHlmtHlwnJill" price="690"/>
+            <item id="boyMskHlb16" price="670"/>
+            <item id="grlMskWtc16" price="670"/>
+            <item id="boyHlwn11" price="999"/>
+            <item id="girlHlwn21" price="999"/>
+            <item id="boyHrEstr19" price="650"/>
+            <item id="girlHrEstr19" price="650"/>
+            <item id="boySV18Rose" price="600"/>
+            <item id="girlSV18Rose" price="600"/>
+            <item id="boyFA18Nose" price="400"/>
+            <item id="girlFA18Nose" price="400"/>
+            <item id="grlSV14Nimb" price="900"/>
+            <item id="girlSV14Wngs" price="1100"/>
+            <item id="boySV14Qvr" price="600"/>
+            <item id="boySV14Bow" price="550"/>
+        </clothes>
+    </wishes>
+
+    <messages>
+        <message messageKey="sd19NpcMessage1"/>
+        <message messageKey="sd19NpcMessage2"/>
+        <message messageKey="sd19NpcMessage3"/>
+        <message messageKey="sd19NpcMessage4"/>
+        <message messageKey="sd19NpcMessage5"/>
+        <message messageKey="sd19NpcMessage6"/>
+        <message messageKey="sd19NpcMessage7"/>
+        <message messageKey="sd19NpcMessage8"/>
+        <message messageKey="sd19NpcMessage9"/>
+        <message messageKey="sd19NpcMessage10"/>
+    </messages>
+
+    <poses>
+        <pose id="1" view="PhotoPose1" avatarPose="PhotoPose4" gender="boy" rotate="0"/>
+        <pose id="2" view="PhotoPose2" avatarPose="PhotoPose5" gender="boy" rotate="0"/>
+        <pose id="3" view="PhotoPose3" avatarPose="PhotoPose3" gender="boy" rotate="1"/>
+        <pose id="4" view="PhotoPose4" avatarPose="PhotoPose1" gender="boy" rotate="0"/>
+        <pose id="5" view="PhotoPose5" avatarPose="PhotoPose1" gender="boy" rotate="0"/>
+        <pose id="6" view="PhotoPose6" avatarPose="PhotoPose1" gender="boy" rotate="1"/>
+        <pose id="7" view="PhotoPose7" avatarPose="PhotoPose1" gender="boy" rotate="0"/>
+
+        <pose id="8" view="PhotoPose1" avatarPose="PhotoPose1" gender="girl" rotate="1"/>
+        <pose id="9" view="PhotoPose2" avatarPose="PhotoPose5" gender="girl" rotate="0"/>
+        <pose id="10" view="PhotoPose3" avatarPose="PhotoPose8" gender="girl" rotate="0"/>
+        <pose id="11" view="PhotoPose4" avatarPose="PhotoPose9" gender="girl" rotate="1"/>
+        <pose id="12" view="PhotoPose5" avatarPose="PhotoPose1" gender="girl" rotate="0"/>
+        <pose id="13" view="PhotoPose6" avatarPose="PhotoPose1" gender="girl" rotate="1"/>
+        <pose id="14" view="PhotoPose7" avatarPose="PhotoPose1" gender="girl" rotate="0"/>
+    </poses>
+</module>

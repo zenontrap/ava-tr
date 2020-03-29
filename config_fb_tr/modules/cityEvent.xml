@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <cityEvent>
+            <eventDurations>
+                <eventDuration id="eventDuration30" title="eventLength30" eventLength="30" priceRatio="1"/>
+                <eventDuration id="eventDuration60" title="eventLength60" eventLength="60" priceRatio="2"/>
+                <eventDuration id="eventDuration120" title="eventLength120" eventLength="120" priceRatio="4"/>
+            </eventDurations>
+    </cityEvent>
+</config>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+		<message key="sv2014WelcomeDialogTitle">Sevgililer Günü!</message>
+		<message key="sv2014WelcomeDialogMessage1">Sevgililer Gününe özel olarak, komşularını ziyaret ederken veya yastık savaşı yaparken kırık kalp parçalarını ara. Ne kadar fazla arkadaşını ziyaretedersen o kadar fazla kırık kalp parçası bulursun!</message>
+		<message key="sv2014WelcomeDialogMessage2"> Öteki oyunculara katılıp kırık kalp parçalarını biraraya getirerek kırmızı bir kalp kazan. Bu görevi  bu tatil için özel olarak dekore ettiğimiz Parkta yapabilirsin! </message>
+		<message key="sv2014WelcomeDialogMessage3">Hediyeler kazan ve birkaç kırmızı kalp oluşturmaya yetecek kadar kırık kalp parçaları topla! Benzersiz hediyeleri toplamayı tamamladığın zaman, kalpleri toplamaya hatta daha fazla ödül kazanmaya devam edebilirsin! </message>
+		
+		<message key="sv2014HeartsInfoDialogTitle">Kırmızı kalpler oluştur!</message>
+		<message key="sv2014HeartsInfoDialogMessage">Parkta diğer oyuncular birlikte kırık kalp parçalarını biraraya getirerek ödüller kazan! Hediyeleri toplamayı tamamladığın zaman, kalpleri toplamaya hatta daha fazla ödül kazanmaya devam edebilirsin!</message>
+		
+		<message key="sv2014NotEnoughHeartpiecesDialogMessage">Kırmızı bir kalp oluşturmak için bir kırık kalp parçasına ihtiyacın var. Arkadaşlarından kırık kalp parçası alabilirsin. Yeteri kadar kırık kalp parçası yok mu?</message>
+		
+		<message key="sv14CantCollectHeartpiecesLabel">Daha fazla toplamak için kalan süre: :time:</message>
+		<message key="sv14CollectHeartpiecesDialogTitle">Kırık kalp parçaları topla</message>
+		<message key="sv14CollectHeartpiecesDialogDescription">Ne kadar aktif komşuların varsa, hergün o kadar fazla kırık kalp parçası kazanabilirsin.Yastık savaşlarına katılarak daha da fazla kırık kalp parçası kazanabilirsin.</message>
+		
+		<message key="sv14CollectHeartpiecesRequestNotAllowedLabel">Bu arkadaşın uzun bir zamandır oyunu oynamıyor.</message>
+		
+		<message key="youHaveHeartsLabel">sende var</message>
+		<message key="buyHeartpieces">:pieces: için :golds: öde</message>
+		<message key="sv2014ConcatMessageLabel">katıl</message>
+		
+		<message key="sv2014ProgressDialogTitle">Kırmızı Kalpler</message>
+		<message key="sv2014ProgressDialogMessage">Parkta diğer oyuncular birlikte kırık kalp parçalarını biraraya getirerek ödüller kazan! Hediyeleri toplamayı tamamladığın zaman, kalpleri toplamaya hatta daha fazla ödül kazanmaya devam edebilirsin!</message>
+		<message key="sv2014OverloadProgressDialogMessage">Bütün büyük ödülleri topladın, ama bu durman için bir neden değil!
+Git ve kırmızı kalpler topla, karşılığında bol bol ödüllendirileceksin!</message>
+		
+		<message key="sv2014WallMessage1">Kazandığım şu mükemmel hediyeye bir bak! Bir tane de sen ister misin? Acele etsen iyi olur! Özel teklif yakında sona erecek! :link:</message>
+		<message key="sv2014WallMessage2">Arkadaşlar! Ödüle neredeyse ulaştım sayılır. Lütfen bana ufak bir yardımda bulunun! Sadece oyuna başlayın ve size minnettarlığımı gösterebileyim! :link:</message>
+		
+		<message key="sv2014AwardDialogTitle">Tebrikler!</message>
+		<message key="sv2014AwardDialogMessage">Kırık kalp parçalarını bir araya getirmekte harika bir iş çıkartıyorsun, bu yüzden işte benzersiz ödülün! Daha da fazla kırmızı kalp topla ve başarından arkadaşlarına bahset!</message>
+		
+		<message key="stVal14ParticipantRequestSendedTitle">Kırık kalp parçalarını birleştirmek</message>
+		<message key="stVal14ParticipantRequestSendedMessage">İsteğiniz gönderildi. Şimdi ise alıcının isteğinizi kabul etmesini beklemeniz gerekiyor.</message>
+		<message key="stVal14ParticipantReceivedMessage">:name: sizin kırık kalp parçalarınızı tamamlamayı ve kırmızı bir kalp kazanmanızı öneriyor. Kabul et?</message>
+		<message key="stVal14ParticipantRequestApprovedTitle">İstek kabul edildi</message>
+		<message key="stVal14ParticipantRequestApprovedMessage">Pekâlâ! :name: isteğini kabul etti!</message>
+		<message key="stVal14ParticipantRequestDeclinedTitle">İstek reddedildi</message>
+		<message key="stVal14ParticipantRequestDeclinedMessage">:name: isteğinizi reddetti.</message>
+		
+		<message key="sv2014AskHeartpiecesDialogTitle">Senin yardımına ihtiyacım var!</message>
+		<message key="sv2014AskHeartpiecesDialogMessage">Yeterli kırık kalp parçası yok mu? Daha fazla kırık kalp parçası ve kırmızı kalp kazanmak için arkadaşlarından oyunu oynamalarını iste.</message>
+    </locale>
+</dictionary>

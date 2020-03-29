@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <modules>
+        <!-- HALLOWEEN 2019 -->
+       <module class="com.tortuga.penzville.city.modules.halloween2018.HW18Module">
+           <config>/modules/events/halloween2019.xml</config>
+           <storage>halloween2019</storage>
+       </module>
+
+        <!-- SEASON EVENT-->
+        <module class="com.tortuga.penzville.city.modules.seasonEvent.SEModule">
+            <config>/modules/events/seasonEvent.xml</config>
+            <storage>seasonEvent</storage>
+        </module>
+
+        <!-- HALLOWEEN 2016v2 -->
+       <module class="com.tortuga.penzville.city.modules.halloween2016v2.HW16v2Module">
+           <config>/modules/events/halloween2016v2.xml</config>
+       </module>
+
+        <!-- SUMMER DAY 2019-->
+        <!--<module class="com.tortuga.penzville.city.modules.springDay2019.SD19Module">-->
+            <!--<config>/modules/events/summerDay2019.xml</config>-->
+            <!--<storage>summerDay2019</storage>-->
+        <!--</module>-->
+
+        <!--&lt;!&ndash; VOTE &ndash;&gt;-->
+        <!--<module class="com.tortuga.penzville.city.modules.vote.VTModule" />-->
+
+        <!--&lt;!&ndash; FIRST APRIL 2019 &ndash;&gt;-->
+       <!--<module class="com.tortuga.penzville.city.modules.firstApril2019.FA19Module">-->
+           <!--<config>/modules/events/firstApril2019.xml</config>-->
+       <!--</module>-->
+
+        <!--&lt;!&ndash; SPRING DAY 2019&ndash;&gt;-->
+        <!--<module class="com.tortuga.penzville.city.modules.springDay2019.SD19Module">-->
+            <!--<config>/modules/events/springDay2019.xml</config>-->
+        <!--</module>-->
+
+        <!--&lt;!&ndash; DZO 2019&ndash;&gt;-->
+        <!--<module class="com.tortuga.penzville.city.modules.dzo2019.Dzo19Module">-->
+            <!--<config>/modules/events/dzo2019.xml</config>-->
+        <!--</module>-->
+
+        <!--&lt;!&ndash; VALENTINE'S DAY 2019&ndash;&gt;-->
+        <!--<module class="com.tortuga.penzville.city.modules.stVal2019.SV19Module">-->
+            <!--<config>/modules/events/stval2019.xml</config>-->
+        <!--</module>-->
+
+        <!-- NEW YEAR 2019 -->
+        <!--
+        <module class="com.tortuga.penzville.city.modules.newyear2019.NY19Module">
+            <config>/modules/events/newyear2019.xml</config>
+        </module>
+        -->
+
+        <!-- HALLOWEEN 2018 -->
+        <!--
+       <module class="com.tortuga.penzville.city.modules.halloween2018.HW18Module">
+           <config>/modules/events/halloween2018.xml</config>
+       </module>
+        -->
+
+        <!-- AVA BIRTHDAY 2018 -->
+        <!--
+       <module class="com.tortuga.penzville.city.modules.avaBirthday2018.AB18Module">
+           <config>/modules/events/avaBirthday2018.xml</config>
+       </module>
+        -->
+
+        <!-- FIRST APRIL 2018 -->
+        <!--
+       <module class="com.tortuga.penzville.city.modules.firstApril2018.FA18Module">
+           <config>/modules/events/firstApril2018.xml</config>
+       </module>
+        -->
+
+        <!-- SPRING DAY 2018-->
+        <!--
+       <module class="com.tortuga.penzville.city.modules.springDay2018.SD18Module">
+           <config>/modules/events/springDay2018.xml</config>
+       </module>
+        -->
+
+        <!-- DZO 2018 -->
+        <!--
+       <module class="com.tortuga.penzville.city.modules.dzo2018.Dzo18Module">
+           <config>/modules/events/dzo2018.xml</config>
+       </module>
+        -->
+
+        <!-- SAINT VALENTINE 2018 -->
+        <!--
+       <module class="com.tortuga.penzville.city.modules.stVal2018.SV18Module">
+           <config>/modules/events/stVal2018.xml</config>
+       </module>
+        -->
+
+        <!--NEW YEAR 2018 -->
+        <!--
+       <module class="com.tortuga.penzville.city.modules.newyear2018.NY18Module">
+           <config>/modules/events/newyear2018.xml</config>
+       </module>
+        -->
+
+        <!-- HALLOWEEN 2017 -->
+        <!--
+       <module class="com.tortuga.penzville.city.modules.halloween2017.HW17Module">
+           <config>/modules/events/halloween2017.xml</config>
+       </module>
+        -->
+
+        <!-- FAMILY DAY -->
+        <!--
+       <module class="com.tortuga.penzville.city.modules.familyDay2016.FD16Module">
+           <config>/modules/events/familyDay2016.xml</config>
+       </module>
+        -->
+
+        <!-- AVA BIRTHDAY 2017 -->
+        <!--
+       <module class="com.tortuga.penzville.city.modules.avaBirthday2017.AB17Module">
+           <config>/modules/events/avaBirthday2017.xml</config>
+       </module>
+        -->
+
+        <!-- MAY 1ST 2017 -->
+        <!--
+       <module class="com.tortuga.penzville.city.modules.may1st2017.M1ST17Module">
+           <config>/modules/events/may1st2017.xml</config>
+       </module>
+        -->
+
+        <!-- FIRST APRIL 2017 -->
+        <!--
+        <module class="com.tortuga.penzville.city.modules.firstApril2017.FA17Module">
+            <config>/modules/events/firstApril2017.xml</config>
+        </module>
+        -->
+
+        <!-- SPRING DAY 2017 -->
+        <!--
+       <module class="com.tortuga.penzville.city.modules.springDay2017.SD17Module">
+           <config>/modules/events/springDay2017.xml</config>
+       </module>
+        -->
+
+        <!-- SHROVETIDE 2017-->
+        <!--
+        <module class="com.tortuga.penzville.city.modules.shrovetide2017.ST17Module">
+            <config>/modules/events/shrovetide2017.xml</config>
+        </module>
+        -->
+
+        <!-- NEW YEAR 2017-->
+        <!--
+        <module class="com.tortuga.penzville.city.modules.newyear2017.NY17Module">
+            <config>/modules/events/newyear2017.xml</config>
+            <games>
+                <game id="NY17SnowBattle" gameType="snowBattle" builder="com.tortuga.penzville.city.modules.newyear2017.game.NY17SnowBattleBuilder" />
+            </games>
+        </module>
+        -->
+
+        <!-- HALLOWEEN 2016 -->
+        <!--
+        <module class="com.tortuga.penzville.city.modules.halloween2016.HW16Module">
+            <config>/modules/events/halloween2016.xml</config>
+            <logging>false</logging>
+        </module>
+        -->
+
+        <!-- AVA BIRTHDAY 2016 -->
+        <!--
+        <module class="com.tortuga.penzville.city.modules.avaBirthday2016.AB16Module">
+            <config>/modules/events/avaBirthday2016.xml</config>
+        </module>
+        -->
+
+        <!-- FIRST APRIL 2016 -->
+        <!--
+        <module class="com.tortuga.penzville.city.modules.firstApril2016.FA16Module">
+            <config>/modules/events/firstApril2016.xml</config>
+            <logging>true</logging>
+        </module>
+        -->
+
+        <!-- SPRING DAY 2016 -->
+        <!--
+        <module class="com.tortuga.penzville.city.modules.springDay2016.SD16Module">
+            <config>/modules/events/springDay2016.xml</config>
+            <logging>false</logging>
+        </module>
+        -->
+
+        <!-- NEW YEAR 2016 -->
+        <!--
+        <module class="com.tortuga.penzville.city.modules.newyear2016.NY16Module">
+            <config>/modules/events/newyear2016.xml</config>
+            <logging>false</logging>
+        </module>
+        -->
+
+        <!-- DIROL MODULE -->
+        <!--
+        <module class="com.tortuga.penzville.city.modules.dirol2015.Dirol15Module">
+            <config>/modules/events/dirol2015.xml</config>
+            <logging>false</logging>
+        </module>
+        -->
+
+        <!-- MAY 1ST 2015 -->
+        <!--
+        <module class="com.tortuga.penzville.city.modules.may1st2015.M1ST15Module">
+            <config>/modules/events/may1st2015.xml</config>
+        </module>
+        -->
+
+        <!-- NEW YEAR 2014 -->
+        <!--
+        <module class="com.tortuga.penzville.city.modules.newyear2014.NY14Module">
+            <config>/modules/events/newyear2014.xml</config>
+            <logging>false</logging>
+        </module>
+        -->
+
+        <!-- SAINT VALENTINE 2014 -->
+        <!--
+        <module class="com.tortuga.penzville.city.modules.stVal2014.SV14Module">
+            <config>/modules/events/stval2014.xml</config>
+            <logging>false</logging>
+        </module>
+        -->
+
+        <!-- DZO 2014 -->
+        <!--
+        <module class="com.tortuga.penzville.city.modules.dzo2014.Dzo14Module">
+            <config>/modules/events/dzo2014.xml</config>
+            <logging>false</logging>
+        </module>
+        -->
+
+        <!-- SPRING DAY 2014 -->
+        <!--
+        <module class="com.tortuga.penzville.city.modules.springDay2014.SD14Module">
+            <config>/modules/events/springDay2014.xml</config>
+            <logging>false</logging>
+        </module>
+        -->
+
+        <!-- SAINT VALENTINE 2015 -->
+        <!--
+        <module class="com.tortuga.penzville.city.modules.stVal2015.SV15Module">
+            <config>/modules/events/stval2015.xml</config>
+            <logging>false</logging>
+        </module>
+        -->
+    </modules>
+</config>

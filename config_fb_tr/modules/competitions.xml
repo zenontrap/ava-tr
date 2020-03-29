@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <competition type="snowboardRating">
+        <module taskPeriod="1800" competitionPeriod="604800" maxCountTopUsers="10" trophyPrefix="snowboardPlace"
+                ratingFactor="0.1"/>
+        <awards>
+            <award place="1" type="gold" count="299" />
+            <award place="2" type="gold" count="149" />
+            <award place="3" type="gold" count="49" />
+        </awards>
+    </competition>
+
+    <competition type="clanMemberActivity">
+        <module taskPeriod="120" competitionPeriod="90"/>
+        <awards>
+            <award place="1" type="gold" count="299" />
+            <award place="2" type="gold" count="149" />
+            <award place="3" type="gold" count="49" />
+        </awards>
+    </competition>
+</config>

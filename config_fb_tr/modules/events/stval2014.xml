@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module active="true" id="stval2014">
+
+    <inventory>
+        <category id="craftLoot">
+	        <item id="heartpiece" name="HalfHeartLoot@stval2014" icon="HalfHeartIcon@stval2014" label="#halfheartLootLabel"
+	            description="#halfheartLootDescrioption" probability="0.4" gold="0" silver="0" canTrade="0" canSale="0" />
+            <item id="heart" name="HeartLoot@stval2014" icon="HeartIcon@stval2014" label="#heartLootLabel"
+                description="#heartLootDescrioption" probability="1" gold="0" silver="0" canTrade="0" canSale="0" />
+        </category>
+    </inventory>
+    
+    <awards>
+        <award id="1" hearts="15" itemType="furniture" itemId="lmpSV14" gold="20" count="2"
+            icon="CircleLampValentine@stval2014" requestIcon="WallLampValentine@stval2014" receiveIcon="WallGetLampValentine@stval2014"/>
+        
+        <award id="2" hearts="40" itemType="clothesSet" itemId="sv14gacs" gold="50" gender="2"
+            icon="CircleGirlAcsValentine@stval2014" requestIcon="WallGirlAcsValentine@stval2014" receiveIcon="WallGetGirlAcsValentine@stval2014"/>
+        <award id="3" hearts="40" itemType="clothesSet" itemId="sv14bacs" gold="50" gender="1"
+            icon="CircleBoyAcsValentine@stval2014" requestIcon="WallBoyAcsValentine@stval2014" receiveIcon="WallGetBoyAcsValentine@stval2014"/>
+        
+        <award id="4" hearts="75" itemType="furniture" itemId="cstlSV14" gold="60"
+            icon="CircleCastleValentine@stval2014" requestIcon="WallCastleValentine@stval2014" receiveIcon="WallGetCastleValentine@stval2014"/>
+        
+        <award id="5" hearts="125" itemType="clothesSet" itemId="sv14gv" gold="250" gender="2"
+            icon="CircleGirlValentine@stval2014" requestIcon="WallGirlValentine@stval2014" receiveIcon="WallGetGirlValentine@stval2014"/>
+        <award id="6" hearts="125" itemType="clothesSet" itemId="sv14bv" gold="250" gender="1"
+            icon="CircleBoyValentine@stval2014" requestIcon="WallBoyValentine@stval2014" receiveIcon="WallGetBoyValentine@stval2014"/>
+        
+        <award id="7" hearts="200" itemType="furniture" itemId="lvmtrSV14" gold="100"
+            icon="CircleLoveMeterValentine@stval2014" requestIcon="WallLoveMeterValentine@stval2014" receiveIcon="WallGetLoveMeterValentine@stval2014"/>
+        
+        <award id="8" hearts="300" itemType="furnitureSet" itemId="sv14rv" gold="500"
+            icon="CircleRoomValentine@stval2014" requestIcon="WallRoomValentine@stval2014" receiveIcon="WallGetRoomValentine@stval2014"/>
+    </awards>
+    
+    <overloadAwards heartsStep="15">
+        <award id="1" itemType="game" itemId="shell" gold="5" count="5" icon="ShellValentine@stval2014" 
+			 requestIcon="WallShellValentine@stval2014" receiveIcon="WallShellValentine@stval2014"/>
+        <award id="2" itemType="game" itemId="gameChips" gold="5" count="10" icon="ChipValentine@stval2014"
+        	 requestIcon="WallGameChipsValentine@stval2014" receiveIcon="WallGameChipsValentine@stval2014"/>
+        <award id="3" itemType="game" itemId="thread" gold="5" count="3" icon="ThreadsValentine@stval2014" 
+			 requestIcon="WallThreadsValentine@stval2014" receiveIcon="WallThreadsValentine@stval2014"/>
+    </overloadAwards>
+    
+    <confirms>
+	    <confirm type="sv14ConcatHeartpieces" iconType="stVal14:NotificationTitle@stval2014">
+	        <requestSended title="#stVal14ParticipantRequestSendedTitle" message="#stVal14ParticipantRequestSendedMessage" />
+	        <confirm message="#stVal14ParticipantReceivedMessage" />
+	        <approve title="#stVal14ParticipantRequestApprovedTitle" message="#stVal14ParticipantRequestApprovedMessage" />
+	        <decline title="#stVal14ParticipantRequestDeclinedTitle" message="#stVal14ParticipantRequestDeclinedMessage" />
+	    </confirm>
+    </confirms>
+    
+</module>

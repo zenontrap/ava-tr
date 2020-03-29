@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<dictionary>
+    <locale name="tr">
+        <message key="ny17FirButtonCraftGarlandHint">Bir Çelenk Yap</message>
+        <message key="ny17FirButtonAddGarlandHint">Ağacı çelenkle süsle</message>
+        <message key="ny17FirButtonLeftTimeHint">:time: kaldı</message>
+        <message key="ny17Stage1Title">1. Aşama</message>
+        <message key="ny17Stage2Title">2. Aşama</message>
+        <message key="ny17Stage3Title">3. Aşama</message>
+        <message key="ny17Stage4Title">4. Aşama</message>
+        <message key="ny17ProgressDialogTitle">Yeni Yıl Savaşı</message>
+        <message key="ny17Stage1Description">Bir çelenk yap ve Yeni Yıl ağacını onunla süsle</message>
+        <message key="ny17Stage2Description">Kötülerle savaşmak için bir süper güç edin</message>
+        <message key="ny17Stage3Description">Kardan adam minyonlarını yenerek kar taneleri topla</message>
+        <message key="ny17Stage4Description">Kötüleri yenerek kar taneleri topla. Donmaktan kurtulmak için bir kalkan yap.</message>
+        <message key="ny17Stage5Description">Yeni Yıl bölgesinde oyna</message>
+        <message key="ny17StageCompleteDescription">Tebrikler. Aşama tamamlandı! Sınırlı süreliğine kış bayram hediyeleri karşılığında kar tanelerini takas edebilirsin.</message>
+        <message key="ny17TrophyDescription">Kar tanelerini topla ve etkinliğin sonunda eşsiz bir unvan elde et</message>
+        <message key="newyear2017WelcomeDialogTitle">Çalıntı Yeni Yıl</message>
+        <message key="newyear2017WelcomeDialogMessageTop1">Bayramımızı çalmak isteyen kötü kuvvetleri yenilgiye uğrat</message>
+        <message key="newyear2017WelcomeDialogMessageTop2">Daha fazla "kıvılcım" toplamak için mini oyunları oyna</message>
+        <message key="newyear2017WelcomeDialogMessageTop3">Kardam adam minyonlarıyla savaşmak için diğer oyunculara katıl</message>
+        <message key="newyear2017WelcomeDialogMessageTop4">En büyük kötüyü alt et</message>
+        <message key="newyear2017WelcomeDialogMessageMiddle1">Bir sürü ışık topla ve ağacını süsleyecek bir çelenk yap</message>
+        <message key="newyear2017WelcomeDialogMessageMiddle2">Kötüleri yenmek için bir süper güç edin</message>
+        <message key="newyear2017WelcomeDialogMessageMiddle3">Hediyeler karşılığında kar tanelerini takas et</message>
+        <message key="newyear2017WelcomeDialogMessageMiddle4">Kötülere karşı korunmak için bir kalkan yap</message>
+        <message key="newyear2017WelcomeDialogMessageBottom1">Ağacı çelenkle süsle ve tüm etkinlik boyunca sana kar taneleri versin</message>
+        <message key="newyear2017WelcomeDialogMessageBottom4">Son ödülü al ve etkinliği tamamla</message>
+        <message key="ny17ThroughLabel">:time: içinde</message>
+        <message key="ny17PutInTitle">tak</message>
+        <message key="ny17NeedLabel">ihtiyacın olan:</message>
+        <message key="ny17CurrentLabel">elinde olan:</message>
+        <message key="ny17CollectSnowflakesButtonLabel">kar tanelerini topla</message>
+        <message key="ny17ParticipationDialogTitle">Kötülerden bayramı kurtar</message>
+        <message key="ny17ParticipationDialogMessage">Eve götürmen için ücretsiz bir Yeni Yıl ağacı vereceğiz ama ana Yeni Yıl ağacını (ve de bayramı) belirli bir bölgede kurtarman gerekecek</message>
+        <message key="ny17MittensDialogTitle">Eldiven mi lazım? Arkadaşlarını davet et!</message>
+        <message key="ny17MittensDialogMessage">Ne kadar çok arkadaşın Avataria'yı oynarsa her gün o kadar çok eldiven kazanırsın. Sadece oyuna giriş yap ve eldivenlerini toplamayı unutma! Onları tak ve kar topu savaşı yaparak daha fazla kar tanesi toplamak için dışarıya çık!</message>
+        <message key="ny17ThrowSnowballMenuTitle">Kar topu</message>
+        <message key="ny17ThrowSnowballNotificationTitle">Dikkat et! Kar topu!</message>
+        <message key="ny17ThrowSnowballNotificationMessage">:userName:, :genderDrop: sana bir kar topu fırlattı.</message>
+        <message key="ny17UseMittensWearDialogMessage">Ellerini donmaktan kurtarmak için eldiven tak. Böylece eldivenlerin ıslanana kadar kar topu atabilirsin.</message>
+        <message key="ny17NotEnoughMittensWearDialogMessage">Eldivenin yok mu? Hiç sorun değil! Arkadaşlarını oyuna davet et ve eldivenlerini ücretsiz edin!</message>
+        <message key="newYear2017ExchangeSnowflakesDialogTitle">Hediyeler karşılığında takas et!</message>
+        <message key="newYear2017ExchangeSnowflakesDialogMessage">Yeni Yıl hediyeleri için kalan kar tanelerini takas et!</message>
+        <message key="ny17RightPanelButtonCreateEventHintMessage">Bir etkinlik oluştur, arkadaşlarını davet et, tüm kardan adamları alt et ve hediyeler kazan!</message>
+        <message key="ny17EventFilterLabel">Yeni Yıl</message>
+        <message key="ny17LocationName">Kış Savaşı</message>
+        <message key="newyear2017SnowBattleWelcomeDialogTitle">Kış Savaşı</message>
+        <message key="newyear2017SnowBattleWelcomeDialogText">Bir süper güç edin ve herkesin bayramını kurtarmak için kötülerle savaş!</message>
+        <message key="newyear2017SnowBattleAlreadyStart">Oyun başladı. Başka bir etkinlik bul</message>
+        <message key="newyear2017SnowBattleNoGun">Hiç silahın yok bu yüzden savaşa katılamazsın</message>
+        <message key="newyear2017SnowBattleWelcomeDialogTextDescription">Kötülerin minyonlarıyla savaş, kar taneleri kazan ve kazandığın zafer sana bir ödül getirecektir</message>
+        <message key="newyear2017SnowBattleWelcomeDialogAllies">Herkesin bayramını kurtarmak için bir ekip topla</message>
+        <message key="newyear2017SnowBattleWelcomeDialogAlliesMessage">Oyuncular bekleniyor...</message>
+        <message key="ny17GiftExchange">Hediyeler karşılığında kar tanelerini takas et</message>
+        <message key="ny17GiftGun">Süper güç</message>
+        <message key="ny17GiftSkill">Savaş Yeteneği ve XP</message>
+        <message key="ny17GunLabel">Süper güç</message>
+        <message key="ny17ShieldLabel">Antifriz Kalkanı</message>
+        <message key="ny17Lamp1Label">Kırmızı Işık</message>
+        <message key="ny17Lamp2Label">Yeşil Işık</message>
+        <message key="ny17Lamp3Label">Mavi Işık</message>
+        <message key="ny17LampDescription">1. aşamadaki kar topu savaşlarından elde edilebilir</message>
+        <message key="ny17SparkLabel">Kıvılcım</message>
+        <message key="ny17SparkDescription">Mini oyunlar içinde elde edilebilir</message>
+        <message key="ny17LeftTime">:stage: aşamaya kadar :time: kaldı</message>
+        <message key="ny17InterfaceCraftShieldHint">Koruma oluştur</message>
+        <message key="ny17InterfaceHasShieldHint">Koruma etkin durumda</message>
+        <message key="ny17MiniGameVictoryDialogTitle">Yaşasın, zafer!</message>
+        <message key="ny17MiniGameVictoryDialogDescription">Kardan adamlarla savaş ve kar taneleri kazan</message>
+        <message key="newYear2017WallStageGiftMessage">Bir aşamayı tamamlayarak ödül olarak muhteşem bir hediye kazandım. Sen de ister misin? Oyunda görüşmek üzere! :link:</message>
+        <message key="newYear2017WallMiniGameVictoryMessage">Yaşasın, Yeni Yıl mini oyunundaki tüm kardan adamları yendim! :link:</message>
+        <message key="newYear2017WallGetTrophyMessage">Yaşasın yeni bir Yeni Yıl unvanına sahibim! Oyunda görüşmek üzere! :link:</message>
+        <plural key="ny17Snowflakes">
+            <form>kar tanesi</form>
+            <form>kar tanesi</form>
+            <form>kar tanesi</form>
+        </plural>
+        <plural key="ny17Mittens">
+            <form>eldiven</form>
+            <form>eldiven</form>
+            <form>eldiven</form>
+        </plural>
+        <plural key="ny17Friends">
+            <form>arkadaş</form>
+            <form>arkadaş</form>
+            <form>arkadaş</form>
+        </plural>
+    </locale>
+</dictionary>

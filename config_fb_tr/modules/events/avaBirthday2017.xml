@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="avaBirthday2017" excavationEnergyCost="10" createExcavationsCooldown="120" createExcavationsCount="5">
+    <awards>
+        <award id="1" itemType="resource" itemId="gold" icon="QuestGoldCoinIcon@ui" title="#goldLabel" count="250"/>
+
+        <award id="2" itemType="clothesSet" itemId="boyPrtSet" gender="1"
+               receiveIcon="BoyPirateSet@avaBirthday2017"/>
+
+        <award id="3" itemType="clothesSet" itemId="girlPrtSet" gender="2"
+               receiveIcon="GirlPirateSet@avaBirthday2017"/>
+
+        <award id="4" itemType="trophy" itemId="avaBirthdayTrophy2016" icon="TrophyIcon@avaBirthday2016"
+               title="#avaBirthdayTrophy2016Title" olderThanYears="3" count="1529355600"/>
+    </awards>
+
+    <excavationAwards>
+        <award id="1" itemType="resource" itemId="silver" count="50"/>
+        <award id="2" itemType="resource" itemId="energy" count="5"/>
+    </excavationAwards>
+
+    <locations>
+        <location id="yard"/>
+        <location id="park"/>
+        <location id="publicBeach"/>
+    </locations>
+
+    <inventory>
+        <category id="craftLoot">
+            <item id="mapPiece" name="mapPiece@avaBirthday2017" canBuy="0"/>
+        </category>
+    </inventory>
+
+    <loot>
+        <reagent itemId="glamor"/>
+        <reagent itemId="industry"/>
+        <reagent itemId="beauty"/>
+        <reagent itemId="skill"/>
+        <reagent itemId="luck"/>
+        <reagent itemId="diligence"/>
+        <reagent itemId="muse"/>
+        <reagent itemId="idea"/>
+        <reagent itemId="happiness"/>
+        <reagent itemId="phial"/>
+    </loot>
+
+    <mapPieces>
+        <piece id="1" excavationCount="3"/>
+        <piece id="2" excavationCount="10"/>
+        <piece id="3" excavationCount="20"/>
+        <piece id="4" excavationCount="40"/>
+        <piece id="5" excavationCount="100"/>
+        <piece id="6" excavationCount="200"/>
+        <piece id="7" excavationCount="500"/>
+        <piece id="8" excavationCount="1000"/>
+        <piece id="9" excavationCount="1800"/>
+    </mapPieces>
+
+    <animations>
+        <animation name="LookFarAway">
+            <sequence name="start" start="1" length="92" loop="false"/>
+        </animation>
+
+        <animation name="Kick">
+            <sequence name="start" start="1" length="70" loop="false"/>
+        </animation>
+
+        <animation name="Brandish">
+            <sequence name="start" start="1" length="55" loop="false"/>
+        </animation>
+    </animations>
+
+    <public>
+        <location id="publicBeach" zoneId="street" loadingContent="publicBeach,avaBirthday2017" defaultRoomId="pb1">
+            <rooms>
+                <room id="pb1" map="modules/map/avaBirthday2017_beach_map" userCount="15" criticalUserCount="20"
+                      backgroundSound="outside1,outside2" dresscode="beach"/>
+                <room id="pb1e" map="modules/map/avaBirthday2017_beach_map" userCount="30" criticalUserCount="48"
+                      backgroundSound="outside1,outside2" dresscode="beach"/>
+            </rooms>
+        </location>
+    </public>
+</module>

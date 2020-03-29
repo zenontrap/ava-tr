@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dictionary>
+    <locale name="tr">
+        <message key="st17PanLabel">Tava</message>
+        <message key="st17PanDescription">Gözlemeleri pişirecebileğin bir tava</message>
+        <message key="st17ParticipationDialogTitle">Gözleme Haftası’nda yer al.</message>
+        <message key="st17PanCraftDialogDescription">Lezzetli gözlemeler pişirmek için bir tava yap.</message>
+        <message key="st17ProducePancakeMenuTitle">bir gözleme pişir</message>
+        <message key="st17ProgressDialogTitle">Gözleme Haftası!</message>
+        <message key="st17ProgressDialogDescription">Gözleme Haftası’nı kutlayalım! Lezzetli gözlemeler pişirmek için bir tava yap. Arkadaşlarına ikram etmek ya da kendin yemek tamamen sana kalmış. Ücretsiz bir eşsiz unvan kazanmak için bir sürü gözleme pişir!</message>
+        <message key="st17DropPancakeMenuTitle">gözlemeyi at</message>
+        <message key="st17TreatPancakeMenuTitle">gözleme ikram et</message>
+        <message key="st17EmptyPancakeMessage">Gözlemen Yok.</message>
+        <message key="st17AwardDialogTitle">Tebrikler!</message>
+        <message key="st17AwardDialogMessage">Gözlemeler pişirdiğin için sana Gözleme Haftası unvanı veriyoruz. Böyle iyi iş çıkarmaya devam et ve arkadaşlarınla haberleri paylaş!</message>
+        <message key="st17WallGetTrophyMessage">Yaşasın, Gözleme Haftası unvanı kazandım! Oyunda görüşmek üzere! :link:</message>
+        <message key="st17DropPancakeNotificationMessage">:userName: :genderDrop: sana bir gözleme yolladı.</message>
+    </locale>
+</dictionary>

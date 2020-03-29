@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="avaBirthday2018" >
+    <inventory>
+        <category id="craftLoot">
+            <item id="ab18Smile" name="SmileLoot@avaBirthday2018"/>
+        </category>
+    </inventory>
+
+    <goldRate rate="5"/>
+
+    <awards>
+        <award id="1" itemType="clothes" itemId="boyAB18Hat1" gender="1"
+               points="99"
+               icon="RoundCap@avaBirthday2018"
+               receiveIcon="WallHats@avaBirthday2018"
+               hint="ab18Hat1Label"/>
+
+        <award id="2" itemType="clothes" itemId="girlAB18Hat1" gender="2"
+               points="99"
+               icon="RoundCap@avaBirthday2018"
+               receiveIcon="WallHats@avaBirthday2018"
+               hint="ab18Hat1Label"/>
+
+        <award id="3" itemType="furnitureSet" itemId="ab18fs"
+               points="390"
+               icon="RoundBaloons@avaBirthday2018"
+               receiveIcon="WallFurniture@avaBirthday2018"
+               hint="ab18FurnitureHint"/>
+
+        <award id="4" itemType="trophy" itemId="avaBirthdayTrophy2016"
+               points="900"
+               count="1560891600"
+               icon="RoundTitleAva@avaBirthday2018"
+               receiveIcon="WallTitle@avaBirthday2018"
+               hint="avaBirthdayTrophy2016Description"/>
+
+        <award id="5" itemType="sticker" itemId="bushStickerPack"
+               points="1450"
+               icon="RoundStickerBush@avaBirthday2018"
+               receiveIcon="WallStickers@avaBirthday2018"
+               hint="ab18StickerHint"/>
+    </awards>
+</module>

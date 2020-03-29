@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <trophy id="yearAvatar" title="#yearAvatarTitle" description="#yearAvatarDescription"/>
+    <trophy id="activityPlace1" title="#activityPlace1Title" description="#activityPlace1Description"/>
+    <trophy id="activityPlace2" title="#activityPlace2Title" description="#activityPlace2Description"/>
+    <trophy id="activityPlace3" title="#activityPlace3Title" description="#activityPlace3Description"/>
+
+    <trophy id="firstApril16Place1" title="#firstApril16Place1Title" description="#firstApril16Place1Description"/>
+    <trophy id="firstApril16Place2" title="#firstApril16Place2Title" description="#firstApril16Place2Description"/>
+    <trophy id="firstApril16Place3" title="#firstApril16Place3Title" description="#firstApril16Place3Description"/>
+    <trophy id="firstApril16Place4" title="#firstApril16Place4Title" description="#firstApril16Place4Description"/>
+    <trophy id="firstApril16Place5" title="#firstApril16Place5Title" description="#firstApril16Place5Description"/>
+
+    <trophy id="avaBirthdayTrophy2016" title="#avaBirthdayTrophy2016Title" description="#avaBirthdayTrophy2016Description"/>
+
+    <trophy id="familyDay2016" title="#familyDay2016Title" description="#familyDay2016Description"/>
+
+    <trophy id="halloween2016" title="#halloween2016Title" description="#halloween2016Description"/>
+
+    <trophy id="newYear2017" title="#newYear2017Title" description="#newYear2017Description"/>
+
+    <trophy id="freelanceCup" title="#freelanceCupTitle" description="#freelanceCupDescription"/>
+    <trophy id="freelanceExchange" title="#freelanceExchangeTitle" description="#freelanceExchangeDescription"/>
+    <trophy id="freelanceJournal" title="#freelanceJournalTitle" description="#freelanceJournalDescription"/>
+    <trophy id="freelanceMicrophone" title="#freelanceMicrophoneTitle" description="#freelanceMicrophoneDescription"/>
+    <trophy id="freelanceModerator" title="#freelanceModeratorTitle" description="#freelanceModeratorDescription"/>
+    <trophy id="freelanceSupport" title="#freelanceSupportTitle" description="#freelanceSupportDescription"/>
+    <trophy id="freelanceTwitterInstagram" title="#freelanceTwitterInstagramTitle" description="#freelanceTwitterInstagramDescription"/>
+    <trophy id="freelanceVideo" title="#freelanceVideoTitle" description="#freelanceVideoDescription"/>
+
+    <trophy id="springDay2017" title="#springDay2017Title" description="#springDay2017Description"/>
+
+    <trophy id="halloween2017" title="#halloween2017Title" description="#halloween2017Description"/>
+
+    <trophy id="newYear2018" title="#newYear2018Title" description="#newYear2018Description"/>
+
+    <trophy id="snowboardPlace1" title="#snowboardPlace1Title" description="#snowboardPlace1Description"/>
+    <trophy id="snowboardPlace2" title="#snowboardPlace2Title" description="#snowboardPlace2Description"/>
+    <trophy id="snowboardPlace3" title="#snowboardPlace3Title" description="#snowboardPlace3Description"/>
+
+    <trophy id="stVal2018" title="#stVal2018Title" description="#stVal2018Description"/>
+
+    <trophy id="springDay2018" title="#springDay2018Title" description="#springDay2017Description"/>
+
+    <trophy id="firstApril2018" title="#firstApril2018Title" description="#firstApril2018Description"/>
+
+    <trophy id="avatarBirthday" title="#avatarBirthdayTitle" description="#avatarBirthdayDescription"/>
+
+    <trophy id="weddingDay" title="#weddingDayTitle" description="#weddingDayDescription"/>
+
+    <trophy id="halloween2018" title="#halloween2018Title" description="#halloween2018Description"/>
+
+    <trophy id="newYear2019" title="#newYear2019Title" description="#newYear2019Description"/>
+
+    <trophy id="dzo2019" title="#dzo2019Title" description="#dzo2019Description"/>
+
+    <trophy id="firstApril2019" title="#firstApril2019Title" description="#firstApril2019Description"/>
+
+    <trophy id="autumnEvent2019" title="#autumnEvent2019Title" description="#autumnEvent2019Description"/>
+</config>

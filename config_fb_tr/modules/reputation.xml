@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <version>1</version>
+
+    <reputationRange minValue="-600" maxValue="600" complaintRejectMinValue="-50"/>
+    <reputationAutoAdditionRange minValue="-600" maxValue="0" value="2" timePeriod="86400"/>
+    <reputationAutoSubtractionRange minValue="0" maxValue="600" value="-4" timePeriod="86400"/>
+
+    <awards>
+        <award id="0" minValue="-600" maxValue="-550" type="antiAvaMan" rank="#penaltyRank8" description="#antiAvaManDescription"/>
+        <award id="1" minValue="-460" maxValue="600" type="miniGames" rank="#penaltyRank7" description="#miniGamesDescription"/>
+        <award id="2" minValue="-360" maxValue="600" type="fortuneWheelPenalty" rank="#penaltyRank6" description="#fortunePenaltyDescription" factor="0.9"/>
+        <award id="3" minValue="-270" maxValue="600" type="relationsPenalty" rank="#penaltyRank5" description="#relationPenaltyDescription"/>
+        <award id="4" minValue="-190" maxValue="600" type="ratingPenalty" rank="#penaltyRank4" description="#activityPenaltyDescription" factor="0.9"/>
+        <award id="5" minValue="-110" maxValue="600" type="createEvents" rank="#penaltyRank3" description="#createEventsDescription"/>
+        <award id="6" minValue="-65" maxValue="600" type="emotions" rank="#penaltyRank2" description="#emotionsDescription"/>
+        <award id="7" minValue="-25" maxValue="600" type="breakAbility" rank="#penaltyRank1" description="#brakeFurniturePenaltyDescription"/>
+
+        <award id="8" minValue="0" maxValue="600" rank="#nobodyRank"/>
+
+        <award id="9" minValue="25" maxValue="600" type="lootFortune" factor="0.2" rank="#bonusRank1" description="#lootFortuneDescription"/>
+        <award id="10" minValue="65" maxValue="600" type="ratingBonus" rank="#bonusRank2" description="#activityBonusDescription" factor="1.05"/>
+        <award id="11" minValue="110" maxValue="600" type="fortuneWheelBonus" rank="#bonusRank3" description="#fortuneBonusDescription" factor="1.1"/>
+        <award id="12" minValue="190" maxValue="600" type="clothesSale" rank="#bonusRank4" description="#clothesSaleDescription" factor="0.05"/>
+        <award id="13" minValue="270" maxValue="600" type="ratingDoubleBonus" rank="#bonusRank5" description="#activityBonusDescription" factor="1.1"/>
+        <award id="14" minValue="360" maxValue="600" type="eventIcon" rank="#bonusRank6" description="#eventStarDescription"/>
+        <award id="15" minValue="460" maxValue="600" type="rename" rank="#bonusRank7" description="#renameDescription"/>
+        <award id="16" minValue="550" maxValue="600" type="avaMan" rank="#bonusRank8" description="#avaManDescription"/>
+
+    </awards>
+
+</config>

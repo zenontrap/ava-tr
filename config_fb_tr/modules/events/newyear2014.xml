@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module active="true" id="newyear2014">
+
+    <inventory>
+        <category id="craftLoot">
+	        <item id="snowflake" name="SnowflakeLoot@newyear2014" icon="SnowflakeIcon@newyear2014" label="#snowflakeLootLabel"
+	            description="#snowflakeLootDescrioption" probability="0.4" gold="0" silver="0" canTrade="0" canSale="0" />
+            <item id="mitten" name="MittenLoot@newyear2014" icon="MittenIcon@newyear2014" label="#mittenLootLabel"
+                description="#mittenLootDescrioption" probability="0.4" gold="0" silver="0" canTrade="0" canSale="0" />
+        </category>
+    </inventory>
+    
+    <awards>
+        <award id="1" snowflakes="100" itemType="furniture" itemId="chrNY14" gold="20"
+            icon="CirclePaddedStoolIce@newyear2014" requestIcon="PaddedStoolIce@newyear2014" receiveIcon="GetPaddedStoolIce@newyear2014"/>
+        
+        <award id="2" snowflakes="350" itemType="clothesSet" itemId="ny14rim" gold="50" gender="2"
+            icon="CircleGirlAcsIce@newyear2014" requestIcon="GirlAcsIce@newyear2014" receiveIcon="GetGirlAcsIce@newyear2014"/>
+        <award id="3" snowflakes="350" itemType="clothesSet" itemId="ny14hat" gold="50" gender="1"
+            icon="CircleBoyAcsIce@newyear2014" requestIcon="BoyAcsIce@newyear2014" receiveIcon="GetBoyAcsIce@newyear2014"/>
+        
+        <award id="4" snowflakes="750" itemType="furniture" itemId="tngTreeNY14" gold="60"
+            icon="CircleTangerineTreeIce@newyear2014" requestIcon="TangerineTreeIce@newyear2014" receiveIcon="GetTangerineTreeIce@newyear2014"/>
+        
+        <award id="5" snowflakes="1500" itemType="furniture" itemId="armchrNY14" gold="100"
+            icon="CircleArmchairThroneIce@newyear2014" requestIcon="ArmchairThroneIce@newyear2014" receiveIcon="GetArmchairThroneIce@newyear2014"/>
+        
+        <award id="6" snowflakes="3000" itemType="clothesSet" itemId="ny14iq" gold="250" gender="2"
+            icon="CircleSnowQueen@newyear2014" requestIcon="SnowQueen@newyear2014" receiveIcon="GetSnowQueen@newyear2014"/>
+        <award id="7" snowflakes="3000" itemType="clothesSet" itemId="ny14ik" gold="250" gender="1"
+            icon="CircleIceKing@newyear2014" requestIcon="IceKing@newyear2014" receiveIcon="GetIceKing@newyear2014"/>
+        
+        <award id="8" snowflakes="6000" itemType="furnitureSet" itemId="ny14ri" gold="500"
+            icon="CircleRoomIce@newyear2014" requestIcon="IceRoom@newyear2014" receiveIcon="GetIceRoom@newyear2014"/>
+    </awards>
+    
+    <mittens period="21600">
+        <mitten friends="2" count="1" />
+        <mitten friends="5" count="2" />
+        <mitten friends="10" count="4" />
+        <mitten friends="25" count="10" />
+        <mitten friends="50" count="20" />
+        <mitten friends="100" count="30" />
+    </mittens>
+    
+</module>

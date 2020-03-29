@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <holidays>
+        <holiday id="birthday" title="#birthdayTitle" message="#birthdayMessage" daysBefore="10" daysOfAbsence="28"
+                 interval="90" priority="1">
+            <gift id="birthdayGift1" gold="50" silver="10000">
+                <items>
+                    <item itemId="film" count="15"/>
+                    <item itemId="firework1" count="5"/>
+                    <item itemId="fife" count="5"/>
+                </items>
+            </gift>
+        </holiday>
+        <holiday id="weddingDay" title="#weddingDayTitle" message="#weddingDayMessage" daysBefore="10"
+                 daysOfAbsence="28" interval="30" priority="2">
+            <gift id="weddingGift1" gold="10">
+                <items>
+                    <item itemId="vsgstBrush" count="5"/>
+                    <item itemId="weddingBeachGift3" count="1"/>
+                </items>
+            </gift>
+        </holiday>
+    </holidays>
+</config>

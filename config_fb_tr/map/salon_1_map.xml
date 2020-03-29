@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<map width="23" length="25">
+  <viewport x="260" y="-560" width="1024" height="700"/>
+  <items>
+    <item class="backgroundItem" wy="-13.7" wx="21.8" skin="SalonBackground@salon"/>
+    <item class="landscapeItem" wy="4" kind="salonDivision" wz="0" wx="16" id="landscapeItem3"/>
+    <item class="markedLandscapeItem" wy="7" kind="salonWhiteCase" placeId="1" wz="0" wx="15" direction="SW" id="markedLandscapeItem4"/>
+    <item class="markedLandscapeItem" wy="14" kind="salonWhiteCase" placeId="2" wz="0" wx="15" direction="SW" id="markedLandscapeItem5"/>
+    <item class="landscapeItem" wy="14.25" kind="salonDecor2" wz="1" wx="15" id="landscapeItem6"/>
+    <item class="landscapeItem" wy="7.28125" kind="salonDecor1" wz="1" wx="15.03125" id="landscapeItem7"/>
+    <item class="rotaryItem" wy="14" kind="salonTable" wz="0" wx="17" direction="SW" id="rotaryItem14"/>
+    <item class="rotaryItem" wy="0" kind="salonTable" wz="0" wx="7" direction="SE" id="rotaryItem15"/>
+    <item class="rotaryItem" wy="9" kind="salonTable" wz="0" wx="4" direction="SE" id="rotaryItem16"/>
+    <item class="exitItem" roomId="s1" wy="0" kind="salonDoor" locationId="street" wz="0" wx="14.296875" id="exitItem11"/>
+    <item class="sitItem" wy="0" kind="salonBlueSmallSofa" wz="0" wx="11" direction="SE" id="sitItem12"/>
+    <item class="sitItem" wy="6" kind="salonWhiteSmallSofa" wz="0" wx="4" direction="SE" id="sitItem13"/>
+    <item class="sitItem" wy="13" kind="salonBlueLargeSofa" wz="0" wx="20" direction="SW" id="sitItem14"/>
+    <item class="landscapeItem" wy="21" kind="salonFlower" wz="0" wx="18" id="landscapeItem15"/>
+    <item class="landscapeItem" wy="11.390625" kind="salonFlower" wz="0" wx="21.265625" id="landscapeItem16"/>
+    <item class="landscapeItem" wy="7.375" kind="salonFlower" wz="0" wx="1.3125" id="landscapeItem17"/>
+    <item class="landscapeItem" wy="0.265625" kind="salonFlower" wz="0" wx="17.015625" id="landscapeItem18"/>
+    <item class="landscapeItem" wy="0.03125" kind="salonFlower" wz="0" wx="13.71875" id="landscapeItem19"/>
+    <item class="salonActiveChairItem" wy="13" kind="salonActiveChair" placeId="2" wz="0" wx="13" direction="SW" id="salonActiveChairItem21"/>
+    <item class="salonActiveChairItem" wy="6" kind="salonActiveChair" placeId="1" wz="0" wx="13" direction="SW" id="salonActiveChairItem22"/>
+    <item class="rotaryItem" wy="-0.171875" kind="salonLamp" wz="4" wx="15.265625" direction="SW" id="rotaryItem23"/>
+    <item class="dispositionItem" wy="2" wx="16" id="dispositionItem24"/>
+    <item class="salonStylistItem" height="0" length="1" wx="14" placeId="2" wy="14.5" wz="0" width="1" id="salonStylistItem25"/>
+    <item class="salonStylistItem" height="0" length="1" wx="14" placeId="1" wy="7.5" wz="0" width="1" id="salonStylistItem26"/>
+    <item class="salonMagazineItem" wy="14.65625" kind="salonMagazine" wz="1" wx="17.53125" direction="SW" id="salonMagazineItem27"/>
+    <item class="salonMagazineItem" wy="9.546875" kind="salonMagazine" wz="1" wx="5.421875" direction="SE" id="salonMagazineItem28"/>
+    <item class="salonMagazineItem" wy="0.328125" kind="salonMagazine" wz="1" wx="8.578125" direction="SE" id="salonMagazineItem29"/>
+    <item class="walkingGridItem" cols="23" rows="25">
+      <grid>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+      </grid>
+    </item>
+  </items>
+</map>

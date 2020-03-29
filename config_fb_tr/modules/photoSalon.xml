@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <poses>
+        <pose id="tpb1" view="PhotoPose1" icon="BoyAvatarPose1Icon@photoSalon" shadow="BoyAvatarPose1Shadow@photoSalon" gender="boy"/>
+        <pose id="tpb2" view="PhotoPose2" icon="BoyAvatarPose2Icon@photoSalon" shadow="BoyAvatarPose2Shadow@photoSalon" gender="boy"/>
+        <pose id="tpb3" view="PhotoPose3" icon="BoyAvatarPose3Icon@photoSalon" shadow="BoyAvatarPose3Shadow@photoSalon" gender="boy"/>
+        <pose id="tpb4" view="PhotoPose4" icon="BoyAvatarPose4Icon@photoSalon" shadow="BoyAvatarPose4Shadow@photoSalon" gender="boy"/>
+        <pose id="tpb5" view="PhotoPose5" icon="BoyAvatarPose5Icon@photoSalon" shadow="BoyAvatarPose5Shadow@photoSalon" gender="boy"/>
+        <pose id="tpb6" view="PhotoPose6" icon="BoyAvatarPose6Icon@photoSalon" shadow="BoyAvatarPose6Shadow@photoSalon" gender="boy"/>
+        <pose id="tpb7" view="PhotoPose7" icon="BoyAvatarPose7Icon@photoSalon" shadow="BoyAvatarPose7Shadow@photoSalon" gender="boy"/>
+        <pose id="tpb8" view="PhotoPose8" icon="BoyAvatarPose8Icon@photoSalon" shadow="BoyAvatarPose8Shadow@photoSalon" gender="boy"/>
+        <pose id="tpb9" view="PhotoPose9" icon="BoyAvatarPose9Icon@photoSalon" shadow="BoyAvatarPose9Shadow@photoSalon" gender="boy"/>
+
+        <pose id="tpg1" view="PhotoPose1" icon="GirlAvatarPose1Icon@photoSalon" shadow="GirlAvatarPose1Shadow@photoSalon" gender="girl"/>
+        <pose id="tpg2" view="PhotoPose2" icon="GirlAvatarPose2Icon@photoSalon" shadow="GirlAvatarPose2Shadow@photoSalon" gender="girl"/>
+        <pose id="tpg3" view="PhotoPose3" icon="GirlAvatarPose3Icon@photoSalon" shadow="GirlAvatarPose3Shadow@photoSalon" gender="girl"/>
+        <pose id="tpg4" view="PhotoPose4" icon="GirlAvatarPose4Icon@photoSalon" shadow="GirlAvatarPose4Shadow@photoSalon" gender="girl"/>
+        <pose id="tpg5" view="PhotoPose5" icon="GirlAvatarPose5Icon@photoSalon" shadow="GirlAvatarPose5Shadow@photoSalon" gender="girl"/>
+        <pose id="tpg6" view="PhotoPose6" icon="GirlAvatarPose6Icon@photoSalon" shadow="GirlAvatarPose6Shadow@photoSalon" gender="girl"/>
+        <pose id="tpg7" view="PhotoPose7" icon="GirlAvatarPose7Icon@photoSalon" shadow="GirlAvatarPose7Shadow@photoSalon" gender="girl"/>
+        <pose id="tpg8" view="PhotoPose8" icon="GirlAvatarPose8Icon@photoSalon" shadow="GirlAvatarPose8Shadow@photoSalon" gender="girl"/>
+        <pose id="tpg9" view="PhotoPose9" icon="GirlAvatarPose9Icon@photoSalon" shadow="GirlAvatarPose9Shadow@photoSalon" gender="girl"/>
+
+        <pose id="tpg10p" view="PhotoPose10" icon="GirlAvatarPose10Icon@photoSalonPro" shadow="GirlAvatarPose10Shadow@photoSalonPro" gender="girl" photographerLevel="15"/>
+        <pose id="tpb10p" view="PhotoPose10" icon="BoyAvatarPose10Icon@photoSalonPro" shadow="BoyAvatarPose10Shadow@photoSalonPro" gender="boy" photographerLevel="15"/>
+
+        <pose id="tpg11p" view="PhotoPose11" icon="GirlAvatarPose11Icon@photoSalonPro" shadow="GirlAvatarPose11Shadow@photoSalonPro" gender="girl" photographerLevel="3" layer="sit" dependTags="sit"/>
+        <pose id="tpb11p" view="PhotoPose11" icon="BoyAvatarPose11Icon@photoSalonPro" shadow="BoyAvatarPose11Shadow@photoSalonPro" gender="boy" photographerLevel="3" layer="sit" dependTags="sit"/>
+    </poses>
+
+    <compositions>
+
+        <!-- BEACH -->
+
+        <composition themeId="thm1">
+            <pose id="tpb1" x="400" y="560"/>
+            <pose id="tpg1" x="400" y="560"/>
+            <item id="thm1itm1" x="234" y="544" />
+            <item id="thm1itm9" x="326" y="574" />
+            <item id="thm1itm13" x="500" y="574" />
+            <item id="thm1itm8" x="566" y="538" />
+        </composition>
+
+        <composition themeId="thm1">
+            <pose id="tpb1" x="390" y="565"/>
+            <pose id="tpg1" x="390" y="565"/>
+            <item id="thm1itm2" x="496" y="572" />
+            <item id="thm1itm3" x="524" y="554" />
+            <item id="thm1itm5" x="250" y="574" />
+            <item id="thm1itm7" x="458" y="540" />
+        </composition>
+
+        <!-- SPACE -->
+
+        <composition themeId="thm2">
+            <pose id="tpb1" x="400" y="560"/>
+            <pose id="tpg1" x="400" y="560"/>
+            <item id="thm2itm8" x="210" y="524" />
+            <item id="thm2itm11" x="298" y="556" />
+            <item id="thm2itm7" x="522" y="506" />
+            <item id="thm2itm4" x="298" y="224" />
+        </composition>
+
+        <composition themeId="thm2">
+            <pose id="tpb1" x="400" y="560"/>
+            <pose id="tpg1" x="400" y="560"/>
+            <item id="thm2itm6" x="428" y="146" />
+            <item id="thm2itm1" x="196" y="524" />
+            <item id="thm2itm2" x="500" y="454" />
+        </composition>
+
+        <!-- JURASSIC PARK -->
+
+        <composition themeId="thm3">
+            <pose id="tpb1" x="400" y="560"/>
+            <pose id="tpg1" x="400" y="560"/>
+            <item id="thm3itm10" x="400" y="530" />
+        </composition>
+
+        <composition themeId="thm3">
+            <pose id="tpb1" x="400" y="560"/>
+            <pose id="tpg1" x="400" y="560"/>
+            <item id="thm3itm4" x="360" y="200" />
+        </composition>
+
+        <!-- ROCK STAGE -->
+
+        <composition themeId="thm4">
+            <pose id="tpb1" x="400" y="560"/>
+            <pose id="tpg1" x="400" y="560"/>
+            <item id="thm4itm12" x="400" y="470" />
+            <item id="thm4itm5" x="400" y="485" />
+        </composition>
+
+        <composition themeId="thm4">
+            <pose id="tpb1" x="400" y="560"/>
+            <pose id="tpg1" x="400" y="560"/>
+            <item id="thm4itm11" x="400" y="600" />
+            <item id="thm4itm13" x="185" y="150" />
+            <item id="thm4itm3" x="620" y="520" />
+        </composition>
+
+        <!-- RUNWAY -->
+
+        <composition themeId="thm5">
+            <pose id="tpb1" x="400" y="560"/>
+            <pose id="tpg1" x="400" y="560"/>
+            <item id="thm5itm3" x="380" y="326"/>
+            <item id="thm5itm4" x="400" y="85"/>
+        </composition>
+
+        <composition themeId="thm5">
+            <pose id="tpb1" x="400" y="560"/>
+            <pose id="tpg1" x="400" y="560"/>
+            <item id="thm5itm1" x="400" y="600"/>
+            <item id="thm5itm6" x="400" y="388"/>
+        </composition>
+
+        <!-- SKATEPARK -->
+
+        <composition themeId="thm6">
+            <pose id="tpb1" x="330" y="550"/>
+            <pose id="tpg1" x="330" y="550"/>
+            <item id="thm6itm3" x="576" y="478"/>
+            <item id="thm6itm7" x="502" y="492"/>
+        </composition>
+
+        <composition themeId="thm6">
+            <pose id="tpb5" x="430" y="540"/>
+            <pose id="tpg5" x="430" y="540"/>
+            <item id="thm6itm1" x="432" y="528"/>
+            <item id="thm6itm5" x="407" y="390"/>
+        </composition>
+
+        <!-- YACHT -->
+
+        <composition themeId="thm7">
+            <pose id="tpb1" x="330" y="550"/>
+            <pose id="tpg1" x="330" y="550"/>
+            <item id="thm7itm10" x="164" y="440"/>
+            <item id="thm7itm8" x="695" y="325"/>
+        </composition>
+
+        <composition themeId="thm7">
+            <pose id="tpb5" x="430" y="540"/>
+            <pose id="tpg5" x="430" y="540"/>
+            <item id="thm7itm17" x="715" y="450"/>
+            <item id="thm7itm16" x="270" y="310"/>
+        </composition>
+
+        <!-- GYM -->
+
+        <composition themeId="thm8">
+            <pose id="tpb1" x="330" y="550"/>
+            <pose id="tpg1" x="330" y="550"/>
+            <item id="thm8itm1" x="630" y="556"/>
+            <item id="thm8itm6" x="134" y="522"/>
+            <item id="thm8itm10" x="400" y="434"/>
+            <item id="thm8itm11" x="470" y="472"/>
+            <item id="thm8itm2" x="584" y="560"/>
+        </composition>
+
+        <composition themeId="thm8">
+            <pose id="tpb5" x="430" y="540"/>
+            <pose id="tpg5" x="430" y="540"/>
+            <item id="thm8itm4" x="115" y="410"/>
+            <item id="thm8itm8" x="180" y="550"/>
+            <item id="thm8itm5" x="504" y="506"/>
+        </composition>
+
+        <!-- AVAWOOD -->
+
+        <composition themeId="thm9">
+            <pose id="tpb1" x="330" y="550"/>
+            <pose id="tpg1" x="330" y="550"/>
+            <item id="thm9itm7" x="400" y="420"/>
+            <item id="thm9itm4" x="400" y="402"/>
+            <item id="thm9itm8" x="610" y="482"/>
+        </composition>
+
+        <composition themeId="thm9">
+            <pose id="tpb5" x="430" y="540"/>
+            <pose id="tpg5" x="430" y="540"/>
+            <item id="thm9itm1" x="400" y="400"/>
+            <item id="thm9itm2" x="192" y="482"/>
+        </composition>
+
+        <!-- NEW YEAR -->
+
+        <composition themeId="thm10">
+            <pose id="tpb1" x="330" y="550"/>
+            <pose id="tpg1" x="330" y="550"/>
+            <item id="thm10itm7" x="0" y="275"/>
+            <item id="thm10itm8" x="800" y="275"/>
+            <item id="thm10itm2" x="475" y="545"/>
+        </composition>
+
+        <composition themeId="thm10">
+            <pose id="tpb5" x="430" y="540"/>
+            <pose id="tpg5" x="430" y="540"/>
+            <item id="thm10itm3" x="368" y="406"/>
+            <item id="thm10itm6" x="610" y="257"/>
+        </composition>
+
+        <!-- CONAN -->
+
+        <composition themeId="thm11">
+            <pose id="tpb1" x="330" y="550"/>
+            <pose id="tpg1" x="330" y="550"/>
+            <item id="thm11itm5" x="400" y="355"/>
+            <item id="thm11itm3" x="590" y="1"/>
+            <item id="thm11itm3" x="210" y="1"/>
+        </composition>
+
+        <composition themeId="thm11">
+            <pose id="tpb5" x="430" y="540"/>
+            <pose id="tpg5" x="430" y="540"/>
+            <item id="thm11itm4" x="400" y="450"/>
+            <item id="thm11itm2" x="695" y="260"/>
+            <item id="thm11itm2" x="105" y="260"/>
+        </composition>
+
+        <!-- SUPER HEROES -->
+
+        <!--<composition themeId="thm12">-->
+        <!--<pose id="tpb1" x="330" y="550"/>-->
+        <!--<pose id="tpg1" x="330" y="550"/>-->
+        <!--<item id="thm12itm8" x="193" y="355"/>-->
+        <!--<item id="thm12itm2" x="240" y="470"/>-->
+        <!--</composition>-->
+
+        <!--<composition themeId="thm12">-->
+        <!--<pose id="tpb5" x="430" y="540"/>-->
+        <!--<pose id="tpg5" x="430" y="540"/>-->
+        <!--<item id="thm12itm5" x="400" y="436"/>-->
+        <!--<item id="thm12itm6" x="398" y="0"/>-->
+        <!--</composition>-->
+
+        <!-- JAPAN -->
+        <!--
+        <composition themeId="thm13">
+            <pose id="tpb1" x="400" y="500"/>
+            <pose id="tpg1" x="400" y="500"/>
+            <item id="thm13itm4" x="200" y="528" />
+            <item id="thm13itm5" x="364" y="500" />
+            <item id="thm13itm7" x="260" y="457" />
+            <item id="thm13itm8" x="650" y="540" />
+            <item id="thm13itm9" x="156" y="413" />
+        </composition>
+
+        <composition themeId="thm13">
+            <pose id="tpb1" x="390" y="500"/>
+            <pose id="tpg1" x="390" y="500"/>
+            <item id="thm13itm6" x="0" y="600" />
+        </composition>
+-->
+        <!-- PHOTOGRAPHER PROFESSION -->
+
+        <!-- CAFE THEME -->
+
+        <composition themeId="thmPhtgr1">
+            <pose id="tpb4" x="414" y="550"/>
+            <pose id="tpg4" x="414" y="550"/>
+            <item id="thmPhtgr1itm2" x="378" y="448"/>
+            <item id="thmPhtgr1itm8" x="230" y="526"/>
+            <item id="thmPhtgr1itm4" x="200" y="378"/>
+        </composition>
+
+        <composition themeId="thmPhtgr1">
+            <pose id="tpb3" x="252" y="308"/>
+            <pose id="tpg3" x="252" y="308"/>
+            <item id="thmPhtgr1itm5" x="74" y="376"/>
+            <item id="thmPhtgr1itm1" x="352" y="458"/>
+            <item id="thmPhtgr1itm3" x="510" y="416"/>
+        </composition>
+
+        <!--CANYON BAR THEME -->
+
+        <composition themeId="thmPhtgr2">
+            <pose id="tpb1" x="400" y="542"/>
+            <pose id="tpg1" x="400" y="542"/>
+            <item id="thmPhtgr2itm1" x="386" y="456"/>
+            <item id="thmPhtgr2itm3" x="554" y="300"/>
+            <item id="thmPhtgr2itm6" x="300" y="206"/>
+        </composition>
+
+        <composition themeId="thmPhtgr2">
+            <pose id="tpb1" x="400" y="542"/>
+            <pose id="tpg1" x="400" y="542"/>
+            <item id="thmPhtgr2itm8" x="380" y="232"/>
+            <item id="thmPhtgr2itm2" x="214" y="472"/>
+        </composition>
+
+        <!--CLUB THEME -->
+
+        <composition themeId="thmPhtgr3">
+            <pose id="tpb1" x="330" y="550"/>
+            <pose id="tpg1" x="330" y="550"/>
+            <item id="thmPhtgr3itm1" x="671" y="443"/>
+            <item id="thmPhtgr3itm2" x="538" y="444"/>
+        </composition>
+
+        <composition themeId="thmPhtgr3">
+            <pose id="tpb1" x="430" y="540"/>
+            <pose id="tpg1" x="430" y="540"/>
+            <item id="thmPhtgr3itm7" x="449" y="2"/>
+            <item id="thmPhtgr3itm4" x="400" y="251"/>
+        </composition>
+
+        <!--PARK THEME -->
+
+        <composition themeId="thmPhtgr4">
+            <pose id="tpb1" x="400" y="540"/>
+            <pose id="tpg1" x="400" y="540"/>
+            <item id="thmPhtgr4itm8" x="368" y="370"/>
+            <item id="thmPhtgr4itm5" x="468" y="436"/>
+        </composition>
+
+        <composition themeId="thmPhtgr4">
+            <pose id="tpb1" x="400" y="540"/>
+            <pose id="tpg1" x="400" y="540"/>
+            <item id="thmPhtgr4itm2" x="238" y="538"/>
+            <item id="thmPhtgr4itm11" x="154" y="510"/>
+            <item id="thmPhtgr4itm1" x="262" y="422"/>
+        </composition>
+
+        <!--WEDDING BEACH THEME -->
+
+        <composition themeId="thmPhtgr5">
+            <pose id="tpb1" x="400" y="540"/>
+            <pose id="tpg1" x="400" y="540"/>
+            <item id="thmPhtgr5itm4" x="330" y="258"/>
+            <item id="thmPhtgr5itm10" x="490" y="390"/>
+            <item id="thmPhtgr5itm6" x="401" y="351"/>
+        </composition>
+
+        <composition themeId="thmPhtgr5">
+            <pose id="tpb1" x="400" y="540"/>
+            <pose id="tpg1" x="400" y="540"/>
+            <item id="thmPhtgr5itm1" x="402" y="404"/>
+            <item id="thmPhtgr5itm8" x="378" y="326"/>
+            <item id="thmPhtgr5itm5" x="188" y="430"/>
+        </composition>
+    </compositions>
+
+    <themes>
+        <theme id="thm1" label="#theme1Label" icon="BeachThemeIcon@photoSalon" background="BeachThemeBg@photoSalon" price="1" maxUsers="5" index="1">
+            <!--
+               Layers: sky, l1, ground
+            -->
+            <item id="thm1itm1" label="#theme1Item1Label" view="Barrel@photoSalon" icon="BarrelIcon@photoSalon" maxCount="3"/>
+            <item id="thm1itm2" label="#theme1Item2Label" view="Bomb1@photoSalon" icon="Bomb1Icon@photoSalon"/>
+            <item id="thm1itm3" label="#theme1Item3Label" view="Bomb2@photoSalon" icon="Bomb2Icon@photoSalon"/>
+            <item id="thm1itm4" label="#theme1Item4Label" view="Bush@photoSalon" icon="BushIcon@photoSalon"/>
+            <item id="thm1itm5" label="#theme1Item5Label" view="Cannon@photoSalon" icon="CannonIcon@photoSalon"/>
+            <item id="thm1itm6" label="#theme1Item6Label" view="Cannonballs@photoSalon" icon="CannonballsIcon@photoSalon"/>
+            <item id="thm1itm7" label="#theme1Item7Label" view="Chest@photoSalon" icon="ChestIcon@photoSalon"/>
+            <item id="thm1itm8" label="#theme1Item8Label" view="Palm@photoSalon" icon="PalmIcon@photoSalon"/>
+            <item id="thm1itm9" label="#theme1Item9Label" view="Saber@photoSalon" icon="SaberIcon@photoSalon"/>
+            <item id="thm1itm10" label="#theme1Item10Label" view="Shell@photoSalon" icon="ShellIcon@photoSalon"/>
+            <item id="thm1itm11" label="#theme1Item11Label" view="Ship@photoSalon" icon="ShipIcon@photoSalon" layer="l1"/>
+            <item id="thm1itm12" label="#theme1Item12Label" view="Toucan@photoSalon" icon="ToucanIcon@photoSalon" layer="ground,l1,sky"/>
+            <item id="thm1itm13" label="#theme1Item13Label" view="Treasure@photoSalon" icon="TreasureIcon@photoSalon"/>
+        </theme>
+
+        <theme id="thm2" label="#theme2Label" icon="SpaceThemeIcon@photoSalon" background="SpaceThemeBg@photoSalon" price="1" maxUsers="5" index="2">
+            <!--
+               Layers: sky, l0, l1, ground
+            -->
+            <item id="thm2itm1" label="#theme2Item1Label" view="BlueTree@photoSalon" icon="BlueTreeIcon@photoSalon"/>
+            <item id="thm2itm2" label="#theme2Item2Label" view="BrainFactory@photoSalon" icon="BrainFactoryIcon@photoSalon" layer="l1"/>
+            <item id="thm2itm3" label="#theme2Item3Label" view="BubbleAverage@photoSalon" icon="BubbleAverageIcon@photoSalon" layer="sky"/>
+            <item id="thm2itm4" label="#theme2Item4Label" view="BubbleBig@photoSalon" icon="BubbleBigIcon@photoSalon" layer="sky"/>
+            <item id="thm2itm5" label="#theme2Item5Label" view="BubbleSmall@photoSalon" icon="BubbleSmallIcon@photoSalon" layer="sky"/>
+            <item id="thm2itm6" label="#theme2Item6Label" view="Comet@photoSalon" icon="CometIcon@photoSalon" layer="sky"/>
+            <item id="thm2itm7" label="#theme2Item7Label" view="Flower@photoSalon" icon="FlowerIcon@photoSalon"/>
+            <item id="thm2itm8" label="#theme2Item8Label" view="Robat@photoSalon" icon="RobatIcon@photoSalon"/>
+            <item id="thm2itm9" label="#theme2Item9Label" view="SpaceAnemones@photoSalon" icon="SpaceAnemonesIcon@photoSalon" layer="l0"/>
+            <item id="thm2itm10" label="#theme2Item10Label" view="StoneBig@photoSalon" icon="StoneBigIcon@photoSalon"/>
+            <item id="thm2itm11" label="#theme2Item11Label" view="StoneSmall@photoSalon" icon="StoneSmallIcon@photoSalon"/>
+        </theme>
+
+        <theme id="thm3" label="#theme3Label" icon="JurassicParkIcon@photoSalon" background="JurassicParkThemeBg@photoSalon" price="1" maxUsers="5" index="3">
+            <!--
+                    Layers: sky, trees, dyno, ground
+                    -->
+            <item id="thm3itm1" label="#theme3Item1Label" view="JPCarnivorousPlant@photoSalon" icon="JPCarnivorousPlantIcon@photoSalon"/>
+            <item id="thm3itm2" label="#theme3Item2Label" view="JPDyno@photoSalon" icon="JPDynoIcon@photoSalon" layer="dyno" maxCount="3"/>
+            <item id="thm3itm3" label="#theme3Item3Label" view="JPHomonym@photoSalon" icon="JPHomonymIcon@photoSalon"/>
+            <item id="thm3itm4" label="#theme3Item4Label" view="JPMeteorite@photoSalon" icon="JPMeteoriteIcon@photoSalon" layer="sky"/>
+            <item id="thm3itm5" label="#theme3Item5Label" view="JPMolluscs@photoSalon" icon="JPMolluscsIcon@photoSalon"/>
+            <item id="thm3itm6" label="#theme3Item6Label" view="JPRafflesia@photoSalon" icon="JPRafflesiaIcon@photoSalon"/>
+            <item id="thm3itm7" label="#theme3Item7Label" view="JPReed@photoSalon" icon="JPReedIcon@photoSalon"/>
+            <item id="thm3itm8" label="#theme3Item8Label" view="JPStone1@photoSalon" icon="JPStone1Icon@photoSalon"/>
+            <item id="thm3itm9" label="#theme3Item9Label" view="JPStone2@photoSalon" icon="JPStone2Icon@photoSalon"/>
+            <item id="thm3itm10" label="#theme3Item10Label" view="JPTrees@photoSalon" icon="JPTreesIcon@photoSalon" layer="trees" maxCount="1"/>
+        </theme>
+
+        <theme id="thm4" label="#theme4Label" icon="RockStageThemeIcon@photoSalon" background="RockStageThemeBg@photoSalon" price="1" maxUsers="5" index="4">
+            <!--
+                Layers: sky, p1, pod1, s1, s2, ground
+            -->
+            <item id="thm4itm1" label="#theme4Item1Label" view="RockStageAmplifier@photoSalon" icon="RockStageAmplifierIcon@photoSalon"/>
+            <item id="thm4itm2" label="#theme4Item2Label" view="RockStageBassGuitar@photoSalon" icon="RockStageBassGuitarIcon@photoSalon" maxCount="5"/>
+            <item id="thm4itm3" label="#theme4Item3Label" view="RockStageCombo1@photoSalon" icon="RockStageCombo1Icon@photoSalon"/>
+            <item id="thm4itm4" label="#theme4Item4Label" view="RockStageCombo2@photoSalon" icon="RockStageCombo2Icon@photoSalon"/>
+            <item id="thm4itm5" label="#theme4Item5Label" view="RockStageDrumkit@photoSalon" icon="RockStageDrumkitIcon@photoSalon" maxCount="2"/>
+            <item id="thm4itm6" label="#theme4Item6Label" view="RockStageFire@photoSalon" icon="RockStageFireIcon@photoSalon" maxCount="5"/>
+            <item id="thm4itm7" label="#theme4Item7Label" view="RockStageGuitar@photoSalon" icon="RockStageGuitarIcon@photoSalon" maxCount="5"/>
+            <item id="thm4itm8" label="#theme4Item8Label" view="RockStageLight@photoSalon" icon="RockStageLightIcon@photoSalon"/>
+            <item id="thm4itm9" label="#theme4Item9Label" view="RockStageMic@photoSalon" icon="RockStageMicIcon@photoSalon" maxCount="5"/>
+            <item id="thm4itm10" label="#theme4Item10Label" view="RockStageMonitor@photoSalon" icon="RockStageMonitorIcon@photoSalon"/>
+            <item id="thm4itm11" label="#theme4Item11Label" view="RockStagePeoples@photoSalon" icon="RockStagePeoplesIcon@photoSalon" layer="p1" maxCount="1"/>
+            <item id="thm4itm12" label="#theme4Item12Label" view="RockStagePlatform@photoSalon" icon="RockStagePlatformIcon@photoSalon" layer="pod1" maxCount="2"/>
+            <item id="thm4itm13" label="#theme4Item13Label" view="RockStageSkulls@photoSalon" icon="RockStageSkullsIcon@photoSalon" layer="s1,s2"/>
+            <item id="thm4itm14" label="#theme4Item14Label" view="RockStageSoffits@photoSalon" icon="RockStageSoffitsIcon@photoSalon"/>
+            <item id="thm4itm15" label="#theme4Item15Label" view="RockStageSpeaker@photoSalon" icon="RockStageSpeakerIcon@photoSalon"/>
+        </theme>
+
+        <theme id="thm5" label="#theme5Label" icon="RunwayThemeIcon@photoSalon" background="RunwayThemeBg@photoSalon" price="1" maxUsers="5" index="5">
+            <!--
+                Layers: audience, models, sofits, wall, ground
+            -->
+            <item id="thm5itm1" label="#theme5Item1Label" view="RunwayAudience@photoSalon" icon="RunwayAudienceIcon@photoSalon" layer="audience" maxCount="1"/>
+            <item id="thm5itm2" label="#theme5Item2Label" view="RunwayFloorLight@photoSalon" icon="RunwayFloorLightIcon@photoSalon" maxCount="5"/>
+            <item id="thm5itm3" label="#theme5Item3Label" view="RunwayModels@photoSalon" icon="RunwayModelsIcon@photoSalon" layer="models" maxCount="2"/>
+            <item id="thm5itm4" label="#theme5Item4Label" view="RunwaySofits@photoSalon" icon="RunwaySofitsIcon@photoSalon" layer="sofits" maxCount="1"/>
+            <item id="thm5itm5" label="#theme5Item5Label" view="RunwayWallFlowers@photoSalon" icon="RunwayWallFlowersIcon@photoSalon" layer="wall" maxCount="1"/>
+            <item id="thm5itm6" label="#theme5Item6Label" view="RunwayWallScrap@photoSalon" icon="RunwayWallScrapIcon@photoSalon" layer="wall" maxCount="1"/>
+        </theme>
+
+        <theme id="thm6" label="#theme6Label" icon="SkateparkThemeIcon@photoSalon" background="SkateparkThemeBg@photoSalon" price="1" maxUsers="5" index="6">
+            <!--
+                Layers: audience, models, sofits, wall, ground
+            -->
+            <item id="thm6itm1" label="#theme6Item1Label" view="SkateparkBoardH@photoSalon" icon="SkateparkBoardHIcon@photoSalon" maxCount="5"/>
+            <item id="thm6itm2" label="#theme6Item2Label" view="SkateparkBoardV@photoSalon" icon="SkateparkBoardVIcon@photoSalon" maxCount="5"/>
+            <item id="thm6itm3" label="#theme6Item3Label" view="SkateparkBridge@photoSalon" icon="SkateparkBridgeIcon@photoSalon" maxCount="2"/>
+            <item id="thm6itm5" label="#theme6Item5Label" view="SkateparkLoop@photoSalon" icon="SkateparkLoopIcon@photoSalon" layer="loop" maxCount="1"/>
+            <item id="thm6itm6" label="#theme6Item6Label" view="SkateparkRampa@photoSalon" icon="SkateparkRampaIcon@photoSalon" layer="rampa" maxCount="1"/>
+            <item id="thm6itm7" label="#theme6Item7Label" view="SkateparkSkater1@photoSalon" icon="SkateparkSkater1Icon@photoSalon" layer="sk1" maxCount="1"/>
+            <item id="thm6itm8" label="#theme6Item8Label" view="SkateparkSkater2@photoSalon" icon="SkateparkSkater2Icon@photoSalon" layer="sk2" maxCount="1"/>
+            <item id="thm6itm9" label="#theme6Item9Label" view="SkateparkSkater3@photoSalon" icon="SkateparkSkater3Icon@photoSalon" layer="sk3" maxCount="1"/>
+            <item id="thm6itm10" label="#theme6Item10Label" view="SkateparkTramplin@photoSalon" icon="SkateparkTramplinIcon@photoSalon" maxCount="3"/>
+            <item id="thm6itm11" label="#theme6Item11Label" view="SkateparkTramplinWood@photoSalon" icon="SkateparkTramplinWoodIcon@photoSalon" maxCount="3"/>
+        </theme>
+
+        <theme id="thm7" label="#theme7Label" icon="YachtThemeIcon@photoSalon" background="YachtThemeBg@photoSalon" price="1" maxUsers="5" index="7">
+            <!--
+                Layers: dolphins, chairs, paraglider, sky, ground
+            -->
+            <item id="thm7itm1" label="#theme7Item1Label" view="YachtBallGY@photoSalon" icon="YachtBallGYIcon@photoSalon" maxCount="5" layer="sky"/>
+            <item id="thm7itm2" label="#theme7Item2Label" view="YachtBallGYS@photoSalon" icon="YachtBallGYSIcon@photoSalon" maxCount="5"/>
+            <item id="thm7itm3" label="#theme7Item3Label" view="YachtBallRY@photoSalon" icon="YachtBallRYIcon@photoSalon" maxCount="5" layer="sky"/>
+            <item id="thm7itm4" label="#theme7Item4Label" view="YachtBallRYS@photoSalon" icon="YachtBallRYSIcon@photoSalon" maxCount="5"/>
+            <item id="thm7itm5" label="#theme7Item5Label" view="YachtBallStar@photoSalon" icon="YachtBallStarIcon@photoSalon" maxCount="5" layer="sky"/>
+            <item id="thm7itm6" label="#theme7Item6Label" view="YachtBallStarS@photoSalon" icon="YachtBallStarSIcon@photoSalon" maxCount="5"/>
+
+            <item id="thm7itm7" label="#theme7Item7Label" view="YachtChair@photoSalon" icon="YachtChairIcon@photoSalon" maxCount="5" layer="chairs"/>
+            <item id="thm7itm8" label="#theme7Item8Label" view="YachtDolphins@photoSalon" icon="YachtDolphinsIcon@photoSalon" maxCount="1" layer="dolphins"/>
+            <item id="thm7itm9" label="#theme7Item9Label" view="YachtFins@photoSalon" icon="YachtFinsIcon@photoSalon" maxCount="5"/>
+            <item id="thm7itm10" label="#theme7Item10Label" view="YachtFishingRod@photoSalon" icon="YachtFishingRodIcon@photoSalon" maxCount="5"/>
+            <item id="thm7itm11" label="#theme7Item11Label" view="YachtGarland@photoSalon" icon="YachtGarlandIcon@photoSalon" maxCount="1" layer="garland"/>
+            <item id="thm7itm12" label="#theme7Item12Label" view="YachtLifebuoy@photoSalon" icon="YachtLifebuoyIcon@photoSalon" maxCount="5"/>
+            <item id="thm7itm13" label="#theme7Item13Label" view="YachtLounge@photoSalon" icon="YachtLoungeIcon@photoSalon" maxCount="5" layer="chairs"/>
+            <item id="thm7itm14" label="#theme7Item14Label" view="YachtOxygenGreen@photoSalon" icon="YachtOxygenGreenIcon@photoSalon" maxCount="5"/>
+            <item id="thm7itm15" label="#theme7Item15Label" view="YachtOxygenYellow@photoSalon" icon="YachtOxygenYellowIcon@photoSalon" maxCount="5"/>
+            <item id="thm7itm16" label="#theme7Item16Label" view="YachtParaglider@photoSalon" icon="YachtParagliderIcon@photoSalon" maxCount="1" layer="paraglider" rotate="0"/>
+            <item id="thm7itm17" label="#theme7Item17Label" view="YachtSurfBlue@photoSalon" icon="YachtSurfboardBlueIcon@photoSalon" maxCount="5"/>
+            <item id="thm7itm18" label="#theme7Item18Label" view="YachtSurfRed@photoSalon" icon="YachtSurfboardRedIcon@photoSalon" maxCount="5"/>
+        </theme>
+
+        <theme id="thm8" label="#theme8Label" icon="GumThemeIcon@photoSalon" background="GumThemeBg@photoSalon" price="1" maxUsers="5" index="8">
+            <!--
+               Layers: sw, pb, carpets, floor2, ground
+            -->
+            <item id="thm8itm1" label="#theme8Item1Label" view="GumWeight32@photoSalon" icon="GumWeight32Icon@photoSalon" maxCount="5"/>
+            <item id="thm8itm2" label="#theme8Item1Label" view="GumWeight16@photoSalon" icon="GumWeight16Icon@photoSalon" maxCount="5"/>
+            <item id="thm8itm3" label="#theme8Item1Label" view="GumTrampoline@photoSalon" icon="GumTrampolineIcon@photoSalon" maxCount="3" layer="floor2"/>
+            <item id="thm8itm4" label="#theme8Item1Label" view="GumSwedishWall@photoSalon" icon="GumSwedishWallIcon@photoSalon" maxCount="1" layer="sw"/>
+            <item id="thm8itm5" label="#theme8Item1Label" view="GumRunningTrack@photoSalon" icon="GumRunningTrackIcon@photoSalon" maxCount="3" layer="floor2"/>
+            <item id="thm8itm6" label="#theme8Item1Label" view="GumRodStand@photoSalon" icon="GumRodStandIcon@photoSalon" maxCount="3" layer="floor2"/>
+            <item id="thm8itm7" label="#theme8Item1Label" view="GumRod@photoSalon" icon="GumRodIcon@photoSalon" maxCount="5" layer="floor2"/>
+            <item id="thm8itm8" label="#theme8Item1Label" view="GumPunchingBag@photoSalon" icon="GumPunchingBagIcon@photoSalon" maxCount="1" layer="pb"/>
+            <item id="thm8itm9" label="#theme8Item1Label" view="GumMatRedFront@photoSalon" icon="GumMatRedFrontIcon@photoSalon" maxCount="5" layer="carpets"/>
+            <item id="thm8itm10" label="#theme8Item1Label" view="GumMatRed@photoSalon" icon="GumMatRedIcon@photoSalon" maxCount="5" layer="carpets"/>
+            <item id="thm8itm11" label="#theme8Item1Label" view="GumMatGreen@photoSalon" icon="GumMatGreenIcon@photoSalon" maxCount="5" layer="carpets"/>
+            <item id="thm8itm12" label="#theme8Item1Label" view="GumDumpbell@photoSalon" icon="GumDumpbellIcon@photoSalon" maxCount="5"/>
+            <item id="thm8itm13" label="#theme8Item1Label" view="GumBike@photoSalon" icon="GumBikeIcon@photoSalon" maxCount="5" layer="floor2"/>
+        </theme>
+
+        <theme id="thm9" label="#theme9Label" icon="AvawoodThemeIcon@photoSalon" background="AvawoodThemeBg@photoSalon" price="2" maxUsers="5" index="9">
+            <!--
+                Layers: ground, rc, ff, fb, l, wof
+            -->
+            <item id="thm9itm1" label="#theme9Item1Label" view="AvawoodWalkOfFame@photoSalon" icon="AvawoodWalkOfFameIcon@photoSalon" maxCount="1" layer="wof"/>
+            <item id="thm9itm2" label="#theme9Item2Label" view="AvawoodStand@photoSalon" icon="AvawoodStandIcon@photoSalon" maxCount="2" rotate="0"/>
+            <item id="thm9itm3" label="#theme9Item3Label" view="AvawoodRoses@photoSalon" icon="AvawoodRosesIcon@photoSalon" maxCount="5"/>
+            <item id="thm9itm4" label="#theme9Item4Label" view="AvawoodRedCarpet@photoSalon" icon="AvawoodRedCarpetIcon@photoSalon" maxCount="1" layer="rc"/>
+            <item id="thm9itm5" label="#theme9Item5Label" view="AvawoodLimousine@photoSalon" icon="AvawoodLimousineIcon@photoSalon" maxCount="1" layer="l"/>
+            <item id="thm9itm6" label="#theme9Item6Label" view="AvawoodFenceFront@photoSalon" icon="AvawoodFenceFrontIcon@photoSalon" maxCount="1" layer="ff"/>
+            <item id="thm9itm7" label="#theme9Item7Label" view="AvawoodFenceBack@photoSalon" icon="AvawoodFenceBackIcon@photoSalon" maxCount="1" layer="fb"/>
+            <item id="thm9itm8" label="#theme9Item8Label" view="AvawoodAvatar@photoSalon" icon="AvawoodAvatarIcon@photoSalon" maxCount="2"/>
+            <item id="thm9itm9" label="#theme9Item9Label" view="AvawoodAvatarAward@photoSalon" icon="AvawoodAvatarAwardIcon@photoSalon" maxCount="5"/>
+        </theme>
+
+        <theme id="thm10" label="#theme10Label" icon="NYThemeIcon@photoSalon" background="NYThemeBg@photoSalon" price="2" maxUsers="5" index="10">
+            <!--
+                Layers: ground, sky, spruceL, spruceR, house
+            -->
+            <item id="thm10itm1" label="#theme10Item1Label" view="NYFootprint@photoSalon" icon="NYFootprintIcon@photoSalon" maxCount="5"/>
+            <item id="thm10itm2" label="#theme10Item2Label" view="NYGiftBag@photoSalon" icon="NYGiftBagIcon@photoSalon" maxCount="5"/>
+            <item id="thm10itm3" label="#theme10Item3Label" view="NYHouse@photoSalon" icon="NYHouseIcon@photoSalon" maxCount="1" layer="house"/>
+            <item id="thm10itm4" label="#theme10Item4Label" view="NYSledge@photoSalon" icon="NYSledgeIcon@photoSalon" maxCount="5"/>
+            <item id="thm10itm5" label="#theme10Item5Label" view="NYSnowman@photoSalon" icon="NYSnowmanIcon@photoSalon" maxCount="5"/>
+            <item id="thm10itm6" label="#theme10Item6Label" view="NYSpruce@photoSalon" icon="NYSpruceIcon@photoSalon" maxCount="5"/>
+            <item id="thm10itm7" label="#theme10Item7Label" view="NYSpruceBGLeft@photoSalon" icon="NYSpruceBGLeftIcon@photoSalon" maxCount="1" layer="spruceL" rotate="0"/>
+            <item id="thm10itm8" label="#theme10Item8Label" view="NYSpruceBGRight@photoSalon" icon="NYSpruceBGRightIcon@photoSalon" maxCount="1" layer="spruceR" rotate="0"/>
+            <item id="thm10itm9" label="#theme10Item9Label" view="NYStar@photoSalon" icon="NYStarIcon@photoSalon" maxCount="5" layer="sky"/>
+        </theme>
+
+        <theme id="thm11" label="#theme11Label" icon="ConanThemeIcon@photoSalon" background="ConanThemeBg@photoSalon" price="2" maxUsers="5" index="11" isVip="1">
+
+            <!--Layers: magicStone, treasure, weapon, ground, topLine, throne, columnsLine-->
+
+            <item id="thm11itm1" label="#theme11Item1Label" view="ConanAxe@photoSalon" icon="ConanAxeIcon@photoSalon" maxCount="5" layer="treasure"/>
+            <item id="thm11itm2" label="#theme11Item2Label" view="ConanColumn@photoSalon" icon="ConanColumnIcon@photoSalon" maxCount="5" layer="columnsLine"/>
+            <item id="thm11itm3" label="#theme11Item3Label" view="ConanFabric@photoSalon" icon="ConanFabricIcon@photoSalon" maxCount="5" layer="topLine"/>
+            <item id="thm11itm4" label="#theme11Item4Label" view="ConanMagicStone@photoSalon" icon="ConanMagicStoneIcon@photoSalon" maxCount="1" layer="magicStone"/>
+            <item id="thm11itm5" label="#theme11Item5Label" view="ConanThrone@photoSalon" icon="ConanThroneIcon@photoSalon" maxCount="5" layer="throne"/>
+            <item id="thm11itm6" label="#theme11Item6Label" view="ConanTreasure1@photoSalon" icon="ConanTreasure1Icon@photoSalon" maxCount="25" layer="treasure"/>
+            <item id="thm11itm7" label="#theme11Item7Label" view="ConanTreasure2@photoSalon" icon="ConanTreasure2Icon@photoSalon" maxCount="25" layer="treasure"/>
+            <item id="thm11itm8" label="#theme11Item8Label" view="ConanWeapon@photoSalon" icon="ConanWeaponIcon@photoSalon" maxCount="6" layer="weapon"/>
+        </theme>
+
+        <!--<theme id="thm12" label="#theme12Label" icon="SuperHeroesThemeIcon@photoSalon" background="SuperHeroesThemeBg@photoSalon" price="2" maxUsers="8" index="12">-->
+        <!--
+            Layers: ground, robot1, robot2, projectors, airships, platform
+        -->
+        <!--<item id="thm12itm1" label="#theme12Item1Label" view="SuperHeroesAirship@photoSalon" icon="SuperHeroesAirshipIcon@photoSalon" maxCount="5" layer="airships"/>-->
+        <!--<item id="thm12itm2" label="#theme12Item2Label" view="SuperHeroesBox1@photoSalon" icon="SuperHeroesBox1Icon@photoSalon" maxCount="5"/>-->
+        <!--<item id="thm12itm3" label="#theme12Item3Label" view="SuperHeroesBox2@photoSalon" icon="SuperHeroesBox2Icon@photoSalon" maxCount="5"/>-->
+        <!--<item id="thm12itm4" label="#theme12Item4Label" view="SuperHeroesFlashlite@photoSalon" icon="SuperHeroesFlashliteIcon@photoSalon" maxCount="5"/>-->
+        <!--<item id="thm12itm5" label="#theme12Item5Label" view="SuperHeroesPlatform@photoSalon" icon="SuperHeroesPlatformIcon@photoSalon" maxCount="1" layer="platform" rotate="0"/>-->
+        <!--<item id="thm12itm6" label="#theme12Item6Label" view="SuperHeroesProjectors@photoSalon" icon="SuperHeroesProjectorsIcon@photoSalon" maxCount="1" layer="projectors" rotate="0"/>-->
+        <!--<item id="thm12itm7" label="#theme12Item7Label" view="SuperHeroesRobot1@photoSalon" icon="SuperHeroesRobot1Icon@photoSalon" maxCount="2" layer="ground"/>-->
+        <!--<item id="thm12itm8" label="#theme12Item8Label" view="SuperHeroesRobot2@photoSalon" icon="SuperHeroesRobot2Icon@photoSalon" maxCount="1" layer="robot2" rotate="0"/>-->
+        <!--</theme>-->
+
+        <!--
+        <theme id="thm13" label="#theme13Label" icon="JapanThemeIcon@photoSalon" background="JapanThemeBg@photoSalon" price="2" maxUsers="8" index="13" isNew="1" >
+-->            <!--
+               Layers: sky, l1, ground
+            -->
+<!--
+            <item id="thm13itm1" label="#theme13Item1Label" view="JapanFan1@photoSalon" icon="JapanFan1Icon@photoSalon" maxCount="5"/>
+            <item id="thm13itm2" label="#theme13Item2Label" view="JapanFan2@photoSalon" icon="JapanFan2Icon@photoSalon" maxCount="5"/>
+            <item id="thm13itm3" label="#theme13Item3Label" view="JapanKatana@photoSalon" icon="JapanKatanaIcon@photoSalon" maxCount="5"/>
+            <item id="thm13itm4" label="#theme13Item4Label" view="JapanPetals1@photoSalon" icon="JapanPetals1Icon@photoSalon"/>
+            <item id="thm13itm5" label="#theme13Item5Label" view="JapanPetals2@photoSalon" icon="JapanPetals2Icon@photoSalon"/>
+            <item id="thm13itm6" label="#theme13Item6Label" view="JapanPond@photoSalon" icon="JapanPondIcon@photoSalon" maxCount="1" rotate="0" layer="l1"/>
+            <item id="thm13itm7" label="#theme13Item7Label" view="JapanRockDecor@photoSalon" icon="JapanRockDecorIcon@photoSalon" maxCount="3"/>
+            <item id="thm13itm8" label="#theme13Item8Label" view="JapanSakuraTree1@photoSalon" icon="JapanSakuraTree1Icon@photoSalon" maxCount="2"/>
+            <item id="thm13itm9" label="#theme13Item9Label" view="JapanSakuraTree2@photoSalon" icon="JapanSakuraTree2Icon@photoSalon" maxCount="2"/>
+        </theme>
+-->
+        <!-- PHOTOGRAPHER -->
+
+        <theme id="thmPhtgr1" label="#themePhtgr1Label" icon="CafeThemeIcon@photoSalonPro" background="CafeThemeBg@photoSalonPro" price="5" maxUsers="5" photographerLevel="3" location="cafe" index="95">
+            <item id="thmPhtgr1itm1" label="#thmPhtgr1Item1Label" view="CafeBenchAssetSW@photoSalonPro" icon="CafeBenchAssetSWIcon@photoSalonPro" maxCount="2" tags="sit"/>
+            <item id="thmPhtgr1itm2" label="#thmPhtgr1Item2Label" view="CafeChairAssetSW@photoSalonPro" icon="CafeChairAssetSWIcon@photoSalonPro" maxCount="2" tags="sit"/>
+            <item id="thmPhtgr1itm3" label="#thmPhtgr1Item3Label" view="CafeFlowerAsset@photoSalonPro" icon="CafeFlowerAssetIcon@photoSalonPro" maxCount="5"/>
+            <item id="thmPhtgr1itm4" label="#thmPhtgr1Item4Label" view="CafeFlowerSmallAsset@photoSalonPro" icon="CafeFlowerSmallAssetIcon@photoSalonPro" maxCount="5" layer="table"/>
+            <item id="thmPhtgr1itm5" label="#thmPhtgr1Item5Label" view="CafeHangerAsset@photoSalonPro" icon="CafeHangerAssetIcon@photoSalonPro" maxCount="5"/>
+            <item id="thmPhtgr1itm6" label="#thmPhtgr1Item6Label" view="CafeMenuAsset@photoSalonPro" icon="CafeMenuAssetIcon@photoSalonPro" maxCount="3" layer="table"/>
+            <item id="thmPhtgr1itm7" label="#thmPhtgr1Item7Label" view="CafeNapkinAsset@photoSalonPro" icon="CafeNapkinAssetIcon@photoSalonPro" maxCount="3" layer="table"/>
+            <item id="thmPhtgr1itm8" label="#thmPhtgr1Item8Label" view="CafeRoundTableAsset@photoSalonPro" icon="CafeRoundTableAssetIcon@photoSalonPro" maxCount="2" />
+            <item id="thmPhtgr1itm9" label="#thmPhtgr1Item9Label" view="CafeTableAsset@photoSalonPro" icon="CafeTableAssetIcon@photoSalonPro" maxCount="2" />
+        </theme>
+
+        <theme id="thmPhtgr2" label="#themePhtgr2Label" icon="CanyonThemeIcon@photoSalonPro" background="CanyonThemeBg@photoSalonPro" price="9" maxUsers="5" photographerLevel="12" location="canyon" index="94">
+            <item id="thmPhtgr2itm1" label="#thmPhtgr2Item1Label" view="CanyonBarAsset@photoSalonPro" icon="CanyonBarAssetIcon@photoSalonPro" maxCount="1" rotate="0" layer="bar"/>
+            <item id="thmPhtgr2itm2" label="#thmPhtgr2Item2Label" view="CanyonBarBarrelAsset@photoSalonPro" icon="CanyonBarBarrelAssetIcon@photoSalonPro" maxCount="5" tags="sit"/>
+            <item id="thmPhtgr2itm3" label="#thmPhtgr2Item3Label" view="CanyonBarBartenderAsset@photoSalonPro" icon="CanyonBarBartenderAssetIcon@photoSalonPro" maxCount="2" layer="bartender"/>
+            <item id="thmPhtgr2itm4" label="#thmPhtgr2Item4Label" view="CanyonBarBrokenJarAsset@photoSalonPro" icon="CanyonBarBrokenJarAssetIcon@photoSalonPro" maxCount="5" layer="table,shelfe"/>
+            <item id="thmPhtgr2itm5" label="#thmPhtgr2Item5Label" view="CanyonBarChairAsset@photoSalonPro" icon="CanyonBarChairAssetIcon@photoSalonPro" maxCount="20" tags="sit"/>
+            <item id="thmPhtgr2itm6" label="#thmPhtgr2Item6Label" view="CanyonBarJarAsset@photoSalonPro" icon="CanyonBarJarAssetIcon@photoSalonPro" maxCount="20" layer="table,shelfe"/>
+            <item id="thmPhtgr2itm7" label="#thmPhtgr2Item7Label" view="CanyonBarLassoAsset@photoSalonPro" icon="CanyonBarLassoAssetIcon@photoSalonPro" maxCount="5" layer="poster"/>
+            <item id="thmPhtgr2itm8" label="#thmPhtgr2Item8Label" view="CanyonBarPosterAsset@photoSalonPro" icon="CanyonBarPosterAssetIcon@photoSalonPro" maxCount="5" layer="poster"/>
+        </theme>
+
+        <theme id="thmPhtgr3" label="#themePhtgr3Label" icon="ClubThemeIcon@photoSalonPro" background="ClubThemeBg@photoSalonPro" price="7" maxUsers="5" photographerLevel="8" location="club" index="93">
+            <item id="thmPhtgr3itm1" label="#thmPhtgr3Item1Label" view="ClubBarAsset@photoSalonPro" icon="ClubBarAssetIcon@photoSalonPro" maxCount="1" rotate="0" layer="bar"/>
+            <item id="thmPhtgr3itm2" label="#thmPhtgr3Item2Label" view="ClubBarChairAsset@photoSalonPro" icon="ClubBarChairAssetIcon@photoSalonPro" maxCount="5" rotate="0" layer="chair"/>
+            <item id="thmPhtgr3itm3" label="#thmPhtgr3Item3Label" view="ClubCoctailAsset@photoSalonPro" icon="ClubCoctailAssetIcon@photoSalonPro" maxCount="5"/>
+            <item id="thmPhtgr3itm4" label="#thmPhtgr3Item4Label" view="ClubDancersAsset@photoSalonPro" icon="ClubDancersAssetIcon@photoSalonPro" maxCount="1" layer="peoples" rotate="0"/>
+            <item id="thmPhtgr3itm5" label="#thmPhtgr3Item5Label" view="ClubDjControlAsset@photoSalonPro" icon="ClubDjControlAssetIcon@photoSalonPro" maxCount="2" layer="dj"/>
+            <item id="thmPhtgr3itm6" label="#thmPhtgr3Item6Label" view="ClubHeadphonesAsset@photoSalonPro" icon="ClubHeadphonesAssetIcon@photoSalonPro" maxCount="5"/>
+            <item id="thmPhtgr3itm7" label="#thmPhtgr3Item7Label" view="ClubLightsAsset@photoSalonPro" icon="ClubLightsAssetIcon@photoSalonPro" maxCount="1" layer="lights" rotate="0"/>
+        </theme>
+
+        <theme id="thmPhtgr4" label="#themePhtgr4Label" icon="ParkThemeIcon@photoSalonPro" background="ParkThemeBg@photoSalonPro" price="7" maxUsers="5" photographerLevel="5" location="park" index="92">
+            <item id="thmPhtgr4itm1" label="#thmPhtgr4Item1Label" view="ParkBlueButterflyAsset@photoSalonPro" icon="ParkBlueButterflyAssetIcon@photoSalonPro" maxCount="5"/>
+            <item id="thmPhtgr4itm2" label="#thmPhtgr4Item2Label" view="ParkFlowerBlueAsest@photoSalonPro" icon="ParkFlowerBlueAsestIcon@photoSalonPro" maxCount="5"/>
+            <item id="thmPhtgr4itm3" label="#thmPhtgr4Item3Label" view="ParkFlowerGreenAsset@photoSalonPro" icon="ParkFlowerGreenAssetIcon@photoSalonPro" maxCount="5"/>
+            <item id="thmPhtgr4itm4" label="#thmPhtgr4Item4Label" view="ParkFlowerYellowAsset@photoSalonPro" icon="ParkFlowerYellowAssetIcon@photoSalonPro" maxCount="5"/>
+            <item id="thmPhtgr4itm5" label="#thmPhtgr4Item5Label" view="ParkFoodBasketAsset@photoSalonPro" icon="ParkFoodBasketAssetIcon@photoSalonPro" maxCount="5"/>
+            <item id="thmPhtgr4itm6" label="#thmPhtgr4Item6Label" view="ParkRacketAsset@photoSalonPro" icon="ParkRacketAssetIcon@photoSalonPro" maxCount="5"/>
+            <item id="thmPhtgr4itm7" label="#thmPhtgr4Item7Label" view="ParkRedButterflyAsset@photoSalonPro" icon="ParkRedButterflyAssetIcon@photoSalonPro" maxCount="5"/>
+            <item id="thmPhtgr4itm8" label="#thmPhtgr4Item8Label" view="ParkRugAsset@photoSalonPro" icon="ParkRugAssetIcon@photoSalonPro" maxCount="1" layer="rug"/>
+            <item id="thmPhtgr4itm9" label="#thmPhtgr4Item9Label" view="ParkShuttlecockAsset@photoSalonPro" icon="ParkShuttlecockAssetIcon@photoSalonPro" maxCount="5"/>
+            <item id="thmPhtgr4itm10" label="#thmPhtgr4Item10Label" view="ParkStone1Asset@photoSalonPro" icon="ParkStone1AssetIcon@photoSalonPro" maxCount="5"/>
+            <item id="thmPhtgr4itm11" label="#thmPhtgr4Item11Label" view="ParkStone2Asset@photoSalonPro" icon="ParkStone2AssetIcon@photoSalonPro" maxCount="5"/>
+        </theme>
+
+        <theme id="thmPhtgr5" label="#themePhtgr5Label" icon="WeddingBeachThemeIcon@photoSalonPro" background="WeddingBeachThemeBg@photoSalonPro" price="10" maxUsers="10" photographerLevel="15" location="weddingBeach" index="91">
+            <item id="thmPhtgr5itm1" label="#thmPhtgr5Item1Label" view="WeddingBeachArchAsset@photoSalonPro" icon="WeddingBeachArchAssetIcon@photoSalonPro" maxCount="1" rotate="0" layer="arch"/>
+            <item id="thmPhtgr5itm2" label="#thmPhtgr5Item2Label" view="WeddingBeachBenchSWAsset@photoSalonPro" icon="WeddingBeachBenchSWAssetIcon@photoSalonPro" maxCount="2" rotate="0" tags="sit" layer="benchSW"/>
+            <item id="thmPhtgr5itm3" label="#thmPhtgr5Item3Label" view="WeddingBeachBenchSEAsset@photoSalonPro" icon="WeddingBeachBenchSEAssetIcon@photoSalonPro"  maxCount="2" rotate="0" tags="sit" layer="benchSE"/>
+            <item id="thmPhtgr5itm4" label="#thmPhtgr5Item4Label" view="WeddingBeachBoatAsset@photoSalonPro" icon="WeddingBeachBoatAssetIcon@photoSalonPro" maxCount="2" layer="boat"/>
+            <item id="thmPhtgr5itm5" label="#thmPhtgr5Item5Label" view="WeddingBeachBottleAsset@photoSalonPro" icon="WeddingBeachBottleAssetIcon@photoSalonPro" maxCount="3"/>
+            <item id="thmPhtgr5itm6" label="#thmPhtgr5Item6Label" view="WeddingBeachFenceAsset@photoSalonPro" icon="WeddingBeachFenceAssetIcon@photoSalonPro" maxCount="1" layer="fence" rotate="0"/>
+            <item id="thmPhtgr5itm7" label="#thmPhtgr5Item7Label" view="WeddingBeachPetalsAsset@photoSalonPro" icon="WeddingBeachPetalsAssetIcon@photoSalonPro" maxCount="3"/>
+            <item id="thmPhtgr5itm8" label="#thmPhtgr5Item8Label" view="WeddingBeachPetalsFloorAsset@photoSalonPro" icon="WeddingBeachPetalsFloorAssetIcon@photoSalonPro" maxCount="3"/>
+            <item id="thmPhtgr5itm9" label="#thmPhtgr5Item9Label" view="WeddingBeachRingAsset@photoSalonPro" icon="WeddingBeachRingAssetIcon@photoSalonPro" maxCount="2"/>
+            <item id="thmPhtgr5itm10" label="#thmPhtgr5Item10Label" view="WeddingBeachSandHeartAsset@photoSalonPro" icon="WeddingBeachSandHeartAssetIcon@photoSalonPro" maxCount="3"/>
+            <item id="thmPhtgr5itm11" label="#thmPhtgr5Item11Label" view="WeddingBeachTableAsset@photoSalonPro" icon="WeddingBeachTableAssetIcon@photoSalonPro" maxCount="1"/>
+        </theme>
+    </themes>
+
+</config>

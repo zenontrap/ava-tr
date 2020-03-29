@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <competitionConfig taskPeriod="1800" competitionPeriod="604800" maxCountTopUsers="10"/>
+
+    <activityConfigs
+        defaultRatingBonusMultiplier="1.2"
+        defaultRatingPenaltyMultiplier="0.8"
+        familyDayMultiplier="1.5"
+        relationTimeAwait="5"
+    />
+
+    <competitionAwards>
+        <competitionAward place="1" type="gold" count="250" />
+        <competitionAward place="2" type="gold" count="150" />
+        <competitionAward place="3" type="gold" count="100" />
+    </competitionAwards>
+
+    <activityPoints activityMinCount="160">
+        <activityPoint type="dailyGift" value="50"/>
+        <activityPoint type="workPicked" value="1"/>
+        <activityPoint type="neighbourTrashPicked" value="2"/>
+        <activityPoint type="winMiniGame" value="4"/>
+        <activityPoint type="loseMiniGame" value="1"/>
+        <activityPoint type="drawMiniGame" value="1"/>
+        <activityPoint type="loveEvents" value="1"/>
+        <activityPoint type="greetingEvents" value="1"/>
+        <activityPoint type="danceEvent" value="1"/>
+        <activityPoint type="hostile" value="1"/>
+        <activityPoint type="broke" value="2"/>
+        <activityPoint type="entertain" value="1"/>
+        <activityPoint type="buyGold" value="2"/>
+        <activityPoint type="spendGold" value="2"/>
+    </activityPoints>
+</config>

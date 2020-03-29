@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module active="true" id="dzo2019">
+
+    <resourcesConfig>
+        <stars gold="7" count="1"
+               forOneEpaulelt="1" forThrowEpaulelt="1"
+               gardner="1" gardnerProbability="0.25"
+               janitor="1" janitorProbability="0.25"
+               friend="1" friendsProbability="0.3"
+               beachRaceWin="2" beachRaceWinProbability="1"
+               beachRaceLoose="1" beachRaceLooseProbability="1"
+               beachRaceParticipate="1" beachRaceParticipateProbability="1"
+               maxBeachRace="0"
+               pillowWin="2" pillowWinProbability="1"
+               pillowLoose="1" pillowLooseProbability="1"
+               pillowParticipate="1" pillowParticipateProbability="1"
+               maxPillow="0"/>
+        <epaulettes gold="1" count="10"
+                    gardner="1" gardnerProbability="0.15"
+                    janitor="1" janitorProbability="0.15"
+                    friend="1" friendsProbability="0.1"
+                    beachRaceWin="1" beachRaceWinProbability="0.05"
+                    beachRaceLoose="1" beachRaceLooseProbability="0.1"
+                    beachRaceParticipate="1" beachRaceParticipateProbability="0.1"
+                    maxBeachRace="30"
+                    pillowWin="1" pillowWinProbability="0.05"
+                    pillowLoose="1" pillowLooseProbability="0.1"
+                    pillowParticipate="1" pillowParticipateProbability="0.15"
+                    maxPillow="30"
+                    maxHomeEpaulettesCount="10"/>
+    </resourcesConfig>
+
+    <inventory>
+        <category id="craftLoot">
+            <item id="dzo19epltts" name="EpaulettesLoot@dzo2019" icon="EpaulettesLootIcon@dzo2019"
+                  label="#epaulettesLootLabel"
+                  description="#epaulettesLootDescrioption" probability="0.3"
+                  gold="0" silver="0" canTrade="0" canSale="0"/>
+            <item id="dzo19str" name="StarsLoot@dzo2019" icon="StarsLootIcon@dzo2019" label="#starLootLabel"
+                  description="#starLootDescrioption" probability="0.15"
+                  gold="0" silver="0" canTrade="0" canSale="0"/>
+        </category>
+    </inventory>
+
+    <awards>
+        <award id="1" stars="700" itemType="event" itemId="magnet"
+               icon="Dzo19MagnetIcon@dzo2019" receiveIcon="Magnet23february2019@dzo2019"
+               hint="#dzo2019magnet"/>
+        <award id="2" stars="1500" itemType="trophy" itemId="dzo2019"
+               icon="Dzo19TrophyIcon@dzo2019" receiveIcon="Trophy23february2019@dzo2019"
+               count="0" hint="#dzo2019Title"/>
+        <award id="3" stars="3000" itemType="furniture" itemId="dzo19Pln"
+               icon="Dzo19PlaneIcon@dzo2019" receiveIcon="Plane23february2019@dzo2019"
+               hint="#dzo19PlnTitle"/>
+        <award id="4" stars="7000" itemType="clothesSet" itemId="boy23Feb19Set" gender="1"
+               icon="Dzo19BoyCostumeIcon@dzo2019" receiveIcon="BoyAdtSuite23february2019@dzo2019"
+               hint="#boy23Feb19SetLabel"/>
+        <award id="5" stars="7000" itemType="clothesSet" itemId="girl23Feb19Set" gender="2"
+               icon="Dzo19GirlCostumeIcon@dzo2019" receiveIcon="GirlAdtSuite23february2019@dzo2019"
+               hint="#girl23Feb19SetLabel"/>
+    </awards>
+
+</module>

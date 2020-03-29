@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<dictionary>
+    <locale name="tr">
+        <message key="1stMayNewsContent">1 Mayıs'ı arkadaşlarınla kutla! Bahçede çalış, birbirinden güzel renkli kurdeleler toplayıp Dünya Ağacına as ve tüm bunların karşılığında Atölye'nden nadide öğeler al!</message>
+        <message key="9thMayNewsTitle">Periler Aramızda</message>
+        <message key="9thMayNewsContent">Periler Avataria'yı ziyarete geldi! Bütün kızlara çok güzel takma kanatlar getirmişler. Bu kanatlarla büyülü bir hava yakalayacaksın. Şimdi hemen mağazaya!</message>
+        <message key="couturierNewsTitle">Stilist</message>
+        <message key="couturierNewsContent">Yeni bir mekan açıldı: Stilist. Artık eşyalarının rengini seçerek farkını ortaya koyabileceksin!</message>
+        <message key="ballroomNewsTitle">Balo Salonu</message>
+        <message key="ballroomNewsContent">Şık kıyafetler giyip birkaç yeni hareket öğrenebileceğin yeni Balo Salonu mekanında partnerini dansa davet et!</message>
+        <message key="springSaleNewsTitle">Bahar Kıyafetlerinde Kampanya</message>
+        <message key="springSaleNewsContent">Gardırobunda yer var mı? O halde yeni kıyafetler almanın tam zamanı! Bahar kıyafetlerine özel kampanyayla inanılmaz fiyatları kaçırma!</message>
+        <message key="conanNewsTitle">Barbar Conan</message>
+        <message key="conanNewsContent">Barbar Conan'ın tehlikelerle dolu fantezi dünyasına dal. Temaya uygun yeni kıyafetler ve iç mekan eşyaları da mağazada!</message>
+        <message key="carSaleNewsTitle">Araba Kampanyası</message>
+        <message key="carSaleNewsContent">Garajın boş mu kaldı? Üzülme! Sadece bu hafta geçerli dev indirimle Avatar Araban seni bekliyor. Acele et!</message>
+        <message key="birthdayNewsTitle">Yıldönümün Kutlu Olsun, Avataria!</message>
+        <message key="birthdayNewsContent">Avataria'ya iyi ki doğdun demek istiyoruz! Bu önemli aşamanın şerefine siz harika oyuncularımıza bazı hediyeler ve altın jetonlar veriyoruz. Ama elinizi çabuk tutun, hediyeler yalnızca bugün verilecek. Oyunda görüşürüz!</message>
+        <message key="conanStudioNewsTitle">Çok Özel Fotoğraf Stüdyosu Fonu</message>
+        <message key="conanStudioNewsContent">Bu kadar macera kesmedi mi? Barbar Conan'ın fantastik dünyası Fotoğraf Stüdyosu'nda seni bekliyor! Bu fon yalnızca VIP oyunculara özeldir.</message>
+        <message key="newMotoNewsTitle">Yeni Motosikletler</message>
+        <message key="newMotoNewsContent">Eski modeller sıktı mı? Piyasadaki tüm motosikletleri zaten kullandın mı? Tamirci ekibimiz Avataria galerisine yeni motosikletler getirdi. Satışa çıktı bile!</message>
+        <message key="quests50NewsTitle">Yeni görevler, yeni seviyeler!</message>
+        <message key="quests50NewsContent">42. seviye ve üstü oyuncular için yeni görevler eklendi. En üst seviyeye ilk ulaşan olmak için arkadaşlarınla yarış!</message>
+        <message key="amusimentSaleNewsTitle">Çok Özel Bir Kampanya</message>
+        <message key="amusimentSaleNewsContent">Rahatına düşkünlere çok güzel haberlerimiz var: ejderha ve at salıncakları indirimde!</message>
+        <message key="hearStylesNewsTitle">Yeni Saç Stilleri</message>
+        <message key="hearStylesNewsContent">Görünümden sıkıldın mı? Yeni bir tarz mı arıyorsun? Kuaför salonuna iki erkek ve iki kadın olmak üzere yeni saç kesimleri eklendi. Gel yeni tarzını oluştur!</message>
+        <message key="steampunkSaleNewsTitle">Steampunk Kampanyası</message>
+        <message key="steampunkSaleNewsContent">Kampanya! Tüm Steampunk giysileri ve iç mekan ürünleri bu hafta muhteşem indirimlerle satışta.</message>
+        <message key="quests55NewsTitle">Yeni görevler, yeni seviyeler!</message>
+        <message key="quests55NewsContent">50. seviye ve üstü oyuncular için yeni görevler eklendi. En üst seviyeye ilk ulaşan olmak için arkadaşlarınla yarış!</message>
+        <message key="motoSaleNewsTitle">Motosiklet Kampanyası!</message>
+        <message key="motoSaleNewsContent">Tüm motosiklet serilerinde sadece bu hafta geçerli dev indirim başladı! Al alabildiğin kadar!</message>
+
+        <message key="superHero1NewsTitle">Süper Kahramanlar Avataria'da</message>
+        <message key="superHero1NewsContent">Avataria'nın tüm mağazalarına çok özel yeni süper kahraman giysileri eklendi. Bebeklerin kahraman koruyucusu ya da insanlığın barışını koruyan acımasız, maço bir dünya muhafızı ol. Yeni bir görünüm seç!</message>
+        <message key="professions1NewsTitle">Meslekler: bahçıvan ve kapıcı</message>
+        <message key="professions1NewsContent">Kapıcı ve bahçıvan meslekleriyle kariyerinde yeni bir sayfa aç! Yeteneklerini artır, mesleğinde yüksel. Seviyen ne kadar artarsa, alacağın ödül de o kadar değerli olur.</message>
+        <message key="quests60NewsTitle">Yeni görevler ve yeni seviyeler!</message>
+        <message key="quests60NewsContent">55. seviye ve üzeri oyuncular için oyuna yeni görevler eklendi. En üst seviyeye ilk ulaşan olmak için arkadaşlarınla yarış!</message>
+        <message key="japanSaleNewsTitle">Japon Motifleri</message>
+        <message key="japanSaleNewsContent">Japonya koleksiyonundaki tüm ürünler indirime girdi. Bir hafta boyunca bu koleksiyondaki ürünleri inanılmaz fiyatlara alabileceksiniz! Huzurlu ve dengeli çizgiler, odanıza hoş bir basitlik ve Japonya havası katacak.</message>
+        <message key="quests65NewsTitle">Yeni görevler ve yeni seviyeler!</message>
+        <message key="quests65NewsContent">60. seviye ve üzeri oyuncular için oyuna yeni görevler eklendi. En üst seviyeye ilk ulaşan olmak için arkadaşlarınla yarış!</message>
+        <message key="alientSaleNewsTitle">Gezegenler Arası İndirim</message>
+        <message key="alientSaleNewsContent">Uzaylı mobilya seti şimdi indirimli fiyatıyla satışta. Daireni dekore etme şansını kaçırma. Bu koleksiyondaki ürünler o kadar renkli ve ilgi çekici ki odanı ziyaret eden her dünyalı seni kıskanacak. O halde ne duruyorsun? Yeni konuşma parçanı almak için elini çabuk tut!</message>
+        <message key="superHero2NewsTitle">Süper Kahraman</message>
+        <message key="superHero2NewsContent">Yeni süper kahraman temalı kostümler, Avataria giyim mağazasının raflarını süslüyor. Koleksiyonunu genişlet, gizemli yeni görünümünle arkadaşlarını kıskandır!</message>
+
+        <message key="maintainsCompensationTitle">Hediyen</message>
+        <message key="maintainsCompensationDescription">Uygulamanın düzgün çalışmadığı uzun süreden dolayı özür dileriz. Lütfen özrümüz olarak bu miktarı kabul et.</message>
+
+        <message key="iceRinkTitle">Pist</message>
+        <message key="iceRingMessage">Buz pateni pisti açıldı! Patenlerini giy, arkadaşlarınla buz pateni yapmanın keyfini çıkar!</message>
+        <message key="wedding2016_1Title">Düğün Giysileri</message>
+        <message key="wedding2016_1Message">Son moda düğün giysileri ve aksesuarları mağazalarda; hayalindeki düğünü gerçekleştirebilirsin!</message>
+        <message key="professions2Title">Yeni meslekler!</message>
+        <message key="profession2Message">Yeni mesleklere yönelip kendini geliştirmenin zamanı geldi - Fotoğrafçılık ve Makyaj Sanatçılığı!</message>
+
+    </locale>
+</dictionary>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+        <message key="seQuest1Title">Altın Sonbahar</message>
+        <message key="seQuest1Description">Anahtar elde edebilmek için günlük görevi tamamla</message>
+        <message key="seasonEventKeyDescription">Altın Sonbahar Etkinlik Anahtarı</message>
+        <message key="seCalendarDialogTitle">Altın Sonbahar</message>
+        <message key="seCalendarDialogDescription">Özel bir ödül kazanmak için bütün günlük görevleri tamamla!</message>
+        <message key="seCalendarDaysDescription">Bugünün görevi</message>
+        <message key="seCalendarDayDescription">gün</message>
+        <message key="seCalendarKeysDescription">Tamamlamadığın görevler için anahtarlar satın al!</message>
+        <message key="seCalendarBuyKeysLabel">şunun karşılığında satın al:</message>
+        <message key="seCalendarAllKeysDescription">Bütün mevcut anahtarlara sahipsin!</message>
+        <message key="seCParticipationDialogDescription">Sonbahar etkiliğine katıl ve özel bir ödül kazan!</message>
+        <message key="seInfoDialogTitle">İpucu</message>
+        <message key="seInfoDialogDescription">Altın Sonbahar, ay boyunca sürecek ve tamamlayarak özel bir ödül kazanabileceğin bir etkinliktir. Her gün bir görev alacaksın ve tamamladığında bir anahtar elde edeceksin. Günlük görevler yalnızca bir sonraki güne kadar geçerlidir.</message>
+        <message key="seInfoDialogInnerTitle">Etkinlik kuralları</message>
+        <message key="seInfoDialogKeyDescription">Günlük görevleri tamamlayarak anahtarlar kazan ve ilerleme çubuğunu doldur</message>
+        <message key="seInfoDialogTimerDescription">Her görevi tamamlamak için 24 saatin var</message>
+        <message key="seInfoDialogRestrictDescription">Bir görevi pas geçip sonradan tamamlayamazsın</message>
+        <message key="seInfoDialogShopDescription">Kaçırdığın görevler için özel mağazadan anahtarlar satın alabilirsin</message>
+        <message key="seInfoDialogCalendarDescription">Etkinlik :days: gün sürecek</message>
+        <message key="seInfoDialogGoldDescription">İlerleme çubuğu dolduktan sonra kazanılan bütün anahtarlar altına çevrilir: 1 anahtar = :gold: altın</message>
+        <message key="seFanViewHint">Altın Sonbahar Hayranı</message>
+        <message key="seTitleViewHint">Altın Sonbahar Unvanı</message>
+        <message key="seCostumeViewHint">Yıldız Işığı Kıyafeti</message>
+
+    </locale>
+</dictionary>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+
+    <group key="jacuzzi">
+        
+        <action name="broke" privilege="broke" relationProgressReason="brokeJacuzzi">
+            <neededItem typeId="jacuzziWorms" count="1"/>
+            <!-- 
+	            <price energy="10" />
+                <neededItem typeId="gameChips" count="5" notRemove="1" />
+             -->
+        </action>
+        
+        <action name="repair" privilege="repair">
+            <price energy="20" />
+        </action>
+    </group>
+    
+    <group key="furnitureSit">
+        <action name="ptbm" privilege="plantPaintBomb">
+            <neededItem typeId="chairBomb" count="1"/>
+        </action>
+    </group>
+    
+    <group key="wall">
+        <action name="drGrfft" privilege="drawGraffiti" relationProgressReason="drawGraffiti">
+            <neededItem typeId="wllgrfft1" count="1"/>
+            <neededItem typeId="wllgrfft2" count="1"/>
+            <neededItem typeId="wllgrfft3" count="1"/>
+            <neededItem typeId="wllgrfft4" count="1"/>
+            <neededItem typeId="wllgrfft5" count="1"/>
+            <neededItem typeId="wllgrfft6" count="1"/>
+            <neededItem typeId="wllGrfRusDay" count="1"/>
+            <neededItem typeId="wllGrfVictoryDay2019" count="1"/>
+        </action>
+        <action name="erGrfft" privilege="repair">
+            <price energy="20" />
+        </action>
+    </group>
+    
+    <group key="computerAppliance">
+        
+        <action name="sendMailMessage" privilege="sendMailMessage"/>
+        
+        <action name="broke" privilege="broke" relationProgressReason="brokeComputer">
+            <neededItem typeId="applianceBat" count="1"/>
+        </action>
+        
+        <action name="repair" privilege="repair">
+            <price energy="20" />
+        </action>
+        
+    </group>
+    
+    <group key="tvAppliance">
+        
+        <action name="broke" privilege="broke" relationProgressReason="brokeTv">
+            <neededItem typeId="applianceBat" count="1"/>
+        </action>
+        
+        <action name="repair" privilege="repair">
+            <price energy="20" />
+        </action>
+    </group>
+    
+    <group key="horseAmusiment">
+
+        <action name="broke" privilege="broke" relationProgressReason="brokeHorseAmusiment">
+            <neededItem typeId="scrdvr" count="1"/>
+        </action>
+
+        <action name="repair" privilege="repair">
+            <price energy="20" />
+        </action>
+
+        <action name="shrs" privilege="sitHorse">
+            <price energy="20" />
+        </action>
+    </group>
+
+    <group key="musicCenterAppliance">
+        
+        <action name="broke" privilege="broke" relationProgressReason="brokeMusicCenter">
+            <neededItem typeId="applianceBat" count="1"/>
+        </action>
+        
+        <action name="repair" privilege="repair">
+            <price energy="20" />
+        </action>
+    </group>
+    
+    <group key="refrigerator">
+        <action name="use" privilege="useRefrigerator">
+            <reward energy="50" />
+        </action>
+        <action name="trdFrnd">
+            <reward energy="50" />
+        </action>
+        <action name="useTheir">
+            <reward energy="50" />
+        </action>
+    </group>
+
+    <group key="generator">
+        <action name="reFill">
+            <price gold="10" />
+        </action>
+    </group>
+
+    <group key="prediction">
+        <action name="predict" privilege="predict"/>
+    </group>
+
+    <group key="janitorRailway">
+        <action name="broke" privilege="broke" relationProgressReason="brokeJanitorRailway">
+            <neededItem typeId="applianceBat" count="1"/>
+        </action>
+
+        <action name="repair" privilege="repair">
+            <price energy="20" />
+        </action>
+    </group>
+
+    <group key="seFan">
+        <action name="broke" privilege="broke">
+            <neededItem typeId="scrdvr" count="1"/>
+        </action>
+
+        <action name="repair" privilege="repair">
+            <price energy="20" />
+        </action>
+    </group>
+
+</config>

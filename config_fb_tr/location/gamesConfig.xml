@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<games>
+    <game id="fight">
+        <disablePanels>true</disablePanels>
+        <disableWorld>false</disableWorld>
+        <disableMouse>true</disableMouse>
+        <disableAvatars>false</disableAvatars>
+        <hideAvatars>false</hideAvatars>
+
+        <moves>
+            <move id="0" energy="0" bonus="0" type="undefined" target="undefined">
+                <animation name="PillowWait" duration="30" tool="Pillow"/>
+                <damage min="0" max="0" />
+                <blockDamage min="0" max="0" />
+            </move>
+
+            <move id="98" energy="0" bonus="0" type="damaged" target="top">
+                <animation name="PillowDamageHead" duration="12" tool="Pillow"/>
+                <damage min="0" max="0" />
+                <blockDamage min="0" max="0" />
+            </move>
+
+            <move id="99" energy="0" bonus="0" type="damaged" target="bottom">
+                <animation name="PillowDamageBody" duration="17" tool="Pillow"/>
+                <damage min="0" max="0" />
+                <blockDamage min="0" max="0" />
+            </move>
+
+            <move id="1" title="#fightPillowUpMove" icon="FightPillowUpIcon@location" energy="8" bonus="1" type="attack" target="top">
+                <animation name="PillowToHead" duration="36" tool="Pillow" strikeTick="31"/>
+                <damage min="6" max="9" />
+                <blockDamage min="0" max="0" />
+            </move>
+
+            <move id="2" title="#fightPillowDownMove" icon="FightPillowDownIcon@location" energy="6" bonus="1" type="attack" target="bottom">
+                <animation name="PillowToBody" duration="36" tool="Pillow" strikeTick="31"/>
+                <damage min="5" max="7" />
+                <blockDamage min="0" max="0" />
+            </move>
+
+            <move id="3" title="#fightDefenceUpMove" icon="FightDefenceUpIcon@location" energy="4" bonus="1" type="block" target="top">
+                <animation name="PillowCoverHead" tool="Pillow" duration="25" strikeTick="12"/>
+            </move>
+
+            <move id="4" title="#fightDefenceDownMove" icon="FightDefenceDownIcon@location" energy="3" bonus="1" type="block" target="bottom">
+                <animation name="PillowCoverBody" tool="Pillow" duration="25" strikeTick="12"/>
+            </move>
+        </moves>
+    </game>
+    <game id="beachRace">
+        <disablePanels>true</disablePanels>
+        <disableWorld>true</disableWorld>
+        <disableMouse>true</disableMouse>
+        <disableAvatars>true</disableAvatars>
+        <hideAvatars>true</hideAvatars>
+
+        <objects>
+            <object id="fsh" type="bonus" asset="FishIdle@publicBeach" animation="FishEffect@publicBeach" />
+            <object id="n2o" type="bonus" asset="N2OIdle@publicBeach" animation="N2OEffect@publicBeach" />
+            <object id="pplr" type="bonus" asset="PropellerIdle@publicBeach" animation="PropellerEffect@publicBeach" />
+
+            <object id="stn" type="barrier" asset="StoneIdle@publicBeach" animation="WaterBlow@publicBeach" />
+            <object id="brl" type="barrier" asset="BarrelIdle@publicBeach" animation="WaterBlow@publicBeach" />
+            <object id="wrpl" type="barrier" asset="WhirlpoolIdle@publicBeach" animation="WaterBlow@publicBeach" layer="bottomLayer"/>
+
+            <object id="ptl" type="portal" asset="PortalIdle@publicBeach" animation="PortalEffect@publicBeach" />
+        </objects>
+
+        <types>
+            <type id="barrier" icon="BeachRaceBarrierIcon@publicBeach" label="beachRaceBarrierLabel" count="2"/>
+            <type id="portal" icon="BeachRacePortalIcon@publicBeach" label="beachRacePortalLabel" count="1"/>
+            <type id="bonus" icon="BeachRaceBonusIcon@publicBeach" label="beachRaceBonusLabel" count="2"/>
+        </types>
+
+        <moves>
+            <move id="pickUp" icon="BeachRacePickUpMoveIcon@publicBeach" label="beachRacePickupLabel" count="2">
+                <points>
+                    <type id="bonus" shift="1" points="25"/>
+                    <type id="barrier" shift="-1" points="-5"/>
+                    <type id="portal" shift="0" points="5"/>
+                </points>
+            </move>
+            <move id="bypass" icon="BeachRaceBypassMoveIcon@publicBeach" label="beachRaceBypassLabel" count="2">
+                <points>
+                    <type id="bonus" shift="0" points="5"/>
+                    <type id="barrier" shift="1" points="25"/>
+                    <type id="portal" shift="0" points="5"/>
+                </points>
+            </move>
+            <move id="usePortal" icon="UsePortalMoveIcon@publicBeach" label="beachRaceUsePortalLabel" count="1">
+                <points>
+                    <type id="bonus" shift="0" points="5"/>
+                    <type id="barrier" shift="0" points="-5"/>
+                    <type id="portal" shift="2" points="50"/>
+                </points>
+            </move>
+        </moves>
+    </game>
+    <game id="canyonRace">
+        <disablePanels>true</disablePanels>
+        <disableWorld>true</disableWorld>
+        <disableMouse>true</disableMouse>
+        <disableAvatars>true</disableAvatars>
+        <hideAvatars>true</hideAvatars>
+
+        <objects>
+            <object id="rckt" type="bonus" asset="RocketFuelIdle@canyon" animation="RocketFuelEffect@canyon" />
+            <object id="n2o" type="bonus" asset="NO2Idle@canyon" animation="NO2Effect@canyon" />
+            <object id="wl" type="bonus" asset="WheelIdle@canyon" animation="WheelEffect@canyon" replace="1"/>
+
+            <object id="dnt" type="barrier" asset="DinamitIdle@canyon" animation="DinamitEffect@canyon" />
+            <object id="pt" type="barrier" asset="PitIdle@canyon" animation="PitEffect@canyon" layer="bottomLayer" hideAfterUse="0"/>
+            <object id="rdf" type="barrier" asset="RoadFenceIdle@canyon" animation="RoadFenceEffect@canyon"/>
+
+            <object id="ufo" type="portal" asset="UFOIdle@canyon" animation="UFOEffect@canyon" />
+        </objects>
+
+        <types>
+            <type id="barrier" icon="CanyonBarrierIcon@canyon" label="canyonRaceBarrierLabel" count="2"/>
+            <type id="portal" icon="UFOIcon@canyon" label="canyonRacePortalLabel" count="1"/>
+            <type id="bonus" icon="CanyonBonusIcon@canyon" label="canyonRaceBonusLabel" count="2"/>
+        </types>
+
+        <moves>
+            <move id="pickUp" icon="CanyonPickUpMoveIcon@canyon" label="canyonRacePickupLabel" count="2">
+                <points>
+                    <type id="bonus" shift="1" points="25"/>
+                    <type id="barrier" shift="-1" points="-5"/>
+                    <type id="portal" shift="0" points="5"/>
+                </points>
+            </move>
+            <move id="bypass" icon="CanyonBypassMoveIcon@canyon" label="canyonRaceBypassLabel" count="2">
+                <points>
+                    <type id="bonus" shift="0" points="5"/>
+                    <type id="barrier" shift="1" points="25"/>
+                    <type id="portal" shift="0" points="5"/>
+                </points>
+            </move>
+            <move id="usePortal" icon="StopUFOMoveIcon@canyon" label="canyonRaceUsePortalLabel" count="1">
+                <points>
+                    <type id="bonus" shift="0" points="5"/>
+                    <type id="barrier" shift="0" points="-5"/>
+                    <type id="portal" shift="2" points="50"/>
+                </points>
+            </move>
+        </moves>
+
+        <cars>
+            <car typeId="carVip1" asset="CarFerrariRed@canyon" wheelAsset="FerrariWheel@canyon" sitX="0" sitY="-0.5"/>
+            <car typeId="carVip2" asset="CarFerrariWhite@canyon" wheelAsset="FerrariWheel@canyon" sitX="0" sitY="-0.5"/>
+            <car typeId="carVip3" asset="CarFerrariGirl@canyon" wheelAsset="FerrariWheel@canyon" sitX="0" sitY="-0.5"/>
+            <car typeId="carBtlBl" asset="CarBeetleBlue@canyon" wheelAsset="BeetleWheel@canyon" sitX="-0.25" sitY="-0.75"/>
+            <car typeId="carBtlOg" asset="CarBeetleOrange@canyon" wheelAsset="BeetleWheel@canyon" sitX="-0.25" sitY="-0.75"/>
+            <car typeId="carJeepMil" asset="CarJeepMilitary@canyon" wheelAsset="JeepWheel@canyon" sitX="1.25" sitY="-1.9"/>
+            <car typeId="carJeepYel" asset="CarJeepYellow@canyon" wheelAsset="JeepWheel@canyon" sitX="1.25" sitY="-1.9"/>
+            <car typeId="carLmbGrn" asset="CarLamboGreen@canyon" wheelAsset="LamboWheel@canyon" sitX="-0.5" sitY="-0.5"/>
+            <car typeId="carLmbWht" asset="CarLamboWhite@canyon" wheelAsset="LamboWheel@canyon" sitX="-0.5" sitY="-0.5"/>
+            <car typeId="carLtsRd" asset="CarLotusRed@canyon" wheelAsset="LotusWheel@canyon" sitX="0" sitY="-0.5"/>
+            <car typeId="carLtsVlt" asset="CarLotusViolet@canyon" wheelAsset="LotusWheel@canyon" sitX="0" sitY="-0.5"/>
+            <car typeId="carPtcBlk" asset="CarPontiacBlack@canyon" wheelAsset="PontiacWheel@canyon" sitX="0.5" sitY="-1"/>
+            <car typeId="carPtcChrry" asset="CarPontiacCherry@canyon" wheelAsset="PontiacWheel@canyon" sitX="0.5" sitY="-1"/>
+
+            <car typeId="carJntr" asset="CarJanitor@canyon" wheelAsset="JanitorWheel@canyon" sitX="0" sitY="-1"/>
+
+            <car typeId="wddnCar" asset="WeddingCar@canyon" wheelAsset="BeetleWheel@canyon" sitX="0" sitY="-1"/>
+
+            <car typeId="bikeRsrGrn" asset="BikeRaiserGreen@canyon" wheelAsset="RaiserWheel@canyon" sitX="-0.7" sitY="-1.7" isBike="1"/>
+            <car typeId="bikeRsrWht" asset="BikeRaiserWhite@canyon" wheelAsset="RaiserWheel@canyon" sitX="-0.7" sitY="-1.7" isBike="1"/>
+
+            <car typeId="bikeDctOrg" asset="BikeDucattiOrange@canyon" wheelAsset="DucattiWheel@canyon" sitX="-0.3" sitY="-2" isBike="1"/>
+            <car typeId="bikeDctYllw" asset="BikeDucattiYellow@canyon" wheelAsset="DucattiWheel@canyon" sitX="-0.3" sitY="-2" isBike="1"/>
+
+            <car typeId="bikeChpprBl" asset="BikeChopperBlue@canyon" wheelAsset="ChopperWheel@canyon" sitX="-0.8" sitY="-1.8" isBike="1"/>
+            <car typeId="bikeChpprRd" asset="BikeChopperRed@canyon" wheelAsset="ChopperWheel@canyon" sitX="-0.8" sitY="-1.8" isBike="1"/>
+        </cars>
+    </game>
+    <game id="meerkat">
+        <disablePanels>true</disablePanels>
+        <disableWorld>true</disableWorld>
+        <disableMouse>true</disableMouse>
+        <disableAvatars>true</disableAvatars>
+        <hideAvatars>true</hideAvatars>
+
+        <awards>
+            <award id="ma1" hits="10" silver="50" awardType="cityInfo" hitsIcon="x10@canyon" title="#mkLllppTitle">
+                <item id="mkLllppBl" icon="LollypopBlueBigIcon@canyon" smallIcon="MeerkatLollypopBlueIcon@location" viewClass="MeerkatLollypopBlue"/>
+                <item id="mkLllppRd" icon="LollypopRedBigIcon@canyon" smallIcon="MeerkatLollypopRedIcon@location" viewClass="MeerkatLollypopRed"/>
+            </award>
+            <award id="ma2" hits="20" silver="100" awardType="cityInfoWithSave" hitsIcon="x20@canyon" title="#mkBllnTitle">
+                <item id="mkBllnBl" icon="BalloonBlueBigIcon@canyon" smallIcon="MeerkatBlueBallIcon@location" viewClass="MeerkatBlueBall"/>
+                <item id="mkBllnRd" icon="BalloonRedBigIcon@canyon" smallIcon="MeerkatRedBallIcon@location" viewClass="MeerkatRedBall"/>
+                <item id="mkBllnYw" icon="BalloonYellowBigIcon@canyon" smallIcon="MeerkatYellowBallIcon@location" viewClass="MeerkatYellowBall"/>
+            </award>
+            <award id="ma3" hits="30" silver="150" awardType="inventory" hitsIcon="x30@canyon" title="#mkBearTitle">
+                <item id="mkBear" icon="BearBigIcon@canyon" smallIcon="MeerkatBearIcon@decor"/>
+            </award>
+        </awards>
+    </game>
+
+    <game id="snowboardRace" ratingFactor="0.1">
+        <disablePanels>true</disablePanels>
+        <disableWorld>true</disableWorld>
+        <disableMouse>true</disableMouse>
+        <disableAvatars>true</disableAvatars>
+        <hideAvatars>true</hideAvatars>
+
+        <objects>
+            <object id="sngb" type="springboard" asset="Springboard@skiResort" animation="WaterBlowEffect@skiResort"/>
+            <object id="brl" type="barrier" asset="TreeBarrier@skiResort" animation="WaterBlowEffect@skiResort"/>
+        </objects>
+
+        <types>
+            <type id="barrier" icon="BarrierIcon@skiResort" label="snowboardRaceBarrierLabel" count="2"/>
+            <type id="springboard" icon="PortalIcon@skiResort" label="snowboardRaceSpringboardLabel" count="3"/>
+        </types>
+
+        <moves>
+            <move id="jump" icon="JumpIcon@skiResort" label="snowboardRaceJumpLabel" count="2">
+                <points>
+                    <type id="barrier" shift="-1" points="-5"/>
+                    <type id="springboard" shift="1" points="25"/>
+                </points>
+            </move>
+            <move id="sitDown" icon="DownIcon@skiResort" label="snowboardRaceDownLabel" count="2">
+                <points>
+                    <type id="barrier" shift="1" points="25"/>
+                    <type id="springboard" shift="-1" points="-5"/>
+                </points>
+            </move>
+            <move id="trick" icon="SkiResortBonusIcon@skiResort" label="snowboardRaceTrickLabel" count="1" snowboardId="sbRS2">
+                <points>
+                    <type id="barrier" shift="3" points="75"/>
+                    <type id="springboard" shift="3" points="75"/>
+                </points>
+            </move>
+            <move id="jump" icon="JumpIcon@skiResort" label="snowboardRaceJumpLabel" count="1" snowboardId="sbRS1">
+                <points>
+                    <type id="barrier" shift="-1" points="-5"/>
+                    <type id="springboard" shift="1" points="25"/>
+                </points>
+            </move>
+        </moves>
+
+        <awards>
+            <award awardType="normal" energy="10" silver="150" gold="0"/>
+            <award awardType="vip" energy="20" silver="350" gold="0"/>
+        </awards>
+    </game>
+    <game id="memories" turnTime="30" successTurnPointsCount="10"
+          energyPrice="0">
+        <disablePanels>true</disablePanels>
+        <disableWorld>true</disableWorld>
+        <disableMouse>false</disableMouse>
+        <disableAvatars>true</disableAvatars>
+        <hideAvatars>true</hideAvatars>
+
+        <awards>
+            <award awardType="win" energy="0" silver="1500" gold="0"/>
+            <award awardType="loose" energy="0" silver="500" gold="0"/>
+            <award awardType="draw" energy="0" silver="1000" gold="0"/>
+        </awards>
+    </game>
+    <game id="podium" votingTime="15" energyPrice="0"
+        wearingTime="120"
+        playersMinCount="2" playersMaxCount="6"
+        juryMinCount="1" juryMaxCount="3"
+        observersMinCount="0" observersMaxCount="15"
+        invitationActualTime="20"
+        minRoundCount="5"
+    >
+        <disablePanels>true</disablePanels>
+        <disableWorld>true</disableWorld>
+        <disableMouse>false</disableMouse>
+        <disableAvatars>true</disableAvatars>
+        <hideAvatars>true</hideAvatars>
+
+        <awards>
+            <award awardType="win" energy="0" silver="1500" gold="0"/>
+            <award awardType="loose" energy="0" silver="500" gold="0"/>
+            <award awardType="draw" energy="0" silver="1000" gold="0"/>
+        </awards>
+
+        <placePoints>
+            <placePoint id="1" role="1" x="6" y="0" direction="5"/>
+            <placePoint id="2" role="1" x="7" y="1" direction="5"/>
+            <placePoint id="3" role="1" x="6" y="4" direction="5"/>
+            <placePoint id="4" role="1" x="7" y="5" direction="5"/>
+            <placePoint id="5" role="1" x="6" y="8" direction="5"/>
+            <placePoint id="6" role="1" x="7" y="9" direction="5"/>
+            <placePoint id="7" role="2" x="0" y="2" direction="3"/>
+            <placePoint id="8" role="2" x="2" y="2" direction="3"/>
+            <placePoint id="9" role="2" x="10" y="10" direction="5"/>
+            <placePoint id="10" role="2" x="10" y="12" direction="5"/>
+        </placePoints>
+
+        <messages>
+            <message id="podiumChatMessage1" stageId="1"/>
+            <message id="podiumChatMessage2" stageId="1"/>
+            <message id="podiumChatMessage3" stageId="1"/>
+            <message id="podiumChatMessage4" stageId="1"/>
+            <message id="podiumChatMessage5" stageId="1"/>
+            <message id="podiumChatMessage6" stageId="1"/>
+            <message id="podiumChatMessage7" stageId="1"/>
+            <message id="podiumChatMessage8" stageId="1"/>
+            <message id="podiumChatMessage9" stageId="1"/>
+            <message id="podiumChatMessage10" stageId="1"/>
+            <message id="podiumChatMessage11" stageId="2"/>
+            <message id="podiumChatMessage12" stageId="2"/>
+            <message id="podiumChatMessage13" stageId="2"/>
+            <message id="podiumChatMessage14" stageId="2"/>
+            <message id="podiumChatMessage15" stageId="2"/>
+            <message id="podiumChatMessage16" stageId="2"/>
+            <message id="podiumChatMessage17" stageId="2"/>
+            <message id="podiumChatMessage18" stageId="2"/>
+            <message id="podiumChatMessage19" stageId="2"/>
+            <message id="podiumChatMessage20" stageId="2"/>
+            <message id="podiumChatMessage21" stageId="2"/>
+            <message id="podiumChatMessage22" stageId="3"/>
+            <message id="podiumChatMessage23" stageId="3"/>
+            <message id="podiumChatMessage24" stageId="3"/>
+            <message id="podiumChatMessage25" stageId="3"/>
+            <message id="podiumChatMessage26" stageId="3"/>
+            <message id="podiumChatMessage27" stageId="3"/>
+            <message id="podiumChatMessage28" stageId="3"/>
+            <message id="podiumChatMessage29" stageId="3"/>
+            <message id="podiumChatMessage30" stageId="3"/>
+            <message id="podiumChatMessage31" stageId="3"/>
+            <message id="podiumChatMessage32" stageId="4"/>
+            <message id="podiumChatMessage33" stageId="4"/>
+            <message id="podiumChatMessage34" stageId="4"/>
+            <message id="podiumChatMessage35" stageId="4"/>
+            <message id="podiumChatMessage36" stageId="4"/>
+            <message id="podiumChatMessage37" stageId="4"/>
+            <message id="podiumChatMessage38" stageId="4"/>
+            <message id="podiumChatMessage39" stageId="4"/>
+            <message id="podiumChatMessage40" stageId="4"/>
+            <message id="podiumChatMessage41" stageId="4"/>
+        </messages>
+
+        <themes>
+            <theme id="#podiumTheme1"/>
+            <theme id="#podiumTheme2"/>
+            <theme id="#podiumTheme3"/>
+            <theme id="#podiumTheme4"/>
+            <theme id="#podiumTheme5"/>
+            <theme id="#podiumTheme6"/>
+            <theme id="#podiumTheme7"/>
+            <theme id="#podiumTheme8"/>
+            <theme id="#podiumTheme9"/>
+            <theme id="#podiumTheme10"/>
+            <theme id="#podiumTheme11"/>
+            <theme id="#podiumTheme12"/>
+            <theme id="#podiumTheme13"/>
+            <theme id="#podiumTheme14"/>
+            <theme id="#podiumTheme15"/>
+            <theme id="#podiumTheme16"/>
+            <theme id="#podiumTheme17"/>
+            <theme id="#podiumTheme18"/>
+            <theme id="#podiumTheme19"/>
+            <theme id="#podiumTheme20"/>
+            <theme id="#podiumTheme21"/>
+            <theme id="#podiumTheme22"/>
+            <theme id="#podiumTheme23"/>
+            <theme id="#podiumTheme24"/>
+            <theme id="#podiumTheme25"/>
+            <theme id="#podiumTheme26"/>
+            <theme id="#podiumTheme27"/>
+            <theme id="#podiumTheme28"/>
+            <theme id="#podiumTheme29"/>
+            <theme id="#podiumTheme30"/>
+            <theme id="#podiumTheme31"/>
+            <theme id="#podiumTheme32"/>
+            <theme id="#podiumTheme33"/>
+            <theme id="#podiumTheme34"/>
+            <theme id="#podiumTheme35"/>
+            <theme id="#podiumTheme36"/>
+            <theme id="#podiumTheme37"/>
+            <theme id="#podiumTheme38"/>
+            <theme id="#podiumTheme39"/>
+            <theme id="#podiumTheme40"/>
+            <theme id="#podiumTheme41"/>
+            <theme id="#podiumTheme42"/>
+            <theme id="#podiumTheme43"/>
+            <theme id="#podiumTheme44"/>
+            <theme id="#podiumTheme45"/>
+            <theme id="#podiumTheme46"/>
+            <theme id="#podiumTheme47"/>
+            <theme id="#podiumTheme48"/>
+            <theme id="#podiumTheme49"/>
+            <theme id="#podiumTheme50"/>
+            <theme id="#podiumTheme51"/>
+            <theme id="#podiumTheme52"/>
+            <theme id="#podiumTheme53"/>
+            <theme id="#podiumTheme54"/>
+            <theme id="#podiumTheme55"/>
+            <theme id="#podiumTheme56"/>
+            <theme id="#podiumTheme57"/>
+            <theme id="#podiumTheme58"/>
+            <theme id="#podiumTheme59"/>
+            <theme id="#podiumTheme60"/>
+            <theme id="#podiumTheme61"/>
+            <theme id="#podiumTheme62"/>
+            <theme id="#podiumTheme63"/>
+            <theme id="#podiumTheme64"/>
+            <theme id="#podiumTheme65"/>
+            <theme id="#podiumTheme66"/>
+            <theme id="#podiumTheme67"/>
+            <theme id="#podiumTheme68"/>
+            <theme id="#podiumTheme69"/>
+            <theme id="#podiumTheme70"/>
+            <theme id="#podiumTheme71"/>
+            <theme id="#podiumTheme72"/>
+            <theme id="#podiumTheme73"/>
+            <theme id="#podiumTheme74"/>
+            <theme id="#podiumTheme75"/>
+            <theme id="#podiumTheme76"/>
+            <theme id="#podiumTheme77"/>
+            <theme id="#podiumTheme78"/>
+            <theme id="#podiumTheme79"/>
+            <theme id="#podiumTheme80"/>
+            <theme id="#podiumTheme81"/>
+            <theme id="#podiumTheme82"/>
+            <theme id="#podiumTheme83"/>
+            <theme id="#podiumTheme84"/>
+            <theme id="#podiumTheme85"/>
+            <theme id="#podiumTheme86"/>
+            <theme id="#podiumTheme87"/>
+            <theme id="#podiumTheme88"/>
+            <theme id="#podiumTheme89"/>
+            <theme id="#podiumTheme90"/>
+            <theme id="#podiumTheme91"/>
+            <theme id="#podiumTheme92"/>
+            <theme id="#podiumTheme93"/>
+            <theme id="#podiumTheme94"/>
+            <theme id="#podiumTheme95"/>
+            <theme id="#podiumTheme96"/>
+            <theme id="#podiumTheme97"/>
+            <theme id="#podiumTheme98"/>
+            <theme id="#podiumTheme99"/>
+            <theme id="#podiumTheme100"/>
+            <theme id="#podiumTheme101"/>
+            <theme id="#podiumTheme102"/>
+            <theme id="#podiumTheme103"/>
+            <theme id="#podiumTheme104"/>
+            <theme id="#podiumTheme105"/>
+            <theme id="#podiumTheme106"/>
+            <theme id="#podiumTheme107"/>
+            <theme id="#podiumTheme108"/>
+            <theme id="#podiumTheme109"/>
+            <theme id="#podiumTheme110"/>
+            <theme id="#podiumTheme111"/>
+            <theme id="#podiumTheme112"/>
+            <theme id="#podiumTheme113"/>
+            <theme id="#podiumTheme114"/>
+            <theme id="#podiumTheme115"/>
+            <theme id="#podiumTheme116"/>
+            <theme id="#podiumTheme117"/>
+            <theme id="#podiumTheme118"/>
+            <theme id="#podiumTheme119"/>
+            <theme id="#podiumTheme120"/>
+            <theme id="#podiumTheme121"/>
+            <theme id="#podiumTheme122"/>
+            <theme id="#podiumTheme123"/>
+            <theme id="#podiumTheme124"/>
+            <theme id="#podiumTheme125"/>
+            <theme id="#podiumTheme126"/>
+            <theme id="#podiumTheme127"/>
+            <theme id="#podiumTheme128"/>
+            <theme id="#podiumTheme129"/>
+            <theme id="#podiumTheme130"/>
+            <theme id="#podiumTheme131"/>
+            <theme id="#podiumTheme132"/>
+            <theme id="#podiumTheme133"/>
+            <theme id="#podiumTheme134"/>
+            <theme id="#podiumTheme135"/>
+            <theme id="#podiumTheme136"/>
+            <theme id="#podiumTheme137"/>
+            <theme id="#podiumTheme138"/>
+            <theme id="#podiumTheme139"/>
+            <theme id="#podiumTheme140"/>
+            <theme id="#podiumTheme141"/>
+            <theme id="#podiumTheme142"/>
+            <theme id="#podiumTheme143"/>
+            <theme id="#podiumTheme144"/>
+            <theme id="#podiumTheme145"/>
+            <theme id="#podiumTheme146"/>
+            <theme id="#podiumTheme147"/>
+            <theme id="#podiumTheme148"/>
+            <theme id="#podiumTheme149"/>
+            <theme id="#podiumTheme150"/>
+            <theme id="#podiumTheme151"/>
+            <theme id="#podiumTheme152"/>
+            <theme id="#podiumTheme153"/>
+            <theme id="#podiumTheme154"/>
+            <theme id="#podiumTheme155"/>
+            <theme id="#podiumTheme156"/>
+            <theme id="#podiumTheme157"/>
+            <theme id="#podiumTheme158"/>
+            <theme id="#podiumTheme159"/>
+            <theme id="#podiumTheme160"/>
+            <theme id="#podiumTheme161"/>
+            <theme id="#podiumTheme162"/>
+            <theme id="#podiumTheme163"/>
+            <theme id="#podiumTheme164"/>
+            <theme id="#podiumTheme165"/>
+            <theme id="#podiumTheme166"/>
+            <theme id="#podiumTheme167"/>
+            <theme id="#podiumTheme168"/>
+            <theme id="#podiumTheme169"/>
+            <theme id="#podiumTheme170"/>
+            <theme id="#podiumTheme171"/>
+            <theme id="#podiumTheme172"/>
+            <theme id="#podiumTheme173"/>
+            <theme id="#podiumTheme174"/>
+            <theme id="#podiumTheme175"/>
+            <theme id="#podiumTheme176"/>
+            <theme id="#podiumTheme177"/>
+            <theme id="#podiumTheme178"/>
+            <theme id="#podiumTheme179"/>
+            <theme id="#podiumTheme180"/>
+            <theme id="#podiumTheme181"/>
+            <theme id="#podiumTheme182"/>
+            <theme id="#podiumTheme183"/>
+            <theme id="#podiumTheme184"/>
+            <theme id="#podiumTheme185"/>
+            <theme id="#podiumTheme186"/>
+            <theme id="#podiumTheme187"/>
+            <theme id="#podiumTheme188"/>
+            <theme id="#podiumTheme189"/>
+            <theme id="#podiumTheme190"/>
+            <theme id="#podiumTheme191"/>
+            <theme id="#podiumTheme192"/>
+            <theme id="#podiumTheme193"/>
+            <theme id="#podiumTheme194"/>
+            <theme id="#podiumTheme195"/>
+            <theme id="#podiumTheme196"/>
+            <theme id="#podiumTheme197"/>
+            <theme id="#podiumTheme198"/>
+            <theme id="#podiumTheme199"/>
+            <theme id="#podiumTheme200"/>
+            <theme id="#podiumTheme201"/>
+            <theme id="#podiumTheme202"/>
+        </themes>
+    </game>
+</games>

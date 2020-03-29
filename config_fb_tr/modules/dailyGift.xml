@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <rule index="1">
+         <gift silver="1000" />
+    </rule>
+    <rule index="2">
+         <gift typeId="miniFountain" count="1" />
+    </rule>
+    <rule index="3">
+         <gift gold="3" />
+    </rule>
+    <rule index="4">
+         <gift silver="2000" />
+    </rule>
+    <rule index="5">
+         <gift typeId="vsgstBrush" count="5" />
+    </rule>
+    <rule index="6">
+         <gift typeId="wdnCake" count="1" />
+    </rule>
+    <rule index="7">
+         <gift typeId="mrRing1" count="1" />
+    </rule>
+    <rule index="8">
+         <gift gold="5" />
+    </rule>
+    <rule index="9">
+         <gift typeId="iceRinkSkate1" count="1" />
+    </rule>
+    <rule index="10">
+         <gift silver="3000" />
+    </rule>
+    <rule index="11">
+         <gift typeId="sbRS1" count="1" />
+    </rule>
+    <rule index="12">
+         <gift typeId="bikeRsrWht" count="1" />
+    </rule>
+    <rule index="13">
+         <gift gold="7" />
+    </rule>
+    <rule index="14">
+         <gift silver="4000" />
+    </rule>
+    <rule index="15">
+         <gift typeId="sofa11" count="1" />
+    </rule>
+    <rule index="16">
+         <gift typeId="film" count="10" />
+    </rule>
+    <rule index="17">
+        <gift typeId="vsgstBrush" count="5" />
+    </rule>
+    <rule index="18">
+         <gift gold="10" />
+    </rule>
+    <rule index="19">
+         <gift typeId="wtrfll5" count="1" />
+    </rule>
+    <rule index="20">
+         <gift typeId="roseBasket" count="1" />
+    </rule>
+    <rule index="21">
+         <gift silver="8000" />
+    </rule>
+    <rule index="22">
+         <gift typeId="chairBomb" count="10" />
+    </rule>
+    <rule index="23">
+         <gift gold="12" />
+    </rule>
+    <rule index="24">
+         <gift silver="8000" />
+    </rule>
+    <rule index="25">
+        <gift typeId="vsgstBrush" count="7" />
+    </rule>
+    <rule index="26">
+        <gift typeId="film" count="10" />
+    </rule>
+    <rule index="27">
+         <gift silver="8000" />
+    </rule>
+    <rule index="28">
+         <gift gold="15" />
+    </rule>
+    <rule index="29">
+        <gift typeId="vsgstBrush" count="7" />
+    </rule>
+    <rule index="30">
+        <gift typeId="film" count="10" />
+         <goto index="21" />
+    </rule>
+</config>

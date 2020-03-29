@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<dictionary>
+    <locale name="tr">
+        <message key="clanCreateDialogTitle">Kendi kulübünü kur</message>
+        <message key="clanCreateClanHintMessage">Bir kulüp yaratmak için :level:. Seviye olmalısın</message>
+        <message key="clanDialogTitle">Kulüpler</message>
+        <message key="clanRequestDialogTitle">Bir Kulübe Katılmak</message>
+        <message key="clanRequestSentMessage">:name: Az sonra isteğini alacak.</message>
+        <message key="clanRequestReceivedMessage">:name: Seni bir kulübe davet etti. Katılmak ister misin?</message>
+        <message key="clanRequestApprovedMessage">:name: Kulübüne katılmayı kabul etti.</message>
+        <message key="clanFailMessage">Kulübe katılma isteği reddedildi.</message>
+        <message key="clanEmptyInfoMessage">Bu oyuncu bir kulüp üyesi değil</message>
+        <message key="clanNewsTabTitle">Haberler</message>
+        <message key="clanMembersTabTitle">Üyeler</message>
+        <message key="clanRequestsTabTitle">İstekler</message>
+        <message key="clanApproveDialogMessage">Bu oyuncunun kulübe katılma isteğini kabul et?</message>
+        <message key="clanApprovedMessage">:clanTitle: Kulübü tarafından kabul edildin</message>
+        <message key="clanJoinErrorMessage">Diğer kulüplere katılabilmek için öncelikle :clanTitle: kulübünden ayrıl</message>
+        <message key="clanAutoClanNewLevelNewsMessage">Yaşasın! Kulübümüz :level:. Seviyeye yükseldi!</message>
+        <message key="clanCreateNewsDialogTitle">Bir Haber gönderisi ekle</message>
+        <message key="clanCreateNewsDialogMessage">Gönderi metni:</message>
+        <message key="clanCreateNewsDialogPinned">Tutturulmuş gönderi</message>
+        <message key="clanNewsMessageEmptyText">Lütfen bir metin gir</message>
+        <message key="clanDonateButtonHint">Katkı</message>
+        <message key="clanDonateDialogTitle">Kulüp Katkısı</message>
+        <message key="clanDonateMessage">Kulübe altın katkısı sağla</message>
+        <message key="clanDonateThanks">Kulübümüze katkı sağladığın için teşekkürler!</message>
+        <message key="clanUpgradeDialogTitle">Kulübün seviyesini yükselt</message>
+        <message key="clanUpgradeTitle">Yeni seviye</message>
+        <message key="clanUpgradeButtonHint">Seviye yükseldi</message>
+        <message key="clanUpgradeGetClanCoinMessage">Kulübün seviye atlayabilmek için :clanCoin: paraya ihtiyacı var. Altın desteğinde bulunmak ister misin?</message>
+        <message key="clanUpgradeCurrentState">Anlık kulüp detayları: :activity: etkinlik, :members: üye, :clanCoin: kuruş.</message>
+        <message key="clanUpgradeNextConditions">Seviye atlama gereksinimleri: :activity: etkinlik, :members: üye, :clanCoin: kuruş.</message>
+        <message key="clanUpgradeNextAward">Sonraki seviye: +:members: yeni üye, +:masters: yeni yardımcı, yeni amblem rengi</message>
+        <message key="clanRatingDialogTitle">Kulüp Sıralaması</message>
+        <message key="clanError101">Oyuncu başka bir kulübe üye</message>
+        <message key="clanError102">Kulübün yaratıcısını atamazsın</message>
+        <message key="clanError103">Bir Kulüp yardımcısını atamazsın</message>
+        <message key="clanError104">Bir Kulüp üyesini atamazsın</message>
+        <message key="clanError105">Maksimum yardımcı sayısına ulaşıldı</message>
+        <message key="clanError107">Bir veya daha fazla geçersiz alan.</message>
+        <message key="clanError108">Zaten bir kulüp üyesisin</message>
+        <message key="clanError109">Seviyen çok düşük</message>
+        <message key="clanError110">Bu isim zaten başka bir kulübe ait</message>
+        <message key="clanError300">Bir kulüp üyesine rol verilirken bir hatayla karşılaşıldı.</message>
+        <message key="clanNotificationNewNews"><![CDATA[<p>]]><![CDATA[<span class="bold">]]><![CDATA[:clanName:]]><![CDATA[</span>]]><![CDATA[Kulübünde]]><![CDATA[</p>]]><![CDATA[ yeni bir haber gönderisi paylaşıldı]]></message>
+        <message key="clanNotificationRequestAccepted"><![CDATA[<p>]]><![CDATA[<span class="bold">]]><![CDATA[:clanName:]]><![CDATA[</span>]]><![CDATA[Kulübüne]]><![CDATA[</p>]]><![CDATA[kabul edildin]]></message>
+        <message key="clanNotificationRequestReject"><![CDATA[<p>]]><![CDATA[<span class="bold">]]><![CDATA[:clanName:]]><![CDATA[</span>]]><![CDATA[Kulübüne katılma isteğin reddedildi]]><![CDATA[</p>]]></message>
+        <message key="clanNotificationKickedFromClan"><![CDATA[<p>]]><![CDATA[<span class="bold">]]><![CDATA[:clanName:]]><![CDATA[</span>]]><![CDATA[Kulübünden atıldın]]><![CDATA[</p>]]></message>
+        <message key="clanNotificationClanDismiss"><![CDATA[<p>]]><![CDATA[<span class="bold">]]><![CDATA[:clanName:]]><![CDATA[</span>]]><![CDATA[Kulübü dağıldı]]><![CDATA[</p>]]></message>
+        <message key="clanNotificationTitleNewNews">Yeni gönderi</message>
+        <message key="clanNotificationTitleNewRequest">İstek gönderildi</message>
+        <message key="clanNotificationTitleRequestAccepted">İstek kabul edildi</message>
+        <message key="clanNotificationTitleRequestReject">İstek reddedildi</message>
+        <message key="clanNotificationTitleKickedFromClan">Atıldın</message>
+        <message key="clanNotificationTitleClanDismiss">Kulüp dağıldı</message>
+        <message key="clanNotificationTitleInvite">Bir Kulübe Davet</message>
+        <message key="clanNotificationTitleInviteAccepted">Davet kabul edildi</message>
+        <message key="clanNotificationTitleInviteRejected">Davet reddedildi</message>
+        <message key="newMembersAwardDescription">Kulüpte daha fazla yer</message>
+        <message key="clanEventAwardDescription">Kulüp üyeleri için etkinlik yaratabilme özelliği</message>
+        <message key="clanLocationAwardDescription">Kulüp Mevkisi</message>
+        <message key="clothesShopAwardDescription">Kulüp Kıyafet Mağazası</message>
+        <message key="furnitureShopAwardDescription">Kulüp Mobilya Mağazası</message>
+        <message key="makeupShopAwardDescription">Kulüp Makyözü</message>
+        <message key="newClothesAwardDescription">Kulüp mağazasında yeni kıyafetler var</message>
+        <message key="newFurnitureAwardDescription">Kulüp mağazasında yeni mobilyalar var</message>
+        <message key="newMakeupAwardDescription">Kulüp makyözünde yeni makyajlar var</message>
+        <message key="newOfficersAwardDescription">Daha fazla yardımcı yeri</message>
+        <message key="newPetsAwardDescription">Yeni hayvanlar</message>
+        <message key="newRoomAwardDescription">Yeni oda</message>
+        <message key="petShopAwardDescription">Kulüp Hayvan Mağazası</message>
+        <message key="clanLevelLabel">:level:. seviye</message>
+        <message key="clanIconLabel">Kulüp Amblemi</message>
+        <message key="forNewClanLabel">Bir kulüp yaratmak için gerekli olanlar:</message>
+        <message key="nextClanLevelAwardLabel">:level:. Seviyede mevcut:</message>
+        <message key="clanTitleLabel">İsim:</message>
+        <message key="noTitleAlertMessage">Kulübün adını doldur</message>
+        <message key="upgradeClanConditionsDescription">Kulübe seviye atlatmak için gerekenler:</message>
+        <message key="maxClanLevelLabel">Maksimum kulüp seviyesi</message>
+        <message key="clanInviteNotificationMessage"><![CDATA[<p>]]><![CDATA[<span class="bold">]]><![CDATA[:clanName:]]><![CDATA[</span>]]><![CDATA[Kulübüne davet edildin]]><![CDATA[</p>]]></message>
+        <message key="clanJoinTitle">Katıl</message>
+        <message key="clanCreateTabLabel">Oluştur</message>
+        <message key="clanInvitationsTabLabel">Davetler</message>
+        <message key="clanInfoTabLabel">Kulübüm</message>
+        <message key="clanNewsTabLabel">Kulüp Gönderileri</message>
+        <message key="clanActivityTabLabel">Etkinlik</message>
+        <message key="clanTitle">Kulüp</message>
+        <message key="clanListTabLabel">Kulüpler</message>
+        <message key="clanJoinTabLabel">İstekler</message>
+        <message key="clanJoinLabel">İstek</message>
+        <message key="clanCompetitionTabLabel">Yarışma</message>
+        <message key="clanMembersTabLabel">Üyeler</message>
+        <message key="clanItemsTabLabel">Eşyalar</message>
+        <message key="clanLeaderShopTabLabel">Kulüp Liderinin Mağazası</message>
+        <message key="clanShopTabLabel">Kulüp Mağazası</message>
+        <message key="searchPanelInputText">Sorunu gir</message>
+        <message key="otherClubsButtonLabel">Diğer kulüpler</message>
+        <message key="allowedToJoinLabel">Katılmaya uygun</message>
+        <message key="joinRequestButtonTitle">İstek gönder</message>
+        <message key="requestSentDescription">İstek gönderildi</message>
+        <message key="clubFullDescription">Kulüp dolu</message>
+        <message key="inviteReceivedDescription">Davet edildin</message>
+        <message key="createClanRequestLevelMessage">:level:. Seviye gerekiyor</message>
+        <message key="minSearchLengthHintText">Anlatı en az :clanTitleMinLength: karakter içermelidir</message>
+        <message key="noResultsReceivedText">Sonuç bulunamadı</message>
+        <message key="clanNoJoinRequestsText">Herhangi bir kulüp isteği yok.</message>
+        <message key="memberNoJoinRequestsText">Bekleyen herhangi bir kulüp isteğin yok.</message>
+        <message key="clanNoInvitesText">Herhangi bir kulüp davetin yok.</message>
+        <message key="clanDialogNameLabel">İsim</message>
+        <message key="clanNameInputTitle">Kulüp ismi</message>
+        <message key="clanDialogTagLabel">Etiket</message>
+        <message key="clanTagInputTitle">etiket</message>
+        <message key="clanLogoDialogTitle">Kulüp Amblemi</message>
+        <message key="clanDialogLogoLabel">Amblem</message>
+        <message key="clanDialogLocationLabel">Mevki</message>
+        <message key="pinCodeDialogTitle">PIN</message>
+        <message key="clanNameErrorDuplicateHintText">Bu isim mevcut değil.</message>
+        <message key="clanNameErrorFormatHintText">Kulüp ismi :clanTitleMinLength: ile :clanTitleMaxLength: karakter arasında olmalıdır.</message>
+        <message key="clanNameErrorHintText">Bu kulüp ismi uygunsuzdur.</message>
+        <message key="clanTagErrorFormatHintText">Etiket :clanTagMinLength: ile :clanTagMaxLength: karakter arasında olmalıdır.</message>
+        <message key="clanTagErrorHintText">Bu etiket uygunsuzdur.</message>
+        <message key="clanTagHintText">Kulüp isminin kısaltılmış hali :clanTagMinLength: ile :clanTagMaxLength: karakter arasındadır ve kulüp üyelerinin isminden önce gösterilir</message>
+        <message key="pinCodeDialogDescription">Kulübünüzü hackerlardan korumak için :pinLength: sayılık bir PIN belirleyin. Unutmamak için bir yere not almayı unutmayın.</message>
+        <message key="clanPinCodeErrorDescription">Geçersiz PIN</message>
+        <message key="clanLocationSelectTitle">Kulüp Mevkisi</message>
+        <message key="scifiClanTitle">Uzay İstasyonu</message>
+        <message key="scifiClanDescription">Mükemmel yıldız manzarası, uzaylı bitkileri ve uzay temalı iç mimarisiyle kulübün için muhteşem bir yer!</message>
+        <message key="glamourClanTitle">Prensesin Odası</message>
+        <message key="glamourClanDescription">Hiç bir prensesin hayatını yaşayıp tek boynuzlu ata binmeyi hayal ettin mi? Bu mükemmel mevkiyle eğlencenin, cazibenin ve büyünün keyfini çıkarın!</message>
+        <message key="magicClanTitle">Orta Çağ Kalesi</message>
+        <message key="magicClanDescription">Kale duvarları içerisinde her zaman dünyaya hükmetmek isteyen kulüpler için ışık ve yer mevcuttur.</message>
+        <message key="apocalypseClanTitle">Kıyamet Sonrası</message>
+        <message key="apocalypseClanDescription">Kıyamet sonrası geleceği mi tecrübe edinmek istiyorsun? Öyleyse bu mevki tam kulübüne göre! Yalnızca radyoaktif fare ve örümceklerden uzak durmaya çalış: düşündüğünden daha fazla bacağa sahip olabilirler.</message>
+        <message key="clanSuccessCreateDescription">Başarıyla bir kulüp oluşturdun. Şimdi lafı yaymalısın!</message>
+        <message key="clanDonateButtonTitle">Katkı sağla</message>
+        <message key="clanDonateTip"><![CDATA[<p>]]><![CDATA[<span class="bold">]]><![CDATA[İpucu:]]><![CDATA[</span>]]><![CDATA[Kulübüne katkıda bulunmak istediğin altın miktarını belirle]]><![CDATA[</p>]]></message>
+        <message key="orderByClanListDescriptionTitle">Şuna göre sırala:</message>
+        <message key="orderByPositionButtonTitle">rol</message>
+        <message key="orderByLevelButtonTitle">seviye</message>
+        <message key="orderByActivityButtonTitle">:activityPeriod: Sırasında aktiflik</message>
+        <message key="orderByActivityButtonText">Sırasında aktiflik </message>
+        <message key="onlineCheckBoxTitle">çevrimiçi</message>
+        <message key="clanRoleLabelText">Rol</message>
+        <message key="clanRoleNovice">Acemi</message>
+        <message key="clanRoleMember">Katılımcı</message>
+        <message key="clanRoleMaster">Yardımcı</message>
+        <message key="clanRoleCreator">Lider</message>
+        <message key="clanDismissPinCodeTitle">Kulübü dağıtmak için PIN’i gir.</message>
+        <message key="dismissClanButtonTitle">Kulübü dağıt</message>
+        <message key="leaveClanButtonTitle">Kulüpten ayrıl</message>
+        <message key="clanVerifyPinCodeTitle">Değiştirmek için eski PIN’i gir.</message>
+        <message key="changePinCodeButtonTitle">PIN değiştir</message>
+        <message key="clanChangePinCodeTitle">Yeni PIN’i gir. Unutmamak için not almaya dikkat et.</message>
+        <message key="clanChangeCreatorPinCodeTitle">Lider rolünü başkasına atamak için PIN kodunu gir.</message>
+        <message key="clanLeaderCreatePinCodeText">Kulüp lideri rolüne atandın! Hackerlardan korunmak için :pinCodeLength: haneli PIN kodunu belirle.</message>
+        <message key="clanPinCodeErrorHintText">PIN’de :pinCodeLength: sayı bulunmalıdır.</message>
+        <message key="enterPinCodeButtonTitle">gir</message>
+        <message key="declinePinCodeButtonTitle">vazgeç</message>
+        <message key="clanSuccessCreatePublishTitle">:clubName:</message>
+        <message key="inviteClanWaitButtonTitle">Yükleniyor...</message>
+        <message key="inviteClanValidateHintText">:level:. Seviyede mevcut</message>
+        <message key="memberUpPositionLabel">:memberName: Terfi etti.</message>
+        <message key="memberDownPositionLabel">:memberName: Oyuncusunun rütbesi düşürüldü.</message>
+        <message key="memberDonateLabel">:memberName: Kulüp dengesini :clanCoins: arttırdı.</message>
+        <message key="clanUpgrade">Kulüp seviye atladı.</message>
+        <message key="clanRatingPlaceLabel">Kulüp sıralamada #:place:. Pozisyona ulaştı.</message>
+        <message key="addMemberLabel">:memberName: Kulübe katıldı.</message>
+        <message key="removeMemberLabel">:memberName: Kulüpten ayrıldı.</message>
+        <message key="clanCompetitionPlaceLabel">Kulüp yarışmada #:place:. Pozisyona ulaştı.</message>
+        <message key="clanMemberActivityAwardLabel">Kulüp aktiflik ödülü.</message>
+        <message key="clanActivityAwardLabel">Aktiflik skor ödülü</message>
+        <message key="clanDayActivityLabel">Günlük aktiflik</message>
+        <message key="clanDayActivityAwardLabel">Bu ödül aktiflik skoru en az :points: olan bütün oyunculara verilir.</message>
+        <message key="clanActivityDescription">Oyun içindeki farklı eylemler size aktiflik puanı kazandırır. Kulüp sandıklarındaki en iyi ödülleri açabilmek için sıralamanın en üstüne ulaşmalısınız.</message>
+        <message key="clanBuyItemActivityLabel">Eşya satın aldığında</message>
+        <message key="clanGoldActivityLabel">Harcadığın her altın aktiflik skoruna :points: katkıda bulunur.</message>
+        <message key="clanBuyVipActivityLabel">VIP statüsü satın aldığında</message>
+        <message key="clanDayCountActivityLabel">:days: için: :points:.</message>
+        <message key="clanBuyGoldActivityLabel">Altın sikke satın aldığında</message>
+        <message key="clanBuyGoldCountActivityLabel">Satın aldığın her altın sikke için :points: aktiflik puanı elde edersin.</message>
+        <message key="clanInteractionCountActivityLabel">Diğer avatarlarla etkileşime geçerek :points: aktiflik puanı elde edersin.</message>
+        <message key="clanFriendsCountActivityLabel">Arkadaşlarınızın dairelerini temizlemek size  ___ aktiflik puanı kazandırır.</message>
+        <message key="clanWorkActivityLabel">Sokak ve bahçeyi temizlediğinde.</message>
+        <message key="clanWorkCountActivityLabel">Sokakları ve bahçeleri temizlemek her seferinde :points: aktiflik puanı sağlar.</message>
+        <message key="clanEnterGameActivityLabel">Günlük giriş için</message>
+        <message key="clanEnterGameCountActivityLabel">Oyuna her gün giriş yap ve :points: aktiflik puanı kazan.</message>
+        <message key="clanCompetitionActivityLabel">Yarışmalara katıldığında</message>
+        <message key="clanCompetitionCountActivityLabel">Galibiyette :activityWinCount:, mağlubiyet ve beraberliklerde :points: aktiflik puanı elde etmek için mini oyunlar oyna!</message>
+        <message key="noClanTitle">Kulüp üyesi değil</message>
+        <message key="playerSendRequestLabel">Bu oyuncu bir kulübe katılmak için istek gönderdi</message>
+        <message key="declineRequestMessage">:clubName: Kulübüne katılma isteğin reddedildi</message>
+        <message key="dismissClanMessage">:clubName: Kulübü dağıldı.</message>
+        <message key="kickClanMemberMessage">:clubName: Kulübünden atıldın.</message>
+        <message key="clanLocationNotAllowed">Arkadaşını kulüp mevkilerine kadar takip edemezsin</message>
+        <gender key="clanConfirmLeaveClanMessage">
+            <form>Bu kulüpten ayrılmak istediğinden emin misin?</form>
+            <form>Bu kulüpten ayrılmak istediğinden emin misin?</form>
+        </gender>
+        <gender key="clanConfirmDismissClanMessage">
+            <form>Bu kulübü dağıtmak istediğinden emin misin?</form>
+            <form>Bu kulübü dağıtmak istediğinden emin misin?</form>
+        </gender>
+        <gender key="clanConfirmKickMemberMessage">
+            <form>:name: Oyuncusunu bu kulüpten atmak istediğinden emin misin?</form>
+            <form>:name: Oyuncusunu bu kulüpten atmak istediğinden emin misin?</form>
+        </gender>
+        <gender key="clanAutoJoinUserNewsMessage">
+            <form>:name: Kulübümüze katıldı.</form>
+            <form>:name: Kulübümüze katıldı.</form>
+        </gender>
+        <gender key="clanAutoLeaveUserNewsMessage">
+            <form>:name: Kulübümüzden ayrıldı.</form>
+            <form>:name: Kulübümüzden ayrıldı.</form>
+        </gender>
+        <gender key="clanAutoDonateUserNewsMessage">
+            <form>:name: Kulübümüze :clanCoin: katkıda bulundu</form>
+            <form>:name: Kulübümüze :clanCoin: katkıda bulundu</form>
+        </gender>
+        <gender key="clanAutoMakeMasterNewsMessage">
+            <form>:name: Yardımcıya terfi etti</form>
+            <form>:name: Yardımcıya terfi etti</form>
+        </gender>
+        <gender key="clanAutoRemoveMasterNewsMessage">
+            <form>:name: Yardımcılığı alındı</form>
+            <form>:name: Yardımcılığı alındı</form>
+        </gender>
+        <gender key="clanDailyGiftMessage">
+            <form>Bir kulüp hediyesi aldın.</form>
+            <form>Bir kulüp hediyesi aldın.</form>
+        </gender>
+        <gender key="clanCreateEventNotification">
+            <form><![CDATA[<p>]]><![CDATA[<span class="bold">]]><![CDATA[:name:]]><![CDATA[</span>]]><![CDATA[ Bir kulüp etkinliği başlattı ]]><![CDATA[:event:]]><![CDATA[. Hemen katıl!]]><![CDATA[</p>]]></form>
+            <form><![CDATA[<p>]]><![CDATA[<span class="bold">]]><![CDATA[:name:]]><![CDATA[</span>]]><![CDATA[ Bir kulüp etkinliği başlattı ]]><![CDATA[:event:]]><![CDATA[. Hemen katıl!]]><![CDATA[</p>]]></form>
+        </gender>
+        <gender key="clanError100">
+            <form>Bu kulübe zaten bir istek göndermiştiniz</form>
+            <form>Bu kulübe zaten bir istek göndermiştiniz</form>
+        </gender>
+        <gender key="clanNotificationNewRequest">
+            <form><![CDATA[<p>]]><![CDATA[:avatarName:]]><![CDATA[Kulübe katılmak için bir istek ]]><![CDATA[<span class="bold">]]><![CDATA[:clanName:]]><![CDATA[</span>]]><![CDATA[yolladı]]><![CDATA[</p>]]></form>
+            <form><![CDATA[<p>]]><![CDATA[:avatarName:]]><![CDATA[Kulübe katılmak için bir istek ]]><![CDATA[<span class="bold">]]><![CDATA[:clanName:]]><![CDATA[</span>]]><![CDATA[yolladı]]><![CDATA[</p>]]></form>
+        </gender>
+        <gender key="clanSuccessAddMemberDescription">
+            <form>Bir kulübe katıldın. Lafı yaymayı unutma!</form>
+            <form>Bir kulübe katıldın. Lafı yaymayı unutma!</form>
+        </gender>
+        <gender key="leaveClanDescription">
+            <form>Bu kulüpten ayrılmak istediğinden emin misin?</form>
+            <form>Bu kulüpten ayrılmak istediğinden emin misin?</form>
+        </gender>
+        <gender key="clanSuccessCreatePublishDescription">
+            <form>Az önce kendi kulübümü kurdum! Bana katılın! :link:</form>
+            <form>Az önce kendi kulübümü kurdum! Bana katılın! :link:</form>
+        </gender>
+        <plural key="memberCoin">
+            <form>:value: yakut</form>
+            <form>:value: yakut</form>
+            <form>:value: yakut</form>
+        </plural>
+        <plural key="clan">
+            <form>:value: Kulüp</form>
+            <form>:value: Kulüp</form>
+            <form>:value: Kulüp</form>
+        </plural>
+        <message key="clanBackButtonTitle">geri</message>
+
+        <message key="newsTabPanel">Kulüp Gönderileri</message>
+        <message key="clanRoleNoviceGenitive">acemi</message>
+        <message key="clanRoleMemberGenitive">üye</message>
+        <message key="clanRoleMasterGenitive">asistan</message>
+        <message key="clanRoleCreatorGenitive">lider</message>
+        <message key="openRequestsForClanLabel">Açık kulüp</message>
+        <message key="closeRequestsForClanLabel">Kapalı kulüp</message>
+        <message key="clubIsRestrictedToJoin">Kulüp kapandı</message>
+        <message key="advertisementTextLabel">Duyurular</message>
+        <message key="editAdvertisementTextLabel">düzenle</message>
+        <message key="noClanNewsTextLabel">Herhangi bir kulüp gönderisi bulunmuyor</message>
+        <message key="getClanActivityPointsLabel">Etkinlik puanları kazan</message>
+        <message key="notInClanHintLabel">Bir kulüp üyesi değilsin</message>
+        <gender key="clanSuccessJoinPublishDescription">
+            <form>Az önce kendi kulübe katıldım! Bana katılın! :link:</form>
+            <form>Az önce kendi kulübe katıldım! Bana katılın! :link:</form>
+        </gender>
+        
+        <message key="buyRecipeNewsDescription">Yeni klan eşyaları mevcut: :itemName:.</message>
+        <message key="approveRecipeDialogTitle">Doğrula</message>
+        <message key="viewRecipeDialogTitle">İncele</message>
+        <message key="approveRecipeDialogDescription">Şuna izin veriyorsun:</message>
+        <message key="memberRecipeDialogDescription">Yalnızca bir Kulüp Lideri bir eşyaya izin verebilir.</message>
+        <message key="notEnoughClubCoinTitle">Yetersiz Kulüp Jetonu</message>
+        <message key="notEnoughClubCoinDescription">Kulüpte yeterli Kulüp Jetonu yok. Kulüp Jetonları elde etmek için altın harcamak ister misiniz?</message>
+        <message key="leaderShopPurchaseAlert">Bu satın alma yalnızca Kulüp Lideri tarafından yapılabilir!</message>
+        <message key="closeClubLocationLabel">:time: İçin kapalı kulüp</message>
+        <message key="closedClubLocationLabel">Kulüp kapatıldı. Kalan zaman</message>
+        <message key="openClanLocationLabel">Açık kulüp</message>
+        <message key="clanLocationInfoLeaderLabel"><![CDATA[<p>]]><![CDATA[<span class="bold">]]><![CDATA[ Lider: ]]><![CDATA[</span>]]><![CDATA[:name:]]><![CDATA[</p>]]></message>
+        <message key="clanLocationRoomCountLabel"><![CDATA[<p>]]><![CDATA[<span class="bold">]]><![CDATA[ Kulüp: ]]><![CDATA[</span>]]><![CDATA[:rooms:]]><![CDATA[</p>]]></message>
+        <message key="clanTotalVisitorsLabel">Kulüpteki herkes (:count:)</message>
+        <message key="clanCurrentRoomVisitorsLabel">Bu odadaki herkes (:count:)</message>
+        <message key="clanKickedMessage">Bu kulübün üyeleri seni bir süre görmek istemiyorlar.</message>
+        <message key="visitorsLabel">Ziyaretçiler</message>
+    </locale>
+</dictionary>

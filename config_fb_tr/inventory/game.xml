@@ -1,0 +1,1279 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<config>
+
+    <category id="game" label="#gameCategory" typeClass="game" logCategory1="gameItems">
+
+        <category id="mdf" label="#modifierCategory" logCategory2="cafeAndClub">
+
+            <!-- CAFE -->
+            <item id="cfCak" label="#cakeTitle" name="Cake"
+                  icon="CakeIcon@location" gold="0" silver="150" saleSilver="0">
+                <modifyers>
+                    <modifyer name="energy" effect="15"/>
+                </modifyers>
+            </item>
+            <item id="cfCof" label="#coffeeTitle" name="Coffee"
+                  icon="CoffeeIcon@location" gold="1" silver="0" saleSilver="0">
+                <modifyers>
+                    <modifyer name="energy" effect="30"/>
+                </modifyers>
+            </item>
+            <item id="cfPiz" label="#pizzaTitle" name="Pizza"
+                  icon="PizzaIcon@location" gold="3" silver="0" saleSilver="0">
+                <modifyers>
+                    <modifyer name="energy" effect="100"/>
+                </modifyers>
+            </item>
+
+            <!-- CLUB -->
+            <item id="clMoc" label="#mochitoTitle" name="Mochito"
+                  icon="MochitoIcon@location" gold="0" silver="150" saleSilver="0">
+                <modifyers>
+                    <modifyer name="energy" effect="15"/>
+                </modifyers>
+            </item>
+            <item id="clBlr" label="#blackRussianTitle" name="BlackRussian"
+                  icon="BlackRussianIcon@location" gold="1" silver="0" saleSilver="0">
+                <modifyers>
+                    <modifyer name="energy" effect="30"/>
+                </modifyers>
+            </item>
+            <item id="clB52" label="#b52Title" name="B52"
+                  icon="B52Icon@location" gold="3" silver="0" saleSilver="0">
+                <modifyers>
+                    <modifyer name="energy" effect="100"/>
+                </modifyers>
+            </item>
+        </category>
+
+        <category id="cake" label="" logCategory2="cake">
+            <item id="ckStrwb" label="#smallStrawberryCakeTitle" name="StrawberryCake"
+                  icon="StrawberryCakeIcon" gold="0" silver="150" saleSilver="0"/>
+            <item id="ckBlckb" label="#mediumBlackberryCakeTitle" name="BlackberryCake"
+                  icon="BlackberryCakeIcon" gold="0" silver="350" saleSilver="0"/>
+            <item id="ckOrng" label="#bigOrangeCakeTitle" name="OrangeCake"
+                  icon="OrangeCakeIcon" gold="1" silver="0" saleSilver="0"/>
+        </category>
+
+        <category id="holy" logCategory2="paint" visible="false">
+            <item id="pntHlRd" name="HolyPaintRed" canBuy="0" icon="" gold="99999"/>
+            <item id="pntHlGrn" name="HolyPaintGreen" canBuy="0" icon="" gold="99999"/>
+            <item id="pntHlBl" name="HolyPaintBlue" canBuy="0" icon="" gold="99999"/>
+        </category>
+
+        <category id="art" label="#artifactCategory" visible="false" logCategory2="work">
+
+            <!-- GARDEN -->
+            <item id="gdBug" label="#bugTitle" name="Bug" saleSilver="30" energy="4"
+                saleGold="1" goldProbability="0.015"/>
+            <item id="gdBtf" label="#butterflyTitle" name="Butterfly" saleSilver="50" energy="5"
+                saleGold="1" goldProbability="0.015"/>
+            <item id="gdFlw" label="#flowerTitle" name="Flower" saleSilver="30" energy="4"
+                saleGold="1" goldProbability="0.015"/>
+            <item id="gdIns" label="#insectsTitle" name="Insects" saleSilver="30" energy="4"
+                saleGold="1" goldProbability="0.015"/>
+
+            <!-- WORK -->
+            <item id="workSilverLoot" label="#workSilverLootTitle" name="WorkSilverLoot@location"
+                  icon="WorkSilverLoot@location"/>
+            <item id="workEnergyLoot" label="#workEnergyLootTitle" name="WorkEnergyLoot@location"
+                  icon="WorkEnergyLoot@location"/>
+            <item id="workGoldLoot" label="#workGoldLootTitle" name="GoldLoot@location"
+                icon="GoldLoot@location"/>
+
+            <!-- GARBAGE -->
+            <item id="gbTrash" label="#trashTitle" name="TrashPlate" saleSilver="20" energy="3"
+                saleGold="1" goldProbability="0.015"/>
+            <item id="gbTrashEnrg" label="#trashWithEnergyTitle" name="TrashWithEnergy" saleSilver="20" saleEnergy="1"
+                  saleGold="1" goldProbability="0.015" energy="3"/>
+        </category>
+
+        <category id="professionReplacedAtCraft" label="#professionCategory" visible="false" logCategory2="profession">
+            <item id="phtghrFilm12" label="#phtghrFilm12" name="film12" icon="PhotographerFilm12Icon@location">
+                <params>
+                    <param name="canUse" value="false"/>
+                </params>
+            </item>
+            <item id="phtghrFilm24" label="#phtghrFilm24" name="film24" icon="PhotographerFilm24Icon@location">
+                <params>
+                    <param name="canUse" value="false"/>
+                </params>
+            </item>
+            <item id="phtghrFilm36" label="#phtghrFilm36" name="film36" icon="PhotographerFilm36Icon@location">
+                <params>
+                    <param name="canUse" value="false"/>
+                </params>
+            </item>
+
+            <item id="vsgstSmallSet" label="#vsgstSmallSet" name="vsgstSmallSet" icon="VisagistSmallSetIcon@location">
+                <params>
+                    <param name="canUse" value="false"/>
+                </params>
+            </item>
+            <item id="vsgstMediumSet" label="#vsgstMediumSet" name="vsgstMediumSet"
+                  icon="VisagistMediumSetIcon@location">
+                <params>
+                    <param name="canUse" value="false"/>
+                </params>
+            </item>
+            <item id="vsgstLargeSet" label="#vsgstLargeSet" name="vsgstLargeSet" icon="VisagistLargeSetIcon@location">
+                <params>
+                    <param name="canUse" value="false"/>
+                </params>
+            </item>
+        </category>
+
+        <category id="misc" label="#activeCategory">
+            <!-- CHIPS -->
+            <category id="gameResources" label="#resourceCategory" logCategory2="gameRes">
+                <category id="fortuneChips" label="">
+                    <item id="gameChips" label="#gameChipsLabel" name="GameChips"
+                          icon="GameChipsResourceRedIcon@location" description="#gameChipsDescription" gold="1">
+                        <param name="canUse" value="true"/>
+                    </item>
+                    <item id="gameChips2" label="#gameChips2Label" name="GameChips"
+                          icon="GameChipsResourceGrayIcon@location" description="#gameChips2Description" gold="2">
+                        <param name="canUse" value="true"/>
+                    </item>
+                    <item id="gameChips3" label="#gameChips3Label" name="GameChips"
+                          icon="GameChipsResourceGreenIcon@location" description="#gameChips3Description" gold="3">
+                        <param name="canUse" value="true"/>
+                    </item>
+                    <item id="gameChips4" label="#gameChips4Label" name="GameChips"
+                          icon="GameChipsResourceBlueIcon@location" description="#gameChips4Description" gold="5">
+                        <param name="canUse" value="true"/>
+                    </item>
+                    <item id="gameChips5" label="#gameChips5Label" name="GameChips"
+                          icon="GameChipsResourcePurpleIcon@location" description="#gameChips5Description" gold="10">
+                        <param name="canUse" value="true"/>
+                    </item>
+                    <item id="gameChips6" label="#gameChips6Label" name="GameChips"
+                          icon="GameChipsResourceBlackIcon@location" description="#gameChips6Description" gold="20">
+                        <param name="canUse" value="true"/>
+                    </item>
+                    <item id="fortuneToken" label="#fortuneTokenLabel" name="FortuneToken"
+                          icon="FortuneTokenIcon@location" description="#fortuneTokenDescription"
+                          canBuy="0">
+                    </item>
+                </category>
+
+                <item id="film" label="#film" name="Film" icon="FilmResourceIcon@location"
+                      description="#filmDescription" gold="1">
+                    <param name="canUse" value="true"/>
+                </item>
+                <item id="bugsCan" label="#bugsCan" name="BugsCan" icon="BugsCanResourceIcon@location"
+                      description="#bugsCanDescription" gold="1">
+                    <param name="canUse" value="true"/>
+                </item>
+
+                <!-- PROFESSION -->
+                <category id="profession" label="professions">
+                    <item id="vsgstBrush" label="#vsgstBrush" name="vsgstBrush" icon="VisagistBrushIcon@location"
+                          canBuy="0">
+                        <params>
+                            <param name="canUse" value="false"/>
+                        </params>
+                    </item>
+                </category>
+            </category>
+
+            <!-- AQUARIUM FISHES -->
+            <category id="aquariumFishes" label="#aquariumFishesCategoryLabel" logCategory2="aquariumFishes">
+                <item id="aqF1" label="#aquariumFish1Label" icon="AquariumFish1Icon@decor" name="AquariumFish1@decor"
+                      gold="15" silver="0" priority="1" canGift="1">
+                    <params>
+                        <param name="canUse" value="true"/>
+                        <param name="relatedTypes" value="aquariumAmusiment"/>
+                        <param name="useDescription" value="useFishDescription"/>
+                    </params>
+                </item>
+                <item id="aqF2" label="#aquariumFish2Label" icon="AquariumFish2Icon@decor" name="AquariumFish2@decor"
+                      gold="7" silver="0" priority="2" canGift="1">
+                    <params>
+                        <param name="canUse" value="true"/>
+                        <param name="relatedTypes" value="aquariumAmusiment"/>
+                        <param name="useDescription" value="useFishDescription"/>
+                    </params>
+                </item>
+                <item id="aqF3" label="#aquariumFish3Label" icon="AquariumFish3Icon@decor" name="AquariumFish3@decor"
+                      gold="10" silver="0" priority="3" canGift="1">
+                    <params>
+                        <param name="canUse" value="true"/>
+                        <param name="relatedTypes" value="aquariumAmusiment"/>
+                        <param name="useDescription" value="useFishDescription"/>
+                    </params>
+                </item>
+                <item id="aqF4" label="#aquariumFish4Label" icon="AquariumFish4Icon@decor" name="AquariumFish4@decor"
+                      gold="5" silver="0" priority="4" canGift="1">
+                    <params>
+                        <param name="canUse" value="true"/>
+                        <param name="relatedTypes" value="aquariumAmusiment"/>
+                        <param name="useDescription" value="useFishDescription"/>
+                    </params>
+                </item>
+            </category>
+
+            <category id="active" label="#craftedActiveCategory" typeClass="active">
+                <category id="craftedActive" label="#craftedActiveCategory" logCategory2="energy">
+                    <item id="craftedCoffee" label="#craftedCoffee" name="CoffeeEnergy@location"
+                          icon="CoffeeEnergyIcon@location">
+                        <modifyers>
+                            <modifyer name="energy" effect="75"/>
+                        </modifyers>
+                    </item>
+                    <item id="craftedEnergyDrink" label="#craftedEnergyDrink" name="EnergyDrink@location"
+                          icon="EnergyDrinkIcon@location">
+                        <modifyers>
+                            <modifyer name="energy" effect="200"/>
+                        </modifyers>
+                    </item>
+                    <item id="craftedPancake" label="#craftedPancake" name="Pancake@location"
+                          icon="PancakeIcon@location" canBuy="0">
+                        <modifyers>
+                            <modifyer name="energy" effect="20"/>
+                        </modifyers>
+                    </item>
+                </category>
+                <category id="giftActive" label="#giftActiveCategory" logCategory2="wedding">
+                    <item id="giftWedding1" label="#giftWedding1Label" name="EnergyDrink@location"
+                          icon="EnergyDrinkIcon@location"
+                          canGift="1" gold="0" silver="200">
+                        <modifyers>
+                            <modifyer name="silver" effect="100"/>
+                        </modifyers>
+                    </item>
+                    <item id="giftWedding2" label="#giftWedding2Label" name="EnergyDrink@location"
+                          icon="EnergyDrinkIcon@location"
+                          canGift="1" gold="10" silver="0">
+                        <modifyers>
+                            <modifyer name="gold" effect="5"/>
+                        </modifyers>
+                    </item>
+                </category>
+
+                <category id="vipTickets" label="#vipTicketsLabel" typeClass="active" logCategory2="vipTickets">
+                    <item id="vipTicket5" label="#vipTicket5Title" name="vipTicket5@location"
+                          icon="VipTicket5Icon@location"
+                          description="#vipTicket5Description" gold="50" priority="1" canTrade="1" canGift="1">
+                        <modifyers>
+                            <modifyer name="vip" effect="5"/>
+                        </modifyers>
+                    </item>
+                    <item id="vipTicket10" label="#vipTicket10Title" name="vipTicket10@location"
+                          icon="VipTicket10Icon@location"
+                          description="#vipTicket5Description" gold="75" priority="2" canTrade="1" canGift="1">
+                        <modifyers>
+                            <modifyer name="vip" effect="10"/>
+                        </modifyers>
+                    </item>
+                    <item id="vipTicket20" label="#vipTicket20Title" name="vipTicket20@location"
+                          icon="VipTicket20Icon@location"
+                          description="#vipTicket20Description" gold="125" priority="3" canTrade="1" canGift="1">
+                        <modifyers>
+                            <modifyer name="vip" effect="20"/>
+                        </modifyers>
+                    </item>
+                </category>
+            </category>
+
+            <!-- WEDDING ITEMS -->
+            <category id="rings" label="#ringsCategory" logCategory2="wedding">
+                <category id="engageRings" label="#engageRingsCategory">
+                    <item id="engRing1" label="#engageRing1Label" icon="EngageRing1Icon@location"
+                          name="EngageRing1@location"
+                          gold="0" silver="15000" priority="1"/>
+                    <item id="engRing2" label="#engageRing2Label" icon="EngageRing2Icon@location"
+                          name="EngageRing2@location"
+                          gold="100" silver="0" priority="2"/>
+                    <item id="engRing3" label="#engageRing3Label" icon="EngageRing3Icon@location"
+                          name="EngageRing3@location"
+                          gold="500" silver="0" priority="3"/>
+                </category>
+
+                <category id="marriedRings" label="#marriedRingsCategory">
+                    <item id="mrRing1" label="#marriedRing1Label" icon="WeddingRing1Icon@location"
+                          name="WeddingRing1@location"
+                          gold="0" silver="15000" priority="1" wedding="1"/>
+                    <item id="mrRing2" label="#marriedRing2Label" icon="WeddingRing2Icon@location"
+                          name="WeddingRing2@location"
+                          gold="100" silver="0" priority="2" wedding="1"/>
+                    <item id="mrRing3" label="#marriedRing3Label" icon="WeddingRing3Icon@location"
+                          name="WeddingRing3@location"
+                          gold="500" silver="0" priority="3" wedding="1"/>
+                </category>
+            </category>
+
+            <category id="openableGifts" label="#giftsCategoryLabel">
+                <category id="nyGifts" logCategory2="nyGifts"
+                          approveOpenLabel="newYearGiftLabel" approveOpenDescription="newYearOpenGiftDescriptionLabel">
+                    <item id="nyGft1" label="#newYearGift1Label" icon="NewYearGift1Icon@location"
+                          name="NewYearGift1@location"
+                          gold="49" silver="0" priority="1" canGift="1"/>
+                    <item id="nyGft2" label="#newYearGift2Label" icon="NewYearGift2Icon@location"
+                          name="NewYearGift2@location"
+                          gold="99" silver="0" priority="2" canGift="1"/>
+                    <item id="nyGft3" label="#newYearGift3Label" icon="NewYearGift3Icon@location"
+                          name="NewYearGift3@location"
+                          gold="199" vipOnly="1" silver="0" priority="3" canGift="1"/>
+
+                    <!-- 2016 -->
+                    <item id="ny16Gft1" label="#newYear16Gift1Label" icon="PresentNY2016S@location"
+                          gold="50" silver="0" priority="4" canGift="1" canBuy="0"/>
+                    <item id="ny16Gft2" label="#newYear16Gift2Label" icon="PresentNY2016M@location"
+                          gold="100" silver="0" priority="5" canGift="1" canBuy="0"/>
+                    <item id="ny16Gft3" label="#newYear16Gift3Label" icon="PresentNY2016L@location"
+                          gold="200" silver="0" priority="6" canGift="1" canBuy="0"/>
+
+                    <!-- NEW YEAR 2019 -->
+                    <item id="ny19Gft1" label="#newYear16Gift1Label" icon="PresentNY2016S@location"
+                          gold="50" silver="0" priority="7" canGift="1" canBuy="0"/>
+                    <item id="ny19Gft2" label="#newYear16Gift2Label" icon="PresentNY2016M@location"
+                          gold="100" silver="0" priority="8" canGift="1" canBuy="0"/>
+                    <item id="ny19Gft3" label="#newYear16Gift3Label" icon="PresentNY2016L@location"
+                          gold="200" silver="0" priority="9" canGift="1" canBuy="0"/>
+                </category>
+
+                <!-- WEDDING BEACH GIFTS -->
+                <category id="weddingBeachGift" logCategory2="weddingBeachGifts"
+                          approveOpenLabel="weddingBeachGiftLabel"
+                          approveOpenDescription="newYearOpenGiftDescriptionLabel">
+                    <item id="weddingBeachGift1" name="weddingBeachGift1" label="#weddingBeachGift1Label"
+                          icon="PresentWeddingSmall@location" gold="5" priority="1" canGift="1" canBuy="0"
+                          canTrade="1"/>
+                    <item id="weddingBeachGift2" name="weddingBeachGift2" label="#weddingBeachGift2Label"
+                          icon="PresentWeddingMedium@location" gold="15" priority="2" canGift="1" canBuy="0"
+                          canTrade="1"/>
+                    <item id="weddingBeachGift3" name="weddingBeachGift3" label="#weddingBeachGift3Label"
+                          icon="PresentWeddingBig@location" gold="50" priority="3" canGift="1" canBuy="0"
+                          canTrade="1"/>
+                </category>
+
+                <!-- BIRTHDAY GIFTS -->
+                <category id="birthdayGift" logCategory2="birthdayGifts"
+                          approveOpenLabel="birthdayGiftLabel"
+                          approveOpenDescription="newYearOpenGiftDescriptionLabel">
+                    <item id="birthdayGift1" name="birthdayGift1" label="#birthdayGift1Label"
+                          icon="PresentBirthdaySmall@location" gold="5" priority="1" canGift="1" canBuy="0"
+                          canTrade="1"/>
+                    <item id="birthdayGift2" name="birthdayGift2" label="#birthdayGift2Label"
+                          icon="PresentBirthdayMedium@location" gold="15" priority="2" canGift="1" canBuy="0"
+                          canTrade="1"/>
+                    <item id="birthdayGift3" name="birthdayGift3" label="#birthdayGift3Label"
+                          icon="PresentBirthdayBig@location" gold="50" priority="3" canGift="1" canBuy="0"
+                          canTrade="1"/>
+                </category>
+
+                <category id="halloweenGifts" logCategory2="halloweenGifts">
+                    <!-- HALLOWEEN 2017 -->
+                    <item id="hw17Gft1" label="#halloweenGift1Label" icon="SmallHalloween2017PresentIcon@location"
+                          gold="50" silver="0" priority="7" canGift="1" canBuy="0"/>
+                    <item id="hw17Gft2" label="#halloweenGift2Label" icon="MediumHalloween2017PresentIcon@location"
+                          gold="100" silver="0" priority="8" canGift="1" canBuy="0"/>
+                    <item id="hw17Gft3" label="#halloweenGift3Label" icon="LargeHalloween2017PresentIcon@location"
+                          gold="200" silver="0" priority="9" canGift="1" canBuy="0"/>
+                </category>
+
+                <category id="skiResortGifts" logCategory2="skiResortGifts">
+                    <item id="srGft1" label="#skiResortGift1Label" icon="skiResortSmallGiftIcon@location"
+                          gold="50" silver="0" priority="10" canGift="1" canBuy="1" canTrade="1"/>
+                    <item id="srGft2" label="#skiResortGift2Label" icon="skiResortMediumGiftIcon@location"
+                          gold="100" silver="0" priority="11" canGift="1" canBuy="1" canTrade="1"/>
+                    <item id="srGft3" label="#skiResortGift3Label" icon="skiResortLargeGiftIcon@location"
+                          gold="200" silver="0" priority="12" canGift="1" canBuy="1" canTrade="1"/>
+                </category>
+
+                <!-- PERSONAL GIFTS -->
+                <category id="personalGifts" logCategory2="personalGifts">
+                    <item id="smallPersonalGift" name="smallPersonalGift" label="#smallPersonalGiftLabel"
+                          icon="SmallPersonalGiftIcon@location" gold="5" priority="1" canBuy="0" canGift="0" canTrade="0"/>
+                    <item id="mediumPersonalGift" name="mediumPersonalGift" label="#mediumPersonalGiftLabel"
+                          icon="MediumPersonalGiftIcon@location" gold="10" priority="2" canBuy="0" canGift="0" canTrade="0"/>
+                    <item id="bigPersonalGift" name="bigPersonalGift" label="#bigPersonalGiftLabel"
+                          icon="BigPersonalGiftIcon@location" gold="15" priority="3" canBuy="0" canGift="0" canTrade="0"/>
+                </category>
+            </category>
+
+            <category id="miscShop" label="#triksCategory">
+
+                <!-- JOKE ITEMS -->
+                <category id="jokeShop" label="#jokeShopLabel" logCategory2="jokes">
+                    <item id="applianceBat" label="#applianceBatTitle" name="ApplianceBat"
+                          icon="ApplianceBatIcon@location"
+                          description="#applianceBatDescription" silver="325" gold="1" priority="1" canTrade="1">
+                        <params>
+                            <param name="canUse" value="true"/>
+                            <param name="relatedTypes" value="tvAppliance,musicCenterAppliance,computerAppliance"/>
+                            <param name="cursor" value="applianceBat"/>
+                            <param name="useDescription" value="useApplianceBatDescription"/>
+                        </params>
+                    </item>
+                    <item id="jacuzziWorms" label="#jacuzziWormsTitle" name="JacuzziWorms"
+                          icon="JacuzziWormsIcon@location"
+                          description="#jacuzziWormsDescription" silver="250" gold="1" priority="2" canTrade="1">
+                        <params>
+                            <param name="canUse" value="true"/>
+                            <param name="relatedTypes" value="jacuzzi"/>
+                            <param name="cursor" value="jacuzziWorms"/>
+                            <param name="useDescription" value="useJacuzziWormdsDescription"/>
+                        </params>
+                    </item>
+                    <item id="chairBomb" label="#chairBombTitle" name="ChairBomb" icon="ChairBombIcon@location"
+                          description="#chairBombDescription" silver="400" gold="1" priority="3" canTrade="1">
+                        <params>
+                            <param name="canUse" value="true"/>
+                            <param name="relatedTypes" value="8,armchair"/>
+                            <param name="cursor" value="bomb"/>
+                            <param name="useDescription" value="useChairBombDescription"/>
+                        </params>
+                    </item>
+                    <item id="scrdvr" label="#screwdriverTitle" name="Screwdriver" icon="ScrewdriverIcon@location"
+                          description="#screwdriverDescription" silver="0" gold="5" priority="4" canTrade="1">
+                        <params>
+                            <param name="canUse" value="true"/>
+                            <param name="relatedTypes" value="horseAmusiment"/>
+                            <param name="cursor" value="screwdriver"/>
+                            <param name="useDescription" value="useScrewdriverDescription"/>
+                        </params>
+                    </item>
+                    <item id="firework1" label="#fireworkTitle" name="Firework1" icon="FireworkIcon@location"
+                          description="#firework1Description" gold="5" priority="3" holiday="avaDay">
+                        <params>
+                            <param name="canUse" value="true"/>
+                            <param name="cursor" value="firework"/>
+                            <param name="delay" value="1"/>
+                            <param name="sleep" value="3"/>
+                            <param name="location" value="yard,park,street,publicBeach,canyon"/>
+                            <param name="useDescription" value="useFireworkDescription"/>
+                            <param name="useLocation" value="useFireworkOnStreetDescription"/>
+                        </params>
+                    </item>
+                    <item id="fife" label="#fifeTitle" name="Dudelka" icon="DudelkaIcon@location" holiday="avaDay"
+                          description="#fifeDescription" gold="3" priority="4">
+                        <params>
+                            <param name="canUse" value="true"/>
+                            <param name="location" value=""/>
+                        </params>
+                    </item>
+
+                    <category id="graffitiCategory" label="#graffitiCategoryLabel">
+                        <item id="wllgrfft1" label="#graffiti1Title" name="GraffitiLove" icon="GraffitiLoveIcon@house"
+                              silver="4500" gold="4" priority="1">
+                            <params>
+                                <param name="canUse" value="true"/>
+                                <param name="relatedTypes" value="1"/>
+                                <param name="cursor" value="graffiti"/>
+                                <param name="useDescription" value="useWallGraffitiDescription"/>
+                            </params>
+                        </item>
+                        <item id="wllgrfft2" label="#graffiti2Title" name="GraffitiGhost" icon="GraffitiGhostIcon@house"
+                              silver="3500" gold="2" priority="2">
+                            <params>
+                                <param name="canUse" value="true"/>
+                                <param name="relatedTypes" value="1"/>
+                                <param name="cursor" value="graffiti"/>
+                                <param name="useDescription" value="useWallGraffitiDescription"/>
+                            </params>
+                        </item>
+                        <item id="wllgrfft3" label="#graffiti3Title" name="GraffitiBlue" icon="GraffitiBlueIcon@house"
+                              silver="2500" gold="2" priority="3">
+                            <params>
+                                <param name="canUse" value="true"/>
+                                <param name="relatedTypes" value="1"/>
+                                <param name="cursor" value="graffiti"/>
+                                <param name="useDescription" value="useWallGraffitiDescription"/>
+                            </params>
+                        </item>
+                        <item id="wllgrfft4" label="#graffiti4Title" name="GraffitiMadRabbit"
+                              icon="GraffitiMadRabbitIcon@house" silver="3500" gold="2" priority="4">
+                            <params>
+                                <param name="canUse" value="true"/>
+                                <param name="relatedTypes" value="1"/>
+                                <param name="cursor" value="graffiti"/>
+                                <param name="useDescription" value="useWallGraffitiDescription"/>
+                            </params>
+                        </item>
+                        <item id="wllgrfft5" label="#graffiti5Title" name="GraffitiVictory"
+                              icon="GraffitiVictoryIcon@house" silver="4500" gold="4" priority="5" holiday="victoryDay">
+                            <params>
+                                <param name="canUse" value="true"/>
+                                <param name="relatedTypes" value="1"/>
+                                <param name="cursor" value="graffiti"/>
+                                <param name="useDescription" value="useWallGraffitiDescription"/>
+                            </params>
+                        </item>
+                        <item id="wllgrfft6" label="#graffiti6Title" name="GraffitiStPatrick"
+                              icon="GraffitiStPatrickIcon@house" silver="6500" gold="5" priority="6" holiday="stPatric">
+                            <params>
+                                <param name="canUse" value="true"/>
+                                <param name="relatedTypes" value="1"/>
+                                <param name="cursor" value="graffiti"/>
+                                <param name="useDescription" value="useWallGraffitiDescription"/>
+                            </params>
+                        </item>
+                        <item id="wllGrfRusDay" label="#graffitiRusDayTitle" name="GraffitiRussiaDay"
+                              icon="GraffitiRussiaDayIcon@house" silver="6300" gold="5" priority="7">
+                            <params>
+                                <param name="canUse" value="true"/>
+                                <param name="relatedTypes" value="1"/>
+                                <param name="cursor" value="graffiti"/>
+                                <param name="useDescription" value="useWallGraffitiDescription"/>
+                            </params>
+                        </item>
+                        <item id="wllGrfVictoryDay2019" label="#wllGrfVictoryDay2019Title" name="GraffitiVictoryDay2019"
+                              icon="GraffitiVictoryDay2019Icon@house" gold="5" priority="8" holiday="victoryDay19Items">
+                            <params>
+                                <param name="canUse" value="true"/>
+                                <param name="relatedTypes" value="1"/>
+                                <param name="cursor" value="graffiti"/>
+                                <param name="useDescription" value="useWallGraffitiDescription"/>
+                            </params>
+                        </item>
+
+                        <category id="carGraffity" label="#carGraffitiCategoryLabel">
+                            <item id="crGfft1" label="#carGraffiti1Title" name="CarGraffityPlaneAsset"
+                                  icon="CarGraffityPlaneIcon@decor" silver="5500" gold="4" priority="7"
+                                  holiday="dzo2018">
+                                <params>
+                                    <param name="canUse" value="true"/>
+                                    <param name="relatedTypes" value="carAmusiment"/>
+                                    <param name="cursor" value="graffiti"/>
+                                    <param name="useDescription" value="useWallGraffitiDescription"/>
+                                </params>
+                            </item>
+                            <item id="crGfft2" label="#carGraffiti2Title" name="CarGraffityStarAsset"
+                                  icon="CarGraffityStarIcon@decor" silver="7000" gold="6" priority="8"
+                                  holiday="dzo2018">
+                                <params>
+                                    <param name="canUse" value="true"/>
+                                    <param name="relatedTypes" value="carAmusiment"/>
+                                    <param name="cursor" value="graffiti"/>
+                                    <param name="useDescription" value="useWallGraffitiDescription"/>
+                                </params>
+                            </item>
+                        </category>
+                    </category>
+                </category>
+
+                <!-- NEW YEAR FIR TOYS -->
+                <category id="firToys" label="#newYearFirToysCategoryLabel" logCategory2="firToys">
+                    <item id="nyFirToy1" label="#newYearFirToy1Label" icon="BowNYBlueIcon@decor"
+                          name="BowNYBlueAsset@decor"
+                          gold="2" silver="0" priority="31" canGift="1" holiday="NY">
+                        <params>
+                            <param name="type" value="bow"/>
+                        </params>
+                    </item>
+                    <item id="nyFirToy2" label="#newYearFirToy2Label" icon="BowNYGoldIcon@decor"
+                          name="BowNYGoldAsset@decor"
+                          gold="2" silver="0" priority="32" canGift="1" holiday="NY">
+                        <params>
+                            <param name="type" value="bow"/>
+                        </params>
+                    </item>
+                    <item id="nyFirToy3" label="#newYearFirToy3Label" icon="BowNYRedIcon@decor"
+                          name="BowNYRedAsset@decor"
+                          gold="2" silver="0" priority="33" canGift="1" holiday="NY">
+                        <params>
+                            <param name="type" value="bow"/>
+                        </params>
+                    </item>
+                    <item id="nyFirToy4" label="#newYearFirToy4Label" icon="SphereNYBlueIcon@decor"
+                          name="SphereNYBlueAsset@decor"
+                          gold="4" silver="0" priority="34" canGift="1" holiday="NY">
+                        <params>
+                            <param name="type" value="sphere"/>
+                        </params>
+                    </item>
+                    <item id="nyFirToy5" label="#newYearFirToy5Label" icon="SphereNYGoldIcon@decor"
+                          name="SphereNYGoldAsset@decor"
+                          gold="5" silver="0" priority="35" canGift="1" holiday="NY">
+                        <params>
+                            <param name="type" value="sphere"/>
+                        </params>
+                    </item>
+                    <item id="nyFirToy6" label="#newYearFirToy6Label" icon="SphereNYGrayIcon@decor"
+                          name="SphereNYGrayAsset@decor"
+                          gold="3" silver="0" priority="36" canGift="1" holiday="NY">
+                        <params>
+                            <param name="type" value="sphere"/>
+                        </params>
+                    </item>
+                    <item id="nyFirToy7" label="#newYearFirToy7Label" icon="SphereNYRedIcon@decor"
+                          name="SphereNYRedAsset@decor"
+                          gold="6" silver="0" priority="37" canGift="1" holiday="NY">
+                        <params>
+                            <param name="type" value="sphere"/>
+                        </params>
+                    </item>
+                    <item id="nyFirToy8" label="#newYearFirToy8Label" icon="SpiralNYBlueIcon@decor"
+                          name="SpiralNYBlueAsset@decor"
+                          gold="3" silver="0" priority="38" canGift="1" holiday="NY">
+                        <params>
+                            <param name="type" value="bow"/>
+                        </params>
+                    </item>
+                    <item id="nyFirToy9" label="#newYearFirToy9Label" icon="StarNYSmallIcon@decor"
+                          name="StarNYSmallAsset@decor"
+                          gold="1" silver="0" priority="39" canGift="1" holiday="NY">
+                        <params>
+                            <param name="type" value="bow"/>
+                        </params>
+                    </item>
+                    <item id="nyFirToy10" label="#newYearFirToy10Label" icon="SphereSnowmanNYIcon@decor"
+                          name="SphereSnowmanNYAsset@decor"
+                          gold="7" silver="0" priority="40" canGift="1" holiday="NY">
+                        <params>
+                            <param name="type" value="sphere"/>
+                        </params>
+                    </item>
+                    <item id="nyFirToy11" label="#newYearFirToy11Label" icon="SphereSantaNYIcon@decor"
+                          name="SphereSantaNYAsset@decor"
+                          gold="7" silver="0" priority="41" canGift="1" holiday="NY">
+                        <params>
+                            <param name="type" value="sphere"/>
+                        </params>
+                    </item>
+                    <item id="nyFirToy12" label="#newYearFirToy12Label" icon="SphereBellViolettNYIcon@decor"
+                          name="SphereBellViolettNYAsset@decor"
+                          gold="6" silver="0" priority="42" canGift="1" holiday="NY">
+                        <params>
+                            <param name="type" value="sphere"/>
+                        </params>
+                    </item>
+                    <item id="nyFirToy13" label="#newYearFirToy13Label" icon="SnowflakeNYIcon@decor"
+                          name="SnowflakeNYAsset@decor"
+                          gold="4" silver="0" priority="43" canGift="1" holiday="NY">
+                        <params>
+                            <param name="type" value="sphere"/>
+                        </params>
+                    </item>
+                    <item id="nyFirToy14" label="#newYearFirToy14Label" icon="GnomeNYIcon@decor"
+                          name="GnomeNYAsset@decor"
+                          gold="3" silver="0" priority="44" canGift="1" holiday="NY">
+                        <params>
+                            <param name="type" value="sphere"/>
+                        </params>
+                    </item>
+                    <item id="nyFirToy15" label="#newYearFirToy15Label" icon="DeerNYIcon@decor" name="DeerNYAsset@decor"
+                          gold="8" silver="0" priority="45" canGift="1" holiday="NY">
+                        <params>
+                            <param name="type" value="bow"/>
+                        </params>
+                    </item>
+                    <item id="nyFirToy16" label="#newYearFirToy16Label" icon="CandyViolettIcon@decor"
+                          name="CandyViolettAsset@decor"
+                          gold="3" silver="0" priority="46" canGift="1" holiday="NY">
+                        <params>
+                            <param name="type" value="bow"/>
+                        </params>
+                    </item>
+                    <item id="nyFirToy17" label="#newYearFirToy17Label" icon="CandyPinkIcon@decor"
+                          name="CandyPinkAsset@decor"
+                          gold="3" silver="0" priority="47" canGift="1" holiday="NY">
+                        <params>
+                            <param name="type" value="bow"/>
+                        </params>
+                    </item>
+                    <item id="nyFirToy18" label="#newYearFirToy18Label" icon="CandleFirNYIcon@decor"
+                          name="CandleFirNYAsset@decor"
+                          gold="4" silver="0" priority="48" canGift="1" holiday="NY">
+                        <params>
+                            <param name="type" value="bow"/>
+                        </params>
+                    </item>
+                    <item id="nyFirToy19" label="#newYearFirToy19Label" icon="BowNYVioletIcon@decor"
+                          name="BowNYVioletAsset@decor"
+                          gold="2" silver="0" priority="49" canGift="1" holiday="NY">
+                        <params>
+                            <param name="type" value="bow"/>
+                        </params>
+                    </item>
+                    <item id="nyFirToy20" label="#newYearFirToy20Label" icon="BowNYRedLineIcon@decor"
+                          name="BowNYRedLineAsset@decor"
+                          gold="4" silver="0" priority="50" canGift="1" holiday="NY">
+                        <params>
+                            <param name="type" value="bow"/>
+                        </params>
+                    </item>
+                    <item id="nyFirToy21" label="#newYearFirToy21Label" icon="TopStarChristmasIcon@decor"
+                          name="TopStarChristmasAsset@decor"
+                          gold="15" silver="0" priority="51" canGift="1" holiday="NY">
+                        <params>
+                            <param name="type" value="topStar"/>
+                        </params>
+                    </item>
+                    <item id="nyFirToy22" label="#newYearFirToy22Label" icon="TopStarBlueNYIcon@decor"
+                          name="TopStarBlueNYAsset@decor"
+                          gold="17" silver="0" priority="52" canGift="1" holiday="NY">
+                        <params>
+                            <param name="type" value="topStar"/>
+                        </params>
+                    </item>
+                    <item id="nyFirToy23" label="#newYearFirToy23Label" icon="TopFirRedNYIcon@decor"
+                          name="TopFirRedNYAsset@decor"
+                          gold="9" silver="0" priority="53" canGift="1" holiday="NY">
+                        <params>
+                            <param name="type" value="topStar"/>
+                        </params>
+                    </item>
+                    <item id="nyFirToy24" label="#newYearFirToy24Label" icon="TopBowNYVioletBigIcon@decor"
+                          name="TopBowNYVioletBigAsset@decor"
+                          gold="12" silver="0" priority="54" canGift="1" holiday="NY">
+                        <params>
+                            <param name="type" value="topStar"/>
+                        </params>
+                    </item>
+                    <item id="nyFirToy25" label="#newYearFirToy25Label" icon="TopBowNYBlueBigIcon@decor"
+                          name="TopBowNYBlueBigAsset@decor"
+                          gold="12" silver="0" priority="55" canGift="1" holiday="NY">
+                        <params>
+                            <param name="type" value="topStar"/>
+                        </params>
+                    </item>
+                    <item id="nyFirToy26" label="#newYearFirToy26Label" icon="TopAngelNYIcon@decor"
+                          name="TopAngelNYAsset@decor"
+                          gold="25" silver="0" priority="56" canGift="1" holiday="NY">
+                        <params>
+                            <param name="type" value="topStar"/>
+                        </params>
+                    </item>
+
+                    <item id="ny17Garland" label="#ny17GarlandLabel" icon="NY17GarlandIcon@decor"
+                          name="NY17Garland@decor" canBuy="0" gold="99999" priority="57" holiday="NY">
+                        <params>
+                            <param name="type" value="garland"/>
+                        </params>
+                    </item>
+                </category>
+
+                <!-- BEACH ITEMS -->
+                <category id="itemsForSale" label="#itemsForSaleCategory" logCategory2="saleItems">
+                    <item id="shellNecklace" label="#shellNecklaceTitle" icon="ShellNecklaceIcon@decor" canTrade="1"
+                          name="ShellNecklaceIcon@decor" gold="0" silver="0" canSale="1" saleSilver="7500"
+                          priority="100"/>
+                    <item id="pearlNecklace" label="#pearlNecklaceTitle" icon="PearlNecklaceIcon@decor" canTrade="1"
+                          name="PearlNecklaceIcon@decor" gold="0" silver="0" canSale="1" saleSilver="15000"
+                          priority="101"/>
+                </category>
+
+                <!-- SEASON EVENT -->
+                <category id="seasonEvent" label="#seasonEventCategoryLabel" visible="false" logCategory2="seasonEvent">
+                    <item id="seKey" label="#seasonEventKeyLabel" name="SEKey" icon="SELocationCraftKeyIcon@location"
+                        description="#seasonEventKeyLabel" holiday="seasonEvent" canBuy="0">
+                    </item>
+                </category>
+            </category>
+
+            <!-- SKATES -->
+            <category id="iceRinkSkates" label="#skatesCategory" logCategory2="skates">
+                <item id="iceRinkSkate1" label="#iceRinkSkate1Label" name="IceSkates1"
+                      icon="BoyIceScatesBlackIcon@avatarIcons" description="#iceRinkSkates1Description" silver="9999"
+                      gold="9999" priority="102" canBuy="0">
+                    <params>
+                        <param name="canUse" value="true"/>
+                        <param name="rentTime" value="1800"/>
+                    </params>
+                </item>
+
+                <item id="iceRinkSkate2" label="#iceRinkSkate2Label" name="IceSkates2"
+                      icon="IceSkate2Icons@ui" description="#iceRinkSkates2Description"
+                      gold="3" priority="103" canBuy="0">
+                    <params>
+                        <param name="rentTime" value="600"/>
+                    </params>
+                </item>
+
+                <item id="iceRinkSkate3" label="#iceRinkSkate3Label" name="IceSkates3"
+                      icon="IceSkate3Icons@ui" description="#iceRinkSkates3Description"
+                      gold="10" priority="104" canBuy="0">
+                    <params>
+                        <param name="rentTime" value="1800"/>
+                    </params>
+                </item>
+            </category>
+
+            <!-- SNOWBOARDS -->
+            <category id="snowboards" label="#snowboardRaceSnowboard1Label" logCategory2="snowboards">
+                <item id="sbRS1" label="#snowboardRaceSnowboard1Label" name="SnowboardRaceSnowboard1"
+                      icon="BoySnowboardRaceSnowboard1Icon@avatarIcons" description="#snowboardRaceSnowboard1Description" silver="9999"
+                      gold="9999" priority="105" canBuy="0">
+                    <params>
+                        <param name="canUse" value="true"/>
+                        <param name="rentTime" value="3600"/>
+                    </params>
+                </item>
+
+                <item id="sbRS2" label="#snowboardRaceSnowboard2Label" name="SnowboardRaceSnowboard2"
+                      icon="RaceSnowboard2Icon@ui" description="#snowboardRaceSnowboard2Description"
+                      gold="15" priority="106" canBuy="0">
+                    <params>
+                        <param name="rentTime" value="3600"/>
+                    </params>
+                </item>
+            </category>
+        </category>
+
+        <!-- MOBILE -->
+        <category id="mobileCategory" label="#mobileButtonTitle" visible="true" logCategory1="mobile">
+            <category id="mobileSkin" label="#mobileSkins" priority="1" logCategory2="skin">
+                <item id="blackMobileSkin" name="blackMobileSkin" label="#blackMobileSkinTitle" gold="0" priority="1"
+                      icon="BlackMobileSkinIcon@location">
+                    <params>
+                        <param name="label" value="black"/>
+                        <param name="color" value="0x3f3f3f"/>
+                    </params>
+                </item>
+                <item id="blueMobileSkin" name="blueMobileSkin" label="#blueMobileSkinTitle" gold="20" priority="2"
+                      icon="BlueMobileSkinIcon@location">
+                    <params>
+                        <param name="label" value="blue"/>
+                        <param name="color" value="0x2aadcf"/>
+                    </params>
+                </item>
+                <item id="greenMobileSkin" name="greenMobileSkin" label="#greenMobileSkinTitle" silver="20000"
+                      priority="3" icon="GreenMobileSkinIcon@location">
+                    <params>
+                        <param name="label" value="green"/>
+                        <param name="color" value="0x51a53a"/>
+                    </params>
+                </item>
+                <item id="pinkMobileSkin" name="pinkMobileSkin" label="#pinkMobileSkinTitle" gold="35" priority="4"
+                      minLevel="10" icon="PinkMobileSkinIcon@location">
+                    <params>
+                        <param name="label" value="pink"/>
+                        <param name="color" value="0xf65460"/>
+                    </params>
+                </item>
+                <item id="purpleMobileSkin" name="purpleMobileSkin" label="#purpleMobileSkinTitle" gold="20"
+                      priority="5" minLevel="20" icon="PurpleMobileSkinIcon@location">
+                    <params>
+                        <param name="label" value="purple"/>
+                        <param name="color" value="0x894fb2"/>
+                    </params>
+                </item>
+                <item id="whiteMobileSkin" name="whiteMobileSkin" label="#whiteMobileSkinTitle" gold="35" priority="6"
+                      minLevel="30" icon="WhiteMobileSkinIcon@location">
+                    <params>
+                        <param name="label" value="white"/>
+                        <param name="color" value="0xb1b1b1"/>
+                    </params>
+                </item>
+                <item id="yellowMobileSkin" name="yellowMobileSkin" label="#yellowMobileSkinTitle" gold="20"
+                      priority="7" minLevel="40" icon="YellowMobileSkinIcon@location">
+                    <params>
+                        <param name="label" value="yellow"/>
+                        <param name="color" value="0xeaab37"/>
+                    </params>
+                </item>
+            </category>
+
+            <category id="mobileAccessory" label="#mobileAccessories" priority="2" logCategory2="accessory">
+                <item id="angelMobileAccessory" name="angelMobileAccessory" label="#angelMobileAccessoryTitle" gold="15"
+                      priority="1" minLevel="10" icon="AngelMobileAccessoryIcon@location">
+                    <params>
+                        <param name="label" value="angel"/>
+                    </params>
+                </item>
+                <item id="bowMobileAccessory" name="bowMobileAccessory" label="#bowMobileAccessoryTitle" gold="20"
+                      priority="2" icon="BowMobileAccessoryIcon@location">
+                    <params>
+                        <param name="label" value="bow"/>
+                    </params>
+                </item>
+                <item id="devilMobileAccessory" name="devilMobileAccessory" label="#devilMobileAccessoryTitle" gold="30"
+                      priority="3" minLevel="20" icon="DevilMobileAccessoryIcon@location">
+                    <params>
+                        <param name="label" value="devil"/>
+                    </params>
+                </item>
+                <item id="catEarsMobileAccessory" name="catEarsMobileAccessory" label="#catEarsMobileAccessoryTitle"
+                      gold="25" priority="4" minLevel="30" icon="CatEarsMobileAccessoryIcon@location">
+                    <params>
+                        <param name="label" value="catEars"/>
+                    </params>
+                </item>
+                <item id="mouseEarsMobileAccessory" name="mouseEarsMobileAccessory"
+                      label="#mouseEarsMobileAccessoryTitle" gold="35" priority="5" minLevel="40"
+                      icon="MouseEarsMobileAccessoryIcon@location">
+                    <params>
+                        <param name="label" value="mouseEars"/>
+                    </params>
+                </item>
+                <item id="starMobileAccessory" name="starMobileAccessory" label="#starMobileAccessoryTitle" gold="20"
+                      priority="6" minLevel="50" icon="StarMobileAccessoryIcon@location">
+                    <params>
+                        <param name="label" value="star"/>
+                    </params>
+                </item>
+                <item id="tentaclesMobileAccessory" name="tentaclesMobileAccessory" label="#tentaclesMobileAccessoryTitle"
+                      gold="25" priority="7" icon="TentaclesMobileAccessoryIcon@location">
+                    <params>
+                        <param name="label" value="tentacles"/>
+                    </params>
+                </item>
+                <item id="steampunkMobileAccessory" name="steampunkMobileAccessory" label="#steampunkMobileAccessoryTitle"
+                      gold="25" priority="8" icon="SteampunkMobileAccessoryIcon@location">
+                    <params>
+                        <param name="label" value="steampunk"/>
+                    </params>
+                </item>
+                <item id="stopSignMobileAccessory" name="stopSignMobileAccessory" label="#stopSignMobileAccessoryTitle"
+                      gold="12" priority="9" icon="StopSignMobileAccessoryIcon@location">
+                    <params>
+                        <param name="label" value="stopSign"/>
+                    </params>
+                </item>
+                <item id="totemMobileAccessory" name="totemMobileAccessory" label="#totemMobileAccessoryTitle" gold="11"
+                      priority="10" icon="TotemMobileAccessoryIcon@location">
+                    <params>
+                        <param name="label" value="totem"/>
+                    </params>
+                </item>
+                <item id="ghostMobileAccessory" name="ghostMobileAccessory" label="#ghostMobileAccessoryTitle" gold="0"
+                      priority="11" icon="GhostMobileAccessoryIcon@location" canBuy="0">
+                    <params>
+                        <param name="label" value="ghost"/>
+                    </params>
+                </item>
+            </category>
+
+            <category id="mobileRingtone" label="#mobileRingtone" priority="3" logCategory2="ringtone">
+                <item id="mbRgn1" name="Ringtone1" label="#mobileRingtone1Title" gold="5" priority="1" minLevel="10"
+                      icon="MobileRingtoneIcon@location">
+                </item>
+                <item id="mbRgn2" name="Ringtone2" label="#mobileRingtone2Title" gold="6" priority="2" minLevel="10"
+                      icon="MobileRingtoneIcon@location">
+                </item>
+                <item id="mbRgn3" name="Ringtone3" label="#mobileRingtone3Title" gold="8" priority="3" minLevel="20"
+                      icon="MobileRingtoneIcon@location" vipOnly="1">
+                </item>
+                <item id="mbRgn4" name="Ringtone4" label="#mobileRingtone4Title" gold="7" priority="4" minLevel="20"
+                      icon="MobileRingtoneIcon@location" vipOnly="1">
+                </item>
+                <item id="mbRgn5" name="Ringtone5" label="#mobileRingtone5Title" gold="5" priority="5" minLevel="20"
+                      icon="MobileRingtoneIcon@location">
+                </item>
+                <item id="mbRgn6" name="Ringtone6" label="#mobileRingtone6Title" gold="2" priority="6" minLevel="25"
+                      icon="MobileRingtoneIcon@location">
+                </item>
+                <item id="mbRgn7" name="Ringtone7" label="#mobileRingtone7Title" gold="7" priority="7" minLevel="25"
+                      icon="MobileRingtoneIcon@location">
+                </item>
+                <item id="mbRgn8" name="Ringtone8" label="#mobileRingtone8Title" gold="9" priority="8" minLevel="25"
+                      icon="MobileRingtoneIcon@location" vipOnly="1">
+                </item>
+                <item id="mbRgn9" name="Ringtone9" label="#mobileRingtone9Title" gold="11" priority="9" minLevel="25"
+                      icon="MobileRingtoneIcon@location" vipOnly="1">
+                </item>
+                <item id="mbRgn10" name="Ringtone10" label="#mobileRingtone10Title" gold="6" priority="10" minLevel="25"
+                      icon="MobileRingtoneIcon@location">
+                </item>
+                <item id="mbRgn11" name="Ringtone11" label="#mobileRingtone11Title" gold="8" priority="11" minLevel="35"
+                      icon="MobileRingtoneIcon@location" vipOnly="1">
+                </item>
+                <item id="mbRgn12" name="Ringtone12" label="#mobileRingtone12Title" gold="5" priority="12" minLevel="40"
+                      icon="MobileRingtoneIcon@location">
+                </item>
+                <item id="mbRgn13" name="Ringtone13" label="#mobileRingtone13Title" gold="4" priority="13" minLevel="40"
+                      icon="MobileRingtoneIcon@location">
+                </item>
+                <item id="mbRgn14" name="Ringtone14" label="#mobileRingtone14Title" gold="6" priority="14" minLevel="50"
+                      icon="MobileRingtoneIcon@location" vipOnly="1">
+                </item>
+                <item id="mbRgn15" name="Ringtone15" label="#mobileRingtone15Title" gold="10" priority="15" minLevel="50"
+                      icon="MobileRingtoneIcon@location">
+                </item>
+                <item id="mbRgn16" name="Ringtone16" label="#mobileRingtone16Title" gold="5" priority="16" minLevel="55"
+                      icon="MobileRingtoneIcon@location" vipOnly="1">
+                </item>
+                <item id="mbRgn17" name="Ringtone17" label="#mobileRingtone17Title" gold="5" priority="17" minLevel="55"
+                      icon="MobileRingtoneIcon@location" vipOnly="1">
+                </item>
+                <item id="mbRgn18" name="Ringtone18" label="#mobileRingtone18Title" gold="4" priority="18" minLevel="60"
+                      icon="MobileRingtoneIcon@location" vipOnly="1">
+                </item>
+                <item id="mbRgn19" name="Ringtone19" label="#mobileRingtone19Title" gold="3" priority="19" minLevel="60"
+                      icon="MobileRingtoneIcon@location">
+                </item>
+                <item id="mbRgn20" name="Ringtone20" label="#mobileRingtone20Title" gold="7" priority="20" minLevel="65"
+                      icon="MobileRingtoneIcon@location" vipOnly="1">
+                </item>
+            </category>
+        </category>
+
+        <!-- CHAT DECOR -->
+        <category id="chatDecorCategory" label="#chatBubbleDecor" visible="true" logCategory1="chatDecor">
+            <category id="chatBubbleDecor" label="#chatBubbleDecor" priority="1" logCategory2="chatBubbleDecor">
+                <item id="birdChatBubbleDecor" name="birdChatBubbleDecor" label="#birdChatBubbleDecorTitle" gold="150"
+                      priority="1" icon="BirdChatBubbleDecorIcon@location" description="#chatDecorDescription">
+                    <params>
+                        <param name="label" value="bird"/>
+                        <param name="isStatic" value="1"/>
+                    </params>
+                </item>
+                <item id="catChatBubbleDecor" name="catChatBubbleDecor" label="#catChatBubbleDecorTitle" gold="170"
+                      priority="2" icon="CatChatBubbleDecorIcon@location" description="#chatDecorDescription">
+                    <params>
+                        <param name="label" value="cat"/>
+                        <param name="isStatic" value="1"/>
+                    </params>
+                </item>
+                <item id="cloudChatBubbleDecor" name="cloudChatBubbleDecor" label="#cloudChatBubbleDecorTitle" gold="90"
+                      priority="3" icon="CloudChatBubbleDecorIcon@location" description="#chatDecorDescription">
+                    <params>
+                        <param name="label" value="cloud"/>
+                        <param name="isStatic" value="1"/>
+                    </params>
+                </item>
+                <item id="octopusChatBubbleDecor" name="octopusChatBubbleDecor" label="#octopusChatBubbleDecorTitle"
+                      gold="150" priority="4" icon="OctopusChatBubbleDecorIcon@location"
+                      description="#chatDecorDescription">
+                    <params>
+                        <param name="label" value="octopus"/>
+                        <param name="isStatic" value="1"/>
+                    </params>
+                </item>
+                <item id="pandaChatBubbleDecor" name="pandaChatBubbleDecor" label="#pandaChatBubbleDecorTitle" gold="190"
+                      priority="5" icon="PandaChatBubbleDecorIcon@location" description="#chatDecorDescription">
+                    <params>
+                        <param name="label" value="panda"/>
+                        <param name="isStatic" value="1"/>
+                    </params>
+                </item>
+                <item id="moderatorChatBubbleDecor" name="moderatorChatBubbleDecor" label="#moderatorChatBubbleDecorTitle"
+                      gold="0" priority="6" icon="ModeratorChatBubbleDecorIcon@location" canBuy="0"
+                      description="#chatDecorDescription">
+                    <params>
+                        <param name="label" value="moderator"/>
+                        <param name="isStatic" value="0"/>
+                    </params>
+                </item>
+                <item id="twichChatBubbleDecor" name="twichChatBubbleDecor" label="#twichChatBubbleDecorTitle" gold="0"
+                      priority="7" icon="TwichChatBubbleDecorIcon@location" canBuy="0"
+                      description="#chatDecorDescription">
+                    <params>
+                        <param name="label" value="twich"/>
+                        <param name="isStatic" value="0"/>
+                    </params>
+                </item>
+                <item id="donatorChatBubbleDecor" name="donatorChatBubbleDecor" label="#donatorChatBubbleDecorTitle" gold="0"
+                      priority="8" icon="DonatorChatBubbleDecorIcon@location" canBuy="0"
+                      description="#chatDecorDescription">
+                    <params>
+                        <param name="label" value="donator"/>
+                        <param name="isStatic" value="0"/>
+                    </params>
+                </item>
+                <item id="batChatBubbleDecor" name="batChatBubbleDecor" label="#batChatBubbleDecorTitle" gold="0"
+                      priority="9" icon="BatChatBubbleDecorIcon@location" canBuy="0"
+                      description="#chatDecorDescription">
+                    <params>
+                        <param name="label" value="bat"/>
+                        <param name="isStatic" value="1"/>
+                    </params>
+                </item>
+            </category>
+
+            <category id="chatTextColor" label="#chatTextColor" priority="2" logCategory2="chatTextColor">
+                <item id="redChatTextColor" name="redChatTextColor" label="#redChatTextColorTitle" gold="50"
+                      priority="1" icon="RedChatTextColorIcon@location" description="#chatDecorDescription">
+                    <params>
+                        <param name="color" value="0xb61503"/>
+                    </params>
+                </item>
+                <item id="blueChatTextColor" name="blueChatTextColor" label="#blueChatTextColorTitle" gold="50"
+                      priority="2" icon="BlueChatTextColorIcon@location" description="#chatDecorDescription">
+                    <params>
+                        <param name="color" value="0x0057b1"/>
+                    </params>
+                </item>
+                <item id="orangeChatTextColor" name="orangeChatTextColor" label="#orangeChatTextColorTitle" gold="50"
+                      priority="3" icon="OrangeChatTextColorIcon@location" description="#chatDecorDescription">
+                    <params>
+                        <param name="color" value="0xcf6b00"/>
+                    </params>
+                </item>
+                <item id="greenChatTextColor" name="greenChatTextColor" label="#greenChatTextColorTitle" gold="50"
+                      priority="4" icon="GreenChatTextColorIcon@location" description="#chatDecorDescription">
+                    <params>
+                        <param name="color" value="0x007c7d"/>
+                    </params>
+                </item>
+            </category>
+        </category>
+    </category>
+
+    <!-- CRAFT ITEMS -->
+    <category id="loot" label="#loot" typeClass="loot" logCategory1="loot">
+
+        <category id="craftLoot" label="#craftLoot" logCategory2="craft">
+
+            <!-- LOOT ITEMS -->
+            <item id="water" name="WaterLoot@location" icon="WaterIcon@location" label="#waterLootLabel"
+                  description="#waterLootDescrioption" probability="0.15" gold="100" silver="0"/>
+            <item id="phial" name="PhialLoot@location" icon="PhialIcon@location" label="#phialLootLabel"
+                  description="#phialLootDescrioption" probability="0.08" gold="100" silver="2"/>
+            <item id="bigPhial" name="BigPhialLoot@location" icon="BigPhialIcon@location" label="#bigPhialLootLabel"
+                  description="#bigPhialLootDescrioption" probability="0.05" gold="200" silver="0"/>
+            <item id="clay" name="ClayLoot@location" icon="ClayIcon@location" label="#clayLootLabel"
+                  description="#clayLootDescrioption" probability="0.1" gold="50" silver="0"/>
+            <item id="likeCoin" name="LikeCoinLoot@location" icon="LikeCoinIcon@location" label="#likeCoinLootLabel"
+                  description="#likeCoinLootDescrioption" probability="0.08" gold="300" silver="0"/>
+            <item id="feather" name="FeatherLoot@location" icon="FeatherIcon@location" label="#featherLootLabel"
+                  description="#featherLootDescrioption" probability="0.5" gold="100" silver="0"/>
+            <item id="bow" name="BowLoot@location" icon="BowIcon@location" label="#bowLootLabel"
+                  description="#bowLootDescrioption" probability="0.05" gold="150" silver="0"/>
+            <item id="pearl" name="PearlLoot@location" icon="PearlIcon@location" label="#pearlLootLabel"
+                  description="#surfLootDescription" probability="0.05" gold="750" silver="0"/>
+            <item id="shell" name="ShellLoot@location" icon="ShellIcon@location" label="#shellLootLabel"
+                  description="#surfLootDescription" probability="0.1" gold="400" silver="0"/>
+            <item id="screw" name="ScrewLoot@location" icon="ScrewIcon@location" label="#screwLootLabel"
+                  description="#carRaceLootDescription" probability="0.25" gold="200" silver="0"/>
+            <item id="wrench" name="WrenchLoot@location" icon="WrenchIcon@location" label="#wrenchLootLabel"
+                  description="#carRaceLootDescription" probability="0.15" gold="300" silver="0"/>
+            <item id="flowerBud" name="FlowerBudLoot@location" icon="FlowerBudIcon@location" label="#flowerBudLootLabel"
+                  description="#flowerBudLootDescrioption" probability="0.08" gold="100" silver="0"/>
+            <item id="wrappingPaper" name="WrappingPaperLoot@location" icon="WrappingPaperIcon@location"
+                  label="#wrappingPaperLootLabel"
+                  description="#wrappingPaperLootDescrioption" probability="0.05" gold="150" silver="0"/>
+            <item id="peaceOfWood" name="PeaceOfWoodLoot@location" icon="PeaceOfWoodIcon@location"
+                  label="#peaceOfWoodLootLabel"
+                  description="#peaceOfWoodLootDescrioption" probability="0.08" gold="50" silver="0"/>
+            <item id="photograph" name="PhotographLoot@location" icon="PhotographIcon@location"
+                  label="#photographLootLabel"
+                  description="#photographLootDescrioption" probability="0.05" gold="400" silver="0"/>
+            <item id="peaceOfIron" name="PeaceOfIronLoot@location" icon="PeaceOfIronIcon@location"
+                  label="#peaceOfIronLootLabel"
+                  description="#peaceOfIronLootDescrioption" probability="0.08" gold="100" silver="0"/>
+            <item id="swordHilt" name="SwordHiltLoot@location" icon="SwordHiltIcon@location" label="#swordHiltLootLabel"
+                  description="#swordHiltLootDescrioption" probability="0.05" gold="400" silver="0"/>
+            <item id="wick" name="WickLoot@location" icon="WickIcon@location" label="#wickLootLabel"
+                  description="#wickLootDescrioption" probability="0.25" gold="200" silver="0"/>
+            <item id="bitOfGlass" name="BitOfGlassLoot@location" icon="BitOfGlassIcon@location"
+                  label="#bitOfGlassLootLabel"
+                  description="#bitOfGlassLootDescrioption" probability="0.1" gold="400" silver="0" holiday="NY"/>
+            <item id="generosity" name="GenerosityLoot@location" icon="GenerosityIcon@location"
+                  label="#generosityLootLabel"
+                  description="#generosityLootDescrioption" probability="0.2" gold="50" silver="0"/>
+            <item id="love" name="LoveLoot@location" icon="LoveIcon@location" label="#loveLootLabel"
+                  description="#loveLootDescrioption" probability="0.2" gold="50" silver="0"/>
+            <item id="hatred" name="HatredLoot@location" icon="HatredIcon@location" label="#hatredLootLabel"
+                  description="#hatredLootDescrioption" probability="0.2" gold="50" silver="0"/>
+            <item id="happiness" name="HappinessLoot@location" icon="HappinessIcon@location" label="#happinessLootLabel"
+                  description="#happinessLootDescrioption" probability="0.2" gold="50" silver="0"/>
+            <item id="thread" name="ThreadLoot@location" icon="ThreadIcon@location" label="#threadLootLabel"
+                  description="#threadLootDescrioption" probability="0.15" gold="300" silver="0"/>
+            <item id="clover" name="CloverLoot@location" icon="CloverIcon@location" label="#cloverLootLabel"
+                  description="#cloverLootDescrioption" probability="0.15" gold="300" silver="0" holiday="stPatric"/>
+
+            <!-- TROPICANIA ITEMS -->
+            <item id="lnfb" name="LinenFabric@location" icon="LinenFabricIcon@location" label="#linenFabricLabel"
+                  description="#fromTropicaniaWorkshop" probability="0" gold="1500" silver="0"/>
+            <item id="ctfb" name="CottonFabric@location" icon="CottonFabricIcon@location" label="#cottonFabricLabel"
+                  description="#fromTropicaniaWorkshop" probability="0" gold="2500" silver="0"/>
+            <item id="rdwd" name="RedWood@location" icon="RedWoodIcon@location" label="#redWoodLabel"
+                  description="#fromTropicaniaAborigenes" probability="0" gold="1700" silver="0"/>
+            <item id="ttm" name="LuckyTotem@location" icon="LuckyTotemIcon@location" label="#totemLabel"
+                  description="#fromTropicaniaAborigenes" probability="0" gold="5000" silver="0"/>
+            <item id="glz" name="Glaze@location" icon="GlazeIcon@location" label="#glazeLabel"
+                  description="#fromTropicaniaKitchen" probability="0" gold="3000" silver="0"/>
+            <item id="bckt" name="Bucket@location" icon="BucketIcon@location" label="#bucketLabel"
+                  description="#fromTropicaniaWorkshop" probability="0" gold="7500" silver="0"/>
+
+            <!-- SOCIAL ITEMS -->
+            <item id="coffeBean" name="CoffeBeanSocial@location" icon="CoffeBeanIcon@location"
+                  label="#coffeBeanSocialLabel"
+                  description="#socialComponentDescription" probability="0" gold="100" silver="0"/>
+            <item id="mintLeaf" name="MintLeafSocial@location" icon="MintLeafIcon@location" label="#mintLeafSocialLabel"
+                  description="#socialComponentDescription" probability="0" gold="100" silver="0"/>
+            <item id="jarOfPaint" name="JarOfPaintSocial@location" icon="JarOfPaintIcon@location"
+                  label="#jarOfPaintSocialLabel"
+                  description="#socialComponentDescription" probability="0" gold="100" silver="0"/>
+            <item id="cloth" name="ClothSocial@location" icon="ClothIcon@location" label="#clothSocialLabel"
+                  description="#socialComponentDescription" probability="0" gold="100" silver="0"/>
+            <item id="glass" name="GlassSocial@location" icon="GlassIcon@location" label="#glassSocialLabel"
+                  description="#socialComponentDescription" probability="0" gold="100" silver="0"/>
+            <item id="grindstone" name="GrindstoneSocial@location" icon="GrindstoneIcon@location"
+                  label="#grindstoneSocialLabel"
+                  description="#socialComponentDescription" probability="0" gold="100" silver="0"/>
+            <item id="peaceOfWax" name="PeaceOfWaxSocial@location" icon="PeaceOfWaxIcon@location"
+                  label="#peaceOfWaxSocialLabel"
+                  description="#socialComponentDescription" probability="0" gold="100" silver="0"/>
+            <item id="pollen" name="PollenSocial@location" icon="PollenIcon@location" label="#pollenSocialLabel"
+                  description="#socialComponentDescription" probability="0" gold="100" silver="0"/>
+            <item id="fasten" name="FastenLoot@location" icon="FastenIcon@location" label="#fastenSocialLabel"
+                  description="#socialComponentDescription" probability="0" gold="100" silver="0"/>
+            <item id="egg" name="Egg@location" icon="EggIcon@location" label="#eggIconLabel"
+                  description="#socialComponentDescription" probability="0" gold="100" silver="0"/>
+            <item id="artificialSnow" name="Snow@location" icon="SnowIcon@location" label="#snowIconLabel"
+                  description="#socialComponentDescription" probability="0" gold="100" silver="0"/>
+            <item id="confetti" name="Confetti@location" icon="ConfettiIcon@location" label="#confettiIconLabel"
+                  description="#socialComponentDescription" probability="0" gold="100" silver="0"/>
+            <item id="gingerForm" name="GingerForm@location" icon="GingerFormIcon@location" label="#gingerFormIconLabel"
+                  description="#socialComponentDescription" probability="0" gold="100" silver="0"/>
+            <item id="valentine" name="Valentine@location" icon="ValentineIcon@location" label="#valCardLabel"
+                  description="#socialComponentDescription" probability="0" gold="100" silver="0"/>
+
+            <!-- PROFESSION LOOT -->
+
+            <item id="beauty" name="BeautyLoot@location" icon="BeautyIcon@location" label="#beautyLabel"
+                  description="#professionComponentDescription" probability="0.5" gold="100" silver="0"/>
+            <item id="glamor" name="GlamorLoot@location" icon="GlamorIcon@location" label="#glamorLabel"
+                  description="#professionComponentDescription" probability="0.3" gold="200" silver="0"/>
+            <item id="idea" name="IdeaLoot@location" icon="IdeaIcon@location" label="#ideaLabel"
+                  description="#professionComponentDescription" probability="0.5" gold="100" silver="0"/>
+            <item id="muse" name="MuseLoot@location" icon="MuseIcon@location" label="#museLabel"
+                  description="#professionComponentDescription" probability="0.3" gold="200" silver="0"/>
+            <item id="diligence" name="DiligenceLoot@location" icon="DiligenceIcon@location" label="#diligenceLabel"
+                  description="#professionComponentDescription" probability="0.05" gold="150" silver="0"/>
+            <item id="skill" name="SkillLoot@location" icon="SkillIcon@location" label="#skillLabel"
+                  description="#professionComponentDescription" probability="0.08" gold="100" silver="0"/>
+            <item id="industry" name="IndustryLoot@location" icon="IndustryIcon@location" label="#industryLabel"
+                  description="#professionComponentDescription" probability="0.08" gold="100" silver="0"/>
+            <item id="luck" name="LuckLoot@location" icon="LuckIcon@location" label="#luckLabel"
+                  description="#professionComponentDescription" probability="0.05" gold="150" silver="0"/>
+
+
+        </category>
+
+    </category>
+
+    <!-- SERVICES AS2 integration -->
+    <category id="achievementServices" typeClass="game" logCategory1="achievement" logCategory2="reset">
+        <item id="resetAchievements" name="all" gold="30"/>
+    </category>
+
+    <category id="resourceServices" typeClass="game" logCategory1="resource">
+        <item id="energyResource" name="energy"/>
+        <item id="silverResource" name="silver"/>
+        <item id="clanCoinResource" name="clanCoin"/>
+    </category>
+
+    <category id="placesServices" typeClass="game" logCategory1="places" logCategory2="event">
+        <item id="createEvent" name="create"/>
+    </category>
+
+    <category id="roomServices" typeClass="game" logCategory1="room">
+        <item id="lockRoom" name="lock"/>
+    </category>
+
+    <category id="avatarAppearanceServices" typeClass="game" logCategory1="avatar" logCategory2="appearance">
+        <item id="renameAvatar" name="rename"/>
+        <item id="changeHomeAppearance" name="home"/>
+        <item id="changeSalonAppearance" name="salon"/>
+        <item id="changeWeddingAppearance" name="wedding"/>
+    </category>
+
+    <category id="couturierClothesServices" typeClass="game" logCategory1="couturier" logCategory2="clothes">
+        <item id="buyCouturierClothes" name="buyCouturierClothes"/>
+    </category>
+
+    <category id="anotherAvatarClothesServices" typeClass="game" logCategory1="clothes">
+        <item id="buyAnotherAvatarClothes" name="buyAnotherAvatarClothes"/>
+    </category>
+
+    <category id="podiumClothesServices" typeClass="game" logCategory1="clothes">
+        <item id="buyPodiumClothes" name="buyPodiumClothes"/>
+    </category>
+</config>

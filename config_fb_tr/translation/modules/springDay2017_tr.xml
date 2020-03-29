@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+        <message key="springDay2017ParticipationDialogTitle">Bahar Özel!</message>
+        <message key="springDay2017ParticipationDialogDescription">Gerçekten istediğinde tüm hayallerinin gerçekleşebileceğine inanıyor musun?  Hadi bunu teste sokalım!</message>
+        <message key="springDay2017ParticipationOkButtonTitle">Başla!</message>
+        <message key="springDay2017TrophyDialogMessage">Bahar Özel sırasında sergilediğin muhteşem performanstan dolayı sana Bahar 2017 unvanını veriyoruz. Katıldığın için teşekkürler!</message>
+        <message key="springDay2017WallGetTrophyMessage">Yaşasın Bahar 2017 unvanına sahibim! Oyunda görüşürüz! :link:</message>
+        <message key="springDay2017ProgressDialogTitle">Bir dilek tut!</message>
+        <message key="springDay2017ProgressDialogWishesTitle">Eşya seç</message>
+        <message key="springDay2017ProgressDialogWishesDescription">Her zaman düşlediğin eşyaları seç. Altınları biriktir ve istediğin hediyeleri seç.</message>
+        <message key="springDay2017ProgressDialogTrophyDescription">Altınları topla ve etkinliğin sonunda eşsiz unvanı edin</message>
+        <message key="springDay2017ProgressDialogStartButtonTitle">Başla</message>
+        <message key="springDay2017SelectWishDialogTitle">Bir eşya seç</message>
+        <message key="springDay2017ConvertCoinsMessage">Tebrikler! Artık hediyeler için :coinsCount: altın harcayabilirsin</message>
+        <message key="springDay2017WishCompleteMessage">Tebrikler! Hayalin gerçek oldu!</message>
+        <message key="springDay2017FountainHintMessage">Çeşmeye para at ve hayallerin gerçek olsun</message>
+        <message key="springDay2017FriendHelpMessage">Buradan şanslı para alabilirsin</message>
+    </locale>
+</dictionary>

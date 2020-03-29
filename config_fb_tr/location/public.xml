@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<config>
+
+    <location id="yard" zoneId="street" loadingContent="yard,landscape" defaultRoomId="y1">
+        <rooms>
+            <room id="y1" map="yard_1_map" userCount="15" criticalUserCount="30" backgroundSound="outside1,outside2"
+                  dresscode="outside"/>
+            <room id="y1e" map="yard_1_map" userCount="30" criticalUserCount="48" backgroundSound="outside1,outside2"
+                  dresscode="outside"/>
+        </rooms>
+    </location>
+
+    <location id="cafe" zoneId="street" loadingContent="cafe" defaultRoomId="cf1">
+        <rooms>
+            <room id="cf1" map="cafe_1_map" userCount="15" criticalUserCount="30" backgroundSound="cafe1"
+                  dresscode="outside"/>
+            <room id="cf1e" map="cafe_1_map" userCount="30" criticalUserCount="48" backgroundSound="cafe1"
+                  dresscode="outside"/>
+        </rooms>
+    </location>
+
+    <location id="club" zoneId="street" loadingContent="club,vip" defaultRoomId="cl1">
+        <rooms>
+            <room id="cl1" map="club_1_map" userCount="15" criticalUserCount="30" backgroundSound="club1" minLevel="4"
+                  dresscode="outside"/>
+            <room id="cl1e" map="club_1_map" userCount="30" criticalUserCount="48" backgroundSound="club1" minLevel="4"
+                  dresscode="outside"/>
+
+            <room id="v1" map="vip_1_map" userCount="15" criticalUserCount="30" backgroundSound="vip1" vip="1"
+                  dresscode="outside"/>
+            <room id="v1e" map="vip_1_map" userCount="30" criticalUserCount="48" backgroundSound="vip1" vip="1"
+                  dresscode="outside"/>
+        </rooms>
+    </location>
+
+    <location id="park" zoneId="street" loadingContent="park,landscape" defaultRoomId="p1">
+        <rooms>
+            <room id="p1" map="park_1_map" userCount="15" criticalUserCount="30" backgroundSound="outside1,outside2"
+                  dresscode="outside"/>
+            <room id="p1e" map="park_1_map" userCount="30" criticalUserCount="45" backgroundSound="outside1,outside2"
+                  dresscode="outside"/>
+        </rooms>
+    </location>
+
+    <location id="street" zoneId="street" loadingContent="street,landscape" defaultRoomId="s1">
+        <rooms>
+            <room id="s1" map="street_1_map" userCount="15" criticalUserCount="30" backgroundSound="outside1,outside2"
+                  dresscode="outside"/>
+            <room id="s1e" map="street_1_map" userCount="30" criticalUserCount="48" backgroundSound="outside1,outside2"
+                  dresscode="outside"/>
+        </rooms>
+    </location>
+
+    <location id="publicBeach" zoneId="street" loadingContent="publicBeach" defaultRoomId="pb1">
+        <rooms>
+            <room id="pb1" map="public_beach_1_map" userCount="15" criticalUserCount="20"
+                  backgroundSound="outside1,outside2" dresscode="beach"/>
+            <room id="pb1e" map="public_beach_1_map" userCount="30" criticalUserCount="48"
+                  backgroundSound="outside1,outside2" dresscode="beach"/>
+        </rooms>
+    </location>
+
+    <location id="ballroom" zoneId="street" loadingContent="ballroom" defaultRoomId="br1">
+        <rooms>
+            <room id="br1" map="ballroom_1_map" userCount="16" criticalUserCount="30"
+                  backgroundSound="outside1,outside2" dresscode="ballroom"/>
+            <room id="br1e" map="ballroom_1_map" userCount="16" criticalUserCount="30"
+                  backgroundSound="outside1,outside2" dresscode="ballroom"/>
+        </rooms>
+    </location>
+
+    <location id="canyon" zoneId="street" loadingContent="canyon" defaultRoomId="pc1">
+        <rooms>
+            <room id="pc1" map="canyon_1_map" userCount="16" criticalUserCount="16" backgroundSound="outside1,outside2"
+                  dresscode="outside"/>
+        </rooms>
+    </location>
+
+    <location id="salon" zoneId="street" loadingContent="salon" defaultRoomId="sn1">
+        <rooms>
+            <room id="sn1" map="salon_1_map" userCount="5" criticalUserCount="10" backgroundSound="cafe1" minLevel="6"
+                  dresscode="outside"/>
+        </rooms>
+    </location>
+
+    <location id="photoSalon" zoneId="street" loadingContent="photoSalon" defaultRoomId="psn1">
+        <rooms>
+            <room id="psn1" map="photo_salon_1_map" userCount="5" criticalUserCount="10" backgroundSound="cafe1"
+                  dresscode="outside"/>
+        </rooms>
+    </location>
+
+    <location id="couturier" zoneId="street" loadingContent="couturier" defaultRoomId="ctr1">
+        <rooms>
+            <room id="ctr1" map="couturier_1_map" userCount="16" criticalUserCount="30"
+                  backgroundSound="outside1,outside2" dresscode="outside"/>
+        </rooms>
+    </location>
+
+    <location id="skiResort" zoneId="street" loadingContent="skiResort" defaultRoomId="sr1">
+        <rooms>
+            <room id="sr1" map="ski_resort_1_map" userCount="16" criticalUserCount="30" backgroundSound="skiResort"
+                  dresscode="outside"/>
+            <room id="sr1e" map="ski_resort_1_map" userCount="30" criticalUserCount="48" backgroundSound="skiResort"
+                  dresscode="outside"/>
+        </rooms>
+    </location>
+
+    <location id="weddingBeach" zoneId="street" loadingContent="weddingBeach" defaultRoomId="wb1e">
+        <rooms>
+            <room id="wb1e" map="wedding_beach_1_map" userCount="30" criticalUserCount="47"
+                  backgroundSound="outside1,outside2" dresscode="outside"/>
+        </rooms>
+    </location>
+
+    <location id="iceRink" zoneId="street" loadingContent="iceRink" defaultRoomId="ir1">
+        <rooms>
+            <room id="ir1" map="iceRink_1_map" userCount="15" criticalUserCount="30" minLevel="15"
+                  backgroundSound="outside1,outside2" dresscode="outside"/>
+        </rooms>
+    </location>
+
+    <location id="podium" zoneId="street" loadingContent="podium,iceRink" defaultRoomId="pdm">
+        <rooms>
+            <room id="pdm" map="podium_1_map" userCount="15" criticalUserCount="30"
+                backgroundSound="Podium1,Podium2,Podium3,Podium4,Podium5,Podium6" dresscode="beach"/>
+            <room id="pdme" map="podium_1_map" userCount="15" criticalUserCount="30"
+                backgroundSound="Podium1,Podium2,Podium3,Podium4,Podium5,Podium6" dresscode="beach"/>
+        </rooms>
+    </location>
+
+</config>

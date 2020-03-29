@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+
+    <statuses>
+
+        <status id="0" label="#relationEnemy" icon="RelationEnemyIcon@ui" mLabel="#relationEnemys" canCreate="1">
+            <statusForTransition id="10"/>
+            <statusForTransition id="27"/>
+            <progress value="-100" status="1"/>
+        </status>
+
+        <status id="1" label="#relationBadEnemy" icon="RelationEnemyIcon@ui" mLabel="#relationBadEnemys">
+            <statusForTransition id="10"/>
+            <statusForTransition id="27"/>
+            <progress value="-100" status="2"/>
+            <progress value="100" status="0"/>
+        </status>
+
+        <status id="2" label="#relationWorstEnemy" icon="RelationEnemyIcon@ui" mLabel="#relationWorstEnemys">
+            <statusForTransition id="10"/>
+            <statusForTransition id="27"/>
+            <progress value="100" status="1"/>
+        </status>
+
+        <status id="10" label="#relationStranger" icon="RelationStrangerIcon@ui" mLabel="#relationStrangers">
+            <statusForTransition id="0"/>
+            <statusForTransition id="20"/>
+        </status>
+
+        <status id="20" label="#relationAssociate" icon="RelationAssociateIcon@ui" mLabel="#relationAssociates" canCreate="1">
+            <statusForTransition id="0"/>
+            <statusForTransition id="10"/>
+            <progress value="-100" status="21"/>
+            <progress value="100" status="22"/>
+            <award id="sendMailMessageAward" description="#sendMailMessageAwardDescription"/>
+            <award id="sendMobileMessageAward" description="#sendMobileMessageAwardDescription" module="mobile"/>
+            <award id="kissInquiryAward" description="#kissInquiryAwardDescription" validate="kissValidate"/>
+            <award id="sitCarInquiryAward" description="#sitCarInquiryAwardDescription"/>
+            <award id="treadFriendAward" description="#treadFriendAwardDescription"/>
+            <award id="drawGraffitiOnCarAward" description="#drawGraffitiOnCarAwardDescription"/>
+        </status>
+
+        <status id="21" label="#relationBadAssociate" icon="RelationAssociateIcon@ui" mLabel="#relationBadAssociates">
+            <statusForTransition id="0"/>
+            <statusForTransition id="10"/>
+            <progress value="100" status="20"/>
+        </status>
+
+        <status id="22" label="#relationGoodAssociate" icon="RelationAssociateIcon@ui" mLabel="#relationGoodAssociates">
+            <statusForTransition id="0"/>
+            <statusForTransition id="10"/>
+            <statusForTransition id="40"/>
+            <progress value="-100" status="20"/>
+        </status>
+
+        <status id="23" label="#relationExFriend" icon="RelationAssociateIcon@ui" mLabel="#relationExFriends">
+            <statusForTransition id="0"/>
+            <statusForTransition id="10"/>
+            <progress value="-100" status="21"/>
+            <progress value="100" status="22"/>
+        </status>
+
+        <status id="24" label="#relationExEngaged" icon="RelationExIcon@ui" mLabel="#relationExEngageds"
+                confirmLabel="#exEngagedConfirmTitle" confirmButton="#exEngagedConfirmButton">
+            <statusForTransition id="0"/>
+            <statusForTransition id="10"/>
+            <progress value="-100" status="21"/>
+            <progress value="100" status="22"/>
+        </status>
+
+        <status id="25" label="#relationExMarried" icon="RelationExIcon@ui" mLabel="#relationExMarrieds"
+                confirmLabel="#exMarriedConfirmTitle" confirmButton="#exMarriedConfirmButton">
+            <statusForTransition id="0"/>
+            <statusForTransition id="10"/>
+            <progress value="-100" status="21"/>
+            <progress value="100" status="22"/>
+        </status>
+
+        <status id="26" label="#relationExBeloved" icon="RelationExIcon@ui" mLabel="#relationExBeloveds"
+                confirmLabel="#exBelovedConfirmTitle" confirmButton="#exBelovedConfirmButton">
+            <statusForTransition id="0"/>
+            <statusForTransition id="10"/>
+            <progress value="-100" status="21"/>
+            <progress value="100" status="22"/>
+        </status>
+
+        <status id="27" label="#relationExEnemy" icon="RelationAssociateIcon@ui" mLabel="#relationExEnemys">
+            <statusForTransition id="0"/>
+            <statusForTransition id="10"/>
+            <progress value="-100" status="21"/>
+            <progress value="100" status="22"/>
+        </status>
+
+        <status id="40" label="#relationFriend" icon="RelationFriendIcon@ui" mLabel="#relationFriends">
+            <statusForTransition id="0"/>
+            <statusForTransition id="10"/>
+            <statusForTransition id="23"/>
+            <progress value="-100" status="41"/>
+            <progress value="100" status="42"/>
+            <award id="hugAward" description="#hugAwardDescription"/>
+            <award id="giveFiveAward" description="#giveFiveAwardDescription"/>
+            <award id="handShakeAward" description="#handShakeAwardDescription"/>
+            <award id="sitCarAward" description="#sitCarAwardDescription"/>
+            <award id="sitCarNotAtHomeAward" description="#sitCarNotAtHomeAwardDescription"/>
+        </status>
+
+        <status id="41" label="#relationBadFriend" icon="RelationFriendIcon@ui" mLabel="#relationBadFriends">
+            <statusForTransition id="0"/>
+            <statusForTransition id="10"/>
+            <statusForTransition id="23"/>
+            <progress value="100" status="40"/>
+        </status>
+
+        <status id="42" label="#relationGoodFriend" icon="RelationFriendIcon@ui" mLabel="#relationGoodFriends">
+            <statusForTransition id="0"/>
+            <statusForTransition id="10"/>
+            <statusForTransition id="23"/>
+            <progress value="-100" status="40"/>
+            <progress value="100" status="43"/>
+            <award id="useRefrigeratorAward" description="#useRefrigeratorAwardDescription"/>
+        </status>
+
+        <status id="43" label="#relationBestFriend" icon="RelationFriendIcon@ui" mLabel="#relationBestFriends">
+            <statusForTransition id="0"/>
+            <statusForTransition id="10"/>
+            <statusForTransition id="23"/>
+            <statusForTransition id="50"/>
+            <progress value="-100" status="42"/>
+        </status>
+
+        <status id="50" label="#relationBeloved" icon="RelationLoveIcon@ui" mLabel="#relationBeloveds"
+                confirmLabel="#belovedConfirmTitle" confirmButton="#addBelovedButtonTitle">
+            <statusForTransition id="10"/>
+            <statusForTransition id="26"/>
+            <statusForTransition id="60"/>
+            <award id="kissAward" description="#kissAwardDescription"/>
+            <award id="ballDanceAward" description="#ballDanceAwardDescription"/>
+            <award id="repairAward" description="#repairAwardDescription"/>
+        </status>
+
+        <status id="60" label="#relationEngaged" icon="RelationLoveIcon@ui" comment="" mLabel="#relationEngageds"
+                confirmLabel="#engadegConfirmTitle" confirmButton="#engegedButtonTitle">
+            <statusForTransition id="10"/>
+            <statusForTransition id="24"/>
+            <statusForTransition id="70"/>
+        </status>
+
+        <status id="70" label="#relationMarried" icon="RelationLoveIcon@ui" comment="" mLabel="#relationMarrieds"
+                confirmLabel="#marriedConfirmTitle" confirmButton="#marriedButtonTitle">
+            <statusForTransition id="10"/>
+            <statusForTransition id="25"/>
+            <progress value="300" status="71"/>
+            <award id="longKissAward" description="#longKissAwardDescription"/>
+            <award id="transferAward" description="#transferAwardDescription"/>
+        </status>
+
+        <status id="71" label="#relationGoodMarried" icon="RelationLoveIcon@ui" mLabel="#relationGoodMarrieds">
+            <statusForTransition id="10"/>
+            <statusForTransition id="25"/>
+            <progress value="-300" status="70"/>
+            <progress value="300" status="72"/>
+            <award id="visitLockedHouseAward" description="#visitLockedHouseAwardDescription"/>
+        </status>
+
+        <status id="72" label="#relationTrustMarried" icon="RelationLoveIcon@ui" mLabel="#relationTrustMarrieds">
+            <statusForTransition id="10"/>
+            <statusForTransition id="25"/>
+            <progress value="-300" status="71"/>
+            <progress value="300" status="73"/>
+            <award id="airKissAward" description="#airKissAwardDescription"/>
+        </status>
+
+        <status id="73" label="#relationBestMarried" icon="RelationLoveIcon@ui" mLabel="#relationBestMarrieds">
+            <statusForTransition id="10"/>
+            <statusForTransition id="25"/>
+            <progress value="-300" status="72"/>
+            <award id="increaseTransferLimitAward" description="#increaseTransferLimitAwardDescription"/>
+        </status>
+
+        <status id="100" label="#relationPrivate" icon="RelationStrangerIcon@ui" comment="" mLabel="#relationPrivates"/>
+
+    </statuses>
+
+    <groups>
+
+        <group id="enemy" label="#relationEnemyGroup" icon="RelationEnemyIcon@ui">
+            <status id="0"/>
+            <status id="1"/>
+            <status id="2"/>
+        </group>
+
+        <group id="stranger" label="#relationStrangerGroup" icon="RelationStrangerIcon@ui">
+            <status id="10"/>
+        </group>
+
+        <group id="associate" label="#relationAssociateGroup" icon="RelationAssociateIcon@ui">
+            <status id="20"/>
+            <status id="21"/>
+            <status id="22"/>
+            <status id="23"/>
+            <status id="24"/>
+            <status id="25"/>
+            <status id="26"/>
+            <status id="27"/>
+        </group>
+
+        <group id="friend" label="#relationFriendsGroup" icon="RelationFriendIcon@ui">
+            <status id="40"/>
+            <status id="41"/>
+            <status id="42"/>
+            <status id="43"/>
+        </group>
+
+        <group id="love" label="#relationLoveGroup" icon="RelationLoveIcon@ui">
+            <status id="50"/>
+            <status id="60"/>
+            <status id="70"/>
+            <status id="71"/>
+            <status id="72"/>
+            <status id="73"/>
+        </group>
+
+        <group id="private" label="#private" icon="RelationAssociateIcon@ui">
+            <status id="100"/>
+        </group>
+
+    </groups>
+
+    <permissions>
+
+        <!-- RELATIONS -->
+
+        <rule resource="avatar" privilege="addToAssociates">
+            <allow groups="stranger" userConfirm="assoc"/>
+        </rule>
+
+        <rule resource="avatar" privilege="addToEnemies">
+            <allow groups="stranger"/>
+        </rule>
+
+        <rule resource="avatar" privilege="removeFromAssociates">
+            <allow groups="associate"/>
+        </rule>
+
+        <rule resource="avatar" privilege="addToFriends">
+            <allow statuses="22" userConfirm="friends"/>
+            <deny group="associate" message="#bestAssociateBeforeMessage"/>
+        </rule>
+
+        <rule resource="avatar" privilege="showAddToFriends">
+            <allow groups="associate"/>
+        </rule>
+
+        <rule resource="avatar" privilege="removeFromFriends">
+            <allow groups="friend"/>
+        </rule>
+
+        <rule resource="avatar" privilege="removeFromEnemies">
+            <allow groups="enemy" userConfirm="notenemy"/>
+        </rule>
+
+        <rule resource="avatar" privilege="appologize">
+            <allow groups="enemy"/>
+        </rule>
+
+        <rule resource="avatar" privilege="addToBeloved">
+            <allow statuses="43" userConfirm="beloved"/>
+            <deny group="friend" message="#bestFriendsBeforeMessage"/>
+        </rule>
+
+        <rule resource="avatar" privilege="showAddToBeloved">
+            <allow groups="friend"/>
+        </rule>
+
+        <rule resource="avatar" privilege="removeFromBeloved">
+            <allow statuses="50"/>
+        </rule>
+
+        <rule resource="avatar" privilege="addToEngaged">
+            <allow statuses="50" userConfirm="engaged"/>
+        </rule>
+
+        <rule resource="avatar" privilege="removeFromEngaged">
+            <allow statuses="60"/>
+        </rule>
+
+        <rule resource="avatar" privilege="addToMarried">
+            <allow statuses="60" userConfirm="married"/>
+        </rule>
+
+        <rule resource="avatar" privilege="removeFromMarried">
+            <allow statuses="70"/>
+            <allow statuses="71"/>
+            <allow statuses="72"/>
+            <allow statuses="73"/>
+        </rule>
+
+        <!-- ACTIONS -->
+        <rule resource="avatar" privilege="kickAss">
+            <allow groups="enemy,stranger,associate,friend,love"/>
+        </rule>
+
+        <rule resource="avatar" privilege="sendMailMessage">
+            <allow groups="associate,friend,love"/>
+        </rule>
+
+        <rule resource="avatar" privilege="slap">
+            <allow groups="enemy,stranger,associate,friend,love"/>
+        </rule>
+
+        <rule resource="avatar" privilege="trade">
+            <allow groups="stranger,associate,friend,love" userConfirm="trade"/>
+            <deny group="enemy" message="#relationPermissionsRequestMessage"/>
+        </rule>
+
+        <rule resource="avatar" privilege="gift">
+            <allow groups="enemy,stranger,associate,friend,love"/>
+        </rule>
+
+        <rule resource="avatar" privilege="kiss">
+            <allow groups="associate,friend" userConfirm="kiss"/>
+            <allow groups="love"/>
+            <deny group="stranger" message="#kissPermissionsRequestMessage2"/>
+            <deny group="enemy" message="#kissPermissionsRequestMessage2"/>
+        </rule>
+
+        <rule resource="avatar" privilege="longKiss">
+            <allow statuses="70"/>
+            <allow statuses="71"/>
+            <allow statuses="72"/>
+            <allow statuses="73"/>
+        </rule>
+
+        <rule resource="avatar" privilege="transfer">
+            <allow statuses="70"/>
+            <allow statuses="71"/>
+            <allow statuses="72"/>
+            <allow statuses="73"/>
+        </rule>
+
+        <rule resource="avatar" privilege="hug">
+            <allow groups="stranger,associate" userConfirm="hug"/>
+            <allow groups="friend,love"/>
+            <deny group="enemy" message="#hugPermissionsRequestMessage" neededStatus="27" userConfirm="assoc"/>
+        </rule>
+
+        <rule resource="avatar" privilege="fight">
+            <allow groups="enemy,stranger,associate,friend,love" userConfirm="fight"/>
+        </rule>
+
+        <rule resource="avatar" privilege="beachRace">
+            <allow groups="enemy,stranger,associate,friend,love" userConfirm="beachRace"/>
+        </rule>
+
+        <rule resource="avatar" privilege="snowboardRace">
+            <allow groups="enemy,stranger,associate,friend,love" userConfirm="snowboardRace"/>
+        </rule>
+
+        <rule resource="avatar" privilege="memories">
+            <allow groups="enemy,stranger,associate,friend,love" userConfirm="memories"/>
+        </rule>
+
+        <rule resource="avatar" privilege="canyonRace">
+            <allow groups="enemy,stranger,associate,friend,love" userConfirm="canyonRace"/>
+        </rule>
+
+        <rule resource="avatar" privilege="ballDance">
+            <allow groups="enemy,stranger,associate,friend" userConfirm="ballDance"/>
+            <allow groups="love"/>
+        </rule>
+
+        <rule resource="avatar" privilege="giveFive">
+            <allow groups="stranger,associate" userConfirm="giveFive"/>
+            <allow groups="friend,love" minLevelConfirm="giveFive"/>
+            <deny group="enemy" message="#giveFivePermissionsRequestMessage" neededStatus="27" userConfirm="assoc"/>
+        </rule>
+
+        <rule resource="avatar" privilege="handShake">
+            <allow groups="stranger,associate" userConfirm="handShake"/>
+            <allow groups="friend,love" minLevelConfirm="handShake"/>
+            <deny group="enemy" message="#handShakePermissionsRequestMessage" neededStatus="27" userConfirm="assoc"/>
+        </rule>
+
+        <rule resource="avatar" privilege="visitLockHouse">
+            <allow statuses="71"/>
+            <allow statuses="72"/>
+            <allow statuses="73"/>
+        </rule>
+
+        <rule resource="avatar" privilege="airKiss">
+            <allow statuses="72"/>
+            <allow statuses="73"/>
+        </rule>
+
+        <rule resource="avatar" privilege="increaseTransferLimit">
+            <allow statuses="73"/>
+        </rule>
+
+        <!-- APPLIANCE SETTINGS -->
+
+        <rule resource="car" privilege="sitCar">
+            <allow groups="associate" userConfirm="sitCar"/>
+            <allow groups="friend,love"/>
+            <deny group="stranger" message="#sitCarPermissionsRequestMessage" title="#sitCarTitle"/>
+            <deny group="enemy" message="#sitCarPermissionsRequestMessage" title="#sitCarTitle"/>
+        </rule>
+        <rule resource="car" privilege="sitCarNotAtHome">
+            <allow groups="friend,love"/>
+            <deny group="associate" message="#sitCarPermissionsRequestMessageNotAtHome" title="#sitCarTitle"/>
+            <deny group="stranger" message="#sitCarPermissionsRequestMessage" title="#sitCarTitle"/>
+            <deny group="enemy" message="#sitCarPermissionsRequestMessage" title="#sitCarTitle"/>
+        </rule>
+
+        <rule resource="jacuzzi" privilege="broke">
+            <allow groups="enemy,stranger,associate,friend,love"/>
+        </rule>
+
+        <rule resource="jacuzzi" privilege="repair">
+            <allow groups="love"/>
+        </rule>
+
+        <rule resource="computerAppliance" privilege="broke">
+            <allow groups="enemy,stranger,associate,friend,love"/>
+        </rule>
+
+        <rule resource="computerAppliance" privilege="repair">
+            <allow groups="love"/>
+        </rule>
+
+        <rule resource="computerAppliance" privilege="sendMailMessage">
+            <allow groups="associate,friend,love"/>
+        </rule>
+
+        <rule resource="tvAppliance" privilege="broke">
+            <allow groups="enemy,stranger,associate,friend,love"/>
+        </rule>
+
+        <rule resource="tvAppliance" privilege="repair">
+            <allow groups="love"/>
+        </rule>
+
+        <rule resource="musicCenterAppliance" privilege="broke">
+            <allow groups="enemy,stranger,associate,friend,love"/>
+        </rule>
+
+        <rule resource="musicCenterAppliance" privilege="repair">
+            <allow groups="love"/>
+        </rule>
+
+        <rule resource="newYearFir" privilege="placeFirToy">
+            <allow groups="enemy,stranger,associate,friend,love"/>
+        </rule>
+
+        <rule resource="furnitureSit" privilege="plantPaintBomb">
+            <allow groups="enemy,stranger,associate,friend,love"/>
+        </rule>
+
+        <rule resource="horseAmusiment" privilege="sitHorse">
+            <allow groups="enemy,stranger,associate,friend,love"/>
+        </rule>
+
+        <rule resource="horseAmusiment" privilege="broke">
+            <allow groups="enemy,stranger,associate,friend,love"/>
+        </rule>
+
+        <rule resource="horseAmusiment" privilege="repair">
+            <allow groups="love"/>
+        </rule>
+
+        <rule resource="wall" privilege="drawGraffiti">
+            <allow groups="enemy,stranger,associate,friend,love"/>
+        </rule>
+
+        <rule resource="carAmusiment" privilege="drawGraffiti">
+            <allow groups="associate,friend,love"/>
+        </rule>
+
+        <rule resource="refrigerator" privilege="useRefrigerator">
+            <allow groups="love" statuses="42,43"/>
+        </rule>
+
+        <rule resource="refrigerator" privilege="treadFriend">
+            <allow groups="associate,friend,love"/>
+        </rule>
+
+        <rule resource="prediction" privilege="predict">
+            <allow groups="love" statuses="42,43"/>
+        </rule>
+
+        <rule resource="janitorRailway" privilege="broke">
+            <allow groups="enemy,stranger,associate,friend,love"/>
+        </rule>
+
+        <rule resource="janitorRailway" privilege="repair">
+            <allow groups="love"/>
+        </rule>
+
+        <rule resource="weldingMachine" privilege="broke">
+            <allow groups="enemy,stranger,associate,friend,love"/>
+        </rule>
+
+        <rule resource="weldingMachine" privilege="repair">
+            <allow groups="love"/>
+        </rule>
+
+        <rule resource="seFan" privilege="broke">
+            <allow groups="enemy,stranger,associate,friend,love"/>
+        </rule>
+
+        <rule resource="seFan" privilege="repair">
+            <allow groups="love"/>
+        </rule>
+
+        <rule resource="avatar" privilege="sendMobileMessage">
+            <allow groups="associate,friend,love"/>
+            <deny group="stranger" message="#mobileSendMessagePermission"/>
+            <deny group="enemy" message="#mobileSendMessagePermission"/>
+        </rule>
+    </permissions>
+
+    <progresses>
+        <progress reason="kiss" value="8"/>
+        <progress reason="longKiss" value="10"/>
+        <progress reason="airKiss" value="10"/>
+        <!--<progress reason="hug" value="300" />-->
+        <progress reason="hug" value="3"/>
+        <progress reason="kickAss" value="-8"/>
+        <progress reason="slap" value="-3"/>
+        <progress reason="fight" value="-8"/>
+        <progress reason="give" value="4"/>
+        <progress reason="appologize" value="5"/>
+        <progress reason="throwCake" value="-5"/>
+        <progress reason="brokeJacuzzi" value="-10"/>
+        <progress reason="brokeTv" value="-10"/>
+        <progress reason="brokeComputer" value="-10"/>
+        <progress reason="brokeMusicCenter" value="-10"/>
+        <progress reason="placeFirToy" value="10"/>
+        <progress reason="drawGraffiti" value="-10"/>
+        <progress reason="brokeHorseAmusiment" value="-10"/>
+        <progress reason="brokeJanitorRailway" value="-10"/>
+        <progress reason="giveFive" value="5"/>
+        <progress reason="handShake" value="4"/>
+    </progresses>
+
+    <callToGameRelationRules>
+        <call callId="relationCall" groupId="love" missingDays="15" />
+    </callToGameRelationRules>
+</config>

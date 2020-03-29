@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+<map width="42" length="50">
+  <viewport x="780" y="-400" width="995" height="795"/>
+  <items>
+    <item class="backgroundItem" skin="GardenBackground@garden" wy="-0.38" wx="24.62"/>
+    <item class="landscapeItem" wy="10.5" wz="0" kind="treeWhite2" wx="31.5" id="landscapeItem178"/>
+    <item class="landscapeItem" wy="14" wz="0" kind="treeWhite2" wx="26" id="landscapeItem179"/>
+    <item class="landscapeItem" wy="19.984375" wz="0" kind="treeRed" wx="33.046875" id="landscapeItem180"/>
+    <item class="landscapeItem" wy="39" wz="0" kind="treeWhite2" wx="13" id="landscapeItem181"/>
+    <item class="landscapeItem" wy="12" wz="0" kind="treeWhite" wx="24" id="landscapeItem182"/>
+    <item class="landscapeItem" wy="5" wz="0" kind="treeDark2" wx="17" id="landscapeItem183"/>
+    <item class="landscapeItem" wy="4" wz="0" kind="treeLight" wx="24" id="landscapeItem184"/>
+    <item class="landscapeItem" wy="32" wz="0" kind="treeLight" wx="22" id="landscapeItem185"/>
+    <item class="landscapeItem" wy="12" wz="0" kind="treeKiparis" wx="34" id="landscapeItem186"/>
+    <item class="landscapeItem" wy="18" wz="0" kind="treeKiparis" wx="34" id="landscapeItem187"/>
+    <item class="landscapeItem" wy="6" wz="0" kind="treeKiparis" wx="28" id="landscapeItem188"/>
+    <item class="landscapeItem" wy="15" wz="0" kind="treeKiparis" wx="10" id="landscapeItem189"/>
+    <item class="landscapeItem" wy="1" wz="0" kind="bush2" wx="23" id="landscapeItem190"/>
+    <item class="landscapeItem" wy="4.5" wz="0" kind="bush2" wx="26.5" id="landscapeItem191"/>
+    <item class="landscapeItem" wy="20" wz="0" kind="bush2" wx="32" id="landscapeItem192"/>
+    <item class="landscapeItem" wy="12.5" wz="0" kind="bush2" wx="10" id="landscapeItem193"/>
+    <item class="landscapeItem" wy="18" wz="0" kind="lakeBig" wx="21" id="landscapeItem194"/>
+    <item class="landscapeItem" wy="13" wz="0" kind="treeLongFloweredYellow" wx="20" id="landscapeItem195"/>
+    <item class="landscapeItem" wy="14" wz="0" kind="gardenTableRound" wx="24" id="landscapeItem196"/>
+    <item class="sitItem" wx="24" wy="16" wz="0" direction="SW" kind="gardenArmchairYellow" id="sitItem197"/>
+    <item class="sitItem" wx="22" wy="14" wz="0" direction="SE" kind="gardenArmchairYellow" id="sitItem198"/>
+    <item class="landscapeItem" wy="14.375" wz="2" kind="gardenBowlFlower" wx="23.6875" id="landscapeItem199"/>
+    <item class="landscapeItem" wy="14" wz="0" kind="treeLongFloweredYellow" wx="26" id="landscapeItem200"/>
+    <item class="landscapeItem" wy="13" wz="0" kind="treeSmallFloweredYellow" wx="19" id="landscapeItem201"/>
+    <item class="workServiceFlowerItem" wx="21" unservicedSkinName="TreeSmallFloweredYellowDie@garden" wy="27" wz="0" servicedSkinName="TreeSmallFloweredYellow@landscape" kind="gardenTreeSmallFloweredYellow" id="workServiceFlowerItem203"/>
+    <item class="workServiceFlyItem" wx="23.515625" unservicedSkinName="ButterflyYellow@garden" wy="24.390625" wz="3" servicedSkinName="" kind="gardenButterflyYellow" id="workServiceFlyItem204"/>
+    <item class="workServiceFlyItem" wx="10.484375" unservicedSkinName="ButterflyYellow@garden" wy="17.421875" wz="3" servicedSkinName="" kind="gardenButterflyYellow" id="workServiceFlyItem205"/>
+    <item class="workServiceFlowerItem" wx="29.5" unservicedSkinName="FlowerDarkVioletDie@garden" wy="20" wz="0" servicedSkinName="FlowerDarkViolet@landscape" kind="gardenFlowerDarkViolet" id="workServiceFlowerItem206"/>
+    <item class="workServiceFlowerItem" wx="13" unservicedSkinName="FlowerDarkVioletDie@garden" wy="22" wz="0" servicedSkinName="FlowerDarkViolet@landscape" kind="gardenFlowerDarkViolet" id="workServiceFlowerItem207"/>
+    <item class="workServiceFlowerItem" wx="17" unservicedSkinName="FlowerDarkVioletDie@garden" wy="33" wz="0" servicedSkinName="FlowerDarkViolet@landscape" kind="gardenFlowerDarkViolet" id="workServiceFlowerItem208"/>
+    <item class="workServiceFlowerItem" wx="17" unservicedSkinName="FlowerOrangeDie@garden" wy="19" wz="0" servicedSkinName="FlowerOrange@landscape" kind="gardenFlowerOrange" id="workServiceFlowerItem209"/>
+    <item class="workServiceFlowerItem" wx="21" unservicedSkinName="FlowerOrangeDie@garden" wy="24" wz="0" servicedSkinName="FlowerOrange@landscape" kind="gardenFlowerOrange" id="workServiceFlowerItem210"/>
+    <item class="workServiceFlowerItem" wx="9" unservicedSkinName="FlowerOrangeDie@garden" wy="26" wz="0" servicedSkinName="FlowerOrange@landscape" kind="gardenFlowerOrange" id="workServiceFlowerItem211"/>
+    <item class="workServiceFlowerItem" wx="14" unservicedSkinName="FlowerOrangeDie@garden" wy="29" wz="0" servicedSkinName="FlowerOrange@landscape" kind="gardenFlowerOrange" id="workServiceFlowerItem212"/>
+    <item class="workServiceFlowerItem" wx="5" unservicedSkinName="FlowerOrangeDie@garden" wy="21" wz="0" servicedSkinName="FlowerOrange@landscape" kind="gardenFlowerOrange" id="workServiceFlowerItem213"/>
+    <item class="workServiceFlowerItem" wx="11" unservicedSkinName="FlowerOrangeDie@garden" wy="17" wz="0" servicedSkinName="FlowerOrange@landscape" kind="gardenFlowerOrange" id="workServiceFlowerItem214"/>
+    <item class="workServiceFlowerItem" wx="19" unservicedSkinName="FlowerOrangeDie@garden" wy="6" wz="0" servicedSkinName="FlowerOrange@landscape" kind="gardenFlowerOrange" id="workServiceFlowerItem215"/>
+    <item class="landscapeItem" wy="16" wz="0" kind="gardenBushPion" wx="17.4" id="workServiceFlowerItem216"/>
+    <item class="landscapeItem" wy="5" wz="0" kind="gardenBushPion" wx="24.5" id="workServiceFlowerItem217"/>
+    <item class="landscapeItem" wy="28" wz="0" kind="gardenBushPion" wx="10" id="workServiceFlowerItem218"/>
+    <item class="landscapeItem" wy="14" wz="0" kind="gardenBushPion" wx="17.4" id="workServiceFlowerItem219"/>
+    <item class="landscapeItem" wy="15" wz="0" kind="gardenBushPion" wx="33" id="workServiceFlowerItem220"/>
+    <item class="landscapeItem" wy="17" wz="0" kind="bushFloweredWhite" wx="25.55" id="landscapeItem221"/>
+    <item class="landscapeItem" wy="26" wz="0" kind="bush" wx="19" id="landscapeItem222"/>
+    <item class="landscapeItem" wy="27" wz="0" kind="bush" wx="5" id="landscapeItem223"/>
+    <item class="landscapeItem" wy="4" wz="0" kind="bush" wx="20" id="landscapeItem224"/>
+    <item class="landscapeItem" wy="5" wz="0" kind="bush2" wx="30" id="landscapeItem225"/>
+    <item class="landscapeItem" wy="6" wz="0" kind="bush2" wx="31.5" id="landscapeItem226"/>
+    <item class="landscapeItem" wy="7" wz="0" kind="bush2" wx="32.5" id="landscapeItem227"/>
+    <item class="landscapeItem" wy="11" wz="0" kind="bush2" wx="22" id="landscapeItem228"/>
+    <item class="landscapeItem" wy="6" wz="0" kind="bush2" wx="16" id="landscapeItem229"/>
+    <item class="landscapeItem" wy="12" wz="0" kind="bush2" wx="33.5" id="landscapeItem230"/>
+    <item class="landscapeItem" wy="24.5" wz="0" kind="bush2" wx="13" id="landscapeItem231"/>
+    <item class="landscapeItem" wy="24.5" wz="0" kind="bush2" wx="11" id="landscapeItem232"/>
+    <item class="landscapeItem" wy="25.7" wz="0" kind="bush2" wx="14" id="landscapeItem233"/>
+    <item class="landscapeItem" wy="14.7" wz="0" kind="bush2" wx="28.4375" id="landscapeItem234"/>
+    <item class="rotaryItem" direction="SW" wy="17" wz="0" kind="gardenFence" wx="27.5" id="rotaryItem235"/>
+    <item class="rotaryItem" direction="SW" wy="13" wz="0" kind="gardenFence" wx="27.5" id="rotaryItem236"/>
+    <item class="rotaryItem" direction="SE" wy="11.5" wz="0" kind="gardenFence" wx="19" id="rotaryItem237"/>
+    <item class="rotaryItem" direction="SE" wy="11.5" wz="0" kind="gardenFence" wx="23" id="rotaryItem238"/>
+    <item class="workServiceFlowerItem" wx="8" unservicedSkinName="FlowerViolettDie@garden" wy="29" wz="0" servicedSkinName="FlowerViolett@landscape" kind="gardenFlowerViolett" id="workServiceFlowerItem239"/>
+    <item class="workServiceFlowerItem" wx="13" unservicedSkinName="FlowerViolettDie@garden" wy="16" wz="0" servicedSkinName="FlowerViolett@landscape" kind="gardenFlowerViolett" id="workServiceFlowerItem240"/>
+    <item class="workServiceFlowerItem" wx="7" unservicedSkinName="FlowerViolettDie@garden" wy="22" wz="0" servicedSkinName="FlowerViolett@landscape" kind="gardenFlowerViolett" id="workServiceFlowerItem241"/>
+    <item class="workServiceFlowerItem" wx="18" unservicedSkinName="FlowerViolettDie@garden" wy="25" wz="0" servicedSkinName="FlowerViolett@landscape" kind="gardenFlowerViolett" id="workServiceFlowerItem242"/>
+    <item class="workServiceFlowerItem" wx="19" unservicedSkinName="FlowerBlueDie@garden" wy="8" wz="0" servicedSkinName="FlowerBlue@landscape" kind="gardenFlowerBlue" id="workServiceFlowerItem243"/>
+    <item class="workServiceFlowerItem" wx="16" unservicedSkinName="FlowerBlueDie@garden" wy="9" wz="0" servicedSkinName="FlowerBlue@landscape" kind="gardenFlowerBlue" id="workServiceFlowerItem244"/>
+    <item class="workServiceFlowerItem" wx="23" unservicedSkinName="FlowerBlueDie@garden" wy="24" wz="0" servicedSkinName="FlowerBlue@landscape" kind="gardenFlowerBlue" id="workServiceFlowerItem245"/>
+    <item class="workServiceFlowerItem" wx="18" unservicedSkinName="FlowerBlueDie@garden" wy="23" wz="0" servicedSkinName="FlowerBlue@landscape" kind="gardenFlowerBlue" id="workServiceFlowerItem246"/>
+    <item class="landscapeItem" wy="25" wz="0" kind="flowerGrassYellow2" wx="4" id="landscapeItem247"/>
+    <item class="landscapeItem" wy="17" wz="0" kind="flowerGrassYellow2" wx="8.6" id="landscapeItem248"/>
+    <item class="landscapeItem" wy="13.1" wz="0" kind="flowerGrassYellow2" wx="16.3" id="landscapeItem249"/>
+    <item class="landscapeItem" wy="16.86" wz="0" kind="flowerGrassYellow2" wx="31" id="landscapeItem250"/>
+    <item class="landscapeItem" wy="25.453125" wz="0" kind="flowerGrassYellow2" wx="25.515625" id="landscapeItem251"/>
+    <item class="landscapeItem" wy="30.578125" wz="0" kind="flowerGrassYellow2" wx="18.265625" id="landscapeItem252"/>
+    <item class="landscapeItem" wy="33" wz="0" kind="flowerGrassYellow2" wx="9" id="landscapeItem253"/>
+    <item class="landscapeItem" wy="23.86" wz="0" kind="grass" wx="25.5" id="landscapeItem254"/>
+    <item class="landscapeItem" wy="21.375" wz="0" kind="grass" wx="19.8" id="landscapeItem255"/>
+    <item class="landscapeItem" wy="16.97" wz="0" kind="grass" wx="21.97" id="landscapeItem256"/>
+    <item class="landscapeItem" wy="12.2" wz="0" kind="grass" wx="14.23" id="landscapeItem257"/>
+    <item class="landscapeItem" wy="24" wz="0" kind="grass" wx="7.2" id="landscapeItem258"/>
+    <item class="landscapeItem" wy="29.9" wz="0" kind="grass" wx="20.9" id="landscapeItem259"/>
+    <item class="landscapeItem" wy="19" wz="0" kind="flowerGrassBlue" wx="11" id="landscapeItem260"/>
+    <item class="landscapeItem" wy="7" wz="0" kind="flowerGrassBlue" wx="21" id="landscapeItem261"/>
+    <item class="landscapeItem" wy="25" wz="0" kind="flowerGrassBlue" wx="29" id="landscapeItem262"/>
+    <item class="landscapeItem" wy="31" wz="0" kind="flowerGrassBlue" wx="12" id="landscapeItem263"/>
+    <item class="landscapeItem" wy="34" wz="0" kind="flowerGrassBlue" wx="13" id="landscapeItem264"/>
+    <item class="landscapeItem" wy="22" wz="0" kind="flowerGrassBlue" wx="2" id="landscapeItem265"/>
+    <item class="workServiceExterminateItem" wx="10" unservicedSkinName="Insects2@garden" wy="28" wz="0" servicedSkinName="" kind="gardenInsects2" id="workServiceExterminateItem266"/>
+    <item class="workServiceExterminateItem" wx="21.3" unservicedSkinName="Insects@garden" wy="6.8" wz="0.1" servicedSkinName="" kind="gardenInsects" id="workServiceExterminateItem267"/>
+    <item class="workServiceExterminateItem" wx="12" unservicedSkinName="Insects@garden" wy="31" wz="0.1" servicedSkinName="" kind="gardenInsects" id="workServiceExterminateItem268"/>
+    <item class="dispositionItem" wy="17.5" wx="20.5" id="dispositionItem269"/>
+    <item class="workServiceBugItem" wx="7" unservicedSkinName="Bug@garden" wy="27" wz="0" servicedSkinName="BugDead@garden" kind="gardenBug" id="workServiceBugItem270"/>
+    <item class="workServiceBugItem" wx="6" unservicedSkinName="Bug@garden" wy="19" wz="0" servicedSkinName="BugDead@garden" kind="gardenBug" id="workServiceBugItem271"/>
+    <item class="workServiceBugItem" wx="15" unservicedSkinName="Bug@garden" wy="34" wz="0" servicedSkinName="BugDead@garden" kind="gardenBug" id="workServiceBugItem272"/>
+    <item class="workServiceBugItem" wx="23" unservicedSkinName="Bug@garden" wy="26" wz="0" servicedSkinName="BugDead@garden" kind="gardenBug" id="workServiceBugItem273"/>
+    <item class="workServiceBugItem" wx="20" unservicedSkinName="Bug@garden" wy="9" wz="0" servicedSkinName="BugDead@garden" kind="gardenBug" id="workServiceBugItem274"/>
+    <item class="workServiceExterminateItem" wx="4" unservicedSkinName="Insects@garden" wy="25" wz="0.1" servicedSkinName="" kind="gardenInsects" id="workServiceExterminateItem194"/>
+    <item class="workServiceExterminateItem" wx="33" unservicedSkinName="Insects2@garden" wy="15" wz="0" servicedSkinName="" kind="gardenInsects2" id="workServiceExterminateItem100"/>
+    <item class="walkingGridItem" cols="42" rows="50">
+      <grid>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+      </grid>
+    </item>
+  </items>
+</map>

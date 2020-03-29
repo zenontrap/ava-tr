@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<dictionary>
+    
+    <locale name="tr">
+        
+		<!-- CARPET -->
+        <message key="carpet1Title">Arap Halısı</message>
+		<message key="carpet2Title">Açık Gri Halı</message>
+		<message key="carpet3Title">Gri Halı Kaplama</message>
+		<message key="carpet4Title">Oval Kilim</message>
+		<message key="carpet5Title">Tüylü Kilim</message>
+		<message key="carpet6Title">Zebra Desenli Kilim</message>
+		<message key="carpet7Title">Düz Kilim</message>
+		<message key="carpet8Title">Desenli Saray</message>
+		<message key="carpet9Title">Sakura Kilim</message>
+		<message key="carpet10Title">Küçük Mavi Kilim</message>
+		<message key="carpet11Title">Küçük Gri Kilim</message>
+		<message key="carpet12Title">Küçük Yeşil Kilim</message>
+		<message key="carpet13Title">Küçük Turuncu Kilim</message>
+		<message key="carpet14Title">Küçük Kırmızı Kilim</message>
+		<message key="carpetArtdecoTitle">Art-deko Halı</message>
+		<message key="carpetArtdecoRombTitle">Art-deko Halı</message>
+		<message key="carpetGhostTitle">Hayalet Halısı</message>
+		
+		<!-- FIREPLACE -->
+        <message key="fireplace1Title">Metal Şömine</message>
+		<message key="fireplace2Title">Mermer Şömine</message>
+		<message key="fireplace3Title">Altın Şömine</message>
+		<message key="fireplace4Title">Kale Şöminesi</message>
+		<message key="fireplace5Title">Taş Şömine</message>
+		
+		<!-- OTHER -->
+        <message key="bigMaskVeniceTitle">Büyük Venedik Maskesi</message>
+		<message key="candlestickBookVeniceTitle">Venedik Şamdanı</message>
+		<message key="trayVeniceTitle">Gümüş Tepsi</message>
+		<message key="bookForgetTitle">Kitap ve Mürekkep Hokkası</message>
+		<message key="screenForgetTitle">Kafes</message>
+		<message key="casketGoldTitle">Mücevher Kutusu</message>
+		<message key="headArtTitle">Başlık</message>
+		<message key="catArtTitle">Kedi</message>
+		<message key="bookArtTitle">Kitap Yığını</message>
+		<message key="amuletArt">Nazarlık</message>
+		<message key="maskArt">Tanrı Maskesi</message>
+		<message key="screenArtdecoTitle">Art-deko Kafes</message>
+		<message key="pokerFireplaceTitle">Şömine Seti</message>
+		<message key="fireWoodTitle">Şömine tahta yığını</message>
+		<message key="headArtTitle">Başlık</message>
+		<message key="catArtTitle">Kedi</message>
+		<message key="bookArtTitle">Kitap Yığını</message>
+		<message key="amuletArtTitle">Nazarlık</message>
+		<message key="maskArtTitle">Maske</message>
+		<message key="decorBachelorTitle">Bekar Seti</message>
+		<message key="decorBachelor2Title">Bekar Vazosu</message>
+		<message key="officeBachelorTitle">Bekar Ofis Seti</message>
+		<message key="regimentBachelorTitle">Bekar Kitaplığı</message>
+		<message key="plateBachelorTitle">Bekar Duvar Levhası</message>
+		<message key="wreathBlackTitle">Cadılar Bayramı Tacı</message>
+		<message key="webHalloweenTitle">Örümcek ağı</message>
+		<message key="batHalloweenRedTitle">Duvar Sopası</message>
+		<message key="batHalloweenTitle">Duvar Sopası</message>
+		<message key="broomHalloweenTitle">Cadılar Bayramı Süpürgesi</message>
+		<message key="pumpkinSmallTitle">Küçük Bal kabağı</message>
+		<message key="treeHalloweenTitle">Cadılar Bayramı Ağacı</message>
+		<message key="weddingArchTitle">Düğün Kemeri</message>
+		<message key="weddingArchOrangeTitle">Düğün Kemeri</message>
+		<message key="weddingBookTitle">Kürsü</message>
+		<message key="candyHeartTitle">Şeker Hediye Kutusu</message>
+		<message key="weddingCandyPinkTitle">Şeker Hediye Kutusu</message>
+		<message key="vipWheelTitle">Araba Tekeri</message>
+		<message key="guitarTitle">Ayaklı Gitar</message>
+		<message key="candleStickCastleTitle">Büyük Şamdan</message>
+		
+		<!-- CRAFTED GIFTS -->
+        <message key="photoFrame">Resim Çerçevesi</message>
+		<message key="lilyFlowersTitle">Zambak Buketi</message>
+		<message key="loveBalloonTitle">LOVE Balonu</message>
+		<message key="miniFountainTitle">Fıskiye</message>
+		<message key="pirateShipTitle">Korsan Gemisi</message>
+		<message key="roseBasketTitle">Gül Sepeti</message>
+		<message key="candelTitle">Mum</message>
+		<message key="saberTitle">Kılıç</message>
+		<message key="easterEggTitle">Paskalya Yumurtası</message>
+		
+		<!-- PICTURE -->
+        <message key="pictureBaseTitle">Poster</message>
+		<message key="pictureBubbleTitle">Kabarcıklı Poster</message>
+		<message key="pictureFallTitle">Şelale Tablosu</message>
+		<message key="pictureVeniceRoseTitle">Venedik Ustaları Tablosu</message>
+		<message key="pictureIrisTitle">Gökkuşağı Tablosu</message>
+		<message key="pictureHrysanthemumTitle">Papatya Tablosu</message>
+		<message key="pictureBeachTitle">Plaj Posteri</message>
+		<message key="pictureElfTitle">Elf Tablosu</message>
+		<message key="pictureGirlTitle">Kız Posteri</message>
+		<message key="pictureArtDecoTitle">Art-deko Tablo</message>
+		<message key="pictureBachelorTitle">Bekar tablosu</message>
+		
+		<!-- VASE -->
+        <message key="vaseBaseTitle">Çiçekli Vazo</message>
+		<message key="vaseDecorativeFlowerTitle">Dekoratif Vazo</message>
+		<message key="vaseDracaenaTitle">Saksıda Ejderha Ağacı</message>
+		<message key="vaseFlowerTitle">Çiçekli Vazo</message>
+		<message key="vaseGlamTitle">Büyük Vazo</message>
+		<message key="vaseOpenTitle">Vazo</message>
+		<message key="vaseGoldTitle">Altın Vazo</message>
+		<message key="vaseGoldLightTitle">Altın Kaplama Vazo</message>
+		<message key="vaseRoseTitle">Güller için Vazo</message>
+		<message key="vaseRoundTitle">Kulplu Vazo</message>
+		<message key="vaseSmallTitle">Küçük Vazo</message>
+		<message key="vaseWoodFlowerTitle">Ağaç Saksısı</message>
+		<message key="vaseForgetTitle">Çiçekli Saksı</message>
+		<message key="vaseSmallForgetTitle">Çiçekli Küçük Saksı</message>
+		<message key="vaseArtdecoTitle">Art-deko Vazo</message>
+		<message key="vaseHeadTitle">Art-deko Vazo</message>
+		<message key="vaseBachelorTitle">Bekar Vazosu</message>
+		<message key="weddingBouquetTitle">Düğün Buketi</message>
+		<message key="weddingBouquetOrangeTitle">Düğün Buketi</message>
+		<message key="weddingBouquet2Title">Düğün Buketi</message>
+		<message key="weddingBouquet2OrangeTitle">Düğün Buketi</message>
+		<message key="weddingBouquetPresentTitle">Hediye Düğün Buketi</message>
+		<message key="blueFlowerTitle">Egzotik Çiçek</message>
+        <message key="redTopiaryTitle">Çiçek Fidanı</message>
+        <message key="torchFlowerTitle">Fener Çiçeği</message>
+		
+		<!-- ACTIVE DECOR -->
+        <message key="activeDecor1Title">Müzik Merkezi</message>
+		<message key="activeDecor5Title">Hoparlör</message>
+		<message key="activeDecor6Title">Akustik Sistem</message>
+		<message key="activeDecor7Title">Müzik Merkezi</message>
+		<message key="activeDecor8Title">Gümüş Dizüstü</message>
+		<message key="activeDecor9Title">Parlak Dizüstü</message>
+		<message key="activeDecor10Title">Modern Dizüstü</message>
+		<message key="activeDecor2Title">Eski TV</message>
+		<message key="applianceTv2Title">Plazma TV</message>
+		<message key="applianceTv3Title">Plazma TV</message>
+		<message key="applianceTv4Title">Büyük Plazma TV</message>
+		<message key="acoustic1Title">Masa hoparlörü</message>
+		<message key="acoustic2Title">Uzun Yer Hoparlörü</message>
+		<message key="acoustic3Title">Dikdörtgen Yer Hoparlörü</message>
+		<message key="acoustic4Title">Yer Hoparlörü</message>
+		<message key="miscAppliance1Title">DVD Oynatıcı</message>
+		<message key="mailBoxCategory">Posta kutuları</message>
+		<message key="mailBox1Title">Duvar Posta Kutusu</message>
+		<message key="mailBox2Title">Zemin Posta Kutusu</message>
+		<message key="mailBox3Title">Güvercin Posta Kutusu</message>
+		
+		<!-- LAMPS -->
+        <message key="lamp1Title">Duvar Lambası</message>
+		<message key="lamp2Title">Şık Lamba</message>
+		<message key="lamp3Title">Yer Lambası</message>
+		<message key="lamp4Title">Oval Lamba</message>
+		<message key="lamp5Title">Yer Lambası</message>
+		<message key="lamp6Title">Yer Lambası</message>
+		<message key="lamp7Title">Masa Lambası</message>
+		<message key="lamp8Title">Duvar Lambası</message>
+		<message key="lamp9Title">Duvar Lambası</message>
+		<message key="lamp10Title">Duvar Lambası</message>
+		<message key="lamp11Title">Duvar Lambası</message>
+		<message key="lampDecoTitle">Duvar Lambası</message>
+		<message key="lampArtDecoTitle">Art-deko Lamba</message>
+		<message key="lampDecoTitle">Duvar Lambası</message>
+		<message key="scullCandleTitle">Kafatası Lamba</message>
+		<message key="pumpkinSilverTitle">Bal kabağı Lamba</message>
+		<message key="pumpkinHalloweenTitle">Bal kabağı Lamba</message>
+		<message key="pumpkinBlackTitle">Bal kabağı Lamba</message>
+		<message key="ghostBlackTitle">Hayalet Lamba</message>
+		<message key="candleWallHalloweenTitle">Yarasa lamba</message>
+		<message key="candleCobwebTitle">Uzun Cadılar Bayramı Şamdanı</message>
+		
+		<!-- CRAFT -->
+        <message key="moneyBox">Kumbara</message>
+		<message key="teddyBear">Oyuncak Ayı</message>
+		<message key="gerberaTitle">Masa Vazosu</message>
+		<message key="vaseFloor">Dekoratif Vazo</message>
+		<message key="christmasToy">Noel Ağacı Oyuncağı</message>
+		<message key="photoFrame1">Resim Çerçevesi</message>
+		<message key="sable">Kılıç</message>
+		<message key="bunchOfLilies">Zambak Buketi</message>
+		<message key="candle">Mum</message>
+		<message key="stPatrickTitle">Cüce Cin Heykeli</message>
+		<message key="victoryBandTitle">St George Kurdelesi</message>
+		<message key="wigwamTitle">Yerli Çadırı</message>
+		<message key="canoeTitle">Kano</message>
+		<message key="totemsTitle">Totem Koleksiyonu</message>
+		
+		<!-- CHRISTMAS -->
+        <message key="newYearFirTitle">Noel Ağacı</message>
+		<message key="nyCandleTitle">Noel Ağacı Mumu</message>
+		<message key="garlandNYSphereTitle">Çelenk</message>
+		<message key="garlandNYViolettTitle">Çelenk</message>
+		<message key="presentNYBlueTitle">Hediye Kutusu</message>
+		<message key="presentNYBlueBigTitle">Hediye Kutusu</message>
+		<message key="presentNYGoldTitle">Hediye Kutusu</message>
+		<message key="presentNYRedTitle">Hediye Kutusu</message>
+		<message key="snowflakeWallTitle">Kar Tanesi</message>
+		<message key="sockNYBlueTitle">Noel Çorabı</message>
+		<message key="sockNYGoldTitle">Noel Çorabı</message>
+		<message key="sockNYRedTitle">Noel Çorabı</message>
+		<message key="treeNYPresentTitle">Hediyeli Altın Ağaç</message>
+		<message key="treeNYViolettTitle">Dekorasyonlu Ağaç</message>
+		<message key="wreathNYRedTitle">Noel Çelengi</message>
+		<message key="wreathNYGoldTitle">Altın Çelenk</message>
+		<message key="wreathNYBlueTitle">Noel Çelengi</message>
+		<message key="gingerbreadManTitle">Kurabiye Adam</message>
+        <message key="snowmanTitle">Kardan adam</message>
+        <message key="snowballTitle">Kar Küresi</message>
+        <message key="decorNYFir1Title">Dekoratif Kağıt Köknar Ağacı</message>
+        <message key="decorNYFir2Title">Noel Çalısı</message>
+        <message key="decorNYFir3Title">Dekoratif Zevkli Noel Ağacı</message>
+
+		<!-- SCHOOL -->
+		<message key="pictureEinsteinTitle">Einstein Portresi</message>
+		<message key="flowerSchool1Title">Saksıda Çiçek</message>
+		<message key="flowerSchool2Title">Duvar için Saksıda Çiçek</message>
+		<message key="schoolBookStand1Title">Dosya Rafı</message>
+		<message key="schoolBlackboardTitle">Kara tahta</message>
+
+		<!-- AMUSIMENT -->
+        <message key="horseAmusimentWhiteTitle">Beyaz Sallanan At</message>
+		<message key="horseAmusimentBlackTitle">Siyah Sallanan At</message>
+		<message key="horseAmusimentDragonTitle">Sallanan Ejderha</message>
+		<message key="wallAquarium1Title">Duvar Akvaryumu</message>
+		<message key="floorAquarium1Title">Yer Akvaryumu</message>
+		<message key="carVip1Title">Görseller araba</message>
+  
+        <!-- BEACH CRAFT ITEMS -->
+		<message key="surfboardTitle">Sörf Tahtası</message>
+		<message key="mermaidCastleTitle">Denizkızı Kalesi</message>
+        
+        <!-- NEW FURNITURE SETS:
+                COUNTRY, BEACH,
+                ALIEN, JAPAN,
+                ARTNOUVEAU -->
+		<message key="picturePrincessTitle">Prrenses Boyası</message>
+		<message key="pictureJapan1Title">Japon Boyası</message>
+		<message key="pictureJapan2Title">Japon Boyası</message>
+		<message key="carpetJapanTitle">Japon Hasırı</message>
+		<message key="carpetPrincessTitle">Prenses Halısı</message>
+		<message key="carpetAlienTitle">Aliens Hasırı</message>
+		<message key="lampJapanTitle">Japon Abajuru</message>
+		<message key="lampArtNouveauTitle">Modern Lamba</message>
+		<message key="lampPrincessTitle">Prenses Lambası</message>
+		<message key="fireplaceCountryTitle">Köy Evi Şöminesi</message>
+		<message key="katanaJapanBlackTitle">Dekoratif Katana</message>
+		<message key="katanaJapanRedTitle">Kırmızı Katana</message>
+		<message key="teaServiceJapanTitle">Japon Masa Seti</message>
+		<message key="fishBeachTitle">Heykel</message>
+		<message key="palmBeachTitle">Palmiye</message>
+		<message key="barAlienTitle">Bar Tezgahı</message>
+		<message key="pipeAlienTitle">Alien Akvaryumu</message>
+		<message key="poolBeachTitle">Dekoratif Havuz</message>
+		<message key="tableCoffeeCountryTitle">Köy Evi Kahve Masası</message>
+		<message key="diaryPrincessTitle">Prenses Günlüğü</message>
+		<message key="chestPrincessTitle">Prenses Bagajı</message>
+		<message key="tvAlienTitle">Aliens Monitörü</message>
+		<message key="djAlienTitle">DJ Masası</message>
+		<message key="actAlienTitle">Aliens Yer Hoparlörü</message>
+		<message key="plateCountryTitle">Köy Evi Duvar Levhası</message>
+		<message key="flowerMayaLabel">Çiçek "Maya"</message>
+		<message key="treeMayaLabel">Ağaç "Maya"</message>
+		<message key="trashMayaLabel">Çöp Kutusu "Maya"</message>
+		<message key="fireplaceMayaLabel">Zemin Meşalesi "Maya"</message>
+		<message key="torchMayaLabel">Duvar Meşalesi "Maya"</message>
+		<message key="carpetMayaLabel">Kilim "Maya"</message>
+        
+        <!-- NY 2014 EVENT ITEMS -->
+		<message key="columnIceNY14Label">Buz Sütunu</message>
+		<message key="tangerineTreeIceNY14Label">Buz Ağacı</message>
+
+		<!-- SV14 -->
+		<message key="lampSV14Label">Lamba "Aşık"</message>
+		<message key="castleSV14Label">Bulut Kalesi</message>
+		
+		<!-- DZO14 -->
+		<message key="lampFebruary23Label">Lamba "Sığınak"</message>
+		<message key="ventilationFebruary23Label">Havalandırma "Sığınak"</message>
+		<message key="clockCategory">Saat</message>
+		<message key="clockFebruary23Label">Dijital Saat</message>
+		
+		<!-- NYROOF -->
+		<message key="binocularsNYRoofLabel">Dürbün</message>
+		<message key="plantNYRoofLabel">Yeşillik Kutusu</message>
+		<message key="menuNewspaperNYRoofLabel">Sabah Kahvesi Seti</message>
+		<message key="telescopeNYRoofLabel">Teleskop</message>
+
+		<!-- 1st MAY 2014 -->
+		<message key="workersPictureTitle">Avataria Posteri</message>
+
+        <!-- SEA KITCHEN -->
+        <message key="carpetSeaLabel">Deniz Esintisi Kilim</message>
+        <message key="callasSeaLabel">Dekoratif Vazo</message>
+        
+        <!-- RACE CARS -->
+        <message key="raceCarsCollection">Arabalar</message>
+        <message key="carBeetleBlueTitle">Lagün Böceği</message>
+        <message key="carBeetleOrangeTitle">Festival Böceği</message>
+        <message key="carJeepMilitaryTitle">Ordu Jipi</message>
+        <message key="carJeepYellowTitle">Güneş Jipi</message>
+        <message key="carLamboGreenTitle">Zehirli Spor Araba</message>
+        <message key="carLamboWhiteTitle">Vahşi Spor Arabası</message>
+        <message key="carLotusRedTitle">Lotus Kırmızı Spor Araba</message>
+        <message key="carLotusVioletTitle">Lotus Mor Spor Araba</message>
+        <message key="carPontiacBlackTitle">Çöl Gülü Klasik Araba</message>
+        <message key="carPontiacCherryTitle">Çılgın Kiraz Klasik Araba</message>
+		
+		<!-- SP14 -->
+		<message key="spLimitGenerator">Elektrik Jeneratörü</message>
+		<message key="spUnlimGenerator">Devirdaim Motoru</message>
+		<message key="spRobot">Robot İşçi</message>
+        <message key="steampunkUnitCategoryLabel">Steampunk</message>
+        <message key="steampunkGeneratorCategoryLabel">Steampunk</message>
+        <message key="sp2014Label">Steampunk</message>
+
+		<!-- GARAGE ROOM -->
+		<message key="garageRetroDrumkit">Avataria Davul Seti</message>
+		<message key="garageRetroFuelCan">Benzin Bidonu</message>
+		<message key="garageRetroSpareWheel">Tekerlek Desteği</message>
+		<message key="garageRetroTires">Yedek Lastik</message>
+		<message key="garageRetroExtinguisher">Yangın Söndürücü</message>
+		<message key="garageRetroRaceHelmet">Yarış Kaskı</message>
+		<message key="garageRetroGasStation">Benzin İstasyonu</message>
+		<message key="garageRetroToolPanel">Alet Takımı</message>
+		<message key="garageRetroTable">Tezgah</message>
+		<message key="garageRetroLookPit">Çukurlu Araç Tamir Yeri</message>
+		<message key="garageTechnoPodium">Araba Platformu</message>
+
+        <!-- SD14 -->
+        <message key="summerDayFlowerCategoryLabel">Benim Seram</message>
+        <message key="summerDayFlower1Title">Benim Seram</message>
+        
+        <!-- HALLOWEEN 2014 -->
+        <message key="mirrorHalloweenTitle">Mistik Ayna</message>
+
+        <!-- NY15 -->
+        <message key="magicMachineCategoryLabel">Noel Baba Fabrikası</message>
+        <message key="magicMachineLabel">Hediye Fabrikası</message>
+        <message key="trcSantaHouseLabel">Noel Baba Feneri</message>
+        <message key="frplSantaHouseLabel">Noel Baba Şöminesi</message>
+
+        <!-- STVAL15 -->
+        <message key="trcSantaHouseLabel">Noel Baba Şöminesi</message>
+        <message key="vaseSV15Label">Aşıklar Sokağı Vazosu</message>
+
+        <!-- BIKES -->
+        <message key="trcSantaHouseLabel">Noel Baba Şöminesi</message>
+        <message key="bikesCategory">Motosikletler</message>
+        <message key="bikeChopperBlueTitle">Yalnız Kurt Chopper Motosiklet</message>
+        <message key="bikeChopperRedTitle">Kırmızı Şeytan Chopper Motosiklet</message>
+        <message key="bikeDucattiOrangeTitle">Bir Numara Spor Motosikleti</message>
+        <message key="bikeDucattiYellowTitle">Şampiyon Spor Motosikleti</message>
+        <message key="bikeRaiserGreenTitle">Cruiser Motosiklet</message>
+        <message key="bikeRaiserWhiteTitle">Rider Motosiklet</message>
+
+        <!-- EASTER15 -->
+        <message key="easterRabbitTitle">Paskalya Tavşanı</message>
+
+        <!-- CONAN -->
+        <message key="columnConanTitle">Barbar Sütunu</message>
+        <message key="firePlateConanTitle">Barbar Ateşi</message>
+
+        <message key="dirol15PictureTitle">Dirol Resmi</message>
+        <message key="grdFrmBtrfl">Kelebek Resmi</message>
+        <message key="grdFrmBtrfl1">Mavi Kelebek Resmi</message>
+        <message key="grdFrmBtrfl2">Gökkuşağı Kelebek Resmi</message>
+        <message key="grdFrmBtrfl3">Yeşil Kelebek Resmi</message>
+        <message key="grdnDsyBqt">Papatya Buketi</message>
+        <message key="grdnFlwrBskt">Çiçek Sepeti</message>
+        <message key="grdnFlwrbd">Bahçıvanın Çiçek Tarhı</message>
+        <message key="grdnrHrbrm">Herbaryum</message>
+        <message key="chstGrdnrGft">Bahçıvanın Sandığı</message>
+        <message key="grdnrBtrflCol">Canlı Kelebek Koleksiyonu</message>
+        <message key="jntrFrplc">Odacının Şöminesi</message>
+        <message key="jntrKnght">Şövalye</message>
+        <message key="jntrHrgls">Kum Saati</message>
+        <message key="jntrGrmphn">Pikap</message>
+        <message key="jntrTrnsstr">Radyo</message>
+        <message key="jntrGrndClck">Yer Saati</message>
+        <message key="jntrRckr">Odacının Salıncağı</message>
+        <message key="jntrRlw">Demiryolu</message>
+		<message key="jntrAuto">Böceği Salıncağı</message>
+
+        <message key="jntrCckClck">Guguklu Saat</message>
+        <message key="jntrJkbx">Müzikçalar</message>
+        <message key="vsTrBthLabel">Tropik Vazo</message>
+        <message key="pctTrBthLabel">Tropik Kokteyl Resmi</message>
+        <message key="clmTrBthLabel">Tropik Sütun</message>
+        <message key="bookTrBthLabel">Orman Kitabı</message>
+        <message key="vaseKotexLabel">Kotex Vazo</message>
+
+        <message key="lmpHsptl">Hastane Lambası</message>
+        <message key="fldngScrnHsptl">Hastane Ekranı</message>
+        <message key="drpCuntrHsptl">IV</message>
+        <message key="vntltnHsptl">Tıbbi Vantilatör</message>
+        <message key="dfbrlltrHsptl">Şok Cihazı</message>
+        <message key="pctBlkRs1Label">Resim: Rose'un Çocukluğu</message>
+        <message key="pctBlkRs2Label">Resim: Rose’un Anne ve Babası</message>
+        <message key="pctBlkRs3Label">Resim: Rose’un Portresi</message>
+        <message key="pctBlkRs4Label">Resim: Vincent</message>
+        <message key="bookBlkRsLabel">Kitap: Rose’un Günlüğü</message>
+        <message key="musCentBlkRsLabel">Siyah Gül Gramofonu</message>
+
+        <message key="proPhtTblLabel">Fotoğrafçı Kahve Masası</message>
+        <message key="proPhtCffLabel">Kahve</message>
+        <message key="proPhtPctrLabel">Fotoğrafçı Tablosu</message>
+        <message key="proPhtVsLabel">Fotoğrafçı Vazosu</message>
+        <message key="proPhtWllLabel">Fotoğrafçı Duvarı</message>
+        <message key="proPhtChrLabel">Fotoğrafçı Taburesi</message>
+        <message key="proPhtCmrLabel">Fotoğraf Makinesi</message>
+        <message key="proPhtTriLabel">Tripod</message>
+        <message key="proPhtCrptLabel">Fotoğrafçı Halısı</message>
+        <message key="proPhtUmrlLabel">Şemsiye Softbox</message>
+        <message key="proPhtFlrLabel">Fotoğraf Stüdyosu Zemini</message>
+        <message key="proPhtFn1Label">Fotoğraf Stüdyosu Vantilatörü</message>
+        <message key="proPhtScrnLabel">Fotoğraf Duvarı</message>
+        <message key="proPhtLmpLabel">Softbox Lambası</message>
+        <message key="proPhtFn2Label">Fotoğrafçı Vantilatörü</message>
+        <message key="proPhtDrLabel">Fotoğrafçı Kapısı</message>
+        <message key="proPhtSfLabel">Fotoğrafçı Koltuğu</message>
+
+		<message key="sd16DrtPndLabel">Kirli Gölet</message>
+		<message key="sd16ClnPndLabel">Gölet</message>
+		<message key="sd16FlwPndLabel">Çiçekli Gölet</message>
+		<message key="sd16FltPndLabel">Temiz Gölet</message>
+		<message key="sd16FshPndLabel">Balıklı Gölet</message>
+
+		<message key="gdnTre1Label">Zümrüt Ağaç</message>
+		<message key="gdnTre2Label">Yakut Ağaç</message>
+
+		<message key="gerberaPinkTitle">Pembe Çiçekli Masa Vazosu</message>
+		<message key="gerberaOrangeTitle">Turuncu Çiçekli Masa Vazosu</message>
+		<message key="gerberaYellowTitle">Sarı Çiçekli Masa Vazosu</message>
+		<message key="vaseFloorBlue">Dekoratif Vazo - Mavi</message>
+		<message key="vaseFloorRed">Dekoratif Vazo - Kırmızı</message>
+		<message key="photoFrameBlue">Mavi Çerçeve</message>
+		<message key="photoFrameRed">Kırmızı Çerçeve</message>
+		<message key="totemsTitle1">Totem Koleksiyonu Bir</message>
+		<message key="totemsTitle2">Totem Koleksiyonu İki</message>
+		<message key="totemsTitle3">Totem Koleksiyonu Üç</message>
+
+		<message key="ny18SnbrdLabel">Kar Kayağı</message>
+
+		<message key="carJeepDescription">Bu cip kanyonlarda ve yarışlarda biçilmiş kaftan. Hünerlerini göster ve yeni arkadaşlar edin!</message>
+		<message key="dzo18PstrLabel">AVA-23 Posteri</message>
+		<message key="dzo18SttLabel">AVA-23 Uçağı</message>
+
+		<message key="fireplaceDescription">Şöminenin alevlerini izlemek seni sakinleştirip, düşüncelerine dalmana yardım edecektir.</message>
+		<message key="computerDescription">Popüler ve şık bir dizüstü bilgisayar al ve dostlarından ya da tanıdıklarından gelen e-postaları dilediğin yerde, dilediğin zaman kontrol et.</message>
+		<message key="tvDescription">Tüm Avataria’daki en iyi kanallar ile eğlence atmosferine dâhil ol. Arkadaşların yüksek kaliteli görüntüyü takdir edecektir.</message>
+		<message key="stereoDescription">Hiçbir parti, iyi müzik olmadan başarılı olamaz. Bir müzik seti al, her türlü müzik zevkine uygun kanalları tavsiye ediyoruz.</message>
+		<message key="mailBoxDescription">Bir posta kutusu al ki arkadaşların sana her istediklerinde mektup gönderebilsinler.</message>
+		<message key="horseDescription">Salıncaklar, bir partide her türlü garip atmosferi dağıtmaya yardımcı olur. Konukların sıkılırsa onları en sevdiğin müziklerle salla!</message>
+		<message key="aquariumDescription">Misafirlerini ve arkadaşlarını büyülemek ister misin? Daireni animasyonlu bir akvaryumla dekore et! Şaka ve Eşek Şakaları bölümünden değişik balıklar alıp içine koyabilirsin.</message>
+		<message key="carDescription">Arabanı Kanyon’u ziyaret etmek, bir yarışa katılmak ya da sadece arkadaşlarınla güzel vakit geçirmek için kullanabilirsin.</message>
+		<message key="bikeDescription">Motosikletini Kanyon’u ziyaret etmek, bir yarışa katılmak ya da sadece arkadaşlarınla güzel vakit geçirmek için kullanabilirsin.</message>
+
+		<message key="telescopeDescription">Bu eşyayı satın alırsan müthiş şeyler görürsün. Hazır olduğuna emin misin?</message>
+
+		<message key="ab18BlnLabel">Festival Balonları</message>
+		<message key="ab18CkcLabel">Festival Keki</message>
+		<message key="ab18GrlndLabel">Festival Flamaları</message>
+
+		<message key="gamerShelfTitle">Yayıncı Kitaplık</message>
+		<message key="gamerGuitarTitle">Yayıncı Gitar</message>
+		<message key="gamerLampTitle">Yayıncı Lamba</message>
+		<message key="gamerLoudspeakerTitle">Yayıncı Hoparlör</message>
+		<message key="gamerPosterTitle">Yayıncı Poster</message>
+		<message key="gamerWatchTitle">Yayıncı Saat</message>
+		<message key="gamerHeadphonesTitle">Yayıncı Kulaklık</message>
+		<message key="gamerWheelTitle">Yayıncı Direksiyon</message>
+		<message key="hw18PmpPtLabel">Bal Kabağı Çanak</message>
+		<message key="evilFlowerTitle">Şeytan Çiçeği</message>
+		<message key="infernalRabbitTitle">Şeytanî Tavşan</message>
+		<message key="witchFireplaceTitle">Cadının Kalbi</message>
+
+		<message key="ny19TngTrLabel">Mandalina Ağacı</message>
+		<message key="ny19BllsLabel">Noel Ağacı Küresi</message>
+		<message key="ny19GrlndLabel">Çelenk</message>
+		<message key="ny19VsLabel">Vazo</message>
+		<message key="ny19FireplaceLabel">Şömine</message>
+		<message key="ny19PnLabel">Virtüöz Piyano</message>
+
+		<message key="notebookVKPayLabel">VK Laptopu</message>
+		<message key="wddnCarLabel">Aşk Böceği</message>
+		<message key="valentineBearPinkLabel">Pembe Güllü Oyuncak Ayı</message>
+		<message key="valentineBearRedLabel">Kırmızı Güllü Oyuncak Ayı</message>
+		<message key="valentineBearVioletLabel">Mor Güllü Oyuncak Ayı</message>
+		<message key="valentineRosesVaseLabel">Üç Güllü Vazo</message>
+		<message key="valentineFountainLabel">Melek Çeşmesi</message>
+
+		<message key="dzo19PlnTitle">Uçak Süzülmeleri</message>
+		<message key="dzo19PlnDescription">Pervaneler temiz! Gerçek bir pilot gibi mi hissetmek istiyorsun? Acele et ve kontrole geç!</message>
+
+		<message key="stPatrickPotTitle">Altın Küpü</message>
+
+		<message key="easterRabbitsLabel">Peluş Tavşanlar</message>
+		<message key="easterWreathLabel">Paskalya Çelenki</message>
+		<message key="m1st19PosterLabel">İşçi Günü Afişi</message>
+		<message key="floorTableLabel">Tabela</message>
+		<message key="floorTableDescription">Skorları hesap eder, fiyatları gösterir, Scrabble oynar: İşaret bunların hepsini ve daha fazlasını yapabilir!</message>
+		<message key="finishCarpetLabel">Uzun Bitiş Kilimi</message>
+		<message key="colorBigCarpetTitle">Büyük Renk Değiştiren Kilim</message>
+		<message key="colorSmallCarpetTitle">Küçük Renk Değiştiren Kilim</message>
+		<message key="colorCarpetDescription">Kilimin rengini oda editöründen değiştir</message>
+		<message key="colorWheelLabel">Gökkuşağı Çarkı</message>
+		<message key="colorWheelDescription">Rastgele bir renk seçmek için Gökkuşağı Çarkını kullan</message>
+		<message key="rusDay19BearDrummerLabel">Davulcu Ayı</message>
+
+		<message key="seFanLabel">Altın Sonbahar Hayranı</message>
+    </locale>
+	
+</dictionary>

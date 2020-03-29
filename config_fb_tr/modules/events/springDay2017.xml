@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="springDay2017">
+
+    <!-- cooldown = 07.03.2018, 12:00:00 MSK -->
+    <trophy id="springDay2017" maxProgress="10000" icon="TrophyIcon@springDay2017" cooldown="1520413200"/>
+
+    <inventory>
+        <category id="craftLoot">
+            <item id="sd17Coin" name="Coin@springDay2017" canBuy="0"/>
+        </category>
+    </inventory>
+
+    <wishes>
+        <furniture>
+            <item id="wtrfll4" price="1175"/>
+            <item id="plntNYRf" price="50"/>
+            <item id="cptPrns" price="300"/>
+            <item id="fireplace2" price="460"/>
+            <item id="sofaVip2" price="745"/>
+            <item id="chrTrBth" price="50"/>
+            <item id="wardrobeForget1" price="105"/>
+            <item id="tblCtr1" price="220"/>
+            <item id="chair6" price="35"/>
+            <item id="armchairVip2" price="290"/>
+            <item id="awrdTbl3" price="150"/>
+            <item id="frnWll4" price="295"/>
+            <item id="bdPrncss" price="1495"/>
+            <item id="caseRoseMirror" price="55"/>
+            <item id="bthMya" price="1995"/>
+            <item id="bath6" price="40"/>
+            <item id="jacuzzi2" price="325"/>
+            <item id="jacuzzi4" price="425"/>
+            <item id="refrigerator2" price="500"/>
+            <item id="wdwBlkRs" price="2660"/>
+            <item id="bdBlkRs" price="2160"/>
+            <item id="cstlSV14" price="3000"/>
+            <item id="lvmtrSV14" price="300"/>
+            <item id="lvprpvnSV15" price="300"/>
+        </furniture>
+        <tech>
+            <item id="flrAq1" price="9995"/>
+            <item id="hrsAms3" price="4750"/>
+            <item id="carLmbWht" price="2495"/>
+            <item id="bikeDctOrg" price="1695"/>
+            <item id="tvAln" price="750"/>
+            <item id="carJeepYel" price="1745"/>
+            <item id="carVip3" price="700"/>
+            <item id="djAln" price="900"/>
+            <item id="wllAq1" price="7495"/>
+            <item id="acoustic3" price="30"/>
+            <item id="applianceNotebook2" price="45"/>
+            <item id="applianceNotebook1" price="70"/>
+            <item id="applianceTv2" price="125"/>
+            <item id="actAln" price="145"/>
+            <item id="applianceMusicCenter4" price="225"/>
+            <item id="applianceMusicCenter3" price="275"/>
+            <item id="applianceTv4" price="325"/>
+            <item id="carBtlOg" price="1495"/>
+            <item id="carBtlBl" price="1495"/>
+            <item id="bikeChpprRd" price="1095"/>
+        </tech>
+        <gift>
+            <item id="loveBalloon" price="30"/>
+            <item id="roseBasket" price="100"/>
+            <item id="cndWdnPnk" price="20"/>
+            <item id="miniFountain" price="120"/>
+            <item id="wdnTeasrvc" price="85"/>
+            <item id="pirateShip" price="70"/>
+            <item id="applianceBat" price="5"/>
+            <item id="wllgrfft2" price="10"/>
+            <item id="wllgrfft4" price="10"/>
+            <item id="wllgrfft1" price="20"/>
+            <item id="wllgrfft3" price="10"/>
+            <item id="scrdvr" price="25"/>
+            <item id="jacuzziWorms" price="5"/>
+            <item id="chairBomb" price="5"/>
+            <item id="aqF1" price="75"/>
+            <item id="aqF4" price="25"/>
+            <item id="aqF2" price="35"/>
+            <item id="aqF3" price="50"/>
+        </gift>
+    </wishes>
+</module>

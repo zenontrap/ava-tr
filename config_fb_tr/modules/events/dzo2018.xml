@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="dzo2018">
+    <inventory>
+        <category id="craftLoot">
+            <item id="dzo18Stars" description="#dzo18StarsDescription" probability="1" gold="100"
+                  name="StarsLoot@dzo2018" icon="StarsIcon@dzo2018" label="#dzo18StarsLabel"/>
+        </category>
+    </inventory>
+
+    <craft>
+        <craftedItem title="#dzo18PstrLabel" itemId="dzo18Pstr" holiday="">
+            <moduleComponent itemId="dzo18Stars" count="500"/>
+            <component itemId="diligence" count="22"/>
+            <component itemId="jarOfPaint" count="10"/>
+            <component itemId="photograph" count="10"/>
+        </craftedItem>
+
+        <craftedItem title="#dzo18SttLabel" itemId="dzo18Stt" holiday="">
+            <moduleComponent itemId="dzo18Stars" count="1500"/>
+            <component itemId="grindstone" count="15"/>
+            <component itemId="skill" count="50"/>
+            <component itemId="screw" count="14"/>
+        </craftedItem>
+    </craft>
+
+    <quests>
+        <quest id="dzo18Quest1" type="2" queue="0" holiday="dzo2018" icon="QuestTaskIcon@dzo2018">
+            <title>#dzo18Quest1Title</title>
+            <description>#dzo18Quest1Description</description>
+            <award>
+                <energy>150</energy>
+                <item typeId="boyDzoMdl" count="1"/>
+            </award>
+            <rules>
+                <gender value="boy"/>
+            </rules>
+            <tasks>
+                <task type="graffityTask" title="#paintCarAerography" maxProgress="30" categoryId="carAmusiment" gold="99" />
+            </tasks>
+        </quest>
+        <quest id="dzo18Quest2" type="2" queue="1" holiday="dzo2018" icon="QuestTaskIcon@dzo2018">
+            <title>#dzo18Quest1Title</title>
+            <description>#dzo18Quest1Description</description>
+            <award>
+                <energy>150</energy>
+                <item typeId="girlDzoMdl" count="1"/>
+            </award>
+            <rules>
+                <gender value="girl"/>
+            </rules>
+            <tasks>
+                <task type="graffityTask" title="#paintCarAerography" maxProgress="30" categoryId="carAmusiment" gold="99" />
+            </tasks>
+        </quest>
+        <quest id="dzo18Quest3" type="2" queue="2" holiday="dzo2018" icon="QuestTaskIcon@dzo2018">
+            <title>#dzo18Quest3Title</title>
+            <description>#dzo18Quest3Description</description>
+            <award>
+                <silver>25000</silver>
+                <item typeId="screw" count="10"/>
+            </award>
+            <tasks>
+                <task type="craftItem" title="#dzo18Quest3Task1Description" maxProgress="1" typeId="dzo18Pstr"/>
+                <task type="buyItemByCategory" title="#dzo18Quest3Task2Description" maxProgress="9" categoryId="11"/>
+                <task type="buyItemByCategory" title="#dzo18Quest3Task3Description" maxProgress="5" categoryId="16"/>
+                <task type="buyItemByCategory" title="#dzo18Quest3Task4Description" maxProgress="15" categoryId="jokeShop"/>
+            </tasks>
+        </quest>
+        <quest id="dzo18Quest4" type="2" queue="3" holiday="dzo2018" icon="QuestTaskIcon@dzo2018">
+            <title>#dzo18Quest3Title</title>
+            <description>#dzo18Quest3Description</description>
+            <award>
+                <gold>50</gold>
+                <item typeId="vsgstBrush" count="50"/>
+                <item typeId="film" count="50"/>
+            </award>
+            <tasks>
+                <task type="craftItem" title="#dzo18Quest4Task1Description" maxProgress="1" typeId="dzo18Stt"/>
+                <task type="pillowFight" title="#winPillowBattle" maxProgress="50" gold="49"/>
+                <task type="winCarRaceTask" title="#winCarRace" maxProgress="25" gold="29"/>
+            </tasks>
+        </quest>
+    </quests>
+</module>

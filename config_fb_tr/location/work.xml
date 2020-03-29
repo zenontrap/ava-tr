@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<config>
+
+    <notification active="true" period="300" />
+
+    <work id="garden" zoneId="work" loadingContent="garden,landscape" music="job1">
+        <session length="60" mode="interval" />
+        <scenarios mode="random">
+            <scenario id="gd1" map="garden_1_map" type="service">
+                <items>
+                    <item typeId="gdBug" minCount="4" maxCount="6" />
+                    <item typeId="gdFlw" minCount="13" maxCount="17" />
+                    <item typeId="gdBtf" minCount="3" maxCount="3" />
+                    <item typeId="gdIns" minCount="5" maxCount="6" />
+                </items>
+            </scenario>
+            <scenario id="gd2" map="garden_2_map" type="service">
+                <items>
+                    <item typeId="gdBug" minCount="4" maxCount="6" />
+                    <item typeId="gdFlw" minCount="13" maxCount="17" />
+                    <item typeId="gdBtf" minCount="3" maxCount="3" />
+                    <item typeId="gdIns" minCount="5" maxCount="6" />
+                </items>
+            </scenario>
+            <scenario id="gd3" map="garden_3_map" type="service">
+                <items>
+                    <item typeId="gdBug" minCount="4" maxCount="6" />
+                    <item typeId="gdFlw" minCount="13" maxCount="17" />
+                    <item typeId="gdBtf" minCount="3" maxCount="3" />
+                    <item typeId="gdIns" minCount="5" maxCount="6" />
+                </items>
+            </scenario>
+        </scenarios>
+    </work>
+
+    <work id="fortune" zoneId="work" loadingContent="fortune" module="fortune1">
+        <session length="1" />
+        <scenarios>
+            <scenario id="fg1" map="" type="fortune" chipTypeId="gameChips" decorColor="white"/>
+        </scenarios>
+    </work>
+
+    <work id="garbage" zoneId="work" loadingContent="street,yard,landscape" music="job2">
+        <session length="30" mode="interval" />
+        <scenarios mode="random">
+            <scenario id="gb1" map="street_1_map" type="pick">
+                <loot>
+                    <item id="1" typeId="gbTrash" minCount="15" maxCount="18" />
+                    <item id="2" typeId="gbTrashEnrg" minCount="3" maxCount="5" />
+                </loot>
+            </scenario>
+            <scenario id="gb2" map="yard_1_map" type="pick">
+                <loot>
+                    <item id="1" typeId="gbTrash" minCount="18" maxCount="22" />
+                    <item id="2" typeId="gbTrashEnrg" minCount="3" maxCount="5" />
+                </loot>
+            </scenario>
+        </scenarios>
+    </work>
+
+    <work id="npcHouse" zoneId="work">
+        <session length="1" mode="daily" />
+        <scenarios mode="random">
+            <scenario id="ncp1" type="pick">
+                <loot>
+                    <item id="1" typeId="gbTrash" minCount="5" maxCount="5" />
+                </loot>
+            </scenario>
+        </scenarios>
+    </work>
+
+    <work id="fortune2" zoneId="work" loadingContent="fortune" module="fortune2">
+        <session length="60" mode="interval" />
+        <scenarios mode="level">
+            <scenario id="lv1" map="" type="fortune2" chipTypeId="gameChips" minPlayerLevel="1" maxPlayerLevel="10" decorColor="white"/>
+            <scenario id="lv2" map="" type="fortune2" chipTypeId="gameChips2" minPlayerLevel="11" maxPlayerLevel="22" decorColor="gray"/>
+            <scenario id="lv3" map="" type="fortune2" chipTypeId="gameChips3" minPlayerLevel="23" maxPlayerLevel="34" decorColor="green"/>
+            <scenario id="lv4" map="" type="fortune2" chipTypeId="gameChips4" minPlayerLevel="35" maxPlayerLevel="48" decorColor="blue"/>
+            <scenario id="lv5" map="" type="fortune2" chipTypeId="gameChips5" minPlayerLevel="49" maxPlayerLevel="62" decorColor="purple"/>
+            <scenario id="lv6" map="" type="fortune2" chipTypeId="gameChips6" minPlayerLevel="63" maxPlayerLevel="999" decorColor="black"/>
+        </scenarios>
+    </work>
+
+    <work id="fortune3" zoneId="work" loadingContent="fortune" module="fortune3">
+        <session length="60" mode="interval" />
+        <scenarios>
+            <scenario id="fg3" map="" type="fortune3" chipTypeId="fortuneToken" decorColor="white"/>
+        </scenarios>
+    </work>
+
+</config>

@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+
+    <!-- GARDEN -->
+
+    <quest id="grdnPro_q1" type="4" professionId="grdnr" professionLevel="1">
+        <title>#grdnProQuest1Title</title>
+        <description>#grdnProQuest1Desc</description>
+        <rules>
+            <playerLevel min="2" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="2" professionId="grdnr"/>
+            <task type="createWorkSession" title="#createGardenWorkSession" maxProgress="2" workId="garden" period="1440"/>
+            <task type="collectLootItem" title="#collectFlowerBuds" typeId="flowerBud" maxProgress="5"/>
+        </tasks>
+    </quest>
+    <quest id="grdnPro_q2" type="4" professionId="grdnr" professionLevel="2">
+        <title>#grdnProQuest2Title</title>
+        <description>#grdnProQuest2Desc</description>
+        <rules>
+            <neededQuest id="grdnPro_q1" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="3" professionId="grdnr"/>
+            <task type="serviceItem" title="#gdBugTitle" maxProgress="15">
+                <item typeId="gdBug" />
+            </task>
+            <task type="collectLootItem" title="#collectWood" typeId="peaceOfWood" maxProgress="7"/>
+        </tasks>
+    </quest>
+    <quest id="grdnPro_q3" type="4" professionId="grdnr" professionLevel="3">
+        <title>#grdnProQuest3Title</title>
+        <description>#grdnProQuest3Desc</description>
+        <rules>
+            <neededQuest id="grdnPro_q2" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="4" professionId="grdnr"  />
+            <task type="serviceItem" title="#gdBtfTitle" maxProgress="15">
+                <item typeId="gdBtf" />
+            </task>
+            <task type="collectLootItem" title="#collectWater" maxProgress="12" typeId="water"/>
+        </tasks>
+    </quest>
+    <quest id="grdnPro_q4" type="4" professionId="grdnr" professionLevel="4">
+        <title>#grdnProQuest4Title</title>
+        <description>#grdnProQuest4Desc</description>
+        <rules>
+            <neededQuest id="grdnPro_q3" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="5" professionId="grdnr"/>
+            <task type="doneWorkSession" title="#doneGardenWorkSession" maxProgress="4" workId="garden"/>
+            <task type="collectLootItem" title="#collectFlowerBuds" typeId="flowerBud" maxProgress="12"/>
+        </tasks>
+    </quest>
+    <quest id="grdnPro_q5" type="4" professionId="grdnr" professionLevel="5">
+        <title>#grdnProQuest5Title</title>
+        <description>#grdnProQuest5Desc</description>
+        <rules>
+            <neededQuest id="grdnPro_q4" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="6" professionId="grdnr"/>
+            <task type="serviceItem" title="#gdFlwTitle" maxProgress="150">
+                <item typeId="gdFlw" />
+            </task>
+            <task type="collectLootItem" title="#collectClay" typeId="clay" maxProgress="30"/>
+        </tasks>
+    </quest>
+    <quest id="grdnPro_q6" type="4" professionId="grdnr" professionLevel="6">
+        <title>#grdnProQuest6Title</title>
+        <description>#grdnProQuest6Desc</description>
+        <rules>
+            <neededQuest id="grdnPro_q5" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="7" professionId="grdnr"/>
+            <task type="serviceItem" title="#gdInsTitle" maxProgress="80">
+                <item typeId="gdIns" />
+            </task>
+            <task type="collectLootItem" title="#collectWood" typeId="peaceOfWood" maxProgress="30"/>
+        </tasks>
+    </quest>
+    <quest id="grdnPro_q7" type="4" professionId="grdnr" professionLevel="7">
+        <title>#grdnProQuest7Title</title>
+        <description>#grdnProQuest7Desc</description>
+        <rules>
+            <neededQuest id="grdnPro_q6" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="8" professionId="grdnr"/>
+            <task type="createWorkSession" title="#createGardenWorkSession" maxProgress="20" workId="garden" period="1440"/>
+            <task type="collectLootItem" title="#collectWater" maxProgress="45" typeId="water"/>
+        </tasks>
+    </quest>
+    <quest id="grdnPro_q8" type="4" professionId="grdnr" professionLevel="8">
+        <title>#grdnProQuest8Title</title>
+        <description>#grdnProQuest8Desc</description>
+        <rules>
+            <neededQuest id="grdnPro_q7" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="9" professionId="grdnr"/>
+            <task type="serviceItem" title="#gdBugTitle" maxProgress="125">
+                <item typeId="gdBug" />
+            </task>
+            <task type="collectLootItem" title="#collectClay" typeId="clay" maxProgress="70"/>
+        </tasks>
+    </quest>
+    <quest id="grdnPro_q9" type="4" professionId="grdnr" professionLevel="9">
+        <title>#grdnProQuest9Title</title>
+        <description>#grdnProQuest9Desc</description>
+        <rules>
+            <neededQuest id="grdnPro_q8" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="10" professionId="grdnr"/>
+            <task type="serviceItem" title="#gdBtfTitle" maxProgress="90">
+                <item typeId="gdBtf" />
+            </task>
+            <task type="collectLootItem" title="#collectFlowerBuds" typeId="flowerBud" maxProgress="50"/>
+        </tasks>
+    </quest>
+    <quest id="grdnPro_q10" type="4" professionId="grdnr" professionLevel="10">
+        <title>#grdnProQuest10Title</title>
+        <description>#grdnProQuest10Desc</description>
+        <rules>
+            <neededQuest id="grdnPro_q9" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="11" professionId="grdnr"/>
+            <task type="serviceItem" title="#gdFlwTitle" maxProgress="500">
+                <item typeId="gdFlw" />
+            </task>
+            <task type="collectLootItem" title="#collectWood" typeId="peaceOfWood" maxProgress="80"/>
+        </tasks>
+    </quest>
+    <quest id="grdnPro_q11" type="4" professionId="grdnr" professionLevel="11">
+        <title>#grdnProQuest11Title</title>
+        <description>#grdnProQuest12Desc</description>
+        <rules>
+            <neededQuest id="grdnPro_q10" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="12" professionId="grdnr"/>
+            <task type="doneWorkSession" title="#doneGardenWorkSession" maxProgress="25" workId="garden"/>
+            <task type="collectLootItem" title="#collectClay" typeId="clay" maxProgress="120"/>
+        </tasks>
+    </quest>
+    <quest id="grdnPro_q12" type="4" professionId="grdnr" professionLevel="12">
+        <title>#grdnProQuest12Title</title>
+        <description>#grdnProQuest12Desc</description>
+        <rules>
+            <neededQuest id="grdnPro_q11" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="13" professionId="grdnr"/>
+            <task type="serviceItem" title="#gdInsTitle" maxProgress="275">
+                <item typeId="gdIns" />
+            </task>
+            <task type="collectLootItem" title="#collectWater" maxProgress="115" typeId="water"/>
+        </tasks>
+    </quest>
+    <quest id="grdnPro_q13" type="4" professionId="grdnr" professionLevel="13">
+        <title>#grdnProQuest13Title</title>
+        <description>#grdnProQuest13Desc</description>
+        <rules>
+            <neededQuest id="grdnPro_q12" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="14" professionId="grdnr"/>
+            <task type="serviceItem" title="#gdBugTitle" maxProgress="300">
+                <item typeId="gdBug" />
+            </task>
+            <task type="collectLootItem" title="#collectWood" typeId="peaceOfWood" maxProgress="140"/>
+        </tasks>
+    </quest>
+    <quest id="grdnPro_q14" type="4" professionId="grdnr" professionLevel="14">
+        <title>#grdnProQuest14Title</title>
+        <description>#grdnProQuest14Desc</description>
+        <rules>
+            <neededQuest id="grdnPro_q13" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="15" professionId="grdnr"/>
+            <task type="serviceItem" title="#gdBtfTitle" maxProgress="200">
+                <item typeId="gdBtf" />
+            </task>
+            <task type="collectLootItem" title="#collectFlowerBuds" typeId="flowerBud" maxProgress="120"/>
+        </tasks>
+    </quest>
+    <quest id="grdnPro_q15" type="4" professionId="grdnr" professionLevel="15">
+        <title>#grdnProQuest15Title</title>
+        <description>#grdnProQuest15Desc</description>
+        <rules>
+            <neededQuest id="grdnPro_q14" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="16" professionId="grdnr"/>
+            <task type="createWorkSession" title="#createGardenWorkSession" maxProgress="75" workId="garden" period="1440"/>
+            <task type="collectLootItem" title="#collectWater" maxProgress="200" typeId="water"  />
+        </tasks>
+    </quest>
+    <quest id="grdnPro_q16" type="4" professionId="grdnr" professionLevel="16">
+        <title>#grdnProQuest16Title</title>
+        <description>#grdnProQuest16Desc</description>
+        <rules>
+            <neededQuest id="grdnPro_q15" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="17" professionId="grdnr"/>
+            <task type="serviceItem" title="#gdInsTitle" maxProgress="300">
+                <item typeId="gdIns" />
+            </task>
+            <task type="collectLootItem" title="#collectClay" typeId="clay" maxProgress="130"/>
+        </tasks>
+    </quest>
+    <quest id="grdnPro_q17" type="4" professionId="grdnr" professionLevel="17">
+        <title>#grdnProQuest17Title</title>
+        <description>#grdnProQuest17Desc</description>
+        <rules>
+            <neededQuest id="grdnPro_q16" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="18" professionId="grdnr"/>
+            <task type="serviceItem" title="#gdFlwTitle" maxProgress="500">
+                <item typeId="gdFlw" />
+            </task>
+            <task type="collectLootItem" title="#collectWood" typeId="peaceOfWood" maxProgress="150"/>
+        </tasks>
+    </quest>
+    <quest id="grdnPro_q18" type="4" professionId="grdnr" professionLevel="18">
+        <title>#grdnProQuest18Title</title>
+        <description>#grdnProQuest18Desc</description>
+        <rules>
+            <neededQuest id="grdnPro_q17" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="19" professionId="grdnr"/>
+            <task type="serviceItem" title="#gdBugTitle" maxProgress="320">
+                <item typeId="gdBug" />
+            </task>
+            <task type="collectLootItem" title="#collectFlowerBuds" typeId="flowerBud" maxProgress="130"/>
+        </tasks>
+    </quest>
+    <quest id="grdnPro_q19" type="4" professionId="grdnr" professionLevel="19">
+        <title>#grdnProQuest19Title</title>
+        <description>#grdnProQuest19Desc</description>
+        <rules>
+            <neededQuest id="grdnPro_q18" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="20" professionId="grdnr"/>
+            <task type="serviceItem" title="#gdBtfTitle" maxProgress="210">
+                <item typeId="gdBtf" />
+            </task>
+            <task type="collectLootItem" title="#collectWater" maxProgress="125" typeId="water"  />
+        </tasks>
+    </quest>
+    <quest id="grdnPro_q20" type="4" professionId="grdnr" professionLevel="20">
+        <title>#grdnProQuest20Title</title>
+        <description>#grdnProQuest20Desc</description>
+        <rules>
+            <neededQuest id="grdnPro_q19" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="21" professionId="grdnr"/>
+            <task type="doneWorkSession" title="#doneGardenWorkSession" maxProgress="35" workId="garden"/>
+            <task type="collectLootItem" title="#collectClay" typeId="clay" maxProgress="140"/>
+        </tasks>
+    </quest>
+
+    <!-- GARBAGE -->
+
+    <quest id="grbgPro_q1" type="4" professionId="jntr" professionLevel="1">
+        <title>#grbgProQuest1Title</title>
+        <description>#grbgProQuest1Desc</description>
+        <rules>
+            <playerLevel min="2" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="2" professionId="jntr"/>
+            <task type="doneWorkSession" title="#doneGarbageWorkSession" maxProgress="5" workId="garbage"/>
+            <task type="collectLootItem" title="#collectPhial" maxProgress="5" typeId="phial"/>
+        </tasks>
+    </quest>
+    <quest id="grbgPro_q2" type="4" professionId="jntr" professionLevel="2">
+        <title>#grbgProQuest2Title</title>
+        <description>#grbgProQuest2Desc</description>
+        <rules>
+            <neededQuest id="grbgPro_q1" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="3" professionId="jntr"/>
+            <task type="pickGarbage" title="#pickGarbage" maxProgress="140"/>
+            <task type="collectLootItem" title="#collectBigPhial" maxProgress="5" typeId="bigPhial"/>
+        </tasks>
+    </quest>
+    <quest id="grbgPro_q3" type="4" professionId="jntr" professionLevel="3">
+        <title>#grbgProQuest3Title</title>
+        <description>#grbgProQuest3Desc</description>
+        <rules>
+            <neededQuest id="grbgPro_q2" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="4" professionId="jntr"/>
+            <task type="createWorkSession" title="#createGarbageWorkSession" maxProgress="20" workId="garbage" period="86400"/>
+            <task type="collectLootItem" title="#collectBow" maxProgress="11" typeId="bow"/>
+        </tasks>
+    </quest>
+    <quest id="grbgPro_q4" type="4" professionId="jntr" professionLevel="4">
+        <title>#grbgProQuest4Title</title>
+        <description>#grbgProQuest4Desc</description>
+        <rules>
+            <neededQuest id="grbgPro_q3" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="5" professionId="jntr"/>
+            <task type="doneWorkSession" title="#doneGarbageWorkSession" maxProgress="15" workId="garbage"/>
+            <task type="collectLootItem" title="#collectWrappingPaper" typeId="wrappingPaper" maxProgress="15"/>
+        </tasks>
+    </quest>
+    <quest id="grbgPro_q5" type="4" professionId="jntr" professionLevel="5">
+        <title>#grbgProQuest5Title</title>
+        <description>#grbgProQuest5Desc</description>
+        <rules>
+            <neededQuest id="grbgPro_q4" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="6" professionId="jntr"/>
+            <task type="pickGarbage" title="#pickGarbage" maxProgress="450"/>
+            <task type="collectLootItem" title="#collectIron" typeId="peaceOfIron" maxProgress="35"/>
+        </tasks>
+    </quest>
+    <quest id="grbgPro_q6" type="4" professionId="jntr" professionLevel="6">
+        <title>#grbgProQuest6Title</title>
+        <description>#grbgProQuest6Desc</description>
+        <rules>
+            <neededQuest id="grbgPro_q5" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="7" professionId="jntr"/>
+            <task type="createWorkSession" title="#createGarbageWorkSession" maxProgress="60" workId="garbage" period="86400"/>
+            <task type="collectLootItem" title="#collectPhial" maxProgress="35" typeId="phial"/>
+        </tasks>
+    </quest>
+    <quest id="grbgPro_q7" type="4" professionId="jntr" professionLevel="7">
+        <title>#grbgProQuest7Title</title>
+        <description>#grbgProQuest7Desc</description>
+
+        <rules>
+            <neededQuest id="grbgPro_q6" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="8" professionId="jntr"/>
+            <task type="doneWorkSession" title="#doneGarbageWorkSession" maxProgress="40" workId="garbage"/>
+            <task type="collectLootItem" title="#collectBigPhial" maxProgress="30" typeId="bigPhial"/>
+        </tasks>
+    </quest>
+    <quest id="grbgPro_q8" type="4" professionId="jntr" professionLevel="8">
+        <title>#grbgProQuest8Title</title>
+        <description>#grbgProQuest8Desc</description>
+        <rules>
+            <neededQuest id="grbgPro_q7" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="9" professionId="jntr"/>
+            <task type="pickGarbage" title="#pickGarbage" maxProgress="600"/>
+            <task type="collectLootItem" title="#collectBow" maxProgress="55" typeId="bow"/>
+        </tasks>
+    </quest>
+    <quest id="grbgPro_q9" type="4" professionId="jntr" professionLevel="9">
+        <title>#grbgProQuest9Title</title>
+        <description>#grbgProQuest9Desc</description>
+        <rules>
+            <neededQuest id="grbgPro_q8" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="10" professionId="jntr"/>
+            <task type="createWorkSession" title="#createGarbageWorkSession" maxProgress="120" workId="garbage" period="86400"/>
+            <task type="collectLootItem" title="#collectWrappingPaper" typeId="wrappingPaper" maxProgress="65"/>
+        </tasks>
+    </quest>
+    <quest id="grbgPro_q10" type="4" professionId="jntr" professionLevel="10">
+        <title>#grbgProQuest10Title</title>
+        <description>#grbgProQuest10Desc</description>
+        <rules>
+            <neededQuest id="grbgPro_q9" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="11" professionId="jntr"/>
+            <task type="doneWorkSession" title="#doneGarbageWorkSession" maxProgress="70" workId="garbage"/>
+            <task type="collectLootItem" title="#collectIron" typeId="peaceOfIron" maxProgress="120"/>
+        </tasks>
+    </quest>
+    <quest id="grbgPro_q11" type="4" professionId="jntr" professionLevel="11">
+        <title>#grbgProQuest11Title</title>
+        <description>#grbgProQuest11Desc</description>
+        <rules>
+            <neededQuest id="grbgPro_q10" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="12" professionId="jntr"/>
+            <task type="pickGarbage" title="#pickGarbage" maxProgress="800"/>
+            <task type="collectLootItem" title="#collectPhial" maxProgress="90" typeId="phial"/>
+        </tasks>
+    </quest>
+    <quest id="grbgPro_q12" type="4" professionId="jntr" professionLevel="12">
+        <title>#grbgProQuest12Title</title>
+        <description>#grbgProQuest12Desc</description>
+        <rules>
+            <neededQuest id="grbgPro_q11" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="13" professionId="jntr"/>
+            <task type="createWorkSession" title="#createGarbageWorkSession" maxProgress="200" workId="garbage" period="86400"/>
+            <task type="collectLootItem" title="#collectBigPhial" maxProgress="65" typeId="bigPhial"/>
+        </tasks>
+    </quest>
+    <quest id="grbgPro_q13" type="4" professionId="jntr" professionLevel="13">
+        <title>#grbgProQuest13Title</title>
+        <description>#grbgProQuest13Desc</description>
+        <rules>
+            <neededQuest id="grbgPro_q12" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="14" professionId="jntr"/>
+            <task type="doneWorkSession" title="#doneGarbageWorkSession" maxProgress="125" workId="garbage"/>
+            <task type="collectLootItem" title="#collectBow" maxProgress="140" typeId="bow"/>
+        </tasks>
+    </quest>
+    <quest id="grbgPro_q14" type="4" professionId="jntr" professionLevel="14">
+        <title>#grbgProQuest14Title</title>
+        <description>#grbgProQuest14Desc</description>
+        <rules>
+            <neededQuest id="grbgPro_q13" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="15" professionId="jntr"/>
+            <task type="pickGarbage" title="#pickGarbage" maxProgress="1000"/>
+            <task type="collectLootItem" title="#collectWrappingPaper" typeId="wrappingPaper" maxProgress="160"/>
+        </tasks>
+    </quest>
+    <quest id="grbgPro_q15" type="4" professionId="jntr" professionLevel="15">
+        <title>#grbgProQuest15Title</title>
+        <description>#grbgProQuest15Desc</description>
+        <rules>
+            <neededQuest id="grbgPro_q14" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="16" professionId="jntr"/>
+            <task type="createWorkSession" title="#createGarbageWorkSession" maxProgress="300" workId="garbage" period="86400"/>
+            <task type="collectLootItem" title="#collectIron" typeId="peaceOfIron" maxProgress="265"/>
+        </tasks>
+    </quest>
+    <quest id="grbgPro_q16" type="4" professionId="jntr" professionLevel="16">
+        <title>#grbgProQuest16Title</title>
+        <description>#grbgProQuest16Desc</description>
+        <rules>
+            <neededQuest id="grbgPro_q15" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="17" professionId="jntr"/>
+            <task type="doneWorkSession" title="#doneGarbageWorkSession" maxProgress="130" workId="garbage"/>
+            <task type="collectLootItem" title="#collectPhial" maxProgress="95" typeId="phial"/>
+        </tasks>
+    </quest>
+    <quest id="grbgPro_q17" type="4" professionId="jntr" professionLevel="17">
+        <title>#grbgProQuest17Title</title>
+        <description>#grbgProQuest17Desc</description>
+        <rules>
+            <neededQuest id="grbgPro_q16" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="18" professionId="jntr"/>
+            <task type="pickGarbage" title="#pickGarbage" maxProgress="1000"/>
+            <task type="collectLootItem" title="#collectBigPhial" maxProgress="70" typeId="bigPhial"/>
+        </tasks>
+    </quest>
+    <quest id="grbgPro_q18" type="4" professionId="jntr" professionLevel="18">
+        <title>#grbgProQuest18Title</title>
+        <description>#grbgProQuest18Desc</description>
+        <rules>
+            <neededQuest id="grbgPro_q17" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="19" professionId="jntr"/>
+            <task type="createWorkSession" title="#createGarbageWorkSession" maxProgress="310" workId="garbage" period="86400"/>
+            <task type="collectLootItem" title="#collectBow" maxProgress="145" typeId="bow"/>
+        </tasks>
+    </quest>
+    <quest id="grbgPro_q19" type="4" professionId="jntr" professionLevel="19">
+        <title>#grbgProQuest19Title</title>
+        <description>#grbgProQuest19Desc</description>
+        <rules>
+            <neededQuest id="grbgPro_q18" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="20" professionId="jntr"/>
+            <task type="doneWorkSession" title="#doneGarbageWorkSession" maxProgress="135" workId="garbage"/>
+            <task type="collectLootItem" title="#collectWrappingPaper" typeId="wrappingPaper" maxProgress="165"/>
+        </tasks>
+    </quest>
+    <quest id="grbgPro_q20" type="4" professionId="jntr" professionLevel="20">
+        <title>#grbgProQuest20Title</title>
+        <description>#grbgProQuest20Desc</description>
+        <rules>
+            <neededQuest id="grbgPro_q19" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="21" professionId="jntr"/>
+            <task type="pickGarbage" title="#pickGarbage" maxProgress="1000"/>
+            <task type="collectLootItem" title="#collectIron" typeId="peaceOfIron" maxProgress="280"/>
+        </tasks>
+    </quest>
+
+    <!-- VISAGIST -->
+
+    <quest id="vsgstPro_q1" type="4" professionId="vsgst" professionLevel="1">
+        <title>#vsgstProQuest1Title</title>
+        <description>#vsgstProQuest1Desc</description>
+        <comment>#cgdwsComment</comment>
+        <rules>
+            <playerLevel min="2" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="2" professionId="vsgst"/>
+            <task type="visagistMakeForFriend" title="#vsgstPro_q1_t1" maxProgress="2" friendsMinStatus="20" useVisageCount="1" mustBeApproved="false" />
+            <task type="visagistMakeWithCategory" title="#vsgstPro_q1_t2" maxProgress="2" categoryId="10" mustBeApproved="true" />
+            <!-- <task type="visagistMake" title="#makeVisage1" maxProgress="5" useVisageCount="2" mustBeApproved="false" />
+            <task type="visagistMakeForVIP" title="#makeVisage2" maxProgress="5" useVisageCount="2" mustBeApproved="false" />
+            <task type="visagistMakeForFriend" title="#makeVisage3" maxProgress="5" friendsMinStatus="20" useVisageCount="1" mustBeApproved="false" />
+            <task type="visagistMakeWithCategory" title="#makeVisage4" maxProgress="5" categoryId="10" mustBeApproved="false" /> -->
+        </tasks>
+    </quest>
+    <quest id="vsgstPro_q2" type="4" professionId="vsgst" professionLevel="2">
+        <title>#vsgstProQuest2Title</title>
+        <description>#vsgstProQuest2Desc</description>
+        <rules>
+            <neededQuest id="vsgstPro_q1" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="3" professionId="vsgst"  />
+            <task type="craftItem" title="#craftSmallSet" maxProgress="1" craftId="vsgstSmallSet" />
+            <task type="visagistMake" title="#vsgstPro_q2_t2" maxProgress="5" useVisageCount="2" mustBeApproved="false" />
+        </tasks>
+    </quest>
+    <quest id="vsgstPro_q3" type="4" professionId="vsgst" professionLevel="3">
+        <title>#vsgstProQuest3Title</title>
+        <description>#vsgstProQuest3Desc</description>
+        <comment>#cgdwsComment</comment>
+        <rules>
+            <neededQuest id="vsgstPro_q2" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="4" professionId="vsgst"  />
+            <task type="visagistMakeForVIP" title="#vsgstPro_q3_t1" maxProgress="2" useVisageCount="1" mustBeApproved="false" />
+            <task type="visagistMakeWithCategory" title="#vsgstPro_q3_t2" maxProgress="5" categoryId="9" mustBeApproved="true" />
+        </tasks>
+    </quest>
+    <quest id="vsgstPro_q4" type="4" professionId="vsgst" professionLevel="4">
+        <title>#vsgstProQuest4Title</title>
+        <description>#vsgstProQuest4Desc</description>
+        <rules>
+            <neededQuest id="vsgstPro_q3" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="5" professionId="vsgst"  />
+            <task type="craftItem" title="#craftSmallSet" maxProgress="2" craftId="vsgstSmallSet" />
+            <task type="visagistMakeForFriend" title="#vsgstPro_q4_t2" maxProgress="5" friendsMinStatus="20" useVisageCount="1" mustBeApproved="true" />
+        </tasks>
+    </quest>
+    <quest id="vsgstPro_q5" type="4" professionId="vsgst" professionLevel="5">
+        <title>#vsgstProQuest5Title</title>
+        <description>#vsgstProQuest5Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="vsgstPro_q4" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="6" professionId="vsgst"  />
+            <task type="visagistMakeForVIP" title="#vsgstPro_q3_t1" maxProgress="2" useVisageCount="1" mustBeApproved="false" />
+            <task type="visagistMake" title="#vsgstPro_q2_t2" maxProgress="5" useVisageCount="2" mustBeApproved="true" />
+        </tasks>
+    </quest>
+    <quest id="vsgstPro_q6" type="4" professionId="vsgst" professionLevel="6">
+        <title>#vsgstProQuest6Title</title>
+        <description>#vsgstProQuest6Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="vsgstPro_q5" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="7" professionId="vsgst"  />
+            <task type="visagistMakeForFriend" title="#vsgstPro_q4_t2" maxProgress="7" friendsMinStatus="20" useVisageCount="1" mustBeApproved="true" />
+            <task type="visagistMakeWithCategory" title="#vsgstPro_q6_t2" maxProgress="10" categoryId="8" mustBeApproved="false" />
+        </tasks>
+    </quest>
+    <quest id="vsgstPro_q7" type="4" professionId="vsgst" professionLevel="7">
+        <title>#vsgstProQuest7Title</title>
+        <description>#vsgstProQuest7Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="vsgstPro_q6" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="8" professionId="vsgst"  />
+            <task type="craftItem" title="#craftMediumSet" maxProgress="3" craftId="vsgstMediumSet" />
+            <task type="visagistMake" title="#vsgstPro_q2_t2" maxProgress="10" useVisageCount="2" mustBeApproved="false" />
+        </tasks>
+    </quest>
+    <quest id="vsgstPro_q8" type="4" professionId="vsgst" professionLevel="8">
+        <title>#vsgstProQuest8Title</title>
+        <description>#vsgstProQuest8Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="vsgstPro_q7" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="9" professionId="vsgst"  />
+            <task type="visagistMakeForVIP" title="#vsgstPro_q8_t1" maxProgress="7" useVisageCount="2" mustBeApproved="false" />
+            <task type="visagistMakeForFriend" title="#vsgstPro_q4_t2" maxProgress="10" friendsMinStatus="20" useVisageCount="1" mustBeApproved="true" />
+        </tasks>
+    </quest>
+    <quest id="vsgstPro_q9" type="4" professionId="vsgst" professionLevel="9">
+        <title>#vsgstProQuest9Title</title>
+        <description>#vsgstProQuest9Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="vsgstPro_q8" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="10" professionId="vsgst"  />
+            <task type="craftItem" title="#craftMediumSet" maxProgress="4" craftId="vsgstMediumSet" />
+            <task type="visagistMakeWithCategory" title="#vsgstPro_q9_t2" maxProgress="10" categoryId="6" mustBeApproved="false" />
+        </tasks>
+    </quest>
+    <quest id="vsgstPro_q10" type="4" professionId="vsgst" professionLevel="10">
+        <title>#vsgstProQuest10Title</title>
+        <description>#vsgstProQuest10Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="vsgstPro_q9" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="11" professionId="vsgst"  />
+            <task type="visagistMakeForFriend" title="#vsgstPro_q10_t1" maxProgress="12" friendsMinStatus="40" useVisageCount="1" mustBeApproved="true" />
+            <task type="visagistMake" title="#vsgstPro_q10_t2" maxProgress="12" useVisageCount="3" mustBeApproved="false" />
+        </tasks>
+    </quest>
+    <quest id="vsgstPro_q11" type="4" professionId="vsgst" professionLevel="11">
+        <title>#vsgstProQuest11Title</title>
+        <description>#vsgstProQuest11Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="vsgstPro_q10" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="12" professionId="vsgst"  />
+            <task type="visagistMakeForVIP" title="#vsgstPro_q8_t1" maxProgress="15" useVisageCount="2" mustBeApproved="false" />
+            <task type="visagistMakeWithCategory" title="#vsgstPro_q11_t2" maxProgress="15" categoryId="10" mustBeApproved="true" />
+        </tasks>
+    </quest>
+    <quest id="vsgstPro_q12" type="4" professionId="vsgst" professionLevel="12">
+        <title>#vsgstProQuest12Title</title>
+        <description>#vsgstProQuest12Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="vsgstPro_q11" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="13" professionId="vsgst"  />
+            <task type="craftItem" title="#craftLargeSet" maxProgress="5" craftId="vsgstLargeSet" />
+            <task type="visagistMake" title="#vsgstPro_q10_t2" maxProgress="15" useVisageCount="3" mustBeApproved="false" />
+        </tasks>
+    </quest>
+    <quest id="vsgstPro_q13" type="4" professionId="vsgst" professionLevel="13">
+        <title>#vsgstProQuest13Title</title>
+        <description>#vsgstProQuest13Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="vsgstPro_q12" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="14" professionId="vsgst"  />
+            <task type="visagistMakeForVIP" title="#vsgstPro_q8_t1" maxProgress="15" useVisageCount="2" mustBeApproved="false" />
+            <task type="visagistMakeForFriend" title="#vsgstPro_q10_t1" maxProgress="25" friendsMinStatus="40" useVisageCount="1" mustBeApproved="true" />
+        </tasks>
+    </quest>
+    <quest id="vsgstPro_q14" type="4" professionId="vsgst" professionLevel="14">
+        <title>#vsgstProQuest14Title</title>
+        <description>#vsgstProQuest14Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="vsgstPro_q13" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="15" professionId="vsgst"  />
+            <task type="craftItem" title="#craftLargeSet" maxProgress="6" craftId="vsgstLargeSet" />
+            <task type="visagistMakeWithCategory" title="#vsgstPro_q3_t2" maxProgress="20" categoryId="9" mustBeApproved="true" />
+        </tasks>
+    </quest>
+    <quest id="vsgstPro_q15" type="4" professionId="vsgst" professionLevel="15">
+        <title>#vsgstProQuest15Title</title>
+        <description>#vsgstProQuest15Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="vsgstPro_q14" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="16" professionId="vsgst"  />
+            <task type="visagistMakeForVIP" title="#vsgstPro_q8_t1" maxProgress="20" useVisageCount="2" mustBeApproved="false" />
+            <task type="visagistMake" title="#vsgstPro_q10_t2" maxProgress="20" useVisageCount="3" mustBeApproved="true" />
+        </tasks>
+    </quest>
+    <quest id="vsgstPro_q16" type="4" professionId="vsgst" professionLevel="16">
+        <title>#vsgstProQuest16Title</title>
+        <description>#vsgstProQuest16Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="vsgstPro_q15" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="17" professionId="vsgst"  />
+            <task type="craftItem" title="#craftLargeSet" maxProgress="7" craftId="vsgstLargeSet" />
+            <task type="visagistMakeForFriend" title="#vsgstPro_q10_t1" maxProgress="30" friendsMinStatus="40" useVisageCount="1" mustBeApproved="true" />
+        </tasks>
+    </quest>
+    <quest id="vsgstPro_q17" type="4" professionId="vsgst" professionLevel="17">
+        <title>#vsgstProQuest17Title</title>
+        <description>#vsgstProQuest17Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="vsgstPro_q16" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="18" professionId="vsgst"  />
+            <task type="visagistMakeForVIP" title="#vsgstPro_q8_t1" maxProgress="25" useVisageCount="2" mustBeApproved="false" />
+            <task type="visagistMakeWithCategory" title="#vsgstPro_q6_t2" maxProgress="25" categoryId="8" mustBeApproved="true" />
+        </tasks>
+    </quest>
+    <quest id="vsgstPro_q18" type="4" professionId="vsgst" professionLevel="18">
+        <title>#vsgstProQuest18Title</title>
+        <description>#vsgstProQuest18Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="vsgstPro_q17" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="19" professionId="vsgst"  />
+            <task type="craftItem" title="#craftLargeSet" maxProgress="8" craftId="vsgstLargeSet" />
+            <task type="visagistMake" title="#vsgstPro_q10_t2" maxProgress="25" useVisageCount="3" mustBeApproved="true" />
+        </tasks>
+    </quest>
+    <quest id="vsgstPro_q19" type="4" professionId="vsgst" professionLevel="19">
+        <title>#vsgstProQuest19Title</title>
+        <description>#vsgstProQuest19Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="vsgstPro_q18" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="20" professionId="vsgst"  />
+            <task type="visagistMakeForVIP" title="#vsgstPro_q8_t1" maxProgress="30" useVisageCount="2" mustBeApproved="false" />
+            <task type="visagistMakeForFriend" title="#vsgstPro_q10_t1" maxProgress="35" friendsMinStatus="40" useVisageCount="1" mustBeApproved="true" />
+        </tasks>
+    </quest>
+    <quest id="vsgstPro_q20" type="4" professionId="vsgst" professionLevel="20">
+        <title>#vsgstProQuest20Title</title>
+        <description>#vsgstProQuest20Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="vsgstPro_q19" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="21" professionId="vsgst"  />
+            <task type="craftItem" title="#craftLargeSet" maxProgress="9" craftId="vsgstLargeSet" />
+            <task type="visagistMakeWithCategory" title="#vsgstPro_q9_t2" maxProgress="30" categoryId="6" mustBeApproved="true" />
+        </tasks>
+    </quest>
+
+    <!-- PHOTOGRAPHER -->
+
+    <quest id="phtghrPro_q1" type="4" professionId="phtghr" professionLevel="1">
+        <title>#phtghrProQuest1Title</title>
+        <description>#phtghrProQuest1Desc</description>
+        <comment>#cgdwsComment</comment>
+        <rules>
+            <playerLevel min="2" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="2" professionId="phtghr" />
+            <task type="photographerPhotoByTheme" title="#phtghrPro_q1_t1" maxProgress="5" themeId="thm7" mustBeApproved="true" />
+            <task type="photographerPhotoByPoses" title="#phtghrPro_q1_t2" maxProgress="10" minPoseCount="2" mustBeApproved="false" />
+            <!--
+                        <task type="photographerPhotoByTheme" title="#makePhoto1" maxProgress="5" themeId="" mustBeApproved="true" />
+                        <task type="photographerPhotoByTheme" title="#makePhoto2" maxProgress="5" themeId="thm7" mustBeApproved="false" />
+                        <task type="photographerPhotoByUsers" title="#makePhoto3" maxProgress="5" minUserCount="2" themeId="" mustBeApproved="false" />
+                        <task type="photographerPhotoByPoses" title="#makePhoto4" maxProgress="5" minPoseCount="3" themeId="" mustBeApproved="false" />
+                        <task type="photographerPhotoByDecor" title="#makePhoto5" maxProgress="5" requiredDecor="thm7itm8" themeId="thm7" mustBeApproved="false" />
+                        <task type="photographerPhotoByDecorCount" title="#makePhoto6" maxProgress="5" minDecorCount="6" themeId="" mustBeApproved="false" />
+                        <task type="photographerPhotoByVIPUsers" title="#makePhoto7" maxProgress="5" minVIPCount="2" themeId="" mustBeApproved="false" />
+                        <task type="photographerPhotoByFriends" title="#makePhoto8" maxProgress="5" minFriendsCount="2" friendsMinStatus="20" themeId="" mustBeApproved="false" />
+            -->
+        </tasks>
+    </quest>
+    <quest id="phtghrPro_q2" type="4" professionId="phtghr" professionLevel="2">
+        <title>#phtghrProQuest2Title</title>
+        <description>#phtghrProQuest2Desc</description>
+        <rules>
+            <neededQuest id="phtghrPro_q1" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="3" professionId="phtghr" />
+            <task type="photographerPhotoByFriends" title="#phtghrPro_q2_t1" maxProgress="10" minFriendsCount="2" friendsMinStatus="20" mustBeApproved="true" />
+            <task type="craftItem" title="#craftFilm12" maxProgress="2" craftId="phtghrFilm12" />
+        </tasks>
+    </quest>
+    <quest id="phtghrPro_q3" type="4" professionId="phtghr" professionLevel="3">
+        <title>#phtghrProQuest3Title</title>
+        <description>#phtghrProQuest3Desc</description>
+        <comment>#cgdwsComment</comment>
+        <rules>
+            <neededQuest id="phtghrPro_q2" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="4" professionId="phtghr" />
+            <task type="photographerPhotoByPoses" title="#phtghrPro_q3_t1" maxProgress="7" minPoseCount="2" mustBeApproved="true" />
+            <task type="photographerPhotoByDecorCount" title="#phtghrPro_q3_t2" maxProgress="5" minDecorCount="5" mustBeApproved="false" />
+        </tasks>
+    </quest>
+    <quest id="phtghrPro_q4" type="4" professionId="phtghr" professionLevel="4">
+        <title>#phtghrProQuest4Title</title>
+        <description>#phtghrProQuest4Desc</description>
+        <rules>
+            <neededQuest id="phtghrPro_q3" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="5" professionId="phtghr" />
+            <task type="photographerPhotoByUsers" title="#phtghrPro_q4_t1" maxProgress="5" minUserCount="5" themeId="" mustBeApproved="false" />
+            <task type="photographerPhotoByTheme" title="#phtghrPro_q4_t2" maxProgress="5" themeId="thm8" mustBeApproved="true" />
+        </tasks>
+    </quest>
+    <quest id="phtghrPro_q5" type="4" professionId="phtghr" professionLevel="5">
+        <title>#phtghrProQuest5Title</title>
+        <description>#phtghrProQuest5Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="phtghrPro_q4" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="6" professionId="phtghr" />
+            <task type="photographerPhotoByVIPUsers" title="#phtghrPro_q5_t1" maxProgress="10" minVIPCount="1" mustBeApproved="false" />
+            <task type="craftItem" title="#craftFilm12" maxProgress="3" craftId="phtghrFilm12" />
+        </tasks>
+    </quest>
+
+    <quest id="phtghrPro_q6" type="4" professionId="phtghr" professionLevel="6">
+        <title>#phtghrProQuest6Title</title>
+        <description>#phtghrProQuest6Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="phtghrPro_q5" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="7" professionId="phtghr" />
+            <task type="photographerPhotoByDecorCount" title="#phtghrPro_q6_t1" maxProgress="15" minDecorCount="5" mustBeApproved="true" />
+            <task type="photographerPhotoByPoses" title="#phtghrPro_q6_t2" maxProgress="15" minPoseCount="3" mustBeApproved="false" />
+        </tasks>
+    </quest>
+    <quest id="phtghrPro_q7" type="4" professionId="phtghr" professionLevel="7">
+        <title>#phtghrProQuest7Title</title>
+        <description>#phtghrProQuest7Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="phtghrPro_q6" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="8" professionId="phtghr" />
+            <task type="photographerPhotoByFriends" title="#phtghrPro_q7_t1" maxProgress="15" minFriendsCount="2" friendsMinStatus="40" mustBeApproved="true" />
+            <task type="craftItem" title="#craftFilm24" maxProgress="1" craftId="phtghrFilm24" />
+        </tasks>
+    </quest>
+    <quest id="phtghrPro_q8" type="4" professionId="phtghr" professionLevel="8">
+        <title>#phtghrProQuest8Title</title>
+        <description>#phtghrProQuest8Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="phtghrPro_q7" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="9" professionId="phtghr" />
+            <task type="photographerPhotoByPoses" title="#phtghrPro_q8_t1" maxProgress="15" minPoseCount="3" mustBeApproved="false" />
+            <task type="photographerPhotoByTheme" title="#phtghrPro_q8_t2" maxProgress="15" themeId="thmPhtgr4" mustBeApproved="true" />
+        </tasks>
+    </quest>
+    <quest id="phtghrPro_q9" type="4" professionId="phtghr" professionLevel="9">
+        <title>#phtghrProQuest9Title</title>
+        <description>#phtghrProQuest9Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="phtghrPro_q8" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="10" professionId="phtghr" />
+            <task type="photographerPhotoByTheme" title="#phtghrPro_q9_t1" maxProgress="20" themeId="thm9" mustBeApproved="false" />
+            <task type="craftItem" title="#craftFilm24" maxProgress="2" craftId="phtghrFilm24" />
+        </tasks>
+    </quest>
+    <quest id="phtghrPro_q10" type="4" professionId="phtghr" professionLevel="10">
+        <title>#phtghrProQuest10Title</title>
+        <description>#phtghrProQuest10Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="phtghrPro_q9" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="11" professionId="phtghr" />
+            <task type="photographerPhotoByVIPUsers" title="#phtghrPro_q10_t1" maxProgress="10" minVIPCount="2" mustBeApproved="true" />
+            <task type="photographerPhotoByDecorCount" title="#phtghrPro_q10_t2" maxProgress="15" minDecorCount="5" mustBeApproved="false" />
+        </tasks>
+    </quest>
+    <quest id="phtghrPro_q11" type="4" professionId="phtghr" professionLevel="11">
+        <title>#phtghrProQuest11Title</title>
+        <description>#phtghrProQuest11Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="phtghrPro_q10" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="12" professionId="phtghr" />
+            <task type="photographerPhotoByDecor" title="#phtghrPro_q11_t1" maxProgress="30" requiredDecor="thm4itm9" themeId="thm4" mustBeApproved="true" />
+            <task type="craftItem" title="#craftFilm36" maxProgress="2" craftId="phtghrFilm36" />
+        </tasks>
+    </quest>
+    <quest id="phtghrPro_q12" type="4" professionId="phtghr" professionLevel="12">
+        <title>#phtghrProQuest12Title</title>
+        <description>#phtghrProQuest12Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="phtghrPro_q11" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="13" professionId="phtghr" />
+            <task type="photographerPhotoByVIPUsers" title="#phtghrPro_q12_t1" maxProgress="20" minVIPCount="2" mustBeApproved="false" />
+            <task type="photographerPhotoByTheme" title="#phtghrPro_q12_t2" maxProgress="30" themeId="thmPhtgr3" mustBeApproved="true" />
+        </tasks>
+    </quest>
+    <quest id="phtghrPro_q13" type="4" professionId="phtghr" professionLevel="13">
+        <title>#phtghrProQuest13Title</title>
+        <description>#phtghrProQuest13Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="phtghrPro_q12" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="14" professionId="phtghr" />
+            <task type="photographerPhotoByPoses" title="#phtghrPro_q13_t1" maxProgress="35" minPoseCount="4" themeId="" mustBeApproved="true" />
+            <task type="photographerPhotoByUsers" title="#phtghrPro_q13_t2" maxProgress="45" minUserCount="3" themeId="" mustBeApproved="false" />
+        </tasks>
+    </quest>
+    <quest id="phtghrPro_q14" type="4" professionId="phtghr" professionLevel="14">
+        <title>#phtghrProQuest14Title</title>
+        <description>#phtghrProQuest14Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="phtghrPro_q13" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="15" professionId="phtghr" />
+            <task type="photographerPhotoByFriends" title="#phtghrPro_q14_t1" maxProgress="50" minFriendsCount="3" friendsMinStatus="40" themeId="" mustBeApproved="true" />
+            <task type="photographerPhotoByTheme" title="#phtghrPro_q14_t2" maxProgress="50" themeId="thmPhtgr2" mustBeApproved="false" />
+        </tasks>
+    </quest>
+    <quest id="phtghrPro_q15" type="4" professionId="phtghr" professionLevel="15">
+        <title>#phtghrProQuest15Title</title>
+        <description>#phtghrProQuest15Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="phtghrPro_q14" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="16" professionId="phtghr" />
+            <task type="photographerPhotoByVIPUsers" title="#phtghrPro_q15_t1" maxProgress="60" minVIPCount="2" themeId="" mustBeApproved="false" />
+            <task type="photographerPhotoByTheme" title="#phtghrPro_q15_t2" maxProgress="60" themeId="thmPhtgr5" mustBeApproved="true" />
+        </tasks>
+    </quest>
+    <quest id="phtghrPro_q16" type="4" professionId="phtghr" professionLevel="16">
+        <title>#phtghrProQuest16Title</title>
+        <description>#phtghrProQuest16Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="phtghrPro_q15" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="17" professionId="phtghr" />
+            <task type="photographerPhotoByTheme" title="#phtghrPro_q16_t1" maxProgress="60" themeId="thm6" mustBeApproved="true" />
+            <task type="craftItem" title="#craftFilm36" maxProgress="4" craftId="phtghrFilm36" />
+        </tasks>
+    </quest>
+    <quest id="phtghrPro_q17" type="4" professionId="phtghr" professionLevel="17">
+        <title>#phtghrProQuest17Title</title>
+        <description>#phtghrProQuest17Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="phtghrPro_q16" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="18" professionId="phtghr" />
+            <task type="photographerPhotoByPoses" title="#phtghrPro_q17_t1" maxProgress="50" minPoseCount="4" themeId="" mustBeApproved="false" />
+            <task type="photographerPhotoByVIPUsers" title="#phtghrPro_q15_t1" maxProgress="70" minVIPCount="2" themeId="" mustBeApproved="false" />
+        </tasks>
+    </quest>
+    <quest id="phtghrPro_q18" type="4" professionId="phtghr" professionLevel="18">
+        <title>#phtghrProQuest18Title</title>
+        <description>#phtghrProQuest18Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="phtghrPro_q17" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="19" professionId="phtghr" />
+            <task type="photographerPhotoByFriends" title="#phtghrPro_q14_t1" maxProgress="55" minFriendsCount="3" friendsMinStatus="40" themeId="" mustBeApproved="false" />
+            <task type="photographerPhotoByTheme" title="#phtghrPro_q18_t2" maxProgress="60" themeId="thm10" mustBeApproved="true" />
+        </tasks>
+    </quest>
+    <quest id="phtghrPro_q19" type="4" professionId="phtghr" professionLevel="19">
+        <title>#phtghrProQuest19Title</title>
+        <description>#phtghrProQuest19Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="phtghrPro_q18" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="20" professionId="phtghr" />
+            <task type="photographerPhotoByDecorCount" title="#phtghrPro_q10_t2" maxProgress="35" minDecorCount="5" themeId="" mustBeApproved="false" />
+            <task type="photographerPhotoByPoses" title="#phtghrPro_q13_t1" maxProgress="55" minPoseCount="4" themeId="" mustBeApproved="true" />
+        </tasks>
+    </quest>
+    <quest id="phtghrPro_q20" type="4" professionId="phtghr" professionLevel="20">
+        <title>#phtghrProQuest20Title</title>
+        <description>#phtghrProQuest20Desc</description>
+        <comment>#gdwsComment</comment>
+        <rules>
+            <neededQuest id="phtghrPro_q19" />
+        </rules>
+        <tasks>
+            <task type="professionLevel" title="#professionLevelTaskTitle" maxProgress="21" professionId="phtghr" />
+            <task type="photographerPhotoByVIPUsers" title="#phtghrPro_q15_t1" maxProgress="75" minVIPCount="2" themeId="" mustBeApproved="false" />
+            <task type="craftItem" title="#craftFilm36" maxProgress="5" craftId="phtghrFilm36" />
+        </tasks>
+    </quest>
+    <!-- END OF LOCATION QUESTS -->
+
+</config>

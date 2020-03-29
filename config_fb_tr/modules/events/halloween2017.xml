@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module id="halloween2017" craftArrowCount="5">
+    <awards>
+        <award id="1" itemType="resource" itemId="gold" icon="QuestGoldCoinIcon@ui" title="#goldLabel" count="250"
+               receiveIcon="GoldAward@halloween2017"/>
+
+        <award id="2" itemType="clothesSet" itemId="boyHlwnVmpSet" gender="1"
+               receiveIcon="BoyVampireSet@halloween2017"/>
+
+        <award id="3" itemType="clothesSet" itemId="girlHlwnVmpSet" gender="2"
+               receiveIcon="GirlVampireSet@halloween2017"/>
+    </awards>
+
+    <workSessions>
+        <workSession type="garbage" werewolfPerSession="2" actionsMaxCount="18"/>
+        <workSession type="garden" werewolfPerSession="2" actionsMaxCount="26"/>
+    </workSessions>
+
+    <animations>
+        <animation name="WerewolfWalk">
+            <sequence name="start" start="1" length="4" loop="false"/>
+            <sequence name="walking" start="5" length="12" loop="loop"/>
+            <sequence name="finish" start="18" length="5" loop="false"/>
+        </animation>
+        <animation name="WerwolfStand">
+            <sequence name="stand" start="1" length="1" loop="true"/>
+        </animation>
+        <animation name="WerewolfDamage1">
+            <sequence name="damage" start="1" length="45" loop="false"/>
+        </animation>
+        <animation name="WerewolfDamage2">
+            <sequence name="damage" start="1" length="45" loop="false"/>
+        </animation>
+        <animation name="ShootCrossbow">
+            <sequence name="shoot" start="1" length="80" loop="false"/>
+        </animation>
+    </animations>
+
+    <locationSound>
+        <sound id="Piano1" library="sounds"/>
+        <sound id="Piano2" library="sounds"/>
+        <sound id="Piano3" library="sounds"/>
+        <sound id="Piano4" library="sounds"/>
+        <sound id="Piano5" library="sounds"/>
+    </locationSound>
+    <locations>
+        <location id="halloweenBallroom" zoneId="street" loadingContent="halloween2017, ballroom" defaultRoomId="hw1">
+            <rooms>
+                <room id="hw1" map="modules/map/halloween2017_ballroom_map" userCount="15" criticalUserCount="20"
+                      backgroundSound="Piano1,Piano2,Piano3,Piano4,Piano5" dresscode="outside"/>
+            </rooms>
+        </location>
+        <location id="club" zoneId="street" loadingContent="club,vip" defaultRoomId="cl1">
+            <rooms>
+                <room id="cl1" map="modules/map/club_halloween_1_map" userCount="15" criticalUserCount="30"  backgroundSound="club1" minLevel="4" dresscode="outside" />
+                <room id="cl1e" map="modules/map/club_halloween_1_map" userCount="30" criticalUserCount="48"  backgroundSound="club1" minLevel="4" dresscode="outside" />
+
+                <room id="v1" map="vip_1_map" userCount="15" criticalUserCount="30"  backgroundSound="vip1" vip="1" dresscode="outside" />
+                <room id="v1e" map="vip_1_map" userCount="30" criticalUserCount="48"  backgroundSound="vip1" vip="1" dresscode="outside" />
+            </rooms>
+        </location>
+    </locations>
+
+    <inventory>
+        <category id="game">
+            <item id="hw17Arrow" label="#hw17ArrowLabel" description="#hw17ArrowDescription"
+                  name="hw17Arrow@halloween2017" icon="SilverArrowIcon@halloween2017" canBuy="0"/>
+
+            <item id="nw17ToothNecklace" label="#nw17ToothNecklaceLabel" description="#nw17ToothNecklaceDescription"
+                  name="nw17ToothNecklace@halloween2017" icon="NecklaceIcon@halloween2017" canBuy="0"/>
+        </category>
+
+        <category id="craftLoot">
+            <item id="hw17SilverDust" description="#hw17SilverDustDescription" probability="1" gold="100"
+                  name="SilverDust@halloween2017" icon="SilverDustIcon@halloween2017" label="#hw17SilverDustLabel"/>
+
+            <item id="hw17Tooth" description="#hw17ToothDescription" probability="0.3" gold="500"
+                  name="Tooth@halloween2017" icon="ToothIcon@halloween2017" label="#hw17ToothLabel"/>
+        </category>
+    </inventory>
+
+    <craft>
+        <craftedItem title="#hw17CrsbwTitle" itemId="boyHw17Crsbw" holiday="" gender="boy">
+            <component itemId="peaceOfIron" count="99"/>
+            <component itemId="luck" count="42"/>
+            <component itemId="screw" count="25"/>
+            <component itemId="hatred" count="99"/>
+        </craftedItem>
+
+        <craftedItem title="#hw17CrsbwTitle" itemId="girlHw17Crsbw" holiday="" gender="girl">
+            <component itemId="peaceOfIron" count="99"/>
+            <component itemId="luck" count="42"/>
+            <component itemId="screw" count="25"/>
+            <component itemId="hatred" count="99"/>
+        </craftedItem>
+
+        <craftedItem title="#hw17ArrowTitle" itemId="hw17Arrow" holiday="">
+            <component itemId="grindstone" count="1"/>
+            <component itemId="peaceOfWood" count="5"/>
+            <component itemId="thread" count="1"/>
+            <moduleComponent itemId="hw17SilverDust" count="5"/>
+        </craftedItem>
+
+        <craftedItem title="#nw17ToothNecklaceTitle" itemId="nw17ToothNecklace" holiday="">
+            <component itemId="thread" count="1"/>
+            <component itemId="jarOfPaint" count="25"/>
+            <component itemId="diligence" count="33"/>
+            <moduleComponent itemId="hw17Tooth" count="80"/>
+        </craftedItem>
+    </craft>
+
+    <exchange>
+        <exchangeAward awardId="1" itemId="hw17Gft1" tooth="15" icon="AwardIcon1@halloween2017"
+                      label="#halloweenGift1Label"  itemType="game"/>
+        <exchangeAward awardId="2" itemId="hw17Gft2" tooth="30" icon="AwardIcon2@halloween2017"
+                      label="#halloweenGift2Label"  itemType="game"/>
+        <exchangeAward awardId="3" itemId="hw17Gft3" tooth="60" icon="AwardIcon3@halloween2017"
+                      label="#halloweenGift3Label"  itemType="game"/>
+    </exchange>
+
+    <skinSet>
+        <color name="0" value="0xFFFFFF"/>
+        <color name="1" value="0xC1C1C1"/>
+        <color name="2" value="0xFFFFFF"/>
+        <color name="3" value="0xF1F0F0"/>
+        <color name="4" value="0xC1C1C1"/>
+        <color name="5" value="0x898989"/>
+    </skinSet>
+</module>

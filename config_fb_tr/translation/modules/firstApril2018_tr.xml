@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+        <message key="fa18MaskLabel">Komik Maske</message>
+        <message key="fa18PlateLabel">Komik Tabela</message>
+        <message key="fa18InfoDialogTitle">1 Nisan Şakası!</message>
+        <message key="fa18InfoDialogDescription">Biraz eğlenmenin sırası geldi! Komik maskeler ve tabelalar üret, arkadaşlarına çok komik şakalar yap ve eşsiz hediyeleri topla. Tam olarak iki haftan var, hâlâ şansın varken eğlencenin tadına var!</message>
+        <message key="fa18TrophyHint">Joker Unvanı</message>
+        <message key="fa18SelectTrickDialogTitle">Arkadaşına bir eşek şakası yap!</message>
+        <message key="fa18SelectTrickDialogDescription">Arkadaşının yüzüne zorla maske mi takacaksın, yoksa sırtlarına komik bir tabela mı yapıştıracaksın? Sana kalmış!</message>
+        <message key="fa18ProgressDialogDescription">Maskeler ve tabelalar üret, arkadaşlarına eğlenceli şakalar yap, gülücük topla, topladığın gülücükleri eşsiz hediyeler ile takas et.</message>
+        <message key="fa18SetHint">Gülücük Kıyafeti</message>
+        <message key="f18AwardDialogDescription">Etkinliği tamamladığın için işte ödülün. Haberi arkadaşların ile paylaşmayı unutma!</message>
+        <message key="fa18WallGetAwardMessage">Etkinliği tamamladığım için harika bir ödül aldım! Sen de ister misin? O zaman gel de oyunda bana katıl! :link:</message>
+        <message key="fa18NpcName">Innocentius</message>
+        <message key="fa18NpcMessage1">Hey, Innocentius ile havalı bir fotoğrafa ne dersin? Çok havalı adam ya!</message>
+        <message key="fa18NpcMessage2">Hepiniz gübre kafalısınız!</message>
+        <message key="fa18NpcMessage3">Daha kız arkadaşın yok mu? Şaka mı bu? Innocentius’a tatlı bir piliç tavlamasını söyle!</message>
+        <message key="fa18NpcMessage4">Acele edip şu fotoğrafı çeker misin artık? Berbere gitmem gerek!</message>
+        <message key="fa18NpcMessage5">Neden beni daha önce kimse fark etmedi ki?</message>
+        <message key="fa18NpcMessage6">Hey, Innocentius ile harika bir fotoğrafa ne dersin? Çok havalı adam ya!</message>
+        <message key="fa18NpcMessage7">Neden daha da yaklaşmıyorsun? Korkma, ısırmam! Muhtemelen... ;)</message>
+        <message key="fa18NpcMessage8">Hey, daha benimle fotoğraf çektirmedin mi? Bu korkunç!</message>
+        <message key="fa18BuyPhotoDescription">Innocentius ile muhteşem bir fotoğrafa ne dersin?</message>
+        <message key="fa18BuyPhotoButtonTitle">:count: İçin bir fotoğraf çek.</message>
+        <message key="fa18MakePhotoDialogDescription">İşte Innocentius ile fotoğrafın. Ne havalı adam! Harika değil mi? Arkadaşlarınla paylaş ya da sürücüne kaydet!</message>
+        <message key="fa18PublishPhotoDescription">#avataria #selfie #innocentius #:nick: Innocentius ile eşsiz bir fotoğraf çektirme şansını kaçırma! 4 Nisan’a kadar geçerli! :link:</message>
+        <message key="fa18ExchangeDialogTitle">Kaynaklar ile değiştir</message>
+        <message key="fa18ExchangeDialogDescription">Gülücük almaya ve karşılığında kullanışlı kaynaklar almaya devam et!</message>
+        <gender key="fa18NotificationDescription">
+            <form>:userName: sana bir eşek şakası yaptı! Ona nasıl karşılık vereceksin?</form>
+            <form>:userName: sana bir eşek şakası yaptı! Ona nasıl karşılık vereceksin?</form>
+        </gender>
+    </locale>
+</dictionary>

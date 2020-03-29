@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+        <message key="ab18ParticipationDialogTitle">Avataria'nın Doğum Günü!</message>
+        <message key="ab18ParticipationDialogDescription">Mini oyunları oynayarak, arkadaşlarına temizlikte yardım ederek ve Kulüp ve Kafedeki diğer oyunculara ikramda bulunarak gülücükler kazan! Etkinlik iki hafta boyunca sürecek, bitene kadar eğlencenin tadını çıkar!</message>
+        <message key="ab18ProgressDialogTitle">Doğum Günü!</message>
+        <message key="ab18OpenForPriceButtonLabel">:price: Karşılığı aç</message>
+        <message key="ab18ProgressDialogDescription">Mini oyunları oynayarak, arkadaşlarına temizlikte yardım ederek ve Kulüp ve Kafedeki diğer oyunculara ikramda bulunarak gülücükler kazan!</message>
+        <message key="ab18FurnitureHint">Doğum Günü Mobilya Seti</message>
+        <message key="ab18StickerHint">Innocentius Çıkartmaları</message>
+        <gender key="ab18AwardDialogDescription">
+            <form>Etkinliğe katılmandan dolayı bu muhteşem hediyeyi kazandın. Arkadaşlarınla haberleri paylaş!</form>
+            <form>Etkinliğe katılmandan dolayı bu muhteşem hediyeyi kazandın. Arkadaşlarınla haberleri paylaş!</form>
+        </gender>
+        <gender key="ab18WallGetAwardMessage">
+            <form>Avataria’nın doğum günü etkinliğine katılmandan dolayı bu muhteşem hediyeyi kazandım. Sen de kazanmak ister misin? Benimle oyuna gel!</form>
+            <form>Avataria’nın doğum günü etkinliğine katılmandan dolayı bu muhteşem hediyeyi kazandım. Sen de kazanmak ister misin? Benimle oyuna gel!</form>
+        </gender>
+    </locale>
+</dictionary>

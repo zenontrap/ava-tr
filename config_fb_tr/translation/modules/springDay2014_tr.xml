@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+        
+		<message key="sd2014WelcomeDialogTitle">Güneşli Bahar Tatilleri</message>
+		<message key="sd2014WelcomeDialogMessage1">Komşularınızdan boş cam kapları alın ve farklı oyun için eylemleri tamamlayın. Ne kadar fazla komşunuz varsa ve ne kadar fazla görev tamamlarsanız, o kadar fazla cam kap kazanırsınız.</message>
+		<message key="sd2014WelcomeDialogMessage2">Boş cam kaplarını güneş ışığıyla doldurun. Size yardımcı olabilmek için Açık Alanlara güneş jeneratörleri yerleştirdik. Boş cam kaplarınızı güneş ışığıyla dolduracaktır!</message>
+		<message key="sd2014WelcomeDialogMessage3">Cam kapları güneş ışığıyla doldurup, fidanlarınızın bakımı için kullanarak BEDAVA Sera alanı kazanın. HER GÜN yararlı kaynaklar elde edin!</message>
+		
+		<message key="sd14GotoSD14RoomButtonHint"> Seraya git</message>
+		<message key="sd14CreateHouseRoomDialogTitle">Yeni Sera</message>
+		<message key="sd14CreateHouseRoomDialogMessage"> BEDAVA yeni Sera yeri almak istiyor musunuz? Bu kısa süreli özel bir fırsattır!</message>
+		<message key="sd14CreateHouseRoomDialogFriendMessage">Hala Serası olmayan arkadaşların mı var? Hadi onu oyuna çağralım. Ona oyunun ne kadar eğlenceli olduğunu söyleyelim!</message>
+		
+		<message key="sd2014ProgressDialogTitle">Benim Seram</message>
+		<message key="sd2014ProgressDialogMessage">Burada ağaçlarının ulaştığı büyüme evresini görebilirsin. Ne kadar büyük olursa, sana o akdar fazla kaynak sağlar. Ona iyi bak ki, sana her gün yardımı dokunsun.</message>
+		
+		<message key="youHaveLabel">para harca</message>
+		<message key="buyItems">:pieces: tane için :golds:</message>
+		
+		<message key="sd2014AwardDialogTitle">Tebrikler!</message>
+		<message key="sd2014AwardDialogMessage">Topladığın güneş ışıklarının sıcaklığıyla ağacın büyümeye devam ediyor. Hatta şimdi eskisinden daha da güzel oldu! Aynen böyle iyi bir şekilde devam edersen sana her gün yardımı dokunur.</message>
+		
+		<message key="sd2014AskEmptyFlacksDialogTitle">Yardıma ihtiyacım var!</message>
+		<message key="sd2014AskEmptyFlacksDialogMessage">Yeterli cam kabın mı yok? Güneş ışığıyla doldurabileceğin daha fazla cam kap kazanmak için arkadaşlarını oyunu oynamaya davet et.</message>
+		
+		<message key="sd2014WallMessage1">Arkadaşlarım, seramda büyümekte olan ağaca bir bakın! Bunun gibi bir tanesini, hatta daha da büyüğünü yetiştirmek isterseniz eğer, size seve seve yardımcı olurum!</message>
+		<message key="sd2014WallMessage2">Bana seramda yardımcı ol! Fidanımın büyüyebilmesi için bol güneş ışığına ihtiyacı var. Hadi oyunu oyna ve bir birimize yardımcı olalım!</message>
+		
+		<message key="sd14CantCollectEmptyFlacksLabel">:time: içinde daha fazlasını toplayabilir misin?</message>
+		<message key="sd14CollectEmptyFlacksDialogTitle">Cam kapları al</message>
+		<message key="sd14CollectEmptyFlacksDialogDescription">Ne kadar aktif komşularınız olursa her gün o kadar fazla cam kap kazanırsınız. Ayrıca oyunda farklı eylemler yaparak da cam kaplar edinmeniz mümkün.</message>
+		
+		<message key="sd14CollectRequestNotAllowedLabel">Bu arkadaşın uzun zamandır oyunu oynamadı.</message>
+		
+		<message key="sd2014NotEnoughEmptyFlacksDialogMessage">Yeterli boş cam kabınız yok. Cam kapları komşularından temin edebilir veya oyun içi bir takım eylemler yaparak kazanabilirsiniz. Hala yeterli cam kabınız yok mu?</message>
+		<message key="sd2014NotEnoughEmptyFlacksGotoStreetDialogMessage">Yeterli dolu cam kabınız yok. Açık alanlarda onları doldurabilirsiniz. Şimdi oraya gitmek istiyor musunuz?</message>
+        
+    </locale>
+</dictionary>

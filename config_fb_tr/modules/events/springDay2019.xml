@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="springDay2019" makePhotoFilmPrice="5">
+    <awards>
+        <award id="1" itemType="sticker" itemId="froggyStickerPack" maxProgress="2000"/>
+    </awards>
+
+    <resourcesConfig>
+        <coin workDropCount="1" neighbourDropCount="1" vipPresentRatio="300"/>
+    </resourcesConfig>
+
+    <inventory>
+        <category id="craftLoot">
+            <item id="sd19Coin" description="#sd19CoinDescription" probability="1" gold="100"
+                  name="Coin@springDay2019" icon="CoinCraftIcon@springDay2019" label="#sd19CoinTitle"/>
+        </category>
+    </inventory>
+
+    <friendHints>
+        <friendHint delay="3000" ttl="10000" message="#sd19FriendHelpMessage"/>
+    </friendHints>
+
+    <wishes count="3">
+        <furniture>
+            <item id="pnRmPn" price="660"/>
+            <item id="gamerTable" price="600"/>
+            <item id="gamerChair" price="550"/>
+            <item id="gymPngBag" price="800"/>
+            <item id="prtrMrt" price="530"/>
+            <item id="prtrChst" price="530"/>
+            <item id="shWldm" price="800"/>
+            <item id="shGlb" price="730"/>
+            <item id="shWdw" price="745"/>
+            <item id="intFlr1" price="750"/>
+            <item id="intFlr2" price="750"/>
+            <item id="poolBch" price="590"/>
+            <item id="wtrfll2" price="590"/>
+            <item id="wtrfll4" price="665"/>
+            <item id="infernalRabbit" price="666"/>
+            <item id="hlwnBlrmPn" price="877"/>
+            <item id="hlwnBlrmLmp" price="600"/>
+            <item id="hlwnBlrmCndl" price="600"/>
+            <item id="armchrNY14" price="660"/>
+        </furniture>
+        <tech>
+            <item id="hrsAms1" price="800"/>
+            <item id="carLtsRd" price="600"/>
+            <item id="carLmbGrn" price="600"/>
+            <item id="bikeChpprRd" price="600"/>
+            <item id="bikeDctYllw" price="600"/>
+            <item id="flrAq1" price="890"/>
+            <item id="wllAq1" price="890"/>
+            <item id="hrsAms2" price="800"/>
+        </tech>
+        <clothes>
+            <item id="boyFA18Msk6" price="870"/>
+            <item id="girlFA18Msk6" price="870"/>
+            <item id="boyFA18Msk1" price="870"/>
+            <item id="girlFA18Msk1" price="870"/>
+            <item id="boyFA18Msk2" price="870"/>
+            <item id="girlFA18Msk2" price="870"/>
+            <item id="boyFA18Msk4" price="870"/>
+            <item id="girlFA18Msk4" price="870"/>
+            <item id="boyHlwnVmpWng" price="820"/>
+            <item id="grlHlwnVmpWng" price="820"/>
+            <item id="girlHlwn12" price="820"/>
+            <item id="boyHrnDvl16" price="820"/>
+        </clothes>
+    </wishes>
+
+    <messages>
+        <message messageKey="sd19NpcMessage1"/>
+        <message messageKey="sd19NpcMessage2"/>
+        <message messageKey="sd19NpcMessage3"/>
+        <message messageKey="sd19NpcMessage4"/>
+        <message messageKey="sd19NpcMessage5"/>
+        <message messageKey="sd19NpcMessage6"/>
+        <message messageKey="sd19NpcMessage7"/>
+        <message messageKey="sd19NpcMessage8"/>
+        <message messageKey="sd19NpcMessage9"/>
+        <message messageKey="sd19NpcMessage10"/>
+    </messages>
+
+    <poses>
+        <pose id="1" view="PhotoPose1" avatarPose="PhotoPose4" gender="boy" rotate="0"/>
+        <pose id="2" view="PhotoPose2" avatarPose="PhotoPose5" gender="boy" rotate="0"/>
+        <pose id="3" view="PhotoPose3" avatarPose="PhotoPose3" gender="boy" rotate="1"/>
+        <pose id="4" view="PhotoPose4" avatarPose="PhotoPose1" gender="boy" rotate="0"/>
+        <pose id="5" view="PhotoPose5" avatarPose="PhotoPose1" gender="boy" rotate="0"/>
+        <pose id="6" view="PhotoPose6" avatarPose="PhotoPose1" gender="boy" rotate="1"/>
+        <pose id="7" view="PhotoPose7" avatarPose="PhotoPose1" gender="boy" rotate="0"/>
+
+        <pose id="8" view="PhotoPose1" avatarPose="PhotoPose1" gender="girl" rotate="1"/>
+        <pose id="9" view="PhotoPose2" avatarPose="PhotoPose5" gender="girl" rotate="0"/>
+        <pose id="10" view="PhotoPose3" avatarPose="PhotoPose8" gender="girl" rotate="0"/>
+        <pose id="11" view="PhotoPose4" avatarPose="PhotoPose9" gender="girl" rotate="1"/>
+        <pose id="12" view="PhotoPose5" avatarPose="PhotoPose1" gender="girl" rotate="0"/>
+        <pose id="13" view="PhotoPose6" avatarPose="PhotoPose1" gender="girl" rotate="1"/>
+        <pose id="14" view="PhotoPose7" avatarPose="PhotoPose1" gender="girl" rotate="0"/>
+    </poses>
+</module>

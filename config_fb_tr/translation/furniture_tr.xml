@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<dictionary>
+    
+    <locale name="tr">
+	
+		<!-- TABLE -->
+		
+        <message key="table1Title">Cam Masa</message>
+		<message key="table2Title">Ahşap Masa</message>
+		<message key="table3Title">Ahşap Sıra</message>
+		<message key="table4Title">Yuvarlak Cam Masa</message>
+		<message key="table5Title">Cam Sehpa</message>
+		<message key="table6Title">Ahşap Dolap</message>
+		<message key="table7Title">TV Sehpası</message>
+		<message key="table8Title">Etajer</message>
+		<message key="table9Title">Mücevher Sehpası</message>
+		<message key="table10Title">Kahve Masası</message>
+		<message key="table11Title">Bekar Sehpası</message>
+		<message key="table12Title">Bekar Masası</message>
+		<message key="table13Title">Bekar Kahve Masası</message>
+		<message key="table14Title">Ofis Masası</message>
+		<message key="table15Title">Süslemeli Masa</message>
+		<message key="table16Title">Ofis Masası</message>
+		
+		<message key="computerTable1Title">Bilgisayar Masası</message>
+		<message key="computerTable2Title">Dizüstü bilg. Masası</message>
+		<message key="computerTable3Title">Bilgisayar Masası</message>
+		<message key="shelfDVDGray1Title">DVD Rafı</message>
+		
+		<message key="tableArtdecoSmallTitle">Art-deko Alçak Masa</message>
+		<message key="tableArtdeco1Title">Art-deko Masa</message>
+		
+		<message key="halloweenTable1Title">Cadılar Bayramı Masası</message>
+		
+		<message key="weddingTable1Title">Büyük Misafir Masası</message>
+		<message key="weddingTable2Title">Gelin ve Damat Masası</message>
+		<message key="weddingTable3Title">Gelin ve Damat Masası</message>
+		<message key="weddingTable4Title">Düğün Pastası Masası</message>
+		<message key="weddingTable5Title">Düğün Pastası Masası</message>
+		<message key="weddingTable6Title">Büyük Misafir Masası</message>
+		
+		<message key="manTable1Title">Cam Sehpa</message>
+		<message key="manTable2Title">Alçak Cam Sehpa</message>
+		<message key="violensTable1Title">Yaylı Masa</message>
+		
+		<message key="awardTable1Title">Kupa Sehpası</message>
+		<message key="awardTable2Title">Mermer Kupa Sehpası</message>
+		<message key="awardTable3Title">Geniş Kupa Sehpası</message>
+		<message key="awardTable4Title">VIP Kupa Sehpası</message>
+		
+		<message key="vipTable1Title">Ofis Masası</message>
+		<message key="schoolTableTitle">Öğretmen Masası</message>
+		
+		<!-- BED -->
+		
+		<message key="bed1Title">İkiz Yatak</message>
+		<message key="bed2Title">Altın kaplamalı Yatak</message>
+		<message key="bed3Title">Ahşap Yatak</message>
+		<message key="bed4Title">Ahşap Yatak</message>
+		<message key="bed5Title">Süslemeli Yatak</message>
+		<message key="bed6Title">Büyük İki Kişilik Yatak</message>
+		<message key="bed7Title">Bekar Sehpası</message>
+		
+		<message key="bedArtdeko1Title">Art-deko Yatak</message>
+		
+		<message key="bedVip1Title">L.O.V.E. Yatak</message>
+		<message key="bedVip2Title">Geniş Yatak</message>
+		<message key="bedVip3Title">Yumuşak Mor Yatak</message>
+		
+		<!-- CHAIR -->
+		
+		<message key="chair1Title">Ahşap Sandalye</message>
+		<message key="chair2Title">Ahşap Sandalye</message>
+		<message key="chair3Title">Ahşap Sandalye</message>
+		<message key="chair4Title">Ahşap Sandalye</message>
+		<message key="chair5Title">Sandalye</message>
+		<message key="chair6Title">Bekar Sandalyesi</message>
+		<message key="chair7Title">Bekar Bar Sandalyesi</message>
+		<message key="chair8Title">Minderli Sandalye</message>
+		<message key="chair9Title">Bar Sandalyesi</message>
+		<message key="chair10Title">Yumuşak Mor Sandalye</message>
+		<message key="chair11Title">Büyük Sedir</message>
+		<message key="chair12Title">Yumuşak Mor Sedir</message>
+		<message key="chair13Title">Ofis Sandalyesi</message>
+		<message key="chair14Title">Deri Koltuk</message>
+		<message key="chair15Title">Süslemeli Koltuk</message>
+		<message key="chair16Title">Deri Koltuk</message>
+		<message key="chair17Title">Süslemeli Koltuk</message>
+		
+		<message key="computerChair1Title">Bilgisayar Sandalyesi</message>
+		<message key="computerChair2Title">Bilgisayar Koltuğu</message>
+		<message key="computerChair3Title">Rahat Bilgisayar Koltuğu</message>
+		
+		<message key="artDecoChair1Title">Art-deko Sandalye</message>
+		<message key="paddedStool1Title">Art-deko Sedir</message>
+		
+		<message key="halloweenChair1Title">Cadılar Bayramı Sandalyesi</message>
+		<message key="halloweenChair2Title">Cadılar Bayramı Sandalyesi</message>
+		<message key="halloweenChair3Title">Cadılar Bayramı Sandalyesi</message>
+		<message key="halloweenChair4Title">Cadılar Bayramı Sandalyesi</message>
+		
+		<message key="weddingChairTitle">Düğün Sandalyesi</message>
+		
+		<message key="schoolChair1Title">Öğretmen Sandalyesi</message>
+		<message key="schoolChair2Title">Okul Sırası</message>
+		
+		<!-- ARMCHAIR -->
+		
+		<message key="armchair1Title">Süslemeli Koltuk</message>
+		<message key="armchair2Title">Deri Koltuk</message>
+		<message key="armchair3Title">Yüksek Tekn. Stilli Koltuk</message>
+		<message key="armchair4Title">Kırmızı Koltuk</message>
+		<message key="armchair5Title">Pembe Koltuk</message>
+		<message key="armchair6Title">Mavi Koltuk</message>
+		<message key="armchair7Title">Deri Koltuk</message>
+		<!-- NEW -->
+		<message key="armchair8Title">Kırmızı Koltuk</message>
+		<message key="armchair9Title">Turuncu Koltuk</message>
+		<message key="armchair10Title">Deri Koltuk</message>
+		<message key="armchair11Title">Deri Koltuk</message>
+		<message key="armchair12Title">Deri Koltuk</message>
+		<message key="armchair13Title">Koltuk</message>
+		<message key="armchair14Title">Koltuk</message>
+		<message key="armchairArtdeco1Title">Art-deko Koltuk</message>
+		<!-- VIP -->
+		<message key="armchairVip1Title">Deniz Kabuğu Şekilli Koltuk</message>
+		<message key="armchairVip2Title">Kalp Şekilli Koltuk</message>
+		<message key="armchairVip3Title">Büyük Koltuk</message>
+		
+		<!-- SOFA -->
+		
+		<message key="sofa1Title">Beyaz Kanepe</message>
+		<message key="sofa2Title">Mavi Kanepe</message>
+		<message key="sofa3Title">Çizgili Kanepe</message>
+		<message key="sofa4Title">Turuncu Kanepe</message>
+		<message key="sofa5Title">Yüksek Tekn. Stilli Kanepe</message>
+		<message key="sofa6Title">Kırmızı Kanepe</message>
+		<message key="sofa7Title">Mavi Goblen Kanepe</message>
+		<message key="sofa8Title">Altın Renkli Kanepe</message>
+		<message key="sofa9Title">Deri Kanepe</message>
+		<message key="sofa10Title">Pembe Kanepe</message>
+		<message key="sofa11Title">Deri Kanepe</message>
+		<message key="sofa12Title">Kırmızı Kanepe</message>
+		<message key="sofa13Title">Turuncu Kanepe</message>
+		<message key="sofa14Title">Deri Kanepe</message>
+		<message key="sofa15Title">Deri Kanepe</message>
+		<message key="sofa16Title">Deri Kanepe</message>
+		<message key="sofa17Title">Kanepe</message>
+		<message key="sofa18Title">Kanepe</message>
+		<message key="sofa19Title">Bekar Sediri</message>
+		<message key="sofa20Title">Bekar Kanepesi</message>
+		
+		<message key="sofaArtdeco1Title">Art-deko Kanepe</message>
+		
+		<message key="sofaHalloween1Title">Cadılar Bayramı Kanepesi</message>
+		<message key="sofaHalloween2Title">Cadılar Bayramı Kanepesi</message>
+		<message key="sofaHalloween3Title">Bal kabağı Kanepe</message>
+		
+		<message key="sofaVip1Title">Kanepe, İngiltere, XVIII yüzyıl</message>
+		<message key="sofaVip2Title">Ana yol Kanepesi</message>
+		<message key="sofaVip3Title">Yumuşak Mor Kanepe</message>
+		<message key="sofaVip4Title">Noel Kanepesi</message>
+		
+		<!-- WARDROBE -->
+		
+		<message key="furnitureMisc2Title">Şifoniyer</message>
+		<message key="wardrobeForgetTitle">Altın Kaplama Şifoniyer</message>
+		<message key="wardrobeNarrowTitle">Dar Şifoniyer</message>
+		<message key="wardrobeWindowTitle">Geniş Şifoniyer</message>
+		
+		<!-- COMODO -->
+		
+		<message key="caseRoseLongTitle">Süslemeli Ahşap Dolap</message>
+		<message key="caseForgetLowTitle">Altın Kaplamalı Sandık</message>
+		<message key="caseForgetMirrorTitle">Altın Kaplamalı Tuvalet Masası</message>
+		<message key="caseRoseLowTitle">Süslemeli Ahşap Sandık</message>
+		<message key="caseRoseMirrorTitle">Süslemeli Ahşap Tuvalet Masası</message>
+		<message key="caseArtdecoLongTitle">Art-deko Vitrin</message>
+		<message key="caseArtdecoNarrowTitle">Art-deko Dar Vitrin</message>
+		<message key="caseArtdecoMiddleTitle">Art-deko Dar Sandık</message>
+		<message key="caseArtdecoLowTitle">Art-deko Sandık</message>
+		<message key="caseBachelorWoodTitle">Bekar Vitrini</message>
+		<message key="caseBachelorTitle">Bekar Sandığı</message>
+		<message key="caseViolent1Title">Sandık</message>
+		
+		<message key="caseHalloween1Title">Cadılar Bayramı Dolabı</message>
+		<message key="caseHalloween2Title">Cadılar Bayramı Dolabı</message>
+		
+		<!-- BAR -->
+		
+		<message key="furnitureMisc1Title">Bar Sehpası</message>
+		<message key="bar1Title">Bekar Bar Sehpası</message>
+		
+		<!-- WATERFALL -->
+		
+		<message key="waterfall1Title">Göllü Süs Havuzu</message>
+		<message key="waterfall2Title">Şelaleli Süs Havuzu</message>
+		<message key="waterfall3Title">Havadan Kale Süs Havuzu </message>
+		<message key="waterfall4Title">Tam Fincan Süs Havuzu</message>
+		<message key="waterfall5Title">Ejderha Süs Havuzu</message>
+		
+		<!-- WALL -->
+		
+		<message key="furnitureWall1Title">Dosya Dolabı</message>
+		<message key="furnitureWall2Title">Büyük Kitaplık</message>
+		<message key="furnitureWall3Title">Duvar</message>
+		<message key="furnitureWall4Title">Kitaplık</message>
+		
+		<!-- COLLECTIONS -->
+		
+		<message key="furnitureCollectionsLabel">Özellikli</message>
+		<!--<message key="saleCollection1Label">İndirim</message>-->
+		<message key="vipCollection1Label">VIP</message>
+		<message key="artDecoCollection1Label">Art-deko</message>
+		<message key="halloweenCollection1Label">Cadılar Bayramı</message>
+		<message key="bachelorCollectionLabel">Bekar</message>
+		<message key="newYearCollection1Label">Noel</message>
+		<message key="cabinetCollection1Label">Ofis</message>
+		<message key="schoolCollectionLabel">Okul</message>
+		<message key="newCollectionLabel">Yeni</message>
+		<message key="amusimentCollectionLabel">Şaşırtıcı</message>
+
+        <!-- NEW FURNITURE SETS:
+                COUNTRY, BEACH, ALIEN, JAPAN,
+                ARTNOUVEAU, MAYA, PRINCESS -->
+        
+		<message key="tableArtNouveauTitle">Modern Masa</message>
+		
+		<message key="sofaCountryTitle">Köy Evi Kanepesi</message>
+		<message key="sofaBeachTitle">Derin Deniz Kanepe</message>
+		<message key="sofaPrincessLabel">Kanepe "Prenses"</message>
+		
+		<message key="loungeMayaLabel">Şezlong "Maya"</message>
+		
+		<message key="chairAlien1Title">Uzak Galaksiler Sandalyesi</message>
+		<message key="chairAlien2Title">Samanyolu Sandalyesi</message>
+		<message key="chairAlien3Title">Neosphere Sandalye</message>
+		<message key="chairBeachTitle">İnci Rengi Sandalye</message>
+		
+		<message key="tableJapanTitle">Japon Masası</message>
+		<message key="tableAlienTitle">Aliens Masası</message>
+		<message key="tableCountryTitle">Köy Evi Oymalı Masası</message>
+		<message key="tableBeachTitle">Deniz Yıldızı Masa</message>
+		
+		<message key="bedJapanTitle">Japon Yatağı</message>
+		<message key="bedAlienTitle">Aliens Yatağı</message>
+		<message key="bedBeachTitle">Kumsal Şezlongu</message>
+		<message key="bedPrincessLabel">Yatak "Prenses"</message>
+		
+		<message key="caseCountryTitle">Köy Evi Elbise Dolabı</message>
+		<message key="casePrincessTitle">Prenses Şifoniyeri</message>
+		<message key="caseMayaLabel">Şifoniyer "Maya"</message>
+		
+		<message key="armchairPrincessBrownLabel">Koltuk "Prenses"</message>
+        <message key="armchairPrincessGreenLabel">Koltuk "Prenses"</message>
+		
+		<message key="artnouveauCollectionLabel">Modern</message>
+		<message key="japanCollectionLabel">Japon</message>
+		<message key="alienCollectionLabel">Aliens</message>
+		<message key="beachCollectionLabel">Kumsal</message>
+		<message key="princessCollectionLabel">Prenses</message>
+		<message key="countryCollectionLabel">Köy Evi</message>
+		<message key="mayaCollection1Label">Maya</message>
+		<message key="dzo14Collection">Sığınak</message>
+		
+		<!-- NY 2014 EVENT ITEMS -->
+		<message key="armchairNY14Title">Buz Tacı</message>
+        <message key="chairNY14Title">Buz Sarayı Sandalyesi</message>
+        
+		<!-- SV14 -->
+		<message key="lovemeterSV14Title">Melek Adası</message>
+		<message key="lovemeterCategory">Melek Adası</message>
+		<message key="chairSV14Title">Osmanlı kanepe "Cennet"</message>
+		<message key="tableSV14Title">Masa "Cennet"</message>
+		
+		<!-- NYROOF -->
+		<message key="nyrfCollection">Gökdelen</message>
+		<message key="chairNYRoofLabel">Gökdelen Koltuğu</message>
+		<message key="loungeNYRoofLabel">Gökdelen Plaj Koltuğu</message>
+		<message key="tableNYRoofLabel">Gökdelen Masası</message>
+
+        <!-- STVAL15 -->
+        <message key="sofaSV15Label">Aşıklar Sokağı Bankı</message>
+        <message key="predictionPavilionSV15Title">Aşıklar Sokağı Çardağı</message>
+
+        <!-- CONAN -->
+        <message key="throneConanLabel">Barbar Kral Tacı</message>
+        <message key="conanCollection">Barbar</message>
+
+        <message key="dirol15WardrobeDirolTitle">Dirol Gardırobu</message>
+        <message key="chrGrdGft">Bahçıvanın Sandalyesi</message>
+        <message key="sfGrdnrGft">Bahçıvanın Koltuğu</message>
+        <message key="tblGrdnrGft">Bahçıvanın Masası</message>
+        <message key="wrdGrdnrGft">Bahçıvanın Kitaplığı</message>
+
+        <message key="chrTrBthLabel">Tropik Tabure</message>
+        <message key="tblTrBthLabel">Tropik Masa</message>
+        <message key="bdTrBthLabel">Tropik Yatak</message>
+        <message key="tropicalBedroom">Tropik</message>
+
+        <message key="blackRoseLabel">Black Rose</message>
+        <message key="hsptlLbl">Hastane</message>
+        <message key="bdHsptl">Hastane Yatağı</message>
+        <message key="nsHsptl">Hastane Komodini</message>
+        <message key="sfBlkRsLabel">Black Rose Kanepe</message>
+        <message key="armchrBlkRsLabel">Black Rose Koltuk</message>
+        <message key="tblBlkRsLabel">Black Rose Masa</message>
+        <message key="bdBlkRsLabel">Black Rose Yatak</message>
+
+		<message key="superHeroCollectionLabel">Süper Kahramanlar</message>
+		<message key="shWllLabel">Süper Kahramanlar Duvarları</message>
+		<message key="shDrLabel">Süper Kahramanlar Kapısı</message>
+		<message key="shFlrLabel">Süper Kahramanlar Zemini</message>
+		<message key="shWdwLabel">Süper Kahramanlar Resim Penceresi</message>
+		<message key="shWdmmLabel">Süper Kadın Kahraman Kıyafeti</message>
+		<message key="shMdmmLabel">Süper Erkek Kahraman Kıyafeti</message>
+		<message key="shJPckLabel">Sırt roketi</message>
+		<message key="shWldmLabel">Kaynak makinesi</message>
+		<message key="shGlbLabel">Süper Kahramanlar Küresi</message>
+		<message key="shWplLabel">Süper Kahramanlar Masası</message>
+		<message key="shChrLabel">Süper Kahramanlar Sandalyesi</message>
+
+		<message key="pirateRoomCollectionLabel">Kaptan Kamarası</message>
+		<message key="prtrWllLabel">Kaptan Kamarasının Duvarları</message>
+		<message key="prtrDrLabel">Kaptan Kamarasının Kapısı</message>
+		<message key="prtrWdwLabel">Kaptan Kamarasının Penceresi</message>
+		<message key="prtrFlrLabel">Kaptan Kamarasının Zemini</message>
+		<message key="prtrCrptLabel">Kaptan Kamarasının Halısı</message>
+		<message key="prtrMapLabel">Takımada Haritası</message>
+		<message key="prtrLmpLabel">Kaptan Kamarasının Gaz Lambası</message>
+		<message key="prtrCndlLabel">Kaptan Kamarasının Mumluğu</message>
+		<message key="prtrBrlLabel">Barut Fıçıları</message>
+		<message key="prtrBrlSbrLabel">Kılıçlı Fıçı</message>
+		<message key="prtrMrtLabel">Havan Topu</message>
+		<message key="prtrChstLabel">Altın Dolu Sandık</message>
+		<message key="prtrCoreLabel">Top Gülleleri</message>
+		<message key="prtrBookLabel">Seyir Defteri</message>
+		<message key="prtrArmchrLabel">Kaptan Koltuğu</message>
+		<message key="prtrChrLabel">Kaptan Kamarasının Sandalyesi</message>
+		<message key="prtrTblLabel">Kaptan Kamarasının Masası</message>
+
+		<message key="gymCollectionLabel">Spor Salonu</message>
+		<message key="gymDrLabel">Spor Salonu Kapısı</message>
+		<message key="gymWdwLabel">Spor Salonu Penceresi</message>
+		<message key="gymFlrLabel">Spor Salonu Döşemesi</message>
+		<message key="gymWllLabel">Spor Salonu Duvarları</message>
+		<message key="gymRbrCrptLabel">Spor Salonu Minderi</message>
+		<message key="gymYgBlkCrptLabel">Siyah Yoga Minderi</message>
+		<message key="gymYgGrnCrptLabel">Yeşil Yoga Minderi</message>
+		<message key="gymBllChrLabel">Egzersiz Topu</message>
+		<message key="gymMtsBedLabel">Spor Minderi</message>
+		<message key="gymPstrLabel">Spor Salonu Posteri</message>
+		<message key="gymExitLabel">Spor Salonu Tabelası</message>
+		<message key="gymJmpRpLabel">Zıplama Halatları</message>
+		<message key="gymDmblLabel">Spor Halat Halter</message>
+		<message key="gymSlfDmblLabel">Halter Ayaklığı</message>
+		<message key="gymCpbdLabel">Spor Malzemeleri Dolabı</message>
+		<message key="gymPngBagLabel">Kum torbası</message>
+		<message key="gymStrLabel">Spor Salonu Merdivenleri</message>
+		<message key="gymBnchSofaLabel">Spor Salonu Bankı</message>
+
+		<message key="hlwnBlrmCndlLabel">Vampir Şamdan</message>
+		<message key="hlwnBlrmVsLabel">Vampir Gül Kafesi</message>
+		<message key="hlwnBlrmPnLabel">Vampir Kuyruklu Piyano</message>
+		<message key="hlwnBlrmLmpLabel">Vampir Lamba</message>
+		<message key="hlwnBlrmSfLabel">Vampir Kanepe</message>
+		<message key="hlwnBlrmChrLabel">Vampir Bank</message>
+
+		<message key="pnRmCollectionLabel">Virtüöz</message>
+		<message key="pnRmWllLabel">Virtüöz Duvar</message>
+		<message key="pnRmDrLabel">Virtüöz Kapı</message>
+		<message key="pnRmWdwLabel">Virtüöz Pencere</message>
+		<message key="pnRmFlrLabel">Virtüöz Zemin</message>
+		<message key="pnRmChrLabel">Virtüöz Koltuk</message>
+		<message key="pnRmTblLabel">Virtüöz Masa</message>
+		<message key="pnRmSfLabel">Virtüöz Kanepe</message>
+		<message key="pnRmPnLabel">Virtüöz Piyano</message>
+		<message key="pnRmCsLabel">Virtüöz Dolap</message>
+		<message key="pnRmVsLabel">Virtüöz Vazo</message>
+		<message key="pnRmLmpLabel">Virtüöz Işıklandırma</message>
+		<message key="pnRmMetroLabel">Metronom</message>
+		<message key="pnRmViolinLabel">Keman</message>
+
+		<message key="armchairSV18Title">“İki Yarım” Kollu Koltuk</message>
+
+		<message key="pianoDescription">Virtüöz Piyano ile en iyi klasik parçaları çalabilirsin, sadece tek başınayken değil, arkadaşlarının yanında da!</message>
+		<message key="weldingMachineDescription">Her operasyondan sonra zırhının yamalanması gerekir. Bunun için bir kaynak makinesi kullan.</message>
+		<message key="punchingBagDescription">Son model muhteşem kum torbamızla boks dersleri al!</message>
+
+		<message key="gmrRmCollectionLabel">Yayıncı</message>
+		<message key="gamerChairTitle">Yayıncı Koltuk</message>
+		<message key="gamerNightstandTitle">Yayıncı Komodin</message>
+		<message key="gamerTableTitle">Yayıncı Masa</message>
+		<message key="hlwn18WndLabel">Dolunay Pencere</message>
+
+		<message key="ny19ChairLabel">Sandalye</message>
+
+		<message key="glamourHallDr">Prensesin Odasının Kapısı</message>
+
+		<message key="rtrCfCollectionLabel">Retro Kafe</message>
+		<message key="rtrCfWllLabel">Retro Kafe Duvarları</message>
+		<message key="rtrCfDrLabel">Retro Kafe Kapısı</message>
+		<message key="rtrCfWndLabel">Retro Kafe Penceresi</message>
+		<message key="rtrCfFlrLabel">Retro Kafe Zemini</message>
+		<message key="rtrCfMscRcrdLabel">Retro Kafe Kayıtları</message>
+		<message key="rtrCfNeonLabel">Retro Kafe Neon Tabelası</message>
+		<message key="rtrCfClmnLabel">Retro Kafe Lambası</message>
+		<message key="rtrCfOvrhLabel">Retro Kafe Tentesi</message>
+		<message key="barCounterRtrCfTitle">Retro Kafe Bar Tezgahı</message>
+		<message key="rndTblRtrCfTitle">Retro Kafe Yuvarlak Masası</message>
+		<message key="sqrTblRtrCfTitle">Retro Kafe Kare Masası</message>
+		<message key="rtrCfCctlLabel">Retro Kafe Kokteyli</message>
+		<message key="rtrCfScLabel">Retro Kafe Yemek Eklentileri</message>
+		<message key="rtrCfBarChrTitle">Retro Kafe Bar Taburesi</message>
+		<message key="rtrCfGrnChrTitle">Retro Kafe Sandalyesi</message>
+		<message key="rtrCfRdChrTitle">Retro Kafe Sandalyesi</message>
+		<message key="rtrCfGrnPfTitle">Retro Kafe Kanepesi</message>
+		<message key="rtrCfRdPfTitle">Retro Kafe Kanepesi</message>
+		<message key="rtrCfAnglSfLabel">Retro Kafe Köşe Koltuğu</message>
+		<message key="rtrCfSfLabel">Retro Kafe Koltuğu</message>
+		<message key="rtrCfSgnbrdLabel">Retro Kafe Tabelası</message>
+		<message key="rtrCfMscMchnLabel">Retro Kafe Müzik Seti</message>
+		<message key="rtrCfClckOwlLabel">Retro Kafe Saati</message>
+		<message key="rtrCfGumMchnLabel">Retro Kafe Sakız Makinesi</message>
+        
+        <message key="orclCollectionLabel">Kahin</message>
+        <message key="orclPfLabel">Kahin Taburesi</message>
+        <message key="orclGrlndLabel">Kahin Çelenk</message>
+        <message key="orclSfLabel">Kahin Divanı</message>
+        <message key="orclPctrsLabel">Kahin Tabloları</message>
+        <message key="orclSphrLabel">Kahin Küresi</message>
+        <message key="orclWrdLabel">Kahin Gardırobu</message>
+        <message key="orclTblLabel">Kahin Masası</message>
+        <message key="hw2019WllLabel">Kahin Duvarı</message>
+        <message key="hw2019DrLabel">Kahin Kapısı</message>
+        <message key="hw2019WndLabel">Kahin Penceresi</message>
+        <message key="hw2019FlrLabel">Kahin Zemini</message>
+        <message key="drgCvCollectionLabel">Ejderha İni</message>
+        <message key="drgCvBnsLabel">Ejderha İni Kemikleri</message>
+        <message key="drgCvChstLabel">Ejderha İni Hazinesi</message>
+        <message key="drgCvChrLabel">Ejderha İni Tahtı</message>
+        <message key="drgCvTrchLabel">Ejderha İni Meşalesi</message>
+        <message key="drgCvFntnLabel">Ejderha İni Şelalesi</message>
+        <message key="drgCvDrLabel">Ejderha İni Kapısı</message>
+        <message key="drgCvFlrLabel">Ejderha İni Lavı</message>
+        <message key="drgCvWllLabel">Taş Ejderha İni Duvarları</message>
+	</locale>
+	
+</dictionary>

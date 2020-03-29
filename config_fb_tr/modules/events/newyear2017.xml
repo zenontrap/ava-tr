@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="newyear2017" participationItemId="nyFir" firSnowflakesCount="3">
+    <trophy id="newYear2017" maxProgress="50000" icon="TrophyIcon@newyear2017"/>
+    <game snowbattleGamersNeeded="5" snowmanHenchmansCount="7" activeSnowmanHenchmansCount="2">
+        <award itemType="resource" itemId="silver" count="500"/>
+        <award itemType="game" itemId="craftedCoffee" count="1"/>
+    </game>
+    <snowmans>
+        <snowman type="Snowman1" maxHealth="40" energyPerHit="6" snowFlakesCount="2" healthDamage="3"/>
+        <snowman type="Snowman2" maxHealth="50" energyPerHit="6" snowFlakesCount="2" healthDamage="3"/>
+        <snowman type="Snowman3" maxHealth="60" energyPerHit="6" snowFlakesCount="2" healthDamage="3"/>
+        <snowman type="SnowmanBoss" energyPerHit="14" snowFlakesCount="3"/>
+    </snowmans>
+
+    <awards>
+        <award id="1" itemType="" itemId="ny17GiftExchange" stageId="stage1"
+               icon="RoundFir@newyear2017"
+               requestIcon="NY17Fir@newyear2017"
+               receiveIcon="NY17Fir@newyear2017"/>
+
+        <award id="2" itemType="" itemId="ny17GiftGun" gender="1" stageId="stage2"
+               icon="RoundBoyAttack@newyear2017"
+               requestIcon="NY17FireballBoy@newyear2017"
+               receiveIcon="NY17FireballBoy@newyear2017"/>
+
+        <award id="3" itemType="" itemId="ny17GiftGun" gender="2" stageId="stage2"
+               icon="RoundGirlAttack@newyear2017"
+               requestIcon="NY17FireballGirl@newyear2017"
+               receiveIcon="NY17FireballGirl@newyear2017"/>
+
+        <award id="4" itemType="" itemId="ny17GiftSkill" stageId="stage3"
+               icon="RoundBoss@newyear2017"
+               requestIcon="NY17Snowman@newyear2017"
+               receiveIcon="NY17Snowman@newyear2017"/>
+
+        <award id="5" itemType="clothesSet" itemId="boyCsmNY17" gender="1" stageId="stage4"
+               icon="RoundBoyClothes@newyear2017"
+               requestIcon="NY17ClothesBOY@newyear2017"
+               receiveIcon="NY17ClothesBOY@newyear2017"/>
+
+        <award id="6" itemType="clothesSet" itemId="grlCsmNY17" gender="2" stageId="stage4"
+               icon="RoundGirlClothes@newyear2017"
+               requestIcon="NY17ClothesGIRL@newyear2017"
+               receiveIcon="NY17ClothesGIRL@newyear2017"/>
+    </awards>
+
+    <cityEventLocation id="module" index="-1" category="module" targetId="ny17WinterBattle" subTargetId="ny17e">
+        <icon name="EventLocationIcon@newyear2017" title="#ny17LocationName"/>
+        <module filterIcon="EventFilterIcon@newyear2017" filterLabel="ny17EventFilterLabel"
+                categoryIcon="EventCategoryIcon@newyear2017">
+            <price gold="3" silver="300"/>
+        </module>
+    </cityEventLocation>
+
+    <locations>
+        <locationItem id="ny17WinterBattleFir" wx="15" wy="15" wz="0" width="4" length="4" height="7"/>
+        <location id="ny17WinterBattle" zoneId="street" loadingContent="newyear2017" defaultRoomId="ny17">
+            <rooms>
+                <room id="ny17e" map="modules/map/ny17_winterBattle_1_map" userCount="15" criticalUserCount="20"
+                      backgroundSound="christmasSpirit" dresscode="outside"/>
+                <room id="ny17" map="modules/map/ny17_winterBattle_1_map" userCount="15" criticalUserCount="20"
+                      backgroundSound="christmasSpirit" dresscode="outside"/>
+            </rooms>
+        </location>
+    </locations>
+
+    <inventory>
+        <category id="game">
+            <item id="ny17Gun" label="#ny17GunLabel" description="#ny17GunDescription"
+                  name="Gun@newyear2017" icon="GunIcon@newyear2017" canBuy="0"/>
+
+            <item id="ny17Shield" label="#ny17ShieldLabel" description="#ny17ShieldDescription"
+                  name="Shield@newyear2017" icon="ShieldIcon@newyear2017" canBuy="0"/>
+        </category>
+
+        <category id="craftLoot">
+            <item id="ny17Spark" description="#ny17SparkDescription" probability="1" canBuy="0"
+                  name="Spark@newyear2017" icon="SparkIcon@newyear2017" label="#ny17SparkLabel" gold="300"/>
+
+            <item id="ny17Snowflake" description="#ny17SnowflakeDescription" probability="0.3" canBuy="0"
+                  name="Snowflake@newyear2017" icon="SnowflakeIcon@newyear2017" label="#ny17SnowflakeLabel"/>
+
+            <item id="ny17Lamp1" description="#ny17LampDescription"
+                  name="Lamp1@newyear2017" icon="Lamp1Icon@newyear2017" label="#ny17Lamp1Label" gold="300"/>
+
+            <item id="ny17Lamp2" description="#ny17LampDescription"
+                  name="Lamp2@newyear2017" icon="Lamp2Icon@newyear2017" label="#ny17Lamp2Label" gold="300"/>
+
+            <item id="ny17Lamp3" description="#ny17LampDescription"
+                  name="Lamp3@newyear2017" icon="Lamp3Icon@newyear2017" label="#ny17Lamp3Label" gold="300"/>
+        </category>
+    </inventory>
+
+    <craft>
+        <craftedItem title="#ny17GarlandTitle" itemId="ny17Garland" holiday="">
+            <moduleComponent itemId="ny17Lamp1" count="50"/>
+            <moduleComponent itemId="ny17Lamp2" count="50"/>
+            <moduleComponent itemId="ny17Lamp3" count="50"/>
+            <component itemId="hatred" count="30"/>
+        </craftedItem>
+
+        <craftedItem title="#ny17GunTitle" itemId="ny17Gun" holiday="">
+            <component itemId="hatred" count="30"/>
+            <component itemId="idea" count="10"/>
+            <component itemId="luck" count="10"/>
+            <moduleComponent itemId="ny17Spark" count="50"/>
+        </craftedItem>
+
+        <craftedItem title="#ny17ShieldTitle" itemId="ny17Shield" holiday="">
+            <component itemId="hatred" count="15"/>
+            <component itemId="idea" count="5"/>
+            <component itemId="luck" count="5"/>
+            <moduleComponent itemId="ny17Spark" count="12"/>
+        </craftedItem>
+    </craft>
+
+    <stages>
+        <stage stageId="stage1" priority="1" title="#ny17Stage1Title" progressToComplete="1"/>
+        <stage stageId="stage2" priority="2" title="#ny17Stage2Title" progressToComplete="1"/>
+        <stage stageId="stage3" priority="3" title="#ny17Stage3Title" progressToComplete="900"/>
+        <stage stageId="stage4" priority="4" title="#ny17Stage4Title" progressToComplete="1500"/>
+        <stage stageId="stage5" priority="5"/>
+    </stages>
+
+    <exchange>
+        <exchangeGift id="1" itemId="ny16Gft1" snowflakes="50" icon="CirclePresentNY2017S@newyear2017"
+                      label="#newYear16Gift1Label"/>
+        <exchangeGift id="2" itemId="ny16Gft2" snowflakes="100" icon="CirclePresentNY2017M@newyear2017"
+                      label="#newYear16Gift2Label"/>
+        <exchangeGift id="3" itemId="ny16Gft3" snowflakes="200" icon="CirclePresentNY2017L@newyear2017"
+                      label="#newYear16Gift3Label"/>
+    </exchange>
+
+    <mittens period="21600" mittenThrowSnowballCount="2" goldMittenPrice="5" snowballsPerMittens="5">
+        <mitten friends="2" count="1"/>
+        <mitten friends="5" count="2"/>
+        <mitten friends="10" count="4"/>
+        <mitten friends="25" count="10"/>
+        <mitten friends="50" count="20"/>
+        <mitten friends="100" count="30"/>
+    </mittens>
+
+    <animations freezingDuration="500">
+        <animation name="CastFireball">
+            <sequence name="start" start="1" length="60" loop="false"/>
+        </animation>
+
+        <animation name="Freezing">
+            <sequence name="start" start="1" length="25" loop="false"/>
+            <sequence name="process" start="26" length="54" loop="loop"/>
+            <sequence name="finish" start="81" length="21" loop="false"/>
+        </animation>
+
+        <animation name="Protect">
+            <sequence name="start" start="1" length="40" loop="false"/>
+        </animation>
+    </animations>
+</module>

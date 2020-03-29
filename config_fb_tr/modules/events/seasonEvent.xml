@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="seasonEvent" maxKeyCount="30" goldForKey="10">
+    <awards>
+        <award id="1" itemType="furniture" itemId="seFan"
+            points="20"
+            icon="SEAwardFanIcon@seasonEvent"
+            receiveIcon="GamerGuitarIcon@seasonEvent"
+            hint="#seFanViewHint"/>
+        <award id="2" itemType="trophy" itemId="autumnEvent2019"
+            points="25"
+            count="0"
+            icon="SEAwardTitleIcon@seasonEvent"
+            receiveIcon="GamerGuitarIcon@seasonEvent"
+            hint="#seTitleViewHint"/>
+        <award id="3" itemType="clothesSet" itemId="girlShSet" gender="2"
+            points="30"
+            icon="SEAwardGirlCostumeIcon@seasonEvent"
+            receiveIcon="WallClothesGirl@seasonEvent"
+            hint="#seCostumeViewHint"/>
+        <award id="4" itemType="clothesSet" itemId="boyShSet" gender="1"
+            points="30"
+            icon="SEAwardBoyCostumeIcon@seasonEvent"
+            receiveIcon="GamerGuitarIcon@seasonEvent"
+            hint="#seCostumeViewHint"/>
+    </awards>
+
+    <!--<inventory>
+        <category id="game">
+            <item id="seKey" label="#seasonEventKeyDescription"
+            name="SECalendarDialogKeyBigIcon@seasonEvent" icon="SECraftKeyIcon@seasonEvent" canBuy="0"/>
+        </category>
+    </inventory>-->
+
+    <quests>
+        <quest dayNumber="1" id="seasEvQst1" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="serviceItem" title="#gdFlwTitle" maxProgress="8">
+                    <item typeId="gdFlw" />
+                </task>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="2" id="seasEvQst2" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="dance" title="#danceInClub" maxProgress="8" locationId="club"/>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="3" id="seasEvQst3" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="pillowFight" title="#winPillowBattle" maxProgress="4"/>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="4" id="seasEvQst4" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="serviceItem" title="#gdBugTitle" maxProgress="3">
+                    <item typeId="gdBug" />
+                </task>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="5" id="seasEvQst5" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="hug" title="#hugAction" maxProgress="10"/>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="6" id="seasEvQst6" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="doneWorkSession" title="#doneGarbageWorkSession" maxProgress="1" workId="garbage"/>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="7" id="seasEvQst7" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="winBeachRaceTask" title="#winBeachRace" maxProgress="5"/>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="8" id="seasEvQst8" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="throwCake" title="#valdayQuest5Task3Title" maxProgress="5"/>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="9" id="seasEvQst9" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="serviceItem" title="#gdBtfTitle" maxProgress="2">
+                    <item typeId="gdBtf" />
+                </task>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="10" id="seasEvQst10" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="collectResources" title="#spendEnergy" maxProgress="200" resource="energy"/>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="11" id="seasEvQst11" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="addBuddy" title="#addBuddy" maxProgress="3"/>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="12" id="seasEvQst12" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="presentItem" title="#giftPresent" maxProgress="1"/>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="13" id="seasEvQst13" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="kickAss" title="#kickAction" maxProgress="10"/>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="14" id="seasEvQst14" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="buyRandomItem" title="#buyCafeCake" maxProgress="5">
+                    <item typeId="cfCak"/>
+                </task>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="15" id="seasEvQst15" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="craftItem" title="#craftFilm" maxProgress="3" craftId="film" />
+            </tasks>
+        </quest>
+
+        <quest dayNumber="16" id="seasEvQst16" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="pickTrash" title="#friendsHelp" maxProgress="5"/>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="17" id="seasEvQst17" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="craftItem" title="#craftCoffeeDrink" maxProgress="2" typeId="craftedCoffee"/>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="18" id="seasEvQst18" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="plaintBomb" title="#plantBomb" maxProgress="2"/>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="19" id="seasEvQst19" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="collectResources" title="#spendSilver" maxProgress="2000" resource="silver"/>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="20" id="seasEvQst20" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="fortuneWin" title="#fortuneWin" maxProgress="3"/>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="21" id="seasEvQst21" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="kiss" title="#kissAction" maxProgress="6"/>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="22" id="seasEvQst22" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="serviceItem" title="#gdBtfTitle" maxProgress="2">
+                    <item typeId="gdBtf" />
+                </task>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="23" id="seasEvQst23" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="graffityTask" title="#paintGraffiti" maxProgress="3"/>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="24" id="seasEvQst24" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="craftItem" title="#craftAnyItem" maxProgress="1"/>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="25" id="seasEvQst25" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="brokeFurniture" title="#brokeFurniture" maxProgress="2"/>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="26" id="seasEvQst26" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="collectLootItem" title="#collectGenerosity" maxProgress="3" typeId="generosity"/>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="27" id="seasEvQst27" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="collectLootItem" title="#collectFeather" typeId="feather" maxProgress="3"/>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="28" id="seasEvQst28" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="collectResources" title="#spendGold" maxProgress="5" resource="gold"/>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="29" id="seasEvQst29" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="makePhotoTask" title="#makePhoto" maxProgress="1"/>
+            </tasks>
+        </quest>
+
+        <quest dayNumber="30" id="seasEvQst30" type="2" queue="0" holiday="seasonEvent" icon="QuestTaskIcon@seasonEvent">
+            <title>#seQuest1Title</title>
+            <description>#seQuest1Description</description>
+            <award>
+                <item typeId="seKey" count="1"/>
+            </award>
+            <tasks>
+                <task type="pickGarbage" title="#pickGarbage" maxProgress="10"/>
+            </tasks>
+        </quest>
+    </quests>
+
+    <products>
+        <product id="seasonEventKey" socialId="facebook" points="1000" icon="seasonEventKey@seasonEvent"
+            title="Ключ от акции Золотая осень"
+            photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/se/SeasonEventKey.png"
+            tag="seasonEvent">
+        </product>
+    </products>
+</module>

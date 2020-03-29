@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <flow>
+        <step index="0" id="welcomeFriend" />
+        <step index="1" id="placeWtrfl" />
+        <step index="2" id="wearClothes" />
+        <step index="3" id="inviteToCafe" />
+        <step index="4" id="inviteToClub" />
+        <step index="5" id="waitTime" />
+        <step index="6" id="findHouse" />
+        <step index="8" id="inviteFriends" />
+    </flow>
+    
+    <steps>
+        
+        <step id="welcomeFriend">
+            <action id="default">
+                <helper type="7" title="#ttSt3Chat1" onContinue="finishStep" />
+                <helper type="2" target="chatButton" direction="bottom" title="#ttSt1Hlp" width="165" />
+                <helper type="4" title="#ttSt2Npc1 #ttSt3Npc1" />
+            </action>
+        </step>
+        
+        <step id="placeWtrfl" questId="q1">
+            <action id="default">
+                <helper type="2" target="editRoomLayout" direction="left" title="#ttSt3Hlp1" />
+            </action>
+            <action id="selectItem">
+            </action>
+            <action id="placeItem">
+                <helper type="2" target="saveRoomLayout" direction="top" title="#ttSt3Hlp2" width="200" />
+            </action>
+        </step>
+        
+        <step id="wearClothes" questId="q2">
+            <action id="default">
+                <helper type="7" title="#ttSt4Chat1" onContinue="editAppearance" />
+                <helper type="4" title="#ttSt4Npc1" />
+                <helper type="2" target="chatButton" direction="bottom" />
+            </action>
+            <action id="editAppearance">
+                <helper type="2" target="clothesMenu" direction="bottom" title="#ttSt4Hlp1" width="140" />                
+            </action>
+            <action id="selectItem">
+            </action>
+        </step>
+        
+        <step id="inviteToCafe" questId="q3">
+            <action id="default">
+                <helper type="7" title="#ttSt5Chat1" onContinue="selectDoor" />
+                <helper type="4" title="#ttSt5Npc1" />
+                <helper type="2" target="chatButton" direction="bottom" />
+            </action>
+            <action id="selectDoor">
+                <helper type="5" target="4" direction="top" title="#ttSt5Hlp2" />
+                <helper type="3" x="13" y="0"/>
+            </action>
+            <action id="toLocation">
+                <helper type="7" title="#ttSt5Chat2" onContinue="selectItem" />
+                <helper type="4" title="#ttSt5Npc2" />
+                <helper type="2" target="chatButton" direction="bottom" />
+            </action>
+            <action id="selectItem">
+                <helper type="5" title="#ttSt5Hlp1" target="cafeMenuItem376" direction="bottom" />
+            </action>
+            <action id="finish">
+            </action>
+        </step>
+        
+        <step id="inviteToClub" questId="q4">
+            <action id="default">
+                <helper type="7" title="#ttSt6Chat1" onContinue="toLocation" />
+                <helper type="2" target="chatButton" direction="bottom" />
+                <helper type="4" title="#ttSt6Npc1" />
+            </action>
+            <action id="toLocation">
+                <helper type="4" title="#ttSt6Npc2" />
+                <helper type="5" target="self" title="#ttSt6Hlp1" direction="bottom" width="180" />
+            </action>
+        </step>
+        
+        <step id="waitTime">
+            <action id="default">
+                <helper type="7" title="#ttSt7Chat1" onContinue="finishStep" />
+                <helper type="2" target="chatButton" direction="bottom" />
+                <helper type="4" title="#ttSt7Msg2" />
+            </action>
+        </step>
+        
+        <step id="findHouse">
+            <action id="default">
+                <helper type="7" title="#ttSt8Chat1" onContinue="selectItem" />
+                <helper type="2" target="chatButton" direction="bottom" />
+                <helper type="4" title="#ttSt8Npc1" />
+            </action>
+            <action id="selectItem">
+            </action>
+        </step>
+        
+        <step id="inviteFriends">
+            <action id="default">
+                <helper type="7" title="#ttSt10Chat1" onContinue="waitAction" />
+                <helper type="2" target="chatButton" direction="bottom" />
+                <helper type="4" title="#ttSt10Npc1" />
+            </action>
+            <action id="waitAction">
+                
+            </action>
+            <action id="selectItem">
+                <helper type="7" title="#ttSt10Chat2" onContinue="finishStep" />
+                <helper type="2" target="chatButton" direction="bottom" />
+                <helper type="4" title="#ttSt10Npc2" />
+            </action>
+        </step>
+        
+    </steps>
+    
+</config>

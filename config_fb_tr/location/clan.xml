@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<config>
+    <location id="clan" zoneId="clan" loadingContent="clan" defaultRoomId="glamour" dresscode="outside" >
+        <rooms>
+            <room typeId="glamour" map="clan_hall_glamour_1_map" userCount="30" criticalUserCount="50" backgroundSound="outside1,outside2"  dresscode="outside"/>
+            <room typeId="magic" map="clan_hall_magic_1_map" userCount="30" criticalUserCount="50" backgroundSound="outside1,outside2"  dresscode="outside" />
+            <room typeId="scifi" map="clan_hall_scifi_1_map" userCount="30" criticalUserCount="50" backgroundSound="outside1,outside2"  dresscode="outside" />
+            <room typeId="apocalypse" map="clan_hall_apocalypse_1_map" userCount="30" criticalUserCount="50" backgroundSound="outside1,outside2" dresscode="outside" />
+        </rooms>
+    </location>
+</config>

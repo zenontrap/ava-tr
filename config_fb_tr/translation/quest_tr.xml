@@ -1,0 +1,1995 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<dictionary>
+    
+    <locale name="tr">
+	
+		<!-- Tutorial -->
+        <message key="quest1Title">Süs Havuzu Yerleştirme</message>
+        <message key="quest1Comment">Yardımın için teşekkürler. Bu havuz çok etkileyici görünüyor! Arkadaşlarıma göstermek için sabırsızlanıyorum!</message>
+        
+        <message key="quest2Title">Görünüm oluşturma</message>
+        <message key="quest2Comment">Bu yeni kıyafetler içerisinde harika görünüyorsunuz!
+Buradaki mağazalarda en güzel kıyafetleri bulabilirsiniz!</message>
+        
+        <message key="quest3Title">İlk Siparişiniz</message>
+        <message key="quest3Comment">Kafe veya Kulüpte, enerjinizi geri kazandıracak çeşitli ürünler sipariş edebilirsiniz.</message>
+        
+        <message key="quest4Title">Dans Pistini Sallayın!</message>
+        <message key="quest4Comment">Burada ferahlatıcı içeceğinizin keyfini çıkartın ve enerjinizi geri kazanın.</message>
+        
+        <message key="quest5Title">Ders</message>
+        <message key="quest5Comment">Henüz çok fazla mobilyanız yok, burada başlangıç için birkaç tanesi mevcuttur.</message>
+		
+		<!-- Main quests -->
+		
+		<message key="quest6Title">Tatlı Hayat</message>
+		<message key="quest6Description">Neden en yakın Kafeye bir yürüyüş yapıp lezzetli ürünlerinden tatmıyorsunuz? Kuvvetinizi geri kazanmanıza ve dinlenmenize yardımcı olacaktır.</message>
+		<message key="quest6Task1Title"><![CDATA[<span class="bold">Kafeye gidin ve bir fincan kahve yanında bir dilim pasta veya pizza yiyin</span>]]></message>
+		<message key="quest6Comment"><![CDATA[<span class="bold">İpucu:</span> Kafeye gitmek için, yandaki menüden Yerler üzerine tıklayın.]]></message>
+		
+		<message key="quest9Title">Dost Arayışında</message>
+		<message key="quest9Description">Artık daireniz güzel görünüyor, yeni dostlar edinme zamanı geldi. Herşeyin ötesinde, hayatı ilginç hale getirirler.</message>
+		<message key="quest9Comment"><![CDATA[<span class="bold">İpucu:</span> Oyunculardan biri üzerine tıklayın, listeden İlişki seçin ve Buluş öğesine tıklayın.]]></message>
+		
+		<message key="quest10Title">Komşu Yardımı</message>
+		<message key="quest10Description">Arkadaş canlısı komşular birbirine yardımcı olur. Komşularınızın dairesini temizleyerek yardımcı olabilir ve karşılığında gümüş para kazanabilirsiniz!</message>
+		<message key="quest10Comment"><![CDATA[<span class="bold">]]><![CDATA[İpucu:]]><![CDATA[</span>]]><![CDATA[ Komşuların Avataria oynayan gerçek arkadaşlarındır.]]></message>
+		
+		<message key="quest11Title">Sıkışık mı? Genişletme Zamanı!</message>
+		<message key="quest11Description">Tek bir odada yaşamaktan sıkışmış mı hissediyorsunuz? Artık yeni bir oda satın almayı ve döşemeyi karşılayabilirsiniz.</message>
+		
+		<message key="quest12Title">Sokak Kanunları</message>
+		<message key="quest12Description">Sokağı temiz tutmak önemlidir. Her gün biraz temizlik yapmayı kendinize görev edinirseniz, hem oturanların minnettarlığını, hem de ilave gümüş para kazanırsınız.</message>
+		
+		<message key="quest13Title">Üçlü</message>
+		<message key="quest13Description">İki oda güzel ama üç daha iyi olur! İşte size başka bir oda satın almak için fırsat. İlave yaşam alanları pek çok kolaylık sağlar - verebileceğiniz partileri düşünün!</message>
+		
+		<message key="quest14Title">Cömert Davranışlar</message>
+		<message key="quest14Description">Kulüpte harika bir parti var. Yeni arkadaşlar edinmek için güzel bir fırsat.</message>
+		
+		<message key="quest15Title">Deneyimsiz bir Bahçıvan</message>
+		<message key="quest15Description">Avataria&apos;da çok güzel bir bahçe açıldı. Burada bitkilere bakmak için bir iş edinmelisiniz! Bir iş, ekstra gümüş kazanmak için harika bir yoldur.</message>
+		
+		<message key="quest16Title">İlk Tadilatlar</message>
+		<message key="quest16Description">Tadilat yapmanın zamanı geldi! Odalardan biriyle başlayalım.</message>
+		<message key="quest16Comment"><![CDATA[<span class="bold">]]><![CDATA[İpucu:]]><![CDATA[</span>]]><![CDATA[ İç görünüşü değiştirmek için “Oda Editörü”nü seç ve satın aldığın eşyaları oradan ekle.]]></message>
+		<message key="quest16Task1Title"><![CDATA[<span class="bold">Duvar kağıdı yerleştirin</span>]]></message>
+		<message key="quest16Task2Title"><![CDATA[<span class="bold">Zemin döşeyin</span>]]></message>
+		
+		<message key="quest17Title">Evim Benim Kalemdir</message>
+		<message key="quest17Description">Yeni bir kapı güzel görünmesinin yanı sıra, eşyalarınızı davetsiz misafirlerden korur.</message>
+		<message key="quest17Task1Title"><![CDATA[<span class="bold">Yeni bir kapı satın alın</span>]]></message>
+		<message key="quest17Task2Title"><![CDATA[<span class="bold">Kapıyı dairenize takın</span>]]></message>
+		
+		<message key="quest18Title">Yaşamaya Bakın!</message>
+		<message key="quest18Description">Gece sizin! Dans pistinde numaralarınızı gösterin!</message>
+		
+		<message key="quest19Title">Aşkın Kanatlarında</message>
+		<message key="quest19Description">Aşk güzel bir şeydir. Mevsim ne olursa olsun, baktığınız her yerde sevgi dolu çiftler vardır. Belki de kendi ruh eşinizi bulmayı düşünmelisiniz.</message>
+		
+		<message key="quest20Title">Ticaret Zamanı!</message>
+		<message key="quest20Description">Arkadaşlarınızdan biri moda bir kıyafet giydiğinizi gördü ve ödünç almak istedi. Neden başka bir şeyle takas etmiyorsunuz?</message>
+		<message key="quest20Task1Title"><![CDATA[<span class="bold">Bir şeyleri bir arkadaşla takas edin</span>]]></message>
+		
+		<message key="quest22Title">Acemi Çiçekçi</message>
+		<message key="quest22Description">Çalışmalarınız boşa gitmiyor; gittikçe daha fazla insan bu harika bahçenin mucizelerini görmeye geliyor. Ama işiniz daha bitmedi.</message>
+		
+		<message key="quest23Title">Yardım Eli Uzatmak</message>
+		<message key="quest23Description">Yardım eli uzatın ve siz de karşılığında yardım alın! Bugün siz komşularınızın temizliğine yardım edersiniz, yarın da onlar buna karşılık verir.</message>
+		
+		<message key="quest26Title">Amatör Bitki Yetiştiricisi</message>
+		<message key="quest26Description">Bahçede çalışmayı sevdiğini görüyorum. Sonuçta zevk aldığınız bir hobiyle uğraşırken, biraz da para kazanmaktan güzel ne olabilir?</message>
+		
+		<message key="quest27Title">Dans Maratonu</message>
+		<message key="quest27Description">Bu gerçek bir dans maratonudur. Herkese şirinliğinizin yanı sıra dans pistinde de gerçek bir yıldız olduğunuzu gösterin!</message>
+		
+		<message key="quest28Title">Havada Aşk Kokusu Var</message>
+		<message key="quest28Description">Bazıları bir öpücük sadece bir öpücüktür der, ama özel bir kişiyle karşılaştığınızda, bir öpücük çok daha fazlasını ifade edebilir.</message>
+		
+		<message key="quest29Title">Banyom</message>
+		<message key="quest29Description">Hijyen, sağlıklı olmanın temelidir! Sabah duş almadan nasıl hijyenik olabilirsiniz? Bir banyoya ihtiyacınız var!</message>
+		<message key="quest29Task1Title"><![CDATA[<span class="bold">Bir banyo kurun</span>]]></message>
+		<message key="quest29Task2Title"><![CDATA[<span class="bold">Bir lavabo yerleştirin</span>]]></message>
+		<message key="quest29Task3Title"><![CDATA[<span class="bold">Bir tuvalet yerleştirin</span>]]></message>
+		<message key="quest29Task4Title"><![CDATA[<span class="bold">Bir ayna yerleştirin</span>]]></message>
+		
+		<message key="quest30Title">Eskilerden Kurtulun</message>
+		<message key="quest30Description">Yakında dolabınız yeni kıyafetlerle dolacak, yani eskilerden kurtulmanız gerektiği anlamına gelmektedir. Bunları satmak çok kazançlı olmasa da, en azından bir sürü yer açabilirsiniz.</message>
+		<message key="quest30Task1Title"><![CDATA[<span class="bold">Bazı kıyafetlerinizi satın</span>]]></message>
+		<message key="quest30Comment"><![CDATA[<span class="bold">İpucu:</span> Bir eşyayı satmak için Eşya Listenizi açın ve eşyalardan biri altındaki Sat üzerine tıklayın.]]></message>
+		
+		<message key="quest31Title">Yeni İmajınız</message>
+		<message key="quest31Description">Yeni fırsatlar mı istiyorsunuz? En popüler kişilerle kaynaşmak, en güzel kıyafetleri gitmek ve her zaman göz önünde olmak mı istiyorsunuz? O zaman, imajınız hakkında düşünmeniz gerekli.</message>
+		<message key="quest31Comment"><![CDATA[<span class="bold">İpucu:</span> Kıyafet mağazasından yeni eşyalar satın alarak 60 imaj puanı biriktirin.]]></message>
+		
+		<message key="quest32Title">Yatağı yerleştirin</message>
+		<message key="quest32Description">Kanepede uyumanın modası geçti, değil mi? Artık büyük ve rahat bir yatağı karşılayabilirsiniz.</message>
+		<message key="quest32Task1Title"><![CDATA[<span class="bold">Bir yatak satın alın</span>]]></message>
+		<message key="quest32Task2Title"><![CDATA[<span class="bold">Yatağı dairenize yerleştirin</span>]]></message>
+		
+		<message key="quest33Title">Yenilenmiş ve Güç Dolu</message>
+		<message key="quest33Description">Her zaman daha fazlasını yapmak istiyorsunuz ama çok fazla güce ve enerjiye ihtiyacınız var.</message>
+		
+		<message key="quest34Title">Yeni bir Konfor Seviyesi</message>
+		<message key="quest34Description">İnsanlar her zaman daha iyisini istiyor, özellikle evdeki konfor konusunda. Sonuçta ev kendinizi rahat ve korunmuş hissettiğiniz yerdir.</message>
+		
+		<message key="quest35Title">Şansınızı Deneyin!</message>
+		<message key="quest35Description">Şanslı mı hissediyorsunuz? Devam edin ve Şans Çarkı&apos;nı çevirin!</message>
+		
+		<message key="quest36Title">İmaj Değişikliği</message>
+		<message key="quest36Description">İmajınızı değiştirme zamanı geldi. Yeni seviyeler, yeni başarılar ve pek çok çılgın parti sizi bekliyor! Yeni arkadaşlıkların ve duygu fırtınasının beklediğini de söylemeye gerek yok!</message>
+		
+		<message key="quest37Title">Temizlik Mücadelesi</message>
+		<message key="quest37Description">Sokaklar sürekli bakım gerektirmektedir. Temiz kalmaları tamamen size bağlıdır. Tüm oturanlar kendi üstüne düşeni yapmalıdır.</message>
+		
+		<message key="quest38Title">Vahşi Alışveriş</message>
+		<message key="quest38Description">Kıyafet dolabınızı yenilemenin zamanı geldi. Herşey bitmeden hemen mağazaya koşturun!</message>
+		<message key="quest38Task1Title"><![CDATA[<span class="bold">Bir çift ayakkabı satın alın</span>]]></message>
+		<message key="quest38Task2Title"><![CDATA[<span class="bold">Bir pantolon veya şort satın alın</span>]]></message>
+		<message key="quest38Task3Title"><![CDATA[<span class="bold">Bir gömlek veya tişört satın alın</span>]]></message>
+		<message key="quest38Task4Title"><![CDATA[<span class="bold">Bir mont satın alın</span>]]></message>
+		
+		<message key="quest39Task2Title"><![CDATA[<span class="bold">Bir pantolon veya etek satın alın</span>]]></message>
+		<message key="quest39Task3Title"><![CDATA[<span class="bold">Bir gömlek satın alın</span>]]></message>
+		
+		<message key="quest40Title">Köpüklü Senfoni</message>
+		<message key="quest40Description">Sadece bir kaç aksesuar ekleyerek banyonuzu çok daha lüks hale getirebilirsiniz.</message>
+		<message key="quest40Task1Title"><![CDATA[<span class="bold">Banyoya 3 adet aksesuar yerleştirin</span>]]></message>
+		<message key="quest40Task2Title"><![CDATA[<span class="bold">Banyoya bir dolap yerleştirin</span>]]></message>
+		
+		<message key="quest41Title">Acemi Şansı!</message>
+		<message key="quest41Description">Şans Çarkını zaten çevirdiniz, ancak bu sefer görevi tamamlamak için pek çok defa kazanmanız gerekmektedir.</message>
+		
+		<message key="quest42Title">Konforlu Hayat</message>
+		<message key="quest42Description">Daireniz gözlerinizin önünde değişiyor. Sadece sizinki değil, tüm etrafınızdakiler değişiyor. Ancak sonraki konfor seviyesine ulaşmak için hala yapmanız gereken çok iş var. Hepsi size bağlı!</message>
+		
+		<message key="quest43Title">Biriktirin!</message>
+		<message key="quest43Description">Büyük planlar çok fazla nakit gerektirir. Ama sonuçları gördüğünüzde, tüm bu zorlu çalışmaya değecek.</message>
+		
+		<message key="quest44Title">İç mekan</message>
+		<message key="quest44Description">Devam edin ve dairenizin içinde denemeler yapın. İhtiyacınız olabilecek herşey Mobilya Mağazasında bulunmaktadır!</message>
+		<message key="quest44Task1Title"><![CDATA[<span class="bold">Bir yer lambası yerleştirin</span>]]></message>
+		<message key="quest44Task2Title"><![CDATA[<span class="bold">Bir duvar lambası asın</span>]]></message>
+		<message key="quest44Task3Title"><![CDATA[<span class="bold">Bir vazo yerleştirin</span>]]></message>
+		
+		<message key="quest45Title">Güzellik Ayrıntılardadır</message>
+		<message key="quest45Description">Kıyafet Mağazasında pek çok yaratıcı aksesuar bulabilirsiniz. İmajınızı geliştirmek için bu fırsatı kaçırmayın!</message>
+		<message key="quest45Task1Title"><![CDATA[<span class="bold">3 tane aksesuar satın alın</span>]]></message>
+		
+		<message key="quest46Title">Ortak Yardım</message>
+		<message key="quest46Description">Yapılması gereken çok iş var. Bazen bir bölgeyi temizlediğinizde bir başkasının kirlendiği hissi gelmektedir. Bu kadar endişelendiğiniz yeter: komşularınız nerede?</message>
+		
+		<message key="quest47Title">İmaj Herşeydir!</message>
+		<message key="quest47Description">İmajınız üzerine çok çalıştınız ve oldukça fazla yol kat ettiniz. Yine de aşılması gereken daha yüksek hedefler var!</message>
+		
+		<message key="quest48Title">Kumbara</message>
+		<message key="quest48Description">Paranın oldukça çabuk harcanma potansiyeli vardır, dolayısıyla tasarrufa başlamak için bir kumbaraya ihtiyacınız olacak. Üç litrelik bir tanesi işinizi görecektir!</message>
+		
+		<message key="quest49Title">2 + 2 = 4</message>
+		<message key="quest49Description">Herkes bunu bilir! Artık dördüncü bir odayı alabilecek durumdasınız. Geniş, aydınlık ve ferah bir tane.</message>
+		
+		<message key="quest50Title">Mutfak Tasarımı</message>
+		<message key="quest50Description">Artık bir tanesini mutfağa dönüştürmek için yeterli odaya sahipsiniz. Koltukta yemek yerine mutfak masasında yemek çok daha rahat olacaktır.</message>
+		<message key="quest50Task1Title"><![CDATA[<span class="bold">5 mutfak modülü yerleştirin</span>]]></message>
+		<message key="quest50Task2Title"><![CDATA[<span class="bold">Bir mutfak masası yerleştirin</span>]]></message>
+		<message key="quest50Task3Title"><![CDATA[<span class="bold">2 mutfak sandalyesi yerleştirin</span>]]></message>
+		
+		<message key="quest51Title">Mutfak Dekoru</message>
+		<message key="quest51Description">Birkaç tane şık aksesuar, mutfağınızı eşsiz kılacaktır. Mobilya Mağazasından mutfak dekorlarını alabilirsiniz.</message>
+		<message key="quest51Task1Title"><![CDATA[<span class="bold">Mutfak için 3 adte dekorasyon eşyası satın alın</span>]]></message>
+		
+		<message key="quest52Title">Kirden kurtulun!</message>
+		<message key="quest52Description">Dünkü sağanak yağmurdan ve kasırgaya benzer rüzgardan sonra, sokağımızda kocaman bir kargaşa var. Tam size göre bir iş.</message>
+		
+		<message key="quest53Title">Enerji verici</message>
+		<message key="quest53Description">Herşey için gerekli zamanı ve enerjiyi nereden bulacaksınız? Yapılacak çok fazla iş var ve bunun için çok az zaman var.</message>
+		
+		<message key="quest54Title">Şanslı</message>
+		<message key="quest54Description">Şans Çarkını çevirin ve kazanın! Yüzlerce gümüş para kazanma fırsatını kaçırmayın.</message>
+		
+		<message key="quest55Title">Huzur ve Konfor</message>
+		<message key="quest55Description">Huzur ve konfor. Konfor ve huzur. Dairenizde ne kadar huzurlu ve rahat hissediyorsunuz?</message>
+		
+		<message key="quest57Title">Parti Kralı</message>
+		<message key="quest57Description">Dans edebildiğinizi mi düşünüyorsunuz? İspatlayın!</message>
+		
+		<message key="quest58Title">Bahçıvan Ustası</message>
+		<message key="quest58Description">Tüm bahçe görevlerini kolaylıkla tamamlıyorsunuz. Oldukça iyi, çünkü işler her gün yığılmaya devbam ediyor.</message>
+		
+		<message key="quest59Title">Yardım Geliyor!</message>
+		<message key="quest59Description">Komşularınızın dairelerinde her zaman yapılacak işler vardır. Daha fazla komşunuz oldukça ,daha fazla iş var demektir.</message>
+		
+		<message key="quest60Title">Değişiklik En İyisi</message>
+		<message key="quest60Description">Zaman geçiyor, herşey değişiyor ve herkes başarınızı görüyor. Artık imajınız sizin için iş görüyor. Ama çok da hafife almamalısınız!</message>
+		
+		<message key="quest61Title">Baştan Çıkarma Sanatı</message>
+		<message key="quest61Description">Aşk sanatında uzman olduğunuzu düşünüyorsanız, bir daha düşünün! Hala keşfedilmesi gereken pek çok sır ve gizem mevcuttur.</message>
+		
+		<message key="quest62Title">Hedef Samimiyet</message>
+		<message key="quest62Description">Dairenizi çok daha samimi bir hale getirmek için Mobilya Mağazasında hala pek çok eşya mevcut. Bir fırsatınız olduğunda uğrayın ve gözünüze çarpanları satın alın.</message>
+		<message key="quest62Task1Title"><![CDATA[<span class="bold">Bir kilim yerleştirin</span>]]></message>
+		<message key="quest62Task2Title"><![CDATA[<span class="bold">2 koltuk yerleştirin</span>]]></message>
+		<message key="quest62Task3Title"><![CDATA[<span class="bold">Bir kanepe yerleştirin</span>]]></message>
+		<message key="quest62Comment"><![CDATA[<span class="bold">İpucu:</span> Görevi tamamlamak için tüm mobilya parçalarını aynı odaya yerleştirmelisiniz.]]></message>
+		
+		<message key="quest63Title">İlginç Bağlar</message>
+		<message key="quest63Description">Yeni arkadaşlarla nerede karşılaşacağınızı asla bilemezsiniz. Ancak önemli olan bu değildir. Önemli olan bir arkadaşın sizi asla yarı yolda bırakmayacağı ve ihtiyaç duyduğunuzda yanınızda olacağıdır.</message>
+		
+		<message key="quest64Title">Yastık Altı</message>
+		<message key="quest64Description">Çok moda olmayabilir ama biraz tasarruf etmeye karşı çıkamazsınız. Banka uzakta, ama evinizde en azından tüm paranız bir yerde duruyor.</message>
+		
+		<message key="quest65Title">Temiz Sokaklar</message>
+		<message key="quest65Description">Her gün sokakları temiz tutmak için mücadele ediyorsunuz, ancak bu mücadelenin yarın da devam edeceğini biliyorsunuz. Sonraki gün. ve ondan sonraki gün. Ancak en azından bugün için sokaklar pırıl pırıl ve hepsi sizin sayenizde.</message>
+		
+		<message key="quest66Title">Sürekli Çalışan Motor</message>
+		<message key="quest66Description">Durmadan çalışan motorlar ne zaman icat edilecek? Daha da iyisi, tüm insanların işlerini yapan robotlardır. O zaman sonunda içimizden geçenleri yapabileceğiz!</message>
+		
+		<message key="quest67Title">Altın Nal</message>
+		<message key="quest67Description">Talihiniz bugün sizin için ne getirdi görelim. Bir kez daha büyük ödülü alabilecek misiniz? Bunu ancak zaman gösterir.</message>
+		
+		<message key="quest68Title">Sıcak bir Yuva</message>
+		<message key="quest68Description">Burası, yorucu bir günün ardından dinlendiğiniz yerdir. Bazen de sıradan işler çok fazla geldiğinde, burada parti düzenlersiniz. Ama ne olursa olsun, her zaman buraya geri gelirsiniz. Çünkü burası sizin eviniz. Sıcak yuvanız.</message>
+		
+		<message key="quest70Title">Evim Güzel Evim</message>
+		<message key="quest70Description">Başardınız! Artık sıcak daireniz için yeni bir oda satın almayı karşılayabilirsiniz.</message>
+		
+		<message key="quest71Title">Kapıların Değiştirilmesi</message>
+		<message key="quest71Description">Dairenizdeki odaları birleştiren bu çirkin kapılara bakmaktan yorulmadınız mı? Biraz harcama yapmanın ve bu kapıları şık bir şeylerle değiştirmenin zamanı geldi.</message>
+		<message key="quest71Task1Title"><![CDATA[<span class="bold">2 farklı kapı satın alın</span>]]></message>
+		<message key="quest71Task2Title"><![CDATA[<span class="bold">Dairedeki 2 kapıyı da değiştirin</span>]]></message>
+		<message key="quest71Comment"><![CDATA[<span class="bold">İpucu:</span> Görevin tamamlanması için 2 kapının da ana odaya takılması gereklidir.]]></message>
+		
+		<message key="quest72Title">Pencerelerin Takılması</message>
+		<message key="quest72Description">Pencereler daireyi daha aydınlık ve içinde yaşamayı daha keyifli hale getirir. Ne dediniz? Hala pencereniz yok mu? Dert etmeyin, bunu halledebiliriz.</message>
+		<message key="quest72Task1Title"><![CDATA[<span class="bold">3 tane pencere satın alın</span>]]></message>
+		<message key="quest72Task2Title"><![CDATA[<span class="bold">3 pencereyi de daireye takın</span>]]></message>
+		<message key="quest72Comment"><![CDATA[<span class="bold">İpucu:</span> Görevin tamamlanması için 3 pencerenin de ana odaya takılması gereklidir.]]></message>
+		
+		<message key="quest73Title">Bahçe İşleri</message>
+		<message key="quest73Description">Bugün bahçede yoğun bir iş yığını sizi bekliyor. Ancak alacağınız ödeme bu çabaya değecek. Bu zorluğun üstesinden gelmeye hazır mısınız?</message>
+		
+		<message key="quest74Title">Bahar Temizliği</message>
+		<message key="quest74Description">Binanızda bahar temizliği var, sizin de kirleri ve karışıklığı temizlemek için sıkı çalışmanız gerektiği anlamına geliyor.</message>
+		
+		<message key="quest75Title">Yüksek Sosyete</message>
+		<message key="quest75Description">Yakında elit sosyeteye erişim kazanacaksınız. İlginç insanları ve arkadaşlarını tanımak için büyük bir fırsat. Biraz göz korkutucu olabilir ama bana güven, buna değecek.</message>
+		
+		<message key="quest76Title">Cebinizdeki Banka</message>
+		<message key="quest76Description">Diğerleri zar zor kazandığı parayı düşüncesizce harcarken, siz daha parlak bir gelecek için kenara birşeyler koymaya çalışıyorsunuz. Akıllıca bir karar.</message>
+		
+		<message key="quest77Title">Düşene Kadar Dans</message>
+		<message key="quest77Description">En özel kulüpler kapılarını sizin için açıyor. Ne gerekiyorsa yapmaya hazır mısınız? Dans maratonu başladı!</message>
+		
+		<message key="quest78Title">Mutluluk</message>
+		<message key="quest78Description">Kendi Jakuzinizde rahatlayabildiğiniz için çok şanslısınız. Ne, yoksa bir Jakuziniz yok mu? Hemen Mobilya Mağazasına giin!</message>
+		<message key="quest78Task1Title"><![CDATA[<span class="bold">Bir Jakuzi satın alın</span>]]></message>
+		<message key="quest78Task2Title"><![CDATA[<span class="bold">Jakuziyi dairenize monte edin</span>]]></message>
+		
+		<message key="quest79Title">Plaj Sezonu</message>
+		<message key="quest79boyDescription">Normal kıyafetlerinizle yüzmeyeceksiniz, değil mi? Ya da kıyafetsiz? Bu sezonun Mayoları artık Kıyafet Mağazasında mevcut!</message>
+		<message key="quest79girlDescription">Normal kıyafetlerinizle yüzmeyeceksiniz, değil mi? Ya da kıyafetsiz? Bu sezonun Mayoları artık Kıyafet Mağazasında mevcut!</message>
+		<message key="quest79boyTask1Title"><![CDATA[<span class="bold">Bir şort mayo satın alın</span>]]></message>
+		<message key="quest79girlTask1Title"><![CDATA[<span class="bold">Bir mayo satın alın</span>]]></message>
+		
+		<message key="quest80Title">Korsan Kostümü</message>
+		<message key="quest80Description">Yo ho ho! Kısa bir süre için bile korsan gibi hissetmek istiyorsanız, bir korsan kostümüne ihtiyacınız olacak. Gerisi hayal gücünüze kalmış!</message>
+		<message key="quest80boyTask1Title"><![CDATA[<span class="bold">Üç köşeli bir korsan şapkası satın alın</span>]]></message>
+		<message key="quest80boyTask2Title"><![CDATA[<span class="bold">Bir korsan göz bandı satın alın</span>]]></message>
+		<message key="quest80boyTask3Title"><![CDATA[<span class="bold">Bir küpe satın alın</span>]]></message>
+		<message key="quest80boyTask4Title"><![CDATA[<span class="bold">Kıvrılmış pantolon satın alın</span>]]></message>
+		<message key="quest80boyTask5Title"><![CDATA[<span class="bold">Fermuarlı, siyah bir mont satın alın</span>]]></message>
+		
+		<message key="quest80girlTask2Title"><![CDATA[<span class="bold">Siyah bir pantolon satın alın</span>]]></message>
+		<message key="quest80girlTask3Title"><![CDATA[<span class="bold">Siyah bir mont satın alın</span>]]></message>
+		<message key="quest80girlTask4Title"><![CDATA[<span class="bold">Siyah cilalı bir bot satın alın</span>]]></message>
+		<message key="quest80girlTask5Title"><![CDATA[<span class="bold">Bir bikini üstü satın alın</span>]]></message>
+		
+		<message key="quest81Title">Kıyafet Dolabınıza Ekleme Yapma</message>
+		<message key="quest81Description">Belirli olaylar için farklı kıyafetler giymenize imkan sağlayan bir dolaba sahip olmak güzeldir. Ancak, ara sıra eklemeler yapmanız gerekir.</message>
+		<message key="quest81Task1Title"><![CDATA[<span class="bold">Yeni ayakkabılar satın alın</span>]]></message>
+		<message key="quest81Task2Title"><![CDATA[<span class="bold">Bir pantolon veya şort satın alın</span>]]></message>
+		<message key="quest81Task3Title"><![CDATA[<span class="bold">Yeni gömlekler ve tişörtler satın alın</span>]]></message>
+		<message key="quest81Task4Title"><![CDATA[<span class="bold">Yeni pantolonlar ve etekler satın alın</span>]]></message>
+		<message key="quest81Task5Title"><![CDATA[<span class="bold">Yeni gömlekler satın alın</span>]]></message>
+		
+		<message key="quest87Title">Hayatta Her Şey Olur</message>
+		<message key="quest87Description">Hayatta her şey olur, dolayısıyla duygularınızı içinize atmayın. Birileri sizi anlamazsa da dert etmeyin.</message>
+		<message key="quest87Task1Title"><![CDATA[<span class="bold">Meydanda sinirlenin</span>]]></message>
+		<message key="quest87Task2Title"><![CDATA[<span class="bold">Parkta ağlayın</span>]]></message>
+		<message key="quest87Comment"><![CDATA[<span class="bold">İpucu:</span> "Sinirlen" ve "ağla" komutlarını avatarınızın üzerine tıklayarak bulabilirsiniz.]]></message>
+		
+		<message key="quest88Title">Duygularınızı İfade Etme</message>
+		<message key="quest88Description">Diğer avatarlara karşı duygularınızı ve davranış şeklinizi farklı şekillerde ifade edebilirsiniz. Bunun için eksiksiz duygu ve eylem özellikleri mevcuttur. Ancak, yaptıklarınız başkalarıyla ilişkinize olumlu yansıyabileceğini veya zarar verebileceğini unutmayın.</message>
+		
+		<message key="quest89Title">Jakuzide Yüzme</message>
+		<message key="quest89Description">Haydi Jakuzide kendimizi suya bırakalım!</message>
+		<message key="quest89Task1Title"><![CDATA[<span class="bold">Jakuzide Rahatlayın</span>]]></message>
+		
+		<message key="quest90Title">Bir adın ne anlamı var?</message>
+		<message key="quest90Description">Odalarınızın adlarını istediğiniz zaman değiştirebilirsiniz. Haydi şimdi yapın!</message>
+		<message key="quest90Task1Title"><![CDATA[<span class="bold">Bir odanın adını değiştirin</span>]]></message>
+		<message key="quest90Comment"><![CDATA[<span class="bold">İpucu:</span> Bir odanın adını değiştirmek için, büyüteç simgesine tıklayın ve ardından odalardanbiri altındaki Yeniden Adlandır öğesine tıklayın.]]></message>
+		
+		<message key="quest91Title">Evde Tek Başına</message>
+		<message key="quest91Description">Kendi başınıza biraz zaman geçirmeye karar verirseniz, herhangi bir zamanda dairenizi kitleyebilir ve kimsenin girmesine izin vermeyebilirsiniz.</message>
+		<message key="quest91Task1Title"><![CDATA[<span class="bold">Ziyaretleri önlemek için dairenizi kilitleyin</span>]]></message>
+		<message key="quest91Comment"><![CDATA[<span class="bold">İpucu:</span> Daireyi kilitlemek için, büyüteç simgesine tıklayın ve ardından Daireyi Kilitle üzerine tıklayın.]]></message>
+		
+		<message key="quest92Title">Davet Edin</message>
+		<message key="quest92Description">Yalnız hissetmekten yoruldunuz mu? Evde yapayalnız oturmaktan sıkıldınız mı? Dairenizin kilidini açın, böylece arkadaşlarınız sizi ziyarete gelebilir!</message>
+		<message key="quest92Task1Title"><![CDATA[<span class="bold">Ziyaretleri izin vermek için dairenizin kilidini açın</span>]]></message>
+		<message key="quest92Comment"><![CDATA[<span class="bold">İpucu:</span> Daireyi kilidini açmak için, büyüteç simgesine tıklayın ve ardından Dairenin Kilidini Aç üzerine tıklayın.]]></message>
+		
+		<message key="quest93Title">Sokakları Temizleyin</message>
+		<message key="quest93Description">Sokaktaki tüm çöplere bakın! Yorgun olduğunuzu biliyorum ama sokakları temiz tutmaya yardımcı olmak her vatandaşın vazifesidir.</message>
+		 
+		<message key="quest94Title">Temizlik İçin!</message>
+		
+		<message key="quest99Title">Son Yabani Ota Kadar</message>
+		<message key="quest99Description">Off! Bahçe otlarla kaplanmış! Bunun oldukça zor olduğunu biliyorum ama güzel bir bahçeye katkı sağlamak her vatandaşın görevidir!</message>
+		
+		<message key="quest105Title">En İyinin İyisi</message>
+		<message key="quest105Description">Kendinizi diğerlerinden ayırmak için bir fırsatınız var ve bunu yaparken bir ödül kazanın. Elinizden gelenin en iyisini yapın!</message>
+		 
+		<message key="quest108Title">En İyi Bahçıvan</message>
+		<message key="quest108Description">Bahçe görevlerini en iyi kim yapıyor? Sıkı çalışması karşılığında kim bonus kazanmak ister?</message>
+		 
+		<message key="quest111Title">İyi Dinlenmiş Çalışan</message>
+		<message key="quest111Description">Bahçede yapılacak bir sürü iş var, ama iyice dinlendiğinizden ve vardiyalar arasında kuvvetinizi tekrar kazandığınızdan emin olun.</message>
+		
+		<message key="quest112Title">Güzellik ve Konfor</message>
+		<message key="quest112Description">Görevi tamamlamak için Mobilya Mağazasını ziyaret etmeli ve ardından dairenizin dekorasyonu üzerine çalışmalısınız.</message>
+		<message key="quest112Task2Title"><![CDATA[<span class="bold">Bir odaya 3 tane vazo yerleştirin</span>]]></message>
+		
+		<message key="quest113Title">Döndürme Anı</message>
+		<message key="quest113Description">Şansınızın nasıl olduğunu görme zamanı geldi! Şans Çarkını çevirin ve şans yüzünüze gülüyor mu öğrenin!</message>
+		
+		<message key="quest114Title">Yeni İnsanlarla Tanışma</message>
+		<message key="quest114Description">Yeni insanlarla tanışmanızın zamanı geldi, bunu yapmak için Kulüp veya Kafeden daha iyi bir yer yoktur.</message>
+		
+		<message key="quest115Title">Hayta</message>
+		<message key="quest115Description">Haydi biraz belaya bulaşalım, ne dersiniz?</message>
+		
+		<message key="quest116Title">Temizleme</message>
+		<message key="quest116Description">Komşularınızın yine yardıma ihtiyacı var. Yardım eli uzatır mısınız?</message>
+		
+		<message key="quest117Title">Hayatın Zevkleri</message>
+		<message key="quest117Description">İşler bitti, şimdi eğlence zamanı. Biraz rahatlamanın ve kendinize gelmenin zamanı geldi.</message>
+		
+		<message key="quest118Title">Bahçıvanlık</message>
+		<message key="quest118Description">Yerel bahçıvanlık kurumu size yeni hedefler ve görevler verdi. Güzel bir ödül kazanmak için bunları tamamlayın.</message>
+		
+		<message key="quest119Title">Mükemmel İmajın Peşinde</message>
+		<message key="quest119Description">Moda sürekli değişiyor, dolayısıyla sizin imajınız da. Trendleri belirleyen sizin gibi insanlardır!</message>
+		
+		<message key="quest120Title">Sandık</message>
+		<message key="quest120Description">Tasarruf edilen bir kuruş, kazanılmış bir kuruştur! Bu yüzden zorlukla kazandığınız paranızı israf etmeyin. Zor günler için tasarruf yapın!</message>
+		
+		<message key="quest121Title">Hayat bir Danstır</message>
+		<message key="quest121Description">Nerede istiyorsanız orada dans edin! Kulüpte, Kafede veya Sokaklarda, diğer insanlar da size katılacaktır!</message>
+		<message key="quest121Comment"><![CDATA[<span class="bold">]]><![CDATA[İpucu:]]><![CDATA[</span>]]><![CDATA[ Dans etmeye başlamak için avatarını seç ve “Dans Et” seçeneğine tıkla.]]></message>
+
+		<message key="quest133Title">Hediye Verin!</message>
+		<message key="quest133Description">Vermek almaktan daha iyidir. Birilerine sizin için ne kadar özel olduklarını gösterme zamanı geldi!</message>
+		
+		<message key="quest134Title">Cam Eşyalar</message>
+		<message key="quest134Description">Sokağı temizlerken, atölyenize yerleştirmek üzere pek çok kullanışlı eşya bulabilirsiniz.</message>
+		
+		<message key="quest135Title">Mutluluk Veren Tatlılar</message>
+		<message key="quest135Description">Kafe pek çok insanı kendine çekmektedir. Bazıları bir fincan kahve eşliğinde sohbet etmek için, bazıları da pasta fırlatmaya gelir.</message>
+		
+		<message key="quest136Title">Talih Kuşu</message>
+		<message key="quest136Description">Şans Çarkı, çok çaba göstermeden büyük paralar kazanma fırsatıdır. Gereken tek şey birazcık şans!</message>
+		
+		<message key="quest137Title">Her Evde Sıcaklık</message>
+		<message key="quest137Description">Bir şömine sıcaklık ve rahatlık verir, zenginliğinize katkısından bahsetmeye gerek bile yok. En sevdiğiniz koltuğunuzda sıcak bir battaniye sarındığınız uzun kış akşamlarını düşünün!</message>
+		<message key="quest137Task2Title"><![CDATA[<span class="bold">Bir şömine yerleştirin</span>]]></message>
+		
+		<message key="quest138Title">Sert oyuncu</message>
+		<message key="quest138Description">Sizin için zamanın veya hava durumunun önemi yok, her zaman çalışmaya hazırsınız, başkaları da sizi örnek alıyor. Gurur duymalısınız!</message>
+		 
+		<message key="quest139Title">Toplayıcı</message>
+		<message key="quest139Description">İşleri yapmak ve oyundaki çeşitli işlemleri tamamlamak, atölyede kullanmanız için çeşitli malzemeler kazandıracaktır.
+Bazı malzemeleri biriktirmeye başlayalım, daha sonra oldukça faydalı olacaklar.</message>
+		
+		<message key="quest140Title">Peluş Oyuncak</message>
+		<message key="quest140Description">Bir atölyeniz olduğunda, kendi ellerinizle hediye yapmak çok kolaydır. Birisinin evini ziyaret ettiğinizde dairesinin sizin yaptığınız hediyelerle dekore edildiğini görmenin keyfini düşünün!</message>
+		<message key="quest140Task2Title"><![CDATA[<span class="bold">Ayıyı birisine hediye olarak verin</span>]]></message>
+		
+		<message key="quest141Title">Mutluluk Arayışında</message>
+		<message key="quest141Description">Mutluluk… Sizin için ne anlama geliyor? Başkaları için güzel şeyler yapmaktan keyif alıyor musunuz? Yoksa hayat hakkında farklı görüşleriniz mi var?</message>
+		
+		<message key="quest142Title">Sarılma ve Öpücükler</message>
+		<message key="quest142Description">Arkadaşça bir kucaklama, arkadaşça bir öpücük… Belki de arkadaşçadan daha öte? Hayatınızın aşkı olabilir mi?</message>
+		
+		<message key="quest143Title">Teknolojik Ev Aletleri</message>
+		<message key="quest143Description">Teknolojik ev aletleri dairenizi geliştirmenin yanı sıra, çok daha işlevsel hale getirecektir. Eğlenceli televizyon programları izlemek veya sevdiğiniz parçaları dinlemek yorgun olduğunuz süreyi değiştirecektir.</message>
+		<message key="quest143Task1Title"><![CDATA[<span class="bold">Bir televizyon satın alın</span>]]></message>
+		<message key="quest143Task2Title"><![CDATA[<span class="bold">Bir müzik merkezi satın alın</span>]]></message>
+		<message key="quest143Task3Title"><![CDATA[<span class="bold">2 tane hoparlör satın alın</span>]]></message>
+		
+		<message key="quest151Title">Tüylü Mucize</message>
+		<message key="quest151Description">İyi bir yastık savaşı iyi bir yastıkla başlar. Bazen yastıklardan tüyler uçuşur ve bunları atölyede kullanabilirsiniz.</message>
+		
+		<message key="quest152Title">Zarif Giyinme</message>
+		<message key="quest152Description">En son modayı takip etmek her rüküşün hedefidir, değil mi?</message>
+		
+		<message key="quest153Title">Para Şıngırtısı</message>
+		<message key="quest153Description">Şanslı para elde etme fırsatı olunca, komşuların evini temizlemek çok daha kazançlı olabilir. Mutluluk, biz geliyoruz!</message>
+		
+		<message key="quest154Title">Eğlenmenize Bakın</message>
+		<message key="quest154Description">İş bitti, eğlenmenize bakın. Biraz kötü davranma zamanı geldi!</message>
+		
+		<message key="quest155Title">Beden ve Ruh</message>
+		<message key="quest155Description">Kulüp ve Kafe iyi vakit geçirmek için en popüler ve eğlenceli yerlerdir. Neden şimdi uğramıyorsunuz?</message>
+		
+		<message key="quest156Title">Şans Çarkı</message>
+		<message key="quest156Description">Şans Çarkı, bir tur döndürerek herşeyi kazanabileceğiniz bir şans oyunudur!</message>
+		
+		<message key="quest157Title">Enerji Yüklemesi</message>
+		<message key="quest157Description">Bu görev tamamen enerjiye yöneliktir. Atölyede çalışmanız ve kendi enerji kaynaklarınızı oluşturma yolunu aramalısınız.</message>
+		
+		<message key="quest158Title">Ruhunuz için Tatil</message>
+		<message key="quest158Description">Kafede en lezzetli börekler satılmaktadır ve pizzası sanki bu dünyanın dışından gelmekte! Ayrıca kahvesi… aroması sizi çılgına çevirecek!</message>
+		
+		<message key="quest159Title">Endişe Yok, Mutlu Olun!</message>
+		<message key="quest159Description">Mutlu olmak mı istiyorsunuz? Devam edin!</message>
+		
+		<message key="quest160Title">Faydalı Bulunanlar</message>
+		<message key="quest160Description">Birisinin çöpü bir başkasının hazinesidir! Temizlik sırasında pek çok faydalı eşya bulunabilir.</message>
+		
+		<message key="quest161Title">Önemli Misafirler</message>
+		<message key="quest161Description">Artık bir parti düzenlemek için harika bir zaman. Pek çok kişiyi davet ettiğinizden emin olun ve harika zaman geçirmeye hazır olun!</message>
+		
+		<message key="quest162Title">Boom!</message>
+		<message key="quest162Description">Bazıları eğlence der, bazıları kötü davranış. Ne olursa olsun, boya bombaları yerleştirmek ve insanların üzerine oturmasını beklemek oldukça eğlencelidir!</message>
+		 
+		<message key="quest165Title">Bakım</message>
+		<message key="quest165Description">İnsanlara sıcaklık ve ilgi göstermek insanlığın temel amacıdır. Sonuçta, başkasını güzel sözlerle ve içten duygularla desteklemezsek, iyi bir şeyler başaramayız!</message>
+		
+		<message key="quest166Title">Labirent</message>
+		<message key="quest166Description">Koltuklar, sandalyeler ve yatakların oluşturduğu labirentte kaybolmadıığnız sürece çok fazla oda olması gibisi yoktur!</message>
+		
+		<message key="quest167Title">El işçiliği</message>
+		<message key="quest167Description">Mağazada pek çok kaliteli eşya satılmaktadır. Ancak, siz de Atölyede kendi başınıza bir sürü kaliteli eşya yapabilirsiniz.</message>
+		
+		<message key="quest168Title">Çiçek Maratonu</message>
+		<message key="quest168Description">Eksiksiz bir masa vazosu koleksiyonu oluşturmak güzel olacaktır.</message>
+		
+		<message key="quest169Title">Sağlıklı bir Diyet</message>
+		<message key="quest169Description">Her zaman soğuk ama sahip olduğu her şeyi vermeye hazır olan şey nedir? Bir buzdolabı! Mutfağınızın ruhu, sevdiğiniz lezzetlerin yuvasıdır.</message>
+		
+		<message key="quest170Title">Sanat</message>
+		<message key="quest170Description">Düz bir duvar kağıdı kolayca eskiyebilir, ama düzeltmesi de çok kolaydır! Hediye ve şaka mağazasına gidin, bir kaç kutu sprey boya alın ve duvara çarpıcı bir grafiti çizin!</message>
+		
+		<message key="quest171Title">Kendi Dekorlarınız</message>
+		<message key="quest171Description">Harika bir dekorasyon fikriniz var. Bu planlarınızı gerçeğe dönüştürmenin en iyi yeri atölyedir.</message>
+		
+		<message key="quest172Title">Çarkı Çevirin!</message>
+		<message key="quest172Description">Hemen oynayın, şans yüzünüze gülebilir!</message>
+		
+		<message key="quest173Title">Sermaye</message>
+		<message key="quest173Description">Tüm tasarrufunuzu bir dolapta saklamak çok akıllıca değildir. Paranızı boş yere harcamadan saklamak için neden Atölyede bir para kasası yapmıyorsunuz?</message>
+		
+		<message key="quest174Title">Hain</message>
+		<message key="quest174Description">Başkalarını eğlendirmek için deponuzda her zaman oyunlar ve şakalar var. Sadece izleyin ve gülmekten ölmemeye dikkat edin!</message>
+		
+		<message key="quest175Title">Arkadaş Yardımı</message>
+		<message key="quest175Description">Komşunuzdaki çılgın partiden sonra, çöp yığınları birikti. Ancak, tüm bu dağınık çöpler arasından, bazen değerli bir şeyler bulabilirsiniz.</message>
+		
+		<message key="quest176Title">Favori Bahçe</message>
+		<message key="quest176Description">Bahçede bir ağacın gölgesinde zaman geçirmek ne kadar da keyiflidir! Ancak böyle güzel anlar uzun ve meşakkatli çalışma sonucu mümkün olmaktadır.</message>
+		
+		<message key="quest177Title">Sokağımız</message>
+		<message key="quest177Description">Sokağımız bir kez daha çöplerle dolmuş, temizlik arayışınız için aşılması gereken koca bir dağ daha anlamına gelmektedir. Ama bu ilk sefer değil, son sefer de olmayacak.</message>
+		
+		<message key="quest178Title">Yedek Olarak</message>
+		<message key="quest178Description">Bugün çok daha fazla iş bitirmeyi planlıyordunuz, ama artık geç oldu ve mecaliniz kalmadı. Akşamınızın kalan kısmını sevdiğiniz bir şeyler yaparak geçirmek istiyorsunuz.
+Neyse ki, gücünüzü ve enerjinizi yerine getirecek bir şeyler yapabilirsiniz.</message>
+		
+		<message key="quest179Title">Çiçekten Çiçeğe</message>
+		<message key="quest179Description">Arkadaşlarınızla bir kelebek koleksiyonu yapabileceğinize dair iddiaya girdiniz. Ne kadar fazla yakalarsanız, iddiayı kazanma şansınız da o kadar artar.</message>
+		
+		<message key="quest180Title">Zafer Şarkıları</message>
+		<message key="quest180Description">Gevşemenin zamanı değil, yeni zaferler bekliyor! Bir yastık savaşı zaferi bazıları için çok anlamlı olmayabilir, ama sizin için zor kazanılmış her zaferin bir anlamı vardır.</message>
+		
+		<message key="quest181Title">Mum ışığı</message>
+		<message key="quest181Description">Mumları odaya yerleştirin ve yakın. Acele etmeyin, zaman ayırın. Işıkları kapatın ve sakin, sessiz karanlığın keyfini sürün. Oh, mumlar nerede?</message>
+		<message key="quest181Task2Title"><![CDATA[<span class="bold">Mumları odalardan birine yerleştirin</span>]]></message>
+		
+		<message key="quest182Title">Şanslı Çipler</message>
+		<message key="quest182Description">Şans çok değişkendir. Bugün sizin yanınızdayken, yarın sizi terk edebilir. Ama dert etmeyin, her deneme sizi zengin yapabilir!</message>
+		
+		<message key="quest183Title">Fotoğraf Hafızası</message>
+		<message key="quest183Description">Çok fazla odanız olması güzeldir. Böylece herkesin kolayca görmesi için tüm fotoğraflarınızı koyabilirsiniz.</message>
+		
+		<message key="quest184Title">Maskaralık</message>
+		<message key="quest184Description">Şakalar çok eğlencelidir, özellikle iki kişi karşılıklı yapıyorsa. O zaman kendinizi ve başkalarını eğlenceden mahrum bırakmamak gerekir.</message>
+		
+		<message key="quest185Title">Biraz El İşi</message>
+		<message key="quest185Description">Paslanmamak için her zaman bir şeyler yapmalısınız. Ayrıca değerli bir şeyler yapmak için bir sürü malzemeye ihtiyacınız var.</message>
+		
+		<message key="quest186Title">Çocuklara Yer açın</message>
+		<message key="quest186Description">Nereye dönseniz, insanlar &quot;Çocuklara yol verin!&quot; diye bağırıyor. Peki çocuklar nereye gidiyor? Tabii ki Kulübe!</message>
+		
+		<message key="quest187Title">Kahkaha ve Gözyaşı</message>
+		<message key="quest187Description">Hepimiz insanız ve duygularımızı çok farklı şekillerde ifade ediyoruz. Oldukça doğaldır!</message>
+		
+		<message key="quest188Title">Sipariş Vazolar</message>
+		<message key="quest188Description">Bir dostunuz şehir merkezinde ufak bir mağaza açtı ve burada satmak için birkaç adet dekoratif vazo yapmanızı istedi. Cömert bir ödeme alacağınız sözünü de verdi.</message>
+		
+		<message key="quest189Title">Doğrudan İçeri Dalma!</message>
+		<message key="quest189Description">İnsanlar haber vermeden çat kapı geliyor! İyi bir ev sahibinin her zaman misafirlerine verecek birşeyleri vardır. İyi bir ev sahibi misiniz?</message>
+		
+		<message key="quest190Title">İmalat Malzemeleri</message>
+		<message key="quest190Description">Daha iyi bir gelecek inşa ediyoruz!</message>
+		
+		<message key="quest191Title">Her şey çok güzel olacak</message>
+		<message key="quest191Description">Bir yağdı mı seller götürüyor! Ama yakında güneş yeniden açacak! Her gecenin bir de sabahı vardır :).</message>
+		
+		<message key="quest192Title">Çiçek Cenneti</message>
+		<message key="quest192Description">Çiçeklerin evde inanılmaz bir konfor ve ferahlık ortamı oluşturduğunu söylerler. Haydi, bu teoriyi test edelim.</message>
+		<message key="quest192Task2Title"><![CDATA[<span class="bold">Odalardan birini zambaklarla dekore edin</span>]]></message>
+		
+		<message key="quest193Title">Kılıçlar Çekildi</message>
+		<message key="quest193Description">Gerçek silahlardan çok iyi ev dekorları olabilir. Şimdi ihtiyacınız olan tek şey bunlardan bazılarını edinmek ve dairenizdeki odalardan birine yerleştirmek.</message>
+		<message key="quest193Task2Title"><![CDATA[<span class="bold">Odalardan birine kılıçları asın</span>]]></message>
+		
+		<message key="quest194Title">Tüm Bu Gürültü</message>
+		<message key="quest194Description">Komşularınız, onlar için hazırladığınız sürprizden şüphelenmediler bile. Onlara temizliğe yardım için uğradığınızı sanıyorlar, aslında …</message>
+		
+		<message key="quest195Title">İşletim Masrafları</message>
+		<message key="quest195Description">Misafirleri çağırmanın karşılığı. Sadece temizlenmesi gereken dağlar kadar çöp değil, aynı zamanda hainler son teknoloji cihazlarınızı bozmayı becermiş!</message>
+		
+		<message key="quest196Title">Her şey Bir İşe Yarar</message>
+		<message key="quest196Description">Çok yakında pek çok sipariş alabilirsiniz, dolayısıyla malzemelerinizi ilerideki işler için saklayın.</message>
+		
+		<message key="quest197Title">Beslenme Hakkında</message>
+		<message key="quest197Description">Evde yemekten sıkıldıysanız, kafeye uğrayın. Ama peş peşe on gün orada yedikten sonra, canınız tekrar sevgili, tatlı buzdolabınıza dönmek isteyecektir.</message>
+		
+		<message key="quest198Title">Böcekler</message>
+		<message key="quest198Description">Duydunuz mu? Herkesin en sevdiği bahçe böcekler tarafından mahvedilmiş. Tüm bahçeyi sarmışlar. Bunlardan hemen kurtulmamız lazım.</message>
+		
+		<message key="quest199Title">İyi bir Hareket</message>
+		<message key="quest199Description">Her ödül kazandığınızda, sonraki kazancınızı düşünmeye başlıyorsunuz. Ayrıca tüm bu varlığı nasıl harcayacağınızı.</message>
+		
+		<message key="quest200Title">Sipariş No. 1</message>
+		<message key="quest200Description">Bu sipariş sarı çiçekli masa vazoları içindir. Sipariş için oldukça iyi bir miktar kazanacaksınız, dolayısıyla çalışmaya başlayın.</message>
+		
+		<message key="quest201Title">Sipariş No. 2</message>
+		<message key="quest201Description">Bu sipariş turuncu çiçekli masa vazoları içindir. Sipariş için oldukça iyi bir miktar kazanacaksınız, dolayısıyla çalışmaya başlayın.</message>
+		
+		<message key="quest202Title">Sipariş No. 3</message>
+		<message key="quest202Description">Bu sipariş pembe çiçekli masa vazoları içindir. Sipariş için oldukça iyi bir miktar kazanacaksınız, dolayısıyla çalışmaya başlayın.</message>
+		
+		<message key="quest203Title">Tatlı Çılgınlığı</message>
+		<message key="quest203Description">Bugün Kafe bir pasta fırlatma turnuvasına ev sahipliği yapıyor. Çok eğlenceli olacak ve kesinlikle katılmalısınız.</message>
+		
+		<message key="quest204Title">Tüylenme</message>
+		<message key="quest204Description">Yastık tüyleri, atölyede yapılabilecek pek çok eşya için önemli bir malzemedir. Bu malzeme kaynağınızı sürekli dolu tutmanız gerekir.</message>
+		
+		<message key="quest205Title">Sermaye</message>
+		<message key="quest205Description">Gelecek için birikim yapmak iyi olacaktır. Yolunuza neler çıkacağını asla bilemezsiniz!</message>
+		
+		<message key="quest206Title">Erzak Arayışında</message>
+		<message key="quest206Description">Acıktığınızda, Kafede tüm açlığınızı dindirebilirsiniz! Neyse ki yolu biliyorsunuz!</message>
+		
+		<message key="quest207Title">Yaratıcı</message>
+		<message key="quest207Description">Hayal gücünüzün ortaya çıkmasına izin verin! Yaratıcı olun! İcatlar yapın ve hayallerinizi gerçekleştirin! Tümü sizin ellerinizde!</message>
+		
+		<message key="quest208Title">Çöp İzleme</message>
+		<message key="quest208Description">Vatandaşlar sokak işlerine şaka yollu &quot;çöp izleme&quot; demektedir. Ama ne ad verirseniz verin, iyi para kazandırmaktadır.</message>
+		
+		<message key="quest209Title">İç Tasarım</message>
+		<message key="quest209Description">Atölyenizde şirin mobilyalar yaparak ve dairenize yerleştirerek, evinizi çok daha samimi bir hale getirebilirsiniz.</message>
+		
+		<message key="quest210Title">Muhafız</message>
+		<message key="quest210Description">Kalabalık insan grupları bir araya geldiğinde, neden arkalarında dağ gibi çöp bırakırlar? Bu karmaşayı temizleyen sizin gibi düşünceli vatandaşların olması iyi bir şey!</message>
+		
+		<message key="quest211Title">Beni Kanatlandırın!</message>
+		<message key="quest211Description">İnsanlar neden kelebekler gibi uçamıyor ki? Bu şirin yaratıklardan çok şey öğrenebiliriz.</message>
+		
+		<message key="quest212Title">Kendinizi ve Başkalarını Düşünmek</message>
+		<message key="quest212Description">Hediye vermek her zaman eğlencelidir, ama hediye almak daha da iyidir! Özellikle bu hediyeyi siz kendinize veriyorsanız.</message>
+		
+		<message key="quest213Title">Ağırlığınca Altın</message>
+		<message key="quest213Description">Daha önce Şans Çarkında altın para kazanmıştınız, değil mi? O zaman yine kazanabilirsiniz!</message>
+		
+		<message key="quest214Title">Eski Fotoğraflar</message>
+		<message key="quest214Description">Siz ve bazı arkadaşlarınız yeni bir projeye giriştiniz! Eski fotoğrafları toplamak ve bunlardan bir fotoğraf albümü oluşturmak. Kendi payınıza düşeni yapsanız iyi olur.</message>
+		
+		<message key="quest215Title">Bir Şans Daha</message>
+		<message key="quest215Description">Her çip para Çarkta oynamak için yeni bir bilet anlamına gelir. Kadere meydan okumak ve şansınızı test etmek için bir şans daha!</message>
+		
+		<message key="quest216Title">Bahçede Keşmekeş</message>
+		<message key="quest216Description">Ilık bir iklim ve iyi havalar sadece sizin tarafınızdan değil, Bahçenin tüm sakinleri tarafından hoş karşılandı. Böcekler dahil.</message>
+		
+		<message key="quest217Title">Dök, Dök, Dök!</message>
+		<message key="quest217Description">Çiçekler ilgi ister, ancak ondan sonra güzelliklerini gösterir. Onları kurumaya bırakmayın!</message>
+		
+		<message key="quest218Title">Zafer!</message>
+		<message key="quest218Description">Nedense arkadaşlarınızla her buluştuğunuzda bir yastık savaşı patlak veriyor. Ama... neden olmasın?</message>
+		
+		<message key="quest219Title">Parti Patlaması</message>
+		<message key="quest219Description">Parti mi hazırlıyorsunuz? Misafir mi bekliyorsunuz? O zaman partinin eğlenceyle patlamasını sağlamak sizin sorumluluğunuzda. Gerçekten!</message>
+		
+		<message key="quest220Title">Goncalar</message>
+		<message key="quest220Description">Bahçede çalışmak hem faydalı, hem de eğlencelidir. Burada atölyeniz için her türlü malzemeyi toplayacağınızı söylemeye gerek bile yok.</message>
+		
+		<message key="quest221Title">Pek Çok Yönden Faydalı</message>
+		<message key="quest221Description">Sokakta yapılacak çok fazla iş var! Ayrıca, atölyeniz için pek çok şişe toplayabilirsiniz.</message>
+		
+		<message key="quest222Title">Hayatımıza Işık Verin</message>
+		<message key="quest222Description">Canlı bir hayat sürmek için, canlı renklere ihtiyacınız var. Gri çalışma günlerini biraz renklendirin!</message>
+		
+		<message key="quest223Title">Becerikli Eller</message>
+		<message key="quest223Description">Harika bir zanaatkarsınız. Herkes sizin çalışmalarınızı arkadaşlarına veya sevdiklerine hediye olarak vermekten gurur duyuyor. Ayrıca tüm bunları şehirde bulduğunuz malzemeleri kullanarak yapıyorsunuz!</message>
+		
+		<message key="quest224Title">Bir Davet</message>
+		<message key="quest224Description">Dairenizi tamamen döşediniz mi? O zaman tüm arkadaşlarınızı bir eve ısınma partisine çağırma vakti geldi. Sadece yeni mobilyalarınızın kirlenmediğinden veya kırılmadığından emin olun :)</message>
+		
+		<message key="quest225Title">Tüy Testi</message>
+		<message key="quest225Description">Yastık tüyleri pek çok şekilde kullanılabilir. Kimi eski bir Kızılderili maskesini süslemek için kullanır, kimi ucunu mürekkebe batırıp şiir yazmak için kullanır.</message>
+		
+		<message key="quest226Title">Artık Vızıldama Yok!</message>
+		<message key="quest226Description">Bu sivrisinekler katlanılır gibi değil! Bunlardan kurtulmak için bir çözüm bulmamız lazım. Bir kutu böcek ilacı tam olarak bu iş için gerekli olan şey.</message>
+		
+		<message key="quest227Title">Mumları yüzünden Pahalı Oyun</message>
+		<message key="quest227Description">Mumları yüzünden pahalı oyun... Peki oyun nerede? Peki ya mumlar nerede?</message>
+		
+		<message key="quest228Title">Çevreyi Kirletenler</message>
+		<message key="quest228Description">Burada ne oldu? Anlaşılan çocuklar bir yastık savaşı yarışması düzenlemiş ve ardından temizlemeyi unutmuşlar.</message>
+		
+		<message key="quest229Title">İyilik Yap İyilik Bul</message>
+		<message key="quest229Description">Buzdolabınız yemekle doluyken oldukça güzeldir. Peki ya boşaldığında? Evet, birilerini ziyaret etmenin zamanı geldi!</message>
+		
+		<message key="quest230Title">Ambalaj Kağıdı</message>
+		<message key="quest230Description">Hayır, sadece çocukların sokağa attığı şeker kapları değil. Gerçek ambalaj kağıtlarından bahsediyoruz, atölyede yaptığınız işlere ayrı bir değer katarlar.</message>
+		
+		<message key="quest231Title">Baştan Sona</message>
+		<message key="quest231Description">Bir projeyi yarıda bırakmak size göre değil. Bir işe başladığınızda, sonunu görmek istiyorsunuz.</message>
+		
+		<message key="quest232Title">Büyük Müsrif</message>
+		<message key="quest232Description">Para kazanmak eğlencelidir, ama harcaması çok daha eğlencelidir. Biraz alışverişle kendinizi şımartmanın zamanı geldi!</message>
+		
+		<message key="quest233Title">Kale Gibi</message>
+		<message key="quest233Description">Dört duvar dairenizi bir kaleye çevirdiniz! İyi bir zevkin göstergesi!</message>
+		
+		<message key="quest234Title">Zaferlerim</message>
+		<message key="quest234Description">Emek Olmadan Yemek Olmaz Biraz da şansla uzun bir yol sizi bekliyor.</message>
+		
+		<message key="quest235Title">Yapın!</message>
+		<message key="quest235Description">Sadece yapın! Peki tam olarak ne yapacaksınız? Bu sizin vereceğiniz bir karar. İster güzel çiçekli bir vazo, ister başka bir dekoratif eşya - hepsi sizin ellerinizde.</message>
+		
+		<message key="quest236Title">Demirci</message>
+		<message key="quest236Description">Eski zamanlarda silahlar demirciler tarafından yapılırmış, ama artık bunlar geçmiş zaman. Günümüzde bunları kendiniz yapabilirsiniz.</message>
+		
+		<message key="quest237Title">İkramım!</message>
+		<message key="quest237Description">Kafede çok ilginç sohbetler dönebilir, ama gerçekten gevşemek istiyorsanız Kulüpten daha güzel bir yer yoktur.</message>
+		
+		<message key="quest238Title">Kanatlar ve Tüyler</message>
+		<message key="quest238Description">Bugünkü hedefiniz kelebek yakalamak ve tüy toplamak. Bugün tamamlayamazsanız üzülmeyin, her zaman yarın vardır.</message>
+		
+		<message key="quest239Title">Kahve Makinesi</message>
+		<message key="quest239Description">Kahve çekirdeklerinden, sizi günün geri kalanında ayakta tutacak sert ve yenileyici bir kahve yapabilirsiniz.</message>
+		
+		<message key="quest240Title">Uygun Aydınlatma</message>
+		<message key="quest240Description">Minyatür mumlar herhangi bir oda için şık birer dekorasyon olacaktır. Yapmanız gereken tek şey, gerekli mum miktarını edinip biraz el işi yapmak.</message>
+		
+		<message key="quest241Title">Lekeler</message>
+		<message key="quest241Description">Bir boya bombasının lekelerini kolayca temizleyebilirsiniz, ama patlamanın etkisi devam edecektir.</message>
+		
+		<message key="quest242Title">Zafer Zamanı</message>
+		<message key="quest242Description">Daha fazla seviye kazandıkça, Şans Çarkından daha fazla para elde edersiniz. Bu da, arkadaşlarınızla birlikte etkinlikler ve hobileriniz için daha fazla zaman anlamına gelir.</message>
+		
+		<message key="quest243Title">Güzelleştirme</message>
+		<message key="quest243Description">Güzellik bakanın gözlerindedir. Bazıları duvarlardaki grafitiyi güzel bulur, bazıları için yıldızlı bir gökyüzüne bakmak yeterlidir...</message>
+		
+		<message key="quest244Title">Bahar Temizliği</message>
+		<message key="quest244Description">Mevsimin ne olduğu önemli değil. Bahar temizliği tek bir anlama gelir: istenen sonuca ulaşmak için yapılması gereken bir sürü zor iş.</message>
+		
+		<message key="quest245Title">Bitpazarı</message>
+		<message key="quest245Description">Eski mobilyalardan kurtulmanın ve en son tarzla değiştirmenin zamanı geldi!</message>
+		<message key="quest245Task1Title"><![CDATA[<span class="bold">Eski mobilyalarınızı satın</span>]]></message>
+		
+		<message key="quest246Title">Talimat</message>
+		<message key="quest246Description">Sevgide cömert olun, mutluluk sizi her zaman bulacaktır.</message>
+		
+		<message key="quest247Title">Sıcak Yuvanız</message>
+		<message key="quest247Description">Akşam evinizde şöminenin başında rahatlamaktan daha güzeli yoktur. Ayrıca mağazadan almanıza da gerek yok. Atölyede kendiniz bir tane yapabilirsiniz.</message>
+		<message key="quest247Task2Title"><![CDATA[<span class="bold">Bir buzdolabı satın alın</span>]]></message>
+		
+		<message key="quest248Title">Zevkli Buluşmalar</message>
+		<message key="quest248Description">En iyi arkadaşlar nerede buluşmayı tercih eder biliyor musunuz? Şüphesiz Kafede! Ya da birbirini evinde ziyaret ederek. Bu da her zaman bir seçenektir :)</message>
+		
+		<message key="quest249Title">Kötü bir Güç</message>
+		<message key="quest249Description">Bazıları,  &quot;Güzellik bir güçtür&quot; der. Bu doğruysa, Güzellik Salonu başlangıç yapılacak yerdir. Haydi kendimizi biraz şımartalım, olur mu?</message>
+		
+		<message key="quest250Title">Bozma Ustaları</message>
+		<message key="quest250Description">Eşyalar sadece kendi başlarına bozulmaz, kasıtlı olarak bozulmaları bir ton onarım işi demektir. Ama arkadaşlarınıza kızgın kalamazsınız, değil mi?</message>
+		
+		<message key="quest251Title">Bir Fincan Kahve</message>
+		<message key="quest251Description">Sabahları sert bir fincan kahve uyanmanıza ve güne iyi başlamanıza yardımcı olacaktır.</message>
+		
+		<message key="quest252Title">Depo</message>
+		<message key="quest252Description">Atölye deposunda hala bir sürü yer var. Önemli projelerin pek çok malzeme gerektireceğini de düşünerek, biraz malzeme biriktirmeye başlayın.</message>
+		
+		<message key="quest253Title">Fotoğraf Stüdyosu</message>
+		<message key="quest253Description">Atölyeniz gerçek bir fotoğraf stüdyosuna benziyor, her tarafa fotoğraflar saçılmış ve raflar çerçeve dolu, bunların bazılarında en güzel anlarınız da var.</message>
+		
+		<message key="quest254Title">Benim Silahım, Yastık</message>
+		<message key="quest254Description">Eski tarz iyi bir yastık savaşı, alevlenen bir tartışmayı dindirmenin hala en popüler yöntemidir. Herhangi bir acı veya morluk olmadan iyi bir kavganın tüm eğlencesi :)</message>
+		
+		<message key="quest255Title">Ev Partisi</message>
+		<message key="quest255Description">İyi bir parti her zaman dört gözle beklenir. Ayrıca tüm sevdiklerinizi ve arkadaşlarınızı bir arada görme fırsatı verir.</message>
+		
+		<message key="quest256Title">Cömert Teklifler</message>
+		<message key="quest256Description">İster iyi bir arkadaş olsun, isterse bir yabancı, Kafede birisine ikramda bulunmak her zaman güzeldir.</message>
+		
+		<message key="quest257Title">Altın Madeni</message>
+		<message key="quest257Description">Büyük oynamanın zamanı! Altına gidin!</message>
+		
+		<message key="quest258Title">Hediyeler</message>
+		<message key="quest258Description">Yakında misafir ağırlamaya başlayacaksınız ve kendi ellerinizle yaptığınız hediyeleri vermek gibisi yoktur. Haydi iş başına!</message>
+		
+		<message key="quest259Title">Daha Fazla Angarya</message>
+		<message key="quest259Description">Bahçede ve Sokakta bir sürü iş birikti. Daha fazla erteleyemezsiniz. Ayrıca ne kadar çabuk hallederseniz, o kadar çabuk rahatlayabilirsiniz.</message>
+		
+		<message key="quest260Title">Sürekli Misafir</message>
+		<message key="quest260Description">Arkadaşlarınız ve tanıdıklarınız her zaman sizin ziyaretlerinizden hoşlanıyorlar. Bunu daha sık yapmalısınız!</message>
+		
+		<message key="quest261Title">Herkes için Hediyeler</message>
+		<message key="quest261Description">Alışveriş alemine daldığınızda, arkadaşlarınız ve sevdikleriniz için de hediyeler almayı unutmayın. Her şeyin ötesinde hediye vermek iyi hissettirir!</message>
+		
+		<message key="quest262Title">Kulüp Partisi</message>
+		<message key="quest262Description">Kulüpte bir gece, oldukça ilginç olacak gibi görünüyor. Hava yürüyüş yapmak için güzel değil, ama hızla kulübe gidebilir ve eğlenceye katılabilirsiniz!</message>
+		
+		<message key="quest263Title">Kürsü</message>
+		<message key="quest263Description">Sadece hak edenler zafer kürsüsüne çıkabilir ve sizden daha çok hak eden birkaç kişi var!</message>
+		
+		<message key="quest264Title">Taş ocağı</message>
+		<message key="quest264Description">Taş ocağı tipik olarak kil üretmek için kullanılır. Ama sizin o kadar fazlasına ihtiyacınız yok, dolayısıyla bahçenizi kazmanız da yeterli olacaktır.</message>
+		
+		<message key="quest265Title">Vazolar</message>
+		<message key="quest265Description">Bugünlerde dekoratif vazolar çok moda. Bu yüzden yoğun bir talep var. Pek çok arkadaşınız bunu hobi olarak yapıyor.</message>
+		
+		<message key="quest266Title">Grup Temizliği</message>
+		<message key="quest266Description">Hem sizin, hem de arkadaşlarınızın daireleri için toparlanma zamanı. Çöplerden kurtulun! Her ev için temizlik!</message>
+		
+		<message key="quest267Title">Kahve Eksperi</message>
+		<message key="quest267Description">Sert bir kahve yapmak için kavrulmuş kahve çekirdeklerine ihtiyacınız var. Kafeye uğrayıp arkadaşlarınızla bir fincan kahve eşliğinde gevşemek eğlenceli olmaz mıydı? Haydi gidelim!</message>
+		
+		<message key="quest268Title">Karşı Atak</message>
+		<message key="quest268Description">Arkadaşlarınız çok fazla belaya neden oluyorsa, siz de kendinizinkileri oluşturabilirsiniz. Bir boya bombası herkesi eğlendirmenin yanı sıra, şakacılara da iyi bir ders olacaktır.</message>
+		
+		<message key="quest269Title">Hayatın Renkleri</message>
+		<message key="quest269Description">Hayatınızı canlı renklerle boyayın! Kalan bir renk varsa, bir arkadaşın hayatını da renklendirin :)</message>
+		
+		<message key="quest270Title">Bulunanlar</message>
+		<message key="quest270Description">Hediyeleri paketlemek için ambalaj kağıdı gerekir. Üzerine bir de fiyonk yerleştirirseniz, çok daha güzel olur!</message>
+		
+		<message key="quest271Title">Pizzacı</message>
+		<message key="quest271Description">Arkadaşlarınız ne derse desin, en iyi pizza kendi Kafenizde sunulmaktadır.</message>
+		
+		<message key="quest272Title">Şömineli Salon</message>
+        <message key="quest272Description">Kullanabileceğiniz bu kadar odanız varken, bir tanesini kolayca şömineli bir salona dönüştürebilirsiniz, burada iş toplantıları ve maskeli balolar düzenleyebilirsiniz :)</message>
+        <message key="quest272Task3Title"><![CDATA[<span class="bold">Yeni bir şömine satın alın</span>]]></message>
+        
+        <message key="quest273Title">Bir Bilmece</message>
+        <message key="quest273Description">5.000 enerji harcamanın ne kadar süreceğini mi düşünüyorsunuz? Cevabı eski yollarla bulmanız gerekiyor.</message>
+        <message key="quest273Description7500">7.500 enerji harcamanın ne kadar süreceğini mi düşünüyorsunuz? Cevabı eski yollarla bulmanız gerekiyor.</message>
+
+        <message key="quest274Title">Cömert Hediyeler</message>
+        <message key="quest274Description">Alışveriş tercihlerine bakarak birisi hakkında pek çok şey söyleyebilirsiniz. Başkalarını neşelendirmeyi seven cömert bir kişiyseniz, asla popüler olmayı beklemezsiniz.</message>
+        
+        <message key="quest275Title">Büyük Müsrif</message>
+        <message key="quest275Description">Bu kadar beklenen ve beklenmeyen harcamanın ortasında, fazla para diye bir şey yoktur. Ayrıca paranızı adım adım harcıyorsanız, çok yakında koca bir sıfıra ulaşırsınız.</message>
+        
+        <message key="quest276Title">Hafif İşler</message>
+        <message key="quest276Description">&quot;Akıllı eller hafif işleri yapar&quot; derler. Sonuçta, atölyede yapılması gereken bir sürü bekleyen iş var.</message>
+        
+        <message key="quest277Title">İzlenimler</message>
+        <message key="quest277Description">Tropicania adasını ziyaret ettikten sonra, tekrar geri dönmek isteyeceksiniz. Aynı zamanda, tropik manzaralarda çektiğiniz fotoğraflara da bakabilirsiniz.</message>
+        
+        <message key="quest278Title">Görev Listesi</message>
+        <message key="quest278Description">Bugün yapmanız gereken çok iş var: bahçenin bakıma ihtiyacı var, dışarıda çöpler birikmiş ve komşularınız toparlanmak için yardım istiyor. Bunlar sizi oldukça meşgul edecek!</message>
+        
+        <message key="quest279Title">Bileşenler</message>
+        <message key="quest279Description">Atölyede bazı malzemeler diğerlerine göre daha kolay temin edilir. Ancak malzeme daha değerli hale geldikçe, temin edilmesi de zorlaşır.</message>
+        
+        <message key="quest280Title">Düz A&apos;lar</message>
+        <message key="quest280Description">Şanslı hissediyor musunuz? Peki, şanslı mısınız? O zaman bu görevi kolayca tamamlayabilirsiniz :)</message>
+        
+        <message key="quest281Title">Evim Güzel Evim</message>
+        <message key="quest281Description">Tüm batıl inançları unutun - başka bir oda almanız gerekli. Bunun döşenmesi de sizin işiniz.</message>
+		
+		<message key="quest282Title">Oyna ve Kazan!</message>
+		<message key="quest282Description">Daha fazla deneyim kazandıkça, Şans Çarkı'nda daha fazla para kazanabilirsiniz. Ayrıca deneyiminizle, büyük oynamak için çok uygun bir zaman!</message>
+		
+		<message key="quest283Title">Rahatlık Yolu</message>
+		<message key="quest283Description">Zaferin zirvesine ulaşmak çok fazla çaba gerektirmektedir. Ancak bir kere ulaştığınızda, yapabilecekleriniz konusunda inanılmaz fırsatlar doğmaktadır.</message>
+		
+		<message key="quest284Title">Arkadaşlarla Görüşme</message>
+		<message key="quest284Description">Çok fazla arkadaş olması güzeldir! Ayrıca evinize bir yığın insanın gelmesi de çok korkutucu değildir. Aslında, son derece mutlu bile eder!</message>
+		
+		<message key="quest285Title">Taşıyıcı</message>
+		<message key="quest285Description">Hey, çok fazla malzeme yedeklemişsiniz. Gerçek bir uçak yapmaya bile yetebilir. Artık zaman harcamadan ufak bir şeyler yapma zamanı geldi.</message>
+		
+		<message key="quest286Title">Arkadaş olan Komşular</message>
+		<message key="quest286Description">Avataria sakinleri, tüm komşuları aynı zamanda arkadaşları olunca gerçekten mutlu olmaktadır. Ayrıca tüm arkadaşları komşuları olunca da. Sonuçta yan evde oturan bir arkadaşı  ziyaret etmek çok kolaydır.</message>
+		
+		<message key="quest287Title">Demir Kuralı</message>
+		<message key="quest287Description">Atölyede ilk defa şömine yapmıyorsunuz. Ana bileşeni demirdir ve temizlik yaparken bahçede bulabilirsiniz.</message>
+		
+		<message key="quest288Title">Dinlenmek Gereklidir</message>
+		<message key="quest288Description">Tüm görevlerinizi zamanında bitirmek istiyorsanız, iyi dinlenmiş ve zinde olmanız gerekir. Çünkü, uykulu ve yorgunsanız hiçbir şey için enerjiniz olmayacaktır.</message>
+		
+		<message key="quest289Title">Duvarda</message>
+		<message key="quest289Description">Dairenin duvarını nasıl dekore edebilirsiniz? Güzel bir tablo veya lüks bir lamba mı? Ne kadar klişe ve sıkıcı!</message>
+		
+		<message key="quest290Title">Biriktir ve Harca</message>
+		<message key="quest290Description">Neden para biriktiririz? Faydalı bir şeyler almak için. Peki bir tomar parayı hiç düşünmeden harcamayı istemez misiniz?</message>
+		
+		<message key="quest291Title">Nadir Mallar</message>
+		<message key="quest291Description">Arkadaşlarla biraz rekabet etmeyi sever misiniz? O zaman nadir bulunan malzemeleri başkalarından önce almaya çalışın!</message>
+		
+		<message key="quest292Title">Teknoloji, Kuvvetli bir Güç</message>
+		<message key="quest292Description">Bütün arkadaşlarının teknoloji konusunda senin en akıllıları olduğunu bilmelerini mi istiyorsun? İlk olarak hünerlerini kanıtlamalısın. Git ve yeni bir plazma ekran ve buz dolabı bul!</message>
+		<message key="quest292Task1Title"><![CDATA[<span class="bold">Plazma TV al</span>]]></message>
+		
+		<message key="quest293Title">Sürpriz</message>
+		<message key="quest293Description">İyi bir arkadaştan hediye almak herzaman harika bir şeydir. Özellikle bu arkadaş sürekli olarak hediye vermeye devam ediyorsa!</message>
+		
+		<message key="quest294Title">Yeni Bir Görüntü</message>
+		<message key="quest294Description">Eski görüntünüzü yeterince kullanmadınız mı? Kalabalığın arasında göze çarpmak mı istiyorsun? Kendine yeni bir imaj yarat! Saç stili, kaşlar, ve belki başka şeyler de...</message>
+		
+		<message key="quest295Title">Havalı Aksesuarlar</message>
+		<message key="quest295Description">Workshoptaki o muhteşem deniz kabuğu kolyelerini gördün mü? Bizim mükemmel sahilimizde bulunan herkeste bir tane olması lazım!</message>
+		
+		<message key="quest296Title">Ben bir Modelim</message>
+		<message key="quest296Description">Bir dünya yıldızı gibi mi hissetmek istiyorsun? Bizim Fotoğraf Stüdyomuza bir uğra. Orada seni Fantasy Lane'e doğru bir yolculuğa çıkarmaya yetecek her türlü aksesuarı bulabilirsin!</message>
+		
+		<message key="quest297Title">Teknoloji Gurusu</message>
+		<message key="quest297Description">Buluş yapmak hassas bir iştir, ama senin bunu yapabileceğini biliyoruz!</message>
+		
+		<message key="quest298Title">Şanslı Atış</message>
+		<message key="quest298Description">Bugün şanslı gününde olmalısın!</message>
+		
+		<message key="quest299Title">Değerli Buluşlar</message>
+		<message key="quest299Description">Ah, sörf, güneş… sıcak yerler çok harika! Haydi güneşli kumsala gidip, bu muhteşem tatil anısına birkaç hediyelik eşya toplayalım.</message>
+		
+		<message key="quest300Title">Orman Çağrısı</message>
+		<message key="quest300Description">Çok uzun süredir benim bahçemde bulunmadın, komşularım artık oraya "orman" demeye başladılar! Şu otlar üzerinde çalışmaya başla!</message>
+		
+		<message key="quest301Title">Topyekün temizlik</message>
+		<message key="quest301Description">Görünen o ki kuvvetli rüzgar bize pek de hoş olmayan bir sürpriz yapmış. Yola saçılmış olan çöpleri temizle!</message>
+		
+		<message key="quest302Title">İş Bekleyemez</message>
+		<message key="quest302Description">Hayat bazen karşımıza zorluklar çıkartır. Örneğin işe gitmeyi ele alalım. Her ne kadar yapmak istemesek de, yine de yapmak zorundayız.</message>
+		
+		<message key="quest303Title">Müsrif</message>
+		<message key="quest303Description">Parayı akıllıca harcamayı bilmeyen kişiler, nasıl para kazanıldığını da bilmezler. Biraz kendine para harcamanın zamanı geldi!</message>
+		
+		<message key="quest304Title">Duygu Kolleksiyoncusu</message>
+		<message key="quest304Description">Duygular olmadan hayat çok sıkıcı olurdu! Ama duyguları kendine saklaman pek akıllıca sayılmaz. Haydi duygularını çevrende bulunan herkesle paylaş!</message>
+		
+		<message key="quest305Title">Sabaha Kadar Parti!</message>
+		<message key="quest305Description">Rüyalar alemine bir gezintiye çıkmak yerine tüm geceyi çılgın bir partide mi geçirmek istiyorsun? O zaman kulübe uğra. En iyi kokty ve çılgın partiler bizde!</message>
+		
+		<message key="quest306Title">Temizlik Şampiyonu</message>
+		<message key="quest306Description">Komşunun temizlikçisinin ne kadar iyi olduğunu duydun mu ? Evet haklısın - neden sözlerimizi boşa harcacıyoruz ki? Onun yerine işe koyulalım!</message>
+		
+		<message key="quest307Title">Sıcak Kucaklaşma</message>
+		<message key="quest307Description">Dışarıda hava sıcaklığı bir anda düşse bile herzaman sıcak kalabilirsin. Tabii ki, birbirinize sarılarak! Arkadaşlarına donmaktan kurtulmalarına yardımcı olmak için sarıl!</message>
+		
+		<message key="quest308Title">Parti Müdavimi</message>
+		<message key="quest308Description">Eğer evinde bir parti düzenlersen arkadaşların seviçten çıldıracak! Muhteşem vakit geçirebilmek için elinden gelen herşeyi yap!</message>
+		
+		<message key="quest309Title">Açlık Acıları</message>
+		<message key="quest309Description">Herkes yiyecek birşeyleri sever! Arkadaşının buz dolabını açıp sosisten birkaç ısırık alabiliyor olmak harika.</message>
+		
+		<message key="quest310Title">Şeytani Deha</message>
+		<message key="quest310Description">Bahse girerim şu andan itibaren birkaç yeni düşman edindin. Ve aklından yeni bir takım şeytanlıklar da geçiyordur. Sadece ufak tefek onlanlardan :)</message>
+		
+		<message key="quest311Title">Sörf Zamani!</message>
+        <message key="quest311Description">Bütün arkadaşlarin çoktan sahilde yeni sörf sezonu için hazirlaniyorlar! Onlarin gerisinde kalmak istemezsin, degil mi?</message>
+        
+		<message key="quest312Title">Deniz Savaşi</message>
+        <message key="quest312Description">Bütün bu egitimlerin masraflari ödendi! Ve şimdi finallerde Avataria'nin en iyi sörf ustalariyla rekabet etme şansina sahipsin!</message>
+        
+		<message key="quest313Title">Dev Dalga</message>
+        <message key="quest313Description">Sahip oldugunuz bu sörf yeteneginle sana meydan okumak yürek ister! Hadi, beni yakalamayi dene!</message>
+        
+		<message key="quest314Title">Denizin Armaganlari</message>
+        <message key="quest314Description">Deniz kabugu kolyeleri Avataria sakinlari arasinda oldukça ragbet görür. Tabii bazen kolye yapmak için gerekli malzemeleri bulmanin ne kadar zor oldugunu biliyorlarsa!</message>
+        
+		<message key="quest315Title">Inci Dalgiçlari</message>
+        <message key="quest315Description">Geçenlerde bir arkadaşim bana böbürlenerek yakinlardaki bir körfezde incilerle dolu bir dag buldugundan bahsetti. Belki sen de böyle bir yer bulmak istersin?</message>
+        
+		<message key="quest316Title">Kuyumcu Dükkani</message>
+        <message key="quest316Description">Kolye için gerekli malzemeleri toplamak o kadar da kötü degildi. Ama yine de bu malzemelerle harikalar yaratabilmek için gerçek bir usta olman gerekiyor!</message>
+        
+		<message key="quest317Title">Kirildi!</message>
+        <message key="quest317Description">Yarişma sezonu tüm hiziyla devam ederken sörf tahtaniz beklenmedik bir şekilde kirildi! Hiç azman kaybetmeyin. Hemen yeni bir tane yapmaya koyulun!</message>
+        
+		<message key="quest318Title">Tüm Rakipler</message>
+        <message key="quest318Description">Ömür boyu şampiyon olun!</message>
+        
+		<message key="quest319Title">Kirmizi mi, Mavi mi?</message>
+        <message key="quest319Description">En güzel ve en parlak olan renk hangisi: kirmizi mi yoksa mavi mi? Atölyede bir takim deneyler yapma zamani.</message>
+        
+		<message key="quest320Title">Anilar</message>
+        <message key="quest320Description">Hayatinizdaki en muhteşem anlarinizi unutmamanin en iyi yolu nedir? Tabii ki, o anlari videoya kaydetmektir!</message>
+        
+		<message key="quest321Title">En iyi Fotograflar</message>
+        <message key="quest321Description">En iyi fotograflari nerede çektirebiliriz? Avataria'nin fotograf stüdyosunda tabii ki, başka neresi olacakti?</message>
+        
+		<message key="quest322Title">Fotograf Çekimi</message>
+        <message key="quest322Description">Avataria'nin fotograf stüdyosunda mükemmel bir sahne, çeşitli arka planlar, en son teknoloji ekipmanlar ve profesyonel işiklandirma sistemi bulabilirsin. Bana inanmiyor musun? Hadi gidelim de kendi gözlerinle gör</message>
+        
+		<message key="quest323Title">VIP Enerji Arttirici</message>
+        <message key="quest323Description">Kulüplerin VIP odalarinda dinlenebilecegini biliyor muydun? O halde hadi, bugün oraya gidiyoruz!</message>
+        
+		<message key="quest324Title">Malzemeler</message>
+        <message key="quest324Description">Dogal olarak ana besin kaynaklari evindeki buz dolabinda saklanir. Ama etrafta kendin için daha fazla yemek bulabilecegin daha çok yer var!</message>
+        
+		<message key="quest325Title">Beklenmedik Ziyaret...</message>
+        <message key="quest325Description">Daha şimdi arkadaşlarin seni ziyarete geldiler ve ortaligi iyice dagittilar. Onlari kapi dişari etme zamani!</message>
+        
+		<message key="quest326Title">Ileri, Sadik At!</message>
+        <message key="quest326Description">Şu muhteşem sallanan ati ve gondolu gördün mü? Onlara binmek çok eglenceli olmali!</message>
+        
+		<message key="quest327Title">Şövalyeler ve Ejderhalar</message>
+        <message key="quest327Description">Şövalyeler zamaninda bir savaşçinin en büyük hayali bir ejderhayi maglup etmekti. Ve her şövalyenin ihtiyaci olan şey büyük bir kiliç veya bir paladir.</message>
+		
+		<message key="quest328Title">Yeni Görünüm</message>
+		<message key="quest328Description">Pek güzel görünüyorsun. Çak bir beşlik! Ama pek güzel görünmek yetmez, muhteşem görünmelisin!</message>
+
+		<message key="quest329Title">El yapımı</message>
+		<message key="quest329Description">Bir şeyi kendi ellerinle yapmak, sanki yaptığın şeye kendinden bir şeyler katmak gibi. İşte o yüzden biz ve konuklarımız el yapımı eşyalar almayı çok seviyoruz!</message>
+
+		<message key="quest330Title">Deniz Tadı</message>
+		<message key="quest330Description">Sahildeyken yenen yemeklerde bu konuma has özel bir tat oluyor. Aynı atmosferi mutfağımızda yaratalım!</message>
+		<message key="quest330TaskTitle"><![CDATA[<span class="bold">Meltem koleksiyonundan ürünler satın al</span>]]></message>
+		<message key="quest330Comment"><![CDATA[<span class="bold">İpucu:</span> Yalnızca farklı ürün alışverişleri sayılır!]]></message>
+
+		<message key="quest331Title">Büyütme</message>
+		<message key="quest331Description">Apartman dairemiz artık bize biraz küçük gelmeye başladı. Avataria'da taşınmaya gerek olmadan yaşam alanımızı büyütebiliyor olmamız gerçekten de çok güzel!</message>
+
+		<message key="quest332Title">Her Şey Konfor İçin</message>
+		<message key="quest332Description">Zamanımızın çoğunu evde geçiriyoruz. Küçük bir kulübe bile sıcak bir yuvaya dönüştürülebilse de derli toplu, konforlu bir apartman dairesi daha iyidir.</message>
+
+		<message key="quest333Title">Tazele</message>
+		<message key="quest333Description">Hayatında bir yenilik yapmanın zamanı geldi. Daireni yeniden tasarlamak ve güzellik salonuna gitmekle işe başlayalım.</message>
+
+		<message key="quest334Title">Değişim Rüzgarları</message>
+		<message key="quest334Description">Biraz baş döndürmenin zamanı. Güzellik salonuna git ve kendine daha göze çarpan, eşsiz bir tarz yap!</message>
+
+		<message key="quest335Title">Lord Avatar</message>
+		<message key="quest335Description">Köşkünüz de resmen köşk yani, sayın lordum! Ama pek konforlu görünmüyor. Daha iyi dekore etmek lazım.</message>
+
+		<message key="quest336Title">Gardırop</message>
+		<message key="quest336Description">Seviye atladıkça daha fazla elbiseye sahip olursun. Yakında onları koyacak yerin kalmayacak! Yeni gardıroplar almaya ne dersin?</message>
+		<message key="quest336TaskTitle"><![CDATA[<span class="bold">Giysilerin için bir gardırop satın al</span>]]></message>
+
+		<message key="quest337Title">HD ve Ses Sistemi</message>
+		<message key="quest337Description">HD filmleri güzel bir ses sistemiyle izlemek gibisi yok!</message>
+
+		<message key="quest338Title">Kendini savun!</message>
+		<message key="quest338Description">Kendinizi savunun, bayım! Ne? Kılıcın yok mu? Sen hiç atölyeye gitmedin mi yahu?</message>
+
+		<message key="quest339Title">Kış Geliyor</message>
+		<message key="quest339Description">Kış geceleri, hatta yaz geceleri bile, hava oldukça soğuyabilir. Böyle zamanlarda bir şöminenin karşısında oturmak gibisi yoktur.</message>
+
+		<message key="quest340Title">Hazırlık</message>
+		<message key="quest340Description">Arkadaşlarıma minik bombalar atmaya bayılıyorum. Atölyeye gidip birkaç tane daha yapma vakti.</message>
+
+		<message key="quest341Title">Mum Işığı</message>
+		<message key="quest341Description">Mum ışığının ne kadar mükemmel bir şey olduğunu hiç fark ettin mi? Öylesine yumuşak ve parıltılı. Karanlığı delen bir mumun yanında oturmak insanın içini ısıtır!</message>
+
+		<message key="quest342Title">Zihnen ve Bedenen Zindelik</message>
+		<message key="quest342Description">Biraz kendimize gelelim! Kahve veya onun gibi insanı canlandıran bir şey içelim.</message>
+
+		<message key="quest343Title">Yoğun Hayat</message>
+		<message key="quest343Description">En son haberleri ve trendleri takip etmek kolay değil. Bunun için çok çalışmak gerek!</message>
+
+		<message key="quest344Title">Bahçıvan</message>
+		<message key="quest344Description">İyi bir oyuncunun mutlaka iyi bir bahçesi olmalıdır. İyi bir bahçe de ancak bir bahçıvanla olur.</message>
+
+		<message key="quest345Title">Enerji Deposu</message>
+		<message key="quest345Description">Etrafındaki herkese enerji ve pozitiflik saçan insanlardansın. Ama gözlerini açık tutamayacak kadar yorgunken bunu nasıl yapabilirsin ki? Kendine gelme zamanı!</message>
+
+		<message key="quest346Title">Başladığın İşi Bitir</message>
+		<message key="quest346Description">Yeni işlere girişmeyi pek severiz ama genelde başladığımız işi bitirmeyiz. Bahçedeki ve avludaki bütün işleri bitirmeyi deneyelim bakalım.</message>
+
+		<message key="quest347Title">Hayatta Kazanan Olmak</message>
+		<message key="quest347Description">Kazanmasını gerçekten bilenler, yaptıkları her şeyde ve her yerde kazanmak için ellerinden geleni yaparlar. Haydi bakalım. Senden iyisi olmadığını kanıtla!</message>
+
+		<message key="quest348Title">Garaj Satışı</message>
+		<message key="quest348Description">Tavan arasında ve elbise dolaplarında hiç kullanmadığın bir sürü şey olduğuna eminim. Ama bunları çöpe atmak olmaz. Satmaya ne dersin? İhtiyacı olan başka biri vardır mutlaka.</message>
+		<message key="quest348TaskTitle"><![CDATA[<span class="bold">İstemediğin giysilerini sat</span>]]></message>
+
+		<message key="quest349Title">Çöpü Dök</message>
+		<message key="quest349Description">Avlu çöp dolu. Avlu bu kadar pis olunca burada bulunmanın hiç keyfi olmuyor! Çöplerden kurtulmamız gerek!</message>
+
+		<message key="quest350Title">Güzel Şeyler Topla</message>
+		<message key="quest350Description">Deniz kabukları, inciler ve tomurcuklar ne güzel şeyler. Keşke etrafım hep böyle güzel şeylerle çevrili olsa! Şimdilik bunlardan birkaçını toplasam yeter.</message>
+
+		<message key="quest351Title">Erzak Odası</message>
+		<message key="quest351Description">Erzak odası boş olmaz. Atölyede acilen bir şeye ihtiyaç olursa ne yaparız? Gidip stoklayacak faydalı malzemeler bulalım.</message>
+
+		<message key="quest352Title">Duygularla Dolu Bir Kutu</message>
+		<message key="quest352Description">Avataria, hayallerin gerçek olduğu bir dünya! Sevgi, keyif, nefret gibi farklı bir sürü duygu uyandırabilen, türünün en iyi oyunu desek yanlış olmaz…</message>
+
+		<message key="quest353Title">Plajların Kralı</message>
+		<message key="quest353Description">Plajda herkes sana baksın mı istiyorsun? O zaman sörf yarışında birinci geleceksin! Kazanan plajların kralı ilan edilir! Ya da kraliçesi, tabii.</message>
+
+		<message key="quest354Title">Dalgalar Üstünde</message>
+		<message key="quest354Description">Plajda güzel zaman geçirmenin pek çok yolu var; ama bunlardan en çok ilgi çeken şüphesiz sörf.</message>
+
+		<message key="quest355Title">Voleyi Vur</message>
+		<message key="quest355Description">Çarkıfelek seni bekliyor! Altın, gümüş ve oyun fişi kazanma zamanı!</message>
+
+		<message key="quest356Title">Daha Fazlası Gelecek</message>
+		<message key="quest356Description">Para parayı çeker derler. Bu teoriyi deneyelim bakalım!</message>
+
+		<message key="quest357Title">Paydos!</message>
+		<message key="quest357Description">O kadar çalışıp çabaladıktan sonra "Paydos" diye bağırıp dinlemeye çekilmek ne güzel şeydir.</message>
+
+		<message key="quest358Title">Yok et! Parçala!</message>
+		<message key="quest358Description">Herkesin başına gelir. Biri gününü berbat edip seni öylesine öfkelendirir ki bir şeyleri kırmak istersin!</message>
+
+		<message key="quest359Title">Müzikle Dans Et</message>
+		<message key="quest359Description">Müziğin ritmini hissetmeye başladın mı artık yerinde duramazsın. İster bir kulüpte, ister sokakta, ister bir kafede ol; farketmez; ayağa kalkıp dans etmen gerekir!</message>
+
+		<message key="quest360Title">Özçekim</message>
+		<message key="quest360Description">Avataria'nın fotoğraf stüdyosunda her türlü çılgın fotoğrafı çekip duvarında yayınlayarak bir sürü beğeni alabilirsin! Haydi oraya gidelim. Arkadaşların resimlerini görmek istiyor!</message>
+
+		<message key="quest361Title">Gece Nöbeti</message>
+		<message key="quest361Description">Geceleyin kalkıp dolaba giderek tıkınmak bazen çok cezbedici gelebilir.</message>
+
+		<message key="quest362Title">İyi Vakit Geçir</message>
+		<message key="quest362Description">Arada sırada her şeyi boş verip keyfine bakmazsan bu hayat çekilmez!</message>
+
+		<message key="quest363Title">Çılgın Dansçı</message>
+		<message key="quest363Description">Her şeyini verip çılgınca dans edince ister istemez bir süre sonra yorulursun... Ama sonra birden içinde bir enerji patlaması hissedersin!</message>
+
+		<message key="quest364Title">Bir Daha!</message>
+		<message key="quest364Description">Benimle gel. Kulüpte biraz dağıtalım! Ama kendi başına dans etmek sıkıcı. Arkadaşlarının giriş parasını öde de seninle birlikte dans etsinler!</message>
+
+		<message key="quest365Title">Yaramaz</message>
+		<message key="quest365Description">Herkes sürekli aşırılık yapmamamızı ve uslu durmamızı söylüyor. Ama bu çok sıkıcı!</message>
+
+		<message key="quest366Title">Yazar</message>
+		<message key="quest366Description">Grafitti sanatçıları kendilerine ne derler biliyor musun? Yazar! Gerçek bir grafitti ustası ol ve arkadaşlarının duvarlarını baştan aşağı boya!</message>
+
+		<message key="quest367Title">Zarar Ziyan</message>
+		<message key="quest367Description">Arkadaşlarımızın evlerine gidip ortalığı dağıtsak ne güzel olmaz mı? Her şey ayarında güzel tabii!</message>
+
+		<message key="quest368Title">Arkadaştan Eşek Şakaları</message>
+		<message key="quest368Description">Elleriniz dert görmesin... Dostlar.. Evdeki her şey kırılıp döküldü, duvarlar graffitiyle kaplandı ve suratıma bir pasta yedim!</message>
+
+		<message key="quest369Title">Takas</message>
+		<message key="quest369Description">Çok da ihtiyacın olmayan bir şeyin mi var? Eminim ona çok ihtiyacı olan biri vardır!</message>
+
+		<message key="quest370Title">Çatı Katı Partisi</message>
+		<message key="quest370Description">Apartman dairen kocamanmış! Burada parti versen acayip güzel olur. Herkes senden konuşur, yıllarca namın yürür!</message>
+
+		<message key="quest371Title">Bahar Temizliği</message>
+		<message key="quest371Description">Arkadaşlarının daireleri bir sürü çöp üretiyor. Onları atma zamanı!</message>
+
+		<message key="quest372Title">Kabadayı</message>
+		<message key="quest372Description">Yumruk ve tekme, gerçek bir kabadayının en iyi silahlarıdır!</message>
+
+		<message key="quest373Title">Bendensin</message>
+		<message key="quest373Description">Arkadaşlarına bir şeyler ısmarla! Hem onlar mutlu olur hem de sen güzel zaman geçirmiş olursun.</message>
+
+        <message key="quest456Title">Rüzgar Gibi Geçti</message>
+        <message key="quest456Description">Arkadaşların yarış için kanyona gidiyor. Onlara katılalım mı? Eğleniriz!</message>
+
+        <message key="quest465Title">Somun ve Cıvata</message>
+        <message key="quest465Description">Yarıştan sonra bazı somun ve cıvatalar gevşemiş olabilir. Böyle bir kapışmadan sonra normal!</message>
+
+        <message key="quest470Title">Kask Önerilir</message>
+        <message key="quest470Description">Yarış arabaları baya tehlikeli olabilir. Yarışırken kask taksan ölmezsin!</message>
+
+        <message key="quest479Title">Araba Tamircisi</message>
+        <message key="quest479Description">Arabayla yarışmayı seviyorsan, onu nasıl tamir edeceğini de bilmelisin. Aracına nasıl bakacağını bilmelisin!</message>
+
+        <message key="quest487Title">Yakıt İkmali</message>
+        <message key="quest487Description">Benzinsiz fazla uzağa gidemezsin. Özel garajına benzin istasyonu kursak iyi olmaz mı?</message>
+
+        <message key="quest492Title">Gaza Bas!</message>
+        <message key="quest492Description">Kendine bir araba almanın zamanı geldi. Garajda 1-2 tane araban zaten olsa da, alalım derim.</message>
+        <message key="quest492Task1Title"><![CDATA[<span class="bold">Araba Al</span>]]></message>
+
+        <message key="quest515Title">Bankam</message>
+        <message key="quest515Description">Motosiklet kullanmak, araba kullanmaktan çok farklıdır. Denemek ister misin?</message>
+        <message key="quest515Task1Title"><![CDATA[<span class="bold">Motosiklet Al</span>]]></message>
+
+		<!-- Fortune wins -->
+		
+		<message key="fsTitle">Gümüş Serveti</message>
+		<message key="fsDescription">Şanslıysanız, tonlarca gümüş para kazanabilirsiniz. Şans Çarkını çevirmeye hazır mısınız?</message>
+		
+		<message key="fgTitle">Altın Serveti</message>
+		<message key="fgDescription">Şans Çarkında altın kazanmak, gümüş kazanmaktan daha zordur. Ama imkansız diye bir şey yoktur!</message>
+		
+		<message key="fcTitle">Çevir - Çevir - Çevir</message>
+		<message key="fcDescription">Şans Çarkında kazandığınız her çip, şansınızı denemek için başka bir fırsattır. Ödemesi az olsa da, şüphesiz çok keyifli!</message>
+		
+		<!-- Collect glasses -->
+		
+		<message key="collectGlassesTitle">Gözlük Koleksiyonu</message>
+		<message key="collectGlassesDescription">Gözlük koleksiyonu oluşturarak, hangi aksesuarın hangi kıyafetle uyumlu olacağı hakkında endişe etmenize gerek kalmaz. Gözlükler her zaman modadır!</message>
+		<message key="collectGlassesBoyTask1"><![CDATA[<span class="bold">Altın çerçeveli gözlük alın</span>]]></message>
+		<message key="collectGlassesBoyTask2"><![CDATA[<span class="bold">Gözlük alın</span>]]></message>
+		<message key="collectGlassesBoyTask3"><![CDATA[<span class="bold">Hafif çerçeveli gözlük alın</span>]]></message>
+		<message key="collectGlassesBoyTask4"><![CDATA[<span class="bold">Koyu gözlük alın</span>]]></message>
+		<message key="collectGlassesBoyTask5"><![CDATA[<span class="bold">Kahverengi mercekli gözlük alın</span>]]></message>
+		
+		<message key="collectGlassesGirlTask1"><![CDATA[<span class="bold">Altın süslemeli gözlük alın</span>]]></message>
+		<message key="collectGlassesGirlTask2"><![CDATA[<span class="bold">Altın renkli gözlük alın</span>]]></message>
+		<message key="collectGlassesGirlTask3"><![CDATA[<span class="bold">Pembe gözlük alın</span>]]></message>
+		<message key="collectGlassesGirlTask4"><![CDATA[<span class="bold">Gözlük alın</span>]]></message>
+		<message key="collectGlassesGirlTask5"><![CDATA[<span class="bold">Mor renkli gözlük alın</span>]]></message>
+		
+		<!-- Cake throwing -->
+		
+		<message key="quest122Title">Tatlı İntikam</message>
+		<message key="quest122Description">Görünüşe göre pastalar sadece yemek için değil, aynı zamanda insanlara atmak için de kullanılıyor! Birisi size pasta atarsa üzülmeyin - aslında oldukça eğlencelidir! Siz de deneyin!</message>
+		
+		<!-- Buy VIP, present VIP -->
+		
+		<message key="quest123Title">VIP</message>
+		<message key="quest123Description">İlgi merkezi olmayı seviyor musunuz? Sadece VIP statüsünün verebileceği şekilde kendinize yeni ufuklar açın! Hayatınıza renk katın!</message>
+		<message key="quest123Task1Title"><![CDATA[<span class="bold">VIP statüsü alın ve uzatın</span>]]></message>
+		<message key="quest123Comment"><![CDATA[<span class="bold">İpucu:</span> Ekranın üst kısmındaki taç simgesine tıklayarak VIP statüsü alın veya uzatın.]]></message>
+		
+		<message key="quest124Title">VIP hediyesi</message>
+		<message key="quest124Description">Birisi için güzel birşey mi yapmak istiyorsunuz? O aman ona VIP statüsü verin! Bana güvenin, daha değerli bir hediye yoktur. Arkadaşlarınıza ve dostlarınıza şehrin en güzel hediyesini verin!</message>
+		<message key="quest124Task1Title"><![CDATA[<span class="bold">Birisine VIP statüsü verin</span>]]></message>
+		<message key="quest124Comment"><![CDATA[<span class="bold">İpucu:</span> Başka bir oyuncu üzerine tıklayarak ve Hediyeler menüsünden uygun seçeneği seçerek VIP statüsü verebilirsiniz.]]></message>
+		
+		<!-- Create event -->
+		
+		<message key="quest125Title">Parti</message>
+		<message key="quest125Description">Yeni arkadaşlar edinme zamanı geldi. En sıra dışı partiyi düzenlerseniz, her türlü çılgın ve eğlenceli kişiyi çekebilirsiniz!</message>
+		
+		<!-- Achieve level -->
+		
+		<message key="quest126Title">Erken Başarılar</message>
+		<message key="quest126Description">Başarı kupaları getirir. Başkalarını kıskandırmak için kupalarınızı dairenize yerleştirebilirsiniz. İlk kupanızı kazanmanın zamanın geldi!</message>
+		<message key="quest126Task1Title"><![CDATA[<span class="bold">Herhangi bir bronz kupa kazanın</span>]]></message>
+		<message key="rewardComment"><![CDATA[<span class="bold">İpucu:</span> Eşya listesinin Kupalar sekmesinden kupa açıklamalarına bakın.]]></message>
+		
+		<!-- Change appearance -->
+		
+		<message key="quest127Title">Görünüş</message>
+		<message key="quest127Description">Görünüşünüzden sıkıldınız mı? Bunu düzeltmek çok kolay. Önce saç stili ile başlayalım!</message>
+		<message key="quest127Task1Title"><![CDATA[<span class="bold">Saç stilinizi değiştirin</span>]]></message>
+		<message key="quest127Comment"><![CDATA[<span class="bold">İpucu:</span> Saç stilinizi değiştirmek için, ekranın alt kısmında yer alan Görünüş üzerine tıklayın.]]></message>
+		
+		<message key="quest128Title">Güzellik Salonu</message>
+		<message key="quest128Description">Usta bir stil tasarımcısı daha geniş saç stili seçenekleri ve diğer hizmetleri sunabilir. Güzellik Salonundaki uzmanları ziyaret etme zamanı gelmedi mi?</message>
+		<message key="quest128Task1Title"><![CDATA[<span class="bold">Güzellik salonunda saç şeklinizi değiştirin</span>]]></message>
+		<message key="quest128Task2Title"><![CDATA[<span class="bold">Güzellik salonunda gözlerinizi değiştirin</span>]]></message>
+		<message key="quest128Task3Title"><![CDATA[<span class="bold">Güzellik salonunda dudaklarınızı değiştirin</span>]]></message>
+		
+		<!-- Craft & gift -->
+		
+		<message key="quest129Title">Çıplak Ellerle</message>
+		<message key="quest129Description">Taslaklardan bir şeyler yapmayı seviyor musunuz? Bu yüzden pek çok çizim ve şema olan bir atölyeniz var. Kendiniz için ve arkadaşlarınıza vermek için faydalı eşyalar yapabilirsiniz.</message>
+		
+		<message key="quest130Title">Kumbara</message>
+		<message key="quest130Description">Bir atölyeniz olduğunda, kendi ellerinizle hediye yapmak çok kolaydır. Birisinin evini ziyaret ettiğinizde sizin yaptığınız hediyelerle dekore edildiğini görmenin keyfini düşünün!</message>
+		<message key="quest130Task2Title"><![CDATA[<span class="bold">Para kutusunu birisine verin</span>]]></message>
+		
+		<!-- Get mailbox -->
+		
+		<message key="quest132Title">Posta kutusu</message>
+		<message key="quest132Description">Bir posta kutunuz olursa, arkadaşlarınız ve dostlarınız size mesaj gönderebilir. Bir tane almalı ve dairenize takmalısınız.</message>
+		<message key="quest132Task1Title"><![CDATA[<span class="bold">Bir Posta kutusu satın alın</span>]]></message>
+		<message key="quest132Task2Title"><![CDATA[<span class="bold">Dairenize bir posta kutusu monte edin</span>]]></message>
+		<message key="quest132Comment"><![CDATA[<span class="bold">Подсказка:</span> Почтовый ящик ты можешь найти в мебельном магазине в разделе "Техника".]]></message>
+		
+		<!-- Christmas tree -->
+		
+		<message key="quest144Title">Tatil Koşuşması</message>
+		<message key="quest144Description">Tatiller yaklaşıyor, haydi kutlama hazırlıkları için temizlik yapın!</message>
+		<message key="quest144Comment"><![CDATA[<span class="bold">İpucu:</span> Sokaktaki çöpleri temizlemek için, “Yerler” üzerine tıklayın ve İş sekmesinden “Sokak Temizleyici” seçin.]]></message>
+		
+		<message key="quest145Title">Noel Ağacı</message>
+		<message key="quest145Description">Görevlerinizden birini tamamladığınız için bir Noel ağacı kazandınız. Haydi yerleştirin!</message>
+		<message key="quest145Task1Title"><![CDATA[<span class="bold">Dairenize bir Noel ağacı koyun</span>]]></message>
+		
+		<message key="quest163Title">Ağacı Dekore Etme</message>
+		<message key="quest163Description">Noel ağacını yerleştirdiniz, haydi dekore edin!</message>
+		<message key="quest163Task1Title"><![CDATA[<span class="bold">Noel ağacı üzerine bir tepe süsü koyun</span>]]></message>
+		<message key="quest163Task2Title"><![CDATA[<span class="bold">5 Noel oyuncağı asın</span>]]></message>
+		<message key="quest163Comment"><![CDATA[<span class="bold">İpucu:</span> Dekore etmek için Noel ağacı üzerine tıklayın.]]></message>
+		
+		<message key="quest164Title">Noel Oyuncakları</message>
+		<message key="quest164Description">Birisine bir Noel oyuncağı vererek, neşenizi ve gerçek tatil ruhunu yayarsanız.</message>
+		<message key="quest164Task1Title"><![CDATA[<span class="bold">5 Noel oyuncağı verin</span>]]></message>
+		<message key="quest164Comment"><![CDATA[<span class="bold">İpucu:</span> Birisine bir Noel oyuncağı vermek için, o kişinin Noel ağacı üzerine tıklayın ve Bir Oyuncak Ver öğesini seçin.]]></message>
+		
+		<!-- Pillow fighting -->
+		
+		<message key="quest146Title">Zafer sizin</message>
+		<message key="quest146Description">Bir anlaşmazlığı çözmenin pek çok yolu vardır, ama en iyisi yastık savaşıdır.</message>
+		<message key="quest146Comment"><![CDATA[<span class="bold">İpucu:</span> Bir yastık savaşı sırasında tüy düşebilir. Düşmeyebilir de :)]]></message>
+		
+		<message key="quest147Title">Şanssızlık</message>
+		<message key="quest147Description">Bazen eşyalar bozulur! Ama endişelenmeyin, her şey düzeltilebilir.</message>
+		
+		<message key="quest148Title">İkinci Kademe</message>
+		<message key="quest148Description">Herhangi bir ikincilik başarısı için gümüş kupa verilir. Bir tane kazanabilir misiniz?</message>
+		<message key="quest148Task1Title"><![CDATA[<span class="bold">Bir gümüş kupa kazanın</span>]]></message>
+
+		<message key="quest149Title">Üçüncü Kademe</message>
+		<message key="quest149Description">Bir başarının en üst kademesi altın kupadır. Bir tane kazanabilir misiniz?</message>
+		<message key="quest149Task1Title"><![CDATA[<span class="bold">Bir altın kupa kazanın</span>]]></message>
+		
+		<!-- St. Patrick Day -->
+        
+        <message key="spd1Title">Cüce cin</message>
+        <message key="spd1Description">Cüce cinlerin ne olduğunu biliyor musunuz? Bu komik yaratıklar Aziz Patrick Günü&apos;nün temel sembolüdür. Artık, atölyenizde cüce cin heykelcikleri yapabilirsiniz.</message>
+        <message key="spd1Task1Title"><![CDATA[<span class="bold">Altın Küpü yapın</span>]]></message>
+        
+        <message key="spd2Title">Aziz Patrick Günü</message>
+        <message key="spd2Description">Mağazalar Aziz Patrick Günü için yeşil kıyafetleri yığmaya başladı. Geride kalmayın, siz de kendinize en güzel takımı alın!</message>
+        <message key="spd2Task1Title"><![CDATA[<span class="bold">Aziz Patrick Günü için bir kıyafet alın</span>]]></message>
+		
+		<message key="spd3Title">Parti Başlıyor!</message>
+        <message key="spd3Description">Yeşil cin, yeşil cin, parti başlıyor! Arkadaşlarınız yakında partiye gelecek ve onlara yeşil cininizi göstermelisiniz.</message>
+        <message key="spd3Task1Title"><![CDATA[<span class="bold">Dairenize Altın Küpü yerleştirin</span>]]></message>
+        <message key="spd3Task2Title"><![CDATA[<span class="bold">Arkadaşlarınızı partiye davet edin</span>]]></message>
+		
+		<!-- Fool's day, 1 april -->
+		
+		<message key="foolsDayQuestTitle">Nisan Mucizesi</message>
+		<message key="foolsDayQuestDescription">Bu özel görevde yarışarak hemen 100 altın para kazanabilirsiniz!!! Ancak acele etmelisiniz, bu görev yakında yok olacak ve beraberinde... 100 altın para da!</message>
+		<message key="foolsDayQuestTask1Title"><![CDATA[<span class="bold">24 saat içerisinde sokağı<br>25 defa ziyaret edin</span>]]></message>
+		
+		<!-- Easter -->
+		
+		<message key="easterQuest1Title">Paskalya Geliyor</message>
+		<message key="easterQuest1Description">Atölyeye yeni tarifler geldi, yani Paskalya kutlamaları için hazırlık yapma zamanınız geldi.</message>
+		<message key="easterQuest1Task1Title"><![CDATA[<span class="bold">Yeşil bir Paskalya Yumurtası yapın</span>]]></message>
+		<message key="easterQuest1Task2Title"><![CDATA[<span class="bold">Mor bir Paskalya Yumurtası yapın</span>]]></message>
+		<message key="easterQuest1Task3Title"><![CDATA[<span class="bold">Mavi bir Paskalya Yumurtası yapın</span>]]></message>
+		<message key="easterQuest1Comment"><![CDATA[<span class="bold">İpucu:</span> Bu üç renkte bir yumurta yapmak için, atölyedeki Paskalya yumurtası tarifini kullanın.]]></message>
+		
+		<message key="easterQuest2Title">Paskalya Hediyeleri</message>
+		<message key="easterQuest2Description">Hediyeler olmadan Paskalya olmaz! Birilerine hediye verin, kesinlikle size de gelecektir!</message>
+		<message key="easterQuest2Task1Title"><![CDATA[<span class="bold">Mor bir Paskalya Yumurtası verin</span>]]></message>
+		<message key="easterQuest2Comment"><![CDATA[<span class="bold">İpucu:</span> Arkadaşlarınızdan biri üzerine tıklayın, arından Hediyeler üzerine tıklayın ve bir Hediye Ver üzerine tıklayın.]]></message>
+
+        <message key="easterQuest3Title">Paskalya Tavşanı</message>
+        <message key="easterQuest3Description">Atölyede bir Paskalya Tavşanı heykeli yapabilirsin. Ama mutlaka arkadaşlarından yardım alman lazım!</message>
+        <message key="easterQuest3Task1Title"><![CDATA[<span class="bold">Paskalya Tavşanı Heykeli Yap</span>]]></message>
+        <message key="easterQuest3Task2Title"><![CDATA[<span class="bold">Birine Mavi Paskalya Yumurtası Ver</span>]]></message>
+        <message key="easterQuest3Comment"><![CDATA[<span class="bold">İpucu:</span> Bir arkadaşına tıkla, Hediyeler'e tıkla, sonra da Hediye Ver'e tıkla.]]></message>
+
+        <message key="easterQuest4Title">Paskalya Süsleri</message>
+        <message key="easterQuest4Description">Atölyeye gidip evi süslemek için biraz Paskalya süsü yapalım!</message>
+
+		<!-- Victory day -->
+		
+		<message key="victoryQuest1Title">Zafer Günü!</message>
+        <message key="victoryQuest1Description">Bundan uzun zaman önce meydana geldi... 9 Mayıs 1945... Bu gün hakkında birşeyler hatırlıyor musunuz?</message>
+        <message key="victoryQuest1Task1Title"><![CDATA[<span class="bold">Bir St George's kurdelesi yapın</span>]]></message>
+        <message key="victoryQuest1Task2Title"><![CDATA[<span class="bold">Bir Zafer Günü grafitisi çizin</span>]]></message>
+		<message key="victoryQuest1Comment"><![CDATA[<span class="bold">İpucu:</span> Hediye ve şaka mağazasından grafiti satın alabilirsiniz. Atölyede bir St George's kurdelesi yapabilirsiniz.]]></message>
+		
+		<!-- Tropicania -->
+		
+		<message key="tropicQuest1Title">Çadır</message>
+		<message key="tropicQuest1Description">Tropicania&apos;daki kumaşlar yerel türlere göre daha ince ve daha dayanıklıdır. Dolayısıyla bunlardan yapılan eşyalar da daha kaliteli olur.</message>
+		<message key="tropicQuest1Task1Title"><![CDATA[<span class="bold">Bir çadır yapın</span>]]></message>
+		<message key="tropicQuest1Comment"><![CDATA[<span class="bold">İpucu:</span> Keten ve pamuklu kumaşlar Tropicania oyunundan edinilebilir. Orada bir havaalanı inşa ettikten sonra, kumaşı kendinize gönderebilirsiniz.]]></message>
+		
+		<message key="tropicQuest2Title">Kano</message>
+		<message key="tropicQuest2Description">Tropicania&apos;nın yerli kızılçamları gerçek bir kano yapmak için kullanılabilir. Evinizde garip duracağı ve çok kullanılmayacağı kesindir, belki Jakuzide kullanırsınız :)</message>
+		<message key="tropicQuest2Task1Title"><![CDATA[<span class="bold">Bir kano yapın</span>]]></message>
+		<message key="tropicQuest2Comment"><![CDATA[<span class="bold">İpucu:</span> Kızılçam, Tropicania oyunundan edinilebilir. Orada bir havaalanı inşa ettikten sonra, tahtayı kendinize gönderebilirsiniz.]]></message>
+		
+		<message key="tropicQuest3Title">Koleksiyoncu</message>
+		<message key="tropicQuest3Description">Tropicania&apos;da dolaşırken pek çok eski eser bulunabilir.</message>
+		<message key="tropicQuest3Task1Title"><![CDATA[<span class="bold">İlk totem koleksiyonunuzu tamamlayın</span>]]></message>
+		<message key="tropicQuest3Task2Title"><![CDATA[<span class="bold">İkinci totem koleksiyonunuzu tamamlayın</span>]]></message>
+		<message key="tropicQuest3Task3Title"><![CDATA[<span class="bold">Üçüncü totem koleksiyonunuzu tamamlayın</span>]]></message>
+		<message key="tropicQuest3Comment"><![CDATA[<span class="bold">İpucu:</span> Totemler, Tropicania oyunundan edinilebilir. Orada bir havaalanı inşa ettikten sonra, bunları kendinize gönderebilirsiniz.]]></message>
+		
+		<!-- New year 2013 -->
+        
+        <message key="questNY1Title">Noel!</message>
+        <message key="questNY1Description">Noel yaklaşıyor ve herkes arkadaşlarına ve sevdiklerine hediye almak için mağazalara koşturuyor. Sizin tatil alışverişiniz nasıl gidiyor?</message>
+        <message key="questNY1Task1Title"><![CDATA[<span class="bold">Noel hediyeleri satına alın</span>]]></message>
+        <message key="questNY1Task2Title"><![CDATA[<span class="bold">Arkadaşlarınıza Noel hediyesi gönderin</span>]]></message>
+        <message key="questNY1Comment"><![CDATA[<span class="bold">İpucu:</span> Hediyeler ve şakalar mağazasının Noel sekmesinde hediye kutularını bulabilirsiniz.]]></message>
+        
+        <message key="questNY2Title">Kar Küresi</message>
+        <message key="questNY2Description">Herkes böyle küçük bir eşyayı elde yapamaz! Ama bu işi becerebilenler, kendi elleriyle güzelliği ortaya çıkartır.</message>
+        <message key="questNY2Task1Title"><![CDATA[<span class="bold">Bir kar küresi yapın</span>]]></message>
+        <message key="questNY2Task2Title"><![CDATA[<span class="bold">Küreyi dairenize yerleştirin</span>]]></message>
+        <message key="questNY2Comment"><![CDATA[<span class="bold">İpucu:</span> Bu eşyayı atölyede yapabilirsiniz. Atölyeye gitmek için alet kutusu simgesine tıklayın.]]></message>
+        
+        <message key="questNY3Title">Kurabiye Adam</message>
+        <message key="questNY3Description">Kurabiye adam yapmayı, özellikle gerçek boyutlarında ise, kolay mı sanıyorsunuz? Böyle bir şaheseri yapmak oldukça fazla zaman ve çaba gerektirecektir, ama kesinlikle buna değer!</message>
+        <message key="questNY3Task1Title"><![CDATA[<span class="bold">Bir kurabiye adam pişirin</span>]]></message>
+        <message key="questNY3Task2Title"><![CDATA[<span class="bold">Kurabiye adamı dairenize yerleştirin</span>]]></message>
+        <message key="questNY3Comment"><![CDATA[<span class="bold">İpucu:</span> Bu öğeyi atölyede yapabilirsiniz. Atölyeye gitmek için alet kutusu simgesine tıklayın.]]></message>
+        
+        <message key="questNY4Title">Kardan adam</message>
+        <message key="questNY4Description">Haydi bir kardan adam yapalım, ya da iki tane yapalım. Bir kardan adam ve sevgilisi - bir kardan kadın!</message>
+        <message key="questNY4Task1Title"><![CDATA[<span class="bold">Bir kardan adam yapın</span>]]></message>
+        <message key="questNY4Task2Title"><![CDATA[<span class="bold">Bir kardan kadın yapın</span>]]></message>
+		<message key="questNY4Comment"><![CDATA[<span class="bold">İpucu:</span> Kardan adamlar atölyede yapılır. Bu tarifi dekoratif kardan adam veya kardan kadın almak için her zaman kullanabilirsiniz.]]></message>
+		
+		<!-- St. Valentine Day -->
+        
+        <message key="valdayQuest1Title">Valentine's Day Cards</message>
+        <message key="valdayQuest1Description">Few things are more pleasant than getting a Valentine's Day card. And it doesn't even matter who from, whether an old friend or a charming stranger. On this special day, love knows no bounds!</message>
+        <message key="valdayQuest1Task1Title"><![CDATA[<span class="bold">Get Valentine's Day cards</span>]]></message>
+        <message key="valdayQuest1Comment"><![CDATA[<span class="bold">Hint:</span> Your friends can send you a Valentine's Day card. For them to do so, you must go to the workshop, find a Valentine's Day card and click Request.]]></message>
+        
+        <message key="valdayQuest2Title">Love Balloon</message>
+        <message key="valdayQuest2Description">Want to profess your love to someone or simply give them a nice gift? In honor of Valentine's Day, you'll find something special in the workshop!</message>
+        <message key="valdayQuest2Task1Title"><![CDATA[<span class="bold">Craft a LOVE balloon</span>]]></message>
+        <message key="valdayQuest2Comment"><![CDATA[<span class="bold">Hint:</span> The balloon can be crafted in the workshop.]]></message>
+        
+        <message key="valdayQuest3Title">About Love...</message>
+        <message key="valdayQuest3Description">What do we know about love? Not much at all... But we're constantly aspiring to experience everything that this deep emotion has to offer, as well as share our own affection with those dear to us.</message>
+        <message key="valdayQuest3Task1Title"><![CDATA[<span class="bold">Get love</span>]]></message>
+        <message key="valdayQuest3Comment"><![CDATA[<span class="bold">Hint:</span> You can get love by hugging and kissing other avatars.]]></message>
+        
+        <message key="valdayQuest4Title">Sweet Kiss</message>
+        <message key="valdayQuest4Description">What kind of a holiday is it without sweets? Your friends have been waiting for you to bring them a treat for tea time, and you already know what you'll be bringing.</message>
+        <message key="valdayQuest4Task1Title"><![CDATA[<span class="bold">Give a box of candy</span>]]></message>
+        <message key="valdayQuest4Comment"><![CDATA[<span class="bold">Hint:</span> You'll find the heart-shaped box of candy in the Gifts and Jokes shop.]]></message>
+        
+        <message key="valdayQuest5Title">Hanging Out with Friends</message>
+        <message key="valdayQuest5Description">Your friends and you have decided to celebrate this Valentine's Day at the cafe. And we all know how much fun that can be!</message>
+        <message key="valdayQuest5Task2Title"><![CDATA[<span class="bold">Hug someone at the cafe</span>]]></message>
+        <message key="valdayQuest5Task3Title"><![CDATA[<span class="bold">Hurl a cake at someone at the cafe</span>]]></message>
+		
+		
+		<!-- School (NOT USED) -->
+        
+        <message key="schoolQuest1Title">Грамотей</message>
+        <message key="schoolQuest1Desc">Знание русского языка дает большие перспективы в будущем каждого человека. Давай проверим, насколько хорошо ты знаешь русский язык!</message>
+        <message key="schoolQuest1Task1"><![CDATA[<span class="bold">Дать правильные ответы по русскому языку в школе</span>]]></message>
+        
+		<message key="schoolQuest2Title">Математик</message>
+        <message key="schoolQuest2Desc">Любишь считать? Знаешь наизусть таблицу умножения? Молодец, но этого мало. В школе Аватарии тебя ждет множество интересных вопросов по математике, заодно и проверим твои знания по этому предмету.</message>
+        <message key="schoolQuest2Task1"><![CDATA[<span class="bold">Дать правильные ответы по математике в школе</span>]]></message>
+        
+		<message key="schoolQuest3Title">Всезнайка</message>
+        <message key="schoolQuest3Desc">Прелесть тестирования в том, что ответы на вопрос видны сразу. Тебе остается лишь немного подумать и выбрать правильный. С виду все просто, но, посмотрим, как это на самом деле.</message>
+        <message key="schoolQuest3Task1"><![CDATA[<span class="bold">Дать правильные ответы по тестам в школе</span>]]></message>
+        
+		<message key="schoolQuest4Title">Путешественник</message>
+        <message key="schoolQuest4Desc">Много ли ты знаешь о том, что находится за пределами твоего города, твоей страны? Какие еще города и страны ты знаешь? Вопросов и ответов может быть много, ведь это — география! Знание этого предмета не только расширяет твой кругозор, но и позволяет взглянуть на жизнь под другим углом.</message>
+        <message key="schoolQuest4Task1"><![CDATA[<span class="bold">Дать правильные ответы по географии в школе</span>]]></message>
+        
+		<message key="schoolQuest5Title">Знаток формул</message>
+        <message key="schoolQuest5Desc">Формулы бывают разные, но не важно, знаешь ли ты их наизусть или нет. Важно то, как ты умеешь ими пользоваться. Но ведь физика и химия это не только формулы, ведь так?</message>
+        <message key="schoolQuest5Task1"><![CDATA[<span class="bold">Дать правильные ответы<br>по физике в школе</span>]]></message>
+        
+		<message key="schoolQuest5Task2"><![CDATA[<span class="bold">Дать правильные ответы<br>по химии в школе</span>]]></message>
+        <message key="schoolQuest6Title">Книголюб-историк</message>
+        <message key="schoolQuest6Desc">Знания об историческом прошлом зачастую отображается и в художественных произведениях того или иного отрезка времени. Ведь кто как не люди, живущие в прошлом, могут более достоверно описать все то, что происходило в мире и вокруг них самих?</message>
+        <message key="schoolQuest6Task1"><![CDATA[<span class="bold">Дать правильные ответы по литературе в школе</span>]]></message>
+        <message key="schoolQuest6Task2"><![CDATA[<span class="bold">Дать правильные ответы по истории в школе</span>]]></message>
+        
+		<message key="schoolQuest7Title">Успеваемость</message>
+        <message key="schoolQuest7Desc">Наверняка ты хорошо учишься и всегда без ошибок отвечаешь почти на все вопросы, даже самые сложные? В таком случае, тебе полагается дополнительная награда!</message>
+        <message key="schoolQuest7Task1"><![CDATA[<span class="bold">Получить приз за 30 баллов</span>]]></message>
+        <message key="schoolQuest8Task1"><![CDATA[<span class="bold">Получить приз за 75 баллов</span>]]></message>
+        <message key="schoolQuest9Task1"><![CDATA[<span class="bold">Получить приз за 180 баллов</span>]]></message>
+        
+		<message key="schoolQuest10Title">Отличник</message>
+        <message key="schoolQuest10Desc">Если учиться прилежно, можно получить дополнительные баллы, тем самым приблизив себя к получению главного приза. Справишься?</message>
+        <message key="schoolQuest10Task1"><![CDATA[<span class="bold">Получить бонусные баллы<br>за хорошую учебу</span>]]></message>
+        
+		<message key="schoolQuest14Title">25 баллов</message>
+        <message key="schoolQuest14Desc">Каждый полученный тобой балл в школе — показатель твоей успеваемости. И чем больше ты отвечаешь на вопросы, тем больше баллов можешь получить.</message>
+        <message key="schoolQuest14Task1"><![CDATA[<span class="bold">Получить баллы за<br>правильные ответы в школе</span>]]></message>
+        
+		<message key="schoolQuest15Title">100 баллов</message>
+        <message key="schoolQuest16Title">200 баллов</message>
+		
+		<!-- HELP BUTTON TITLES -->
+		
+		<message key="hbCafeLocationTitle">kafeye</message>
+        <message key="hbClubLocationTitle">kulübe</message>
+        <message key="hbParkLocationTitle">parka</message>
+        <message key="hbPublicLocationsTitle">konumlar</message>
+        <message key="hbWorkLocationsTitle">iş</message>
+        <message key="hbClothesShopTitle">kıyafet mağazası</message>
+        <message key="hbFurnitureShopTitle">mobilya mağazası</message>
+        <message key="hbJokeAndPresentShopTitle">şaka mağazası</message>
+        <message key="hbMyinventory">eşyalarım</message>
+        <message key="hbAchievements">ödüller</message>
+        <message key="hbCraft">atölyeye</message>
+        <message key="hbApartment">bir oda satın alın</message>
+        <message key="hbMngApartment">apartmanım</message>
+        <message key="hbBeautySalonTitle">güzellik salonuna</message>
+        <message key="hbAvatarApearance">görünümüm</message>
+        <message key="hbEventsTitle">bir etkinlik oluşturun</message>
+        <message key="hbGarbageWorkTitle">bahçede çalışın</message>
+        <message key="hbGardenWorkTitle">avluda çalışın</message>
+		<message key="hbNpcWorkTitle">komşuya</message>
+        <message key="hbFortuneWorkTitle">şans çarkı</message>
+		<message key="hbBeachLocationTitle">sahil</message>
+        <message key="hbPhotosalonLocationTitle">fotograf stüdyosu</message>
+        <message key="hbTechShopTitle">teknoloji mağazası</message>
+        <message key="hbCanyonLocationTitle">Kanyon</message>
+        
+        <!-- GARDEN'n'YARD ACTION -->
+        
+        <message key="gdBugTitle"><![CDATA[<span class="bold">Böcekleri ezin</span>]]></message>
+        <message key="gdBtfTitle"><![CDATA[<span class="bold">Kelebek yakalayın</span>]]></message>
+        <message key="gdFlwTitle"><![CDATA[<span class="bold">Çiçekleri sulayın</span>]]></message>
+        <message key="gdInsTitle"><![CDATA[<span class="bold">Çiçeklere su püskürtün</span>]]></message>
+        
+        <message key="pickGarbage"><![CDATA[<span class="bold">Avludaki çöpleri temizleyin</span>]]></message>
+        <message key="pickGarbageComment"><![CDATA[<span class="bold">İpucu:</span> Konumlar üzerine tıklayın, ardından İş sekmesine gidin. İşler listesinden temizlikçi seçin.]]></message>
+        
+        <message key="doneGarbageWorkSession"><![CDATA[<span class="bold">Avludaki tüm işleri bitirin</span>]]></message>
+        <message key="gwsComment"><![CDATA[<span class="bold">İpucu:</span> Vardiyanız bitmeden önce tüm çöpleri temizlemelisiniz. Çöplerin bazıları görünmüyorsa veya temizlenemiyorsa, konuma bir defa daha gidin.]]></message>
+        
+        <message key="doneGardenWorkSession"><![CDATA[<span class="bold">Bahçedeki tüm işleri tamamlayın</span>]]></message>
+        <message key="gdwsComment"><![CDATA[<span class="bold">İpucu:</span> Vardiyanız bitmeden önce tüm işleri tamamlamalısınız.]]></message>
+        
+        <message key="createGarbageWorkSession"><![CDATA[<span class="bold">Avluda yeni bir vardiyaya başlayın</span>]]></message>
+        <message key="cgwsComment"><![CDATA[<span class="bold">İpucu:</span> Sadece vardiya sırasındaki ziyaretler hesaba katılmaktadır. İş vardiyası her 30 dakikada bir değişmektedir.]]></message>
+        
+        <message key="createGardenWorkSession"><![CDATA[<span class="bold">Bahçede yeni bir vardiyaya başlayın</span>]]></message>
+        <message key="cgdwsComment"><![CDATA[<span class="bold">İpucu:</span> Sadece vardiya sırasındaki ziyaretler hesaba katılmaktadır. İş vardiyası her 60 dakikada bir değişmektedir.]]></message>
+        
+        <message key="cwsCommonComment"><![CDATA[<span class="bold">Hint:</span> Sadece vardiya sırasındaki ziyaretler hesaba katılmaktadır.]]></message>
+        
+        <!-- SOCIAL ACTIONS -->
+        
+        <message key="kissAction"><![CDATA[<span class="bold">Birisini öpün</span>]]></message>
+        <message key="hugAction"><![CDATA[<span class="bold">Birisine sarılın</span>]]></message>
+        <message key="kickAction"><![CDATA[<span class="bold">Birisine tekme atın</span>]]></message>
+        <message key="slapAction"><![CDATA[<span class="bold">Birisine tokat atın</span>]]></message>
+        
+        <message key="giftPresent"><![CDATA[<span class="bold">Birisine bir hediye verin</span>]]></message>
+        <message key="winPillowBattle"><![CDATA[<span class="bold">Bir yastık kavgasını kazanın</span>]]></message>
+        <message key="throwCake"><![CDATA[<span class="bold">Birisine pasta atın</span>]]></message>
+        <message key="wipeCake"><![CDATA[<span class="bold">Pasta kalıntılarını temizleyin</span>]]></message>
+        <message key="addBuddy"><![CDATA[<span class="bold">Yeni arkadaşlar edinin</span>]]></message>
+        
+        <message key="friendsHelp"><![CDATA[<span class="bold">Komşularınızın çöpünü temizleyin</span>]]></message>
+        <message key="friendsHelpComment"><![CDATA[<span class="bold">İpucu:</span> Tüm komşularınız ekranın alt kısmında görüntülenir.]]></message>
+        
+        <message key="giftCoctail"><![CDATA[<span class="bold">Kulüpte birisine bir kokteyl ikram edin</span>]]></message>
+        <message key="giftCoctailComment"><![CDATA[<span class="bold">İpucu:</span> Kulüpteki oyunculardan birisi üzerine tıklayın ve İkram seçeneğini seçin.]]></message>
+        <message key="giftSweets"><![CDATA[<span class="bold">Kafede birisine ikramda bulunun</span>]]></message>
+        <message key="giftSweetsComment"><![CDATA[<span class="bold">Hint:</span>  Kafedeki oyunculardan birisi üzerine tıklayın ve İkram seçeneğini seçin.]]></message>
+        <message key="giftSomeone"><![CDATA[<span class="bold">Kulüpte veya kafede birisine ikramda bulunun</span>]]></message>
+        
+        <message key="refrigerateMe"><![CDATA[<span class="bold">Buzdolabınızdan birşeyler yiyin</span>]]></message>
+        <message key="treatTheirs"><![CDATA[<span class="bold">Buzdolabınızdan birisine ikramda bulunun</span>]]></message>
+        <message key="treatMe"><![CDATA[<span class="bold">Başkasının buzdolabından yiyin</span>]]></message>
+        
+        <message key="brokeFurniture"><![CDATA[<span class="bold">Birisinin evinde birşeyleri bozun</span>]]></message>
+        <message key="repairFurniture"><![CDATA[<span class="bold">Size ait bozuk bir eşyayı onarın</span>]]></message>
+        
+        <message key="createEvent"><![CDATA[<span class="bold">Yeni bir etkinlik oluşturun</span>]]></message>
+        <message key="createEventComment"><![CDATA[<span class="bold">İpucu:</span> Bir etkinlik oluşturmak için, soldaki Konumlar üzerine tıklayın ve Etkinlikler sekmesini açın. Ardından, aşağıdan bir Etkinlik Oluştur seçin.</span>]]></message>
+        
+        <message key="paintGraffiti"><![CDATA[<span class="bold">Duvar yazısı yazın</span>]]></message>
+        <message key="eraseGraffiti"><![CDATA[<span class="bold">Dairenizdeki duvar yazısını silin</span>]]></message>
+		
+		<message key="winBeachRace"><![CDATA[<span class="bold">Sörf yarişmasini kazan</span>]]></message>
+        <message key="makePhoto"><![CDATA[<span class="bold">Fotograf stüdyosunda fotograf çektir</span>]]></message>
+        <message key="restoreEnergyInVip"><![CDATA[<span class="bold">VIP odasinda dinlen</span>]]></message>
+        <message key="sitOnHorse"><![CDATA[<span class="bold">Eglence aletlerine bin</span>]]></message>
+
+        <message key="winCarRace"><![CDATA[<span class="bold">Bir Yarış Kazan</span>]]></message>
+        <message key="collectScrew"><![CDATA[<span class="bold">Bir Cıvata Bul</span>]]></message>
+        <message key="collectWrench"><![CDATA[<span class="bold">Bir İngiliz Anahtarı Bul</span>]]></message>
+        <message key="craftMotoHelm"><![CDATA[<span class="bold">Yarış Kaskı Yap</span>]]></message>
+        <message key="craftGasStation"><![CDATA[<span class="bold">Benzin İstasyonu Yap</span>]]></message>
+        <message key="danceInCanyon"><![CDATA[<span class="bold">Kanyonda Dans Et</span>]]></message>
+        
+        <!-- COLLECT ACTION -->
+
+        <message key="collectBow"><![CDATA[<span class="bold">Bahçeyi temizlerken fiyonkları bulun</span>]]></message>
+        <message key="collectPhial"><![CDATA[<span class="bold">Bir küçük şişe bulun</span>]]></message>
+        <message key="collectBigPhial"><![CDATA[<span class="bold">Bir büyük şişe bulun</span>]]></message>
+        <message key="collectClay"><![CDATA[<span class="bold">Bahçeden kil yığınları toplayın</span>]]></message>
+        <message key="collectWater"><![CDATA[<span class="bold">Bahçede su damlalarını bulun</span>]]></message>
+        <message key="collectCoins"><![CDATA[<span class="bold">Şans paralarını bulun</span>]]></message>
+        <message key="collectFeather"><![CDATA[<span class="bold">Tüyleri toplayın</span>]]></message>
+        <message key="collectWick"><![CDATA[<span class="bold">Bir sigorta alın</span>]]></message>
+        <message key="collectIron"><![CDATA[<span class="bold">Demir parçaları toplayın</span>]]></message>
+        <message key="collectWood"><![CDATA[<span class="bold">Tahta parçaları toplayın</span>]]></message>
+        <message key="collectPhotos"><![CDATA[<span class="bold">Fotoğrafları toplayın</span>]]></message>
+        <message key="collectFlowerBuds"><![CDATA[<span class="bold">Goncaları toplayın</span>]]></message>
+        <message key="collectWrappingPaper"><![CDATA[<span class="bold">Ambalaj kağıdı toplayın</span>]]></message>
+        <message key="collectSaberHilt"><![CDATA[<span class="bold">Bir kılıç kabzası bulun</span>]]></message>
+        <message key="collectShell"><![CDATA[<span class="bold">Denizkabukları topla</span>]]></message>
+		<message key="collectPearl"><![CDATA[<span class="bold">İnciler topla</span>]]></message>
+		
+        <message key="collectComponents"><![CDATA[<span class="bold">Atölye için herhangi bir malzeme toplayın</span>]]></message>
+        
+        <message key="collectGenerosity"><![CDATA[<span class="bold">Cömertlik alın</span>]]></message>
+        <message key="collectLove"><![CDATA[<span class="bold">Sevgi alın</span>]]></message>
+        <message key="collectHappiness"><![CDATA[<span class="bold">Mutluluk alın</span>]]></message>
+        <message key="collectHate"><![CDATA[<span class="bold">Nefret alın</span>]]></message>
+        
+        <!-- CRAFT ACTION -->
+        
+        <message key="craftCoffeeDrink"><![CDATA[<span class="bold">Atölyede kafeinli bir içecek yapın</span>]]></message>
+        <message key="craftEnergyDrink"><![CDATA[<span class="bold">Atölyede canlandırıcı bir içecek yapın</span>]]></message>
+        <message key="craftTeddyBear"><![CDATA[<span class="bold">Bir oyuncak ayı yapın</span>]]></message>
+        <message key="craftSaber"><![CDATA[<span class="bold">Bir kılıç yapın</span>]]></message>
+        <message key="craftCandel"><![CDATA[<span class="bold">Bir mum yapın</span>]]></message>
+        <message key="craftLillies"><![CDATA[<span class="bold">Bir zambak buketi yapın</span>]]></message>
+        <message key="craftMoneybox"><![CDATA[<span class="bold">Bir kumbara yapın</span>]]></message>
+        <message key="craftBomb"><![CDATA[<span class="bold">Boya bombası yapın</span>]]></message>
+        <message key="craftFireplace"><![CDATA[<span class="bold">Bir şömine yapın</span>]]></message>
+        <message key="craftTV"><![CDATA[<span class="bold">Bir televizyon yapın</span>]]></message>
+		<message key="craftShellNecklace"><![CDATA[<span class="bold">Bir tane denizkabuğu kolyesi yap</span>]]></message>
+		<message key="craftPearlNecklace"><![CDATA[<span class="bold"> Bir tane inci kolye yap</span>]]></message>
+		<message key="craftFilm"><![CDATA[<span class="bold">Bir takım filmler yap</span>]]></message>
+		<message key="craftMusCenter"><![CDATA[<span class="bold">Bir tane Müzik Merkezi yap</span>]]></message>
+		<message key="craftSurfBoard"><![CDATA[<span class="bold">Sörf tahtasi yap</span>]]></message>
+        
+        <message key="craftTableVaseYellow"><![CDATA[<span class="bold">Sarı çiçekli bir vazo yapın</span>]]></message>
+        <message key="craftTableVaseOrange"><![CDATA[<span class="bold">Turuncu çiçekli bir vazo yapın</span>]]></message>
+        <message key="craftTableVasePink"><![CDATA[<span class="bold">Pembe çiçekli bir vazo yapın</span>]]></message>
+        
+        <message key="craftFloorVaseBlue"><![CDATA[<span class="bold">Mavi dekoratif bir vazo yapın</span>]]></message>
+        <message key="craftFloorVaseRed"><![CDATA[<span class="bold">Kırmızı dekoratif bir vazo yapın</span>]]></message>
+        
+        <message key="craftPhotoFrameBlue"><![CDATA[<span class="bold">Mavi bir resim çerçevesi yapın</span>]]></message>
+        <message key="craftPhotoFrameRed"><![CDATA[<span class="bold">Kırmızı bir bir resim çerçevesi yapın</span>]]></message>
+        
+        <message key="craftAnyItem"><![CDATA[<span class="bold">Herhangi bir eşya yapın</span>]]></message>
+        
+        <!-- OTHER ACTIONS -->
+        
+        <message key="changeClothesRating"><![CDATA[<span class="bold">İmaj puanı alın</span>]]></message>
+        <message key="changeHouseRating"><![CDATA[<span class="bold">Konfor puanı alın</span>]]></message>
+        
+        <message key="winChips"><![CDATA[<span class="bold">Şans Çarkı'nda çip kazanın</span>]]></message>
+        <message key="winSilver"><![CDATA[<span class="bold">Şans Çarkı'nda gümüş kazanın</span>]]></message>
+        <message key="winGold"><![CDATA[<span class="bold">Şans Çarkı'nda altın kazanın</span>]]></message>
+        
+        <message key="buyRoom"><![CDATA[<span class="bold">Yeni bir oda satın alın</span>]]></message>
+        <message key="buyRoomComment"><![CDATA[<span class="bold">İpucu:</span> Başka bir oda satın almak için, dışarıya açılmayan kapılardan biri üzerine tıklayın.]]></message>
+
+        <message key="questRandomCraftHint"><![CDATA[<span class="bold">İpucu:</span> Doğru rengi elde etmek için, eşyayı çeşitli defalar yapmanız gerekebilir.]]></message>
+        
+        <message key="fortuneWin"><![CDATA[<span class="bold">şans Çarkı'nda kazanın</span>]]></message>
+        <message key="fortuneWinComment"><![CDATA[<span class="bold">İpucu:</span> Şans Çarkı'nı oynamak için ekranın alt kısmındaki Çip Para simgesine tıklayın.]]></message>
+        
+        <message key="feedYourself"><![CDATA[<span class="bold">Kulüpte veya kafede bir sipariş verin</span>]]></message>
+        <message key="feedYourselfInCafe"><![CDATA[<span class="bold">Kafede yemek yiyin</span>]]></message>
+        <message key="feedYourselfInClub"><![CDATA[<span class="bold">Kulüpte bir kokteyl sipariş edin</span>]]></message>
+        <message key="drinkB52InClub"><![CDATA[<span class="bold">Klüpte bir kaç tane B-52 sipariş et</span>]]></message>
+		
+        <message key="buyCafeCake"><![CDATA[<span class="bold">Kafede bir dilim kek yiyin</span>]]></message>
+        <message key="buyCafeCoffee"><![CDATA[<span class="bold">Kafede bir fincan kahve için</span>]]></message>
+        <message key="buyCafePizza"><![CDATA[<span class="bold">Kafede bir  dilim pizza yiyin</span>]]></message>
+        
+        <message key="spendEnergy"><![CDATA[<span class="bold">Enerji harcayın</span>]]></message>
+        <message key="spendSilver"><![CDATA[<span class="bold">Gümüş harcayın</span>]]></message>
+        <message key="spendGold"><![CDATA[<span class="bold">Altın harcayın</span>]]></message>
+        
+        <message key="danceInClub"><![CDATA[<span class="bold">Kulüpte dans edin</span>]]></message>
+        <message key="danceInStreet"><![CDATA[<span class="bold">Sokakta dans edin</span>]]></message>
+        <message key="danceInYard"><![CDATA[<span class="bold">Meydanda dans edin</span>]]></message>
+        <message key="danceInCafe"><![CDATA[<span class="bold">Kafede dans edin</span>]]></message>
+        <message key="danceInPark"><![CDATA[<span class="bold">Parkta dans edin</span>]]></message>
+        <message key="justDance"><![CDATA[<span class="bold">Dans edin</span>]]></message>
+        
+        <message key="plantBomb"><![CDATA[<span class="bold">Bir boya bombası yerleştirin</span>]]></message>
+        <message key="plantBombComment"><![CDATA[<span class="bold">İpucu:</span> Boya bombası bir şaka mağazasından satın alınabilir ve herhangi bir sandalye veya koltuk gibi oturulan yerlere yerleştirilir.</span>]]></message>
+        
+        <message key="roomsCount"><![CDATA[<span class="bold">Dairedeki oda sayısını arttırın</span>]]></message>
+		
+        <!-- LOCATION QUESTS: GARDEN -->
+		
+		<message key="grdnType1Quest1Title">Sulama</message>
+		<message key="grdnType1Quest1Desc">İnsanların beslenmeye ihtiyaç duyduğu gibi, bitkilerin de sulanmaya ihtiyacı vardır. Yapmanız gereken tek şey üzerine biraz su dökmektir. Ancak unutmayın; her gün sulanmaları gerekmektedir!</message>
+		<message key="grdnType1Quest2Title">Böcekler</message>
+		<message key="grdnType1Quest2Desc">Tüm şu haşarata bakın! Bunlardan bir an önce kurtulmazsanız, yaptığınız tüm bahçe çalışmaları harap olacak!</message>
+		<message key="grdnType1Quest3Title">Renkli bir Av</message>
+		<message key="grdnType1Quest3Desc">Güzel kokan bir bahçe diğer canlıları da kendine çeker. Ne kadar farklı kelebek türlerinin uçuştuğuna bir baksana!</message>
+		<message key="grdnType1Quest4Title">Haşereler!</message>
+		<message key="grdnType1Quest4Desc">Doğa kendi başının çaresine bakmaktadır, ama bazen işlere dahil olmak gerekir. Bu çalılıkların bazılarında acilen haşere mücadelesi gerekli!</message>
+		<message key="grdnType1Quest5Title">Uçanlar ve Sürüngenler</message>
+		<message key="grdnType1Quest5Desc">Bahçenin etrafında uçan da ne? Doğru, kelebekler. Peki bu kirin içinde sürünen de ne? Yani, sizin haricinizde? Muhtemelen o pis bahçe böceklerinden bir kaçıdır.</message>
+		<message key="grdnType1Quest6Title">Kurak Mevsim</message>
+		<message key="grdnType1Quest6Desc">Havalar ısındıkça, bahçedeki bitkilerinize daha fazla zaman ayırmanız gerekir. Özellikle sıcaklık çok yükselmişse!</message>
+		<message key="grdnType1Quest7Title">Düzenli Olmayı Öğrenmek</message>
+		<message key="grdnType1Quest7Desc">Bazı işler tam olarak belli zamanlarda yapılmalıdır. Örneğin, bahçedeki bitkilerinizi doğru zamanda sulamazsanız, sonucu çok kötü olabilir!</message>
+		<message key="grdnType1Quest8Title">Yakalanamaz</message>
+		<message key="grdnType1Quest8Desc">Kelebek yakalamak o kadar da kolay değildir. Ama eğlenceli yapan da budur!</message>
+		<message key="grdnType1Quest9Title">Sulama Kabı</message>
+		<message key="grdnType1Quest9Desc">Bahçe bitkileri beslenmeyi, taze ve serin bir nemi çok sever. Daha güçlü gelişmelerini sağlar. Neyse ki, onlara yardımcı olmak için siz varsınız!</message>
+		<message key="grdnType1Quest10Title">Yapılacak Daha Çok İş Var!</message>
+		<message key="grdnType1Quest10Desc">Çalışmaya hazır mısınız? Bahçede sizi pek çok iş beklemektedir!</message>
+		<message key="grdnType1Quest11Title">Bahçe Işi</message>
+        <message key="grdnType1Quest11Desc">Kendine ait bir bahçenin olmasi harika bir şey, ancak onunla iyi bir şekilde ilgilenmen lazim! Hadi gidip bir kaç bahçe işini hallet!</message>
+		<message key="grdnType1Quest12Title">Muhteşem Tabiat</message>
+        <message key="grdnType1Quest12Desc">Ne kadar da güzel bir doga parçasi! Ve bahçedeki birbirinden harika çiçekler! Birkaçini toplayip vazoya koymalisin!</message>
+		<message key="grdnType1Quest13Title">Biraz Dinlenmeyi hak Ettin</message>
+        <message key="grdnType1Quest13Desc">Bahçen ile ilgilenmeyi ihmal edemezsin! Ama yine de arada bir çalişmak için degil de, temiz hava almak için bahçene gitmelisin.</message>
+        <message key="grdnType1Quest14Title">Hayat Veren Nem</message>
+		<message key="grdnType1Quest14Desc">Bir ot bile susuz yaşayamazken çiçekler ve çalılar hiç yaşayamaz.</message>
+		<message key="grdnType1Quest15Title">Kuraklık</message>
+		<message key="grdnType1Quest15Desc">Havalar çok fena! Güneş iyi güzel ama bitkilerin canına okuyor. Onları sulayalım bari!</message>
+		<message key="grdnType1Quest16Title">Ezmeye başla!</message>
+		<message key="grdnType1Quest16Desc">Böcekler bahçene adeta yerleşti. Onlardan hemen kurtulmalısın.</message>
+		<message key="grdnType1Quest17Title">Böcek İstilası</message>
+		<message key="grdnType1Quest17Desc">Bahçen böcek doldu! Bazıları da zararlı böcekler. Oturup kelebekleri keyifle izlemeden önce zararlı böceklerden kurtulmalısın.</message>
+		<message key="grdnType1Quest18Title">Son Damlasına Kadar</message>
+		<message key="grdnType1Quest18Desc">Su paha biçilemez bir kaynaktır. Çocuklara suyu israf etmeyin diye boşuna öğretmiyoruz! Bahçede ne kadar su varsa hepsini toplayalım.</message>
+		<message key="grdnType1Quest19Title">Ele Konan Kelebek</message>
+		<message key="grdnType1Quest19Desc">Eline konan kelebek, bahçendeki böceklerden iyidir!</message>
+		<message key="grdnType1Quest20Title">Patlayan Su Borusu</message>
+		<message key="grdnType1Quest20Desc">Haberler kötü: bahçedeki su borusu patladı. Yakında tamir edileceğine söz verdiler ama ne olur ne olmaz su stoklasak iyi olur.</message>
+		<message key="grdnType1Quest21Title">Koşuşturma</message>
+		<message key="grdnType1Quest21Desc">Bahçede oturup çene çalmak iyi tabii, ama mekanını güzel tutmak istiyorsan çalışmalısın! Bitkileri sulamalı ve zararlı böceklerden kurtulmalısın.</message>
+		<message key="grdnType1Quest22Title">Zevkli Kişilik</message>
+		<message key="grdnType1Quest22Desc">Bu kelebekler çok güzel! Birkaç tanesini yakalayıp yakından bakalım! Ama dikkat et, kanatları çok kırılgandır!</message>
+		<message key="grdnType1Quest23Title">Bahçe Bakımı</message>
+		<message key="grdnType1Quest23Desc">Bitkiler çok duyarlı, hassas şeylerdir. Sulanmak, su püskürtülmek kısacası devamlı ilgi isterler...</message>
+		<message key="grdnType1Quest24Title">Haşereler!</message>
+		<message key="grdnType1Quest24Desc">Bahçendeki çalılara musallat olan şu haşerelere bak! Onlara hemen su püskürtmelisin, yoksa geriye kuru saplardan başka bir şey kalmayacak!</message>
+		<message key="grdnType1Quest25Title">Sulama</message>
+		<message key="grdnType1Quest25Desc">Eski uygarlıklar tarlalarını sulamak için karmaşık sistemler geliştirmişlerdi. Şimdiyse her şey daha kolay!</message>
+		<message key="grdnType1Quest26Title">Yakala!</message>
+		<message key="grdnType1Quest26Desc">Şuna bak! Ne kadar güzel bir kelebek! Onu yakalayalım!</message>
+		<message key="grdnType1Quest27Title">Yapay Yağmur</message>
+		<message key="grdnType1Quest27Desc">Bir süredir pek yağmur yağmadığı için bitkiler kurumaya başladı! Yapay yağmurlama yapmak için sulama kapları kullanmamız gerekecek.</message>
+		<message key="grdnType1Quest28Title">Devamlı İlgi</message>
+		<message key="grdnType1Quest28Desc">Bitkileri toprağa dikip sonra oturup büyümelerini bekleyemezsin! Her gün onlarla ilgilenmen gerekir. Git onları sula ve haşerelerden arındır!</message>
+		<message key="grdnType1Quest29Title">Damlaya Damlaya Göl Olur</message>
+		<message key="grdnType1Quest29Desc">Damlaya damlaya koca bir fıçıyı suyla doldurabilirsin.</message>
+		<message key="grdnType1Quest30Title">İyi, Kötü ve Çirkin</message>
+		<message key="grdnType1Quest30Desc">Bazı böcekler yararlıyken bazıları zararlıdır. O yüzden güzel kelebekleri yakalayıp onlara gıptayla bakarken bu çirkin böcekleri de eziyoruz.</message>
+		<message key="grdnType1Quest31Title">Unutuldular</message>
+		<message key="grdnType1Quest31Desc">Uups. Görünüşe göre çalılara bir süredir su püskürtmemişsin. Biraz daha püskürtmezsen yaprak bitleri ve diğer haşereler baş gösterecek. Haydi şu işi halledelim.</message>
+		<message key="grdnType1Quest32Title">Böcek Saldırısı</message>
+		<message key="grdnType1Quest32Desc">Şu ağaca tırmanan şey de ne öyle? Böcek mi o? Aman tanrım, bir tane daha! Derken bir tane daha! Şurada da var! Bahçemize zarar vermeden onlardan kurtulmalıyız.</message>
+		<message key="grdnType1Quest33Title">Küçük İşlerin Adamı</message>
+		<message key="grdnType1Quest33Desc">Bahçede yapacak çok şey var: su toplama, çalılara su püskürtme...</message>
+		<message key="grdnType1Quest34Title">Zıplayıp Yakala</message>
+		<message key="grdnType1Quest34Desc">Kelebekler bayağı yüksekten uçabilir; ama zıplarsan o güzel canlıları yakalayabilirsin.</message>
+        
+		<message key="grdnType2Quest1Title">Tek Seferde</message>
+		<message key="grdnType2Quest1Desc">Genellikle başladığınız işi bitirmek en iyisidir. Asla şimdiye kadar başardıklarınızı yok etmeyin!</message>
+		<message key="grdnType2Quest2Title">Kil</message>
+		<message key="grdnType2Quest2Desc">Peki, kil hakkında neler biliyorsunuz? Doğru. Bahçede biraz bulunmaktadır. Ayrıca atölyede ihtiyacınız olan şekilde kullanabilirsiniz.</message>
+		<message key="grdnType2Quest3Title">Görüntüyü Korumak</message>
+		<message key="grdnType2Quest3Desc">Bazen çalışmak istemeseniz de, işe gitmek zorunda olursunuz. Bahçeyle yeterince sık ilgilenirseniz, kimse size yetişemez :)</message>
+		<message key="grdnType2Quest4Title">Flora</message>
+		<message key="grdnType2Quest4Desc">Çiçek goncaları, atölyede harika şeyler yapmak için kullanılabilir. Haydi biraz toplayalım.</message>
+		<message key="grdnType2Quest5Title">Düzenlenmiş Bahçe</message>
+		<message key="grdnType2Quest5Desc">Bir bahçeyi temiz ve bakımlı tutmak için yapmanız gereken çok iş vardır; bitkileri sulamak, böceklerle ilgilenmek vs. O zaman, haydi başlayalım!</message>
+		<message key="grdnType2Quest6Title">Tahta Kalaslar</message>
+		<message key="grdnType2Quest6Desc">Tahta kalaslar, atölyede harika şeyler yapmak için kullanılabilir. Haydi biraz toplayalım.</message>
+		<message key="grdnType2Quest7Title">Bahçede Çalışmak</message>
+		<message key="grdnType2Quest7Desc">Bahçeyi tüm yıl boyunca temiz, taze ve güzel tutmanın ne kadar zor olduğunu kimse bilemez! Ama siz biliyorsunuz.</message>
+		<message key="grdnType2Quest8Title">Yardımcı Eşyalar</message>
+		<message key="grdnType2Quest8Desc">Bahçede pek çok iş olmasının yanında, faydalı pek çok şeyi de buradan bulabilirsiniz! Örneğin, atölye için malzemeler.</message>
+		<message key="grdnType2Quest9Title">Kontrol Altında</message>
+		<message key="grdnType2Quest9Desc">Verimli çalışmayı biliyorsunuz ve herşey aşağı yukarı kontrolünüz altında. Buna devam edin!</message>
+		<message key="grdnType2Quest10Title">Herkes Kendine Göre</message>
+		<message key="grdnType2Quest10Desc">Farklı Avataria sakinlerinin farklı tercihleri vardır. Bazıları gürültülü partilerden hoşlanırken, bazıları huzurlu bahçeleri tercih eder. Herkesin kendi zevki.</message>
+		<message key="grdnType2Quest11Title">Haşere Kontrolü</message>
+		<message key="grdnType2Quest11Desc">Bazı kötü haberlerimiz de var: bir takım parazitler bahçeye bulaştı. Onlardan olabildiğince hızlı bir şekilde kurtulmalısın.</message>
+		<message key="grdnType2Quest12Title">Her şey kontrol altında</message>
+		<message key="grdnType2Quest12Desc">İyice dinlendin mi? O zaman işe dönme vakti! İşinden kaytarırsan sadece kendine zarar veriyor olursun! </message>
+		<message key="grdnType2Quest13Title">Talep edilen Kaynaklar</message>
+		<message key="grdnType2Quest13Desc">Bahçenin etrafında yatan kaynaklar bulabilirsin. Örneğin odun parçası. Faydalı olacaktır.</message>
+		<message key="grdnType2Quest14Title">Çalışkan Kişi</message>
+		<message key="grdnType2Quest14Desc">Çalışkan kişi her zaman yapacak bir şeyler arayan ve başladığı işi daima bitiren kişidir.</message>
+		<message key="grdnType2Quest15Title">Marangoz</message>
+		<message key="grdnType2Quest15Desc">Odunla çalışmak harika bir şey! Ama bizim üzerinde çalışabileceğimiz hiçbir şeyimiz yok. Bahçeden birkaç tahta mı toplasak?</message>
+		<message key="grdnType2Quest16Title">Tasasız</message>
+		<message key="grdnType2Quest16Desc">İşine erken başlarsan, zamanında bitirmek sorun olmaz. Eh, başlayalım o zaman!</message>
+		<message key="grdnType2Quest17Title">Güzel Bir Koku</message>
+		<message key="grdnType2Quest17Desc">Ah şu tomurcuklar ne de güzel kokuyorlar! Birkaç tomurcuk toplayalım da bu güzel koku gittiğimiz her yere bizimle gelsin!</message>
+		<message key="grdnType2Quest18Title">Gün Doğumundan Gün Batımına</message>
+		<message key="grdnType2Quest18Desc">Bazen bahçede yapacak o kadar çok şey oluyor ki daha bir işi bitirmeden başka bir işle ilgilenmen gerekebiliyor!</message>
+		<message key="grdnType2Quest19Title">Elinden Her İş Gelir</message>
+		<message key="grdnType2Quest19Desc">Dünyanın en iyi atölyesi bile malzeme olmadan bir işe yaramaz. Sürekli olarak tahta kalas, kil ve tomurcuğa ihtiyacın var!</message>
+		<message key="grdnType2Quest20Title">Sonu İyi Biten Her Şey İyidir</message>
+		<message key="grdnType2Quest20Desc">"Sonu İyi Biten Her Şey İyidir" derler. Madem öyle, şu işi iyi bitirmeye bakalım. Bahçedeki işimizi bitirelim de şöyle güzel bir mola verelim.</message>
+		<message key="grdnType2Quest21Title">Heykel Sanatı</message>
+		<message key="grdnType2Quest21Desc">Güzel heykellere hayranlık duyarız. Ama onların nasıl binbir zorlukla yapıldığını hiç bilmeyiz. Önce doğru malzemeyi bulmak gerekir.</message>
+		<message key="grdnType2Quest22Title">İş Ahlakı</message>
+		<message key="grdnType2Quest22Desc">İyi bahçıvanlar her gün çalışır. Bitkilerinin bu kadar iyi kokması o yüzdendir!</message>
+		<message key="grdnType2Quest23Title">Piknik</message>
+		<message key="grdnType2Quest23Desc">Piknik yapmayı herkes sever! Mangalda köfte ve et, arkadaşlarla muhabbet, havada uçan uçurtmalar... Bütün bunlardan önce birlikte odun ve su toplamalısınız ki mangal ateşini yakabilin ve sonra da söndürebilin!</message>
+		<message key="grdnType2Quest24Title">Harika!</message>
+		<message key="grdnType2Quest24Desc">Yapacak çok şey var. Haydi iş başına!</message>
+		<message key="grdnType2Quest25Title">Yaparsın sen!</message>
+		<message key="grdnType2Quest25Desc">Bahçende çalışmaya başlamışsın bile! Biraz daha çalışırsan işi bitireceksin! Yaparsın sen.</message>
+		<message key="grdnType2Quest26Title">Tam Zamanında</message>
+		<message key="grdnType2Quest26Desc">İşi sadece doğru yapmak değil, zamanında yapmak da önemlidir!</message>
+		<message key="grdnType2Quest27Title">Gayret</message>
+		<message key="grdnType2Quest27Desc">Ancak çok çalışan kişiler gayretli insanlar olarak nam salarlar! Çok çalışalım da millet ne kadar gayretliyiz görsün!</message>
+		<message key="grdnType2Quest28Title">Oduncu</message>
+		<message key="grdnType2Quest28Desc">Biraz odun işi yapma vakti geldi.</message>
+		<message key="grdnType2Quest29Title">Biraz kil karma zamanı geldi.</message>
+		<message key="grdnType2Quest29Desc">Yakın zamanda atölyeye baktın mı? Yeterince kilin var mı orada? Eh, o zaman biraz toplayalım!</message>
+		<message key="grdnType2Quest30Title">Sağlıklı, Zengin ve Zeki</message>
+		<message key="grdnType2Quest30Desc">Bahçende güne ne kadar erken başlarsan, işi o kadar erken bitirirsin. Tabii ödülleri de o kadar erken toplamış olursun!</message>
+		<message key="grdnType2Quest31Title">Koku Sanatı</message>
+		<message key="grdnType2Quest31Desc">Tomurcukları kullanarak Atölyede birçok eşya yapabilirsin; yalnızca aparmanını süsleyen değil, güzel kokmasını da sağlayan şeyler mesela.</message>
+		<message key="grdnType2Quest32Title">Hammaddeler</message>
+		<message key="grdnType2Quest32Desc">İnsanoğlu tarih öncesi zamanlardan beri kil ve odun kullanagelmiştir; günümüzde de bunlar vazgeçilmez malzemelerdir. Bahçede bu malzemelerden fazlasıyla var, gidip bulalım!</message>
+		<message key="grdnType2Quest33Title">Görev Tamamlandı</message>
+		<message key="grdnType2Quest33Desc">Yapılması gerekenlerin yapıldığını bilmek ne güzel bir duygu! Bugünün işini yarına bırakma. Haydi bütün işleri bitirelim!</message>
+		<message key="grdnType2Quest34Title">Hayat Kaynağı</message>
+		<message key="grdnType2Quest34Desc">Su, yaşam için vazgeçilmezdir. Bahçe işleri için de öyle!</message>
+		<message key="grdnType2Quest35Title">A'dan Z'ye</message>
+		<message key="grdnType2Quest35Desc">Bahçede yapılacak çok şey var ve bunların hepsini yapmak zorundayız! Yoksa bahçe kontrolden çıkar ve böyle bir şeyi istemeyiz tabii ki!</message>
+		<message key="grdnType2Quest36Title">Pes Etmek Yok</message>
+		<message key="grdnType2Quest36Desc">Başladığın işi her zaman bitir. Son bahçe işini yapmaya geldi sıra!</message>
+		
+		<!-- LOCATION QUESTS: GARBAGE -->
+		
+		<message key="grbgType1Quest1Title">Temizlik</message>
+		<message key="grbgType1Quest1Desc">Herşeyin temiz olmasını mı seviyorsunuz? O zaman temizlemeyi de biliyor olmalısınız!</message>
+		<message key="grbgType1Quest2Title">Çöp mü, Hazine mi?</message>
+		<message key="grbgType1Quest2Desc">İnsanar çöp atar. Bu, hayatın gerçeklerindendir. Ancak, herşeye hemen yok edilmesi gereken "çöp" olarak bakmayız.</message>
+		<message key="grbgType1Quest3Title">%100'e Getirin!</message>
+		<message key="grbgType1Quest3Desc">Bir bahçe ancak tüm çöpleri toplandığında temiz olarak değerlendirilebilir. Dolayısıyla işin %100'ünü bitirmelisiniz!</message>
+		<message key="grbgType1Quest4Title">Kavanozlar</message>
+		<message key="grbgType1Quest4Desc">Tüm bu iyi eşyaları kim saçtı buraya? Olsun. Kimin umurunda? Sonuçta bulana ait olur! :)</message>
+		<message key="grbgType1Quest5Title">Yeni Değişiklikler</message>
+		<message key="grbgType1Quest5Desc">Bu haksızlık. Herkes çöp atıyor, ama hepsini siz toplamak zorundasınız! Hiç adil değil!</message>
+		<message key="grbgType1Quest6Title">Her Yerde Çöp, Çöp</message>
+		<message key="grbgType1Quest6Desc">Hey, çocuklar! Burada neler oluyor? Tüm bu şeker kağıtlarını her yere kim saçtı?</message>
+		<message key="grbgType1Quest7Title">Mümkün Olduğunca Temiz</message>
+		<message key="grbgType1Quest7Desc">Bahçede her zaman yapılması gereken daha fazla iş bulunmaktadır. Ve bu işler için en uygun kişi sensin. Bu konuda hepimizden daha iyisin!</message>
+		<message key="grbgType1Quest8Title">Hurda Metal</message>
+		<message key="grbgType1Quest8Desc">Birisinin çöpü bir başkasının hazinesidir! Bu hurda metaller sizin için atölyede kullanabileceğiniz iyi birer demir kaynağıdır.</message>
+		<message key="grbgType1Quest9Title">Bahçem</message>
+		<message key="grbgType1Quest9Desc">Evet. Bu sizin bahçeniz. O yüzden temiz ve düzenli tutmanız en iyisi olacaktır!</message>
+		<message key="grbgType1Quest10Title">Kaplayın!</message>
+		<message key="grbgType1Quest10Desc">Ambalaj kağıdı mı? Kesinlikle buralarda bir yerlerde bulabilirsiniz. Sadece biraz arama gerektiriyor.</message>
+		<message key="grbgType1Quest11Title">Temiz Avlu</message>
+		<message key="grbgType1Quest11Desc">Ne kadar da düzenli bir insan ve sen bütün çöpü avluda mı bıraktın? Git ve ortalığı temizle!</message>
+		<message key="grbgType1Quest12Title">Malzemeleri Aramak</message>
+		<message key="grbgType1Quest12Desc">Öyle görünüyor ki avluda sadece çöp değil; aynı zamanda işe yarar bazı malzemeler de var. Bunlar çok faydalı olacaktır!</message>
+		<message key="grbgType1Quest13Title">Avluda Oynamak</message>
+		<message key="grbgType1Quest13Desc">Avlu sadece temizlemek için değil; aynı zamanda boş zamanlarını değerlendirmen için de iyidir! Hayır, bu sefer tırmığını yanına almak zorunda değilsin... </message>
+		<message key="grbgType1Quest14Title">Değerli Bir Kaynak</message>
+		<message key="grbgType1Quest14Desc">Bu büyük şişelerin içine ne koyabiliriz? Bunu sen çözmelisin. Nasıl? Git ve hepsini topla! :)</message>
+		<message key="grbgType1Quest15Title">Son Temizlik</message>
+		<message key="grbgType1Quest15Desc">Bahçen çer çöp dolu! Bu pisliği temizleyecek birini bulmalıyız!</message>
+		<message key="grbgType1Quest16Title">Metal İşleri</message>
+		<message key="grbgType1Quest16Desc">Vay canına, metal! Bu malzeme atölyede çok işimize yarayacak.</message>
+		<message key="grbgType1Quest17Title">Paspas</message>
+		<message key="grbgType1Quest17Desc">Bu mekan çok pis! Bahar temizliği zamanı!</message>
+		<message key="grbgType1Quest18Title">Her Şeyi Kullanmalı</message>
+		<message key="grbgType1Quest18Desc">Elimizde ne var? Fiyonk mu? Şişe mi? Kağıt mı? Bunların hepsi lazım! Alıyorum!</message>
+		<message key="grbgType1Quest19Title">Sorumluluk Sahibi Bir Bahçıvan</message>
+		<message key="grbgType1Quest19Desc">Bahçede çalışma zamanı!</message>
+		<message key="grbgType1Quest20Title">Fiyonklar!</message>
+		<message key="grbgType1Quest20Desc">Fiyonklar! Fiyonklar! Güzelim fiyonklar! Hepsini toplayalım!</message>
+		<message key="grbgType1Quest21Title">Düzen Hastası</message>
+		<message key="grbgType1Quest21Desc">Çöplüğe dönmüş bir bahçe yerine tertemiz, güzel bir bahçede yürümek çok daha iyi değil mi? Çöpleri temizleyip bu bahçeyi daha güzel bir yer haline getirelim.</message>
+		<message key="grbgType1Quest22Title">Kutular ve Şişeler</message>
+		<message key="grbgType1Quest22Desc">Her yer kutu ve şişeyle dolu! Kim yaptı bunu? Bu ne pislik böyle?! Bu pislikten kurtulmalısın.</message>
+		<message key="grbgType1Quest23Title">Haydi!</message>
+		<message key="grbgType1Quest23Desc">Bahçede yapılacak tonla iş var. Başlasak iyi olur!</message>
+		<message key="grbgType1Quest24Title">Sarıp Sarmalama</message>
+		<message key="grbgType1Quest24Desc">Paket kağıdı çok işine yarardı. Bahçede biraz olmalı!</message>
+		<message key="grbgType1Quest25Title">Sevap Ustası</message>
+		<message key="grbgType1Quest25Desc">Çöpleri temizlemek kesinlikle sevap sayılır. Ne kadar az çöp, o kadar temiz dünya!</message>
+		<message key="grbgType1Quest26Title">Dikkat et! Her yerde şişe var!</message>
+		<message key="grbgType1Quest26Desc">Ucuz atlattım. Neredeyse cam bir şişeye basıyordum! Çöpe dönmüş bu bahçenin her yeri şişe kaynıyor. Biri zarar görmeden bu pisliği temizlemeliyiz.</message>
+		<message key="grbgType1Quest27Title">Bahar Temizliği</message>
+		<message key="grbgType1Quest27Desc">Bahçe evlere şenlik durumda! Temizlik yapmalıyız.</message>
+		<message key="grbgType1Quest28Title">Her şeyi temiz tutmak lazım!</message>
+		<message key="grbgType1Quest28Desc">Sen büyük bir savaşçısın ve çöpler de düşmanınmış gibi düşün! Bir kahraman olarak görevin, bahçeyi çöplerden kurtarmak! Hiçbirinin gözünün yaşına bakma! Biz işimizi hızlı ve tam yaparız.</message>
+		<message key="grbgType1Quest29Title">Temizlik</message>
+		<message key="grbgType1Quest29Desc">Çöple dolu bir yerde yaşamayı kim ister? Hiçkimse. Bahçede adamakıllı bir temizlik yapalım!</message>
+		<message key="grbgType1Quest30Title">Kıymıklar</message>
+		<message key="grbgType1Quest30Desc">Odun kıymıkları bile bahçe işlerinde işe yarayabilir. Bahçedeki kıymıkları toplayalım.</message>
+		<message key="grbgType1Quest31Title">Beklenmedik Misafirler</message>
+		<message key="grbgType1Quest31Desc">Böyle güzel bir günde misafirler evin içinde tutulmaz. Onları bahçende gezintiye çıkar! Bahçen böyle rezil durumdayken ya bir misafir çıkıp gelirse ne yapacaksın? Hazırlıklı olmalısın!</message>
+		<message key="grbgType1Quest32Title">Hurda</message>
+		<message key="grbgType1Quest32Desc">İnsanlar ne diye onca eski metali, şişeyi ve metal kutuyu atar ki? Aslından onlardan faydalı bir sürü şey yapılabilir!</message>
+		<message key="grbgType1Quest33Title">Acele Et!</message>
+		<message key="grbgType1Quest33Desc">Yapılacak iş varken zaman öldürmek iyi bir şey değil. Bir iş aldıysan hemen başlamalısın!</message>
+		<message key="grbgType1Quest34Title">Dekorasyon</message>
+		<message key="grbgType1Quest34Desc">Hediye almak güzeldir ama üzerinde fiyonk olan bir hediye almak daha güzeldir. Birkaç fiyonk toplarsan, atölyede Oyuncak Ayı yapabilirsin.</message>
+		<message key="grbgType1Quest35Title">Hazine Avcısı</message>
+		<message key="grbgType1Quest35Desc">Bahçedeki çöpleri sık sık toplarsan, metal ve kağıt gibi bahçe işlerinde kullanabileceğin bir sürü faydalı şey bulabilirsin.</message>
+		<message key="grbgType1Quest36Title">Çöp</message>
+		<message key="grbgType1Quest36Desc">Sence de bahçemiz biraz kirlenmedi mi? Temizleyelim! Hem belki temizlik yaparken faydalı bir şeyler de buluruz.</message>
+		<message key="grbgType1Quest37Title">İşe koyulalım</message>
+		<message key="grbgType1Quest37Desc">Öyle aylak aylak oturuyor musun? Sıkılmadın mı? Haydi gidip bahçede biraz çalışalım!</message>
+		
+		<!-- LOCATION QUESTS: FORTUNE's WHEEL -->
+		
+		<message key="frtnQuest1Title">Cezbedici Bayan Şansı</message>
+		<message key="frtnQuest1Desc">Her zaman "bir dahaki sefere" derler, ama bu sefer şansa ilk deneyişimizde ihtiyacımız var!</message>
+		<message key="frtnQuest2Title">Oyun için Sevgi</message>
+		<message key="frtnQuest2Desc">Değerli hediyeler için çarkı çevirmeyi ne kadar sevdiğini göster!</message>
+		<message key="frtnQuest3Title">Ölümcül Tekerlek</message>
+		<message key="frtnQuest3Desc">Herkes senin ne kadar da hünerli olduğunu duydu! Ama onlara senin hala en iyisi olduğunu unutturmamalısın!</message>
+		<message key="frtnQuest4Title">Şans!</message>
+		<message key="frtnQuest4Desc">Her zaman oynamaya devam et! Güzel bir oyun sana güzel bir ödül kazandırır</message>
+		<message key="frtnQuest5Title">Fırıldak</message>
+		<message key="frtnQuest5Desc">Dönmeye devam et, ama dikkat et başın dönmesin!</message>
+		<message key="frtnQuest6Title">Şanslı Dönüş</message>
+		<message key="frtnQuest6Desc">Zeki, yetenekli, ve dayanıklı. İşte bu sensin! Yakında gerçek bir Çarkıfelek gurusu olacaksın ;)</message>
+		<message key="frtnQuest7Title">Ho-ho-ho!</message>
+		<message key="frtnQuest7Desc">Altını seversin tabii. Ama onu elde etmek öyle kolay değildir! Korsan şapkalarımızı takalım ve şans perisinin yardımıyla biraz altın bulalım.</message>
+		<message key="frtnQuest8Title">Kumar</message>
+		<message key="frtnQuest8Desc">İyi bir oyunun heyecanı gibisi yoktur! Kolu çekip kazandığın paracıkların delikten dökülmesini izlemek çok eğlenceli!</message>
+		<message key="frtnQuest9Title">Slot Makinelerinde</message>
+		<message key="frtnQuest9Desc">Kolu çek, bir ödül daha kazan!</message>
+		<message key="frtnQuest10Title">Kolu Çek</message>
+		<message key="frtnQuest10Desc">Her türlü ödülün verildiği kolu çek!</message>
+		<message key="frtnQuest11Title">Şans Kimden Yana</message>
+		<message key="frtnQuest11Desc">Bugüne kadar tanıdığım en şanslı insan kim bilmek ister misin? Sensin! Ee, daha ne bekliyorsun o zaman? Çek şu kolu!</message>
+		<message key="frtnQuest12Title">Kolu Çekmece</message>
+		<message key="frtnQuest12Desc">Haydi bakalım gelsin paracıklar!</message>
+		<message key="frtnQuest13Title">Slot Makinesi Şampiyonu</message>
+		<message key="frtnQuest13Desc">Büyük ödül için kolu çek.</message>
+		<message key="frtnQuest14Title">Standart Gümüş</message>
+		<message key="frtnQuest14Desc">Aynen altın gibi, gümüş de çok önemli bir metal! Bolca gümüş kazanana kadar oyna!</message>
+		<message key="frtnQuest15Title">Şans Perisi</message>
+		<message key="frtnQuest15Desc">Ben senin şansını artırayım, sen de biraz daha oyna... Ne dersin?!</message>
+		<message key="frtnQuest16Title">Şanslı Adam</message>
+		<message key="frtnQuest16Desc">Şans risk alanları ve büyük oynayanları sever. Bence sen her iki tanıma da uyuyorsun!</message>
+		<message key="frtnQuest17Title">Altın Avcısı</message>
+		<message key="frtnQuest17Desc">Boyutu önemli değildir derler. Ama söz konusu altınsa, önemlidir! Değil mi? Sana daha fazla altın lazım!</message>
+		<message key="frtnQuest18Title">Şansın Yerinde!</message>
+		<message key="frtnQuest18Desc">Şanslı bir seri yakaladın! Kolu çek de biraz ödül kazan! </message>
+		<message key="frtnQuest19Title">Kazanmak İçin Doğanlar</message>
+		<message key="frtnQuest19Desc">Doğuştan kazanan doğmuş senin gibiler asla kaybetmez!</message>
+		
+		<!-- 1 MAY EVENT QUESTS -->
+		<message key="may1Quest1Title">Bahar geldi!</message>
+		<message key="may1Quest1Description">Her şey çiçek açıyor! Avataria'nın bahar onarımı maratonuna katılan herkes özel bir ödül alacak. Acele et; eğlenceye katıl!</message>
+		<message key="may1Quest2Title">Hediyelik Eşya</message>
+		<message key="may1Quest2Description">Avataria'nın patronları, bütün sakinlere özel bir hediyelik eşyayla teşekkür etmeye karar verdi! Ama hediyeyi alabilmek için küçük bir hayır işi yapman gerek.</message>
+		<message key="may1Comment"><![CDATA[<span class="bold">İpucu:</span> Bu özel hediyeyi yalnızca 30 Nisan - 6 Mayıs arasında yapılacak özel etkinlik boyunca alabilirsin.]]></message>
+
+        <!-- MEERKATS 06.03.2015 -->
+        <message key="winMeerkatGame"><![CDATA[<span class="bold">Kanyondaki mirketleri besle</span>]]></message>
+        <message key="winMeerkatGameAward1"><![CDATA[<span class="bold">Aç Mirket oyununda şeker kazan</span>]]></message>
+        <message key="winMeerkatGameAward2"><![CDATA[<span class="bold">Aç Mirket oyununda top kazan</span>]]></message>
+        <message key="winMeerkatGameAward3"><![CDATA[<span class="bold">Aç Mirket oyununda oyuncak ayı kazan</span>]]></message>
+
+        <message key="phtghrPro_q1_t1">Yat temalı fotoğraflarına :maxProgress: Beğeni al</message>
+        <message key="phtghrPro_q1_t2">En az 2 poz kullanarak :maxProgress: fotoğraf çek</message>
+        <message key="phtghrPro_q2_t1">2 kankan, arkadaşın veya aile üyesiyle :maxProgress: fotoğraf çek</message>
+        <message key="phtghrPro_q2_t2"></message>
+        <message key="phtghrPro_q3_t1">2 farklı poz vererek çekildiğin fotoğraflara :maxProgress: Beğeni al</message>
+        <message key="phtghrPro_q3_t2">En az 5 ürün kullanarak :maxProgress: fotoğraf çek</message>
+        <message key="phtghrPro_q4_t1">5 oyuncuyla :maxProgress: fotoğraf çek</message>
+        <message key="phtghrPro_q4_t2">Spor temalı fotoğraflarına :maxProgress: beğeni al</message>
+        <message key="phtghrPro_q5_t1">VIP oyuncularla :maxProgress: fotoğraf çek</message>
+        <message key="phtghrPro_q5_t2"></message>
+        <message key="phtghrPro_q6_t1">En az 5 dekoratif öğe kullandığın fotoğraflara :maxProgress: beğeni al</message>
+        <message key="phtghrPro_q6_t2">En az 3 poz kullanarak :maxProgress: fotoğraf çek</message>
+        <message key="phtghrPro_q7_t1">2 arkadaş veya aile üyesiyle olan fotoğraflarına :maxProgress: beğeni al</message>
+        <message key="phtghrPro_q7_t2"></message>
+        <message key="phtghrPro_q8_t1">En az 3 poz kullanarak :maxProgress: fotoğraf çek</message>
+        <message key="phtghrPro_q8_t2">Parkta çekildiğin fotoğraflara :maxProgress: beğeni al</message>
+        <message key="phtghrPro_q9_t1">Avawood temasıyla :maxProgress: fotoğraf çek</message>
+        <message key="phtghrPro_q9_t2"></message>
+        <message key="phtghrPro_q10_t1">2 VIP oyuncuyla olan fotoğraflarına :maxProgress: beğeni al</message>
+        <message key="phtghrPro_q10_t2">En az 5 dekoratif öğe kullanarak :maxProgress: fotoğraf çek</message>
+        <message key="phtghrPro_q11_t1">Rock Sahnesi temasında mikrofonla :maxProgress: fotoğraf çek</message>
+        <message key="phtghrPro_q11_t2"></message>
+        <message key="phtghrPro_q12_t1">2 VIP oyuncuyla :maxProgress: fotoğraf çek</message>
+        <message key="phtghrPro_q12_t2">Kulüpte :maxProgress: fotoğraf çek</message>
+        <message key="phtghrPro_q13_t1">4 farklı pozla çekildiğin fotoğraflara :maxProgress: beğeni al</message>
+        <message key="phtghrPro_q13_t2">3 oyuncuyla çekildiğin  fotoğraflara :maxProgress: beğeni al</message>
+        <message key="phtghrPro_q14_t1">3 arkadaş veya aile üyesiyle :maxProgress: fotoğraf çek</message>
+        <message key="phtghrPro_q14_t2">Kanyon'da :maxProgress: fotoğraf çek</message>
+        <message key="phtghrPro_q15_t1">2 VIP oyuncuyla :maxProgress: fotoğraf çek</message>
+        <message key="phtghrPro_q15_t2">Düğünde :maxProgress: fotoğraf çek</message>
+        <message key="craftFilm12">12 pozluk film rulosu oluştur</message>
+        <message key="craftFilm24">24 pozluk film rulosu oluştur</message>
+        <message key="craftFilm36">36 pozluk film rulosu oluştur</message>
+        <message key="vsgstPro_q1_t1">Kankalarına, arkadaşlarına veya aile üyelerine :maxProgress: kez makyaj yap</message>
+        <message key="vsgstPro_q1_t2">Yüz sanatına :maxProgress: beğeni al</message>
+        <message key="vsgstPro_q2_t1"></message>
+        <message key="vsgstPro_q2_t2">En az :maxProgress: öğe kullanarak 5 kez makyaj yap</message>
+        <message key="vsgstPro_q3_t1">VIP oyunculara :maxProgress: kez makyaj yap</message>
+        <message key="vsgstPro_q3_t2">Piercing yapmana :maxProgress: beğeni al</message>
+        <message key="vsgstPro_q4_t1"></message>
+        <message key="vsgstPro_q4_t2">Kankalarına, arkadaşlarına veya aile üyelerine makyaj yapmana :maxProgress: beğeni al</message>
+        <message key="vsgstPro_q5_t1">VIP oyunculara :maxProgress: kez makyaj yap</message>
+        <message key="vsgstPro_q5_t2">En az 2 öğe kullanarak :maxProgress: kez makyaj yap</message>
+        <message key="vsgstPro_q6_t1">Kankalarına, arkadaşlarına veya aile üyelerine makyaj yapmana :maxProgress: beğeni al</message>
+        <message key="vsgstPro_q6_t2">Parlatıcı kullanarak :maxProgress: kez makyaj yap</message>
+        <message key="vsgstPro_q7_t1"></message>
+        <message key="vsgstPro_q7_t2">En az 2 öğe kullanarak :maxProgress: kez makyaj yap</message>
+        <message key="vsgstPro_q8_t1">En az 2 öğe kullanarak VIP oyunculara :maxProgress: kez makyaj yap</message>
+        <message key="vsgstPro_q8_t2">Kankalarına, arkadaşlarına veya aile üyelerine makyaj yapmana :maxProgress: beğeni al</message>
+        <message key="vsgstPro_q9_t1"></message>
+        <message key="vsgstPro_q9_t2">:maxProgress: kez Göz Farı uygula</message>
+        <message key="vsgstPro_q10_t1">Kankalarına, arkadaşlarına veya aile üyelerine makyaj yapmana :maxProgress: beğeni al</message>
+        <message key="vsgstPro_q10_t2">En az 3 öğe kullanarak :maxProgress: kez makyaj yap</message>
+        <message key="vsgstPro_q11_t1">En az 2 öğe kullanarak VIP oyunculara :maxProgress: kez makyaj yap</message>
+        <message key="vsgstPro_q11_t2">Makyaj yapmana :maxProgress: beğeni al</message>
+        <message key="vsgstPro_q12_t1"></message>
+        <message key="vsgstPro_q12_t2">En az 3 öğe kullanarak :maxProgress: kez makyaj yap</message>
+        <message key="vsgstPro_q13_t1">En az 2 öğe kullanarak VIP oyunculara :maxProgress: kez makyaj yap</message>
+        <message key="vsgstPro_q13_t2">Kankalarına, arkadaşlarına veya aile üyelerine makyaj yapmana :maxProgress: beğeni al</message>
+        <message key="vsgstPro_q14_t1"></message>
+        <message key="vsgstPro_q14_t2">Piercing yapmana 20 beğeni al</message>
+        <message key="vsgstPro_q15_t1">En az 2 öğe kullanarak VIP oyunculara :maxProgress: kez makyaj yap</message>
+        <message key="vsgstPro_q15_t2">En az 3 öğe kullanarak :maxProgress: kez makyaj yap</message>
+        <message key="craftSmallSet">Küçük Makyaj Seti oluştur</message>
+        <message key="craftMediumSet">Orta Boy Makyaj Seti oluştur</message>
+        <message key="craftLargeSet">Büyük Makyaj Seti oluştur</message>
+
+		<message key="phtghrPro_q16_t1">Kaykay Parkı temasında :maxProgress: fotoğraf çek</message>
+		<message key="phtghrPro_q16_t2"/>
+		<message key="phtghrPro_q17_t1">4 farklı pozla :maxProgress: fotoğraf çek</message>
+		<message key="phtghrPro_q17_t2">2 VIP oyuncuyla :maxProgress: fotoğraf çek</message>
+		<message key="phtghrPro_q18_t1">3 arkadaş ya da aile üyesiyle :maxProgress: fotoğraf çek</message>
+		<message key="phtghrPro_q18_t2">Mutlu Yıllar! temasında :maxProgress: fotoğraf çek</message>
+		<message key="phtghrPro_q19_t1">En az 5 dekoratif öge kullanarak :maxProgress: fotoğraf çek</message>
+		<message key="phtghrPro_q19_t2">4 farklı pozdaki fotoğraflarınla :maxProgress: Beğeni al</message>
+		<message key="phtghrPro_q20_t1">2 VIP oyuncuyla :maxProgress: fotoğraf çek</message>
+		<message key="phtghrPro_q20_t2"/>
+		<message key="vsgstPro_q16_t1"/>
+		<message key="vsgstPro_q16_t2">Arkadaşlarına ya da aile üyelerine makyaj yaparak :maxProgress: Beğeni al</message>
+		<message key="vsgstPro_q17_t1">VIP oyunculara en az 2 öge kullanarak :maxProgress: kere makyaj yap</message>
+		<message key="vsgstPro_q17_t2">Sim kullanarak :maxProgress: kere makyaj yap</message>
+		<message key="vsgstPro_q18_t1"/>
+		<message key="vsgstPro_q18_t2">En az 3 öge kullanarak :maxProgress: kere makyaj yap</message>
+		<message key="vsgstPro_q19_t1">VIP oyunculara en az 2 öge kullanarak :maxProgress: kere makyaj yap</message>
+		<message key="vsgstPro_q19_t2">Arkadaşlarına ya da aile üyelerine makyaj yaparak :maxProgress: Beğeni al</message>
+		<message key="vsgstPro_q20_t1"/>
+		<message key="vsgstPro_q20_t2">:maxProgress: kere göz farı çek</message>
+
+		<message key="paintCarAerography"><![CDATA[<span class="bold">]]><![CDATA[Otomobili hava fırçasıyla süsle]]><![CDATA[</span>]]></message>
+
+		<message key="questRusDay1Title">Rusya Günü!</message>
+		<message key="questRusDay1Description">Hadi kutlamalara başlayalım! Ödülünü kazanabilmek için sıkı çalışman gerekecek!</message>
+		<message key="questRusDay1Task1Title"><![CDATA[<span class="bold">]]><![CDATA[Matruşka Bebek duvar resmini boya]]><![CDATA[</span>]]></message>
+		<message key="questRusDay1Task2Title"><![CDATA[<span class="bold">]]><![CDATA[Avluyu temizle]]><![CDATA[</span>]]></message>
+		<message key="questRusDay1Task3Title"><![CDATA[<span class="bold">]]><![CDATA[Başka bir avatara kokteyl ikram et]]><![CDATA[</span>]]></message>
+		<message key="questRusDay1Comment"><![CDATA[<span class="bold">]]><![CDATA[İpucu:]]><![CDATA[</span>]]><![CDATA[ Şaka ve Eşek Şakaları mağazasından duvar resmi satın al.]]></message>
+
+		<message key="m1st19Quest1Title">Bahar geldi!</message>
+		<message key="m1st19Quest1Description">Şimdi tatiller başlamadan ana meydanı temizleme zamanı.</message>
+		<message key="m1st19Quest2Title">Yılbaşı geliyor</message>
+		<message key="m1st19Quest2Description">Yılbaşı kutlamaları boşa gitmesin diye misafirler gelmede önce evin her yerini dekore etmelisin!</message>
+		<message key="m1st19Quest2Task1Description"><![CDATA[<span class="bold">]]><![CDATA[Bir İşçi Günü Afişi Hazırla]]><![CDATA[</span>]]></message>
+		<message key="m1st19Quest2Task2Description"><![CDATA[<span class="bold">]]><![CDATA[Bir Pembe Çiçekli Masa Vazosu Hazırla]]><![CDATA[</span>]]></message>
+		<message key="m1st19Quest2Task3Description"><![CDATA[<span class="bold">]]><![CDATA[Bir Bakıcının Çay Makinesinden Hazırla]]><![CDATA[</span>]]></message>
+		<message key="m1st19Quest3Title">Yılbaşı başlamak üzere!</message>
+		<message key="m1st19Quest3Description">Bütün işler tamamlandığına göre artık eğlence zamanı! Yastık Savaşlarına ve Sörf Yarışlarına katılarak değerli ödüller kazan</message>
+		<message key="victoryQuest19Title">Mutlu Zafer Günleri!</message>
+		<message key="victoryDay19Description">Yılbaşı ödülleri elde etmek için bütün görevleri tamamla!</message>
+		<message key="victoryDay19VkDescription">Yılbaşı ödülleri ve VK için özel sohbet çıkartması elde etmek için bütün görevleri tamamla!</message>
+		<message key="rusDay19Quest1Title">Rusya Günü!</message>
+		<message key="rusDay19Quest1Description">Yılbaşı arkadaşlarla kutlanmalıdır! Ancak eğer onlar evlerini temizlemekle meşgulseler, onlara yardım etmen gerekir ki dışarı çıkıp birlikte eğlenebilirsin!</message>
+		<message key="rusDay19Quest2Title">Hadi eğlence başlasın!</message>
+		<message key="rusDay19Quest2Description">Bütün arkadaşların da burada olduğuna göre artık eğlence başlayabilir!</message>
+		<message key="rusDay19Quest3Title">Fazla ödül diye bir şey yoktur!</message>
+		<message key="rusDay19Quest3Description">Parti mükemmeldi! Hadi bir oyuncak ayı hazırlayıp bu yılı unutulmaz hale getirelim!</message>
+		<message key="rusDay19Quest3Task1Description"><![CDATA[<span class="bold">]]><![CDATA[Bir Davulcu Ayı Hazırla]]><![CDATA[</span>]]></message>
+		<message key="rusDay19Comment1"><![CDATA[<span class="bold">]]><![CDATA[İpucu:]]><![CDATA[</span>]]><![CDATA[ Eşyalar hazırlamak için Atölyedeki Yılbaşı sekmesini aç.]]></message>
+		<message key="winSnowboardRace"><![CDATA[<span class="bold">]]><![CDATA[Kar kayağı yarışlarını kazan]]><![CDATA[</span>]]></message>
+	 </locale>
+ </dictionary>

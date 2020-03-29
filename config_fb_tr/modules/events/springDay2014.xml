@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module active="true" id="springDay2014">
+
+    <inventory>
+        <category id="craftLoot">
+	        <item id="emptFlckSD14" name="EmptyFlackLoot@springDay2014" icon="EmptyFlackIcon@springDay2014" label="#emptyFlackLootLabel"
+	            description="#emptyFlackLootDescrioption" probability="0.4" gold="0" silver="0" canTrade="0" canSale="0" />
+            <item id="flckSD14" name="FlackLoot@springDay2014" icon="FlackIcon@springDay2014" label="#flackLootLabel"
+                description="#flackLootDescrioption" probability="1" gold="0" silver="0" canTrade="0" canSale="0" />
+        </category>
+    </inventory>
+    
+    <awards>
+        <award id="1" flacks="300" itemLevel="1" itemType="event" itemId="sd14Flwr" gold="350"
+            icon="CircleTreeYoungSpring@springDay2014" requestIcon="WallTreeYoungAsset@springDay2014" receiveIcon="WallGetTreeYoungAsset@springDay2014"/>
+        
+        <award id="2" flacks="1000" itemLevel="2" itemType="event" itemId="sd14Flwr" gold="800"
+            icon="CircleTreeGrownSpring@springDay2014" requestIcon="WallTreeGrownAsset@springDay2014" receiveIcon="WallGetTreeGrownAsset@springDay2014"/>
+            
+        <award id="3" flacks="2500" itemLevel="3" itemType="event" itemId="sd14Flwr" gold="1750"
+            icon="CircleTreeFullSpring@springDay2014" requestIcon="WallFinalTreeAsset@springDay2014" receiveIcon="WallGetFinalTreeAsset@springDay2014"/>
+    </awards>
+</module>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<!--
+    <group id="exampleGroup">
+        <category id="resources" typeIds="exampleItem1">
+            <item typeId="silver" minCount="500" maxCount="2000"/>
+            <item typeId="energy" minCount="50" maxCount="500"/>
+        </category>
+
+        <category id="resources" typeIds="exampleItem2">
+            <item typeId="silver" minCount="1500" maxCount="7500"/>
+            <item typeId="energy" minCount="100" maxCount="999"/>
+            <item typeId="gold" minCount="2" maxCount="10"/>
+        </category>
+
+        <category id="loot" typeIds="exampleItem1,exampleItem2,exampleItem3">
+            <item typeId="generosity" minCount="5" maxCount="30"/>
+            <item typeId="love" minCount="5" maxCount="50"/>
+            <item typeId="hatred" minCount="5" maxCount="50"/>
+            <item typeId="happiness" minCount="10" maxCount="100"/>
+            <item typeId="water" minCount="5" maxCount="30"/>
+            <item typeId="phial" minCount="2" maxCount="10"/>
+        </category>
+    </group>
+-->
+</config>

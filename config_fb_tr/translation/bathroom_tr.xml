@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<dictionary>
+    
+    <locale name="tr">
+	
+		<!-- BATH -->
+		
+        <message key="bath1Title">Emaye Küvet</message>
+		<message key="bath2Title">Perdeli Küvet</message>
+		<message key="bath3Title">Süt Mavisi Küvet</message>
+		<message key="bath4Title">Mermer Küvet</message>
+		<message key="bath6Title">Şık Küvet</message>
+		<message key="bath7Title">Pembe Küvet</message>
+		<message key="bath8Title">Duş Teknesi</message>
+		
+		<message key="jacuzzi1Title">Jakuzi</message>
+		<message key="jacuzzi2Title">Televizyonlu Jakuzi</message>
+		<message key="jacuzzi3Title">Mini Jakuzi</message>
+		<message key="jacuzzi4Title">Mermer Jakuzi</message>
+		<message key="jacuzzi5Title">Büyük Jakuzi</message>
+		<message key="bathMayaLabel">Jakuzi "Maya"</message>
+		
+		<!-- FURNITURE -->
+		
+		<message key="bathroomCase1Title">Havlu Dolabı</message>
+		<message key="bathroomCase2Title">Havlu Dolabı</message>
+		<message key="bathroomChair1Title">Banyo Sandalyesi</message>
+		<message key="bowl1Title">Mermer Lavabo</message>
+		<message key="bowl2Title">Açık Mermer Lavabo</message>
+		<message key="bowl3Title">Pembe Lavabo</message>
+		<message key="bowl4Title">Beyaz Lavabo</message>
+		<message key="mirror1Title">Raflı Ayna</message>
+		<message key="mirror2Title">Mermerli Ayna</message>
+		<message key="bathroomChair2Title">Banyo Sandalyesi</message>
+		<message key="toilet1Title">Mermer Tuvalet</message>
+		<message key="toilet2Title">Tuvalet</message>
+		<message key="toilet3Title">Pembe Tuvalet</message>
+		<message key="toilet4Title">Tuvalet</message>
+		<message key="toilet5Title">Tuvalet</message>
+		<message key="toiletMayaLabel">Tuvalet "Maya"</message>
+		<message key="mirrorMayaLabel">Ayna "Maya"</message>
+		
+		<!-- DECOR -->
+		
+		<message key="bathroomDecor1Title">Aksesuar Seti</message>
+		<message key="bathroomDecor2Title">Seçkin Aksesuar Seti</message>
+		<message key="bathroomDecor3Title">Altın Sabunluk</message>
+		<message key="bathroomDecor4Title">Şampuan</message>
+		<message key="bathroomDecor5Title">Havluluk</message>
+		<message key="bathroomDecor6Title">Çöp Kutusu</message>
+		<message key="bathroomDecor7Title">Cam Kap</message>
+		<message key="bathroomDecor8Title">Krem Şişesi</message>
+
+		<message key="jacuzziDescription">Baloncuklar ve sıcak su... Bir jakuzi al ve mayo partileri düzenle!</message>
+	</locale>
+	
+</dictionary>

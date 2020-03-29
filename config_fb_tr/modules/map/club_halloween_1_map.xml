@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<map width="32" length="32">
+  <viewport x="375" y="-605" width="1195" height="795"/>
+  <items>
+    <item class="walkingGridItem" cols="32" rows="32">
+      <grid>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,0,0,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,0,0,1,0,0,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+      </grid>
+    </item>
+    <item class="backgroundItem" skin="ClubBackground@club" wy="-13.171875" wx="24.890625"/>
+    <item class="sitItem" kind="clubSofa" wy="16" wz="0" direction="SE" wx="17" id="sitItem4"/>
+    <item class="landscapeItem" kind="clubDJPult" wy="13" wz="0" wx="26" id="landscapeItem5"/>
+    <item class="landscapeItem" kind="clubBar" wy="0" wz="0" wx="28" id="landscapeItem6"/>
+    <item class="sitItem" kind="clubChair" wy="3" wz="0" direction="SW" wx="25" id="sitItem8"/>
+    <item class="sitItem" kind="clubChair" wy="10" wz="0" direction="SE" wx="26" id="sitItem9"/>
+    <item class="sitItem" kind="clubChair" wy="8" wz="0" direction="SE" wx="26" id="sitItem10"/>
+    <item class="sitItem" kind="clubChair" wy="6" wz="0" direction="SE" wx="26" id="sitItem11"/>
+    <item class="sitItem" kind="clubChair" wy="4" wz="0" direction="SE" wx="26" id="sitItem12"/>
+    <item class="dispositionItem" wy="2" wx="23" id="dispositionItem12"/>
+    <item class="exitItem" wx="22.790625" roomId="s1" wy="1.015625" locationId="street" wz="0" kind="clubExit" id="exitItem13"/>
+    <item class="exitItem" wx="18.0625" roomId="v1" wy="0.6875" locationId="club" wz="0" kind="clubVipEnter" id="exitItem14"/>
+    <item class="sitItem" kind="clubArmchair" wy="20" wz="0" direction="SW" wx="14" id="sitItem15"/>
+    <item class="landscapeItem" kind="clubTableSmall" wy="20" wz="0" wx="11" id="landscapeItem16"/>
+    <item class="sitItem" kind="clubArmchair" wy="17" wz="0" direction="SE" wx="11" id="sitItem17"/>
+    <item class="landscapeItem" kind="clubTableSmall" wy="19" wz="0" wx="21" id="landscapeItem18"/>
+    <item class="landscapeItem" kind="clubTableSmall" wy="19" wz="0" wx="18" id="landscapeItem19"/>
+    <item class="landscapeItem" kind="clubTableSmall" wy="23" wz="0" wx="18" id="landscapeItem20"/>
+    <item class="sitItem" kind="clubArmchair" wy="23" wz="0" direction="SW" wx="21" id="sitItem21"/>
+    <item class="clubDjItem" height="0" wy="15" length="1" wz="0" width="1" wx="27.96875" id="clubDjItem288"/>
+    <item class="clubWaitressItem" height="0" wy="12.890625" length="1" wz="0" width="1" wx="23.328125" id="clubWaitressItem312"/>
+    <item class="dispositionItem" wy="9" wx="15" id="dispositionItem92"/>
+    <item class="dispositionItem" wy="11" wx="22" id="dispositionItem93"/>
+    <item class="clubMenuItem" kind="clubMenu" wy="0.640625" wz="2" direction="SW" wx="25.390625" id="clubMenuItem26"/>
+    <item class="clubMenuItem" kind="clubMenu" wy="11.703125" wz="2" direction="SE" wx="29.703125" id="clubMenuItem27"/>
+    <item class="clubBarmaidItem" height="0" wy="5" length="1" wz="0" width="1" wx="29" id="clubBarmaidItem1"/>
+    <item class="sitItem" kind="clubArmchair" wy="19" wz="0" direction="SW" wx="24" id="sitItem29"/>
+    
+    <item class="landscapeItem" kind="clubHaloweenTree" wx="16" wy="8" id="landscapeItem21"/>
+  </items>
+</map>

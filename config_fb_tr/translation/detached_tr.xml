@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<dictionary>
+    
+    <locale name="tr">
+	
+		<!-- PETS -->
+        
+        <message key="followFriendPetsTitle">Dost ara</message>
+		<message key="followFriendPetsMessage">Dostunuz evcil hayvanıyla oynuyor. Katılmak istiyor musunuz?</message>
+		
+		<!-- ISLAND -->
+        <message key="islandGameTitle">Tropicania</message>
+		<message key="islandLevel">Tropicania&apos;daki seviyeniz :level:</message>
+		<message key="islandTransferPlayerLevel">Gerekli seviye: :level:</message>
+		<message key="transferAllItemsButton">Hepsini al</message>
+		<message key="noItemsForTransfer">Aktaracak bir şey yok :(</message>
+		
+		<message key="islandTransferResourcesText"><![CDATA[Avataria'da özlemini duyduğunuz her şey - şirin evcil hayvanlar, heyecanlı maceralar ve hatta yerlilerle karşılaşma - sizi kendi adanızın palmiye ağaçları altında bekliyor, antik hazineler barındıran keşfedilmemiş mağaraları da buna dahil.]]></message>
+	
+	</locale>
+</dictionary>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+		<message key="halfheartLootLabel">Kalp Parçası</message>
+		<message key="halfheartLootDescrioption">Birine kanyonda kazanılan bir hediye verirken, bir kafede veya kulüpte ikramda bulunurken, film kullanırken veya komşuların dairelerini temizlerken elde edilebilir.</message>
+		<message key="sv2019WelcomeDialogTitle">Sevgililer Günü!</message>
+		<message key="sv2019WelcomeDialogMessage1">Bir fotoğrafçı olarak çalışırken, komşuların dairelerini temizlerken veya Hungry Meerkat oyununda hediye verirken kulüpte veya kafede Kalp Parçaları elde et.</message>
+		<message key="sv2019WelcomeDialogMessage2">Diğer oyuncularla parçaları birleştir veya yeni hediyeler kazanmak için onları Atölyede kullan! Parkta kalpleri birleştirebilirsin.</message>
+		<message key="sv2019WelcomeDialogMessage3">Ödüller için tüm kalpleri takas et; örneğin romantik kıyafetler, üstü açılır bir araba, bir unvan veya melek kanatları!</message>
+		<message key="sv2019NotEnoughHeartpiecesDialogMessage">Parçan kalmadı! Altın karşılığında onları satın alabilirsin.</message>
+		<message key="sv2019ConcatMessageLabel">birleştir</message>
+		<message key="sv2019ProgressDialogTitle">Kalpleri birleştirerek ödüller kazan!</message>
+		<message key="sv2019ProgressDialogMessage">Tüm kalpleri almak için diğer oyuncularla yarım kalpleri birleştir! Onları etkinlik ödülleri karşılığında takas et!</message>
+		<message key="sv2019OverloadProgressDialogMessage">Tüm büyük ödülleri kazandın ama yavaşlamaya gerek yok! Kalpleri toplamaya git ve bolca ödül kazan ;)</message>
+		<message key="sv2019WallMessage1">Baksana, müthiş bir hediye aldım! Sen de ister misin? Acele etsen iyi olur! Özel hediyeler dönemi yakında bitiyor ;)</message>
+		<message key="sv2019AwardDialogTitle">Tebrikler!</message>
+		<message key="sv2019AwardDialogMessage">Kalp parçalarını bir araya getirerek harika iş çıkarıyorsun, işte sana benzersiz bir hediye! Daha fazla kırmızı kalp topla ve başarılarını arkadaşlarına anlat ;)</message>
+		<message key="sv2019AwardNotificationText">:award: elde ettin</message>
+		<message key="stVal19ParticipantRequestSendedTitle">Parçaları birleştir</message>
+		<message key="stVal19ParticipantRequestSendedMessage">İsteğin gönderildi. Şimdi alıcının kabul etmesini beklemelisin.</message>
+		<message key="stVal19ParticipantReceivedMessage">Kalp parçalarını birleştirmek ve bir kırmızı kalp elde etmek için :name: teklif bulunuyor. Kabul edilsin mi?</message>
+		<message key="stVal19ParticipantRequestApprovedTitle">İstek kabul edildi</message>
+		<message key="stVal19ParticipantRequestApprovedMessage">Harika! :name: İsteğini kabul etti!</message>
+		<message key="stVal19ParticipantRequestDeclinedTitle">İstek reddedildi</message>
+		<message key="stVal19ParticipantRequestDeclinedMessage">:name: isteğini reddetti.</message>
+    </locale>
+</dictionary>

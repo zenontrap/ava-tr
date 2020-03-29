@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+        <plural key="gear">
+            <form>dişli</form>
+            <form>dişli</form>
+            <form>dişli</form>
+        </plural>
+        <plural key="fuel">
+            <form>benzin bidonu</form>
+            <form>benzin bidonu</form>
+            <form>benzin bidonu</form>
+        </plural>
+        <plural key="myFriends">
+            <form>arkadaş</form>
+            <form>arkadaş</form>
+            <form>arkadaş</form>
+        </plural>
+        <gender key="genderShot">
+            <form>vurdu</form>
+            <form>vurdu</form>
+        </gender>
+
+        <message key="steampunk2014WelcomeDialogTitle">Steampunk. Tepeden tırnağa farklı bir medeniyet!</message>
+        <message key="steampunk2014WelcomeDialogMessage1">Arkadaşlarından isteyerek ve çalışarak benzin bidonları topla. Ne kadar çok arkadaş, her gün o kadar çok yakıt!</message>
+        <message key="steampunk2014WelcomeDialogMessage2">Dişli kazanmak için dairendeki benzinli jeneratörü doldur. Plazma tabancanı doldurup diğer oyuncularla savaşlarda çarpışarak daha da fazla dişli kazan.</message>
+        <message key="steampunk2014WelcomeDialogMessage3">Yeterli sayıda dişliyi biriktirerek çok özel ödüller al. Bu öğeleri yalnızca bu özel etkinlik boyunca alabilirsin!</message>
+
+        <message key="steampunk2014CreateRoomTitle">Yeni Makine Dairesi</message>
+        <message key="steampunk2014CreateRoomMessage">Bu dairede benzinle çalışan birbirinden farklı çok sayıda hareketli parça var. Bir sürü benzin!</message>
+
+        <message key="steampunk2014ProgressDialogTitle">Dişlileri aldın mı? İşte ödülün!</message>
+        <message key="steampunk2014YouHaveGearsLabel">sahip olduğun:</message>
+
+        <message key="steampunk2014AskDialogTitle">Daha çok dişli istiyorum!</message>
+        <message key="steampunk2014AskDialogMessage">Dişli mi lazım? Arkadaşlarından iste! Mutlaka yardım edeceklerdir! Daha fazla arkadaş eşittir daha fazla dişli, daha fazla mutluluk, daha fazla hediye!</message>
+        <message key="steampunk2014AwardDialogTitle">Tebrikler!</message>
+        <message key="steampunk2014AwardDialogMessage">Bu kadar dişli topladığın için sana ödül olarak bu harika hediyeyi vermek istiyoruz. Aynen böyle devam et. Bu güzel haberi arkadaşlarınla paylaşmayı da unutma!</message>
+        <message key="steampunk2014Congratulation">Bütün ödülleri kazanmak için gereken sayıda dişliyi topladın! Harikasın!</message>
+
+        <message key="steampunk2014WallMessage1">Az önce topladığım dişliler karşılığında bu harika ödülü kazandım. Sen de böyle bir ödül ister misin? Gel beraber oynayalım! :link:</message>
+        <message key="steampunk2014WallMessage2">Selam arkadaşlar! Avataria'da çok özel bir şey kazanmak istiyorum ve bunun için yardımınız gerek. Tek başıma yapamam! :link:</message>
+
+        <message key="steampunk2014FuelDialogTitle">Dostane Dolum</message>
+        <message key="steampunk2014FuelDialogMessage">Ne kadar çok arkadaşın Avataria oynarsa, her gün o kadar çok ÜCRETSİZ benzin bidonu kazanabilirsin!</message>
+
+        <message key="steampunk2014RoomButtonHint">Makine Dairesi</message>
+
+        <message key="steampunk2014DontFuelMessage">Jeneratörü çalıştırmak için en az 10 benzin bidonu gerekir. Arkadaşlarını davet et ya da jetonla 10 benzin bidonu satın al.</message>
+        <message key="steampunk2014DontFuelToShootMessage">Benzinin bitti! Ücretsiz benzin bidonları kazanmak için arkadaşlarını oyuna davet et. Bunun yerine jetonla :count: benzin bidonu da satın alabilirsin.</message>
+
+        <message key="steampunk2014ShootTitle">Bum!</message>
+        <message key="steampunk2014ShootMenuHint">Tabancanla bir plazma atışı yap</message>
+
+        <message key="currentFuelLabel">sahip olduğun:</message>
+
+        <message key="gearLootLabel">dişli</message>
+        <message key="fuelLootLabel">benzin</message>
+
+        <message key="gearLootDescription">dişli topla, ödül kazan</message>
+        <message key="fuelLootDescription">benzinle plazma tabancanı ya da makine dairesindeki jeneratörü doldur</message>
+
+        <message key="gunDescription">Plazma tabancası. Benzinle çalışır. Onu doldur ve daha fazla dişli kazanmak için diğer oyuncularla savaşlara katıl.</message>
+        <message key="robotDescription">Bu robot işçi apartman daireni pırıl pırıl yapacak. Bal dök yala!</message>
+        <message key="clothGDescription">Steampunk tarzı, çok özel bir giysi. Mağazalarda böylesini bulamazsın!</message>
+        <message key="clothBDescription">Steampunk tarzı, çok özel bir giysi. Mağazalarda böylesini bulamazsın!</message>
+        <message key="generatorDescription">Devirdaim motorlu bir jeneratör. Bu jeneratör yakıt ikmali derdine son veriyor! Sonsuza dek çalışan bir makine dairesi!</message>
+
+        <message key="steampunk2014WarningPlasmaTitle">Plazma tebrik kartı!</message>
+        <message key="steampunk2014WarningPlasmaMessage">:userName: seni plazma tabancasıyla :genderShot:.</message>
+        <message key="steampunk2014SendBackPlasmaButtonTitle">sen de onu vur</message>
+
+        <message key="steampunk2014DontHaveGun">Plazma tabancan üzerinde olmalı.</message>
+        <message key="steampunk2014DontHaveGunAward">Plazma tabancasız ateş edemezsin! Edinmek için dişli topla.</message>
+
+        <message key="steampunk2014FillMessage">Makine dairesini çalıştırabilmek için benzinli jeneratörü doldurmalıyız. Hemen halledelim şu işi!</message>
+        <message key="steampunk2014FillBtnTitle">Yakıt İkmali</message>
+        <message key="steampunk2014TakeGun">Tamamdır! Gerçek bir plazma tabancan var! Tek yapman gereken onu eline alıp ateş etmek!</message>
+        <message key="steampunk2014TakeBtnTitle">Plazma Tabancasını Eline Al</message>
+
+    </locale>
+</dictionary>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<config id="furniture">
+
+    <category id="29" label="#presentsCategory" priority="1" typeClass="furniture" library="house" logCategory1="gift">
+
+        <!-- VASE -->
+        <category id="30" label="#decorCategory" priority="1" logCategory2="decor">
+
+            <item id="frameBlue" label="#frameBlueTitle" name="FramePresentBlue" icon="FramePresentBlueIcon" gold="1"
+                  silver="0"
+                  saleSilver="0" buyCount="0">
+                <dimension width="0.6" length="0.6" height="1"/>
+                <placement table="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="frameRed" label="#frameRedTitle" name="FramePresentRed" icon="FramePresentRedIcon" gold="1"
+                  silver="0"
+                  saleSilver="0" buyCount="0">
+                <dimension width="0.6" length="0.6" height="1"/>
+                <placement table="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            <item id="gerberaOrange" label="#gerberaOrangeTitle" name="GerberaPresentOrange"
+                  icon="GerberaPresentOrangeIcon" gold="1" silver="0"
+                  saleSilver="0" buyCount="0">
+                <dimension width="0.6" length="0.6" height="1.6"/>
+                <placement table="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="gerberaPink" label="#gerberaPinkTitle" name="GerberaPresentPink" icon="GerberaPresentPinkIcon"
+                  gold="1" silver="0"
+                  saleSilver="0" buyCount="0">
+                <dimension width="0.6" length="0.6" height="1.6"/>
+                <placement table="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="gerberaYellow" label="#gerberaYellowTitle" name="GerberaPresentYellow"
+                  icon="GerberaPresentYellowIcon" gold="1" silver="0"
+                  saleSilver="0" buyCount="0">
+                <dimension width="0.6" length="0.6" height="1.6"/>
+                <placement table="1"/>
+                <direction names="SW"/>
+            </item>
+
+            <item id="vaseBlue" label="#vaseBlueTitle" name="VasePresentBlue" icon="VasePresentBlueIcon" gold="1"
+                  silver="0"
+                  saleSilver="0" buyCount="0">
+                <dimension width="0.6" length="0.6" height="2"/>
+                <placement table="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="vaseRed" label="#vaseRedTitle" name="VasePresentRed" icon="VasePresentRedIcon" gold="1" silver="0"
+                  saleSilver="0" buyCount="0">
+                <dimension width="0.6" length="0.6" height="2"/>
+                <placement table="1"/>
+                <direction names="SW"/>
+            </item>
+
+        </category>
+
+    </category>
+
+</config>

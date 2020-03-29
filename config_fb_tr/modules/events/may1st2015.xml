@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module active="true" id="may1st2015">
+    <inventory>
+        <category id="craftLoot">
+            <item id="rbM1st15" name="RibbonM1st15Loot@may1st2015" icon="RibbonM1st15Icon@may1st2015" label="#ribbonM1st15LootLabel"
+                  description="#ribbonM1st15LootDescription" probability="0.15" gold="0" silver="0" canTrade="0" canSale="0" />
+        </category>
+    </inventory>
+    <ribbon lifeTime="1800" />
+</module>

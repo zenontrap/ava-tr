@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<dictionary>
+    <locale name="tr">
+        <message key="ny19InfoDialogTitle">Soğuk Oyunlar!</message>
+        <message key="ny19InfoDialogTangerineDescription">Özgün ödüller barındıran hediyeler kazanabilmek için Avataria’da mandalina topla!</message>
+        <message key="ny19InfoDialogSnowflakeDescription">Güzellik yarışmalarında yer al, kar taneleri kazan ve onları renkli ve yeni şeyler için takas et!</message>
+        <message key="ny19InfoDialogCrownDescription">Satın aldığın her altın için Kar Taçları kazan ve güzellik yarışmalarında daha fazla kar tanesi kazan!</message>
+        <message key="ny19AwardDialogMessage">Güzellik yarışması kazandığın için işte ödülün. Haberi arkadaşların ile paylaşmayı unutma!</message>
+        <message key="ny19AwardReceivedMessage">Güzellik yarışmasını kazandığım için harika bir ödül aldım! Sen de ister misin? O zaman gel de oyunda bana katıl!</message>
+        <message key="ny19GetAfterTime">:tangerine: sürede :time: Topla</message>
+        <message key="ny19ExchangeDialogTitle">Mandalinaları hediyeler ile takas et!</message>
+        <message key="ny19ExchangeDialogDescription">Ağaç: Mandalina toplayarak zaman harcamak istemiyor musun? Hemen bir Mandalina Ağacı satın al ve her :hours: sürede :tangerine: Mandalina elde et!</message>
+        <message key="ny19BuySnowflakeDialogTitle">Kar Taneleri Satın Al</message>
+        <message key="ny19BuySnowflakeDialogDescription">Yeterli kar tanen yok mu? Heme özel tekliflerden yararlan ve eksiklerini doldur!</message>
+        <message key="ny19SnowflakeExchangeDialogTitle">Kar tanelerini hediyeler ile takas et!</message>
+        <message key="ny19SnowflakeExchangeDialogDescription">Güzellik yarışmalarında kar taneleri kazan ve her hafta yeni ve özgün kıyafetler için onları takas et!</message>
+        <message key="ny19StageAwardsTitle">:date: sonra açılıyor</message>
+        <message key="ny19NoItemHint">Eşya seçilmedi</message>
+        <message key="ny19HasItemHint">Bu eşyaya zaten sahipsin</message>
+        <message key="ny19CanBuyLaterHint">Daha sonra erişilebilir olacak</message>
+        <message key="ny19TangerineInfoDialogTitle">Mandalinaları nasıl elde edebilirim?</message>
+        <message key="ny19TangerineInfoDialogDescription">Mandalina elde etmenin bütün yollarını incele! Bütün özgün süs eşyalarını toplayabilmek için mandalinaları Yılbaşı hediyeleriyle takas et.</message>
+        <message key="ny19TangerineInfoDialogPurchasesDescription">Mağazadan kıyafetler alarak :tangerineShop: Mandalina ve Stilistten eşyalar alarak :tangerineCouturier: mandalina kazan</message>
+        <message key="ny19TangerineInfoDialogVisagistDescription">Makyöz mesleğinde fırçaları kullanarak :tangerine: mandalina kazan</message>
+        <message key="ny19TangerineInfoDialogPhotographerDescription">Fotoğrafçı mesleğinde filmleri kullanarak :tangerine: mandalina kazan</message>
+        <message key="ny19TangerineInfoDialogGardenerDescription">Bahçıvan olarak çalışırken gerçekleştirdiğin her bir eylem için :tangerine: mandalina kazan</message>
+        <message key="ny19TangerineInfoDialogJanitorDescription">Hizmetli olarak çalışırken gerçekleştirdiğin her bir eylem için :tangerine: mandalina kazan</message>
+        <message key="ny19TangerineInfoDialogSnowboardDescription">Yarışlarda yer alarak :tangerineRace: ve paten ile bir kar kaykayı satın alarak veya üreterek :tangerineCraft: mandalina kazan</message>
+        <message key="ny19TangerineInfoDialogBroomDescription">Komşunun yerindeki çöpleri temizleyerek :tangerine: mandalina kazan</message>
+        <message key="ny19BillingCrownHintTitle">Kar Tacı</message>
+        <message key="ny19BillingCrownHintDescription">+:snowflake: bonus verir</message>
+        <message key="ny19ProgressPanelWinsLabel">:value: zaferin bulunuyor</message>
+        <message key="ny19CrownHintDescription">+1 Kar tanesi bonus verir</message>
+        <plural key="ny19Tangerine">
+            <form>mandalina</form>
+            <form>mandalina</form>
+            <form>mandalina</form>
+        </plural>
+        <plural key="ny19Snowflake">
+            <form>Kar tanesi</form>
+            <form>Kar tanesi</form>
+            <form>Kar tanesi</form>
+        </plural>
+    </locale>
+</dictionary>

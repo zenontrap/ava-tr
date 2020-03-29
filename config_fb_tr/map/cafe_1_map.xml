@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<map width="37" length="29">
+  <viewport x="385" y="-605" width="1195" height="660"/>
+  <items>
+    <item class="backgroundItem" skin="CafeBackground@cafe" wy="-13.0625" wx="25"/>
+    <item class="landscapeItem" wy="9" kind="cafeShowWindow" wz="0" wx="25" id="landscapeItem6"/>
+    <item class="landscapeItem" wy="11" kind="cafeSection" wz="0" wx="25" id="landscapeItem7"/>
+    <item class="landscapeItem" wy="13.3" kind="cafeSection" wz="0" wx="25" id="landscapeItem8"/>
+    <item class="landscapeItem" wy="15.7" kind="cafeSection" wz="0" wx="25" id="landscapeItem9"/>
+    <item class="landscapeItem" wy="22" kind="cafeSection" wz="0" wx="25" id="landscapeItem10"/>
+    <item class="landscapeItem" wy="10" kind="cafeRefrigerator" wz="0" wx="33" id="landscapeItem12"/>
+    <item class="landscapeItem" wy="10" kind="cafeRefrigerator" wz="0" wx="34.1" id="landscapeItem13"/>
+    <item class="landscapeItem" wy="11" kind="cafePlate" wz="0" wx="30" id="landscapeItem14"/>
+    <item class="landscapeItem" wy="13" kind="cafePlate" wz="0" wx="30" id="landscapeItem15"/>
+    <item class="landscapeItem" wy="12" kind="cafeWashing" wz="0" wx="34" id="landscapeItem16"/>
+    <item class="landscapeItem" wy="6" kind="cafeTableRound" wz="0" wx="26" id="landscapeItem44"/>
+    <item class="sitItem" direction="SW" wy="7" kind="cafeChairBase" wz="0" wx="29" id="sitItem45"/>
+    <item class="sitItem" direction="SE" wy="4" kind="cafeChairBase" wz="0" wx="27" id="sitItem46"/>
+    <item class="landscapeItem" wy="4.765625" kind="cafeFlower" wz="0" wx="29.203125" id="landscapeItem91"/>
+    <item class="landscapeItem" wy="0" kind="cafeFlower" wz="0" wx="24" id="landscapeItem93"/>
+    <item class="landscapeItem" wy="0" kind="cafeFlower" wz="0" wx="20" id="landscapeItem94"/>
+    <item class="landscapeItem" wy="2" kind="cafeFlower" wz="0" wx="11" id="landscapeItem95"/>
+    <item class="landscapeItem" wy="15" kind="cafeFlower" wz="0" wx="19" id="landscapeItem96"/>
+    <item class="landscapeItem" wy="0" kind="cafeHanger1" wz="0" wx="25" id="landscapeItem99"/>
+    <item class="landscapeItem" wy="4.546875" kind="cafeHanger4" wz="0" wx="7.671875" id="landscapeItem100"/>
+    <item class="landscapeItem" wy="11" kind="cafeHanger2" wz="0" wx="12" id="landscapeItem101"/>
+    <item class="sitItem" wy="4.5" kind="cafeChairBase" wz="0" wx="7" id="sitItem102"/>
+    <item class="sitItem" direction="SE" wy="13" kind="cafeChairBar" wz="0" wx="24" id="sitItem103"/>
+    <item class="sitItem" direction="SE" wy="15" kind="cafeChairBar" wz="0" wx="24" id="sitItem104"/>
+    <item class="sitItem" direction="SE" wy="1" kind="cafeChairBase" wz="0" wx="21" id="sitItem106"/>
+    <item class="sitItem" direction="SW" wy="3" kind="cafeBench" wz="0" wx="23" id="sitItem107"/>
+    <item class="landscapeItem" wy="3" kind="cafeTableMedium" wz="0" wx="20" id="landscapeItem107"/>
+    <item class="dispositionItem" wy="7" wx="25" id="dispositionItem61"/>
+    <item class="landscapeItem" wy="15.15625" kind="cafeGlass" wz="2" wx="25.65625" id="landscapeItem62"/>
+    <item class="cafeMenuItem" direction="SW" wy="12.984375" kind="cafeMenu" wz="2" wx="25.421875" id="rotaryItem63"/>
+    <item class="rotaryItem" direction="SW" wy="15.65625" kind="cafeNapkin" wz="2" wx="25.34375" id="rotaryItem64"/>
+    <item class="rotaryItem" direction="SW" wy="13.90625" kind="cafeNapkin" wz="2" wx="25.46875" id="rotaryItem254"/>
+    <item class="landscapeItem" wy="12.65625" kind="cafeGlass" wz="2" wx="25.53125" id="landscapeItem255"/>
+    <item class="cafeMenuItem" direction="SW" wy="16.0625" kind="cafeMenu" wz="2" wx="25.4375" id="rotaryItem256"/>
+    <item class="rotaryItem" direction="SE" wy="6.78125" kind="cafeNapkin" wz="2" wx="26.28125" id="rotaryItem528"/>
+    <item class="landscapeItem" wy="6.796875" kind="cafeFlowerSmall" wz="2" wx="26.546875" id="landscapeItem529"/>
+    <item class="cafeMenuItem" direction="SW" wy="7.21875" kind="cafeMenu" wz="2" wx="26.34375" id="rotaryItem530"/>
+    <item class="landscapeItem" wy="3.859375" kind="cafeFlowerSmall" wz="2" wx="20.859375" id="landscapeItem898"/>
+    <item class="cafeMenuItem" direction="SE" wy="4.46875" kind="cafeMenu" wz="2" wx="20.53125" id="rotaryItem899"/>
+    <item class="rotaryItem" direction="SE" wy="3.9375" kind="cafeNapkin" wz="2" wx="20.5" id="rotaryItem900"/>
+    <item class="exitItem" roomId="s1" wy="3.25" locationId="street" kind="cafeExit" wz="0" wx="26.625" id="exitItem98"/>
+    <item class="cafeWaitressItem" height="0" wy="18.453125" length="1" wz="0" width="1" wx="24.703125" id="cafeWaitressItem99"/>
+    <item class="cafeCookItem" height="0" wy="17.234375" length="1" wz="0" width="1" wx="29.921875" id="cafeCookItem394"/>
+    <item class="landscapeItem" wy="3" kind="cafeTableRound" wz="0" wx="15" id="landscapeItem400"/>
+    <item class="sitItem" direction="SW" wy="5" kind="cafeChairBase" wz="0" wx="17" id="sitItem401"/>
+    <item class="sitItem" direction="SE" wy="1" kind="cafeChairBase" wz="0" wx="15" id="sitItem402"/>
+    <item class="landscapeItem" wy="0" kind="cafeHanger3" wz="0" wx="14" id="landscapeItem404"/>
+    <item class="landscapeItem" wy="7" kind="cafeTableMedium" wz="0" wx="8" id="landscapeItem405"/>
+    <item class="sitItem" direction="SE" wy="5" kind="cafeChairBase" wz="0" wx="9" id="sitItem406"/>
+    <item class="sitItem" direction="SW" wy="9" kind="cafeChairBase" wz="0" wx="11" id="sitItem407"/>
+    <item class="sitItem" direction="SW" wy="7" kind="cafeChairBase" wz="0" wx="11" id="sitItem408"/>
+    <item class="landscapeItem" wy="10" kind="cafeTableBig" wz="0" wx="15" id="landscapeItem409"/>
+    <item class="sitItem" direction="SW" wy="10" kind="cafeBench" wz="0" wx="20" id="sitItem410"/>
+    <item class="sitItem" direction="SE" wy="8" kind="cafeBench" wz="0" wx="16" id="sitItem411"/>
+    <item class="rotaryItem" direction="SE" wy="11.6875" kind="cafeNapkin" wz="2" wx="16.625" id="rotaryItem370"/>
+    <item class="rotaryItem" direction="SE" wy="8.140625" kind="cafeNapkin" wz="2" wx="8.578125" id="rotaryItem371"/>
+    <item class="rotaryItem" direction="SE" wy="3.765625" kind="cafeNapkin" wz="2" wx="15.390625" id="rotaryItem372"/>
+    <item class="landscapeItem" wy="11.671875" kind="cafeFlowerSmall" wz="2" wx="16.984375" id="landscapeItem373"/>
+    <item class="landscapeItem" wy="8.15625" kind="cafeFlowerSmall" wz="2" wx="9.03125" id="landscapeItem374"/>
+    <item class="landscapeItem" wy="3.84375" kind="cafeFlowerSmall" wz="2" wx="15.84375" id="landscapeItem375"/>
+    <item class="cafeMenuItem" direction="SE" wy="11.03125" kind="cafeMenu" wz="2" wx="16.84375" id="cafeMenuItem376"/>
+    <item class="cafeMenuItem" direction="SW" wy="8.65625" kind="cafeMenu" wz="2" wx="8.65625" id="cafeMenuItem377"/>
+    <item class="cafeMenuItem" direction="SW" wy="4.203125" kind="cafeMenu" wz="2" wx="15.515625" id="cafeMenuItem378"/>
+    <item class="walkingGridItem" cols="37" rows="29">
+      <grid>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+      </grid>
+    </item>
+    <item class="dispositionItem" wy="17" wx="22" id="dispositionItem68"/>
+    <item class="dispositionItem" wy="16" wx="16" id="dispositionItem69"/>
+  </items>
+</map>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<dictionary>
+    <locale name="tr">
+    
+        <gender key="tutorialNpcName">
+            <form>Alex</form>
+            <form>Mary</form>
+        </gender>
+    
+        <gender key="npcName1">
+            <form>Ethan</form>
+            <form>Olivia</form>
+        </gender>
+    
+        <gender key="npcName2">
+            <form>William</form>
+            <form>Emma</form>
+        </gender>
+    
+        <gender key="npcName3">
+            <form>Rick</form>
+            <form>Jenny</form>
+        </gender>
+    
+        <gender key="npcName4">
+            <form>Bob</form>
+            <form>Diana</form>
+        </gender>
+        
+        <gender key="npcName5">
+            <form>Mason</form>
+            <form>Isabella</form>
+        </gender>
+        
+        <gender key="npcName6">
+            <form>Jacob</form>
+            <form>Sofia</form>
+        </gender>
+        
+        <gender key="chooseAppearanceMessage">
+            <form><![CDATA[<p>Merhaba! Ben :name:!<br>Haydi başlayalım - önce nasıl görüneceğinizi seçin.</p>]]></form>
+            <form><![CDATA[<p>Merhaba! Ben :name:!<br>Haydi başlayalım - önce nasıl görüneceğinizi seçin.</p>]]></form>
+        </gender>
+        
+        <message key="tutorialClothesCategoryLabel">Parti</message>
+        
+        <message key="tutorialHelpTitle">Öğretici ders</message>
+        <message key="tutorialContinueLabel">devam et</message>
+        <message key="tutorialFinishLabel">bitir</message>
+
+        <message key="finishTutorialTitle">Öğretici dersi bitir</message>
+        <message key="finishTutorialConfirm">Gerçekten öğretici dersi bitirmek istiyor musunuz?</message>
+        
+        <!-- Step 2 -->
+        <gender key="ttSt2Npc1">
+            <form><![CDATA[<p>Merhaba dostum, seni yeniden görmek çok güzel! Biraz eğlenmeye hazır mısın?</p>]]></form>
+            <form><![CDATA[<p>Merhaba dostum, seni yeniden görmek çok güzel! Biraz eğlenmeye hazır mısın?</p>]]></form>
+        </gender>
+        <message key="ttSt1Hlp"><![CDATA[<p><font size="13">Arkadaşınıza cevap vermek için tıklayın</font></p>]]></message>
+        
+        <!-- Step 3 -->
+        <gender key="ttSt3Npc1">
+            <form><![CDATA[<p>Ama dışarı çıkmadan önce, süs havuzu kurulumunu tamamlamam lazım. Bana yardım eder misin?</p>]]></form>
+            <form><![CDATA[<p>Ama dışarı çıkmadan önce, süs havuzu kurulumunu tamamlamam lazım. Bana yardım eder misin?</p>]]></form>
+        </gender>
+        <gender key="ttSt3Chat1">
+            <form><![CDATA[Tabii ki yardım ederim.]]></form>
+            <form><![CDATA[Tabii ki yardım ederim.]]></form>
+        </gender>
+        
+        <message key="ttSt3Hlp1"><![CDATA[<p><font size="13">Oda Düzenleyiciyi açın</font></p>]]></message>
+        <message key="ttSt3Hlp2"><![CDATA[<p><font size="13">Farenizle sürükleyerek süs havuzunu odaya yerleştirin. Daha sonra Kaydet öğesine tıklayın.</font></p>]]></message>
+        <message key="ttSt3Hlp3"><![CDATA[<p><font size="13">Şimdi seçmek için çeşme üzerine tıklayın</font></p>]]></message>
+        
+        <!-- Step 4 -->
+        <gender key="ttSt4Npc1">
+            <form><![CDATA[<p>Haydi şimdi kulüp için giyinelim. Dolabımda hoşuna gidecek bir şeyler bulacağına eminim!</p>]]></form>
+            <form><![CDATA[<p>Haydi şimdi kulüp için giyinelim. Dolabımda hoşuna gidecek bir şeyler bulacağına eminim!</p>]]></form>
+        </gender>
+        <gender key="ttSt4Chat1">
+            <form><![CDATA[Neden olmasın?]]></form>
+            <form><![CDATA[Neden olmasın?]]></form>
+        </gender>
+        <message key="ttSt4Hlp1"><![CDATA[<p><font size="13">Dolabı açmak için tıklayın</font></p>]]></message>
+        <message key="ttSt4Msg2"><![CDATA[<p><font size="13">Bir kıyafet seçin ve kıyafetinizi değiştirmek için Kaydet öğesine tıklayın.</font></p>]]></message>
+        
+        <!-- Step 5 -->
+        <gender key="ttSt5Npc1">
+            <form><![CDATA[<p>Harika görünüyorsun! Haydi, önce kafeye uğrayıp bir fincan kahve içelim.</p>]]></form>
+            <form><![CDATA[<p>Harika görünüyorsun! Haydi, önce kafeye uğrayıp bir fincan kahve içelim.</p>]]></form>
+        </gender>
+        <gender key="ttSt5Chat1">
+            <form><![CDATA[Tamam, haydi gidelim!]]></form>
+            <form><![CDATA[Tamam, haydi gidelim!]]></form>
+        </gender>
+        <message key="ttSt5Hlp2"><![CDATA[<p><font size="13">Kafeye gitmek için tıklayın</font></p>]]></message>
+        <gender key="ttSt5Npc2">
+            <form><![CDATA[<p>Haydi birer kahve içelim.</p>]]></form>
+            <form><![CDATA[<p>Haydi birer kahve içelim.</p>]]></form>
+        </gender>
+        <gender key="ttSt5Chat2">
+            <form><![CDATA[Bunu nasıl yapabilirim?]]></form>
+            <form><![CDATA[Bunu nasıl yapabilirim?]]></form>
+        </gender>
+        
+        <message key="ttSt5Hlp1"><![CDATA[<p><font size="13">Kahve sipariş etmek için tıklayın</font></p>]]></message>
+        
+        <message key="ttFriendMsg0">Hey, harika görünüyorsun!</message>
+        <message key="ttFriendMsg1">Nasıl gidiyor? Uzun zamandır görünmüyorsun!</message>
+        <message key="ttFriendMsg2">Seni görmek çok güzel!</message>
+        <message key="ttFriendMsg3">Ne güzel bir gün!</message>
+        <message key="ttFriendMsg4">İyiyim.</message>
+        
+        <!-- Step 6 -->
+        <gender key="ttSt6Npc1">
+            <form><![CDATA[<p>Bu güzel oldu. Ama şimdi kulübe gitme zamanı.</p>]]></form>
+            <form><![CDATA[<p>Bu güzel oldu. Ama şimdi kulübe gitme zamanı.</p>]]></form>
+        </gender>
+        <gender key="ttSt6Chat1">
+            <form><![CDATA[Evet, haydi gidelim.]]></form>
+            <form><![CDATA[Evet, haydi gidelim.]]></form>
+        </gender>
+        <gender key="ttSt6Npc2">
+            <form><![CDATA[<p>Sonunda kulübe geldik! Eğlenmeye hazır mısın?</p>]]></form>
+            <form><![CDATA[<p>Sonunda kulübe geldik! Eğlenmeye hazır mısın?</p>]]></form>
+        </gender>
+        <message key="ttSt6Hlp1"><![CDATA[<p><font size="13">Avatarınızı dans ettirmek için, üzerine tıklayın ve Dans et öğesini seçin.</font></p>]]></message>
+        
+        <!-- Step 7 -->
+        <gender key="ttSt7Msg2">
+            <form><![CDATA[<p>Ayakkabılarını çıkartıp mı dans ettin? Biraz daha takılabiliriz veya benim evime gidebiliriz.</p>]]></form>
+            <form><![CDATA[<p>Ayakkabılarını çıkartıp mı dans ettin? Biraz daha takılabiliriz veya benim evime gidebiliriz.</p>]]></form>
+        </gender>
+        <gender key="ttSt7Chat1">
+            <form><![CDATA[Yavaş yavaş eve gitmeliyiz.]]></form>
+            <form><![CDATA[Yavaş yavaş eve gitmeliyiz.]]></form>
+        </gender>
+
+        <!-- Step 8 -->
+        <gender key="ttSt8Npc1">
+            <form><![CDATA[<p>Çok zevkli bir zaman geçirdik... Kendi daireni almayı düşündün mü?</p>]]></form>
+            <form><![CDATA[<p>Çok zevkli bir zaman geçirdik... Kendi daireni almayı düşündün mü?</p>]]></form>
+        </gender>
+        <gender key="ttSt8Chat1">
+            <form><![CDATA[Satışta neler var bir bakalım.]]></form>
+            <form><![CDATA[Satışta neler var bir bakalım.]]></form>
+        </gender>
+
+        <!-- Step 10 -->
+        <gender key="ttSt10Npc1">
+            <form><![CDATA[<p>Kendi dairenizi aldığınız için tebrikler. Artık eve ısınma partisi düzenleyerek arkadaşlarınızı çağırmanın vakti geldi!</p>]]></form>
+            <form><![CDATA[<p>Kendi dairenizi aldığınız için tebrikler. Artık eve ısınma partisi düzenleyerek arkadaşlarınızı çağırmanın vakti geldi!</p>]]></form>
+        </gender>
+        <gender key="ttSt10Chat1">
+            <form><![CDATA[Bunu nasıl yapabilirim?]]></form>
+            <form><![CDATA[Bunu nasıl yapabilirim?]]></form>
+        </gender>
+        <gender key="ttSt10Npc2">
+            <form><![CDATA[<p>İlerleme kaydediyorsunuz! Avataria dünyasını öğrenmenize yardımcı olacak daha pek çok heyecanlı görev var.</p>]]></form>
+            <form><![CDATA[<p>İlerleme kaydediyorsunuz! Avataria dünyasını öğrenmenize yardımcı olacak daha pek çok heyecanlı görev var.</p>]]></form>
+        </gender>
+        <gender key="ttSt10Chat2">
+            <form><![CDATA[Yardımınız için teşekkürler!]]></form>
+            <form><![CDATA[Yardımınız için teşekkürler!]]></form>
+        </gender>
+
+		<message key="userHouse1Label">Peri masalı</message>
+		<message key="userHouse1Description">Parlak bir kişilik için orijinal bir tasarım. Kalabalıktan sıyrılmak mı istiyorsunuz? O zaman bu daire tam size göre!</message>
+		
+		<message key="userHouse2Label">Yüksek tek.</message>
+		<message key="userHouse2Description">Öz bir stil ve tasarım. Basit ve zevkli.</message>
+		
+		<message key="userHouse3Label">Hassasiyet</message>
+		<message key="userHouse3Description">Eğer sıcaklık ve hassasiyet arıyorsanız, bu daire en uygunudur. Yumuşak tonlarını ve stil sahibi iç tasarımını herkes çok sevecektir.</message>
+		
+		<message key="userHouse4Label">Konfor</message>
+		<message key="userHouse4Description">Konfor ve rahatlık, bu daireyi diğerlerinden ayıran özellik.</message>
+		
+		<message key="userHouse5Label">Minimalizm</message>
+		<message key="userHouse5Description">Harika bir manzara ve çok az mobilya. Kendisi yenilik yapmak isteyenler için ideal bir seçim.</message>
+
+        <message key="goldForFriendsLabelText">Oyuna katılan her arkadaş için 10 altın para alacaksınız!</message>
+        <message key="fastSearchLabel">Hızlı arama</message>
+        <message key="typeNameLabel">Ad girin</message>
+
+        <message key="questsFirstMessageText"><![CDATA[<p><font size="13">Gerçekleştireceğiniz başka hangi ilginç görevlerin olduğuna bakın</font></p>]]></message>
+
+    </locale>
+</dictionary>

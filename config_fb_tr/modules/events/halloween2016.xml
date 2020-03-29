@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="halloween2016">
+    <inventory>
+        <category id="game">
+            <item id="hw16Potion" label="#hw16PotionLabel" description="#hw16PotionDescription"
+                  name="Potion@halloween2016" icon="PotionIcon@halloween2016" canBuy="0"/>
+        </category>
+
+        <category id="craftLoot">
+            <item id="hw16Candy" label="#hw16CandyLabel" description="#hw16CandyDescription"
+                  name="Candy@halloween2016" icon="CandyIcon@halloween2016" gold="100"/>
+
+            <item id="hw16Belladonna" label="#hw16BelladonnaLabel" description="#hw16BelladonnaDescription"
+                  name="Belladonna@halloween2016" icon="BelladonnaIcon@halloween2016"
+                  probability="0.7" gold="200"/>
+        </category>
+    </inventory>
+
+    <craft>
+        <craftedItem title="#hw16PotionCraftTitle" itemId="hw16Potion" holiday="">
+            <component itemId="bigPhial" count="1"/>
+            <component itemId="water" count="30"/>
+            <component itemId="hatred" count="30"/>
+            <moduleComponent itemId="hw16Belladonna" count="5"/>
+        </craftedItem>
+    </craft>
+
+    <awards>
+        <award id="1" candies="30" icon="AwardIcon1@halloween2016" label="#hw16GiftLabel">
+            <item itemType="furniture" itemId="candleWallHlwn" count="1"/>
+            <item itemType="furniture" itemId="webHlwn" count="1"/>
+            <item itemType="furniture" itemId="broomHlwn" count="1"/>
+            <item itemType="furniture" itemId="hlwnChair3" count="1"/>
+            <item itemType="furniture" itemId="scullCandle" count="1"/>
+            <item itemType="furniture" itemId="pumpkinHlwn" count="1"/>
+            <item itemType="furniture" itemId="ghostBlack" count="1"/>
+            <item itemType="furniture" itemId="batHlwnRed" count="1"/>
+            <item itemType="game" itemId="vsgstBrush" count="10"/>
+            <item itemType="game" itemId="gameChips" count="10"/>
+        </award>
+
+        <award id="2" candies="60" icon="AwardIcon2@halloween2016" label="#vipStatusLabel">
+            <item itemType="vip" count="3" itemId="vip"/>
+        </award>
+
+        <award id="3" candies="100" icon="AwardIcon3@halloween2016" label="#goldLabel">
+            <item itemType="resource" itemId="gold" count="50"/>
+        </award>
+    </awards>
+
+    <suits>
+        <!-- boy -->
+        <suit id="monsterBoySuit1" gender="1">
+            <item itemId="boyHlwn7"/>
+        </suit>
+
+        <suit id="monsterBoySuit2" gender="1">
+            <item itemId="boyHrnDvl16"/>
+            <item itemId="boyBtsDvl16"/>
+            <item itemId="boyTalDvl16"/>
+        </suit>
+
+        <suit id="monsterBoySuit3" gender="1">
+            <item itemId="boyMskHlb16"/>
+        </suit>
+
+        <suit id="monsterBoySuit4" gender="1">
+            <item itemId="boyHlwn11"/>
+        </suit>
+
+        <!-- girl -->
+        <suit id="monsterGirlSuit1" gender="2">
+            <item itemId="grlMskVmp16"/>
+        </suit>
+
+        <suit id="monsterGirlSuit2" gender="2">
+            <item itemId="girlHlwn12"/>
+            <item itemId="grlBtsDvl16"/>
+            <item itemId="grlTalDvl16"/>
+        </suit>
+
+        <suit id="monsterGirlSuit3" gender="2">
+            <item itemId="grlMskWtc16"/>
+        </suit>
+
+        <suit id="monsterGirlSuit4" gender="2">
+            <item itemId="girlHlwn21"/>
+        </suit>
+    </suits>
+</module>

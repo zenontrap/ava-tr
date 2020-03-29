@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+
+        <message key="m1st15GoWorkDescription">Bahçedeki çiçekleri sulayarak ya da sokakları temizleyerek kurdele kazanabilirsin.</message>
+        <message key="m1st15HangRibbonTitle">Kurdele As</message>
+        <message key="m1st15SocialDescription">Yapılacak iş çok mu? Arkadaşlarından tembelliği bırakıp sana yardım etmelerini iste!</message>
+        <message key="m1st15SocialWallTitle">İşçi Bayramı</message>
+        <message key="m1st15SocialWallMessage">Avataria sokaklarındaki bir ağacı bayram kurdelemle süsledim. Sen de kurdele ister misin? :link:</message>
+
+        <message key="m1st15GoStreetDescription">Nadir bulunan, değerli kaynakları edinmek için dışardaki ağacı kurdelelerle süsle.</message>
+    </locale>
+</dictionary>

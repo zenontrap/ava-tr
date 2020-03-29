@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="firstApril2019" useGlassSmilesCount="5" useHatSmilesCount="8" makePhotoFilmPrice="5">
+    <inventory>
+        <category id="craftLoot">
+            <item id="fa19Smile" name="SmileLoot@firstApril2019"/>
+            <item id="fa19Cake" name="CakeLootIcon@firstApril2019" label="#fa19CakeLabel"
+                  description="#fa19CakeLootDescription" icon="CakeIcon@firstApril2019" gold="50"/>
+            <item id="fa19Glass" name="GlassesNoseIcon@firstApril2019"
+                  icon="GlassesNoseIcon@firstApril2019" label="#fa19GlassLabel"/>
+            <item id="fa19Hat" name="HatSharkIcon@firstApril2019"
+                  icon="HatSharkIcon@firstApril2019" label="#fa19HatLabel"/>
+        </category>
+    </inventory>
+
+    <cakesAward>
+        <item id="ckStrwb" count="1"/>
+        <item id="ckBlckb" count="2"/>
+        <item id="ckOrng" count="3"/>
+    </cakesAward>
+
+    <craft>
+        <craftedItem itemId="fa19Glass" title="#fa19GlassLabel" holiday="">
+            <component itemId="generosity" count="3"/>
+            <component itemId="skill" count="1"/>
+            <moduleComponent itemId="fa19Cake" count="5"/>
+            <component itemId="feather" count="2"/>
+        </craftedItem>
+
+        <craftedItem itemId="fa19Hat" title="#fa19HatLabel" holiday="">
+            <moduleComponent itemId="fa19Cake" count="6"/>
+            <component itemId="diligence" count="2"/>
+            <component itemId="beauty" count="2"/>
+            <component itemId="cloth" count="1" social="1"/>
+        </craftedItem>
+    </craft>
+
+    <glass>
+        <item type="GlssEyes"/>
+        <item type="GlssRbt"/>
+        <item type="GlssAln"/>
+        <item type="GlssAnm"/>
+        <item type="GlssNse"/>
+        <item type="GlssPxl"/>
+    </glass>
+
+    <hat>
+        <item type="HtShrk"/>
+        <item type="HtCrb"/>
+        <item type="HtFrg"/>
+    </hat>
+
+    <awards>
+        <award id="1" itemType="clothes" itemId="boyHtDgAcs" gender="1"
+               points="140"
+               icon="RoundAccessoryIcon@firstApril2019"
+               receiveIcon="WallAccessory@firstApril2019"
+               hint="boyHtDgAcsLabel"/>
+        <award id="2" itemType="clothes" itemId="girlAcsFri" gender="2"
+               points="140"
+               icon="RoundAccessoryIcon@firstApril2019"
+               receiveIcon="WallAccessory@firstApril2019"
+               hint="girlAcsFriLabel"/>
+        <award id="3" itemType="clothes" itemId="boyGlssHtDg" gender="1"
+               points="320"
+               icon="RoundBoyGlassIcon@firstApril2019"
+               receiveIcon="WallBoyGlass@firstApril2019"
+               hint="boyGlssHtDgLabel"/>
+        <award id="4" itemType="clothes" itemId="girlGlssFri" gender="2"
+               points="320"
+               icon="RoundGirlGlassIcon@firstApril2019"
+               receiveIcon="WallGirlGlass@firstApril2019"
+               hint="girlGlssFriLabel"/>
+        <award id="5" itemType="trophy" itemId="firstApril2019"
+               points="570"
+               count="1585688340"
+               icon="RoundTrophy@firstApril2019"
+               receiveIcon="WallTrophy@firstApril2019"
+               hint="fa19TrophyHint"/>
+        <award id="6" itemType="clothesSet" itemId="boyHtDgSet" gender="1"
+               points="800"
+               icon="RoundBoyCostumeIcon@firstApril2019"
+               receiveIcon="WallBoyCostume@firstApril2019"
+               hint="fa19BoySetHint"/>
+        <award id="6" itemType="clothesSet" itemId="girlFriSet" gender="2"
+               points="800"
+               icon="RoundGirlCostumeIcon@firstApril2019"
+               receiveIcon="WallGirlCostume@firstApril2019"
+               hint="fa19GirlSetHint"/>
+    </awards>
+
+    <animations>
+        <animation name="BushStand">
+            <sequence name="process" start="1" length="1" loop="true"/>
+        </animation>
+        <animation name="BushDance">
+            <sequence name="process" start="2" length="29" loop="false"/>
+        </animation>
+        <animation name="BushHello">
+            <sequence name="process" start="32" length="60" loop="false"/>
+        </animation>
+        <animation name="BushWink">
+            <sequence name="process" start="93" length="60" loop="false"/>
+        </animation>
+    </animations>
+
+    <messages>
+        <message gender="1" messageKey="fa19NpcMessage1"/>
+        <message gender="1" messageKey="fa19NpcMessage2"/>
+        <message gender="1" messageKey="fa19NpcMessage3"/>
+        <message gender="1" messageKey="fa19NpcMessage4"/>
+        <message gender="1" messageKey="fa19NpcMessage5"/>
+        <message gender="2" messageKey="fa19NpcMessage6"/>
+        <message gender="2" messageKey="fa19NpcMessage7"/>
+        <message gender="2" messageKey="fa19NpcMessage8"/>
+        <message gender="2" messageKey="fa19NpcMessage4"/>
+        <message gender="2" messageKey="fa19NpcMessage5"/>
+    </messages>
+
+    <poses>
+        <pose id="1" view="PhotoPose4" gender="boy" rotate="1"/>
+        <pose id="2" view="PhotoPose5" gender="boy" rotate="1"/>
+        <pose id="3" view="PhotoPose7" gender="boy" rotate="0"/>
+        <pose id="4" view="PhotoPose8" gender="boy" rotate="1"/>
+        <pose id="5" view="PhotoPose9" gender="boy" rotate="1"/>
+
+        <pose id="6" view="PhotoPose3" gender="girl" rotate="1"/>
+        <pose id="7" view="PhotoPose4" gender="girl" rotate="1"/>
+        <pose id="8" view="PhotoPose5" gender="girl" rotate="1"/>
+        <pose id="9" view="PhotoPose7" gender="girl" rotate="1"/>
+        <pose id="10" view="PhotoPose10" gender="girl" rotate="0"/>
+    </poses>
+
+    <exchange>
+        <exchangeAward awardId="1" itemId="muse" points="9" count="10" icon="RoundMuse@firstApril2019"
+                       label="#museLabel"  itemType="game"/>
+        <exchangeAward awardId="2" itemId="shell" points="45" count="15" icon="RoundShell@firstApril2019"
+                       label="#shellLootLabel"  itemType="game"/>
+        <exchangeAward awardId="3" itemId="pearl" points="99" count="20" icon="RoundPearl@firstApril2019"
+                       label="#pearlLootLabel"  itemType="game"/>
+    </exchange>
+</module>

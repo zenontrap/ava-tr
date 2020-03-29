@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+        <message key="fa19GlassLabel">Komik Gözlük</message>
+        <message key="fa19HatLabel">Komik Şapka</message>
+        <message key="fa19CakeLabel">kek</message>
+        <message key="fa19CakeLootDescription">kafede turtaları atarak elde edilebilir</message>
+        <message key="fa19InfoDialogTitle">1 Nisan Şakası!</message>
+        <message key="fa19InfoDialogDescription">Biraz eğlenmenin sırası geldi! Komik gözlükler ve şapkalar üret, arkadaşlarına çok komik şakalar yap ve eşsiz hediyeleri topla. Tam olarak iki haftan var, bitmeden önce acele et ve keyfini çıkar!</message>
+        <message key="fa19TrophyHint">Joker Unvanı</message>
+        <message key="fa19SelectTrickDialogTitle">Arkadaşına bir eşek şakası yap!</message>
+        <message key="fa19SelectTrickDialogDescription">Arkadaşın için neyi seçersin: Komik bir gözlük mü yoksa güldürücü bir şapka mı? Tamamen sana bağlı!</message>
+        <message key="fa19ProgressDialogDescription">Gözlükler ve şapkalar üret, arkadaşlarına eğlenceli şakalar yap, gülücük topla, topladığın gülücükleri eşsiz hediyeler ile takas et.</message>
+        <message key="fa19BoySetHint">Sosisli Kıyafeti</message>
+        <message key="fa19GirlSetHint">Patates Kıyafeti</message>
+        <message key="fa19AwardDialogDescription">Etkinliği tamamladığın için işte ödülün. Haberi arkadaşların ile paylaşmayı unutma!</message>
+        <message key="fa19WallGetAwardMessage">Etkinliği tamamladığım için harika bir ödül aldım! Sen de ister misin? O zaman gel de oyunda bana katıl! :link:</message>
+        <message key="fa19NpcName">Innocentius</message>
+        <message key="fa19NpcMessage1">Hey, Innocentius ile havalı bir fotoğrafa ne dersin? Çok havalı adam ya!</message>
+        <message key="fa19NpcMessage2">Hepiniz gübre kafalısınız!</message>
+        <message key="fa19NpcMessage3">Daha kız arkadaşın yok mu? Şaka mı bu? Innocentius'a tatlı bir piliç tavlamasını söyle!</message>
+        <message key="fa19NpcMessage4">Acele edip şu fotoğrafı çeker misin artık? Berbere gitmem gerek!</message>
+        <message key="fa19NpcMessage5">Neden beni daha önce kimse fark etmedi ki?</message>
+        <message key="fa19NpcMessage6">Hey, Innocentius ile harika bir fotoğrafa ne dersin? Çok havalı adam ya!</message>
+        <message key="fa19NpcMessage7">Neden daha da yaklaşmıyorsun? Korkma, ısırmam! Muhtemelen... ;)</message>
+        <message key="fa19NpcMessage8">Hey, daha benimle fotoğraf çektirmedin mi? Bu korkunç!</message>
+        <message key="fa19BuyPhotoDescription">Innocentius ile muhteşem bir fotoğrafa ne dersin?</message>
+        <message key="fa19BuyPhotoButtonTitle">:count: İçin bir fotoğraf çek.</message>
+        <message key="fa19MakePhotoDialogDescription">İşte Innocentius ile fotoğrafın. Ne havalı adam! Harika değil mi? Arkadaşlarınla paylaş ya da sürücüne kaydet!</message>
+        <message key="fa19PublishPhotoDescription">#avataria #selfie #innocentius #:nick: Innocentius ile eşsiz bir fotoğraf çektirme şansını kaçırma! 4 Nisan’a kadar geçerli! :link:</message>
+        <message key="fa19ExchangeDialogTitle">Kaynaklar ile değiştir</message>
+        <message key="fa19ExchangeDialogDescription">Gülücük almaya ve karşılığında kullanışlı kaynaklar almaya devam et!</message>
+        <gender key="fa19NotificationDescription">
+            <form>:userName: sana bir eşek şakası yaptı! Karşılık verebilirsin!</form>
+            <form>:userName: sana bir eşek şakası yaptı! Karşılık verebilirsin!</form>
+        </gender>
+    </locale>
+</dictionary>

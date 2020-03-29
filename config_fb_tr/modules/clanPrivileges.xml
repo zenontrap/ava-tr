@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <roles>
+        <role id="0" name="NOVICE" authority="0"/>
+        <role id="1" name="MEMBER" authority="1"/>
+        <role id="2" name="MASTER" authority="2"/>
+        <role id="3" name="CREATOR" authority="3"/>
+    </roles>
+
+    <privileges>
+        <privilege name="LEAVE_CLAN" minAuthority="0"/>
+        <privilege name="SHOW_CLAN_COIN" minAuthority="0"/>
+        <privilege name="SEND_MESSAGE" minAuthority="0"/>
+        <privilege name="SHOW_MEMBER_ROLE" minAuthority="0"/>
+        <privilege name="WATCH_NEWS" minAuthority="0"/>
+        <privilege name="VIEW_INVENTORY" minAuthority="0"/>
+
+        <privilege name="INVITE_NOVICE" minAuthority="2"/>
+        <privilege name="MAKE_NOVICE" minAuthority="2"/>
+        <privilege name="APPROVE_NOVICE" minAuthority="2"/>
+        <privilege name="DELETE_REQUEST" minAuthority="2"/>
+        <privilege name="MAKE_MEMBER" minAuthority="2"/>
+        <privilege name="KICK_MEMBER" minAuthority="2"/>
+        <privilege name="CHANGE_DESCRIPTION" minAuthority="2"/>
+        <privilege name="CHANGE_SELECTION" minAuthority="2"/>
+        <privilege name="CREATE_EVENT" minAuthority="2"/>
+        <privilege name="CHANGE_ADVERTISEMENT" minAuthority="2"/>
+        <privilege name="FORCE_JOIN_ROOM" minAuthority="2"/>
+        <privilege name="KICK_FROM_LOCATION" minAuthority="2"/>
+
+        <privilege name="UPGRADE_CLAN" minAuthority="3"/>
+        <privilege name="DISMISS_CLAN" minAuthority="3"/>
+        <privilege name="MAKE_MASTER" minAuthority="3"/>
+        <privilege name="KICK_MASTER" minAuthority="3"/>
+        <privilege name="SHOW_MEMBER_CLAN_COIN" minAuthority="3"/>
+        <privilege name="SHOW_MEMBER_ACTIVITY" minAuthority="3"/>
+        <privilege name="CHANGE_PIN_CODE" minAuthority="3"/>
+        <privilege name="MAKE_CREATOR" minAuthority="3"/>
+        <privilege name="CHANGE_PRIVACY" minAuthority="3"/>
+        <privilege name="EDIT_ROOM_LAYOUT" minAuthority="3"/>
+        <privilege name="CLOSE_CLAN_LOCATION" minAuthority="3"/>
+        <privilege name="BUY_ROOM" minAuthority="3"/>
+        <privilege name="BUY_RECIPE" minAuthority="3"/>
+    </privileges>
+</config>

@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<map width="37" length="30">
+  <viewport x="423" y="-470" width="1195" height="840"/>
+  <items>
+    <item class="backgroundItem" wx="21.3" skin="PublicBeachBackground@avaBirthday2016" wy="-8.1"/>
+    <item class="landscapeItem" wz="0" kind="beachBridge" wx="20.703125" wy="22.015625" id="landscapeItem3" skin="BeachBridge@avaBirthday2016"/>
+    <item class="walkingGridItem" cols="37" rows="30">
+      <grid>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,0,0,0,0,0,1,0,0,0,0"/>
+        <row values="0,0,0,0,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,0,0,0,0,0,1,0,0,0,0"/>
+        <row values="0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0"/>
+        <row values="0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0"/>
+        <row values="0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0"/>
+        <row values="0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,1,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,1,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+      </grid>
+    </item>
+    <item class="landscapeItem" wz="0" kind="beachBar" wx="27" wy="7" id="landscapeItem10" skin="BeachBar@avaBirthday2016"/>
+    <item class="landscapeItem" wz="0" kind="beachParapet1" wx="21.921875" wy="4.609375" id="landscapeItem13" skin="BeachParapet1@avaBirthday2016"/>
+    <item class="landscapeItem" wz="0" kind="beachParapet2" wx="8.15625" wy="4.65625" id="landscapeItem14"/>
+    <item class="landscapeItem" wz="0" kind="beachParapet2" wx="22.453125" wy="4.453125" id="landscapeItem15"/>
+    <item class="publicLieItem" wz="0" kind="beachLounge" wx="26" direction="SW" wy="20" id="publicLieItem9"/>
+    <item class="publicLieItem" wz="0" kind="beachLounge" wx="26" direction="SW" wy="17" id="publicLieItem10"/>
+    <item class="landscapeItem" wz="0" kind="beachUmbrella" wx="29.1875" wy="18.3125" id="landscapeItem11"/>
+    <item class="publicLieItem" wz="0" kind="beachLounge" wx="14" direction="SE" wy="15" id="publicLieItem12" skin="BeachLoungeSE2@avaBirthday2016"/>
+    <item class="publicLieItem" wz="0" kind="beachLounge" wx="16" direction="SE" wy="15" id="publicLieItem13"/>
+    <item class="publicLieItem" wz="0" kind="beachLounge" wx="20" direction="SE" wy="15" id="publicLieItem14"/>
+    <item class="publicLieItem" wz="0" kind="beachLounge" wx="22" direction="SE" wy="15" id="publicLieItem15" skin="BeachLoungeSE3@avaBirthday2016"/>
+    <item class="landscapeItem" wz="0" kind="beachTable" wx="18" wy="15" id="landscapeItem16"/>
+    <item class="landscapeItem" wz="0" kind="beachUmbrella" wx="18.21875" wy="14.15625" id="landscapeItem17"/>
+    <item class="publicLieItem" wz="0" kind="beachLounge" wx="8" direction="SE" wy="5" id="publicLieItem18" skin="BeachLoungeSE1@avaBirthday2016"/>
+    <item class="publicLieItem" wz="0" kind="beachLounge" wx="11" direction="SE" wy="5" id="publicLieItem19"/>
+    <item class="landscapeItem" wz="0" kind="beachUmbrella" wx="10.109375" wy="5.296875" id="landscapeItem20"/>
+    <item class="landscapeItem" wz="0" kind="beachParapet1" wx="13.0625" wy="4.75" id="landscapeItem21" skin="BeachParapet2@avaBirthday2016"/>
+    <item class="sitItem" wz="0" kind="beachBarChair" wx="26" direction="SW" wy="7" id="sitItem22"/>
+    <item class="sitItem" wz="0" kind="beachBarChair" wx="26" direction="SW" wy="9" id="sitItem23"/>
+    <item class="sitItem" wz="0" kind="beachBarChair" wx="26" direction="SW" wy="11" id="sitItem24"/>
+    <item class="sitItem" wz="0" kind="beachBarChair" wx="26" direction="SW" wy="13" id="sitItem25"/>
+    <item class="beachActiveSurf" wz="0" kind="beachSurf" wx="12.078125" wy="24.453125" id="beachActiveSurf26"/>
+    <item class="dispositionItem" wx="18.578125" wy="3.890625" id="dispositionItem27"/>
+    <item class="dispositionItem" wx="10.953125" wy="15.015625" id="dispositionItem27"/>
+    <item class="dispositionItem" wx="26" wy="15" id="dispositionItem28"/>
+    <item class="beachExitItem" kind="publicBeachExit" wx="17.859375" wy="1.171875" wz="0" locationId="ballroom" roomId="br1" id="beachExitItem29"/>
+  </items>
+</map>

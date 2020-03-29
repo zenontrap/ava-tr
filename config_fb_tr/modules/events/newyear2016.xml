@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module active="true" id="newyear2016" campaign="newyear2016" meteoriteExchangeTitle="#ny16meteoriteExchangeTitle" meteoriteExchangeMessage="#ny16meteoriteExchangeMessage" minOpenWindowHelpersCount="4">
+
+    <cityEventLocation id="module" index="-1" category="module" targetId="house" subTargetId="ny16Room">
+        <icon name="NY2016EventLocationIcon@newyear2016" title="#ny16RoomName" />
+        <module filterIcon="NY16EventFilterIcon@newyear2016" filterLabel="ny16EventFilterLabel" categoryIcon="NY16EventCategoryIcon@newyear2016">
+            <price gold="3"/>
+        </module>
+    </cityEventLocation>
+
+    <craft>
+        <craftedItem title="#ny16ToolBox" itemId="ny16ToolBox" holiday="ny16FakeHoliday">
+            <component itemId="cloth" count="11" social="1"/>
+            <component itemId="love" count="25"/>
+            <moduleComponent itemId="ny16Meteorites" count="250"/>
+            <component itemId="generosity" count="25"/>
+        </craftedItem>
+    </craft>
+
+    <inventory>
+        <category id="art">
+            <item id="ny16ToolBox" label="#ny16ToolBox" icon="ToolboxIcon@newyear2016" canBuy="0"/>
+        </category>
+        <category id="craftLoot">
+            <item id="ny16Meteorites" description="#ny16MeteoriteLootDescription" icon="SplinterIcon@newyear2016"
+                  name="SplinterLoot@newyear2016" label="#ny16Meteorites" probability="0" gold="100" />
+        </category>
+    </inventory>
+
+    <awards>
+        <award id="1" itemType="" itemId="giftExchange" stageId="1"
+               icon="RoundExchange@newyear2016" requestIcon="NY16Exchange@newyear2016" receiveIcon="NY16Exchange@newyear2016"/>
+
+        <award id="2" itemType="clothesSet" itemId="ny16bs1" gender="1" stageId="2"
+               icon="RoundBoyAcs@newyear2016" requestIcon="NY16Cleaning@newyear2016" receiveIcon="NY16ClothesSet1Boy@newyear2016"/>
+
+        <award id="3" itemType="clothesSet" itemId="ny16gs1" gender="2" stageId="2"
+               icon="RoundGirlAcs@newyear2016" requestIcon="NY16Cleaning@newyear2016" receiveIcon="NY16ClothesSet1Girl@newyear2016"/>
+
+        <award id="4" itemType="" itemId="ny16gnr" stageId="3"
+               icon="RoundRunningGenerator@newyear2016" requestIcon="NY16Generator@newyear2016" receiveIcon="NY16Generator@newyear2016"/>
+
+        <award id="5" itemType="clothesSet" itemId="ny16bs2" gender="1" stageId="4"
+               icon="RoundBoyClothes@newyear2016" requestIcon="NY16ClothesSet2Boy@newyear2016" receiveIcon="NY16ClothesSet2Boy@newyear2016"/>
+
+        <award id="6" itemType="clothesSet" itemId="ny16gs2" gender="2" stageId="4"
+               icon="RoundGirlClothes@newyear2016" requestIcon="NY16ClothesSet2Girl@newyear2016" receiveIcon="NY16ClothesSet2Girl@newyear2016"/>
+    </awards>
+
+    <stages>
+        <stage stageId="0" startDate="1450861200" roomConfigurationId="ny16Stage0Config">
+        </stage>
+        <stage stageId="1" startDate="1450861200" meteoriteDropProbability="0.4" progressToComplete="250"
+               roomConfigurationId="ny16Stage1Config" gold="250">
+        </stage>
+        <stage stageId="2" startDate="1451466000" meteoriteDropProbability="0.4" progressToComplete="30"
+               roomConfigurationId="ny16Stage2Config" gold="300">
+        </stage>
+        <stage stageId="3" startDate="1452070800" meteoriteDropProbability="0.4" progressToComplete="350"
+               roomConfigurationId="ny16Stage3Config" gold="350">
+        </stage>
+        <stage stageId="4" startDate="1452675600" meteoriteDropProbability="0.4" progressToComplete="500"
+               roomConfigurationId="ny16Stage4Config" gold="500">
+        </stage>
+        <stage stageId="5" startDate="1453280400">
+        </stage>
+    </stages>
+
+    <exchange>
+        <exchangeGift id="1" itemId="ny16Gft1" meteorites="50" icon="CirclePresentNY2016S@newyear2016"
+                      label="#newYear16Gift1Label"/>
+        <exchangeGift id="2" itemId="ny16Gft2" meteorites="100" icon="CirclePresentNY2016M@newyear2016"
+                      label="#newYear16Gift2Label"/>
+        <exchangeGift id="3" itemId="ny16Gft3" meteorites="200" icon="CirclePresentNY2016L@newyear2016"
+                      label="#newYear16Gift3Label"/>
+    </exchange>
+
+    <rooms>
+        <room id="ny16Stage0Config" label="#ny16RoomName">
+            <item id="1" typeId="ny2016wll" direction="3"/>
+            <item id="2" typeId="ny2016wll" direction="5" x="13"/>
+            <item id="3" typeId="ny2016Sflr"/>
+            <item id="4" typeId="ny2016Sdr" direction="5" x="13" y="10.5" z="0" targetRoomId="livingroom"/>
+            <item id="5" typeId="ny2016Sgnr" x="4.5" y="4.5" z="0" direction="5"/>
+            <item id="6" typeId="ny2016Svntl" x="1" y="0" z="0.5" direction="5"/>
+
+            <item id="7" typeId="ny2016Schr" x="5" y="11" z="0" direction="5"/>
+            <item id="8" typeId="ny2016Schr" x="1" y="7" z="0" direction="3"/>
+            <item id="9" typeId="ny2016Stbl" x="1" y="9" z="0" direction="5"/>
+
+            <item id="10" typeId="ny2016Swdw" direction="5" x="13" y="0" z="0"/>
+        </room>
+        <room id="ny16Stage1Config" label="#ny16RoomName">
+            <item id="4" typeId="ny2016Ddr" replaceItemTypeId="ny2016Sdr"/>
+            <item id="6" typeId="ny2016Dvntl" replaceItemTypeId="ny2016Svntl"/>
+        </room>
+        <room id="ny16Stage2Config" label="#ny16RoomName">
+            <item id="3" typeId="ny2016Dflr" replaceItemTypeId="ny2016Sflr"/>
+            <item id="5" typeId="ny2016Dgnr" replaceItemTypeId="ny2016Sgnr"/>
+
+            <item id="7" typeId="ny2016Dchr" replaceItemTypeId="ny2016Schr"/>
+            <item id="8" typeId="ny2016Dchr" replaceItemTypeId="ny2016Schr"/>
+            <item id="9" typeId="ny2016Dtbl" replaceItemTypeId="ny2016Stbl"/>
+
+            <item id="10" typeId="ny2016Dwdw" direction="5" x="13" y="0" z="0" replaceItemTypeId="ny2016Swdw" replaceModel="true"/>
+        </room>
+        <room id="ny16Stage3Config" label="#ny16RoomName">
+            <item id="3" typeId="ny2016Lflr" replaceItemTypeId="ny2016Dflr"/>
+            <item id="4" typeId="ny2016Ldr" replaceItemTypeId="ny2016Ddr"/>
+            <item id="5" typeId="ny2016Lgnr" replaceItemTypeId="ny2016Dgnr"/>
+            <item id="6" typeId="ny2016Lvntl" replaceItemTypeId="ny2016Dvntl"/>
+
+            <item id="7" typeId="ny2016Lchr" replaceItemTypeId="ny2016Dchr"/>
+            <item id="8" typeId="ny2016Lchr" replaceItemTypeId="ny2016Dchr"/>
+            <item id="9" typeId="ny2016Ltbl" replaceItemTypeId="ny2016Dtbl"/>
+        </room>
+        <room id="ny16Stage4Config" label="#ny16RoomName">
+            <item id="10" typeId="ny2016Lwdw" direction="5" x="13" y="0" z="0" replaceItemTypeId="ny2016Dwdw" replaceModel="true"/>
+        </room>
+    </rooms>
+
+</module>

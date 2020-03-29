@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module active="true" id="steampunk2014">
+
+    <inventory>
+        <category id="craftLoot">
+            <item id="gear" name="GearLoot@steampunk2014" icon="GearIcon@steampunk2014" label="#gearLootLabel"
+                  description="#gearLootDescription" probability="0.4" gold="0" silver="0" canTrade="0" canSale="0"/>
+            <item id="fuel" name="FuelLoot@steampunk2014" icon="FuelIcon@steampunk2014" label="#fuelLootLabel"
+                  description="#fuelLootDescription" probability="0.4" gold="4" silver="0" canTrade="0" canSale="0"/>
+        </category>
+    </inventory>
+
+    <awards>
+        <award id="1" gears="500" itemType="clothes" itemId="gSP14Gun" gold="75" gender="2" description="#gunDescription"
+               icon="CircleGun@steampunk2014" requestIcon="GunReq@steampunk2014" receiveIcon="GunRec@steampunk2014"/>
+        <award id="2" gears="500" itemType="clothes" itemId="bSP14Gun" gold="75" gender="1" description="#gunDescription"
+               icon="CircleGun@steampunk2014" requestIcon="GunReq@steampunk2014" receiveIcon="GunRec@steampunk2014"/>
+
+        <award id="3" gears="2000" itemType="furniture" itemId="spRobot" gold="285"
+               icon="CircleRobot@steampunk2014" requestIcon="RobotReq@steampunk2014" receiveIcon="RobotRec@steampunk2014"
+               description="#robotDescription"/>
+
+        <award id="4" gears="5000" itemType="clothesSet" itemId="sp14gs" gold="700" gender="2" description="#clothGDescription"
+               icon="CircleClothG@steampunk2014" requestIcon="ClothGReq@steampunk2014" receiveIcon="ClothGRec@steampunk2014"/>
+        <award id="5" gears="5000" itemType="clothesSet" itemId="sp14bs" gold="700" gender="1" description="#clothBDescription"
+               icon="CircleClothB@steampunk2014" requestIcon="ClothBReq@steampunk2014" receiveIcon="ClothBRec@steampunk2014"/>
+
+        <award id="6" gears="9500" itemType="furniture" itemId="spUnlimGenerator" gold="1350"
+               icon="CircleGenerator@steampunk2014" requestIcon="GeneratorReq@steampunk2014" receiveIcon="GeneratorRec@steampunk2014"
+               description="#generatorDescription"/>
+    </awards>
+
+    <aFuel period="14400" startCount="5" buy="10" timeForFuel="1200" fuelMaxCount="60">
+        <fuel friends="1" count="5"/>
+        <fuel friends="2" count="10"/>
+        <fuel friends="10" count="40"/>
+        <fuel friends="25" count="100"/>
+        <fuel friends="50" count="175"/>
+        <fuel friends="100" count="300"/>
+    </aFuel>
+
+</module>

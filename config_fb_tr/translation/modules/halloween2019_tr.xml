@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+        <message key="hw19CandyExchangeDialogTitle">Korku Mağazası</message>
+        <message key="hw19ClothesCategory">Kıyafetler</message>
+        <message key="hw19BuyItem">Satın aldıkların:</message>
+    </locale>
+</dictionary>

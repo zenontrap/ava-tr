@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<dictionary>
+    
+    <locale name="tr">
+        
+        <message key="rootFurnitureCategory">Mobilya</message>
+		<message key="avatarClothesCategory">Kıyafetler</message>
+		<message key="rootGameCategory">Oyunlar</message>
+		<message key="activeCategory">Eşyalar</message>
+		
+		<!-- Clothing categories -->
+		
+		<message key="avatarCollectionsCategoryLabel">Özellikli</message>
+        <message key="vipClothesLabel">VIP</message>
+        <message key="newClothesLabel">Yeni</message>
+        <message key="saleCollection1Label">İndirim</message>
+		<message key="avatarSuitsCategoryLabel">Koleksiyonlar</message>
+        <message key="costumesCollections">Kostümler</message>
+        <message key="costumesLabel">Kostümler</message>
+        <message key="designerCollections">Tasarımcı</message>
+		<message key="clothesCategoryTops">Üstler</message>
+        <message key="clothesCategoryShirts">Gömlekler</message>
+        <message key="clothesCategoryJackets">Ceketler</message>
+		<message key="clothesCategoryBottoms">Altlar</message>
+        <message key="clothesCategoryPants">Pantolonlar</message>
+        <message key="clothesCategoryShorts">Şortlar</message>
+        <message key="clothesCategorySkirts">Etekler</message>
+        <message key="clothesCategoryStockings">Çoraplar</message>
+		<message key="clothesCategoryDresses">Elbiseler</message>
+		<message key="clothesCategorySleepwear">Uyku kıyafetleri</message>
+		<message key="sleepwearLabel">Uyku kıyafetleri</message>
+        <message key="clothesCategoryNightgowns">Gecelikler</message>
+        <message key="clothesCategoryPajamas">Pijama</message>
+		<message key="clothesCategoryShoes">Ayakkabılar</message>
+		<message key="clothesCategoryAcs">Aksesuarlar</message>
+        <message key="clothesCategoryGlasses">Gözlükler</message>
+        <message key="clothesCategoryHats">Şapkalar</message>
+        <message key="clothesCategoryGloves">Eldiven</message>
+        <message key="clothesCategoryOther">Diğer</message>
+		<message key="clothesCategorySwimsuits">Mayolar</message>
+		<message key="clothesCategoryBoySwimsuits">Mayo</message>
+		<message key="clothesCategoryUndergarments">İç Çamaşırları</message>
+        <message key="clothesCategoryUndergarmentsBasics">Temeller</message>
+        <message key="clothesCategoryUndergarmentsLingerie">Kadın İç Çamaşırı</message>
+	    <message key="clothesCategorySuits">Tulumlar</message>
+		
+		<message key="livingRoomCategory">Oturma Odası</message>
+		<message key="bedroomCategory">Yatak Odası</message>
+		
+		<message key="chairCategory">Sandalyeler</message>
+		<message key="sofaCategory">Kanepeler</message>
+		<message key="armchairCategory">Koltuklar</message>
+		<message key="decorCategory">Dekor</message>
+		<message key="bedCategory">Yataklar</message>
+		<message key="bathroomCategory">Banyo</message>
+		<message key="bathCategory">Banyo/Duş</message>
+		<message key="jacuzziCategory">Jakuziler</message>
+		<message key="bathroomFurnitureCategory">Mobilya</message>
+		<message key="bathroomDecorCategory">Dekor</message>
+		<message key="bowlCategory">Lavabolar</message>
+		<message key="toiletCategory">Tuvaletler</message>
+		<message key="wallCategory">Duvarlar</message>
+		<message key="doorCategory">Kapılar</message>
+		<message key="floorCategory">Zeminler</message>
+		<message key="windowCategory">Pencereler</message>
+		<message key="tableCategory">Masalar</message>
+		<message key="awardTablesCategory">Kupa Sehpaları</message>
+		<message key="wardrobeCategory">Dolaplar</message>
+		<message key="comodoCategory">Kıyafet Dolapları</message>
+		<message key="interiorCategory">İç mekan</message>
+		<message key="furnitureCategory">Mobilya</message>
+		<message key="carpetCategory">Halılar</message>
+		<message key="pictureCategory">Tablolar</message>
+		<message key="vaseCategory">Vazolar, Çiçekler</message>
+		<message key="lampsCategory">Lambalar</message>
+		<message key="otherCategory">Diğer</message>
+		<message key="waterfallCategory">Şelaleler</message>
+		<message key="furnitureWallCategory">Kitaplıklar</message>
+		<message key="amusimentCategory">Eğlence</message>
+        <message key="horseAmusementCategory">Salıncaklar</message>
+        <message key="aquariumAmusiment">Akvaryumlar</message>
+        <message key="intFloorCategory">Dans Pisti</message>
+        <message key="snowballCategoryTitle">Kar Küresi</message>
+        <message key="carAmusiment">Araba</message>
+        <message key="bikeAmusiment">Motosikletler</message>
+		
+		<message key="refrigeratorsCategory">Buzdolapları</message>
+		<message key="kitchenCategory">Mutfak</message>
+		<message key="kitchenDecorCategory">Dekor</message>
+		<message key="kitchenUnitsCategoryLabel">Kabinler</message>
+		<message key="kitchenTablesCategoryLabel">Tablolar</message>
+		<message key="kitchenFurnitureCategory">Mobilya</message>
+		<message key="kitchenChairCategory">Sandalyeler</message>
+		
+		<message key="fireplaceCategory">Şömineler</message>
+		<message key="techCategory">Teknoloji</message>
+		<message key="tvApplianceCategory">Televizyon</message>
+		<message key="musicCenterApplianceCategory">Müzik seti</message>
+		<message key="acousticsCategory">Akustik</message>
+		<message key="miscApplianceCategory">Diğer</message>
+		<message key="computerApplianceCategory">Bilgisayarlar</message>
+		
+		<message key="modifierCategory">Değiştiriciler</message>
+		<message key="influenceCategory">İlham Veren</message>
+		<message key="artifactCategory">El Yapımı Eşyalar</message>
+		<message key="toolCategory">Aletler</message>
+		<message key="ringsCategory">Yüzükler</message>
+		<message key="giftsCategory">Hediyeler</message>
+		<message key="newYearFirToysCategoryLabel">Ağaç oyuncakları</message>
+		<message key="newYearFirGiftsCategoryLabel">Hediyeler</message>
+		<message key="newYearCategoryLabel">Noel</message>
+		<message key="jokeShopLabel">Mizah</message>
+		<message key="miscShopLabel">Diğer</message>
+		<message key="graffitiCategoryLabel">Grafiti</message>
+		
+		<message key="craftedActiveCategory">İçecekler</message>
+        <message key="giftsCategoryLabel">Hediyeler</message>
+        <message key="halloweenLabel">Cadılar Bayramı</message>
+
+        <!-- Garage collections -->
+        <message key="garageRetroCollection">Garaj retro</message>
+        <message key="garageTechnoCollection">Garaj tekno</message>
+
+        <message key="jntrRlwCtg">Demiryolu</message>
+        <message key="clothesCategoryBijouterie">Bijuteri</message>
+
+		<message key="seasonEventCategoryLabel">Altın Sonbahar</message>
+
+	</locale>
+	
+</dictionary>

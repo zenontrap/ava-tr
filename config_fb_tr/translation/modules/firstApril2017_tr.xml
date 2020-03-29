@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+        <message key="firstApril2017InfoDialogTitle">Arkadaşına bir numara yap!</message>
+        <message key="firstApril2017InfoDialogDescription">Eğlenme vakti geldi! Numaralar sana Gülümseme kazandırır, onları eşsiz kıyafetler ve hediyeler karşılığında takas edebilirsin. İşte Gülümseme kazanma yolu:</message>
+        <message key="firstApril2017InfoDialogBombPlacedTitle">Sahte Bomba</message>
+        <message key="firstApril2017InfoDialogBombPlacedDescription">Arkadaşların için boyalı bomba şakası hazırla.</message>
+        <message key="firstApril2017InfoDialogWormsTitle">Pis Su</message>
+        <message key="firstApril2017InfoDialogWormsDescription">Sıcak küvete solucan at.</message>
+        <message key="firstApril2017InfoDialogGraffitiTitle">Yetenekli Sanatçı</message>
+        <message key="firstApril2017InfoDialogGraffitiDescription">Duvara duvar resmi çiz.</message>
+        <message key="firstApril2017InfoDialogBombTriggeredTitle">Yakaladım!</message>
+        <message key="firstApril2017InfoDialogBombTriggeredDescription">Birisinin bombanla patlamasını izle.</message>
+        <message key="firstApril2017InfoDialogKnockTitle">Ye Bakalım!</message>
+        <message key="firstApril2017InfoDialogKnockDescription">Başka bir avatarı tekmele.</message>
+        <message key="firstApril2017InfoDialogBrokeTitle">Ciddi Değildim...</message>
+        <message key="firstApril2017InfoDialogBrokeDescription">Birisinin cihazını kır.</message>
+        <message key="firstApril2017InfoDialogThrowCakeTitle">Tatlı İntikam</message>
+        <message key="firstApril2017InfoDialogThrowCakeDescription">Başka bir avatara pasta fırlat.</message>
+        <message key="firstApril2017MainDialogTitle">1 Nisan Şakası!</message>
+        <message key="firstApril2017MainDialogDescription">Gülümsemelerini eşsiz kostümler ve eğlenceli hediyeler karşılığında takas edebilirsin</message>
+        <message key="firstApril2017MainDialogPurchaseSmilesButtonTitle">:count: karşılığı satın al</message>
+        <message key="firstApril2017AwardDialogDescription">Yaramazlık yapıldı! Geçirdiğin eğlenceli vakitler karşılığında hediyeni al.</message>
+        <message key="firstApril2017WallGetAwardMessage">1 Nisan’da harika bir hediye aldım. Sen de ister misin? Oyunda görüşmek üzere! :link:</message>
+    </locale>
+</dictionary>

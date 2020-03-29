@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dictionary>
+
+    <locale name="tr">
+	
+		<!-- YANDEX -->
+		
+        <message key="dontShowToday">bugün gösterme</message>
+        <message key="continue">devam et</message>
+        
+		<message key="mainOfferText">Bilginize karşılık VIP statüsü!</message>
+        <message key="mainOfferDescription">Beş görevi de tamamlayarak ücretsiz VIP statüsü kazanın! Yandex yardımcı olacak.</message>
+        
+		<message key="mainFirstOfferText">En iyi öğrenciler için VIP statüsü!</message>
+        <message key="mainFirstOfferDescription">Yedei görevden beşini tamamlayın ve hak ettiğiniz bir günlük VIP statüsünü alın. Uzatmak için, yeniden okula gidin. Aynı zamanda pek çok ilginç şey de öğrenebilirsiniz!</message>
+        
+		<message key="mainOfferAwardText">Başardınız!</message>
+        <message key="mainOfferAwardText2">!</message>
+        <message key="mainOfferAwardDescription">Görevleri başarıyla tamamladınız. Yandex size bir günlük VIP statüsü veriyor. Bir gün yeterli değil mi? Yarın okula giderek statünüzü onaylayın!</message>
+        
+		<message key="mainOfferEndVipText">Dersler sona erdi</message>
+        <message key="mainOfferEndVipDescription">Yandex okulundaki tüm görevleri tamamladınız. VIP statünüzün keyfini çıkartın ve yeni görevler için yarın geri gelin.</message>
+        
+		<message key="mainOfferContinueVipText">VIP statüsü bekliyor!</message>
+        <message key="mainOfferContinueVipDescription">Hala Yandex okulunda tamamlanmamış görevleriniz var. Beş görevi de tamamlayacak enerjiyi bulursanız, VIP statüsü bir günlüğüne sizin olacak!</message>
+       
+		<message key="mainOfferContinueNotVipText">Yarın daha iyisini yapacaksınız!</message>
+        <message key="mainOfferContinueNotVipDescription">Bugün görevlerinizde üç adet hata yaptınız. VIP statüsünü almak için yarın yine okula gelin!</message>
+        
+		<message key="yandexBarLabel">Yandex yardımını kullanın:</message>
+        <message key="yandexSearch">Arama</message>
+        
+		<message key="negativeAnswerTitle1">Bir hata yaptınız!</message>
+        <message key="negativeAnswerDescription1">Sorun değil, bir daha cevap vermeyi deneyin.</message>
+        <message key="yandexHelpMessage">Yandex, doğru cevabı bulmanızda yardımcı olacaktır.</message>
+        
+		<!-- AVATARIA SCHOOL -->
+		
+		<message key="schoolOtherQuestionButtonLabel">başka soru</message>
+       
+		<message key="schoolBuyQuestionConfirmTitle">Bir soru satın alın</message>
+        <message key="schoolBuyQuestionConfirmDescription">Bu sorunun cevabını :gold: karşılığında almak istediğinizden emin misiniz?</message>
+        
+		<message key="mainSchoolOfferAwardText">Başardınız!</message>
+        <message key="mainSchoolOfferAwardDescription">Görevleriniz başarıyla tamamlandı.</message>
+        
+		<message key="mainSchoolFirstOfferText">Notlarınız karşılığında ödüller!</message>
+        <message key="mainSchoolFirstOfferDescription">Puan kazanmak için okuldaki günlük görevleri tamamlayın. Daha fazla puan, daha değerli hediyeler demektir! Okula her gün uğrayın – bu arada oldukça ilginç bilgiler de edinebilirsiniz!</message>
+        
+		<message key="mainSchoolOfferContinueVipText">Hepsi bu kadar değil!</message>
+        <message key="mainSchoolOfferContinueVipDescription">Hala tamamlanmamış görevleriniz var. Hepsini tamamlayın ve bir bonus kazanın!</message>
+        
+		<message key="mainSchoolOfferContinueNotVipText">Yarın daha iyisini yapacaksınız!</message>
+        <message key="mainSchoolOfferContinueNotVipDescription">Bugün için tüm görevleri tamamladınız. Yarın yine okula gelin!</message>
+        
+		<message key="mainSchoolAllLevelsCompletedTitle">Başardınız!</message>
+        <message key="mainSchoolAllLevelsCompletedDescription">Ana ödülü almak için tüm görevleri tamamladınız. Yeniden başlayın. Ödüller farklı olacaktır.</message>
+        
+		<message key="schoolPointsButtonLabel">puanlarım</message>
+        <message key="schoolAwardDialogTitle">Ödül</message>
+        <message key="schoolWorkPrizesLabel">Ödüller:</message>
+        <message key="schoolWorkPrizesRequrementsLabel">:points: alın ve kazanın:</message>
+        <message key="schoolWorkNewLevelTitle">Tebrikler!</message>
+        <message key="schoolWorkNewLevelMessage">Bir ödül almak için yeterli puanı kazandınız!</message>
+        
+		<message key="schoolAnswerForGold">:gold: için cevap</message>
+       
+		<message key="schoolBonusDescription">Sadece Eylül ayi boyunca, her fiyata ücretsiz altin sahibi ol!</message>
+		<!-- COMMON -->
+
+		<message key="selectCategoryText">Soru kategorisini seçin</message>
+		<plural key="questionsText">
+            <form>soru</form>
+            <form>soru</form>
+            <form>soru</form>
+        </plural>
+        <message key="answerButton">cevap</message>
+        <message key="otherQuestionButton">:name: üzerindeki başka bir soru</message>
+        <message key="otherCategoryButton">diğer kategori</message>
+        <message key="yandexHelpButton">yardımcı olacak.</message>
+        <message key="questionLabel">Soru.</message>
+        <message key="answerLabel">Cevap:</message>
+        <message key="positiveAnswerTitle">Tebrikler!</message>
+        <message key="positiveAnswerDescription">Görevi başarıyla tamamladınız.</message>
+        <message key="positiveAnswerSchoolDescription">Görevi tamamladınız ve + :points: aldınız</message>
+        <message key="positiveAnswerAction">devam et</message>
+        <message key="negativeAnswerAction1">tekrar deneyin</message>
+        <message key="negativeAnswerTitle2">Başka bir hata!</message>
+        <message key="negativeAnswerAction2">başka bir soru seçin</message>
+        <message key="negativeAnswerDescription2">Üzülmeyin. Başka bir görevi tamamlamayı deneyin – kesinlikle başaracaksınız!</message>
+        <message key="answersCountTitle">Cevaplarınız</message>
+        <message key="answersPositiveCountTitle">doğru</message>
+        <message key="answersNegativeCountTitle">hata</message>
+        <message key="answersLeftCountTitle">kalan</message>
+        
+		<!-- ERROR_MESSAGES -->
+		<message key="schoolAlreadyHaveVipTodayErrorMessage">Bugün VIP statüsü aldınız</message>
+        <message key="schoolHaveTwoStrikesErrorMessage">Bugün üç adet hata yaptınız. VIP statünüzü almak için yarın tekrar gelin!</message>
+        
+		<message key="schoolDaiLyQuestionsLimitExeededErrorMessage">Bugün için maksimum sayıda soruya cevap verdiniz</message>
+        <message key="schoolNoMoreCategoryQuestionsErrorMessage">Bu kategoride başka soru mevcut değil</message>
+        <message key="schoolNoMoreCategoryDailyQuestionsErrorMessage">Bu kategoride bugün için başka soru mevcut değil :category: kategorisinde hala sorular bulunuyor</message>
+        <message key="schoolNoSuchCategoryErrorMessage">Seçtiğiniz kategori mevcut değil</message>
+        <message key="schoolNoSuchQuestionErrorMessage">Seçtiğiniz soru mevcut değil</message>
+        <message key="schoolQuestionAlreadyAnsweredErrorMessage">Bu soruyu zaten yanıtladınız</message>
+        <message key="schoolQuestionWrongAnsweredErrorMessage">Bu soruyu hatalı olarak cevapladınız</message>
+
+    </locale>
+	
+</dictionary>

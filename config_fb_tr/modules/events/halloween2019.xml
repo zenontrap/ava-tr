@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module id="halloween2018">
+    <memories winCandiesDrop="5" looseCandiesDrop="2" drawCandiesDrop="3" gamePumpkinPrice="7" doubleAwardGoldPrice="2"/>
+
+    <stages>
+        <stage stageId="1"/>
+    </stages>
+
+    <awards>
+        <award id="1" itemType="furniture" itemId="hlwn18Wnd" stageId="1"
+            points="99"
+            icon="WindowMoonViewIcon@halloween2018"
+            receiveIcon="WallNose@firstApril2018"
+            previewImage="FurnitureWindowBigIcon@halloween2018"
+            label="#hw18WindowMoonViewHint"/>
+        <award id="2" itemType="clothesSet" itemId="boyHlwnSawSet" gender="1" stageId="1"
+            points="190"
+            icon="BoyCostumeHalloweenSawIcon@halloween2018"
+            receiveIcon="WallNose@firstApril2018"
+            previewImage="BoyCostumeSawBigIcon@halloween2018"
+            label="#hw18BoyCostumeHalloweenSawHint"/>
+        <award id="3" itemType="clothesSet" itemId="girHlwnSawSet" gender="2" stageId="1"
+            points="190"
+            icon="GirlCostumeHalloweenSawIcon@halloween2018"
+            receiveIcon="WallNose@firstApril2018"
+            previewImage="GirlCostumeSawBigIcon@halloween2018"
+            label="#hw18GirlCostumeHalloweenSawHint"/>
+        <award id="4" itemType="game" itemId="batChatBubbleDecor" stageId="1"
+            points="150"
+            icon="BatChatBubbleDecorIcon@halloween2018"
+            receiveIcon="WallNose@firstApril2018"
+            previewImage="BatChatDecorBigIcon@halloween2018"
+            label="#hw18BatChatDecorHint"/>
+
+        <award id="5" itemType="furniture" itemId="evilFlower" stageId="1"
+            points="99"
+            icon="EvilFlowerIcon@halloween2018"
+            receiveIcon="WallNose@firstApril2018"
+            previewImage="FurnitureFlowerBigIcon@halloween2018"
+            label="#hw18EvilFlowerHint"/>
+        <award id="6" itemType="clothesSet" itemId="boyHlwnPyrmdSet" gender="1" stageId="1"
+            points="350"
+            icon="BoyCostumePyramidHeadIcon@halloween2018"
+            receiveIcon="WallNose@firstApril2018"
+            previewImage="BoyCostumePyramidBigIcon@halloween2018"
+            label="#hw18BoyCostumeHalloweenPyramidHint"/>
+        <award id="7" itemType="clothesSet" itemId="girHlwnCllSet" gender="2" stageId="1"
+            points="350"
+            icon="GirlCostumeHalloweenCallIcon@halloween2018"
+            receiveIcon="WallNose@firstApril2018"
+            previewImage="GirlCostumeCallBigIcon@halloween2018"
+            label="#hw18GirlCostumeHalloweenCallHint"/>
+        <award id="8" itemType="game" itemId="ghostMobileAccessory" stageId="1"
+            points="90"
+            icon="GhostMobileAccessoryIcon@halloween2018"
+            receiveIcon="WallNose@firstApril2018"
+            previewImage="GhostMobileDecorBigIcon@halloween2018"
+            label="#hw18GhostMobileDecorHint"/>
+
+        <award id="9" itemType="furniture" itemId="infernalRabbit" stageId="1"
+            points="90"
+            icon="InfernalRabbitIcon@halloween2018"
+            receiveIcon="WallNose@firstApril2018"
+            previewImage="FurnitureRabbitBigIcon@halloween2018"
+            label="#hw18InfernalRabbitHint"/>
+        <award id="10" itemType="clothesSet" itemId="boyHlwnPnnySet" gender="1" stageId="1"
+            points="666"
+            icon="BoyCostumeHalloweenPennyIcon@halloween2018"
+            receiveIcon="WallNose@firstApril2018"
+            previewImage="BoyCostumePennyBigIcon@halloween2018"
+            label="#hw18BoyCostumeHalloweenPennyHint"/>
+        <award id="11" itemType="clothesSet" itemId="girHlwnPnnySet" gender="2" stageId="1"
+            points="666"
+            icon="GirlCostumeHalloweenPennyIcon@halloween2018"
+            receiveIcon="WallNose@firstApril2018"
+            previewImage="GirlCostumePennyBigIcon@halloween2018"
+            label="#hw18GirlCostumeHalloweenPennyHint"/>
+        <award id="12" itemType="sticker" itemId="jackStickerPack" stageId="1"
+            points="300"
+            icon="JackStickerPackIcon@halloween2018"
+            receiveIcon="WallNose@firstApril2018"
+            previewImage="JackStickerPackBigIcon@halloween2018"
+            label="#hw18JackStickerPackHint"/>
+
+        <award id="13" itemType="furniture" itemId="fireplaceWitchHlwn2018" stageId="1"
+            points="150"
+            icon="WitchFirePlaceIcon@halloween2018"
+            receiveIcon="WallNose@firstApril2018"
+            previewImage="FurnitureWitchFireplaceBigIcon@halloween2018"
+            label="#hw18WitchFireplaceHint"/>
+        <award id="14" itemType="clothesSet" itemId="boyJackOvrlSet" gender="1" stageId="1"
+            points="350"
+            icon="BoyCostumeHalloween2018JackIcon@halloween2018"
+            receiveIcon="WallNose@firstApril2018"
+            previewImage="BoyCostumeJackBigIcon@halloween2018"
+            label="#hw18BoyCostumeHalloweenJackHint"/>
+        <award id="15" itemType="clothesSet" itemId="girlJillOvrlSet" gender="2" stageId="1"
+            points="350"
+            icon="GirlCostumeHalloween2018JillIcon@halloween2018"
+            receiveIcon="WallNose@firstApril2018"
+            previewImage="GirlCostumeJillBigIcon@halloween2018"
+            label="#hw18GirlCostumeHalloweenJillHint"/>
+        <award id="16" itemType="trophy" itemId="halloween2018" stageId="1"
+            points="1666"
+            count="1571864400"
+            icon="Halloween2018TitleIcon@halloween2018"
+            receiveIcon="WallNose@firstApril2018"
+            previewImage="Halloween2018TitleBigIcon@halloween2018"
+            label="#hw18TrophyHint"/>
+    </awards>
+
+    <packs>
+        <pack id="candyPack50" candyCount="50" gold="50" bonus="10"/>
+        <pack id="candyPack100" candyCount="100" gold="100" bonus="25"/>
+        <pack id="candyPack300" candyCount="300" gold="300" bonus="100"/>
+    </packs>
+
+    <exchange>
+        <exchangeAward awardId="1" itemId="hw17Gft1" points="300" icon="AwardIcon1@halloween2018"
+            previewImage="AwardBigIcon1@halloween2018" label="#halloweenGift1Label"  itemType="game"/>
+        <exchangeAward awardId="2" itemId="hw17Gft2" points="1000" icon="AwardIcon2@halloween2018"
+            previewImage="AwardBigIcon2@halloween2018" label="#halloweenGift2Label"  itemType="game"/>
+        <exchangeAward awardId="3" itemId="hw17Gft3" points="3000" icon="AwardIcon3@halloween2018"
+            previewImage="AwardBigIcon3@halloween2018" label="#halloweenGift3Label"  itemType="game"/>
+    </exchange>
+
+    <inventory>
+        <category id="craftLoot">
+            <item id="hw18Pumpkin" name="Pumpkin@halloween2018" gold="8"/>
+            <item id="hw18Candy" name="Candy@halloween2018" gold="100"/>
+        </category>
+    </inventory>
+
+    <messages>
+        <message stageId="0" messageKey="hw18NpcMessage1"/>
+        <message stageId="0" messageKey="hw18NpcMessage2"/>
+
+        <message stageId="1" messageKey="hw18NpcMessage3"/>
+        <message stageId="1" messageKey="hw18NpcMessage4"/>
+        <message stageId="1" messageKey="hw18NpcMessage5"/>
+        <message stageId="1" messageKey="hw18NpcMessage6"/>
+        <message stageId="1" messageKey="hw18NpcMessage7"/>
+
+        <message stageId="1" messageKey="hw18NpcMessage4"/>
+        <message stageId="1" messageKey="hw18NpcMessage7"/>
+        <message stageId="1" messageKey="hw18NpcMessage8"/>
+        <message stageId="1" messageKey="hw18NpcMessage9"/>
+        <message stageId="1" messageKey="hw18NpcMessage10"/>
+
+        <message stageId="1" messageKey="hw18NpcMessage4"/>
+        <message stageId="1" messageKey="hw18NpcMessage9"/>
+        <message stageId="1" messageKey="hw18NpcMessage11"/>
+        <message stageId="1" messageKey="hw18NpcMessage12"/>
+        <message stageId="1" messageKey="hw18NpcMessage13"/>
+
+        <message stageId="1" messageKey="hw18NpcMessage4"/>
+        <message stageId="1" messageKey="hw18NpcMessage11"/>
+        <message stageId="1" messageKey="hw18NpcMessage15"/>
+        <message stageId="1" messageKey="hw18NpcMessage16"/>
+        <message stageId="1" messageKey="hw18NpcMessage17"/>
+    </messages>
+
+    <locationSound>
+        <sound id="hwSound1" library="halloween2018"/>
+        <sound id="hwSound2" library="halloween2018"/>
+        <sound id="hwSound3" library="halloween2018"/>
+        <sound id="hwSound4" library="halloween2018"/>
+        <sound id="hwSound5" library="halloween2018"/>
+    </locationSound>
+
+    <locations>
+        <location id="park" zoneId="street" loadingContent="parkHlwn,landscape" defaultRoomId="p1">
+            <rooms>
+                <room id="p1" map="modules/map/halloween2018_park_map" userCount="15" criticalUserCount="30" backgroundSound="hwSound1,hwSound2,hwSound3,hwSound4,hwSound5"
+                    dresscode="outside"/>
+                <room id="p1e" map="modules/map/halloween2018_park_map" userCount="30" criticalUserCount="45"
+                    backgroundSound="hwSound1,hwSound2,hwSound3,hwSound4,hwSound5"
+                    dresscode="outside"/>
+            </rooms>
+        </location>
+    </locations>
+
+    <animations>
+        <animation name="HW18NpcAnimationStand">
+            <sequence name="stand" start="1" length="1" loop="true"/>
+        </animation>
+        <animation name="HW18NpcAnimationHead">
+            <sequence name="stand" start="1" length="69" loop="false"/>
+        </animation>
+        <animation name="HW18NpcAnimationLaugh">
+            <sequence name="damage" start="1" length="55" loop="false"/>
+        </animation>
+        <animation name="HW18NpcAnimationLaughDrop">
+            <sequence name="damage" start="1" length="265" loop="false"/>
+        </animation>
+    </animations>
+
+    <shop>
+        <category id="hlwn19" typeClass="hw19Item">
+            <category id="hlwn19Clothes" label="#hw19ClothesCategory" type="clothes">
+                <category id="hlwn19ClothesItems" label="#photoSalonItemsPanelTitle" type="clothes">
+                    <!--GIRL-->
+                    <item id="hw19grlMskVmp16" itemId="grlMskVmp16" candy="100"/>
+                    <item id="hw19grlBtsDvl16" itemId="grlBtsDvl16" candy="50"/>
+                    <item id="hw19grlTalDvl16" itemId="grlTalDvl16" candy="70"/>
+                    <item id="hw19grlMskWtc16" itemId="grlMskWtc16" candy="115"/>
+                    <!--BOY-->
+                    <item id="hw19boyHrnDvl16" itemId="boyHrnDvl16" candy="100"/>
+                    <item id="hw19boyBtsDvl16" itemId="boyBtsDvl16" candy="50"/>
+                    <item id="hw19boyTalDvl16" itemId="boyTalDvl16" candy="70"/>
+                    <item id="hw19boyMskHlb16" itemId="boyMskHlb16" candy="115"/>
+                </category>
+                <category id="hlwn19ClothesSets" label="#costumesLabel" type="clothesSet">
+                    <!--BOY-->
+                    <item id="hw19boyAlexSet" itemId="boyAlexSet" candy="425" isNew="1"/>
+                    <item id="hw19boyHttrSet" itemId="boyHttrSet" candy="390" isNew="1"/>
+                    <item id="hw19boyDmnSet" itemId="boyDmnSet" candy="620" isNew="1"/>
+                    <item id="hw19boyDmnHntSet" itemId="boyDmnHntSet" candy="475" isNew="1"/>
+                    <item id="hw19boyHlwnVmpSet" itemId="boyHlwnVmpSet" candy="490"/>
+                    <item id="hw19boyJackOvrlSet" itemId="boyJackOvrlSet" candy="350"/>
+                    <item id="hw19boyHlwnSawSet" itemId="boyHlwnSawSet" candy="190"/>
+                    <item id="hw19boyHlwnPyrmdSet" itemId="boyHlwnPyrmdSet" candy="350"/>
+                    <item id="hw19boyHlwnPnnySet" itemId="boyHlwnPnnySet" candy="666"/>
+                    <item id="hw19hlwnBSt1" itemId="hlwnBSt1" candy="280"/>
+                    <item id="hw19hlwnBSt2" itemId="hlwnBSt2" candy="140"/>
+                    <item id="hw19hlwnBSt3" itemId="hlwnBSt3" candy="350"/>
+                    <item id="hw19hlwnBSt4" itemId="hlwnBSt4" candy="420"/>
+                    <item id="hw19hlwnBSt5" itemId="hlwnBSt5" candy="280"/>
+                    <item id="hw19hlwnBSt6" itemId="hlwnBSt6" candy="350"/>
+                    <item id="hw19hlwnBSt7" itemId="hlwnBSt7" candy="140"/>
+                    <item id="hw19hlwnBSt8" itemId="hlwnBSt8" candy="350"/>
+                    <item id="hw19hlwnBSt9" itemId="hlwnBSt9" candy="350"/>
+                    <item id="hw19hlwnBSt10" itemId="hlwnBSt10" candy="490"/>
+                    <item id="hw19hlwnBSt11" itemId="hlwnBSt11" candy="420"/>
+                    <!--GIRL-->
+                    <item id="hw19girlAliceSet" itemId="girlAliceSet" candy="425" isNew="1"/>
+                    <item id="hw19girlHatterSet" itemId="girlHatterSet" candy="390" isNew="1"/>
+                    <item id="hw19girlDemonSet" itemId="girlDemonSet" candy="620" isNew="1"/>
+                    <item id="hw19girlDemonHunterSet" itemId="girlDemonHunterSet" candy="475" isNew="1"/>
+                    <item id="hw19hlwnGSt1" itemId="hlwnGSt1" candy="210"/>
+                    <item id="hw19hlwnGSt2" itemId="hlwnGSt2" candy="490"/>
+                    <item id="hw19hlwnGSt3" itemId="hlwnGSt3" candy="350"/>
+                    <item id="hw19hlwnGSt4" itemId="hlwnGSt4" candy="490"/>
+                    <item id="hw19hlwnGSt5" itemId="hlwnGSt5" candy="140"/>
+                    <item id="hw19hlwnGSt6" itemId="hlwnGSt6" candy="420"/>
+                    <item id="hw19hlwnGSt7" itemId="hlwnGSt7" candy="350"/>
+                    <item id="hw19hlwnGSt8" itemId="hlwnGSt8" candy="210"/>
+                    <item id="hw19hlwnGSt9" itemId="hlwnGSt9" candy="420"/>
+                    <item id="hw19hlwnGSt10" itemId="hlwnGSt10" candy="210"/>
+                    <item id="hw19hlwnGSt11" itemId="hlwnGSt11" candy="490"/>
+                    <item id="hw19girlHlwnVmpSet" itemId="girlHlwnVmpSet" candy="420"/>
+                    <item id="hw19girlJillOvrlSet" itemId="girlJillOvrlSet" candy="350"/>
+                    <item id="hw19girHlwnSawSet" itemId="girHlwnSawSet" candy="190"/>
+                    <item id="hw19girHlwnCllSet" itemId="girHlwnCllSet" candy="350"/>
+                    <item id="hw19girHlwnPnnySet" itemId="girHlwnPnnySet" candy="666"/>
+                </category>
+            </category>
+            <category id="hlwn19Furniture" label="#furnitureShopTitle" type="furniture">
+                <category id="hw19blackRose" label="#halloween15RoomLabel">
+                    <item id="hw19wllBlkRs" itemId="wllBlkRs" candy="115" />
+                    <item id="hw19drBlkRs" itemId="drBlkRs" candy="195" />
+                    <item id="hw19flrBlkRs" itemId="flrBlkRs" candy="230" />
+                    <item id="hw19bdBlkRs" itemId="bdBlkRs" candy="215" />
+                    <item id="hw19armchrBlkRs" itemId="armchrBlkRs" candy="143" />
+                    <item id="hw19pctBlkRs1" itemId="pctBlkRs1" candy="80" />
+                    <item id="hw19pctBlkRs2" itemId="pctBlkRs2" candy="50" />
+                    <item id="hw19pctBlkRs3" itemId="pctBlkRs3" candy="50" />
+                    <item id="hw19pctBlkRs4" itemId="pctBlkRs4" candy="50" />
+                    <item id="hw19wdwBlkRs" itemId="wdwBlkRs" candy="265" />
+                    <item id="hw19bookBlkRs" itemId="bookBlkRs" candy="80" />
+                    <item id="hw19tblBlkRs" itemId="tblBlkRs" candy="243" />
+                    <item id="hw19musCentBlkRs" itemId="musCentBlkRs" candy="150" />
+                    <item id="hw19sfBlkRs" itemId="sfBlkRs" candy="175" />
+                </category>
+                <category id="hw19hlwn14" label="#halloweenCollection1Label">
+                    <item id="hw19hlwnKitchenDecor1" itemId="hlwnKitchenDecor1" candy="10" />
+                    <item id="hw19hlwnTable1" itemId="hlwnTable1" candy="30" />
+                    <item id="hw19hlwnChair1" itemId="hlwnChair1" candy="10" />
+                    <item id="hw19hlwnChair2" itemId="hlwnChair2" candy="10" />
+                    <item id="hw19hlwnChair3" itemId="hlwnChair3" candy="20" />
+                    <item id="hw19hlwnChair4" itemId="hlwnChair4" candy="20" />
+                    <item id="hw19sofaHlwn1" itemId="sofaHlwn1" candy="30" />
+                    <item id="hw19sofaHlwn2" itemId="sofaHlwn2" candy="30" />
+                    <item id="hw19sofaHlwn3" itemId="sofaHlwn3" candy="65" />
+                    <item id="hw19caseHlwn1" itemId="caseHlwn1" candy="50" />
+                    <item id="hw19caseHlwn2" itemId="caseHlwn2" candy="50" />
+                    <item id="hw19treeHlwn" itemId="treeHlwn" candy="50" />
+                    <item id="hw19pumpkinSmall" itemId="pumpkinSmall" candy="10" />
+                    <item id="hw19broomHlwn" itemId="broomHlwn" candy="10" />
+                    <item id="hw19batHlwn" itemId="batHlwn" candy="10" />
+                    <item id="hw19batHlwnRed" itemId="batHlwnRed" candy="10" />
+                    <item id="hw19webHlwn" itemId="webHlwn" candy="10" />
+                    <item id="hw19wreathBlack" itemId="wreathBlack" candy="10" />
+                    <item id="hw19candleCobweb" itemId="candleCobweb" candy="30" />
+                    <item id="hw19candleWallHlwn" itemId="candleWallHlwn" candy="20" />
+                    <item id="hw19ghostBlack" itemId="ghostBlack" candy="20" />
+                    <item id="hw19pumpkinBlack" itemId="pumpkinBlack" candy="20" />
+                    <item id="hw19pumpkinHlwn" itemId="pumpkinHlwn" candy="20" />
+                    <item id="hw19pumpkinSilver" itemId="pumpkinSilver" candy="10" />
+                    <item id="hw19scullCandle" itemId="scullCandle" candy="10" />
+                    <item id="hw19carpetGhost" itemId="carpetGhost" candy="20" />
+                    <item id="hw19wall24" itemId="wall24" candy="30" />
+                    <item id="hw19wall25" itemId="wall25" candy="20" />
+                    <item id="hw19door8" itemId="door8" candy="10" />
+                    <item id="hw19door9" itemId="door9" candy="60" />
+                    <item id="hw19floor24" itemId="floor24" candy="20" />
+                    <item id="hw19floor25" itemId="floor25" candy="20" />
+                    <item id="hw19hlwnMrrw" itemId="hlwnMrrw" candy="185" />
+                    <item id="hw19hlwnBlrmCndl" itemId="hlwnBlrmCndl" candy="40" />
+                    <item id="hw19hlwnBlrmVs" itemId="hlwnBlrmVs" candy="70" />
+                    <item id="hw19hlwnBlrmPn" itemId="hlwnBlrmPn" candy="150" />
+                    <item id="hw19hlwnBlrmLmp" itemId="hlwnBlrmLmp" candy="55" />
+                    <item id="hw19hlwnBlrmSf" itemId="hlwnBlrmSf" candy="150" />
+                    <item id="hw19hlwnBlrmChr" itemId="hlwnBlrmChr" candy="65" />
+                </category>
+                <category id="hw19hlwn18" label="#halloweenCollection1Label 2018">
+                    <item id="hw19hlwn18Wnd" itemId="hlwn18Wnd" candy="50" />
+                    <item id="hw19evilFlower" itemId="evilFlower" candy="99" />
+                    <item id="hw19infernalRabbit" itemId="infernalRabbit" candy="90" />
+                    <item id="hw19fireplaceWitchHlwn2018" itemId="fireplaceWitchHlwn2018" candy="150" />
+                </category>
+                <category id="hw19orcl" label="#orclCollectionLabel">
+                    <item id="hw19hw2019Chr" itemId="hw2019Chr" candy="25" isNew="1" />
+                    <item id="hw19grlndHW2019" itemId="grlndHW2019" candy="35" isNew="1" />
+                    <item id="hw19hw2019Dr" itemId="hw2019Dr" candy="40" isNew="1" />
+                    <item id="hw19hw2019Sf" itemId="hw2019Sf" candy="30" isNew="1" />
+                    <item id="hw19pntngHW2019" itemId="pntngHW2019" candy="45" isNew="1" />
+                    <item id="hw19hw2019Wll" itemId="hw2019Wll" candy="35" isNew="1" />
+                    <item id="hw19hw2019Wnd" itemId="hw2019Wnd" candy="40" isNew="1" />
+                    <item id="hw19hw2019Flr" itemId="hw2019Flr" candy="20" isNew="1" />
+                    <item id="hw19sphrHW2019" itemId="sphrHW2019" candy="45" isNew="1" />
+                    <item id="hw19wrdrbHW2019" itemId="wrdrbHW2019" candy="30" isNew="1" />
+                    <item id="hw19tblHW2019" itemId="tblHW2019" candy="45" isNew="1" />
+                </category>
+                <category id="hw19drgcv" label="#drgCvCollectionLabel">
+                    <item id="hw19drgn2019Dr" itemId="drgn2019Dr" candy="45" isNew="1"/>
+                    <item id="hw19drgnSkull2019" itemId="drgnSkull2019" candy="35" isNew="1" />
+                    <item id="hw19drgn2019Wll" itemId="drgn2019Wll" candy="35" isNew="1" />
+                    <item id="hw19drgn2019Flr" itemId="drgn2019Flr" candy="120" isNew="1" />
+                    <item id="hw19drgnChst2019" itemId="drgnChst2019" candy="55" isNew="1" />
+                    <item id="hw19drgnThrn2019" itemId="drgnThrn2019" candy="50" isNew="1" />
+                    <item id="hw19drgnFrplc2019" itemId="drgnFrplc2019" candy="25" isNew="1" />
+                    <item id="hw19drgnFntn2019" itemId="drgnFntn2019" candy="80" isNew="1" />
+                </category>
+            </category>
+            <category id="hlwn19Other" label="#miscCategory">
+                <item id="hw19batChatBubbleDecor" itemId="batChatBubbleDecor" candy="500" type="chatDecor" />
+                <item id="hw19ghostMobileAccessory" itemId="ghostMobileAccessory" candy="200" type="mobileDecor" />
+                <item id="hw19jackStickerPack" itemId="jackStickerPack" candy="400" type="stickerPack" />
+                <item id="hw19halloween2018" itemId="halloween2018" candy="1666" cooldown="0" type="trophy" />
+            </category>
+        </category>
+    </shop>
+</module>

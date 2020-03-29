@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+        <message key="hw17ParticipationDialogTitle">Karanlık Dans!</message>
+        <message key="hw17ParticipationDialogButtonLabel">katıl</message>
+        <message key="hw17ArrowLabel">Gümüş Uçlu Ok</message>
+        <message key="hw17ArrowDescription">Kurt Adamlara karşı etkili</message>
+        <message key="nw17ToothNecklaceLabel">Kurt Adam Dişli Kolye</message>
+        <message key="nw17ToothNecklaceDescription">Karanlık Dansa giriş bileti</message>
+        <message key="hw17SilverDustLabel">Gümüş Tozu</message>
+        <message key="hw17SilverDustDescription">Mini oyunları kazanarak elde edilebilir</message>
+        <message key="hw17ToothLabel">Kurt Adam Dişi</message>
+        <message key="hw17ToothDescription">Kurt Adamları alt ederek elde edilebilir</message>
+        <message key="hw17MaleNPCTitle">Kont İblis</message>
+        <message key="hw17FemaleNPCTitle">Kontes Elizabeth</message>
+        <message key="halloween2017SelectAwardLabel">Ödülünü seç:</message>
+        <message key="hw17ToothExchangeDialogTitle">Hediyeler ile takas et!</message>
+        <message key="hw17ToothExchangeDialogDescription">Maceranın sonuna kadar diş toplamaya devam et ve Kontes ile aralarında eşsiz eşyaların da bulunabileceği hediyeler karşılığında takas yap!</message>
+        <message key="hw17InfoDialogDialogTitle">Dansa hoş geldin!</message>
+        <message key="hw17InfoDialogTopMessage">Kurt adamlarla savaşmak için bir arbalete ve özel gümüş uçlu oklara ihtiyacın olacak. Savaşa hazır ol!</message>
+        <message key="hw17InfoDialogMiddleMessage">kurt adam dişlerinden yapılmış bu tuhaf kolye Karanlık Dansa giriş biletin olarak hizmet edecek.</message>
+        <message key="hw17InfoDialogBottomMessage">Dişleri topla ve hediyeler ile takas et.</message>
+        <gender key="hw17ParticipationDialogDescription">
+            <form>Kontes Elizabeth ona yardım etmeni istedi! Kontes, kocası Kont İblis ile gecenin yaratıkları adına coşkulu partiler ve danslar düzenlemeyi sever ama kurt adamlar son zamanlarda canlarını sıkmaya başladı. Onlara yardım edecek misin?</form>
+            <form>Kont İblis ona yardım etmeni istedi! Kont, karısı Kontes Elizabeth ile gecenin yaratıkları adına coşkulu partiler ve danslar düzenlemeyi sever ama kurt adamlar son zamanlarda canlarını sıkmaya başladı. Onlara yardım edecek misin?</form>
+        </gender>
+        <gender key="halloween2017SelectAwardDialogDescription">
+            <form>Bana o sinir bozucu kurt adamların icabına bakmakta yardım ettin genç adam! Seni dansımıza davet ediyoruz ve dahası istediğin ödülü de seçmekte serbestsin! Ancak unutma! Bir kez seçimini yaptığında geri dönüşü olmayacak.</form>
+            <form>Bana o sinir bozucu kurt adamların icabına bakmakta yardım ettin genç bayan! Seni dansımıza davet ediyoruz ve dahası istediğin ödülü de seçmekte serbestsin! Ancak unutma! Bir kez seçimini yaptığında geri dönüşü olmayacak.</form>
+        </gender>
+        <gender key="hw17MainNpcName">
+            <form>Kont İblis</form>
+            <form>Kontes Elizabeth</form>
+        </gender>
+        <message key="hw17InfoDialogTopMessage2">Kurt adam dişlerinden yapılmış bu tuhaf kolye Karanlık Dansa giriş biletin olarak hizmet edecek.</message>
+        <message key="hw17InfoDialogTopMessage3">İşlem tamamlandı! Dansa, hak edilmiş ödülünün beklediği yere davetlisin!</message>
+
+        <message key="hw17Werewolf">Kurt Adam</message>
+        <message key="hw17WerewolfMessage1">Aaaarggh!</message>
+        <message key="hw17WerewolfMessage2">Y-y-yırt ve parçala-a-a!</message>
+        <message key="hw17WerewolfMessage3">Auuuuuu!</message>
+        <message key="hw17NoArrow">Cephanen bitti. Daha fazla ok yap.</message>
+
+        <message key="hw17CraftCrossbowStageMessage1">Acele etsen iyi olur, konuklarım kimse için beklemez!</message>
+        <message key="hw17CraftCrossbowStageMessage2">Çok değerli eşim ve ben Karanlık Krallık’taki en müsrif dans gecelerini düzenleriz.</message>
+        <message key="hw17CraftCrossbowStageMessage3">Koca dünyada benden daha güzeli yok! Hiçbir aynanın bu güzelliği yansıtamaması ne yazık...</message>
+        <message key="hw17CraftCrossbowStageMessage4">Yaşadığın yer neden bu kadar güneşli? Güneş kremimi nereye koydum ki?</message>
+        <message key="hw17CraftCrossbowStageMessage5">Altın, gümüşten çok daha güzel, ne dersin?</message>
+
+        <message key="hw17CraftNecklaceStageMessage1">Şu kurt adamlar pek tiksinç, değil mi? Kırpılmamış kürkleri beni çılgına çeviriyor!</message>
+        <message key="hw17CraftNecklaceStageMessage2">Hmm... Eğer bana yardım edersen neden olmasın? Senin gibi bir misafir bile dansımıza katılabilir.</message>
+        <message key="hw17CraftNecklaceStageMessage3">Bir diş, iki diş, üç diş... Yetmez!</message>
+        <message key="hw17CraftNecklaceStageMessage4">Bay Skelton nihayet en sevdiğim şiiri ezberledi mi acaba...</message>
+        <message key="hw17CraftNecklaceStageMessage5">Kurt adamlar müdavimlerimizle birlikte misafirlerimizi de korkutuyorlar. Bu anlaşma herkes için iyi olacak.</message>
+
+        <message key="hw17BallroomMessageGirl1">Normal olmak her zaman bir yanılgıdan ibarettir.</message>
+        <message key="hw17BallroomMessageGirl2">Kocam pek muhteşem, değil mi?</message>
+        <message key="hw17BallroomMessageGirl3">Şeydeymişsin gibi yap, şey, dans!</message>
+        <message key="hw17BallroomMessageGirl4">Yerel gazete partimizden bahsedecek mi acaba...</message>
+        <message key="hw17BallroomMessageGirl5">Kont ve ben mükemmel bir çiftiz! Diğer misafirler ne kadar kıskanıyor baksana!</message>
+
+        <message key="hw17BallroomMessageBoy1">En güzel dans hangisi mi? Tabii ki Kont İblis dansı!</message>
+        <message key="hw17BallroomMessageBoy2">Kaybetmem, isteyerek veririm.</message>
+        <message key="hw17BallroomMessageBoy3">Kendimi sevmiyorum, kendime bayılıyorum!</message>
+        <message key="hw17BallroomMessageBoy4">Dans, dans, dans!</message>
+        <message key="hw17BallroomMessageBoy5">Vampir olmak asla kolay bir şey değil, üstelik kontenjanımız da çok çabuk doluyor ancak Muhafızlar çok ender rastlanan bir tür ve soyları tükenmek üzere.</message>
+
+        <message key="hw17NecklaceCraftedHomeMessage">İşlem tamamlandı. Şimdi eğlence zamanı, çabuk ol, dansa koş!</message>
+        <gender key="hw17AwardDialogDescription">
+            <form>Özel içeriğimizi başarıyla tamamlayarak bir ödül kazandın!</form>
+            <form>Özel içeriğimizi başarıyla tamamlayarak bir ödül kazandın!</form>
+        </gender>
+        <message key="hw17WallGetAwardMessage">Dans gecesine yardım ettiğim için muhteşem bir hediye aldım. Sen de aynısından ister misin? O zaman oyunda seni bekliyorum! :link:</message>
+
+        <message key="hw17ProfessionHintMessage">Kurt adamlar harekete duyarlıdır: çalışmaya başla ve saklandıkları yerden nasıl çıktıklarını gör!</message>
+
+        <message key="hw17GoToBallButtonNoNeckHintMessage">Kolye gerekli</message>
+        <message key="hw17GoToBallButtonHintMessage">Dansa git</message>
+        <message key="hw17NoCrossbowMessage">Kurt adamlarla savaşmak için bir arbalete ihtiyacın var!</message>
+    </locale>
+</dictionary>

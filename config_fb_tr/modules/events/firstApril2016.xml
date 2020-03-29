@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="firstApril2016" campaign="firstApril2016" coolDownPeriod="5400">
+    <awards>
+        <award id="1" itemType="furniture" itemId="loveBalloon" icon="RoundLoveBalloon@firstApril2016"
+               notifyIcon="LoveBalloonIcon@decor"
+               title="#loveBalloonTitle"
+               progressCount="20"/>
+
+        <award id="2" itemType="furniture" itemId="roseBasket" icon="RoundRoseBasket@firstApril2016"
+               notifyIcon="RoseBasketIcon@decor"
+               title="#roseBasketTitle"
+               progressCount="40"/>
+
+        <award id="3" itemType="resource" itemId="gold" icon="RoundGold@firstApril2016"
+               notifyIcon="BillingGoldCoinAsset@ui" count="10"
+               title="#goldLabel"
+               progressCount="100"/>
+    </awards>
+</module>

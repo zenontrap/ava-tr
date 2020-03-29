@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+        <message key="dzo18StarsLabel">Ünlü</message>
+        <message key="dzo18StarsDescription">Tüm mesleklerden edinilebilir</message>
+        <message key="dzo18Quest1Title">Ne kadar eşsiz olduğunu göster!</message>
+        <message key="dzo18Quest1Description">En havalı avatarlar hava fırçasıyla otomobillerini süslüyorlar, neden onlara katılmıyorsun? Dikkat çekeceğin benzersiz bir aksesuar al ve şenliklerde hatırlan!</message>
+        <message key="dzo18Quest3Title">Daireyi dekore etmek</message>
+        <message key="dzo18Quest3Description">Şenlikler için daireni dekore et. Eşsiz bir poster ile iç tasarıma ferahlık getirmeyi unutma!</message>
+        <message key="dzo18Quest3Task1Description"><![CDATA[<span class="bold">]]><![CDATA[AVA-23 posteri üret]]><![CDATA[</span>]]></message>
+        <message key="dzo18Quest3Task2Description"><![CDATA[<span class="bold">]]><![CDATA[Dekorasyon kategorisinden iç tasarım öğeleri satın al]]><![CDATA[</span>]]></message>
+        <message key="dzo18Quest3Task3Description"><![CDATA[<span class="bold">]]><![CDATA[Teknoloji Mağazasından iç tasarım öğeleri satın al]]><![CDATA[</span>]]></message>
+        <message key="dzo18Quest3Task4Description"><![CDATA[<span class="bold">]]><![CDATA[Şaka ve Eşek Şakaları Hediyelerindeki Eşek Şakaları bölümünden öğeler satın al]]><![CDATA[</span>]]></message>
+        <message key="dzo18Quest4Title">Hadi Savunma Gününü kutlayalım</message>
+        <message key="dzo18Quest4Description">Kutlama zamanı geldi! Yastık savaşları ve her türden araç yarışlarından daha eğlenceli ne olabilir ki?</message>
+        <message key="dzo18Quest4Task1Description"><![CDATA[<span class="bold">]]><![CDATA[AVA-23 Uçağı üret]]><![CDATA[</span>]]></message>
+    </locale>
+</dictionary>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<furnitureSets>
+
+    <furnitureSet id="ny15ri" iconName="CaseCountryIcon" label="#newYear15Label" canBuy="0">
+        <item itemId="floorSantaHouse"/>
+        <item itemId="wallSantaHouse"/>
+        <item itemId="wdwSantaHouse"/>
+        <item itemId="wdwSantaHouse"/>
+        <item itemId="drSantaHouse"/>
+        <item itemId="trcSantaHouse"/>
+        <item itemId="trcSantaHouse"/>
+    </furnitureSet>
+
+    <furnitureSet id="ny14ri" iconName="CaseCountryIcon" label="#newYear14Label" canBuy="0">
+        <item itemId="clmnIceNY14"/>
+        <item itemId="drNY14Bg"/>
+        <item itemId="drNY14Sml"/>
+        <item itemId="drNY14Sml"/>
+        <item itemId="floorNY14"/>
+        <item itemId="chrNY14"/>
+        <item itemId="wllNY14"/>
+        <item itemId="wdwIceNY14"/>
+    </furnitureSet>
+
+    <furnitureSet id="sv14rv" iconName="CaseCountryIcon" label="#stValSet14Label" canBuy="0">
+        <item itemId="tblSV14"/>
+        <item itemId="chrSV14"/>
+        <item itemId="chrSV14"/>
+        <item itemId="drSV14"/>
+        <item itemId="drSV14"/>
+        <item itemId="flrSV14"/>
+        <item itemId="wllSV14"/>
+    </furnitureSet>
+
+    <furnitureSet id="sv15rv" iconName="CaseCountryIcon" label="#stValSet15Label" canBuy="0">
+        <item itemId="drSV15"/>
+        <item itemId="drSV15"/>
+        <item itemId="wallSV15"/>
+        <item itemId="floorSV15"/>
+    </furnitureSet>
+
+    <furnitureSet id="sv15vs" iconName="CaseCountryIcon" label="#stValSet15Label" canBuy="0">
+        <item itemId="vaseSV15"/>
+        <item itemId="vaseSV15"/>
+        <item itemId="sfSV15"/>
+    </furnitureSet>
+
+    <furnitureSet id="ab18fs" iconName="CaseCountryIcon" label="#ab18FurnitureSet" canBuy="0">
+        <item itemId="ab18Bln1"/>
+        <item itemId="ab18Bln1"/>
+        <item itemId="ab18Bln2"/>
+        <item itemId="ab18Bln2"/>
+        <item itemId="ab18Ckc"/>
+        <item itemId="ab18Grlnd"/>
+        <item itemId="ab18Grlnd"/>
+        <item itemId="ab18Grlnd"/>
+        <item itemId="ab18Grlnd"/>
+    </furnitureSet>
+</furnitureSets>

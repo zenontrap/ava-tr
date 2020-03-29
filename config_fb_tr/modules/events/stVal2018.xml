@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="stVal2018" topUserUpdatePeriod="60" sympathyPerPeriod="10" sympathyUpdatePeriod="3600">
+    <awards>
+        <award id="1" itemType="clothes" itemId="boySV18Rose" gender="1"
+               points="700"
+               icon="RoundRose@stVal2018"
+               receiveIcon="WallRose@stVal2018"
+               hint="sv18RoseHint"/>
+        <award id="2" itemType="clothes" itemId="girlSV18Rose" gender="2"
+               points="700"
+               icon="RoundRose@stVal2018"
+               receiveIcon="WallRose@stVal2018"
+               hint="sv18RoseHint"/>
+        <award id="3" itemType="furniture" itemId="armchairSV18"
+               points="1600"
+               icon="RoundDoubleArmchair@stVal2018"
+               receiveIcon="WallDoubleArmchair@stVal2018"
+               hint="sv18DoubleArmchairHint"/>
+        <award id="4" itemType="clothesSet" itemId="boySV18Set" gender="1"
+               points="2800"
+               icon="RoundBoySet@stVal2018"
+               receiveIcon="WallClothesBoy@stVal2018"
+               hint="sv18BoyClothesSetHint"/>
+        <award id="5" itemType="clothesSet" itemId="girlSV18Set" gender="2"
+               points="2800"
+               icon="RoundGirlSet@stVal2018"
+               receiveIcon="WallClothesGirl@stVal2018"
+               hint="sv18GirlClothesSetHint"/>
+        <award id="6" itemType="trophy" itemId="stVal2018"
+               points="4000"
+               count="1550059200"
+               icon="RoundTrophy@stVal2018"
+               receiveIcon="WallTrophy@stVal2018"
+               hint="sv18TrophyHint"/>
+    </awards>
+
+    <packs>
+        <pack id="sympathyPack1" sympathyCount="1" gold="1"/>
+        <pack id="sympathyPack50" sympathyCount="50" gold="49" bonus="5"/>
+        <pack id="sympathyPack100" sympathyCount="100" gold="99" bonus="20"/>
+        <pack id="sympathyPack200" sympathyCount="200" gold="199" bonus="50"/>
+    </packs>
+
+    <inventory>
+        <category id="craftLoot">
+            <item id="sv18Heart" description="#sv18HeartDescription" probability="0.3" gold="500"
+                  name="HeartLoot@stVal2018" icon="HeartIcon@stVal2018" label="#sv18HeartLabel"/>
+            <item id="sv18Score" name="ScoreLoot@stVal2018" canBuy="0"/>
+        </category>
+    </inventory>
+
+    <exchange>
+        <exchangeAward awardId="1" itemId="muse" points="10" count="5" icon="MuseGiftIcon@stVal2018"
+                       label="#museLabel"  itemType="game"/>
+        <exchangeAward awardId="2" itemId="screw" points="40" count="10" icon="ScreewGiftIcon@stVal2018"
+                       label="#screwLootLabel"  itemType="game"/>
+        <exchangeAward awardId="3" itemId="photograph" points="75" count="15" icon="PhotographGiftIcon@stVal2018"
+                       label="#photographLootLabel"  itemType="game"/>
+    </exchange>
+
+    <quests>
+        <quest id="sv18q" type="2" queue="0" holiday="stVal2018" icon="QuestTaskIcon@stVal2018">
+            <title>#sv18QuestTitle</title>
+            <description>#sv18QuestDescription</description>
+            <award>
+                <modulePoints>50</modulePoints>
+            </award>
+            <tasks>
+                <task type="doneWorkSession" title="#doneGardenWorkSession" maxProgress="3" workId="garden" gold="20"/>
+                <task type="doneWorkSession" title="#doneGarbageWorkSession" maxProgress="5" workId="garbage" gold="20"/>
+                <task type="pickTrash" title="#friendsHelp" maxProgress="50" gold="20"/>\
+                <task type="hug" title="#hugAction" maxProgress="50" gold="20"/>
+                <task type="giftRandomItem" title="#giftSweets" maxProgress="25" gold="20">
+                    <item typeId="cfCak"/>
+                    <item typeId="cfCof"/>
+                    <item typeId="cfPiz"/>
+                </task>
+                <task type="presentItem" title="#giftPresent" maxProgress="15" gold="20"/>
+                <task type="winBeachRaceTask" title="#winBeachRace" maxProgress="30" gold="20"/>
+                <task type="craftItem" title="#craftAnyItem" maxProgress="10" gold="20"/>
+                <task type="createEvent" title="#createEvent" maxProgress="5" gold="20"/>
+            </tasks>
+        </quest>
+    </quests>
+</module>

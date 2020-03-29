@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<dictionary>
+
+    <locale name="tr">
+
+        <message key="captchaTitle">Lütfen robot olmadığını onayla</message>
+        <message key="captchaQuestion1">68, 32'den büyük müdür?</message>
+        <message key="captchaQuestion2">24, 10'dan küçük müdür?</message>
+        <message key="captchaQuestion3">5, 2'den büyük müdür?</message>
+        <message key="captchaQuestion4">146, 250'den küçük müdür?</message>
+        <message key="captchaQuestion5">32, 41'den büyük müdür?</message>
+        <message key="captchaQuestion6">93, 87'den küçük müdür?</message>
+        <message key="captchaQuestion7">38, 24'ten büyük müdür?</message>
+        <message key="captchaQuestion8">121, 231'den küçük müdür?</message>
+        <message key="captchaQuestion9">76, 99'dan büyük müdür?</message>
+        <message key="captchaQuestion10">53, 42'den küçük müdür?</message>
+        <message key="captchaQuestion11">3+2 = 5?</message>
+        <message key="captchaQuestion12">21 - 2 = 15?</message>
+        <message key="captchaQuestion13">57 + 10 = 60?</message>
+        <message key="captchaQuestion14">14 - 2 = 12?</message>
+        <message key="captchaQuestion15">40 + 10 = 50?</message>
+        <message key="captchaQuestion16">96 - 35 = 60?</message>
+        <message key="captchaQuestion17">2 * 2 = 6?</message>
+        <message key="captchaQuestion18">8 / 4 = 2?</message>
+        <message key="captchaQuestion19">5 * 5 = 25?</message>
+        <message key="captchaQuestion20">54 / 3 = 15?</message>
+
+    </locale>
+
+</dictionary>

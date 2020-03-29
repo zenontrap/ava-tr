@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+        <plural key="snowflakes">
+            <form>kar tanesi</form>
+            <form>kar taneleri</form>
+            <form>kar taneleri</form>
+        </plural>
+        <plural key="mittens">
+            <form>eldiven</form>
+            <form>eldivenler</form>
+            <form>eldivenler</form>
+        </plural>
+        <plural key="nyFriends">
+            <form>arkadaş</form>
+            <form>arkadaşlar</form>
+            <form>arkadaşlar</form>
+        </plural>
+        <message key="newYear2014WelcomeDialogTitle">Kış Eğlencesi</message>
+        <message key="newYear2014WelcomeDialogMessage1">Kar tanelerini topla ve bu özel teklif süresince eşsiz öğeler ile değiştir. Hemen başla ki hepsini toplayacak zamanın olsun!</message>
+        <message key="newYear2014WelcomeDialogMessage2">Kış eğlencesine katılabilmek için eldivenlere ihtiyacın var! Oyunu oynayan ne kadar çok arkadaşın varsa  her gün daha fazla eldiven toplayabilirsin!</message>
+        <message key="newYear2014WelcomeDialogMessage3">Eldivenlerini giy ve dışarı çık, kar topu savaşına katıl ve daha fazla kar tanesi topla. Daha fazla eldiven daha fazla kar tanesi demektir, bu da değerli hediyeler toplaman için sana yardımcı olur!</message>
+        <message key="newYear2014ProgressDialogTitle">Kış Hediyeleri Galerisi</message>
+        <message key="newYear2014ProgressDialogMessage">Kar tanelerini topla ve özel kış ödülleri kazan!
+Bahçede veya sokakta çalışırken ya da komşularının apartmanlarını temizlerken kar taneleri bulabilirsin, ama en çok dışarıda kar topu savaşı yaparak kar tanesi toplayabilirsin!</message>
+        <message key="newYear2014UseMittensWarningDialogMessage">Eldivenlerini giy, ellerin donmasın. Eldivenler giyilemeyecek kadar ıslanana kadar kar topu atmak için eldivenlerini kullanabilirsin.</message>
+        <message key="newYear2014NotEnoughMittensWarningDialogMessage">Daha fazla eldiven mi lazım? Sakın üzülme! Arkadaşlarını oyuna davet  et ve daha çok ücretsiz eldiven kazan! Ne kadar çok arkadaş, o kadar çok eldiven!</message>
+        <message key="newYear2014AwardDialogTitle">Tebrikler!</message>
+        <message key="newYear2014AwardDialogMessage">Tüm bu kar tanelerini topladığın için bu güzel hediyeyi lütfen kabul et. Aferim, arkadaşlarına da bu güzel oyundan bahset!</message>
+        <message key="newYear2014AskSnowflakesDialogTitle">Daha fazla kar tanesi istiyorum!</message>
+        <message key="newYear2014AskSnowflakesDialogMessage">Yeteri kadar kar tanesi yok mu? Arkadaşlarından yadım iste. Sana yardım edecekler! Daha fazla arkadaş demek daha fazla kar tanesi, daha fazla hediye ve daha çok eğlence demek!</message>
+        <message key="newYear2014MittensInfoDialogTitle">Eldiven mi lazım? Arkadaşlarını davet et!</message>
+        <message key="newYear2014MittensInfoDialogMessage">Ne kadar çok arkadaşın Avataria oynarsa, her gün o kadar fazla eldiven kazanırsın. Hediye kazanmak için gel ve oyunu oyna, eldivenleri toplamayı sakın unutma! Eldivenlerini tak ve dışarı çık, kar topu oyna ve daha çok kar tanesi kazan!</message>
+        <message key="throwSnowballTitle">Kartopu!</message>
+        <message key="putInTitle">giy</message>
+        <message key="currentMittensLabel">şunlar var:</message>
+        <message key="neededMittensLabel">şunlar lazım:</message>
+        <message key="youHaveSnowflakesLabel">şunlar var:</message>
+        <message key="warningSnowballTitle">Dikkat et! Kartopu!</message>
+        <message key="warningSnowballMessage">:userName: sana kartopu attı.</message>
+        <message key="sendBackSnowballButtonTitle">sen de at!</message>
+        <message key="newYear2014WallMessage1">Bu kadar çok kar tanesi topladığım için harika bir ödül kazandım. Sen de ister misin? O zaman gel beraber oynayalım!</message>
+        <message key="newYear2014WallMessage2">Arkadaşlar, Avataria’da çok özel bir öğe almak istiyorum ve senin yardımını ihtiyacım var. Sensiz yapamam!</message>
+		<message key="ny14inviteFriend">Komşun henüz yılbaşı kutlamalarına katılmıyor. Beraberce daha fazla kar tanesi toplamak istediğini söyle!</message>
+		<message key="throughLabel">şurada:</message>
+    </locale>
+</dictionary>

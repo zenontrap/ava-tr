@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+		<message key="sv18InfoDialogTitle">En çekici kim?</message>
+		<message key="sv18HeartLabel">Etkileme</message>
+		<message key="sv18HeartDescription">Oyun içindeyken saatte bir alınabilir.</message>
+		<message key="sv18LikeMenuTitle">Etkilendiğini göster</message>
+		<message key="sv18BuyHeartsDialogTitle">Etkileme al</message>
+		<message key="sv18LikeReceivedNotificationMessage">:userName: :genderLike:</message>
+		<message key="sv18LikeReceivedNotificationReplyMessage">Aynı şekilde karşılık vermek ister misin?</message>
+		<gender key="sv18GenderLike">
+			<form>Senden etkilendiğini gösterdi!</form>
+			<form>Senden etkilendiğini gösterdi!</form>
+		</gender>
+		<message key="sv18InfoDialogDescription">Hey, havadaki romantizmi hissedebiliyor musun? Diğer oyunculardan etkilendiği göster, aynı şekilde karşılık alırsan bunlarla hediye alabilirsin! Oyunda olduğun bir saat için 10 bedava etkileme alacaksın. 50 tane daha bedava etkileme almak için günlük görevi tamamla. En çekici beş avatar eşsiz bir ödüle sahip olacak: Bir kuşak ve taç!</message>
+		<message key="sv18ProgressDialogTitle">Etkilendiğini gösterme ödülü</message>
+		<message key="sv18ProgressDialogDescription">Diğer oyunculara onlardan etkilendiğini belli et, karşılık al ve bunlarla eşsiz ödüller kazan!</message>
+		<message key="sv18BuyHeartsDialogDescription">Yeteri kadar etkilenmen yok mu? Şimdi stokunu doldurma zamanı. Özel fırsatlardan yararlanma şansını kaçırma!</message>
+		<message key="sv18RoseHint">Gül</message>
+		<message key="sv18DoubleArmchairHint">“İki Yarım” Kollu Koltuk</message>
+		<message key="sv18BoyClothesSetHint">“Romantizm” Kostüm</message>
+		<message key="sv18GirlClothesSetHint">“Romantizm” Kostüm</message>
+		<message key="sv18TrophyHint">“Sevgili” Unvanı</message>
+		<message key="sv18AwardDialogMessage">Lütfen etkinliği tamamladığın için bu muhteşem ödülü kabul et! Böyle devam et ve arkadaşlarına başarılarından bahset!</message>
+		<message key="sv18AwardReceivedMessage">Etkinliği tamamladığım için harika bir ödül aldım! Sende ister misin? O zaman gel de oyunda bana katıl! :link:</message>
+		<message key="sv18HeartsBonusCountLabel">+ :count:</message>
+		<message key="sv18HeartsBonusLabel">bonus</message>
+		<message key="sv18HistoryLikeDialogTitle">Etkilenme alındı</message>
+		<message key="sv18HistoryLikeDialogDescription">En son aldığın etkilenmeler burada gösterilecek ve istersen onlara aynı şekilde karşılık verebilirsin.</message>
+		<message key="sv18RatingDialogTitle">Cazibe Derecesi</message>
+		<message key="sv18RatingDialogDescription">En Çekici Avatar olmak için yarışmak üzere diğer oyunculardan etkilenme al! En yüksek puanlı beş oyuncu eşsiz aksesuarlarla ödüllendirilecek: Taç ve kuşak!</message>
+		<message key="sv18ExchangeDialogTitle">Kaynak ile değiştir</message>
+		<message key="sv18ExchangeDialogDescription">Karşılık almaya ve karşılığında kullanışlı kaynaklar almaya devam et!</message>
+		<message key="sv18QuestTitle">Etkilenme mi gerekiyor?</message>
+		<message key="sv18QuestDescription">İyi davranışlar ödüllendirilmeli! Bu görevi her gün tamamla ve karşılığında çok değerli etkilenmelere bedavaya sahip ol!</message>
+		<message key="sv18HintLabel">:time: Sonra bedava etkilenme</message>
+    </locale>
+</dictionary>

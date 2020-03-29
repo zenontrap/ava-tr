@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<map width="41" length="32">
+  <viewport x="361" y="-660" width="1196" height="840"/>
+  <items>
+    <item class="backgroundItem" wy="-14.96875" wx="26.28125" skin="CanyonBackground@canyon"/>
+    <item class="walkingGridItem" cols="41" rows="32">
+      <grid>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0"/>
+        <row values="0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0"/>
+        <row values="0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0"/>
+        <row values="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0"/>
+        <row values="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0"/>
+        <row values="0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0"/>
+        <row values="0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+      </grid>
+    </item>
+    <item class="landscapeItem" wy="3" wx="13" kind="canyonMilestone" wz="0" id="landscapeItem3"/>
+    <item class="landscapeItem" wy="3" wx="18" kind="canyonMilestone" wz="0" id="landscapeItem4"/>
+    <item class="landscapeItem" wy="3" wx="23" kind="canyonMilestone" wz="0" id="landscapeItem5"/>
+    <item class="landscapeItem" wy="3" wx="27" kind="canyonMilestone" wz="0" id="landscapeItem6"/>
+    <item class="landscapeItem" wy="3" wx="31" kind="canyonMilestone" wz="0" id="landscapeItem7"/>
+    <item class="landscapeItem" wy="7" wx="31" kind="canyonMilestone" wz="0" id="landscapeItem8"/>
+    <item class="landscapeItem" wy="11" wx="31" kind="canyonMilestone" wz="0" id="landscapeItem9"/>
+    <item class="landscapeItem" wy="15" wx="31" kind="canyonMilestone" wz="0" id="landscapeItem10"/>
+    <item class="landscapeItem" wy="14" wx="33" kind="canyonFlower1" wz="0" id="landscapeItem11"/>
+    <item class="landscapeItem" wy="18" wx="9" kind="canyonFlower1" wz="0" id="landscapeItem12"/>
+    <item class="landscapeItem" wy="10.39" wx="6.58" kind="canyonFlower1" wz="0" id="landscapeItem13"/>
+    <item class="landscapeItem" wy="0" wx="25" kind="canyonFlower1" wz="0" id="landscapeItem14"/>
+    <item class="landscapeItem" wy="12" wx="3" kind="canyonFlower4" wz="0" id="landscapeItem15"/>
+    <item class="landscapeItem" wy="11" wx="34" kind="canyonFlower4" wz="0" id="landscapeItem17"/>
+    <item class="landscapeItem" wy="10" wx="37" kind="canyonFlower4" wz="0" id="landscapeItem18"/>
+    <item class="landscapeItem" wy="8" wx="35" kind="canyonFlower2" wz="0" id="landscapeItem19"/>
+    <item class="landscapeItem" wy="16" wx="6" kind="canyonFlower2" wz="0" id="landscapeItem20"/>
+    <item class="landscapeItem" wy="16.14" wx="7.58" kind="canyonFlower2" wz="0" id="landscapeItem21"/>
+    <item class="landscapeItem" wy="8" wx="5" kind="canyonFlower2" wz="0" id="landscapeItem22"/>
+    <item class="landscapeItem" wy="14" wx="3" kind="canyonFlower2" wz="0" id="landscapeItem23"/>
+    <item class="landscapeItem" wy="14" wx="5" kind="canyonFlower3" wz="0" id="landscapeItem24"/>
+    <item class="landscapeItem" wy="4" wx="9" kind="canyonFlower3" wz="0" id="landscapeItem25"/>
+    <item class="landscapeItem" wy="5" wx="6" kind="canyonFlower4" wz="0" id="landscapeItem26"/>
+    <item class="canyonExitItem" wy="1.3" wx="14.8" kind="canyonBridge" locationLayerId="l2" locationId="canyon" wz="0" roomId="pc1" id="canyonExitItem3"/>
+    <item class="dispositionItem" wy="21" wx="23" id="dispositionItem31"/>
+    <item class="canyonRaceGirlItem" wy="24" wx="22" width="1" length="1" height="0" wz="0" id="canyonRaceGirlItem32"/>
+    <item class="dispositionItem" wy="1" wx="21" id="dispositionItem29"/>
+  </items>
+</map>

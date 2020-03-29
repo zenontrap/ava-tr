@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<dictionary>
+    
+    <locale name="tr">
+        
+		<!-- MODIFIERS -->
+        
+        <message key="cakeTitle">Pasta</message>
+		<message key="coffeeTitle">Bir Fincan Kahve</message>
+		<message key="pizzaTitle">Pizza</message>
+        
+        <!-- Main coctails -->
+		<message key="mochitoTitle">Mojito</message>
+        <message key="blackRussianTitle">Black Russian</message>
+        <message key="b52Title">B-52</message>
+        
+        <!-- Haloween version-->
+		<!--<message key="mochitoTitle">Vampir Isırığı</message>-->
+		<!--<message key="blackRussianTitle">Cadı Öpücüğü</message>-->
+		<!--<message key="b52Title">Cehennem Çorbası</message>-->
+
+		<message key="smallStrawberryCakeTitle">Küçük Çilekli Pasta</message>
+		<message key="mediumBlackberryCakeTitle">Böğürtlenli Pasta</message>
+		<message key="bigOrangeCakeTitle">Büyük Çikolatalı Pasta</message>
+		
+		<!-- JOKES SHOP -->
+        
+        <message key="applianceBatTitle">Sopa</message>
+		<message key="applianceBatDescription">Teknolojik aletleri kırmak için kullanılır</message>
+		
+		<message key="jacuzziWormsTitle">Solucanlar</message>
+		<message key="jacuzziWormsDescription">Jakuzideki suyu berbat etmek için kullanılır.</message>
+		
+		<message key="chairBombTitle">Boya Bombası</message>
+		<message key="chairBombDescription">Koltuk, sandalye veya kanepe üzerine kurulabilir.</message>
+		
+		<message key="screwdriverTitle">Altın Tornavida</message>
+		<message key="screwdriverDescription">Güzel salıncakları bozmak için kullanın</message>
+        
+		<!-- GRAFFITI -->
+        
+        <message key="graffiti1Title">Aşk Grafitisi</message>
+		<message key="graffiti2Title">Hayaletler Grafitisi</message>
+		<message key="graffiti3Title">Soyut Grafiti</message>
+		<message key="graffiti4Title">Çılgın Tavşan Grafitisi</message>
+		<message key="graffiti5Title">Zafer Günü Grafitisi</message>
+        <message key="graffiti6Title">St. Patrick Günü Grafitisi</message>
+
+        <message key="carGraffitiCategoryLabel">Aerografi</message>
+        <message key="carGraffiti1Title">Uçak Aerografisi</message>
+        <message key="carGraffiti2Title">Zafer Bayramı Aerografisi</message>
+
+		<!-- ARTIFACTS -->
+        
+        <message key="bugTitle">Böcek</message>
+		<message key="butterflyTitle">Kelebek</message>
+		
+		<message key="radarTitle">Radar</message>
+		<message key="radarDescription">Tuzak arama radarı</message>
+		<message key="energyTitle">Enerji İçeceği</message>
+		<message key="energyDescription">Enerji takviyesi!</message>
+		<message key="trapTitle">Tuzak</message>
+		<message key="trapDescription">Beaver-5 avcı tuzağı. İşlevsel ayrıntılar</message>
+		<message key="mineTitle">Mayın</message>
+		<message key="mineDescription">Rip Off My Foot anti personel mayını</message>
+		<message key="kickTitle">Tekme</message>
+		<message key="kickDescription">Normal bir tekme</message>
+		<message key="dimaniteTitle">Dinamit</message>
+		<message key="dimaniteDescription">Çok tehlikeli Dikkatle kullanın!</message>
+		<message key="exploreToolTitle">Keşfet</message>
+		<message key="exploreToolDescription">Bölgeyi keşfetmek için araçlar</message>
+		<message key="searchToolTitle">Arama</message>
+		<message key="searchToolDescription">Tuzak arama için araçlar</message>
+		
+		<!-- CRAFT -->
+        
+        <message key="loot">El işi</message>
+		<message key="craftLoot">İçindekiler</message>
+		<message key="crafSocial">Hediyeler</message>
+		
+		<message key="craftedCoffee">Kahve (+75 enerji)</message>
+		<message key="craftedEnergyDrink">Yenileyici İçecek (+200 enerji)</message>
+		
+		<!-- components -->
+        
+        <message key="waterLootLabel">su</message>
+		<message key="phialLootLabel">kavanoz</message>
+		<message key="bigPhialLootLabel">büyük kavanoz</message>
+		<message key="clayLootLabel">kil</message>
+		<message key="likeCoinLootLabel">şanslı para</message>
+		<message key="featherLootLabel">tüy</message>
+		<message key="bowLootLabel">fiyonk</message>
+		<message key="flowerBudLootLabel">gonca</message>
+		<message key="wrappingPaperLootLabel">ambalaj kağıdı</message>
+		<message key="peaceOfWoodLootLabel">tahta parçası</message>
+		<message key="photographLootLabel">fotoğraf</message>
+		<message key="peaceOfIronLootLabel">metal parçası</message>
+		<message key="swordHiltLootLabel">kılıç kabzası</message>
+		<message key="wickLootLabel">fitil</message>
+		<message key="bitOfGlassLootLabel">cam parçası</message>
+		<message key="cloverLootLabel">yonca yaprağı</message>
+        <message key="valCardLabel">sevgili</message>
+		
+		<message key="generosityLootLabel">cömertlik</message>
+		<message key="loveLootLabel">aşk</message>
+		<message key="hatredLootLabel">nefret</message>
+		<message key="happinessLootLabel">mutluluk</message>
+		<message key="threadLootLabel">iplik </message>
+		<message key="shellLootLabel">deniz kabuğu</message>
+		<message key="pearlLootLabel">inci</message>
+		
+		<message key="coffeBeanSocialLabel">kahve çekirdeği</message>
+		<message key="mintLeafSocialLabel">nane yaprağı</message>
+		<message key="jarOfPaintSocialLabel">boya kutusu</message>
+		<message key="clothSocialLabel">bez parçası</message>
+		<message key="glassSocialLabel">cam</message>
+		<message key="grindstoneSocialLabel">bileme taşı</message>
+		<message key="peaceOfWaxSocialLabel">mum parçası</message>
+		<message key="pollenSocialLabel">polen</message>
+		<message key="fastenSocialLabel">bağlayıcı</message>
+		<message key="eggIconLabel">yumurta</message>
+		
+		<message key="linenFabricLabel">keten kumaş</message>
+		<message key="cottonFabricLabel">pamuklu kumaş</message>
+		<message key="redWoodLabel">kızılçam</message>
+		<message key="totemLabel">aborjin totemi</message>
+		
+		<message key="snowIconLabel">yapay kar</message>
+		<message key="confettiIconLabel">konfeti</message>
+		<message key="gingerFormIconLabel">kurabiye adam kalıbı</message>
+		<message key="glazeLabel">buzlama</message>
+		<message key="bucketLabel">kova</message>
+		
+		<message key="waterLootDescrioption">damla, bahçedeki çiçekler sulandığında</message>
+		<message key="phialLootDescrioption">damla, sokaktaki çöpler temizlendiğinde</message>
+		<message key="bigPhialLootDescrioption">damla, sokaktaki çöpler temizlendiğinde</message>
+		<message key="clayLootDescrioption">damla, bahçedeki herhangi bir iş tamamlandığında</message>
+		<message key="likeCoinLootDescrioption">damla, komşuların dairesi temizlendiğinde</message>
+		<message key="featherLootDescrioption">damla, bir yastık savaşı kazanıldığında</message>
+		<message key="bowLootDescrioption">damla, sokaktaki çöpler temizlendiğinde</message>
+		<message key="flowerBudLootDescrioption">damla, bahçedeki herhangi bir iş tamamlandığında</message>
+		<message key="wrappingPaperLootDescrioption">damla, sokaktaki çöpler temizlendiğinde</message>
+		<message key="peaceOfWoodLootDescrioption">damla, bahçedeki herhangi bir iş tamamlandığında</message>
+		<message key="photographLootDescrioption">damla, komşuların dairesi temizlendiğinde</message>
+		<message key="bitOfGlassLootDescrioption">damla, komşuların dairesi temizlendiğinde</message>
+		<message key="peaceOfIronLootDescrioption">damla, sokaktaki çöpler temizlendiğinde</message>
+		<message key="swordHiltLootDescrioption">damla, komşuların dairesi temizlendiğinde</message>
+		<message key="wickLootDescrioption">damla, bir yastık savaşı kazanıldığında</message>
+		<message key="threadLootDescrioption">damla, bir yastık savaşı kazanıldığında</message>
+		<message key="cloverLootDescrioption">birisine kafede veya kulüpte ikramda bulunarak elde edilir</message>
+		<message key="cloverLootDescrioption">damla, sadece etkinlik aktifken, şu anda oyunda elde edilememektedir, ama altın para karşılığında satın alınabilmektedir</message>
+		
+		<message key="surfLootDescription">sörf yarışları kazanılarak elde edilebilir</message>
+		
+		<message key="generosityLootDescrioption">birisine bir hediye verdiğinizde veya kafede veya kulüpte ikramda bulunduğunuzda elde edilir</message>
+		<message key="loveLootDescrioption">&quot;sarılma&quot; veya &quot;öpme&quot; gibi çeşitli arkadaşça hareketleri gerçekleştirdiğinizde elde edilir </message>
+		<message key="hatredLootDescrioption">&quot;tekme&quot; veya &quot;tokat&quot; gibi hareketler gerçekleştirdiğinizde, kafede pasta fırlattığınızda veya teknoloji bozduğunuzda elde edilir</message>
+		<message key="happinessLootDescrioption">dans ederek elde edilir</message>
+		
+		<message key="socialComponentDescription">arkadaşlardan talep edilebilir</message>
+		<message key="eggComponentDescription">etkinlik devam ederken arkadaşlardan talep edilebilir; şu anda oyunda kazanılmamaktadır, ama altın para karşılığında satın alınabilmektedir</message>
+		
+		<message key="fromTropicaniaWorkshop">şu anda oyunda kazanılmamaktadır, ama altın para karşılığında satın alınabilmektedir</message>
+        <message key="fromTropicaniaAborigenes">şu anda oyunda kazanılmamaktadır, ama altın para karşılığında satın alınabilmektedir</message>
+        <message key="fromTropicaniaKitchen">şu anda oyunda kazanılmamaktadır, ama altın para karşılığında satın alınabilmektedir</message>
+		
+		<!-- RINGS -->
+        
+        <message key="marriedRing1Label">Düz Nişan Yüzükleri</message>
+		<message key="marriedRing2Label">Safir Nişan Yüzükleri</message>
+		<message key="marriedRing3Label">Pırlanta Nişan Yüzükleri</message>
+		
+		<!-- FIR TOYS -->
+        
+        <message key="newYearFirToy1Label">Mavi Fiyonk</message>
+		<message key="newYearFirToy2Label">Altın Rengi Fiyonk</message>
+		<message key="newYearFirToy3Label">Kırmızı Fiyonk</message>
+		<message key="newYearFirToy4Label">Noel Ağacı Küresi</message>
+		<message key="newYearFirToy5Label">Noel Ağacı Oyuncağı</message>
+		<message key="newYearFirToy6Label">Noel Ağacı Küresi</message>
+		<message key="newYearFirToy7Label">Parlak Noel Ağacı Küresi</message>
+		<message key="newYearFirToy8Label">Noel Ağacı Oyuncağı</message>
+		<message key="newYearFirToy9Label">Yıldız</message>
+		<message key="newYearFirToy10Label">Kardan Adam Noel Ağacı Oyuncağı</message>
+		<message key="newYearFirToy11Label">Noel Baba Noel Ağacı Oyuncağı</message>
+		<message key="newYearFirToy12Label">Fiyonklu Zil</message>
+		<message key="newYearFirToy13Label">Kar Tanesi</message>
+		<message key="newYearFirToy14Label">Cüce Noel Ağacı Oyuncağı</message>
+		<message key="newYearFirToy15Label">Geyik Noel Ağacı Oyuncağı</message>
+		<message key="newYearFirToy16Label">Şeker</message>
+		<message key="newYearFirToy17Label">Şeker</message>
+		<message key="newYearFirToy18Label">Mum</message>
+		<message key="newYearFirToy19Label">Mor Fiyonk</message>
+		<message key="newYearFirToy20Label">Çizgili Kırmızı Fiyonk</message>
+		<message key="newYearFirToy21Label">Altın Yıldız Noel Ağacı Tepe Süsü</message>
+		<message key="newYearFirToy22Label">Buzdan Yıldız Noel Ağacı Tepe Süsü</message>
+		<message key="newYearFirToy23Label">Noel Ağacı Tepe Süsü</message>
+		<message key="newYearFirToy24Label">Fiyonk Noel Ağacı Tepe Süsü</message>
+		<message key="newYearFirToy25Label">Fiyonk Noel Ağacı Tepe Süsü</message>
+		<message key="newYearFirToy26Label">Melek Noel Ağacı Tepe Süsü</message>
+		
+		<!-- AQUARIUM -->
+        
+        <message key="aquariumCategory">Akvaryum</message>
+        <message key="aquariumFishesCategoryLabel">Akvaryum</message>
+        <message key="aquariumFish1Label">Melek balığı</message>
+		<message key="aquariumFish2Label">Japon balığı</message>
+		<message key="aquariumFish3Label">Palyaço balığı</message>
+		<message key="aquariumFish4Label">Deniz anası</message>
+		
+        <!-- NEW YEAR GIFTS -->
+        
+        <message key="newYearGift1Label">Sade Hediye</message>
+        <message key="newYearGift2Label">Büyük Hediye</message>
+        <message key="newYearGift3Label">VIP Hediye</message>
+        
+        <!-- PHOTO SALON -->
+        
+        <message key="film">Film</message>
+        <message key="filmDescription">Film ile Fotoğraf Stüdyosu'nda fotoğraf çektirebilirsiniz</message>
+        
+        <!-- BEACH RACE -->
+        
+		<message key="shellNecklaceTitle">Deniz Kabuğu Kolyesi</message>
+		<message key="pearlNecklaceTitle">İnci Kolye</message>
+		<message key="itemsForSaleCategory">Satılık</message>
+		
+		<!--<message key="fromTropicaniaWorkshop">Tropicana atölyesinde yapılabilir</message>
+		<message key="fromTropicaniaAborigenes">Tropicana yerlilerinden takasla alınabilir</message>
+		<message key="fromTropicaniaKitchen">Tropicana mutfağında yapılabilir</message>-->
+        
+        <!-- Firework -->
+		<message key="fireworkTitle">Havai fişek</message>
+		<message key="fireworkDescription">Havai fişekler sadece açık mekanda atılır.</message> 
+
+        <!-- RACE -->
+        <message key="screwLootLabel">vida</message>
+        <message key="wrenchLootLabel">anahtar</message>
+        <message key="carRaceLootDescription">yarış kazanırsan kanyondan alabilirsin</message>
+
+        <message key="phtghrFilm12">Film (12 poz)</message>
+        <message key="phtghrFilm24">Film (24 poz)</message>
+        <message key="phtghrFilm36">Film (36 poz)</message>
+        <message key="vsgstBrush">Makyaj Fırçası</message>
+        <message key="vsgstSmallSet">Küçük Makyaj Seti</message>
+        <message key="vsgstMediumSet">Orta Boy Makyaj Seti</message>
+        <message key="vsgstLargeSet">Büyük Makyaj Seti</message>
+
+        <message key="diligenceLabel">heves</message>
+        <message key="skillLabel">beceri</message>
+        <message key="industryLabel">çalışkanlık</message>
+        <message key="luckLabel">şans</message>
+        <message key="professionComponentDescription">gibi özellikleri, şu meslekte çalışarak elde edebilirsin:</message>
+
+        <message key="iceRinkSkate1Label">Paten</message>
+        <gender key="iceRinkSkate2Label">
+            <form>Mavi Paten</form>
+            <form>Gök Mavisi Paten</form>
+        </gender>
+        <gender key="iceRinkSkate3Label">
+            <form>Siyah ve Altın Rengi Paten</form>
+            <form>Beyaz ve Altın Rengi Paten</form>
+        </gender>
+
+        <message key="beautyLabel">güzellik</message>
+        <message key="glamorLabel">cazibe</message>
+        <message key="ideaLabel">fikir</message>
+        <message key="museLabel">ilham</message>
+        <message key="weddingBeachGift1Label">Küçük Düğün Hediyesi</message>
+        <message key="weddingBeachGift2Label">Orta Boy Düğün Hediyesi</message>
+        <message key="weddingBeachGift3Label">Büyük Düğün Hediyesi</message>
+        <message key="newYear16Gift1Label">Küçük Hediye</message>
+        <message key="newYear16Gift2Label">Orta Boy Hediye</message>
+        <message key="newYear16Gift3Label">Büyük Hediye</message>
+
+		<message key="halloweenGift1Label">Küçük Hediye</message>
+        <message key="halloweenGift2Label">Orta Boy Hediye</message>
+        <message key="halloweenGift3Label">Büyük Hediye</message>
+
+        <message key="iceRinkSkates1Description">:time: boyunca</message>
+        <message key="iceRinkSkates2Description">:time: boyunca +"arabesque" </message>
+        <message key="iceRinkSkates3Description">:time: boyunca +"backwards" ve "arabesque"</message>
+
+        <message key="fifeTitle">Düdük</message>
+        <message key="fifeDescription">Avataria Doğum Günü Düdüğü</message>
+
+		<message key="blackMobileSkinTitle">Siyah</message>
+		<message key="blueMobileSkinTitle">Mavi</message>
+		<message key="greenMobileSkinTitle">Yeşil</message>
+		<message key="pinkMobileSkinTitle">Pembe</message>
+		<message key="purpleMobileSkinTitle">Mor</message>
+		<message key="whiteMobileSkinTitle">Beyaz</message>
+		<message key="yellowMobileSkinTitle">Sarı</message>
+		<message key="angelMobileAccessoryTitle">Küçük Melek</message>
+		<message key="bowMobileAccessoryTitle">Yay</message>
+		<message key="devilMobileAccessoryTitle">Küçük Şeytan</message>
+		<message key="catEarsMobileAccessoryTitle">Kedi Kulağı</message>
+		<message key="mouseEarsMobileAccessoryTitle">Fare Kulağı</message>
+		<message key="starMobileAccessoryTitle">Yıldız</message>
+
+		<message key="ny17GarlandLabel">Yeni Yıl Çelengi</message>
+
+		<message key="craftedPancake">Gözleme (+20 enerji)</message>
+
+		<message key="graffitiRusDayTitle">Matruşka Bebek Duvar Resmi</message>
+		<message key="mobileRingtone1Title">Spring</message>
+		<message key="mobileRingtone2Title">Suddenly</message>
+		<message key="mobileRingtone3Title">Sharp</message>
+		<message key="mobileRingtone4Title">Horror</message>
+		<message key="mobileRingtone5Title">Clownery</message>
+		<message key="mobileRingtone6Title">Laugh</message>
+		<message key="mobileRingtone7Title">Fall</message>
+		<message key="mobileRingtone8Title">Magic</message>
+		<message key="mobileRingtone9Title">Drums</message>
+		<message key="mobileRingtone10Title">Trumpet</message>
+		<message key="mobileRingtone11Title">Passion</message>
+		<message key="mobileRingtone12Title">Ranch</message>
+		<message key="mobileRingtone13Title">Siempre</message>
+		<message key="mobileRingtone14Title">Loop</message>
+		<message key="mobileRingtone15Title">Mess</message>
+		<message key="mobileRingtone16Title">Cha-cha-cha</message>
+		<message key="mobileRingtone17Title">Lucky</message>
+		<message key="mobileRingtone18Title">Latino</message>
+		<message key="mobileRingtone19Title">Cuban</message>
+		<message key="mobileRingtone20Title">Nice</message>
+
+		<message key="skiResortGift1Label">Küçük Hediye</message>
+		<message key="skiResortGift2Label">Orta Boy Hediye</message>
+		<message key="skiResortGift3Label">Büyük Hediye</message>
+		<message key="snowboardRaceSnowboard1Label">Kar Kayağı</message>
+		<message key="snowboardRaceSnowboard2Label">VIP Kar Kayağı</message>
+		<message key="snowboardRaceSnowboard1Description">:time: boyunca</message>
+		<message key="snowboardRaceSnowboard2Description">+”Akrobatlık” süresi: :time:</message>
+
+		<message key="tentaclesMobileAccessoryTitle">Cthulhu</message>
+		<message key="steampunkMobileAccessoryTitle">Vites</message>
+		<message key="stopSignMobileAccessoryTitle">Otomobil</message>
+		<message key="totemMobileAccessoryTitle">Kabile</message>
+
+		<message key="birthdayGift1Label">Küçük Doğum Günü Hediyesi</message>
+		<message key="birthdayGift2Label">Orta Doğum Günü Hediyesi</message>
+		<message key="birthdayGift3Label">Büyük Doğum Günü Hediyesi</message>
+		<message key="chatDecorDescription">:time: karşılığında</message>
+
+		<message key="ghostMobileAccessoryTitle">Hayalet</message>
+
+		<message key="smallVKGiftLabel">Küçük VKPay Hediyesi</message>
+		<message key="mediumVKGiftLabel">Orta VKPay Hediyesi</message>
+		<message key="bigVKGiftLabel">Büyük VKPay Hediyesi</message>
+
+		<message key="vipTicketsLabel">VIP Kuponları</message>
+		<message key="vipTicket5Title">5 Günlük VIP Kuponu</message>
+		<message key="vipTicket10Title">10 Günlük VIP Kuponu</message>
+		<message key="vipTicket20Title">20 Günlük VIP Kuponu</message>
+
+		<message key="smallPersonalGiftLabel">Küçük Hediye Sandığı</message>
+		<message key="mediumPersonalGiftLabel">Orta Boy Hediye Sandığı</message>
+		<message key="bigPersonalGiftLabel">Büyük Hediye Sandığı</message>
+
+		<message key="seasonEventKeyLabel">Altın Sonbahar Etkinlik Anahtarı</message>
+	</locale>
+	
+</dictionary>

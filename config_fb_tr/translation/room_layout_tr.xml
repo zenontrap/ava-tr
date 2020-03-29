@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<dictionary>
+    
+    <locale name="tr">
+	
+		<!-- WALLS -->
+		
+        <message key="wall1Title">Boyanabilir Duvar Kağıdı</message>
+		<message key="wall2Title">Dokulu Duvar Kağıdı</message>
+		<message key="wall3Title">Tek Renkli Duvar Kağıdı</message>
+		<message key="wall4Title">Mavi Duvar Kağıdı</message>
+		<message key="wall5Title">Mavi Duvar Kağıdı</message>
+		<message key="wall7Title">Tek Renkli Duvar Kağıdı</message>
+		<message key="wall8Title">Yeşil Duvar Kağıdı</message>
+		<message key="wall9Title">Pembe Duvar Kağıdı</message>
+		<message key="wall10Title">Çizgili Duvar Kağıdı</message>
+		<message key="wall11Title">Çizgili Duvar Kağıdı</message>
+		<message key="wall12Title">Çizgili Duvar Kağıdı</message>
+		<message key="wall13Title">Açık Duvar Kağıdı</message>
+		<message key="wall14Title">Korsan Duvar Kağıdı</message>
+		<message key="wall15Title">Çiçekli Duvar Kağıdı</message>
+		<message key="wall16Title">İpek Duvar Kağıdı</message>
+		<message key="wall17Title">Mor Duvar Kağıdı</message>
+		<message key="wall18Title">Fotoğraflı Duvar Kağıdı</message>
+		<message key="wall19Title">Tuğla Duvar Kağıdı</message>
+		<message key="wall20Title">Mor Duvar Kağıdı</message>
+		<message key="wall21Title">Dokulu Duvar Kağıdı</message>
+		<message key="wall22Title">Tuğla Duvar Kağıdı</message>
+		<message key="wall23Title">Boyalı Duvar Kağıdı</message>
+		
+		<message key="wall24Title">Cadılar Bayramı Duvar Kağıdı</message>
+		<message key="wall25Title">Cadılar Bayramı Duvar Kağıdı</message>
+		
+		<message key="wallWedding1Title">Evlilik Duvar Kağıdı</message>
+
+		<message key="wallNY1Title">Kale Kapısı Duvar Kağıdı</message>
+		<message key="wallNY2Title">Kış Duvar Kağıdı</message>
+		
+		<message key="wallSchool1Title">Okul Duvar Kağıdı</message>
+	
+		<!-- DOORS -->
+		
+		<message key="door1Title">Kapı</message>
+		<message key="door2Title">Kapı</message>
+		<message key="door3Title">Altın Kaplama Kapı</message>
+		<message key="door4Title">Kapı</message>
+		<message key="door5Title">Kapı</message>
+		<message key="door6Title">Bağlantı Kapısı</message>
+		<message key="door7Title">Cilalı Kapı</message>
+		
+		<message key="door8Title">Cadılar Bayramı Kapısı</message>
+		<message key="door9Title">Cadılar Bayramı Kapısı</message>
+		
+		<message key="door10Title">Bekar Kapısı</message>
+		
+		<message key="doorWedding1Title">Düğün Töreni Kapısı</message>
+		
+		<message key="doorVip1Title">Kemerli Kapı</message>
+		<message key="doorVip2Title">Sütunlu Kapı</message>
+		
+		<message key="doorSchoolTitle">Sınıf Kapısı</message>
+		
+		<!-- WINDOWS -->
+		
+		<message key="window1Title">Panjurlu Pencere</message>
+		<message key="window2Title">Kavisli Pencere</message>
+		<message key="window3Title">Pencere</message>
+		<message key="window4Title">Vitraylı Pencere</message>
+		<message key="window5Title">Mozaik Pencere</message>
+		<message key="window6Title">Beyaz Panjur</message>
+		<message key="window7Title">Perdeli Pencere</message>
+		<message key="window8Title">Kemer şekilli Pencere</message>
+		<message key="window9Title">Kemer şekilli Pencere</message>
+		<message key="window10Title">Yuvarlak Pencere</message>
+		<message key="window11Title">Panjurlu Pencere</message>
+		<message key="window12Title">Kepenkli Pencere</message>
+		<message key="window13Title">Art-deko Pencere</message>
+		<message key="window14Title">Sınıf Penceresi</message>				
+		
+		<!-- FLOORS -->
+		
+		<message key="floor1Title">Muşamba</message>
+		<message key="floor2Title">Gri Halı Kaplama</message>
+		<message key="floor3Title">Kot Halı Kaplama</message>
+		<message key="floor4Title">Yeşil Halı Kaplama</message>
+		<message key="floor5Title">Koyu Gri Halı Kaplama</message>
+		<message key="floor6Title">Yer Döşemesi</message>
+		<message key="floor7Title">Mavi Halı Kaplama</message>
+		<message key="floor8Title">Laminat kaplama</message>
+		<message key="floor9Title">Laminat kaplama</message>
+		<message key="floor10Title">Parke</message>
+		<message key="floor11Title">Parke</message>
+		<message key="floor12Title">Parke</message>
+		<message key="floor13Title">Parke</message>
+		<message key="floor14Title">Mor Muşamba</message>
+		<message key="floor15Title">Gri Döşeme</message>
+		<message key="floor16Title">Mermer Döşeme</message>
+		<message key="floor17Title">Mavi Döşeme</message>
+		<message key="floor18Title">Mavi Döşeme</message>
+		<message key="floor19Title">Gri Döşeme</message>
+		
+		<message key="floor20Title">Mor Döşeme</message>
+		<message key="floor21Title">Mermer Döşeme</message>
+		<message key="floor22Title">Parke</message>
+		<message key="floor23Title">Parke</message>
+		
+		<message key="floor24Title">Cadılar Bayramı Zemini</message>
+		<message key="floor25Title">Cadılar Bayramı Zemini</message>
+		
+		<message key="floorWedding1Title">Düğün Döşemesi</message>
+		
+		<message key="floorNY1Title">Kış Zemini</message>
+		
+		<!-- ROOMS -->
+		
+		<message key="room1Title">Bir oda. Havadar ve aydınlık.</message>
+				
+		<!-- AMUSIMENT -->
+        
+        <message key="doorPortalElfTitle">Elf Giriş Kapısı</message>
+		<message key="doorPortalDemonTitle">Cehennem Giriş Kapısı</message>
+		<message key="doorAquarium1Title">Tuzak Kapı</message>
+		
+		<message key="intFlr1Title">Disko Akıllı Zemini</message>
+		<message key="intFlr2Title">Yeşillik Akıllı Zemini</message>
+        
+        <!-- NEW FURNITURE SETS:
+                COUNTRY, BEACH,
+                ALIEN, JAPAN,
+                ARTNOUVEAU -->
+        
+		<message key="wallJapan1Title">Japon Duvar Kağıdı</message>
+		<message key="wallAlien1Title">Aliens Duvar Kağıdı</message>
+		<message key="wallBeach1Title">Kumsal Duvar Kağıdı</message>
+		<message key="wallArtNouveau1Title">Modern Duvar Kağıdı</message>
+		<message key="wallPrincess1Title">Prenses Duvar Kağıdı</message>
+		<message key="wallCountry1Title">Köy Evi Duvar Kağıdı</message>
+		<message key="wallMayaLabel">Duvar Kağıdı "Maya"</message>
+		
+		<message key="doorJapanTitle">Japon Kapısı</message>
+		<message key="doorAlienTitle">Aliens Kapısı</message>
+		<message key="doorArtNouveauTitle">Modern Kapı</message>
+		<message key="doorPrincessTitle">Prenses Kapısı</message>
+		<message key="doorCountryTitle">Köy Evi Kapısı</message>
+		<message key="doorMayaLabel">Kapı "Maya"</message>
+		
+		<message key="windowAlien1Title">Koyu Renk Yan Pencere</message>
+		<message key="windowAlien2Title">Açık Renk Yan Pencere</message>
+		<message key="windowArtNouveauTitle">Modern Pencere</message>
+		<message key="windowPrincess1Title">Prenses Penceresi</message>
+		<message key="windowPrincess2Title">Prenses Penceresi</message>
+		<message key="windowCountryTitle">Köy Evi Penceresi</message>
+		<message key="windowMayaLabel">Pencere "Maya"</message>
+		
+		<message key="floorJapan1Title">Japon Parkesi</message>
+		<message key="floorAlien1Title">Aliens Yer Döşemesi</message>
+		<message key="floorArtNouveau1Title">Modern Yer Döşemesi</message>
+		<message key="floorPrincessTitle">Prenses Parkesi</message>
+		<message key="floorCountryTitle">Köy Evi Yer Döşemesi</message>
+		<message key="floorBeachTitle">Kumsal Yer Döşemesi</message>
+		<message key="floorMayaLabel">Döşeme "Maya"</message>
+        
+        <!-- NY 2014 EVENT ITEMS -->
+        
+		<message key="doorNY14BigTitle">Buz Sarayı Kapısı</message>
+		<message key="doorNY14SmallTitle">Ufak Buz Sarayı Kapısı</message>
+		<message key="floorNY14Title">Buz Sarayı Zemini</message>
+		<message key="wallNY14Title">Buz Sarayı Duvar Kağıdı</message>
+		<message key="windowNY14IceTitle">Buz Sarayı Penceresi</message>
+		
+		<!-- SV14 -->
+		
+		<message key="wallSV14Title">Duvar kağıdı "Cennet"</message>
+		<message key="doorSV14SmallTitle">Cennetin Kapıları</message>
+		<message key="floorSV14Title">Döşeme "Cennet"</message>
+		
+		<!-- DZO14 -->
+		
+		<message key="doorFebruary23Label">Kapı "Sığınak"</message>
+		<message key="windowFebruary23Label">Pencere "Sığınak"</message>
+		<message key="floorFebruary23Label">Metal Döşeme "Sığınak"</message>
+		<message key="wallFebruary23Label">Duvar "Sığınak"</message>
+		
+		<!-- NYROOF -->
+		
+		<message key="doorNYRoofLabel">Gökdelen Kapısı</message>
+		<message key="floorNYRoofLabel">Gökdelen Zemini</message>
+		<message key="wallNYRoofLabel">Gökdelen Duvar kağıdı</message>
+
+        <!-- SEA KITCHEN -->
+        
+        <message key="doorSeaLabel">Kapısı "Deniz Esintisi"</message>
+        <message key="floorSeaLabel">Döşeme "Deniz Esintisi"</message>
+        <message key="wallSeaLabel">Duvar Kağıdı "Deniz Esintisi"</message>
+
+		<!-- SP14 -->
+		<message key="spGeneratorWork">Jeneratör 24 saat çalışır</message>
+		
+		<!-- GARAGE ROOM -->
+		<message key="garageRetroDoor">Garaj Kap?lar?</message>
+		<message key="garageRetroWindow">Garaj Penceresi</message>
+		<message key="garageRetroFloor">Garaj Zemini</message>
+		<message key="garageRetroWall">Garaj Duvarlar?</message>
+		
+		<message key="garageTechnoWindows">Tekno Garaj Penceresi</message>
+		<message key="garageTechnoDoor">Tekno Garaj Kap?lar?</message>
+		<message key="garageTechnoFloor">Tekno Garaj Zemini</message>
+		<message key="garageTechnoWall">Tekno Garaj Duvarlar?</message>
+
+        <!-- NY15 -->
+        <message key="wdwSantaLabel">Noel Baba Penceresi</message>
+        <message key="floorSantaHouseLabel">Noel Baba Yer Döşemesi</message>
+        <message key="wallSantaHouseLabel">Noel Baba Duvar Kağıdı</message>
+        <message key="doorSantaHouseLabel">Noel Baba Kapısı</message>
+
+        <!-- STVAL15 -->
+        <message key="wallSV15Label">Aşıklar Sokağı Duvar Kağıdı</message>
+        <message key="doorSV15Label">Aşıklar Sokağı Kemeri </message>
+        <message key="floorSV15Label">Kaldırım Taşı</message>
+
+        <!-- CONAN -->
+        <message key="wallConanLabel">Barbar Duvar Kağıdı</message>
+        <message key="doorConanLabel">Barbar Kapısı</message>
+        <message key="floorConanLabel">Barbar Yer Döşemesi</message>
+
+        <message key="flrGrdGft">Bahçıvanın Zemini</message>
+        <message key="wllGrdGft">Bahçıvanın Duvar Kağıdı</message>
+        <message key="drGrdGft">Bahçıvanın Kapısı</message>
+        <message key="wdwGrdGft">Bahçıvanın Penceresi</message>
+
+        <message key="wllTrBthLabel">Tropik Duvar</message>
+        <message key="drTrBthLabel">Tropik Kapı</message>
+        <message key="wdwTrBth">Tropik Pencere</message>
+        <message key="flrTrBthLabel">Tropik Zemin</message>
+
+        <message key="wdwBlkRsLabel">Black Rose Pencere</message>
+        <message key="wllBlkRsLabel">Black Rose Duvar Kağıdı</message>
+        <message key="flrBlkRsLabel">Black Rose Zemin</message>
+        <message key="drBlkRsLabel">Black Rose Kapı</message>
+
+		<message key="sd16WllLabel">Bahar Etkinliği Duvar Kağıdı</message>
+		<message key="sd16FlrLabel">Bahar Etkinliği Zemini</message>
+
+		<message key="floorDescription">Animasyonlu döşeme ile dekore ettikten sonra dairende gerçek bir disko yarat. Misafirlerin, avatar hareketlerine tepki veren döşemeyi gördüklerinde çok şaşıracaklar.</message>
+        
+        <message key="orclDrLabel">Kahin Kapısı</message>
+        <message key="orclWllLabel">Kahin Duvar Kağıdı</message>
+        <message key="orclWdwLabel">Kahin Penceresi</message>
+        <message key="orclFlrLabel">Kahin Zemini</message>
+    </locale>
+	
+</dictionary>

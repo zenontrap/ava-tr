@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <group id="vkPayGifts">
+
+        <!--SMALL-->
+        <category id="clothes" typeIds="smallVKGift">
+            <item typeId="boyHatVKPay"  maxCount="1"  probability="0.5" gender="boy"/>
+            <item typeId="girlHatVKPay"  maxCount="1" probability="0.5" gender="girl" />
+        </category>
+
+        <category id="resources" typeIds="smallVKGift">
+            <item typeId="silver" minCount="1000" maxCount="5000"/>
+            <item typeId="energy" minCount="10" maxCount="30"/>
+        </category>
+
+        <category id="pforItems" typeIds="smallVKGift">
+            <item typeId="luck" minCount="10" maxCount="40"/>
+            <item typeId="muse" minCount="5" maxCount="20"/>
+            <item typeId="beauty" minCount="10" maxCount="40"/>
+            <item typeId="glamor" minCount="5" maxCount="20"/>
+            <item typeId="screw" minCount="3" maxCount="10"/>
+            <item typeId="shell" minCount="3" maxCount="10"/>
+        </category>
+
+        <category id="goldGifts" typeIds="smallVKGift">
+            <item typeId="gasStnGRtr" probability="0.1" maxCount="1"/>
+            <item typeId="jntrGrndClck" probability="0.1" maxCount="1"/>
+            <item typeId="hlwnBlrmPn" probability="0.3" maxCount="1"/>
+            <item typeId="hlwnMrrw" probability="0.2" maxCount="1"/>
+            <item typeId="cstlSV14" probability="0.3" maxCount="1"/>
+            <item typeId="grdnrHrbrm" probability="0.1" maxCount="1"/>
+            <item typeId="chstGrdnrGft" probability="0.1" maxCount="1"/>
+            <item typeId="hlmtGRtr" probability="0.3" maxCount="1"/>
+            <item typeId="grdnrBtrflCol" probability="0.1" maxCount="1"/>
+            <item typeId="jntrHrgls" probability="0.1" maxCount="1"/>
+            <item typeId="jntrGrmphn" probability="0.1" maxCount="1"/>
+            <item typeId="jntrKnght" probability="0.1" maxCount="1"/>
+            <item typeId="vaseSV15" probability="0.3" maxCount="1"/>
+            <item typeId="grdnFlwrBskt" probability="0.1" maxCount="1"/>
+            <item typeId="grdnFlwrbd" probability="0.1" maxCount="1"/>
+        </category>
+
+        <category id="epicTropic" typeIds="smallVKGift">
+            <item typeId="ttm" minCount="1" maxCount="3"/>
+            <item typeId="rdwd" minCount="1" maxCount="3"/>
+            <item typeId="lnfb" minCount="1" maxCount="3"/>
+            <item typeId="ctfb" minCount="1" maxCount="3"/>
+        </category>
+
+        <!--MEDIUM-->
+        <category id="clothes" typeIds="mediumVKGift">
+            <item typeId="boyHandVKPay"  maxCount="1"  probability="0.5" gender="boy"/>
+            <item typeId="girlHandVKPay"  maxCount="1" probability="0.5" gender="girl" />
+        </category>
+
+        <category id="resources" typeIds="mediumVKGift">
+            <item typeId="silver" minCount="1000" maxCount="10000"/>
+            <item typeId="energy" minCount="15" maxCount="50"/>
+        </category>
+
+        <category id="pforItems" typeIds="mediumVKGift">
+            <item typeId="luck" minCount="15" maxCount="50"/>
+            <item typeId="muse" minCount="7" maxCount="30"/>
+            <item typeId="beauty" minCount="15" maxCount="50"/>
+            <item typeId="glamor" minCount="7" maxCount="30"/>
+            <item typeId="screw" minCount="5" maxCount="15"/>
+            <item typeId="shell" minCount="5" maxCount="15"/>
+        </category>
+
+        <category id="goldGifts" typeIds="mediumVKGift">
+            <item typeId="gasStnGRtr" probability="0.2" maxCount="1"/>
+            <item typeId="jntrGrndClck" probability="0.2" maxCount="1"/>
+            <item typeId="hlwnBlrmPn" probability="0.4" maxCount="1"/>
+            <item typeId="hlwnMrrw" probability="0.3" maxCount="1"/>
+            <item typeId="cstlSV14" probability="0.4" maxCount="1"/>
+            <item typeId="grdnrHrbrm" probability="0.2" maxCount="1"/>
+            <item typeId="chstGrdnrGft" probability="0.2" maxCount="1"/>
+            <item typeId="hlmtGRtr" probability="0.4" maxCount="1"/>
+            <item typeId="grdnrBtrflCol" probability="0.2" maxCount="1"/>
+            <item typeId="jntrHrgls" probability="0.2" maxCount="1"/>
+            <item typeId="jntrGrmphn" probability="0.2" maxCount="1"/>
+            <item typeId="jntrKnght" probability="0.2" maxCount="1"/>
+            <item typeId="vaseSV15" probability="0.4" maxCount="1"/>
+            <item typeId="grdnFlwrBskt" probability="0.2" maxCount="1"/>
+            <item typeId="grdnFlwrbd" probability="0.2" maxCount="1"/>
+        </category>
+
+        <category id="epicTropic" typeIds="mediumVKGift">
+            <item typeId="ttm" minCount="3" maxCount="5"/>
+            <item typeId="rdwd" minCount="3" maxCount="5"/>
+            <item typeId="lnfb" minCount="3" maxCount="5"/>
+            <item typeId="ctfb" minCount="3" maxCount="5"/>
+        </category>
+
+        <!--BIG-->
+        <category id="bigVKPayGift" typeIds="bigVKGift">
+            <item typeId="applianceNotebookVKPay"  maxCount="1"  probability="0.5"/>
+        </category>
+
+        <category id="resources" typeIds="bigVKGift">
+            <item typeId="silver" minCount="1000" maxCount="25000"/>
+            <item typeId="energy" minCount="30" maxCount="100"/>
+        </category>
+
+        <category id="pforItems" typeIds="bigVKGift">
+            <item typeId="luck" minCount="20" maxCount="60"/>
+            <item typeId="muse" minCount="10" maxCount="40"/>
+            <item typeId="beauty" minCount="20" maxCount="60"/>
+            <item typeId="glamor" minCount="10" maxCount="40"/>
+            <item typeId="screw" minCount="10" maxCount="25"/>
+            <item typeId="shell" minCount="10" maxCount="25"/>
+        </category>
+
+        <category id="goldGifts" typeIds="bigVKGift">
+            <item typeId="gasStnGRtr" probability="0.3" maxCount="1"/>
+            <item typeId="jntrGrndClck" probability="0.3" maxCount="1"/>
+            <item typeId="hlwnBlrmPn" probability="0.5" maxCount="1"/>
+            <item typeId="hlwnMrrw" probability="0.4" maxCount="1"/>
+            <item typeId="cstlSV14" probability="0.5" maxCount="1"/>
+            <item typeId="grdnrHrbrm" probability="0.3" maxCount="1"/>
+            <item typeId="chstGrdnrGft" probability="0.3" maxCount="1"/>
+            <item typeId="hlmtGRtr" probability="0.5" maxCount="1"/>
+            <item typeId="grdnrBtrflCol" probability="0.3" maxCount="1"/>
+            <item typeId="jntrHrgls" probability="0.3" maxCount="1"/>
+            <item typeId="jntrGrmphn" probability="0.3" maxCount="1"/>
+            <item typeId="jntrKnght" probability="0.3" maxCount="1"/>
+            <item typeId="vaseSV15" probability="0.5" maxCount="1"/>
+            <item typeId="grdnFlwrBskt" probability="0.3" maxCount="1"/>
+            <item typeId="grdnFlwrbd" probability="0.3" maxCount="1"/>
+        </category>
+
+        <category id="epicTropic" typeIds="bigVKGift">
+            <item typeId="ttm" minCount="5" maxCount="10"/>
+            <item typeId="rdwd" minCount="5" maxCount="10"/>
+            <item typeId="lnfb" minCount="5" maxCount="10"/>
+            <item typeId="ctfb" minCount="5" maxCount="10"/>
+        </category>
+    </group>
+</config>

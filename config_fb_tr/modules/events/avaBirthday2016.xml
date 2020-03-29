@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="avaBirthday2016" campaign="avaBirthday2016">
+    <friendHints>
+        <friendHint id="ab16WcmFndHnt" locations="house" delay="3000" ttl="10000" message="#avaBirthday2016WelcomeFriendHint"/>
+        <friendHint id="ab16TslFndHnt" locations="publicBeach,canyon" delay="3000" ttl="10000" message="#avaBirthday2016TinselFriendHint"
+                    icon="FriendNPCIcon@avaBirthday2016"/>
+        <friendHint id="ab16BhdFndHnt" locations="avaBirthday2016Beach" delay="3000" ttl="10000" message="#avaBirthday2016ClickCakeHint"/>
+        <friendHint id="ab16FlgFndHnt" delay="3000" ttl="10000" message="#avaBirthday2016AddFlagHint"/>
+    </friendHints>
+
+    <craft>
+        <craftedItem itemId="ab16Garland" holiday="">
+            <moduleComponent itemId="ab16FlagRed" count="3"/>
+            <moduleComponent itemId="ab16FlagGrn" count="3"/>
+            <moduleComponent itemId="ab16FlagBlu" count="5"/>
+            <moduleComponent itemId="ab16FlagPrl" count="1"/>
+        </craftedItem>
+
+        <craftedItem itemId="ab16Cap" holiday="">
+            <component itemId="wrappingPaper" count="10"/>
+            <moduleComponent itemId="ab16Tinsel" count="10"/>
+            <component itemId="idea" count="10"/>
+            <component itemId="luck" count="10"/>
+        </craftedItem>
+
+        <craftedItem itemId="fife" holiday="">
+            <component itemId="thread" count="5"/>
+            <component itemId="confetti" count="5" social="1"/>
+            <moduleComponent itemId="ab16Tinsel" count="5"/>
+            <component itemId="generosity" count="5"/>
+        </craftedItem>
+
+        <craftedItem itemId="ab16Ticket" holiday="">
+            <moduleComponent itemId="ab16Garland" count="1"/>
+            <moduleComponent itemId="ab16Cap" count="1"/>
+            <component itemId="industry" count="10"/>
+            <component itemId="beauty" count="10"/>
+        </craftedItem>
+    </craft>
+
+    <flags>
+        <flag id="ab16FlagRed" locations="cf1,p1,y1" color="red"/>
+        <flag id="ab16FlagGrn" locations="pb1,ctr1,s1" color="grn"/>
+        <flag id="ab16FlagBlu" locations="l1,l2,br1,ir1,cl1" color="blu"/>
+        <flag id="ab16FlagPrl" locations="v1" color="prl"/>
+    </flags>
+
+    <inventory>
+        <category id="art">
+            <item id="ab16Ticket" label="#ab16TicketLabel" icon="TicketIcon@avaBirthday2016" canBuy="0"/>
+        </category>
+
+        <category id="craftLoot">
+            <item id="ab16Tinsel" description="#ab16TinselDescription"
+                  name="Tinsel@avaBirthday2016" probability="0"
+                  icon="TinselIcon@avaBirthday2016" label="#ab16TinselLabel" gold="500"/>
+
+            <item id="ab16Garland" description="#ab16GarlandDescription"
+                  name="FlagGarland@avaBirthday2016" probability="0"
+                  icon="FlagGarlandIcon@avaBirthday2016" label="#ab16GarlandLabel" gold="10000"/>
+
+            <item id="ab16Cap" description="#ab16CapDescription"
+                  name="PartyHat@avaBirthday2016" probability="0"
+                  icon="PartyHatIcon@avaBirthday2016" label="#ab16CapLabel" gold="10000"/>
+
+            <item id="ab16FlagRed" description="#ab16FlagRedDescription"
+                  name="RedFlag@avaBirthday2016" probability="0"
+                  icon="RedFlagIcon@avaBirthday2016" label="#ab16FlagRedLabel" gold="500"/>
+
+            <item id="ab16FlagGrn" description="#ab16FlagGrnDescription"
+                  name="GreenFlag@avaBirthday2016" probability="0"
+                  icon="GreenFlagIcon@avaBirthday2016" label="#ab16FlagGrnLabel" gold="500"/>
+
+            <item id="ab16FlagBlu" description="#ab16FlagBluDescription"
+                  name="BlueFlag@avaBirthday2016" probability="0"
+                  icon="BlueFlagIcon@avaBirthday2016" label="#ab16FlagBluLabel" gold="700"/>
+
+            <item id="ab16FlagPrl" description="#ab16FlagPrlDescription"
+                  name="LilacFlag@avaBirthday2016" probability="0"
+                  icon="LilacFlagIcon@avaBirthday2016" label="#ab16FlagPrlLabel" gold="4500"/>
+        </category>
+    </inventory>
+
+    <locations>
+        <cakeItem id="avaBirthdayCake" wx="17" wy="6" wz="0" width="3" length="3" height="4"/>
+        <location id="avaBirthday2016Beach" zoneId="street" loadingContent="publicBeach,avaBirthday2016"
+                  defaultRoomId="ab1">
+            <rooms>
+                <room id="ab1" map="modules/map/avaBirthday2016_beach_map" userCount="15" criticalUserCount="20"
+                      backgroundSound="outside1,outside2" dresscode="beach"/>
+            </rooms>
+        </location>
+    </locations>
+
+    <awards>
+        <award id="1" itemType="resource" itemId="gold" icon="QuestGoldCoinIcon@ui" title="#goldLabel" count="60"/>
+
+        <award id="2" itemType="resource" itemId="silver" icon="QuestSilverCoinIcon@ui" title="#silverLabel" count="50000"/>
+
+        <award id="3" itemType="trophy" itemId="avaBirthdayTrophy2016" icon="TrophyIcon@avaBirthday2016"
+               title="#avaBirthdayTrophy2016Title" olderThanYears="3" count="1497819600"/>
+    </awards>
+</module>

@@ -1,0 +1,571 @@
+<?xml version='1.0' encoding='ASCII'?>
+<config id="furniture">
+
+    <category id="24" label="#kitchenCategory" priority="7" typeClass="furniture" library="kitchen" logCategory1="furniture">
+
+        
+        <category id="kitchenUnits" label="#kitchenUnitsCategoryLabel" logCategory2="unit" priority="1">
+
+            
+            <item id="kitchenUnitBase1" label="#kitchenUnitBase1Title" name="UnitBoard" icon="UnitBoardIcon" silver="280" rating="2" tags="table,cell" priority="9" loadType="file">
+                <dimension width="2" length="1" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitBase2" label="#kitchenUnitBase2Title" name="UnitBox" icon="UnitBoxIcon" silver="340" rating="3" tags="table,cell" priority="10" loadType="file">
+                <dimension width="2" length="2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitBase3" label="#kitchenUnitBase3Title" name="UnitDrawer" icon="UnitDrawerIcon" silver="310" rating="3" tags="table,cell" priority="11" loadType="file">
+                <dimension width="2" length="1" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitBase4" label="#kitchenUnitBase4Title" name="UnitSink" icon="UnitSinkIcon" silver="435" rating="4" tags="table,cell" priority="12" loadType="file">
+                <dimension width="2" length="2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitBase5" label="#kitchenUnitBase5Title" name="UnitSinkCorner" icon="UnitSinkCornerIcon" silver="415" rating="4" tags="table,cell" priority="13" loadType="file">
+                <dimension width="2" length="2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitBase7" label="#kitchenUnitBase7Title" name="UnitTopBoard" icon="UnitTopBoardIcon" silver="280" rating="2" tags="cell" priority="15" loadType="file">
+                <dimension width="2" length="0.99" height="2" defaultZ="4"/>
+                <placement floor="1" wall="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitBase8" label="#kitchenUnitBase8Title" name="UnitTopBox" icon="UnitTopBoxIcon" silver="340" rating="3" tags="cell" priority="16" loadType="file">
+                <dimension width="2" length="1.99" height="2" defaultZ="4"/>
+                <placement floor="1" wall="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitBase9" label="#kitchenUnitBase9Title" name="UnitTopCorner" icon="UnitTopCornerIcon" silver="415" rating="4" tags="cell" priority="17" loadType="file">
+                <dimension width="2" length="1.99" height="2" defaultZ="4"/>
+                <placement floor="1" wall="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitBase10" label="#kitchenUnitBase10Title" name="UnitTopGlass" icon="UnitTopGlassIcon" silver="320" rating="3" tags="cell" priority="18" loadType="file">
+                <dimension width="2" length="1.99" height="2" defaultZ="4"/>
+                <placement floor="1" wall="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitBase11" label="#kitchenUnitBase11Title" name="UnitTopGlassBox" icon="UnitTopGlassBoxIcon" silver="375" rating="3" tags="cell" priority="19" loadType="file">
+                <dimension width="2" length="0.99" height="2" defaultZ="4"/>
+                <placement floor="1" wall="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+
+            
+            <category id="kitchenPlateUnits" label="#kitchenUnitsCategoryLabel" logCategory2="unit">
+                <item id="kitchenUnitBase6" label="#kitchenUnitBase6Title" name="UnitStove" icon="UnitStoveIcon" silver="475" rating="4" tags="table,cell" priority="14" loadType="file">
+                    <dimension width="2" length="2" height="2"/>
+                    <placement floor="1"/>
+                    <direction names="SW,SE,NE,NW"/>
+                </item>
+                <item id="kitchenUnitBlack7" label="#kitchenUnitBlack7Title" name="UnitStoveBlack" icon="UnitStoveBlackIcon" silver="545" rating="5" tags="table,cell" priority="27" loadType="file">
+                    <dimension width="2" length="2" height="2"/>
+                    <placement floor="1"/>
+                    <direction names="SW,SE,NE,NW"/>
+                </item>
+                <item id="kitchenUnitMarble7" label="#kitchenUnitMarble7Title" name="UnitStoveMarble" icon="UnitStoveMarbleIcon" gold="8" rating="13" tags="table,cell" priority="39" loadType="file">
+                    <dimension width="2" length="2" height="2"/>
+                    <placement floor="1"/>
+                    <direction names="SW,SE,NE,NW"/>
+                </item>
+                <item id="kitchenUnitGirl5" label="#kitchenUnitGirl5Title" name="UnitStoveGirl" icon="UnitStoveGirlIcon" gold="8" rating="13" tags="table,cell" priority="49" loadType="file">
+                    <dimension width="2" length="2" height="2"/>
+                    <placement floor="1"/>
+                    <direction names="SW,SE,NE,NW"/>
+                </item>
+                <item id="uSeaStv" label="#unitStoveSeaLabel" name="UnitStoveSea" icon="UnitStoveSeaIcon" gold="45" rating="120" tags="table,cell" priority="57" loadType="file">
+                    <dimension width="2" length="2" height="2"/>
+                    <placement floor="1"/>
+                    <direction names="SW,SE"/>
+                </item>
+            </category>
+            
+            <item id="kitchenUnitBlack1" label="#kitchenUnitBlack1Title" name="UnitBoardBlack" icon="UnitBoardBlackIcon" silver="320" rating="3" tags="table,cell" priority="20" loadType="file">
+                <dimension width="2" length="1" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitBlack2" label="#kitchenUnitBlack2Title" name="UnitBoxBlack" icon="UnitBoxBlackIcon" silver="360" rating="3" tags="table,cell" priority="21" loadType="file">
+                <dimension width="2" length="2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitBlack3" label="#kitchenUnitBlack3Title" name="UnitCornerBlack" icon="UnitCornerBlackIcon" silver="385" rating="3" tags="table,cell" priority="22" loadType="file">
+                <dimension width="2" length="2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitBlack4" label="#kitchenUnitBlack4Title" name="UnitDrawerBlack" icon="UnitDrawerBlackIcon" silver="335" rating="3" tags="table,cell" priority="23" loadType="file">
+                <dimension width="2" length="1" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitBlack5" label="#kitchenUnitBlack5Title" name="UnitSinkBlack" icon="UnitSinkBlackIcon" silver="345" rating="3" tags="table,cell" priority="24" loadType="file">
+                <dimension width="2" length="2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitBlack6" label="#kitchenUnitBlack6Title" name="UnitSinkCornerBlack" icon="UnitSinkCornerBlackIcon" silver="370" rating="3" tags="table,cell" priority="25" loadType="file">
+                <dimension width="2" length="2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitBlack8" label="#kitchenUnitBlack8Title" name="UnitTopBoardBlack" icon="UnitTopBoardBlackIcon" silver="325" rating="3" tags="cell" priority="28" loadType="file">
+                <dimension width="2" length="0.99" height="2" defaultZ="4"/>
+                <placement floor="1" wall="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitBlack9" label="#kitchenUnitBlack9Title" name="UnitTopBoxBlack" icon="UnitTopBoxBlackIcon" silver="365" rating="3" tags="cell" priority="29" loadType="file">
+                <dimension width="2" length="1.99" height="2" defaultZ="4"/>
+                <placement floor="1" wall="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitBlack10" label="#kitchenUnitBlack10Title" name="UnitTopCornerBlack" icon="UnitTopCornerBlackIcon" silver="390" rating="3" tags="cell" priority="30" loadType="file">
+                <dimension width="2" length="1.99" height="2" defaultZ="4"/>
+                <placement floor="1" wall="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitBlack11" label="#kitchenUnitBlack11Title" name="UnitTopGlassBlack" icon="UnitTopGlassBlackIcon" silver="405" rating="4" tags="cell" priority="31" loadType="file">
+                <dimension width="2" length="1.99" height="2" defaultZ="4"/>
+                <placement floor="1" wall="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitBlack12" label="#kitchenUnitBlack12Title" name="UnitTopGlassBoxBlack" icon="UnitTopGlassBoxBlackIcon" silver="355" rating="3" tags="cell" priority="32" loadType="file">
+                <dimension width="2" length="0.99" height="2" defaultZ="4"/>
+                <placement floor="1" wall="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+
+            
+            <item id="kitchenUnitMarble1" label="#kitchenUnitMarble1Title" name="UnitBoardMarble" icon="UnitBoardMarbleIcon" gold="4" rating="6" tags="table,cell" priority="33" loadType="file">
+                <dimension width="2" length="1" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitMarble2" label="#kitchenUnitMarble2Title" name="UnitBoxMarble" icon="UnitBoxMarbleIcon" gold="5" rating="8" tags="table,cell" priority="34" loadType="file">
+                <dimension width="2" length="2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitMarble3" label="#kitchenUnitMarble3Title" name="UnitCornerMarble" icon="UnitCornerMarbleIcon" gold="5" rating="8" tags="table,cell" priority="35" loadType="file">
+                <dimension width="2" length="2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitMarble4" label="#kitchenUnitMarble4Title" name="UnitDrawerMarble" icon="UnitDrawerMarbleIcon" gold="5" rating="8" tags="table,cell" priority="36" loadType="file">
+                <dimension width="2" length="1" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitMarble5" label="#kitchenUnitMarble5Title" name="UnitSinkMarble" icon="UnitSinkMarbleIcon" gold="5" rating="8" tags="table,cell" priority="37" loadType="file">
+                <dimension width="2" length="2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitMarble6" label="#kitchenUnitMarble6Title" name="UnitSinkCornerMarble" icon="UnitSinkCornerMarbleIcon" gold="5" rating="8" tags="table,cell" priority="38" loadType="file">
+                <dimension width="2" length="2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitMarble8" label="#kitchenUnitMarble8Title" name="UnitTopBoardMarble" icon="UnitTopBoardMarbleIcon" gold="4" rating="6" tags="cell" priority="40" loadType="file">
+                <dimension width="2" length="0.99" height="2" defaultZ="4"/>
+                <placement floor="1" wall="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitMarble9" label="#kitchenUnitMarble9Title" name="UnitTopBoxMarble" icon="UnitTopBoxMarbleIcon" gold="5" rating="8" tags="cell" priority="41" loadType="file">
+                <dimension width="2" length="1.99" height="2" defaultZ="4"/>
+                <placement floor="1" wall="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitMarble10" label="#kitchenUnitMarble10Title" name="UnitTopCornerMarble" icon="UnitTopCornerMarbleIcon" gold="5" rating="8" tags="cell" priority="42" loadType="file">
+                <dimension width="2" length="1.99" height="2" defaultZ="4"/>
+                <placement floor="1" wall="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitMarble11" label="#kitchenUnitMarble11Title" name="UnitTopGlassMarble" icon="UnitTopGlassMarbleIcon" gold="5" rating="8" tags="cell" priority="43" loadType="file">
+                <dimension width="2" length="1.99" height="2" defaultZ="4"/>
+                <placement floor="1" wall="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitMarble12" label="#kitchenUnitMarble12Title" name="UnitTopGlassBoxMarble" icon="UnitTopGlassBoxMarbleIcon" gold="4" rating="6" tags="cell" priority="44" loadType="file">
+                <dimension width="2" length="0.99" height="2" defaultZ="4"/>
+                <placement floor="1" wall="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+
+            
+            <item id="kitchenUnitGirl1" label="#kitchenUnitGirl1Title" name="UnitBoardGirl" icon="UnitBoardGirlIcon" gold="4" rating="6" tags="table,cell" priority="45" loadType="file">
+                <dimension width="2" length="2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitGirl2" label="#kitchenUnitGirl2Title" name="UnitBoxGirl" icon="UnitBoxGirlIcon" gold="5" rating="8" tags="table,cell" priority="46" loadType="file">
+                <dimension width="2" length="2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitGirl3" label="#kitchenUnitGirl3Title" name="UnitCornerGirl" icon="UnitCornerGirlIcon" gold="5" rating="8" tags="table,cell" priority="47" loadType="file">
+                <dimension width="2" length="2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitGirl4" label="#kitchenUnitGirl4Title" name="UnitDrawerGirl" icon="UnitDrawerGirlIcon" gold="5" rating="8" tags="table,cell" priority="48" loadType="file">
+                <dimension width="2" length="1" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitGirl6" label="#kitchenUnitGirl6Title" name="UnitTopBoardGirl" icon="UnitTopBoardGirlIcon" gold="4" rating="6" tags="cell" priority="50" loadType="file">
+                <dimension width="2" length="1.99" height="2" defaultZ="4"/>
+                <placement floor="1" wall="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitGirl7" label="#kitchenUnitGirl7Title" name="UnitTopBoxGirl" icon="UnitTopBoxGirlIcon" gold="5" rating="8" tags="cell" priority="51" loadType="file">
+                <dimension width="2" length="1.99" height="2" defaultZ="4"/>
+                <placement floor="1" wall="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenUnitGirl8" label="#kitchenUnitGirl8Title" name="UnitTopDrawerGirl" icon="UnitTopDrawerGirlIcon" gold="5" rating="8" tags="cell" priority="52" loadType="file">
+                <dimension width="2" length="1.99" height="2" defaultZ="4"/>
+                <placement floor="1" wall="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+
+            
+            <item id="uSeaBrd" label="#unitBoardSeaLabel" name="UnitBoardSea" icon="UnitBoardSeaIcon" gold="5" rating="10" tags="table,cell" priority="53" loadType="file">
+                <dimension width="2" length="1" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="uSeaBox" label="#unitBoxSeaLabel" name="UnitBoxSea" icon="UnitBoxSeaIcon" gold="11" rating="25" tags="table,cell" priority="54" loadType="file">
+                <dimension width="2" length="2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="uSeaCpbrd" label="#unitCupboardSeaLabel" name="UnitCupboardSea" icon="UnitCupboardSeaIcon" gold="17" rating="40" tags="table,cell" priority="55" loadType="file">
+                <dimension width="2" length="3" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="uSeaSink" label="#unitSinkSeaLabel" name="UnitSinkSea" icon="UnitSinkSeaIcon" gold="15" rating="30" tags="table,cell" priority="56" loadType="file">
+                <dimension width="2" length="2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="uSeaCpbrdTop" label="#unitCupboardTopSeaLabel" name="UnitCupboardTopSea" icon="UnitCupboardTopSeaIcon" gold="12" rating="25" tags="cell" priority="58" loadType="file">
+                <dimension width="1" length="2.99" height="2" defaultZ="4"/>
+                <placement floor="1" wall="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="uSeaExtrctr" label="#unitExtractorFanSeaLabel" name="UnitExtractorFanSea" icon="UnitExtractorFanSeaIcon" gold="35" rating="90" tags="cell" priority="59" loadType="file">
+                <dimension width="1" length="1.99" height="2" defaultZ="4"/>
+                <placement floor="1" wall="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="uSeaMcrwvTop" label="#unitMicrovaweTopSeaLabel" name="UnitMicrovaweTopSea" icon="UnitMicrovaweTopSeaIcon" gold="25" rating="60" tags="cell" priority="60" loadType="file">
+                <dimension width="1" length="1.99" height="2" defaultZ="4"/>
+                <placement floor="1" wall="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+        </category>
+
+        
+        <category id="26" label="#refrigeratorsCategory" priority="2" logCategory2="refrigerator">
+            <item id="refrigerator1" label="#refrigerator1Title" name="Refrigerator" description="#refrigeratorDescription" icon="RefrigeratorIcon" gold="50" rating="125" tags="cell" priority="1" loadType="file">
+                <dimension width="2" length="2" height="4"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+                <params>
+                    <param name="productionTime" value="7199"/>
+                </params>
+            </item>
+            <item id="refrigerator2" label="#refrigerator2Title" name="RefrigeratorBig" vipOnly="1" description="#refrigeratorDescription" icon="RefrigeratorBigIcon" gold="100" rating="250" tags="cell" priority="2" loadType="file">
+                <dimension width="2" length="2.5" height="5.2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+                <params>
+                    <param name="productionTime" value="3599"/>
+                </params>
+            </item>
+            <item id="refrigerator3" label="#refrigerator3Title" name="RefrigeratorLong" level="8" description="#refrigeratorDescription" icon="RefrigeratorLongIcon" silver="9500" rating="95" tags="cell" priority="3" loadType="file">
+                <dimension width="1.5" length="1.5" height="5.2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+                <params>
+                    <param name="productionTime" value="10799"/>
+                </params>
+            </item>
+
+            
+            <item id="jntFrdg" label="#jntFrdg" name="JanitorFridge" icon="JanitorFridgeIcon" gold="9999" rating="800" tags="cell" priority="4" loadType="file">
+                <dimension width="1.8" length="1.8" height="4"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+                <params>
+                    <param name="productionTime" value="10799"/>
+                </params>
+            </item>
+        </category>
+
+        
+        <category id="kitchenTables" label="#kitchenTablesCategoryLabel" logCategory2="table" priority="3">
+            <item id="kitchenTable1" label="#kitchenTable1Title" name="TableDarkWood" icon="TableDarkWoodIcon" silver="575" rating="5" tags="table,cell" priority="5" loadType="file">
+                <dimension width="3" length="3" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="kitchenTable2" label="#kitchenTable2Title" name="TableGirl" icon="TableGirlIcon" gold="12" rating="24" tags="table,cell" priority="6" loadType="file">
+                <dimension width="3" length="4" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="kitchenTable3" label="#kitchenTable3Title" name="TableLightWood" icon="TableLightWoodIcon" silver="575" rating="5" tags="table,cell" priority="7" loadType="file">
+                <dimension width="3" length="3" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="kitchenTable4" label="#kitchenTable4Title" name="TableMarble" icon="TableMarbleIcon" gold="5" rating="8" tags="table,cell" priority="8" loadType="file">
+                <dimension width="3" length="3" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW"/>
+            </item>
+
+            
+            <item id="tblSea" label="#tableSeaLabel" name="TableSea" icon="TableSeaIcon" gold="5" rating="8" tags="table,cell" priority="9" loadType="file">
+                <dimension width="2" length="3" height="2.2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+        </category>
+
+        
+        <category id="kitchenChair" label="#kitchenChairCategory" priority="4" logCategory2="chair">
+            <item id="kitchenChair1" label="#kitchenChair1Title" name="ChairBlack" icon="ChairBlackIcon" silver="425" rating="4" tags="sit,cell" priority="1" loadType="file">
+                <dimension width="1" length="1" height="3" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="kitchenChair2" label="#kitchenChair2Title" name="ChairGirl" icon="ChairGirlIcon" gold="9" rating="15" tags="sit,cell" priority="2" loadType="file">
+                <dimension width="1" length="1" height="4" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="kitchenChair3" label="#kitchenChair3Title" name="ChairStrips" icon="ChairStripsIcon" gold="5" rating="8" tags="sit,cell" priority="3" loadType="file">
+                <dimension width="1" length="1" height="2.7" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="kitchenChair4" label="#kitchenChair4Title" name="ChairWhite" icon="ChairWhiteIcon" silver="450" rating="4" tags="sit,cell" priority="4" loadType="file">
+                <dimension width="1" length="1" height="3" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="chrSeaBlue" label="#chairBlueSeaLabel" name="ChairBlueSea" icon="ChairBlueSeaIcon" gold="15" rating="35" tags="sit,cell" priority="5" loadType="file">
+                <dimension width="1" length="1" height="3" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="chrSeaWht" label="#chairWhiteSeaLabel" name="ChairWhiteSea" icon="ChairWhiteSeaIcon" gold="15" rating="35" tags="sit,cell" priority="6" loadType="file">
+                <dimension width="1" length="1" height="3" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="armchSea" label="#armchairSeaLabel" name="ArmchairSea" icon="ArmchairSeaIcon" gold="25" rating="60" tags="sit,cell" priority="7" loadType="file" fileVersion="1">
+                <dimension width="1" length="1.5" height="3" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+        </category>
+
+        
+        <category id="27" label="#kitchenDecorCategory" priority="5" logCategory2="decor">
+            <item id="kitchenDecor1" label="#kitchenDecor1Title" name="Apple" canTrade="1" icon="AppleIcon" silver="60" rating="1" priority="1" loadType="file">
+                <dimension width="0.8" length="0.8" height="0.5"/>
+                <placement table="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="kitchenDecor2" label="#kitchenDecor2Title" name="CandleGirl" icon="CandleGirlIcon" gold="4" rating="6" priority="2" loadType="file">
+                <dimension width="0.4" length="0.4" height="2.5"/>
+                <placement table="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="kitchenDecor3" label="#kitchenDecor3Title" name="DishBlack" canTrade="1" icon="DishBlackIcon" silver="170" rating="1" priority="3" loadType="file" fileVersion="1">
+                <dimension width="0.4" length="0.4" height="0.8"/>
+                <placement table="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="kitchenDecor4" label="#kitchenDecor4Title" name="DishRed" canTrade="1" icon="DishRedIcon" silver="170" rating="1" priority="4" loadType="file">
+                <dimension width="0.4" length="0.4" height="0.8"/>
+                <placement table="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="kitchenDecor5" label="#kitchenDecor5Title" name="FlatwareGirl" icon="FlatwareGirlIcon" gold="2" rating="3" priority="5" loadType="file">
+                <dimension width="1" length="1" height="0.1"/>
+                <placement table="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenDecor6" label="#kitchenDecor6Title" name="FlatwareRed" icon="FlatwareRedIcon" gold="2" rating="3" priority="6" loadType="file">
+                <dimension width="1" length="1" height="0.1"/>
+                <placement table="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="kitchenDecor7" label="#kitchenDecor7Title" name="Lemon" canTrade="1" icon="LemonIcon" silver="55" rating="1" priority="7" loadType="file">
+                <dimension width="0.8" length="0.8" height="0.2"/>
+                <placement table="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="kitchenDecor8" label="#kitchenDecor8Title" name="NapkinHand" icon="NapkinHandIcon" gold="3" rating="5" priority="8" loadType="file">
+                <dimension width="0.3" length="0.3" height="1.2"/>
+                <placement table="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="hlwnKitchenDecor1" label="#halloweenKitchenDecor1Title" name="VineGlassBlood" holiday="halloween" icon="VineGlassBloodIcon" gold="3" rating="5" priority="9" loadType="file">
+                <dimension width="0.3" length="0.3" height="1.4"/>
+                <placement table="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="wdnCake" label="#weddingCakeTitle" name="WeddingCake" fileVersion="2" icon="WeddingCakeIcon" gold="10" rating="20" priority="10" wedding="1" loadType="file">
+                <dimension width="1" length="1" height="3.5"/>
+                <placement table="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="wdnCakeOrg" label="#weddingCakeOrangeTitle" name="WeddingCakeOrange" fileVersion="2" icon="WeddingCakeOrangeIcon" gold="12" rating="24" priority="11" wedding="1" loadType="file">
+                <dimension width="1.1" length="1.1" height="3"/>
+                <placement table="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="wdnFlat" label="#weddingFlatTitle" name="FlatwareWadding" icon="FlatwareWaddingIcon" silver="950" rating="9" priority="12" wedding="1" loadType="file">
+                <dimension width="1" length="1" height="0.1"/>
+                <placement table="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="wdnFlatOrg" label="#weddingFlatOrangeTitle" name="FlatwareWaddingOrange" icon="FlatwareWaddingOrangeIcon" silver="950" rating="9" priority="13" wedding="1" loadType="file">
+                <dimension width="1" length="1" height="0.1"/>
+                <placement table="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="wdnGlassBr" label="#weddingGlassBrideTitle" name="WeddingGlassBride" icon="WeddingGlassBrideIcon" gold="5" rating="9" priority="14" wedding="1" loadType="file">
+                <dimension width="0.2" length="0.2" height="1.5"/>
+                <placement table="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="wdnGlassBrgr" label="#weddingGlassBridegroomTitle" name="WeddingGlassBridegroom" icon="WeddingGlassBridegroomIcon" gold="5" rating="9" priority="15" wedding="1" loadType="file">
+                <dimension width="0.2" length="0.2" height="1.5"/>
+                <placement table="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="wdnTeasrvc" label="#weddingTeaserviceTitle" name="WeddingTeaservice" canTrade="1" icon="WeddingTeaserviceIcon" gold="17" rating="34" priority="16" canGift="1" loadType="file">
+                <dimension width="1.9" length="1.9" height="1"/>
+                <placement table="1"/>
+                <direction names="SW,SE"/>
+                <params>
+                    <param name="weddingGift" value="1"/>
+                </params>
+            </item>
+            <item id="bchlrDcr1" label="#wineglassRedBachelorTitle" name="WineglassRed" icon="WineglassRedIcon" gold="4" rating="7" priority="27" loadType="file">
+                <dimension width="0.2" length="0.2" height="0.7"/>
+                <placement table="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="bchlrDcr2" label="#orangeJuiceBachelorTitle" name="OrangeJuice" canTrade="1" icon="OrangeJuiceIcon" silver="600" rating="6" priority="28" loadType="file">
+                <dimension width="0.2" length="0.2" height="1"/>
+                <placement table="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="bchlrDcr3" label="#cocktaileJuiceRedBachelorTitle" name="CocktaileJuiceRed" canTrade="1" icon="CocktaileJuiceRedIcon" silver="700" rating="7" priority="29" loadType="file">
+                <dimension width="0.2" length="0.2" height="1"/>
+                <placement table="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="bchlrDcr4" label="#candleMiniBachelorTitle" name="CandleMini" canTrade="1" icon="CandleMiniIcon" silver="260" rating="2" priority="30" loadType="file">
+                <dimension width="0.3" length="0.3" height="0.2"/>
+                <placement table="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="bchlrDcr5" label="#plateGrayBachelorTitle" name="PlateGray" canTrade="1" icon="PlateGrayIcon" silver="375" rating="3" priority="31" loadType="file">
+                <dimension width="0.7" length="1" height="0.1"/>
+                <placement table="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="nyDcr1" label="#wineglassGoldNYTitle" name="WineglassGold" holiday="NY" icon="WineglassGoldIcon" gold="9" rating="15" priority="17" loadType="file">
+                <dimension width="0.2" length="0.2" height="1.2"/>
+                <placement table="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="nyDcr2" label="#wineglassBlueNYTitle" name="WineglassBlue" holiday="NY" icon="WineglassBlueIcon" gold="7" rating="12" priority="18" loadType="file">
+                <dimension width="0.3" length="0.3" height="1.4"/>
+                <placement table="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="nyDcr3" label="#turkeyVegetableNYTitle" name="TurkeyVegetable" holiday="NY" icon="TurkeyVegetableIcon" gold="25" rating="55" vipOnly="1" priority="19" loadType="file">
+                <dimension width="1.5" length="1.5" height="0.4"/>
+                <placement table="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="nyDcr4" label="#shishkebabNYTitle" name="Shishkebab" holiday="NY" icon="ShishkebabIcon" gold="15" rating="30" priority="20" loadType="file">
+                <dimension width="1" length="2" height="0.4"/>
+                <placement table="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="nyDcr5" label="#potatoGreenNYTitle" name="PotatoGreen" holiday="NY" canTrade="1" icon="PotatoGreenIcon" silver="725" rating="7" priority="21" loadType="file">
+                <dimension width="0.5" length="0.5" height="0.7"/>
+                <placement table="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="nyDcr6" label="#lollipopNYTitle" name="Lollipop" holiday="NY" icon="LollipopIcon" gold="6" rating="10" priority="22" loadType="file">
+                <dimension width="0.3" length="0.3" height="2.1"/>
+                <placement table="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="nyDcr7" label="#cakeStrawberryNYTitle" name="CakeStrawberry" holiday="NY" canTrade="1" icon="CakeStrawberryIcon" silver="1450" rating="14" priority="23" loadType="file">
+                <dimension width="1" length="1" height="0.5"/>
+                <placement table="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="nyDcr8" label="#cakePieceNYTitle" name="CakePiece" holiday="NY" canTrade="1" icon="CakePieceIcon" silver="370" rating="3" priority="24" loadType="file">
+                <dimension width="0.7" length="0.7" height="0.5"/>
+                <placement table="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="nyDcr9" label="#plateBlueNYTitle" name="PlateBlue" holiday="NY" icon="PlateBlueIcon" gold="4" rating="7" priority="25" loadType="file">
+                <dimension width="0.7" length="1" height="0.1"/>
+                <placement table="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="nyDcr10" label="#beconEggNYTitle" name="BeconEgg" holiday="NY" canTrade="1" icon="BeconEggIcon" silver="600" rating="6" priority="26" loadType="file">
+                <dimension width="0.7" length="1" height="0.1"/>
+                <placement table="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+
+            
+            <category id="janitorSamovarCollection">
+                <item id="jntrSmvr" label="#jntrSmvr" name="JanitorSamovar" icon="JanitorSamovarIcon" gold="9999" rating="90" priority="27" loadType="file">
+                    <dimension width="1.3" length="1.3" height="1.6"/>
+                    <placement table="1"/>
+                    <direction names="SW,SE"/>
+                </item>
+            </category>
+
+            <category id="janitorSodaMachineCollection">
+                <item id="jntrSdMchn" label="#jntrSdMchn" name="JanitorSodaMachine" icon="JanitorSodaMachineIcon" gold="9999" rating="350" priority="28" loadType="file">
+                    <dimension width="1" length="2.5" height="4.2"/>
+                    <placement floor="1"/>
+                    <direction names="SW,SE"/>
+                </item>
+            </category>
+        </category>
+    </category>
+
+</config>

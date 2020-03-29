@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<houses>
+    <npcHouses>
+        <house id="1" npcName="TestBoyNPC" gender="1">
+            <item id="1" typeId="wall22" direction="3"/>
+            <item id="2" typeId="wall22" direction="5" x="13"/>
+            <item id="3" typeId="floor23"/>
+            <item id="4" typeId="door10" direction="5" x="13" y="5.7" z="0" targetRoomId="outside"/>
+            <item id="5" typeId="guitar" x="0" y="0.2" direction="3"/>
+            <item id="6" typeId="wheel" x="9.67" y="0" z="3" direction="3"/>
+            <item id="7" typeId="sofaVip2" x="5" y="8" z="0" direction="5"/>
+            <item id="9" typeId="wheel" x="1.75" y="0" z="3" direction="3"/>
+            <item id="10" typeId="wheel" x="12.5" y="2.52" z="3" direction="5"/>
+            <item id="11" typeId="applianceTv4" x="12.7" y="8.3" z="2" direction="5" currentChannel="tvbch4" state="1"/>
+            <item id="12" typeId="chair9" x="1" y="5" direction="5"/>
+            <item id="13" typeId="chair9" x="1" y="1" direction="5"/>
+            <item id="14" typeId="chair9" x="3" y="5" direction="5"/>
+            <item id="15" typeId="chair9" x="3" y="1" direction="5"/>
+            <item id="16" typeId="manTable2" x="2" y="9" direction="5"/>
+            <item id="17" typeId="acoustic3" x="12.3" y="8" direction="5"/>
+            <item id="18" typeId="acoustic3" x="12.3" y="12.5" direction="5"/>
+            <item id="19" typeId="shelfDVDGray1" x="12" y="9" direction="5"/>
+            <item id="20" typeId="manTable1" x="1" y="3" direction="3"/>
+            <item id="21" typeId="bchlrDcr4" x="2.5" y="9.3" z="1" direction="5"/>
+            <item id="22" typeId="bchlrDcr1" x="3.6" y="3.7" z="2" direction="5"/>
+            <item id="23" typeId="scullCandle" x="2.06" y="9.93" z="1" direction="3"/>
+            <item id="24" typeId="bchlrDcr4" x="2.04" y="9.17" z="1" direction="5"/>
+            <item id="25" typeId="bchlrDcr1" x="3.6" y="3.3" z="2" direction="5"/>
+            <item id="26" typeId="bchlrDcr1" x="1.15" y="3.78" z="2" direction="5"/>
+            <item id="27" typeId="bchlrDcr1" x="1.05" y="3.11" z="2" direction="5"/>
+            <item id="28" typeId="ghostBlack" x="5.53" y="0" z="0" direction="3"/>
+            <item id="29" typeId="nyDcr4" x="1.5" y="3" z="2" direction="3"/>
+            <item id="30" typeId="pictureEinstein" x="5.21" y="0" z="1.4" direction="3"/>
+            <item id="31" typeId="miscAppliance1" x="12.2" y="9.55" z="0.8" direction="5"/>
+        </house>
+        <house id="2" npcName="TestGirlNPC" gender="2">
+            <item id="1" typeId="wall20" direction="3"/>
+            <item id="2" typeId="wall20" direction="5" x="13"/>
+            <item id="3" typeId="floor20"/>
+            <item id="4" typeId="doorVip2" direction="3" x="5.39" y="0" z="0" targetRoomId="outside"/>
+            <item id="5" typeId="sofa11" x="7" y="8" z="0" direction="5"/>
+            <item id="6" typeId="vaseGold" x="8.02" y="12.39" z="0" direction="5"/>
+            <item id="7" typeId="applianceMusicCenter3" x="11.75" y="2.69" z="0" direction="5"/>
+            <item id="8" typeId="nyDcr1" x="2.59" y="10.28" z="1" direction="5"/>
+            <item id="9" typeId="nyDcr1" x="4.19" y="11.19" z="1" direction="5"/>
+            <item id="10" typeId="nyDcr1" x="4.06" y="10.19" z="1" direction="5"/>
+            <item id="11" typeId="vaseForget" x="6.98" y="6.67" z="0" direction="5"/>
+            <item id="12" typeId="carpet5" x="1.5" y="9" z="0" direction="3"/>
+            <item id="13" typeId="armchair7" x="4" y="6" z="0" direction="3"/>
+            <item id="14" typeId="armchair7" x="1" y="6" z="0" direction="3"/>
+            <item id="15" typeId="fireplace3" x="9.7" y="0" z="0" direction="3" state="1"/>
+            <item id="16" typeId="table10" x="2" y="10" z="0" direction="3"/>
+            <item id="17" typeId="table8" x="12" y="11" z="0" direction="5"/>
+            <item id="18" typeId="lamp9" x="4.73" y="0" z="2" direction="3"/>
+            <item id="19" typeId="lamp9" x="8.84" y="0" z="2" direction="3"/>
+            <item id="20" typeId="carpet5" x="9.39" y="0.89" z="0" direction="5"/>
+            <item id="21" typeId="wardrobeForget1" x="12" y="8" z="0" direction="5"/>
+            <item id="22" typeId="table9" x="12" y="6" z="0" direction="5"/>
+            <item id="23" typeId="fireWood" x="10.89" y="1.45" z="0" direction="5"/>
+            <item id="24" typeId="window11" x="13" y="2.31" z="1" direction="5"/>
+            <item id="25" typeId="nyDcr7" x="2.75" y="10.75" z="1" direction="5"/>
+            <item id="26" typeId="mailBox3" x="8.23" y="0.98" z="0" direction="3"/>
+            <item id="27" typeId="vaseGold" x="0.08" y="6.14" z="0" direction="3"/>
+            <item id="28" typeId="vaseGold" x="12.45" y="1" z="0" direction="5"/>
+        </house>
+    </npcHouses>
+    <userHouses>
+        <house id="1" label="#userHouse1Label" description="#userHouse1Description" gold="50">
+            <item id="1" typeId="wall15" direction="3"/>
+            <item id="2" typeId="wall15" direction="5" x="13"/>
+            <item id="3" typeId="floor4"/>
+            <item id="4" typeId="door4" direction="3" x="3" y="0" z="0" targetRoomId="outside"/>
+            <item id="5" typeId="door4" direction="3" x="10" y="0" z="0"/>
+            <item id="6" typeId="door4" direction="5" x="13" y="8" z="0"/>
+            
+            <item id="11" typeId="armchair4" x="3" y="5" direction="3"/>
+            <item id="8" typeId="table1" x="3" y="8" z="0" direction="5"/>
+            <item id="13" typeId="sofa6" x="6" y="7" direction="5"/>
+            <item id="7" typeId="window7" x="13" y="1.34" z="1" direction="5"/>
+            <item id="9" typeId="wardrobeNarrow1" x="12" y="6" z="0" direction="5"/>
+            <item id="10" typeId="lamp3" x="6.3" y="5.3" direction="5"/>
+            <item id="12" typeId="pictureIris" x="6.75" y="0" z="2" direction="3"/>
+        </house>
+        <house id="2" label="#userHouse2Label" description="#userHouse2Description" gold="50">
+            <item id="1" typeId="wall11" direction="3"/>
+            <item id="2" typeId="wall11" direction="5" x="13"/>
+            <item id="3" typeId="floor22"/>
+            <item id="4" typeId="door10" direction="3" x="2.2" y="0" z="0" targetRoomId="outside"/>
+            <item id="5" typeId="door10" direction="3" x="9.5" y="0" z="0"/>
+            <item id="6" typeId="door10" direction="5" x="13" y="8" z="0"/>
+            
+            <item id="8" typeId="sofa19" x="3" y="4" direction="3"/>
+            <item id="9" typeId="sofa20" x="7" y="6" direction="5"/>
+            <item id="13" typeId="pictureBachelor" x="4.7" y="0" z="2" direction="3"/>
+            <item id="11" typeId="table1" x="3" y="8" direction="5"/>
+            <item id="7" typeId="window2" x="13" y="0.9" z="1" direction="5"/>
+            <item id="10" typeId="furnitureMisc2" x="12" y="5" direction="5"/>
+            <item id="12" typeId="decorBachelor2" x="3.72" y="8.8" z="1" direction="5"/>
+        </house>
+        <house id="3" label="#userHouse3Label" description="#userHouse3Description" gold="50">
+            <item id="1" typeId="wall17" direction="3"/>
+            <item id="2" typeId="wall17" direction="5" x="13"/>
+            <item id="3" typeId="floor14"/>
+            <item id="4" typeId="door7" direction="3" x="3" y="0" z="0" targetRoomId="outside"/>
+            <item id="5" typeId="door7" direction="3" x="9.5" y="0" z="0"/>
+            <item id="6" typeId="door7" direction="5" x="13" y="8" z="0"/>
+            
+            <item id="9" typeId="sofa18" x="7" y="6" direction="5"/>
+            <item id="12" typeId="armchair14" x="4" y="4" z="0" direction="3"/>
+            <item id="7" typeId="window8" x="13" y="1" z="1" direction="5"/>
+            <item id="14" typeId="pictureVeniceRose" x="5.55" y="0" z="2" direction="3"/>
+            <item id="8" typeId="vaseDecorativeFlower" x="4.48" y="7.93" z="1.6" direction="5"/>
+            <item id="10" typeId="wardrobeWindow" x="12" y="5" direction="5"/>
+            <item id="11" typeId="table4" x="4" y="7" direction="5"/>
+        </house>
+        <house id="4" label="#userHouse4Label" description="#userHouse4Description" gold="50">
+            <item id="1" typeId="wall7" direction="3"/>
+            <item id="2" typeId="wall7" direction="5" x="13"/>
+            <item id="3" typeId="floor23"/>
+            <item id="4" typeId="door4" direction="3" x="2.23" y="0" z="0" targetRoomId="outside"/>
+            <item id="5" typeId="door4" direction="3" x="9.8" y="0" z="0"/>
+            <item id="6" typeId="door4" direction="5" x="13" y="8" z="0"/>
+            
+            <item id="9" typeId="sofa13" x="7" y="6" direction="5"/>
+            <item id="12" typeId="armchair9" x="4" y="4" z="0" direction="3"/>
+            <item id="11" typeId="table5" x="4" y="7" direction="5"/>
+            <item id="10" typeId="furnitureMisc2" x="12" y="5" direction="5"/>
+            <item id="7" typeId="window6" x="13" y="1.22" z="1" direction="5"/>
+            <item id="8" typeId="pictureBeach" x="5.51" y="0" z="1" direction="3"/>
+            <item id="14" typeId="lamp4" x="6.84" y="4.47" z="0" direction="5"/>
+        </house>
+        <house id="5" label="#userHouse5Label" description="#userHouse5Description" gold="50">
+            <item id="1" typeId="wall1" direction="3"/>
+            <item id="2" typeId="wall1" direction="5" x="13"/>
+            <item id="3" typeId="floor1"/>
+            <item id="4" typeId="door1" direction="3" x="1.81" y="0" z="0" targetRoomId="outside"/>
+            <item id="5" typeId="door1" direction="3" x="9.8" y="0" z="0"/>
+            <item id="6" typeId="door1" direction="5" x="13" y="8" z="0"/>
+            
+            <item id="7" typeId="window12" x="13" y="1.54" z="1" direction="5"/>
+            <item id="13" typeId="vaseBase" x="4.5" y="8.13" z="1" direction="5"/>
+            <item id="8" typeId="pictureBase" x="6" y="0" z="1" direction="3"/>
+            <item id="9" typeId="sofa1" x="7" y="6" direction="5"/>
+            <item id="10" typeId="furnitureMisc2" x="12" y="5" direction="5"/>
+            <item id="11" typeId="table1" x="4" y="7" direction="5"/>
+            <item id="12" typeId="sofa1" x="3" y="4" z="0" direction="3"/>
+        </house>
+    </userHouses>
+</houses>

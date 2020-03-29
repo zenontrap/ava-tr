@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module active="true" id="newyear2015">
+
+    <inventory>
+        <category id="craftLoot">
+	        <item id="snowflake" name="SnowflakeLoot@newyear2015" icon="SnowflakeIcon@newyear2015" label="#snowflakeLootLabel"
+	            description="#snowflakeLootDescrioption" probability="0.4" gold="0" silver="0" canTrade="0" canSale="0" />
+            <item id="mitten" name="MittenLoot@newyear2015" icon="MittenIcon@newyear2015" label="#mittenLootLabel"
+                description="#mittenLootDescrioption" probability="0.4" gold="0" silver="0" canTrade="0" canSale="0" />
+        </category>
+    </inventory>
+    
+    <awards>
+        <award id="1" snowflakes="100" itemType="furniture" itemId="frplSantaHouse" gold="60"
+            icon="CircleFireplace@newyear2015" requestIcon="Fireplace@newyear2015" receiveIcon="GetFireplace@newyear2015"/>
+        
+        <award id="2" snowflakes="350" itemType="clothesSet" itemId="ny15gs" gold="150" gender="2"
+            icon="CircleGirlClothes@newyear2015" requestIcon="GirlClothes@newyear2015" receiveIcon="GetGirlClothes@newyear2015"/>
+        <award id="3" snowflakes="350" itemType="clothesSet" itemId="ny15bs" gold="150" gender="1"
+            icon="CircleBoyClothes@newyear2015" requestIcon="BoyClothes@newyear2015" receiveIcon="GetBoyClothes@newyear2015"/>
+        
+        <award id="4" snowflakes="750" itemType="furnitureSet" itemId="ny15ri" gold="300"
+            icon="CircleSantaRoom@newyear2015" requestIcon="SantaRoom@newyear2015" receiveIcon="GetSantaRoom@newyear2015"/>
+
+        <award id="5" snowflakes="1500" itemType="furniture" itemId="magicMachineItem" gold="600"
+            icon="CircleFactory@newyear2015" requestIcon="Factory@newyear2015" receiveIcon="GetFactory@newyear2015"/>
+    </awards>
+    
+    <mittens period="21600">
+        <mitten friends="2" count="1" />
+        <mitten friends="5" count="2" />
+        <mitten friends="10" count="4" />
+        <mitten friends="25" count="10" />
+        <mitten friends="50" count="20" />
+        <mitten friends="100" count="30" />
+    </mittens>
+    
+</module>

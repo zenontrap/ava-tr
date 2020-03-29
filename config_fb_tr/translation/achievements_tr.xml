@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<dictionary>
+
+    <locale name="tr">
+
+        <!-- ACHIEVEMENTS -->
+
+        <message key="achievementsCategory">Başarılar</message>
+
+        <message key="goodFriendTitle">İyi Arkadaş</message>
+        <message key="magnateTitle">Patron</message>
+        <message key="pilowChampTitle">Yastık Şampiyonu</message>
+        <message key="generousTitle">Cömert Ruh</message>
+        <message key="shopaholicTitle">Alışveriş bağımlısı</message>
+        <message key="workaholicTitle">İşkolik</message>
+        <message key="vipTitle">Düzenli VIP</message>
+        <message key="crafterTitle">Kendin Yap</message>
+        <message key="schoolMasterTitle">Ögrenci</message>
+
+        <message key="beachRaceChampTitle">Sörf Ustası</message>
+
+        <message key="goodFriendHint1">5 avatarla arkadaş olundu</message>
+        <message key="goodFriendHint2">20 avatarla arkadaş olundu</message>
+        <message key="goodFriendHint3">100 avatarla arkadaş olundu</message>
+        <message key="magnateHint1">Mağazalarda 20 altın üzerinde harcama yapıldı</message>
+        <message key="magnateHint2">Mağazalarda 100 altın üzerinde harcama yapıldı</message>
+        <message key="magnateHint3">Mağazalarda 500 altın üzerinde harcama yapıldı</message>
+        <message key="pilowChampHint1">Yastık savaşında 25 zafer</message>
+        <message key="pilowChampHint2">Yastık savaşında 100 zafer</message>
+        <message key="pilowChampHint3">Yastık savaşında 250 zafer</message>
+        <message key="generousHint1">Birisine kafede veya kulüpte 25 defa ikramda bulunuldu</message>
+        <message key="generousHint2">Birisine kafede veya kulüpte 100 defa ikramda bulunuldu</message>
+        <message key="generousHint3">Birisine kafede veya kulüpte 250 defa ikramda bulunuldu</message>
+        <message key="shopaholicHint1">Mağazalarda 5.000 gümüş üzerinde harcama yapıldı</message>
+        <message key="shopaholicHint2">Mağazalarda 20.000 gümüş üzerinde harcama yapıldı</message>
+        <message key="shopaholicHint3">Mağazalarda 100.000 gümüş üzerinde harcama yapıldı</message>
+        <message key="workaholicHint1">Bahçede ve sokakta 2.500 gümüş kazanıldı</message>
+        <message key="workaholicHint2">Bahçede ve sokakta 10.000 gümüş kazanıldı</message>
+        <message key="workaholicHint3">Bahçede ve sokakta 50.000 gümüş kazanıldı</message>
+        <message key="vipHint1">2 defa VIP statüsü alındı</message>
+        <message key="vipHint2">7 defa VIP statüsü alındı</message>
+        <message key="vipHint3">20 defa VIP statüsü alındı</message>
+        <message key="crafterHint1">Atölyede 3 eşya yapıldı</message>
+        <message key="crafterHint2">Atölyede 10 eşya yapıldı</message>
+        <message key="crafterHint3">Atölyede 25 eşya yapıldı</message>
+        <message key="schoolMasterHint1">275 puan toplayarak Avataria Okulu'nda esas ödülü kazan</message>
+        <message key="schoolMasterHint2">Ilk olarak bir bronz madalya elde et, sonra Avataria Okulu'ndaki esas ödülü yeniden kazan</message>
+        <message key="schoolMasterHint3">Ilk olarak bir gümüş madalya elde et, sonra Avataria Okulu'ndaki esas ödülü yeniden kazan</message>
+        <message key="beachRaceChampHint1">25 sörf yarışı kazanın</message>
+        <message key="beachRaceChampHint2">100 sörf yarışı kazanın</message>
+        <message key="beachRaceChampHint3">250 sörf yarışı kazanın</message>
+
+        <message key="goodFriendTitle1">İyi Arkadaş</message>
+        <message key="goodFriendTitle2">Arkadaşlar Arasında</message>
+        <message key="goodFriendTitle3">Sadık Arkadaş</message>
+        <message key="magnateTitle1">Temel</message>
+        <message key="magnateTitle2">Patron</message>
+        <message key="magnateTitle3">Oligarşik Yönetici</message>
+        <message key="pilowChampTitle1">Zorba</message>
+        <message key="pilowChampTitle2">Yastık Uzmanı</message>
+        <message key="pilowChampTitle3">Tüyler Uçuyor!</message>
+        <message key="generousTitle1">Anlayışlı</message>
+        <message key="generousTitle2">Hayırsever</message>
+        <message key="generousTitle3">Cömert Ruh</message>
+        <message key="shopaholicTitle1">Alışveriş Meraklısı</message>
+        <message key="shopaholicTitle2">Stajyer Alışveriş Bağımlısı</message>
+        <message key="shopaholicTitle3">Tiryaki Alışveriş Bağımlısı</message>
+        <message key="workaholicTitle1">İşçi</message>
+        <message key="workaholicTitle2">Sert oyuncu</message>
+        <message key="workaholicTitle3">İşkolik</message>
+        <message key="vipTitle1">Acemi VIP</message>
+        <message key="vipTitle2">Düzenli VIP</message>
+        <message key="vipTitle3">Fanatik VIP</message>
+        <message key="crafterTitle1">Çırak</message>
+        <message key="crafterTitle2">Usta</message>
+        <message key="crafterTitle3">Yetenekli Zanaatkar</message>
+        <message key="schoolMasterTitle1">Mezun</message>
+        <message key="schoolMasterTitle2">Çokbilmiş</message>
+        <message key="schoolMasterTitle3">Okul Birincisi</message>
+        <message key="beachRaceChampTitle1">Yeni Başlayan Sörfçü</message>
+        <message key="beachRaceChampTitle2">Dalga Uçucu</message>
+        <message key="beachRaceChampTitle3">Efsane Sörfçü</message>
+
+        <message key="goodFriendDescription1">5 avatarla arkadaş olundu</message>
+        <message key="goodFriendDescription2">20 avatarla arkadaş olundu</message>
+        <message key="goodFriendDescription3">100 avatarla arkadaş olundu</message>
+        <message key="magnateDescription1">Mağazalarda 20 altın üzerinde harcama yapıldı</message>
+        <message key="magnateDescription2">Mağazalarda 100 altın üzerinde harcama yapıldı</message>
+        <message key="magnateDescription3">Mağazalarda 500 altın üzerinde harcama yapıldı</message>
+        <message key="pilowChampDescription1">Yastık savaşında 25 zafer</message>
+        <message key="pilowChampDescription2">Yastık savaşında 100 zafer</message>
+        <message key="pilowChampDescription3">Yastık savaşında 250 zafer</message>
+        <message key="generousDescription1">Birisine kafede veya kulüpte 25 defa ikramda bulunuldu</message>
+        <message key="generousDescription2">Birisine kafede veya kulüpte 100 defa ikramda bulunuldu</message>
+        <message key="generousDescription3">Birisine kafede veya kulüpte 250 defa ikramda bulunuldu</message>
+        <message key="shopaholicDescription1">Mağazalarda 5.000 gümüş üzerinde harcama yapıldı</message>
+        <message key="shopaholicDescription2">Mağazalarda 20.000 gümüş üzerinde harcama yapıldı</message>
+        <message key="shopaholicDescription3">Mağazalarda 100.000 gümüş üzerinde harcama yapıldı</message>
+        <message key="workaholicDescription1">Bahçede ve sokakta 2.500 gümüş kazanıldı</message>
+        <message key="workaholicDescription2">Bahçede ve sokakta 10.000 gümüş kazanıldı</message>
+        <message key="workaholicDescription3">Bahçede ve sokakta 50.000 gümüş kazanıldı</message>
+        <message key="vipDescription1">2 defa VIP statüsü alındı</message>
+        <message key="vipDescription2">7 defa VIP statüsü alındı</message>
+        <message key="vipDescription3">20 defa VIP statüsü alındı</message>
+        <message key="crafterDescription1">Atölyede 3 eşya yapıldı</message>
+        <message key="crafterDescription2">Atölyede 10 eşya yapıldı</message>
+        <message key="crafterDescription3">Atölyede 25 eşya yapıldı</message>
+        <message key="schoolMasterDescription1">Avataria Okulu'nda 50 altin elde edildi</message>
+        <message key="schoolMasterDescription2">Avataria Okulu'nda 100 altin elde edildi</message>
+        <message key="schoolMasterDescription3">Avataria Okulu'nda 150 altin elde edildi</message>
+        <message key="beachRaceChampDescription1">25 sörf yarışı kazanılsı</message>
+        <message key="beachRaceChampDescription2">100 sörf yarışı kazanıldı</message>
+        <message key="beachRaceChampDescription3">250 sörf yarışı kazanıldı</message>
+
+        <message key="achievementAwardTypeLevel1">bronz</message>
+        <message key="achievementAwardTypeLevel2">gümüş</message>
+        <message key="achievementAwardTypeLevel3">altın</message>
+
+        <message key="goodFriendDoNext">:count: arkadaş edinin</message>
+        <message key="magnateDoNext">mağazalarda :count: altın harcayın</message>
+        <message key="pilowChampDoNext">yastık savaşında :count: defa zaferle çıkın</message>
+        <message key="generousDoNext">kulüpte veya kafede birisine :count: defa ikramda bulunun</message>
+        <message key="shopaholicDoNext">mağazalarda :count: gümüş harcayın</message>
+        <message key="workaholicDoNext">işte :count: gümüş kazanın</message>
+        <message key="vipDoNext">:count: defa VIP statüsü alın</message>
+        <message key="crafterDoNext">atölyede :count: eşya yapın</message>
+        <message key="schoolMasterDoNext">Avataria Okulu'ndaki esas ödülü kazan</message>
+        <message key="beachRaceChampDoNext">:count: sörf yarışı kazanın</message>
+
+        <message key="carRaceChampTitle">Yarış Arabası Sürücüsü</message>
+        <message key="carRaceChampTitle1">Acemi Yarışçı</message>
+        <message key="carRaceChampTitle2">Rüzgardan Hızlı</message>
+        <message key="carRaceChampTitle1">Yarış Şampiyonu</message>
+        <message key="carRaceChampDescription1">Araba yarışlarında 50 zafer</message>
+        <message key="carRaceChampDescription2">Araba yarışlarında 250 zafer</message>
+        <message key="carRaceChampDescription3">Araba yarışlarında 500 zafer</message>
+        <message key="carRaceChampHint1">Araba yarışlarında 50 zafer kazan</message>
+        <message key="carRaceChampHint2">Araba yarışlarında 250 zafer kazan</message>
+        <message key="carRaceChampHint3">Araba yarışlarında 500 zafer kazan</message>
+
+        <message key="carRaceChampTitle3">Şampiyon Yarışçı</message>
+        <message key="activityWinnerTitle">En Aktif</message>
+        <message key="carRaceChampDoNext">:count: araba yarışı kazan</message>
+        <message key="activityWinnerDoNext">en aktif ilk 10 oyuncu listesine :count: kez gir</message>
+        <message key="activityWinnerTitle1">Popüler Avatar</message>
+        <message key="activityWinnerTitle2">Ünlü Avatar</message>
+        <message key="activityWinnerTitle3">Efsane Avatar</message>
+        <message key="activityWinnerDescription1">En aktif 10 oyuncu listesine 3 kez gir</message>
+        <message key="activityWinnerDescription2">En aktif 10 oyuncu listesine 5 kez gir</message>
+        <message key="activityWinnerDescription3">En aktif 10 oyuncu listesine 15 kez gir</message>
+        <message key="activityWinnerHint1">3 kez en aktif 10 oyuncudan biri ol</message>
+        <message key="activityWinnerHint2">5 kez en aktif 10 oyuncudan biri ol</message>
+        <message key="activityWinnerHint3">15 kez en aktif 10 oyuncudan biri ol</message>
+
+        <message key="meerkatBearTitle">Ayı Avcısı</message>
+        <message key="meerkatBearHint1">Mirket oyununda 10 ayı kazan</message>
+        <message key="meerkatBearHint2">Mirket oyununda 25 ayı kazan</message>
+        <message key="meerkatBearHint3">Mirket oyununda 50 ayı kazan</message>
+        <message key="meerkatBearTitle1">Ayı Ailesi</message>
+        <message key="meerkatBearTitle2">Ayı Koleksiyonu</message>
+        <message key="meerkatBearTitle3">Ayı Lejyonu</message>
+        <message key="meerkatBearDescription1">Mirket oyununda en az 10 ayı kazandı</message>
+        <message key="meerkatBearDescription2">Mirket oyununda en az 25 ayı kazandı</message>
+        <message key="meerkatBearDescription3">Mirket oyununda en az 50 ayı kazandı</message>
+        <message key="meerkatBearDoNext">Mirket oyununda :count: ayı kazan</message>
+
+        <message key="snowboarderTitle">Kar Kayakçısı</message>
+        <message key="snowboarderDoNext">:count: kar kayağı yarışında yer al</message>
+        <message key="snowboarderTitle1">Cesur Kayakçı</message>
+        <message key="snowboarderTitle2">Saygın Kayakçı</message>
+        <message key="snowboarderTitle3">Onurlu Kayakçı</message>
+        <message key="snowboarderDescription1">2.500 kar kayağı yarışında yer aldın</message>
+        <message key="snowboarderDescription2">5.000 kar kayağı yarışında yer aldın</message>
+        <message key="snowboarderDescription3">10.000 kar kayağı yarışında yer aldın</message>
+        <message key="snowboarderHint1">2.500 kar kayağı yarışında yer al</message>
+        <message key="snowboarderHint2">5.000 kar kayağı yarışında yer al</message>
+        <message key="snowboarderHint3">10.000 kar kayağı yarışında yer al</message>
+
+        <message key="vipSubscriptionsDescription1">7 günlüğüne VIP Aboneliği</message>
+        <message key="vipSubscriptionsDescription2">30 günlüğüne VIP Aboneliği</message>
+        <message key="vipSubscriptionsDescription3">90 günlüğüne VIP Aboneliği</message>
+        <message key="vipSubscriptionsHint1">7 günlüğüne VIP Aboneliğinizi etkinleştirin</message>
+        <message key="vipSubscriptionsHint2">30 günlüğüne VIP Aboneliğinizi etkinleştirin</message>
+        <message key="vipSubscriptionsHint3">90 günlüğüne VIP Aboneliğinizi etkinleştirin</message>
+        <message key="subscriptionDoNext">:count: günlüğüne VIP Aboneliğinizi etkinleştirin</message>
+    </locale>
+
+</dictionary>

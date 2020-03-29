@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rooms>
+    <room id="glamour" label="#glamourClanTitle">
+        <item id="1" typeId="glamourHallDr" direction="3" x="17.32" y="0.1" targetRoomId="outside" />
+        <item id="2" typeId="crtnsClanGlamourHall" direction="3" x="13.046875" y="-0.203125" />
+    </room>
+
+    <room id="magic" label="#magicClanTitle">
+        <item id="1" typeId="magicHallDr" direction="5" x="31.515625" y="13.140625" targetRoomId="outside" />
+    </room>
+
+    <room id="scifi" label="#scifiClanTitle">
+        <item id="1" typeId="sciFiHallDr" direction="3" x="14.59375" y="0.03125" targetRoomId="outside"
+            roomId="s1" locationId="street"/>
+    </room>
+
+    <room id="apocalypse" label="#apocalypseClanTitle" >
+        <item id="1" typeId="apocalypseHallDr" direction="3" x="21" y="4.74375" targetRoomId="outside"/>
+    </room>
+</rooms>

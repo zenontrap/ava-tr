@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='ASCII'?>
+<config>
+    <category id="stickerPack" label="#stickerPackCategory" typeClass="stickerPack" logCategory1="stickerPackItems">
+        <item id="catStickerPack" label="#catStickerPackTitle" name="catStickerPack" icon="catStickerPack@ui" assetName="CatStickerPack" buttonAssetName="StickerCatBtn" canBuy="0" vipOnly="1" priority="1"/>
+        <item id="bushStickerPack" label="#bushStickerPackTitle" name="bushStickerPack" icon="bushStickerPack@ui" assetName="BushStickerPack" buttonAssetName="StickerBushBtn" canBuy="0" vipOnly="1" priority="2"/>
+        <item id="jackStickerPack" label="#jackStickerPackTitle" name="jackStickerPack" icon="jackStickerPack@ui" assetName="JackStickerPack" buttonAssetName="StickerJackBtn" canBuy="0" vipOnly="1" priority="3"/>
+        <item id="froggyStickerPack" label="#froggyStickerPackTitle" name="froggyStickerPack" icon="froggyStickerPack@ui" assetName="FroggyStickerPack" buttonAssetName="StickerFroggyBtn" canBuy="0" vipOnly="1" priority="4"/>
+    </category>
+</config>

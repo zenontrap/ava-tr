@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+        <message key="sd18ParticipationDialogTitle">Bahar Özel!</message>
+        <message key="sd18ParticipationDialogDescription">Gerçekten istediğinde tüm hayallerinin gerçekleşebileceğine inanıyor musun?  Hadi bunu teste sokalım!</message>
+        <message key="sd18ParticipationOkButtonTitle">Başla!</message>
+        <message key="sd18TrophyDialogMessage">Bahar Özel sırasında sergilediğin muhteşem performanstan dolayı sana Bahar 2018 unvanını veriyoruz. Katıldığın için teşekkürler!</message>
+        <message key="sd18WallGetTrophyMessage">Yaşasın Bahar 2018 unvanına sahibim! Oyunda görüşürüz! :link:</message>
+        <message key="sd18ProgressDialogTitle">Bir dilek tut!</message>
+        <message key="sd18ProgressDialogWishesTitle">Eşya seç</message>
+        <message key="sd18ProgressDialogWishesDescription">Her zaman düşlediğin eşyaları seç. Altınları biriktir ve istediğin hediyeleri seç.</message>
+        <message key="sd18ProgressDialogTrophyDescription">Altınları topla ve etkinliğin sonunda eşsiz unvanı edin</message>
+        <message key="sd18ProgressDialogStartButtonTitle">Başla</message>
+        <message key="sd18ProgressDialogCloseButtonMessage">Pencereyi kapatmak istediğine emin misin?</message>
+        <message key="sd18SelectWishDialogTitle">Bir eşya seç</message>
+        <message key="sd18ConvertCoinsMessage">Tebrikler! Artık hediyeler için :coinsCount: altın harcayabilirsin</message>
+        <message key="sd18WishCompleteMessage">Tebrikler! Hayalin gerçek oldu!</message>
+        <message key="sd18FountainHintMessage">Çeşmeye para at ve hayallerin gerçek olsun</message>
+        <message key="sd18FriendHelpMessage">Buradan şanslı para alabilirsin</message>
+        <message key="sd18TotalTitle">Toplam&#13;:value:</message>
+        <message key="sd18CoinTitle">Jeton x50</message>
+        <message key="sd18CoinDescription">Üretilebilir veya mesleklerden ve mini oyunları kazanarak edinilebilir</message>
+    </locale>
+</dictionary>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+        <message key="avaBirthday2017ProgressDialogTitle">Harita parçalarını birleştir</message>
+        <message key="avaBirthday2017ProgressDialogDescription">Parkı, Meydanı ya da Sahili ziyaret et, pusulanı kullan ve bir haritanın parçalarını veya bazı değerli kaynakları bulmak için işaretli yerleri kaz!</message>
+        <message key="avaBirthday2017ProgressDialogCompleteDescription">Haritayı tamamladın! Alnının teriyle kazandığın ödülünü almak için onu korsana götür!</message>
+        <message key="avaBirthday2017ReturnToPirateLabel">Korsana dön</message>
+        <message key="avaBirthday2017InfoDialogDialogTitle">Merhabalar!</message>
+        <message key="avaBirthday2017InfoDialogTopMessage">Sahile uğra: Avataria’ya bazı korsanlar geldi ve yardımına gerçekten ihtiyaçları var!</message>
+        <message key="avaBirthday2017InfoDialogMiddleMessage">İşaretli konumlardaki harita parçalarını saptamak için pusula kullan.</message>
+        <message key="avaBirthday2017InfoDialogBottomMessage">İşin bittiğinde kendin seçeceğin bir ödül almak için tamamlanmış haritayı korsana getir!</message>
+        <message key="avaBirthday2017GoToPirateHint">Korsana git</message>
+        <message key="avaBirthday2017CooldownHint">Pusula geçici olarak kullanım dışı</message>
+        <message key="avaBirthday2017NotCompleteSessionHint">Elindeki bütün ipuçlarını kullan</message>
+        <message key="avaBirthday2017CreateExcavationHint">Pusulayı kullan</message>
+        <message key="avaBirthday2017NoExcavationsHint">Burada hiçbir şey yok</message>
+        <message key="avaBirthday2017HelpHint"><![CDATA[<p><font size="13">Aramaya başlamak için buraya tıkla</font></p>]]></message>
+        <message key="avaBirthday2017PirateTargetMessage1">Hey sen, çaylak miço, hele iki dak’ka gel! Sana önemli bi’ görev vereceğim!</message>
+        <message key="avaBirthday2017PirateMessage1">Yardım edecek biri de yok ki bahtıma...</message>
+        <message key="avaBirthday2017PirateMessage3">Tek gerekenler bir kürek ile talihten gelecek bir gülücük, anladın mı?</message>
+        <message key="avaBirthday2017PirateTargetMessage2">Ahbap, usandım ben buradan! Harita yok mu hâlâ?</message>
+        <message key="avaBirthday2017PirateTargetMessage3">Bekle beni Tropicania! Yakında köşeyi döneceğim! Tamamen senin sayende, ahbap!</message>
+        <message key="avaBirthday2017PirateMessage5">Sence doğru seçimi mi yaptın? Aman, neyse, geçmişe mazi derler.</message>
+        <message key="avaBirthday2017PirateCommonMessage1">İşin güzel tarafı, bir tek bende tekne var!</message>
+        <message key="avaBirthday2017PirateCommonMessage2">Ve cennet parçası olabilecek o kaya parçası, bunun yerine fırıldakçılık koyu olacak!</message>
+        <message key="avaBirthday2017PirateCommonMessage3">Eski haritadan başlayalım...</message>
+        <message key="avaBirthday2017PirateCommonMessage4">Tüylerim ürperdi!</message>
+        <message key="avaBirthday2017ParticipationDialogTitle">Pusula</message>
+        <message key="avaBirthday2017ParticipationDialogButtonLabel">Aramaya git!</message>
+        <message key="avaBirthday2017ParticipationDialogDescription">Kulağıma çalınanlara göre Avataria’nın her tarafında Tropicania Adası’na giden yolu gösteren bir haritanın parçaları gömülüymüş. Bana haritanın parçalarını birleştirmemde yardım edersin, değil mi? Bu pusulayı al, o sana doğru yerleri gösterir.
+        </message>
+        <message key="avaBirthday2017SelectAwardLabel">Ödülünü seç:</message>
+        <message key="avaBirthday2017AwardDialogDescription">Projemize olan uzun süreli sadakatinin bilgisiyle, seni herkesin huzurunda Hayran ilan ediyoruz! Böyle iyi iş çıkarmaya devam et ve arkadaşlarınla haberleri paylaş!</message>
+        <message key="avaBirthday2017WallGetTrophyMessage">Yaşasın, Hayran unvanı kazandım! Oyunda görüşmek üzere! :link:</message>
+        <message key="avaBirthday2017WallGetTrophyTitle">Avataria Doğum Günü</message>
+        <message key="avaBirthday2017FullMapNotificationButtonLabel">Geri dön</message>
+        <message key="avaBirthday2017FullMapNotificationTitle">Harita tamamlandı!</message>
+        <message key="avaBirthday2017FullMapNotificationDescription">Alnının teriyle kazandığın ödülünü almak için onu korsana götür!</message>
+        <gender key="avaBirthday2017PirateHint">
+            <form>John Hook</form>
+            <form>Mary Read</form>
+        </gender>
+        <gender key="avaBirthday2017PirateMessage2">
+            <form>Ödümü patlattın! Haritayı hâlâ bitiremedin mi? Ama bana gerçekten lâzım...</form>
+            <form>Ödümü patlattın! Haritayı hâlâ bitiremedin mi? Ama bana gerçekten lâzım...</form>
+        </gender>
+        <gender key="avaBirthday2017PirateMessage4">
+            <form>Sonunda! İşte haritam! Getir onu buraya!</form>
+            <form>Sonunda! İşte haritam! Getir onu buraya!</form>
+        </gender>
+        <gender key="avaBirthday2017SelectAwardDialogDescription">
+            <form>Şu harita arama işi ne alemde? Utanma, gönlüne göre seç bir hediye! Ama bir pürüz de var, diyeyim! Seçimini bir kez yaptın mı, dönüşü yok!</form>
+            <form>Şu harita arama işi ne alemde? Utanma, gönlüne göre seç bir hediye! Ama bir pürüz de var, diyeyim! Seçimini bir kez yaptın mı, dönüşü yok!</form>
+        </gender>
+        <gender key="avaBirthday2017AwardNotificationDescription">
+            <form>Özel içeriğimizi başarıyla tamamlayarak bir ödül kazandın!</form>
+            <form>Özel içeriğimizi başarıyla tamamlayarak bir ödül kazandın!</form>
+        </gender>
+    </locale>
+</dictionary>

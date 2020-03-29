@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="shrovetide2017">
+    <!-- cooldown = 11.02.2018, 12:00:00 MSK -->
+    <trophy id="shrovetide2017" maxProgress="3000" icon="TrophyIcon@shrovetide2017" cooldown="1518339600"/>
+
+    <craft>
+        <craftedItem title="#st17PanTitle" itemId="st17Pan" holiday="">
+            <component itemId="peaceOfIron" count="20"/>
+            <component itemId="peaceOfWood" count="10"/>
+            <component itemId="screw" count="2"/>
+        </craftedItem>
+    </craft>
+
+    <inventory>
+        <category id="game">
+            <item id="st17Pan" label="#st17PanLabel" description="#st17PanDescription"
+                  name="Pan@shrovetide2017" icon="PanIcon@shrovetide2017" canBuy="0"/>
+        </category>
+    </inventory>
+</module>

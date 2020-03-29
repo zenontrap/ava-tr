@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<dictionary>
+    <locale name="tr">
+        <message key="yearAvatarTitle">Yılın Avatarı</message>
+        <message key="yearAvatarDescription">Yılın Avatarı ödülü sahibi</message>
+        <message key="activityPlace1Title">En Aktif</message>
+        <message key="activityPlace1Description">En Aktif sıralamasında 1.</message>
+        <message key="activityPlace2Title">En Aktif</message>
+        <message key="activityPlace2Description">En Aktif sıralamasında 2.</message>
+        <message key="activityPlace3Title">En Aktif</message>
+        <message key="activityPlace3Description">En Aktif sıralamasında 3.</message>
+        <message key="firstApril16Place1Title">Salgın Savar</message>
+        <message key="firstApril16Place1Description">Bebek Salgını etkinliğinde 1.</message>
+        <message key="firstApril16Place2Title">Salgın Savar</message>
+        <message key="firstApril16Place2Description">Bebek Salgını etkinliğinde 2.</message>
+        <message key="firstApril16Place3Title">Salgın Savar</message>
+        <message key="firstApril16Place3Description">Bebek Salgını etkinliğinde 3.</message>
+        <message key="firstApril16Place4Title">Salgın Savar</message>
+        <message key="firstApril16Place4Description">Bebek Salgını etkinliğinde 4.</message>
+        <message key="firstApril16Place5Title">Salgın Savar</message>
+        <message key="firstApril16Place5Description">Bebek Salgını etkinliğinde 5.</message>
+        <message key="avaBirthdayTrophy2016Title">Hayran</message>
+        <message key="avaBirthdayTrophy2016Description">Ömrü boyunca Avataria oynayan kişi</message>
+        <message key="familyDay2016Title">Aile Günü</message>
+        <message key="familyDay2016Description">Aileni, sevgini ve sadakatini korur</message>
+        <message key="halloween2016Title">Müthiş Büyücü</message>
+        <message key="halloween2016Description">Çoğu oyuncuyu büyüledi</message>
+        <message key="newYear2017Title">2017'nin Kahramanı</message>
+        <message key="newYear2017Description">Yeni Yıl Ağacı'nı kurtarmak için büyük bir katkıda bulundu</message>
+
+        <message key="freelanceCupTitle">Burada Senden Bahsediyorlar</message>
+        <message key="freelanceCupDescription">TTAYH grup editörleri</message>
+        <message key="freelanceExchangeTitle">Adalet Birliği</message>
+        <message key="freelanceExchangeDescription">Adalet Birliğinin bir üyesi, güvenilir takasın süpervizörleri</message>
+        <message key="freelanceJournalTitle">Dergi</message>
+        <message key="freelanceJournalDescription">Resmi bir dergi temsilcisi</message>
+        <message key="freelanceMicrophoneTitle">Radyo</message>
+        <message key="freelanceMicrophoneDescription">Resmi bir radyo sunucusu</message>
+        <message key="freelanceModeratorTitle">Moderatör/Süpervizör</message>
+        <message key="freelanceModeratorDescription">Oyun dünyasının yasal temsilcisi</message>
+        <message key="freelanceSupportTitle">Destek</message>
+        <message key="freelanceSupportDescription">Müşteri Desteği temsilcisi</message>
+        <message key="freelanceTwitterInstagramTitle">Instagram/Twitter</message>
+        <message key="freelanceTwitterInstagramDescription">Twitter veya Instagram sayfa editörü</message>
+        <message key="freelanceVideoTitle">YouTube</message>
+        <message key="freelanceVideoDescription">Bir video yapımcısı veya bir YouTube kanalında AvaBlogger</message>
+        <message key="shrovetide2017Title">Gözleme Haftası</message>
+        <message key="shrovetide2017Description">Gözleme Haftası’nda hünerli ellerden çıkmış bir gözleme</message>
+        <message key="springDay2017Title">Bahar 2017</message>
+        <message key="springDay2017Description">Bahar Özel sırasında muhteşem performans</message>
+
+        <message key="halloween2017Title">Kurt Adam Avcısı</message>
+        <message key="halloween2017Description">Kurt Adam avında üstün performans</message>
+        <message key="newYear2018Title">Dağın Efendisi</message>
+        <message key="newYear2018Description">Noel Özel’de üstün performans</message>
+        <message key="snowboardPlace1Title">Kar Tepesi</message>
+        <message key="snowboardPlace1Description">Kar Tepesi’nde birincilik</message>
+        <message key="snowboardPlace2Title">Kar Tepesi</message>
+        <message key="snowboardPlace2Description">Kar Tepesi’nde ikincilik</message>
+        <message key="snowboardPlace3Title">Kar Tepesi</message>
+        <message key="snowboardPlace3Description">Kar Tepesi’nde üçüncülük</message>
+
+        <message key="stVal2018Title">Sevgili</message>
+        <message key="stVal2018Description">Etkilendiğini gösterme üstadı</message>
+
+        <message key="springDay2018Title">Bahar 2018</message>
+
+        <message key="firstApril2018Title">Joker</message>
+        <message key="firstApril2018Description">Nisan Özel’de muhteşem performans sergiledin</message>
+
+        <message key="avatarBirthdayTitle">Doğum Günü Oğlanı/Kızı</message>
+        <message key="avatarBirthdayDescription">Bugün avatarının doğum günü!</message>
+        <message key="weddingDayTitle">Düğün Günü</message>
+        <message key="weddingDayDescription">Bugün düğün günü!</message>
+
+        <message key="halloween2018Title">Cadılar Bayramı</message>
+        <message key="halloween2018Description">Cadılar Bayramı Özel’de muhteşem performans sergiledin</message>
+
+        <message key="newYear2019Title">Soğuk Oyun Kralı</message>
+        <message key="newYear2019Description">Güzellik Yarışmalarında Özel Başarı</message>
+
+        <message key="dzo2019Title">Memleketin Savunucusu</message>
+        <message key="dzo2019Description">2019 Memleketin Savunucusu Günü için sıra dışı başarımlar ve eylemler</message>
+
+        <message key="firstApril2019Title">Joker</message>
+        <message key="firstApril2019Description">Nisan Etkinliği'nde muhteşem performans sergiledin</message>
+
+        <message key="autumnEvent2019Title">Altın Sonbahar</message>
+        <message key="autumnEvent2019Description">Altın Sonbahar etkinliği boyunca muhteşem bir performans için</message>
+    </locale>
+</dictionary>

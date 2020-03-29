@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module id="halloween2018">
+    <memories winCandiesDrop="5" looseCandiesDrop="2" drawCandiesDrop="2" gamePumpkinPrice="6" doubleAwardGoldPrice="2"/>
+
+    <stages>
+        <stage stageId="1"/>
+        <stage stageId="2"/>
+        <stage stageId="3"/>
+        <stage stageId="4"/>
+    </stages>
+
+    <awards>
+        <award id="1" itemType="furniture" itemId="hlwn18Wnd" stageId="1"
+               points="99"
+               icon="WindowMoonViewIcon@halloween2018"
+               receiveIcon="WallNose@firstApril2018"
+               previewImage="FurnitureWindowBigIcon@halloween2018"
+               label="#hw18WindowMoonViewHint"/>
+        <award id="2" itemType="clothesSet" itemId="boyHlwnSawSet" gender="1" stageId="1"
+               points="190"
+               icon="BoyCostumeHalloweenSawIcon@halloween2018"
+               receiveIcon="WallNose@firstApril2018"
+               previewImage="BoyCostumeSawBigIcon@halloween2018"
+               label="#hw18BoyCostumeHalloweenSawHint"/>
+        <award id="3" itemType="clothesSet" itemId="girHlwnSawSet" gender="2" stageId="1"
+               points="190"
+               icon="GirlCostumeHalloweenSawIcon@halloween2018"
+               receiveIcon="WallNose@firstApril2018"
+               previewImage="GirlCostumeSawBigIcon@halloween2018"
+               label="#hw18GirlCostumeHalloweenSawHint"/>
+        <award id="4" itemType="game" itemId="batChatBubbleDecor" stageId="1"
+               points="150"
+               icon="BatChatBubbleDecorIcon@halloween2018"
+               receiveIcon="WallNose@firstApril2018"
+               previewImage="BatChatDecorBigIcon@halloween2018"
+               label="#hw18BatChatDecorHint"/>
+
+        <award id="5" itemType="furniture" itemId="evilFlower" stageId="2"
+               points="99"
+               icon="EvilFlowerIcon@halloween2018"
+               receiveIcon="WallNose@firstApril2018"
+               previewImage="FurnitureFlowerBigIcon@halloween2018"
+               label="#hw18EvilFlowerHint"/>
+        <award id="6" itemType="clothesSet" itemId="boyHlwnPyrmdSet" gender="1" stageId="2"
+               points="350"
+               icon="BoyCostumePyramidHeadIcon@halloween2018"
+               receiveIcon="WallNose@firstApril2018"
+               previewImage="BoyCostumePyramidBigIcon@halloween2018"
+               label="#hw18BoyCostumeHalloweenPyramidHint"/>
+        <award id="7" itemType="clothesSet" itemId="girHlwnCllSet" gender="2" stageId="2"
+               points="350"
+               icon="GirlCostumeHalloweenCallIcon@halloween2018"
+               receiveIcon="WallNose@firstApril2018"
+               previewImage="GirlCostumeCallBigIcon@halloween2018"
+               label="#hw18GirlCostumeHalloweenCallHint"/>
+        <award id="8" itemType="game" itemId="ghostMobileAccessory" stageId="2"
+               points="90"
+               icon="GhostMobileAccessoryIcon@halloween2018"
+               receiveIcon="WallNose@firstApril2018"
+               previewImage="GhostMobileDecorBigIcon@halloween2018"
+               label="#hw18GhostMobileDecorHint"/>
+
+        <award id="9" itemType="furniture" itemId="infernalRabbit" stageId="3"
+               points="90"
+               icon="InfernalRabbitIcon@halloween2018"
+               receiveIcon="WallNose@firstApril2018"
+               previewImage="FurnitureRabbitBigIcon@halloween2018"
+               label="#hw18InfernalRabbitHint"/>
+        <award id="10" itemType="clothesSet" itemId="boyHlwnPnnySet" gender="1" stageId="3"
+               points="666"
+               icon="BoyCostumeHalloweenPennyIcon@halloween2018"
+               receiveIcon="WallNose@firstApril2018"
+               previewImage="BoyCostumePennyBigIcon@halloween2018"
+               label="#hw18BoyCostumeHalloweenPennyHint"/>
+        <award id="11" itemType="clothesSet" itemId="girHlwnPnnySet" gender="2" stageId="3"
+               points="666"
+               icon="GirlCostumeHalloweenPennyIcon@halloween2018"
+               receiveIcon="WallNose@firstApril2018"
+               previewImage="GirlCostumePennyBigIcon@halloween2018"
+               label="#hw18GirlCostumeHalloweenPennyHint"/>
+        <award id="12" itemType="sticker" itemId="jackStickerPack" stageId="3"
+               points="300"
+               icon="JackStickerPackIcon@halloween2018"
+               receiveIcon="WallNose@firstApril2018"
+               previewImage="JackStickerPackBigIcon@halloween2018"
+               label="#hw18JackStickerPackHint"/>
+
+        <award id="13" itemType="furniture" itemId="fireplaceWitchHlwn2018" stageId="4"
+               points="150"
+               icon="WitchFirePlaceIcon@halloween2018"
+               receiveIcon="WallNose@firstApril2018"
+               previewImage="FurnitureWitchFireplaceBigIcon@halloween2018"
+               label="#hw18WitchFireplaceHint"/>
+        <award id="14" itemType="clothesSet" itemId="boyJackOvrlSet" gender="1" stageId="4"
+               points="350"
+               icon="BoyCostumeHalloween2018JackIcon@halloween2018"
+               receiveIcon="WallNose@firstApril2018"
+               previewImage="BoyCostumeJackBigIcon@halloween2018"
+               label="#hw18BoyCostumeHalloweenJackHint"/>
+        <award id="15" itemType="clothesSet" itemId="girlJillOvrlSet" gender="2" stageId="4"
+               points="350"
+               icon="GirlCostumeHalloween2018JillIcon@halloween2018"
+               receiveIcon="WallNose@firstApril2018"
+               previewImage="GirlCostumeJillBigIcon@halloween2018"
+               label="#hw18GirlCostumeHalloweenJillHint"/>
+        <award id="16" itemType="trophy" itemId="halloween2018" stageId="4"
+               points="1666"
+               count="1571864400"
+               icon="Halloween2018TitleIcon@halloween2018"
+               receiveIcon="WallNose@firstApril2018"
+               previewImage="Halloween2018TitleBigIcon@halloween2018"
+               label="#hw18TrophyHint"/>
+    </awards>
+
+    <packs>
+        <pack id="candyPack50" candyCount="50" gold="50" bonus="10"/>
+        <pack id="candyPack100" candyCount="100" gold="100" bonus="25"/>
+        <pack id="candyPack300" candyCount="300" gold="300" bonus="100"/>
+    </packs>
+
+    <exchange>
+        <exchangeAward awardId="1" itemId="hw17Gft1" points="300" icon="AwardIcon1@halloween2018"
+                       previewImage="AwardBigIcon1@halloween2018" label="#halloweenGift1Label"  itemType="game"/>
+        <exchangeAward awardId="2" itemId="hw17Gft2" points="1000" icon="AwardIcon2@halloween2018"
+                       previewImage="AwardBigIcon2@halloween2018" label="#halloweenGift2Label"  itemType="game"/>
+        <exchangeAward awardId="3" itemId="hw17Gft3" points="3000" icon="AwardIcon3@halloween2018"
+                       previewImage="AwardBigIcon3@halloween2018" label="#halloweenGift3Label"  itemType="game"/>
+    </exchange>
+
+    <inventory>
+        <category id="craftLoot">
+            <item id="hw18Pumpkin" name="Pumpkin@halloween2018" gold="8"/>
+            <item id="hw18Candy" name="Candy@halloween2018" gold="100"/>
+        </category>
+    </inventory>
+
+    <messages>
+        <message stageId="0" messageKey="hw18NpcMessage1"/>
+        <message stageId="0" messageKey="hw18NpcMessage2"/>
+
+        <message stageId="1" messageKey="hw18NpcMessage3"/>
+        <message stageId="1" messageKey="hw18NpcMessage4"/>
+        <message stageId="1" messageKey="hw18NpcMessage5"/>
+        <message stageId="1" messageKey="hw18NpcMessage6"/>
+        <message stageId="1" messageKey="hw18NpcMessage7"/>
+
+        <message stageId="2" messageKey="hw18NpcMessage4"/>
+        <message stageId="2" messageKey="hw18NpcMessage7"/>
+        <message stageId="2" messageKey="hw18NpcMessage8"/>
+        <message stageId="2" messageKey="hw18NpcMessage9"/>
+        <message stageId="2" messageKey="hw18NpcMessage10"/>
+
+        <message stageId="3" messageKey="hw18NpcMessage4"/>
+        <message stageId="3" messageKey="hw18NpcMessage9"/>
+        <message stageId="3" messageKey="hw18NpcMessage11"/>
+        <message stageId="3" messageKey="hw18NpcMessage12"/>
+        <message stageId="3" messageKey="hw18NpcMessage13"/>
+
+        <message stageId="4" messageKey="hw18NpcMessage4"/>
+        <message stageId="4" messageKey="hw18NpcMessage11"/>
+        <message stageId="4" messageKey="hw18NpcMessage15"/>
+        <message stageId="4" messageKey="hw18NpcMessage16"/>
+        <message stageId="4" messageKey="hw18NpcMessage17"/>
+    </messages>
+
+    <locationSound>
+        <sound id="hwSound1" library="halloween2018"/>
+        <sound id="hwSound2" library="halloween2018"/>
+        <sound id="hwSound3" library="halloween2018"/>
+        <sound id="hwSound4" library="halloween2018"/>
+        <sound id="hwSound5" library="halloween2018"/>
+    </locationSound>
+
+    <locations>
+        <location id="park" zoneId="street" loadingContent="parkHlwn,landscape" defaultRoomId="p1">
+            <rooms>
+                <room id="p1" map="modules/map/halloween2018_park_map" userCount="15" criticalUserCount="30" backgroundSound="hwSound1,hwSound2,hwSound3,hwSound4,hwSound5"
+                      dresscode="outside"/>
+                <room id="p1e" map="modules/map/halloween2018_park_map" userCount="30" criticalUserCount="45"
+                      backgroundSound="hwSound1,hwSound2,hwSound3,hwSound4,hwSound5"
+                      dresscode="outside"/>
+            </rooms>
+        </location>
+    </locations>
+
+    <animations>
+        <animation name="HW18NpcAnimationStand">
+            <sequence name="stand" start="1" length="1" loop="true"/>
+        </animation>
+        <animation name="HW18NpcAnimationHead">
+            <sequence name="stand" start="1" length="69" loop="false"/>
+        </animation>
+        <animation name="HW18NpcAnimationLaugh">
+            <sequence name="damage" start="1" length="55" loop="false"/>
+        </animation>
+        <animation name="HW18NpcAnimationLaughDrop">
+            <sequence name="damage" start="1" length="265" loop="false"/>
+        </animation>
+    </animations>
+</module>

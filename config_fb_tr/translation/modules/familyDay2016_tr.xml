@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+        <message key="fd16ModuleName">Aile ve Sadakat Günü</message>
+        <message key="fd16GiveTrophyMessage">Unvan ruh eşine yollandı</message>
+        <message key="fd16GiveTrophyMenuTitle">Unvanı yolla</message>
+        <message key="fd16TrophyExist">Ruh eşinde bu unvan zaten var</message>
+        <message key="fd16FindInfoMessage">Ruh eşinden sana :trophy: unvanını isteyerek, o unvan sende durduğu sürece 50% daha fazla aktivite puanı kazan</message>
+        <message key="fd16ShopInfoNotMarriedMessage">Mağazadaki yüzüklerde inanılmaz bir indirim var! Düğününü son dakikada yaptın!</message>
+        <message key="fd16ShopInfoMarriedMessage">Aile Günü’nün şerefine sana nişan yüzüklerinde inanılmaz bir indirim sunuyoruz!</message>
+        <gender key="fd16NotificationMessage">
+            <form>:name: az önce sana ":trophy:" unvanını yolladı</form>
+            <form>:name: az önce sana ":trophy:" unvanını yolladı</form>
+        </gender>
+    </locale>
+</dictionary>

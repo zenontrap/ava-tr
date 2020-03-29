@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <callToGame>
+        <!--<call id="relationCall" type="relationCall" title="#callToGameLoveTitle" message="#callToGameLoveMessage"-->
+                 <!--postMessage="#callToGameLovePost">-->
+            <!--<icon id="CallToGameAsset">-->
+                <!--<frame gender="1" frameId="callToGameLoveBoy"/>-->
+                <!--<frame gender="2" frameId="callToGameLoveGirl"/>-->
+            <!--</icon>-->
+            <!--<award awardNewsTitle="#callToGameAwardNewsTitle"-->
+                   <!--awardNewsDescription="#callToGameLoveAwardNewsDescription">-->
+                <!--<item itemType="resource" silver="5000"/>-->
+            <!--</award>-->
+        <!--</call>-->
+
+        <call id="birthdayCall" type="birthdayCall" title="#callToGameBirthdayTitle" message="#callToGameBirthdayMessage"
+              postMessage="#callToGameBirthdayPost">
+            <icon id="RelationBirthDayDialogImage"/>
+            <award awardTitle="#callToGameAwardNewsTitle"
+                   awardNewsDescription="#callToGameBirthdayAwardNewsDescription">
+                <item itemType="resource" silver="5000"/>
+            </award>
+        </call>
+
+        <call id="weddingDayCall" type="weddingDayCall" title="#callToGameLoveTitle" message="#callToGameWeddingDayMessage"
+              postMessage="#callToGameLovePost">
+            <icon id="RelationsWeddingDayDialogImage"/>
+            <award awardTitle="#callToGameAwardNewsTitle"
+                   awardNewsDescription="#callToGameWeddingDayAwardNewsDescription">
+                <item itemType="resource" silver="5000"/>
+            </award>
+        </call>
+    </callToGame>
+</config>

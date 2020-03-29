@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="newyear2018"
+        throwSnowballMittensCount="2" mittensGoldPrice="1" mittensWinGameCount="2" mittensLooseGameCount="1"
+        throwSnowballProgressValue="1" racePointsFactor="0.1">
+    <stages>
+        <stage stageId="1"/>
+        <stage stageId="2" objectId="giftMarket"/>
+        <stage stageId="3" objectId="snowboardRaceEntrance"/>
+        <stage stageId="4" objectId="danceFloor"/>
+        <stage stageId="5" objectId="snowboardRatingBoard"/>
+    </stages>
+
+    <awards>
+        <award id="1" itemType="furniture" itemId="ny18Snbrd"
+               points="2500"
+               icon="RoundSnowboard@newyear2018"
+               receiveIcon="NY18Snowboard@newyear2018"
+               description="#ny18SnowboardDialogDescription"
+               hint="ny18SnowboardHint"/>
+        <award id="2" itemType="clothesSet" itemId="boyCstmSnbrdrNY18" gender="1"
+               points="10000"
+               icon="RoundBoySnowboardingSet@newyear2018"
+               receiveIcon="NY18ClothesBoy@newyear2018"
+               description="#ny18ClothesSetDialogDescription"
+               hint="ny18BoyClothesSetHint"/>
+        <award id="3" itemType="clothesSet" itemId="grlCstmSnbrdrNY18" gender="2"
+               points="10000"
+               icon="RoundGirlSnowboardingSet@newyear2018"
+               receiveIcon="NY18ClothesGirl@newyear2018"
+               description="#ny18ClothesSetDialogDescription"
+               hint="ny18GirlClothesSetHint"/>
+        <award id="4" itemType="animation" itemId="Happy"
+               points="20000"
+               icon="RoundAnimation@newyear2018"
+               receiveIcon="NY18Happiness@newyear2018"
+               description="#ny18AnimationDialogDescription"
+               hint="ny18AnimationHint"/>
+        <award id="5" itemType="trophy" itemId="newYear2018"
+               points="35000"
+               count="1545264000"
+               icon="RoundTrophy@newyear2018"
+               receiveIcon="NY18Trophy@newyear2018"
+               description="#ny18TrophyDialogDescription"
+               hint="ny18TrophyHint"/>
+    </awards>
+
+    <inventory>
+        <category id="craftLoot">
+            <item id="ny18Mitten" description="#ny18MittensDescription" probability="0.3" gold="500"
+                  name="MittenLoot@newyear2018" icon="MittenIcon@newyear2018" label="#ny18MittensLabel"/>
+            <item id="ny18Score" name="ScoreLoot@newyear2018" canBuy="0"/>
+        </category>
+    </inventory>
+
+    <messages>
+        <message stage="2" gender="1" type="msg" index="1"/>
+        <message stage="2" gender="1" type="msg" index="2"/>
+        <message stage="2" gender="1" type="msg" index="3"/>
+        <message stage="2" gender="2" type="msg" index="4"/>
+        <message stage="2" gender="2" type="msg" index="5"/>
+        <message stage="2" gender="2" type="msg" index="6"/>
+        <message stage="3" gender="1" type="msg" index="7"/>
+        <message stage="3" gender="1" type="msg" index="8"/>
+        <message stage="3" gender="2" type="msg" index="9"/>
+        <message stage="3" gender="2" type="msg" index="10"/>
+        <message stage="2" gender="1" type="msg" index="11"/>
+        <message stage="2" gender="1" type="msg" index="12"/>
+        <message stage="2" gender="2" type="msg" index="13"/>
+        <message stage="2" gender="2" type="msg" index="14"/>
+        <message stage="4" gender="1" type="msg" index="15"/>
+        <message stage="4" gender="1" type="msg" index="16"/>
+        <message stage="4" gender="2" type="msg" index="17"/>
+        <message stage="4" gender="2" type="msg" index="18"/>
+        <message stage="3" gender="1" type="qst" index="19" answer="20"/>
+        <message stage="3" gender="2" type="asw" index="20"/>
+        <message stage="3" gender="1" type="qst" index="21" answer="22"/>
+        <message stage="3" gender="2" type="asw" index="22"/>
+        <message stage="2" gender="2" type="qst" index="23" answer="24"/>
+        <message stage="2" gender="1" type="asw" index="24"/>
+        <message stage="2" gender="1" type="qst" index="25" answer="26"/>
+        <message stage="2" gender="2" type="asw" index="26"/>
+        <message stage="4" gender="2" type="qst" index="27" answer="28"/>
+        <message stage="4" gender="1" type="asw" index="28"/>
+        <message stage="4" gender="1" type="qst" index="29" answer="30"/>
+        <message stage="4" gender="2" type="asw" index="30"/>
+    </messages>
+</module>

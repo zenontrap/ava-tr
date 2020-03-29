@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="firstApril2018" useMaskSmilesCount="7" usePlateSmilesCount="4" makePhotoFilmPrice="5">
+    <inventory>
+        <category id="craftLoot">
+            <item id="fa18Smile" name="SmileLoot@firstApril2018"/>
+            <item id="fa18Mask" name="MaskIcon@firstApril2018"
+                  icon="MaskIcon@firstApril2018" label="#fa18MaskLabel"/>
+            <item id="fa18Plate" name="PlateIcon@firstApril2018"
+                  icon="PlateIcon@firstApril2018" label="#fa18PlateLabel"/>
+        </category>
+    </inventory>
+
+    <craft>
+        <craftedItem itemId="fa18Mask" title="#fa18MaskLabel" holiday="">
+            <component itemId="hatred" count="3"/>
+            <component itemId="diligence" count="4"/>
+            <component itemId="beauty" count="1"/>
+            <component itemId="cloth" count="1" social="1"/>
+        </craftedItem>
+
+        <craftedItem itemId="fa18Plate" title="#fa18PlateLabel" holiday="">
+            <component itemId="generosity" count="2"/>
+            <component itemId="skill" count="1"/>
+            <component itemId="peaceOfWood" count="1"/>
+            <component itemId="industry" count="1"/>
+        </craftedItem>
+    </craft>
+
+    <masks>
+        <item type="FA18Msk1"/>
+        <item type="FA18Msk2"/>
+        <item type="FA18Msk3"/>
+        <item type="FA18Msk4"/>
+        <item type="FA18Msk5"/>
+        <item type="FA18Msk6"/>
+    </masks>
+
+    <plates>
+        <item type="TblSmlAm"/>
+        <item type="TblSmlHp"/>
+        <item type="TblSmlDl"/>
+        <item type="TblSmlSh"/>
+        <item type="TblSmlGr"/>
+    </plates>
+
+    <awards>
+        <award id="1" itemType="clothes" itemId="boyFA18Nose" gender="1"
+               points="199"
+               icon="RoundNose@firstApril2018"
+               receiveIcon="WallNose@firstApril2018"
+               hint="boyFA18NoseLabel"/>
+        <award id="2" itemType="clothes" itemId="girlFA18Nose" gender="2"
+               points="199"
+               icon="RoundNose@firstApril2018"
+               receiveIcon="WallNose@firstApril2018"
+               hint="girlFA18NoseLabel"/>
+        <award id="3" itemType="clothesSet" itemId="boyFA2018Set" gender="1"
+               points="499"
+               icon="RoundBoyClothesSet@firstApril2018"
+               receiveIcon="WallClothesBoy@firstApril2018"
+               hint="fa18SetHint"/>
+        <award id="4" itemType="clothesSet" itemId="girlFA2018Set" gender="2"
+               points="499"
+               icon="RoundGirlClothesSet@firstApril2018"
+               receiveIcon="WallClothesGirl@firstApril2018"
+               hint="fa18SetHint"/>
+        <award id="5" itemType="trophy" itemId="firstApril2018"
+               points="999"
+               count="1554065940"
+               icon="RoundTrophy@firstApril2018"
+               receiveIcon="WallTrophy@firstApril2018"
+               hint="fa18TrophyHint"/>
+    </awards>
+
+    <animations>
+        <animation name="BushStand">
+            <sequence name="process" start="1" length="1" loop="true"/>
+        </animation>
+        <animation name="BushDance">
+            <sequence name="process" start="2" length="29" loop="false"/>
+        </animation>
+        <animation name="BushHello">
+            <sequence name="process" start="32" length="60" loop="false"/>
+        </animation>
+        <animation name="BushWink">
+            <sequence name="process" start="93" length="60" loop="false"/>
+        </animation>
+    </animations>
+
+    <messages>
+        <message gender="1" messageKey="fa18NpcMessage1"/>
+        <message gender="1" messageKey="fa18NpcMessage2"/>
+        <message gender="1" messageKey="fa18NpcMessage3"/>
+        <message gender="1" messageKey="fa18NpcMessage4"/>
+        <message gender="1" messageKey="fa18NpcMessage5"/>
+        <message gender="2" messageKey="fa18NpcMessage6"/>
+        <message gender="2" messageKey="fa18NpcMessage7"/>
+        <message gender="2" messageKey="fa18NpcMessage8"/>
+        <message gender="2" messageKey="fa18NpcMessage4"/>
+        <message gender="2" messageKey="fa18NpcMessage5"/>
+    </messages>
+
+    <poses>
+        <pose id="1" view="PhotoPose4" gender="boy" rotate="1"/>
+        <pose id="2" view="PhotoPose5" gender="boy" rotate="1"/>
+        <pose id="3" view="PhotoPose7" gender="boy" rotate="0"/>
+        <pose id="4" view="PhotoPose8" gender="boy" rotate="1"/>
+        <pose id="5" view="PhotoPose9" gender="boy" rotate="1"/>
+
+        <pose id="6" view="PhotoPose3" gender="girl" rotate="1"/>
+        <pose id="7" view="PhotoPose4" gender="girl" rotate="1"/>
+        <pose id="8" view="PhotoPose5" gender="girl" rotate="1"/>
+        <pose id="9" view="PhotoPose7" gender="girl" rotate="1"/>
+        <pose id="10" view="PhotoPose10" gender="girl" rotate="0"/>
+    </poses>
+
+    <exchange>
+        <exchangeAward awardId="1" itemId="muse" points="9" count="10" icon="RoundMuse@firstApril2018"
+                       label="#museLabel"  itemType="game"/>
+        <exchangeAward awardId="2" itemId="shell" points="45" count="15" icon="RoundShell@firstApril2018"
+                       label="#shellLootLabel"  itemType="game"/>
+        <exchangeAward awardId="3" itemId="pearl" points="99" count="20" icon="RoundPearl@firstApril2018"
+                       label="#pearlLootLabel"  itemType="game"/>
+    </exchange>
+</module>

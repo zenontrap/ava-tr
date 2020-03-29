@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<map width="28" length="22">
+  <viewport x="200" y="-598" width="1024" height="700"/>
+  <items>
+    <item class="backgroundItem" wx="21.8125" skin="CouturierBackground@couturier" wy="-15.5625"/>
+    <item class="couturierNPCItem" height="0" length="1" wx="25" typeId="Boy" wy="10.5" wz="0" width="1" id="couturierBoyItem25"/>
+    <item class="couturierNPCItem" height="0" length="1" wx="16" typeId="Girl" wy="0.5" wz="0" width="1" id="coututrierGirlItem26"/>
+    <item class="walkingGridItem" cols="28" rows="22">
+      <grid>
+        <row values="0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0"/>
+        <row values="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0"/>
+        <row values="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0"/>
+        <row values="0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0"/>
+        <row values="0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0"/>
+        <row values="0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0"/>
+      </grid>
+    </item>
+    <item class="couturierTableItem" wz="0" wx="9" kind="couturierSinger" wy="12" id="couturierTableItem3"/>
+    <item class="sitItem" wz="0" direction="SE" wx="11" kind="couturierPaddedStool" wy="14.5" id="sitItem4"/>
+    <item class="landscapeItem" wz="0" wx="14" kind="couturierTable" wy="14" id="landscapeItem5"/>
+    <item class="sitItem" wz="0" direction="SE" wx="5" kind="couturierBench" wy="4" id="sitItem6"/>
+    <item class="sitItem" wz="0" direction="SW" wx="10.40625" kind="couturierSofa" wy="0.09375" id="sitItem7"/>
+    <item class="couturierPodiumStairsItem" wz="0" direction="SW" wx="18.390625" kind="couturierPodiumStairs" wy="2.578125" id="couturierPodiumStairsItem9"/>
+    <item class="dispositionItem" wx="9" wy="8" id="dispositionItem9"/>
+    <item class="dispositionItem" wx="9" wy="2" id="dispositionItem10"/>
+  </items>
+</map>

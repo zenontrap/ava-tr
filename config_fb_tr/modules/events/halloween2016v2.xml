@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="halloween2016v2" conjureGoldPrice="3">
+    <suits>
+        <!-- boy -->
+        <suit id="monsterBoySuit1" gender="1">
+            <item itemId="boyHlwn7"/>
+        </suit>
+
+        <suit id="monsterBoySuit2" gender="1">
+            <item itemId="boyHrnDvl16"/>
+            <item itemId="boyBtsDvl16"/>
+            <item itemId="boyTalDvl16"/>
+        </suit>
+
+        <suit id="monsterBoySuit3" gender="1">
+            <item itemId="boyMskHlb16"/>
+        </suit>
+
+        <suit id="monsterBoySuit4" gender="1">
+            <item itemId="boyHlwn11"/>
+        </suit>
+
+        <!-- girl -->
+        <suit id="monsterGirlSuit1" gender="2">
+            <item itemId="grlMskVmp16"/>
+        </suit>
+
+        <suit id="monsterGirlSuit2" gender="2">
+            <item itemId="girlHlwn12"/>
+            <item itemId="grlBtsDvl16"/>
+            <item itemId="grlTalDvl16"/>
+        </suit>
+
+        <suit id="monsterGirlSuit3" gender="2">
+            <item itemId="grlMskWtc16"/>
+        </suit>
+
+        <suit id="monsterGirlSuit4" gender="2">
+            <item itemId="girlHlwn21"/>
+        </suit>
+    </suits>
+</module>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<dictionary>
+    <locale name="tr">
+        <message key="dzo2019WelcomeDialogTitle">Memleketin Savunucusu Günü Kutlu Olsun!</message>
+        <message key="dzo2019WelcomeDialogStarsMessage">Oyunda çeşitli görevler tamamlayarak yıldızlar ve apoletler kazan. Ne kadar çok oynarsan, her gün o kadar çok yıldız kazanırsın!</message>
+        <message key="dzo2019WelcomeDialogEpaulettesMessage">Komşularının evine apoletler sakla ve arkadaşlarının senin evine sakladıkları için daha fazla yıldız kazan.</message>
+        <message key="dzo2019WelcomeDialogAwardMessage">Yıldızlar toplayarak ödüller kazanırsın. Uçak Süzülmeleri ve Muavin kıyafetleri yalnızca etkinlik sırasında kazanılabilir!</message>
+        <message key="dzo2019NotEnoughEpaulettesDialogMessage">Arkadaşlarına verebilmek için apoletlere ihtiyaç duyarsın. Çalışarak, yastık savaşlarında ve sörf yarışlarında apoletler kazanabilirsin. Hâlâ yeterli apoletin yok mu?</message>
+        <message key="dzo2019youHaveEpaulettesLabel">var</message>
+        <message key="dzo2019buyEpaulettes">:golds: karşılığında :count: satın al</message>
+        <message key="dzo2019ProgressDialogTitle">Yıldızlar topla ve ödüller kazan</message>
+        <message key="dzo2019ProgressDialogMessage">Bahçe ve tarlada çalışarak, komşunun apartmanını temizleyerek veya sörf yarışlarıyla yastık savaşlarını kazanarak yıldızlar elde edebilirsin.</message>
+        <message key="dzo2019WallMessage1">Memleketin Savunucusu Günü etkinliği sırasında bu hediyeyi aldım. Bana oyun içinde katıl ve bunun benzerini veya daha iyisini sen de kazan!</message>
+        <message key="dzo2019WallMessage2">Selam dostlar! Bu güzel ödülü kazanmak için yardımınıza ihtiyacım var! Sizi Avataria’da bekliyorum. Şimdiden teşekkürler!</message>
+        <message key="dzo2019AwardDialogTitle">Ödül senindir!</message>
+        <message key="dzo2019AwardDialogMessage">Bir ödül kazanmak için yeterli yıldızı topladın! Arkadaşlarının da kazanmak için zamanı olabilir. Tabii onlara kendi başarından bahsedersen!</message>
+        <message key="dzo2019ThrowEpaulettesNotificationTitle">Yıldızlı Apoletler</message>
+        <message key="dzo2019ThrowEpaulettesSuccessNotificationMessage">Akıllı bir sırıtmayla birlikte apoleti arkadaşının apartmanına sakladın :)</message>
+        <message key="dzo2019ThrowEpaulettesHasEpauletteNotificationMessage">Ah! Arkadaşında o apolet zaten var. Onları oyuna davet et ki daha fazla yıldız kazanıp sana yardımcı olabilsinler.</message>
+        <message key="dzo2019ThrowEpaulettesFullHouseNotificationMessage">Ah olamaz! Arkadaşın bütün apoletleri toplayana kadar yeni bir tanesini saklayamayacaksın. Onları oyuna davet et, çabuk ol!</message>
+        <message key="dzo2019CollectEpaulettesSuccessNotificationMessage">Bir apolet buldun: :name::throwGender:.</message>
+        <message key="dzo2019AskHelpDialogTitle">Yardıma ihtiyacım var!</message>
+        <message key="dzo2019AskHelpDialogMessage">Yıldızlara mı ihtiyacın var? Çok mu? Arkadaşın olmadan çok zorlanırsın.</message>
+        <message key="dzo2019throwEpaulettesButtonHint">Komşunda apolet sakla</message>
+        <message key="dzo2019throwEpaulettesLockButtonHint">Çok fazla apoletin var</message>
+        <message key="dzo2019useMagnetButtonHint">Bütün apoletleri topla</message>
+        <message key="dzo2019inviteTimeoutDescription">Arkadaşını yakın zamanda zaten davet etmiştin!</message>
+        <message key="dzo2019noEpaulettesWarning">Apartmanında bir apolet bulunmuyor. Öncelikle komşunu ziyaret ederek onun apartmanına apoletler saklamalısın!</message>
+        <message key="dzo2019magnet">Apolet bulduğun için mıknatıs</message>
+        <gender key="dzo2019ThrowGender">
+            <form>saklı</form>
+            <form>saklı</form>
+        </gender>
+    </locale>
+</dictionary>

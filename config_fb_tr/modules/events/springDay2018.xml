@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="springDay2018">
+    <!-- cooldown = 06.03.2019, 12:00:00 MSK -->
+    <trophy id="springDay2018" maxProgress="10000" icon="TrophyIcon@springDay2018" cooldown="1551862800"/>
+
+    <inventory>
+        <category id="craftLoot">
+            <item id="sd18Coin" description="#sd18CoinDescription" probability="1" gold="100"
+                  name="Coin@springDay2018" icon="CoinCraftIcon@springDay2018" label="#sd18CoinTitle"/>
+        </category>
+    </inventory>
+
+    <craft>
+        <craftedItem title="#sd18CoinTitle" itemId="sd18Coin" holiday="" count="50">
+            <component itemId="jarOfPaint" count="20"/>
+            <component itemId="peaceOfIron" count="99"/>
+            <component itemId="happiness" count="99"/>
+            <component itemId="luck" count="99"/>
+        </craftedItem>
+    </craft>
+
+    <friendHints>
+        <friendHint delay="3000" ttl="10000" message="#sd18FriendHelpMessage"/>
+    </friendHints>
+
+    <wishes>
+        <furniture>
+            <item id="chrSV14" price="125"/>
+            <item id="wllFeb23" price="225"/>
+            <item id="lmpSV14" price="310"/>
+            <item id="flrFeb23" price="600"/>
+            <item id="floorNY14" price="600"/>
+            <item id="tngTreeNY14" price="600"/>
+            <item id="tblSB14" price="625"/>
+            <item id="wllNY14" price="700"/>
+            <item id="drNY14Sml" price="700"/>
+            <item id="clmnIceNY14" price="700"/>
+            <item id="floorSV15" price="750"/>
+            <item id="wdwIceNY14" price="900"/>
+            <item id="drNY14Bg" price="1000"/>
+            <item id="sfSV15" price="1000"/>
+            <item id="frplSantaHouse" price="1000"/>
+            <item id="flrSV14" price="1125"/>
+            <item id="drSV15" price="1135"/>
+            <item id="wllBlkRs" price="1145"/>
+            <item id="vntFeb23" price="1175"/>
+            <item id="floorSantaHouse" price="1250"/>
+            <item id="hlwnBlrmPn" price="1495"/>
+            <item id="wllSantaHouse" price="1500"/>
+            <item id="wllSV14" price="1750"/>
+            <item id="wallSV15" price="1750"/>
+            <item id="hlwnNrrw" price="1845"/>
+            <item id="drSantaHouse" price="2000"/>
+            <item id="wdwSantaHouse" price="2000"/>
+            <item id="drSV14" price="2125"/>
+            <item id="clckFeb23" price="2495"/>
+            <item id="armchrNY14" price="3000"/>
+            <item id="cslSV14" price="3750"/>
+            <item id="drFeb23" price="4495"/>
+            <item id="wdwFeb23" price="7495"/>
+            <item id="prtrWll" price="250"/>
+            <item id="prtrDr" price="225"/>
+            <item id="prtrWdw" price="350"/>
+            <item id="prtrFlr" price="210"/>
+            <item id="prtrMap" price="450"/>
+            <item id="prtrCndl" price="250"/>
+            <item id="prtrBrl" price="365"/>
+            <item id="prtrBrlSbr" price="175"/>
+            <item id="prtrChst" price="400"/>
+            <item id="prtrBook" price="280"/>
+            <item id="prtrCore" price="145"/>
+            <item id="prtrMrt" price="675"/>
+            <item id="prtrChr" price="300"/>
+            <item id="prtrArmchr" price="600"/>
+            <item id="prtrTbl" price="700"/>
+            <item id="shWll" price="210"/>
+            <item id="shDr" price="295"/>
+            <item id="shFlr" price="350"/>
+            <item id="shWdw" price="3650"/>
+            <item id="shWdmm" price="450"/>
+            <item id="shMdmm" price="450"/>
+            <item id="shJPck" price="195"/>
+            <item id="shWldm" price="550"/>
+            <item id="shGlb" price="945"/>
+            <item id="shWpl" price="400"/>
+
+            <item id="wtrfll4" price="1175"/>
+            <item id="plntNYRf" price="50"/>
+            <item id="cptPrns" price="300"/>
+            <item id="fireplace2" price="460"/>
+            <item id="sofaVip2" price="745"/>
+            <item id="chrTrBth" price="50"/>
+            <item id="wardrobeForget1" price="105"/>
+            <item id="tblCtr1" price="220"/>
+            <item id="chair6" price="35"/>
+            <item id="armchairVip2" price="290"/>
+            <item id="awrdTbl3" price="150"/>
+            <item id="frnWll4" price="295"/>
+            <item id="bdPrncss" price="1495"/>
+            <item id="caseRoseMirror" price="55"/>
+            <item id="bthMya" price="1995"/>
+            <item id="bath6" price="40"/>
+            <item id="jacuzzi2" price="325"/>
+            <item id="jacuzzi4" price="425"/>
+            <item id="refrigerator2" price="500"/>
+            <item id="wdwBlkRs" price="2660"/>
+            <item id="bdBlkRs" price="2160"/>
+            <item id="cstlSV14" price="3000"/>
+            <item id="lvmtrSV14" price="300"/>
+            <item id="lvprpvnSV15" price="300"/>
+        </furniture>
+        <tech>
+            <item id="flrAq1" price="9995"/>
+            <item id="hrsAms3" price="4750"/>
+            <item id="carLmbWht" price="2495"/>
+            <item id="bikeDctOrg" price="1695"/>
+            <item id="tvAln" price="750"/>
+            <item id="carJeepYel" price="1745"/>
+            <item id="carVip3" price="700"/>
+            <item id="djAln" price="900"/>
+            <item id="wllAq1" price="7495"/>
+            <item id="acoustic3" price="30"/>
+            <item id="applianceNotebook2" price="45"/>
+            <item id="applianceNotebook1" price="70"/>
+            <item id="applianceTv2" price="125"/>
+            <item id="actAln" price="145"/>
+            <item id="applianceMusicCenter4" price="225"/>
+            <item id="applianceMusicCenter3" price="275"/>
+            <item id="applianceTv4" price="325"/>
+            <item id="carBtlOg" price="1495"/>
+            <item id="carBtlBl" price="1495"/>
+            <item id="bikeChpprRd" price="1095"/>
+        </tech>
+        <gift>
+            <item id="loveBalloon" price="30"/>
+            <item id="roseBasket" price="100"/>
+            <item id="cndWdnPnk" price="20"/>
+            <item id="miniFountain" price="120"/>
+            <item id="wdnTeasrvc" price="85"/>
+            <item id="pirateShip" price="70"/>
+            <item id="applianceBat" price="5"/>
+            <item id="wllgrfft2" price="10"/>
+            <item id="wllgrfft4" price="10"/>
+            <item id="wllgrfft1" price="20"/>
+            <item id="wllgrfft3" price="10"/>
+            <item id="scrdvr" price="25"/>
+            <item id="jacuzziWorms" price="5"/>
+            <item id="chairBomb" price="5"/>
+            <item id="aqF1" price="75"/>
+            <item id="aqF4" price="25"/>
+            <item id="aqF2" price="35"/>
+            <item id="aqF3" price="50"/>
+        </gift>
+    </wishes>
+</module>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+        <message key="ab16RoomName">Tatil Zamanı</message>
+        <message key="ab16GarlandLabel">Üçgen Bayraklı Şerit</message>
+        <message key="ab16CapLabel">Parti Şapkası</message>
+        <message key="ab16FifeLabel">Düdük</message>
+        <message key="ab16TicketLabel">Giriş Bileti</message>
+        <message key="ab16TinselLabel">Pul</message>
+        <message key="ab16FlagRedLabel">Kırmızı Üçgen Bayrak</message>
+        <message key="ab16FlagGrnLabel">Yeşil Üçgen Bayrak</message>
+        <message key="ab16FlagBluLabel">Mavi Üçgen Bayrak</message>
+        <message key="ab16FlagPrlLabel">Mor Üçgen Bayrak</message>
+        <message key="ab16CapDescription">Parti Şapkası, Atölye'de yapılabilir</message>
+        <message key="ab16GarlandDescription">Parti Üçgen Bayrakları, Atölye'de yapılabilir</message>
+        <message key="ab16TinselDescription">Oyunlara katılarak edinilebilir</message>
+        <message key="ab16FlagRedDescription">Kafe, Park ya da Meydan ziyaret edilerek edinilebilir</message>
+        <message key="ab16FlagGrnDescription">Plaj, Stilist ya da Sokak ziyaret edilerek edinilebilir</message>
+        <message key="ab16FlagBluDescription">Kanyon, Mirket, Balo Salonu, Buz Pateni Pisti ya da Kulüp ziyaret edilerek edinilebilir</message>
+        <message key="ab16FlagPrlDescription">VIP mekan ziyaret edilerek edinilebilir</message>
+        <message key="avaBirthdayTitle">Avataria Doğum Günü</message>
+        <message key="avaBirthdayAlertLocationText">Buraya girmek için bir Giriş Bileti yapmalısın. Atölye'ye gitmek ister misin?</message>
+        <message key="avaBirthdayAwardDialogTitle">Doğum Günün Kutlu Olsun, Avataria!</message>
+        <message key="avaBirthdayAwardDialogMessage">Ödülünü al!</message>
+        <message key="avaBirthday2016WelcomeFriendHint">Atölye'ye Git! Tatil tarifleri seni bekliyor!</message>
+        <message key="avaBirthday2016TinselFriendHint">Pul kazanmak için mini oyunlar oyna!</message>
+        <message key="avaBirthday2016AddFlagHint">Bravo, al sana :flag:!</message>
+        <message key="avaBirthday2016ClickCakeHint">Ödülünü almak için pastaya tıkla!</message>
+        <message key="avaBirthdayMenuItem">Düdüğü Çal</message>
+        <message key="avaBirthdayNotFifeMessage">Düdüğün yok! Yapmak ister misin?</message>
+    </locale>
+</dictionary>

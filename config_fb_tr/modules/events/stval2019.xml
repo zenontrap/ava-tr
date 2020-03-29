@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module id="stval2019">
+
+    <additionalPurchase>
+        <item id="heartpiece" gold="25" count="5"/>
+        <item id="heart" gold="5" count="1"/>
+    </additionalPurchase>
+
+    <inventory>
+        <category id="craftLoot">
+	        <item id="heartpiece" name="HalfHeartLoot@stval2019" icon="HalfHeartIcon@stval2019" label="#halfheartLootLabel"
+	            description="#halfheartLootDescrioption" probability="0.4" gold="500" silver="0" canTrade="0" canSale="0" />
+            <item id="heart" name="HeartLoot@stval2019" icon="HeartIcon@stval2019" label="#heartLootLabel"
+                description="#heartLootDescrioption" probability="1" gold="5" silver="0" canTrade="0" canSale="0" />
+        </category>
+    </inventory>
+    
+    <awards>
+        <award id="1" hearts="50" itemType="clothes" itemId="boyHatSV19Vlntn" gold="5" gender="1"
+            icon="hatBoyValentine2019Icon@stval2019" receiveIcon="boyHatSV19VlntnIcon@stval2019"
+               hint="#HatSV19VlntnLabel"/>
+        <award id="2" hearts="50" itemType="clothes" itemId="girlHatSV19Vlntn" gold="5" gender="2"
+               icon="hatGirlValentine2019Icon@stval2019" receiveIcon="girlHatSV19VlntnIcon@stval2019"
+               hint="#HatSV19VlntnLabel"/>
+        <award id="3" hearts="250" itemType="furniture" itemId="wddnCar" gold="5"
+               icon="carValentine2019Icon@stval2019" receiveIcon="wddngCarIcon@stval2019"
+               hint="#wddnCarLabel"/>
+        <award id="4" hearts="500" itemType="clothesSet" itemId="boySV19Set" gold="5" gender="1"
+               icon="costumeBoyValentine2019Icon@stval2019" receiveIcon="boySV19SetIcon@stval2019"
+               hint="#boySV19SetLabel"/>
+        <award id="5" hearts="500" itemType="clothesSet" itemId="girlSV19Set" gold="5" gender="2"
+               icon="costumeGirlValentine2019Icon@stval2019" receiveIcon="girlSV19SetIcon@stval2019"
+               hint="#girlSV19SetLabel"/>
+        <award id="6" hearts="750" itemType="trophy" itemId="stVal2018" gold="5"
+               icon="titleValentine2019Icon@stval2019" receiveIcon="VlntnTtlIcon@stval2019"
+               count="1581638400" hint="#stVal2018Title"/>
+        <award id="7" hearts="1000" itemType="clothes" itemId="boySV19VlntnWngs" gold="5" gender="1"
+               icon="wingsValentine2019Icon@stval2019" receiveIcon="VlntnWngsIcon@stval2019"
+               hint="#WngsSV19VlntnLabel"/>
+        <award id="8" hearts="1000" itemType="clothes" itemId="girlSV19VlntnWngs" gold="5" gender="2"
+               icon="wingsValentine2019Icon@stval2019" receiveIcon="VlntnWngsIcon@stval2019"
+               hint="#WngsSV19VlntnLabel"/>
+    </awards>
+    
+    <overloadAwards>
+        <award id="1" hearts="10" itemType="game" itemId="flowerBud" gold="5" count="50" icon="flowerBudIcon@stval2019" hint="#flowerBudLootLabel"/>
+        <award id="2" hearts="15" itemType="game" itemId="shell" gold="5" count="20" icon="shellIcon@stval2019" hint="#shellLootLabel"/>
+        <award id="3" hearts="30" itemType="game" itemId="pearl" gold="5" count="15" icon="pearlIcon@stval2019" hint="#pearlLootLabel"/>
+    </overloadAwards>
+    
+    <confirms>
+	    <confirm type="sv19ConcatHeartpieces" iconType="stVal19:NotificationTitle@stval2019">
+	        <requestSended title="#stVal19ParticipantRequestSendedTitle" message="#stVal19ParticipantRequestSendedMessage" />
+	        <confirm message="#stVal19ParticipantReceivedMessage" />
+	        <approve title="#stVal19ParticipantRequestApprovedTitle" message="#stVal19ParticipantRequestApprovedMessage" energy="5"/>
+	        <decline title="#stVal19ParticipantRequestDeclinedTitle" message="#stVal19ParticipantRequestDeclinedMessage" />
+	    </confirm>
+    </confirms>
+
+    <craft>
+        <craftedItem title="#sv19HeartCraftHintTitle" itemId="valentineRosesPinkVase" heartsAwardCount="10" holiday="stval19">
+            <component itemId="flowerBud" count="3"/>
+            <component itemId="love" count="10"/>
+            <component itemId="generosity" count="10"/>
+            <moduleComponent itemId="heartpiece" count="20"/>
+        </craftedItem>
+
+        <craftedItem title="#sv19HeartCraftHintTitle" itemId="valentineRosesRedVase" heartsAwardCount="10" holiday="stval19">
+            <component itemId="flowerBud" count="3"/>
+            <component itemId="love" count="10"/>
+            <component itemId="generosity" count="10"/>
+            <moduleComponent itemId="heartpiece" count="20"/>
+        </craftedItem>
+
+        <craftedItem title="#sv19HeartCraftHintTitle" itemId="valentineBearPink" heartsAwardCount="20" holiday="stval19">
+            <component itemId="flowerBud" count="10"/>
+            <component itemId="love" count="20"/>
+            <component itemId="generosity" count="20"/>
+            <moduleComponent itemId="heartpiece" count="36"/>
+        </craftedItem>
+
+        <craftedItem title="#sv19HeartCraftHintTitle" itemId="valentineBearRed" heartsAwardCount="20" holiday="stval19">
+            <component itemId="flowerBud" count="10"/>
+            <component itemId="love" count="20"/>
+            <component itemId="generosity" count="20"/>
+            <moduleComponent itemId="heartpiece" count="36"/>
+        </craftedItem>
+
+        <craftedItem title="#sv19HeartCraftHintTitle" itemId="valentineBearViolet" heartsAwardCount="20" holiday="stval19">
+            <component itemId="flowerBud" count="10"/>
+            <component itemId="love" count="20"/>
+            <component itemId="generosity" count="20"/>
+            <moduleComponent itemId="heartpiece" count="36"/>
+        </craftedItem>
+
+        <craftedItem title="#sv19HeartCraftHintTitle" itemId="valentineFountain" heartsAwardCount="50" holiday="stval19">
+            <component itemId="water" count="10"/>
+            <component itemId="peaceOfIron" count="30"/>
+            <component itemId="generosity" count="50"/>
+            <moduleComponent itemId="heartpiece" count="128"/>
+        </craftedItem>
+    </craft>
+    
+</module>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="springDay2016" campaign="springDay2016">
+    <cityEventLocation id="module" index="-1" category="module" targetId="house" subTargetId="sd16Room">
+        <icon name="EventLocationIcon@springDay2016" title="#sd16RoomName"/>
+        <module filterIcon="EventFilterIcon@springDay2016" filterLabel="springDay2016EventFilterLabel"
+                categoryIcon="EventCategoryIcon@springDay2016">
+            <price gold="3"/>
+        </module>
+    </cityEventLocation>
+
+    <friendHints>
+        <friendHint delay="3000" ttl="10000" message="#springDay2016FriendHint"/>
+    </friendHints>
+
+    <craft>
+        <craftedItem title="#springDay2016Flower" itemId="sd16Flower" holiday="">
+            <component itemId="cloth" count="10" social="1"/>
+            <component itemId="love" count="25"/>
+            <moduleComponent itemId="sd16Droplet" count="50"/>
+            <component itemId="generosity" count="26"/>
+        </craftedItem>
+        <craftedItem title="#springDay2016Fish" itemId="sd16Fish" holiday="">
+            <component itemId="glass" count="12" social="1"/>
+            <component itemId="happiness" count="25"/>
+            <moduleComponent itemId="sd16Droplet" count="60"/>
+            <component itemId="generosity" count="24"/>
+        </craftedItem>
+    </craft>
+
+    <inventory>
+        <category id="art">
+            <item id="sd16Flower" label="#springDay2016Flower" icon="CraftFlowerIcon@springDay2016" canBuy="0"/>
+        </category>
+        <category id="art">
+            <item id="sd16Fish" label="#springDay2016Fish" icon="CraftFishIcon@springDay2016" canBuy="0"/>
+        </category>
+        <category id="craftLoot">
+            <item id="sd16Droplet" description="#springDay2016DropletLootDescription" icon="CraftLootIcon@springDay2016"
+                  name="CraftLoot@springDay2016" label="#springDay2016Droplet" probability="0" gold="50"/>
+        </category>
+    </inventory>
+
+    <awards>
+        <award id="1" itemType="clothes" itemId="sd16bSwimsuit" gender="1" stageId="stage1"
+               icon="RoundBoySwimsuit@springDay2016" requestIcon=""
+               receiveIcon="PromoGetClothes1Boy@springDay2016"/>
+
+        <award id="2" itemType="clothes" itemId="sd16gSwimsuit" gender="2" stageId="stage1"
+               icon="RoundGirlSwimsuit@springDay2016" requestIcon=""
+               receiveIcon="PromoGetClothes1Girl@springDay2016"/>
+
+        <award id="3" itemType="" itemId="sd16flower" stageId="stage2"
+               icon="RoundFlowers@springDay2016" requestIcon=""
+               receiveIcon="PromoGetFlowers@springDay2016"/>
+
+        <award id="4" itemType="" itemId="sd16filter" stageId="stage3"
+               icon="RoundWater@springDay2016" requestIcon=""
+               receiveIcon="PromoGetWater@springDay2016"/>
+
+        <award id="5" itemType="clothesSet" itemId="sd16bSet" gender="1" stageId="stage4"
+               icon="RoundBoyClothes@springDay2016" requestIcon=""
+               receiveIcon="PromoGetClothes2Boy@springDay2016"/>
+
+        <award id="6" itemType="clothesSet" itemId="sd16gSet" gender="2" stageId="stage4"
+               icon="RoundGirlClothes@springDay2016" requestIcon=""
+               receiveIcon="PromoGetClothes2Girl@springDay2016"/>
+    </awards>
+
+    <stages>
+        <stage stageId="stage1" title="#springDay2016Stage1Title" priority="1" dropProbability="0.4"
+               progressToComplete="30" roomConfigurationId="sd16Stage1Config" gold="250"/>
+        <stage stageId="stage2" title="#springDay2016Stage2Title" priority="2" dropProbability="0.4"
+               progressToComplete="5" roomConfigurationId="sd16Stage2Config" gold="350"/>
+        <stage stageId="stage3" title="#springDay2016Stage3Title" priority="3" dropProbability="0.3"
+               progressToComplete="800" roomConfigurationId="sd16Stage3Config" gold="450"/>
+        <stage stageId="stage4" title="#springDay2016Stage4Title" priority="4" dropProbability="0.2"
+               progressToComplete="7" roomConfigurationId="sd16Stage4Config" gold="600"/>
+    </stages>
+
+    <rooms>
+        <room id="sd16DefaultRoomConfig" label="#sd16RoomName">
+            <item id="1" typeId="sd16Wll" direction="3"/>
+            <item id="2" typeId="sd16Wll" direction="5" x="13"/>
+            <item id="3" typeId="sd16Flr"/>
+            <item id="5" typeId="sd16DrtPnd" x="2" y="2" z="0" direction="5"/>
+        </room>
+        <room id="sd16Stage1Config" label="#sd16RoomName">
+            <item id="5" typeId="sd16ClnPnd" replaceItemTypeId="sd16DrtPnd"/>
+        </room>
+        <room id="sd16Stage2Config" label="#sd16RoomName">
+            <item id="5" typeId="sd16FlwPnd" replaceItemTypeId="sd16ClnPnd"/>
+        </room>
+        <room id="sd16Stage3Config" label="#sd16RoomName">
+            <item id="5" typeId="sd16FltPnd" replaceItemTypeId="sd16FlwPnd"/>
+        </room>
+        <room id="sd16Stage4Config" label="#sd16RoomName">
+            <item id="5" typeId="sd16FshPnd" replaceItemTypeId="sd16FltPnd"/>
+        </room>
+    </rooms>
+</module>

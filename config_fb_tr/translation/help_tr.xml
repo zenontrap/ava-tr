@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dictionary>
+    <locale name="tr">
+        
+		<!-- WELCOME -->
+		
+		<message key="welcomeTitle">Karşılama</message>
+		<message key="exclamationText">Merhaba!</message>
+		<message key="welcomeText"><![CDATA[<p><span class="bold">Dikkat!</span> Bu uygulama hala geliştirilmektedir ve sadece yazarı ve arkadaşları tarafından kullanılabilir. Bu uygulama hala geliştirilmektedir ve sadece yazarı ve arkadaşları tarafından kullanılabilir.</p>]]></message>
+		<message key="welcomeLeftTabTitle">Yeni Neler Var</message>
+		<message key="welcomeRightTabTitle">Çok Yakında</message>
+		
+		<!-- HELP -->
+       
+        <message key="helpTitle">yardım</message>
+		<message key="helpTab1Title">SSS</message>
+		<message key="helpTab2Title">İncelemeler</message>
+		<message key="helpTab3Title">Oyunlar</message>
+		<message key="helpTab4Title">Etkinlikler</message>
+		
+		<message key="supportButtonTitle">Destekle İrtibat Kurun</message>
+		
+		<message key="helpTab1Content"><![CDATA[
+			<p><span class="bold">Birisinin eşyasını bozdum ve tamir edemiyorum. Neden?</span></p> 
+			<h5></h5> 
+			<p>Sadece kendi dairenizde bir öğeyi tamir edebilirsiniz. Ayrıca sadece başka bir oyuncunun dairesindeki bir eşyayı bozabilirsiniz.</p> 
+			<h5></h5> 
+			<p><span class="bold">Neden deneyim kazandıran daha fazla görevim yok?</span></p>  
+			<h5></h5>  
+			<p>Bu, size deneyim kazandıran tüm görevleri tamamladığınız anlamına gelir. Daha fazla oyun özelliği sunuldukça, daha fazla görev de eklenecektir.</p>
+			<h5></h5>  
+			<p><span class="bold">Arkadaşlarımdan bir eşya göndermelerini istediğimde veya talep mesajlarındaki bağlantıyı takip ettiğimde hiçbir şey olmuyor.</span></p> 
+			<h5></h5>  
+			<p>Talep başına sadece bir arkadaş yardım edebilir. Ayrıca, bir arkadaşınız her 24 saatte sadece bir defa size yardım edebilir. Eğer bir yardım talebi penceresi belirmemişse, arkadaşlarından bir tanesi zaten yardım etmiş demektir.</p> 
+			<h5></h5>   
+			<p><span class="bold">Bir bahçe veya sokak görevi için sayacım (günde N defa ziyaret edin) durdu.</span></p>  
+			<h5></h5>  
+			<p>Sayaç durmamıştır. Görev her şeyi doğru olarak yansıtmaktadır ve sadece son 24 saati dikkate almaktadır. Sonraki vardiya başladığında (bahçe, sokak), görev bilgileri güncellenecektir ve gerekli yerleri belirtilen defalar (vardiya başlangıcında) ziyaret etmeniz yeterli olacaktır.</p> 
+			<h5></h5>   
+			<p><span class="bold">Altın almak için kodu nereye girebilirim? Oyun içerisinde kodlar var mı?</span></p> 
+			<h5></h5>   
+			<p>Oyunda herhangi bir kod bulunmamaktadır. Birisi size bazı öğeler karşılığında bir kod değiştirmeyi teklif ediyorsa, sizi kandırmaya çalışıyordur. Sadece belirli oyun eylemlerini tamamlayarak altın para alabilirsiniz (görevleri tamamlama ödülü olarak, Şans Çarkında kazanarak, günlük ödül olarak veya altın satın alarak).</p> 
+			<h5></h5>   
+			<p><span class="bold">Kandırıldım ve eşyalarım çalındı. Ne yapmalıyım?</span></p>  
+			<h5></h5>   
+			<p>Maalesef, kaybettiğiniz öğeleri size geri getiremeyiz. Dikkatli olun ve asla değerli oyun öğelerini yabancılara vermeyin! Bunları geri almanız mümkün olmayacaktır.</p> 
+			<h5></h5>  
+			<p><span class="bold">Günlük ödülümü almadım. Neden?</span></p> 
+			<h5></h5>   
+			<p>Bir ödül almak için, oyunda her gün oturum açmalısınız. Bir gün kaçırırsanız, sayaç tekrar sıfırdan başlayacaktır, dolayısıyla sadece ertesi gün ödül alabilirsiniz.</p> 
+			<h5></h5>   
+			<p><span class="bold">Sürekli “Oyun duraklatıldı.” mesajını alıyorum. Neden?</span></p>  
+			<h5></h5>  
+			<p>Avatarınız belirli bir süre hareket etmezse (konumunuza bağlı olarak 5 ila 10 dakika arası), oyun duraklatılır. Sohbetle iletişim kurmak ve mağazalarda alışveriş yapmak etkinlik olarak dikkate alınmaz ve bu mesaj görüntülenebilir. Sadece avatarınızı hareket ettirmeniz ve çeşitli oyun eylemlerini gerçekleştirmeniz etkinlik olarak sayılmaktadır.</p> 
+			<h5></h5>  
+			<p><span class="bold">Mobilya ve kıyafet satın alma</span></p>   
+			<h5></h5>  
+			<p>Mobilya ve kıyafetler mağazalardan satın alınır. Mağazaların listesini görmek için, ekranın alt kısmındaki Mağazalar üzerine tıklayın.</p> 
+			<h5></h5>  
+			<!--
+			<p><span class="bold">İhtiyacım olmayan bir eşyayı nasıl satarım?</span></p>
+			<h5></h5>  
+			<p>Ekranın alt kısmındaki Eşya listesi üzerine tıklayın. Tüm eşyalarınızın bir listesini getirecektir ve her eşyanın altında bir Sat düğmesini göreceksiniz. Kıyafetlerinizi sattığınızda imaj puanı kaybettiğinizi unutmayın.</p> 
+			<h5></h5>
+			-->
+			<p><span class="bold">Nasıl kıyafet değiştiririm?</span></p>
+			<h5></h5>  
+			<p>Dairenizdeki kıyafet dolabına tıklayarak veya ekranın alt kısmında yer alan Kıyafet Değiştir üzerine tıklayarak kıyafet değiştirebilirsiniz.</p> 
+			<h5></h5>   
+			<p><span class="bold">Görünümümü nasıl değiştirebilirim?</span></p>  
+			<h5></h5>  
+			<p>Görünümünüzü değiştirmek için, ekranın alt kısmındaki Görünüm üzerine tıklayın.</p> 
+			<h5></h5>  
+			<p><span class="bold">Cinsiyetimi nasıl değiştiririm?</span></p> 
+			<h5></h5>  
+			<p>Avataria'da şu anda cinsiyet değiştirmek için bir yol mevcut değildir.</p> 
+			<h5></h5>  
+			<p><span class="bold">Seviyemi nasıl arttırırım?</span></p> 
+			<h5></h5>  
+			<p>Görevleri tamamlayarak ve deneyim kazanarak seviyenizi arttırabilirsiniz. Ekranın sol tarafındaki Görevler üzerine tıklayarak mevcut görevler listesine bakın. Mevcut seviyeniz ve deneyiminiz ekranın üst kısmında gösterilmektedir.</p> 
+			<h5></h5>  
+			<p><span class="bold">Daireye nasıl mobilya yerleştiririm?</span></p> 
+			<h5></h5>  
+			<p>Mobilya satın alındıktan hemen sonra oyuncunun eşya listesinde belirir. Satın alınan mobilyayı (ayrıca duvar kağıdı, döşeme ve benzeri) dairenize yerleştirmek için, Oda Düzenleyici üzerine tıklayın ve istediğiniz herşeyi odaya koyun. Ayrıca bu şekilde bir odadan gereksiz eşyaları çıkartabilir veya konumlarını değiştirebilirsiniz.</p> 
+			<h5></h5>  
+			<p><span class="bold">Enerjimi nasıl geri kazanırım?</span></p> 
+			<h5></h5>  
+			<p>Enerji, en fazla 100 birim olacak şekilde dakikada 1 birim hızla otomatik olarak kazanılmaktadır. Kafede veya kulüpte enerjinizi daha hızlı geri kazanabilir veya enerji kapasitenizi arttırabilirsiniz. Ayrıca, enerji çubuğunun altından Ekle öğesine tıklayarak altın karşılığında enerji satın alabilirsiniz.</p> 
+			<h5></h5>   
+			<p><span class="bold">Nasıl para kazanırım?</span></p> 
+			<h5></h5>  
+			<p>Çalışarak ve ayrıca belirli görevleri tamamlayarak ve oyunları oynayarak gümüş para kazanabilirsiniz. Mevcut tüm işler, Yerler simgesine tıklayarak ve İşler sekmesi seçilerek görülebilir.</p> 
+			<h5></h5>  
+			<p><span class="bold">Komşularım kimlerdir?</span></p> 
+			<h5></h5>  
+			<p>Komşularınız, Avataria uygulamasını kurmuş olan sosyal ağ arkadaşlarınızdır. Dairelerini temizleyebilir ve karşılığında gümüş para kazanabilirsiniz.</p> 
+			<h5></h5>  
+			<p><span class="bold">Dostlarım kimlerdir?</span></p> 
+			<h5></h5>  
+			<p>Dostlar, Avataria'da arkadaşlık kurduğunuz diğer oyunculardır. Ekranın alt kısmında yer alan Dostlar simgesine tıklayarak dostlar listenize bakabilirsiniz.</p> 
+			<h5></h5>  
+			<p><span class="bold">Neden başka bir oda satın alamıyorum?</span></p> 
+			<h5></h5>  
+			<p>Başka bir oda satın almak için belirli bir seviyede olmanız gereklidir. Sadece seviye 3, 5, 7 ve 9'a ulaştıktan sonra başka bir oda satın alabilirsiniz.</p> 
+			<h5></h5>  
+			<p><span class="bold">Tüm komşularımın çöplerini temizledim. Ne zaman yeniden belirecekler?</span></p> 
+			<h5></h5>  
+			<p>Sonraki gün</p>
+			<h5></h5>  
+			<p><span class="bold">Komşumun dairesinde olması gereken 5 parça kağıttan daha az çöp var!</span></p>  
+			<h5></h5>  
+			<p>Komşunuzun dairesi birden çok odadan oluşuyorsa, tüm çöp bir odada olmayabilir, odalar arasında dağılmış olabilir.</p> 
+			<h5></h5>  
+			<p><span class="bold">Bahçedeki tüm görevleri tamamladım. Tekrar ne zaman burada çalışabileceğim?</span></p> 
+			<h5></h5>  
+			<p>1 saat içerisinde.</p> 
+			<h5></h5>  
+			<p><span class="bold">Sokaktaki tüm çöpleri temizledim. Tekrar ne zaman burada çalışabileceğim?</span></p> 
+			<h5></h5>  
+			<p>Yarım saat içerisinde.</p> 
+			<h5></h5>
+        ]]></message>
+		
+		<!-- REVIEW -->
+        
+        <message key="reviewCategoryFormLabel">Kategori: </message>
+		<message key="reviewCategory1">inceleme</message>
+		<message key="reviewCategory2">şikayet</message>
+		<message key="reviewCategory3">talep</message>
+		<message key="reviewMessageFormLabel">Metin:</message>
+		<message key="reviewMessageSendComplete">Mesaj gönderildi.</message>
+		
+		<!-- ABUSE -->
+        <message key="abuseCategory">Sebep:</message>
+		<message key="abuseCategory1">sohbette küfür</message>
+		<message key="abuseCategory2">kötü davranış</message>
+		<message key="abuseCategory3">mesaj paketi</message>
+		<message key="abuseCategory4">diğer</message>
+		<message key="abuseCategory5">kullanıcı sözleşmesi ihlali</message>
+		<message key="abuseMessage">Metin:</message>
+		<message key="abuseButtonTitle">şikayet</message>
+		<message key="abuseTitle">Şikayet</message>
+		<message key="abuseSendComplete">Şikayet gönderildi.</message>
+		
+		<!-- MODERATOR MESSAGE -->
+        <message key="messageCategory">Türü:</message>
+		<message key="messageCategory0">diğer</message>
+		<message key="messageText0">diğer...</message>
+		<message key="moderatorMessageFormLabel">Metin:</message>
+
+		<message key="moderatorMessageComplete">Mesaj kullanıcıya iletildi.</message>
+		
+		<!-- EVENT COMPLAIN -->
+        <message key="eventComplainTitle">Bir etkinlik hakkında şikayet</message>
+		<message key="eventComplainComplete">Şikayet gönderildi.</message>
+		
+		<!-- BAN -->
+        <message key="moderatorBanTitle">Kullanıcı yasaklama</message>
+		<message key="moderatorBanComplete">Kullanıcı yasaklı.</message>
+
+        <!-- SUPPORT -->
+        <message key="reviewTitleFormLabel">Konu:</message>
+        <message key="reviewUserEmail">E-posta</message>
+        <message key="reviewUnbanCategoryText">Hesabın banını kaldır</message>
+        <message key="moderatorBanRequestComplete">Ban isteğiniz onay bekliyor.</message>
+        <message key="ticketDialogTitle">Çağrı</message>
+        <message key="supportModeratorName">Moderatör</message>
+        <message key="createTicket">Çağrı Oluştur</message>
+        <message key="createTicketComplete">Teknik destek çağrısı yapıldı. En kısa zamanda bir destek uzmanı yanıt verecektir.</message>
+        <message key="addTicketReply">Çağrı Yorumları</message>
+        <message key="addTicketReplyComplete">Bu çağrıya eklediğiniz yorum gönderildi. En kısa zamanda bir teknik destek uzmanı sizinle iletişime geçecek.</message>
+        <message key="cancelTicket">Çağrı Kapatıldı</message>
+        <message key="cancelTicketComplete">Bu çağrı kapatıldı. Teknik desteğe başvurduğunuz için teşekkürler.</message>
+
+        <message key="moderatorMessageDialogTitle">Moderatör uyarısı yaz</message>
+
+        <message key="abuseChatTitle">Şikayet: sohbet</message>
+        <message key="abuseNameTitle">Şikayet: ad</message>
+        <message key="abuseEventTitle">Şikayet: etkinlik</message>
+        <message key="complaintSendTitle">Gönderildi.</message>
+        <message key="complaintSendSuccess">Şikayetin incelenmek üzere ilgili birime iletildi.</message>
+        <message key="complaintSendFail">Bu şikayet incelenmek üzere ilgili birime iletilemedi.</message>
+        <message key="complaintNotChangeReputation">Şikayet reddedilirse reytingin düşecek.</message>
+
+		<message key="helpSocialChannelTitle">Gruplar</message>
+		<message key="internalOfferTabTitle">Promosyon kodu</message>
+		<message key="internalOfferTabDescription">Promosyon kodlarına dikkat edin ve bulduğunuz promosyon kodlarını güzel oyun içi eşyaları almak için kullanın. Her promosyon kodu yalnızca bir kez kullanılabilir. Bazı promosyon kodları sadece belirli bir süre için aktif olabilir.</message>
+		<message key="internalOfferTabActivateButtonLabel">Kullan</message>
+	</locale>
+</dictionary>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+        <message key="firstApril2016MenuItemLabel">Kaydet</message>
+        <message key="firstApril2016ProgressDialogTitle">Bebekleri kurtar!</message>
+        <message key="firstApril2016BabySaveText">Bebekleri kurtar, hediyeleri al!</message>
+        <message key="firstApril2016InfoTitleText">Bebek Salgını!</message>
+        <message key="firstApril2016InfoMessageText">Bugün herkes bebeğe dönüştü, sen dahil. Diğer sakinleri bu ikilemden kurtar ve seni kurtarmalarını sağla!</message>
+        <message key="firstApril2016AcceptText">Katılmak ister misin?</message>
+        <message key="firstApril2016SaveNotificationTitle">Kurtarıldın!</message>
+        <gender key="firstApril2016SaveNotificationMessage">
+            <form>:userName: seni bebek salgınından kurtardı</form>
+            <form>:userName: seni bebek salgınından kurtardı</form>
+        </gender>
+    </locale>
+</dictionary>

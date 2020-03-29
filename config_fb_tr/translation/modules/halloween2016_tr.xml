@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+        <message key="hw16NewsTitle">Cadılar Bayramı!</message>
+        <message key="hw16NewsDescription">Şeker almak için arkadaşlarını efsunla. Sonra da şekerlerinle hediye al!</message>
+        <message key="hw16PotionLabel">İksir</message>
+        <message key="hw16BelladonnaLabel">Belladonna</message>
+        <message key="hw16BelladonnaDescription">mini oyunları kazanarak edinilebilir</message>
+        <message key="hw16GiftLabel">Cadılar Bayramı Hediyesi</message>
+        <message key="hw16ExchangeDialogTitle">Şekerlerle hediye al!</message>
+        <message key="hw16ExchangeDialogMessage">Şekerlerle hediye al!</message>
+        <message key="hw16GiftNotificationTitle">hediye:</message>
+        <message key="hw16ConjureMenuTitle">büyüle</message>
+        <message key="hw16RemoveMonsterSuitMenuTitle">kıyafeti çıkar</message>
+        <message key="hw16ConjureDialogUsePotionMessage">Bir oyuncuyu canavara dönüştürmek için bir iksir kullan</message>
+        <message key="hw16ConjureDialogEmptyPotionMessage">İksirin yok. Atölyede bir tane üret</message>
+        <message key="hw16ConjureNotificationTitle">Cadılar Bayramı</message>
+        <message key="hw16RevengeTitle">intikam</message>
+        <gender key="hw16VipMessage">
+            <form>Bir hediyen var: VIP itibarı!</form>
+            <form>Bir hediyen var: VIP itibarı!</form>
+        </gender>
+        <gender key="hw16ConjureNotificationMessage">
+            <form>:userName: sana bir büyü yaptı! İntikam almak ister misin?</form>
+            <form>:userName: sana bir büyü yaptı! İntikam almak ister misin?</form>
+        </gender>
+    </locale>
+</dictionary>

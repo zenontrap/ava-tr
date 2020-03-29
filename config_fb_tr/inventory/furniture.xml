@@ -1,0 +1,1446 @@
+<?xml version='1.0' encoding='ASCII'?>
+<config id="furniture">
+
+    <category id="livingroom" label="#livingRoomCategory" priority="4" typeClass="furniture" library="furniture" logCategory1="furniture">
+
+        
+        <category id="7" label="#sofaCategory" priority="2" logCategory2="sofa">
+            <item id="sofa1" label="#sofa1Title" name="SofaBase" icon="SofaBaseIcon" silver="950" rating="5" tags="sit,cell" priority="1" loadType="file">
+                <dimension width="2" length="4" height="1.5" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofa2" label="#sofa2Title" name="SofaBaseBlue" icon="SofaBaseBlueIcon" silver="500" rating="5" tags="sit,cell" priority="2" loadType="file" fileVersion="4">
+                <dimension width="2" length="4" height="1.5" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofa3" label="#sofa3Title" name="SofaBaseLine" icon="SofaBaseLineIcon" silver="950" rating="9" tags="sit,cell" priority="3" loadType="file" fileVersion="4">
+                <dimension width="2" length="4" height="1.5" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofa4" label="#sofa4Title" name="SofaBaseOrange" icon="SofaBaseOrangeIcon" silver="500" rating="5" tags="sit,cell" priority="4" loadType="file" fileVersion="4">
+                <dimension width="2" length="4" height="1.5" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofa5" label="#sofa5Title" name="SofaHightech" icon="SofaHightechIcon" silver="1250" rating="12" tags="sit,cell" priority="5" loadType="file">
+                <dimension width="2" length="4" height="2" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofa6" label="#sofa6Title" name="SofaPillowRed" icon="SofaPillowRedIcon" gold="14" rating="28" tags="sit,cell" priority="6" loadType="file">
+                <dimension width="2" length="4" height="1.5" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofa7" label="#sofa7Title" name="SofaTapestry" icon="SofaTapestryIcon" gold="15" rating="30" tags="sit,cell" priority="7" loadType="file">
+                <dimension width="2" length="4" height="1.5" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofa8" label="#sofa8Title" name="SofaEliteGold" icon="SofaEliteGoldIcon" gold="21" rating="46" tags="sit,cell" priority="8" loadType="file">
+                <dimension width="2" length="5" height="2" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofa9" label="#sofa9Title" name="SofaEliteSkin" icon="SofaEliteSkinIcon" gold="19" rating="38" tags="sit,cell" priority="9" loadType="file">
+                <dimension width="2" length="4" height="2.2" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofa10" label="#sofa10Title" name="SofaRosePillow" icon="SofaRosePillowIcon" gold="17" rating="34" tags="sit,cell" priority="10" loadType="file">
+                <dimension width="2" length="4" height="1.7" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofa11" label="#sofa11Title" name="SofaForget" icon="SofaForgetIcon" gold="27" rating="59" tags="sit,cell" priority="11" loadType="file">
+                <dimension width="2" length="4" height="3" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofa12" label="#sofa12Title" name="SofaRed" level="6" icon="SofaRedIcon" silver="2150" rating="21" tags="sit,cell" priority="12" loadType="file">
+                <dimension width="2" length="4" height="2" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofa13" label="#sofa13Title" name="SofaOrange" level="8" icon="SofaOrangeIcon" silver="4000" rating="40" tags="sit,cell" priority="13" loadType="file">
+                <dimension width="2" length="4" height="1.7" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofa14" label="#sofa14Title" name="SofaEliteWhite" level="10" icon="SofaEliteWhiteIcon" gold="22" rating="49" tags="sit,cell" priority="14" loadType="file">
+                <dimension width="2" length="4" height="2.5" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofa15" label="#sofa15Title" name="SofaEliteRed" level="12" icon="SofaEliteRedIcon" gold="30" rating="75" tags="sit,cell" priority="15" loadType="file">
+                <dimension width="2" length="4" height="2.7" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofa16" label="#sofa16Title" name="SofaEliteBrown" level="8" icon="SofaEliteBrownIcon" gold="17" rating="34" tags="sit,cell" priority="16" loadType="file">
+                <dimension width="2" length="4" height="2.7" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofa17" label="#sofa17Title" name="SofaCurl" level="8" icon="SofaCurlIcon" silver="3800" rating="38" tags="sit,cell" priority="17" loadType="file">
+                <dimension width="2" length="3" height="1.9" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofa18" label="#sofa18Title" name="SofaCamomile" level="6" icon="SofaCamomileIcon" silver="3250" rating="32" tags="sit,cell" priority="18" loadType="file">
+                <dimension width="2" length="4" height="2" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofa19" label="#sofa19Title" name="SofaBachelorMiddle" level="8" icon="SofaBachelorMiddleIcon" silver="1265" rating="12" tags="sit,cell" priority="19" loadType="file">
+                <dimension width="2" length="3" height="2" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofa20" label="#sofa20Title" name="SofaBachelor" level="8" icon="SofaBachelorIcon" gold="12" rating="24" tags="sit,cell" priority="20" loadType="file">
+                <dimension width="2" length="4" height="2" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofaArtdeco1" label="#sofaArtdeco1Title" name="SofaArtdeco" icon="SofaArtdecoIcon" gold="42" rating="105" tags="sit,cell" priority="38" loadType="file">
+                <dimension width="2" length="5" height="3.5" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofaHlwn1" label="#sofaHalloween1Title" name="SofaHelloweenRed" icon="SofaHelloweenRedIcon" silver="1450" rating="14" tags="sit,cell" priority="39" loadType="file" holiday="halloween">
+                <dimension width="1" length="3" height="1.6" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofaHlwn2" label="#sofaHalloween2Title" name="SofaHelloweenBlue" icon="SofaHelloweenBlueIcon" silver="1450" rating="14" tags="sit,cell" priority="40" loadType="file" holiday="halloween">
+                <dimension width="1" length="3" height="1.6" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofaHlwn3" label="#sofaHalloween3Title" name="SofaPumpkin" icon="SofaPumpkinIcon" gold="63" rating="156" tags="sit,cell" priority="41" loadType="file" holiday="halloween">
+                <dimension width="3" length="5" height="3" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofaVip1" label="#sofaVip1Title" name="SofaGold" icon="SofaGoldIcon" gold="133" rating="350" tags="sit,cell" priority="900" vipOnly="1" loadType="file">
+                <dimension width="2" length="6" height="3" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofaVip2" label="#sofaVip2Title" name="SofaMenAuto" icon="SofaMenAutoIcon" gold="149" rating="380" tags="sit,cell" priority="901" vipOnly="1" loadType="file">
+                <dimension width="2" length="5" height="4" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofaVip3" label="#sofaVip3Title" name="SofaViolent" icon="SofaViolentIcon" gold="65" rating="165" tags="sit,cell" priority="902" vipOnly="1" loadType="file">
+                <dimension width="2" length="3" height="3" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sofaVip4" label="#sofaVip4Title" name="SofaChristmas" icon="SofaChristmasIcon" gold="55" rating="140" tags="sit,cell" priority="903" vipOnly="1" loadType="file" holiday="NY">
+                <defaultPosition x="4" y="7"/>
+                <dimension width="9" length="2" height="3" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="sfCtr" label="#sofaCountryTitle" name="SofaCountry" icon="SofaCountryIcon" gold="45" rating="115" tags="sit,cell" priority="904" loadType="file">
+                <dimension width="1" length="3.5" height="1.8" sitZ="0.6"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="sfBch1" label="#sofaBeachTitle" name="SofaBeach" icon="SofaBeachIcon" gold="135" rating="350" tags="sit,cell" priority="905" vipOnly="1" loadType="file">
+                <dimension width="1" length="3" height="2" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="bdAln" label="#bedAlienTitle" name="SofaAlien" icon="BedAlienIcon" gold="36" rating="90" tags="cell,sit" priority="10" loadType="file" fileVersion="2">
+                <dimension width="1" length="3" height="2.5" sitZ="0.9"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="sfMya" label="#loungeMayaLabel" name="LoungeMaya" icon="LoungeMayaIcon" gold="85" rating="215" tags="sit,cell" priority="906" loadType="file" vipOnly="1">
+                <dimension width="1" length="3.5" height="1" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="sfPrncss" label="#sofaPrincessLabel" name="SofaPrincess" icon="SofaPrincessIcon" gold="150" rating="400" tags="sit,cell" priority="907" loadType="file">
+                <dimension width="2" length="5" height="1" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="sfSV15" label="#sofaSV15Label" name="SofaSV15" icon="SofaSV15Icon" gold="200" rating="400" tags="sit,cell" priority="907" loadType="file">
+                <dimension width="1" length="3" height="1" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="sfGrdnrGft" label="#sfGrdnrGft" name="SofaGardenerGift" icon="SofaGardenerGiftIcon" gold="9999" rating="1900" tags="sit,cell" priority="908" loadType="file">
+                <dimension width="1.6" length="3" height="2.6" sitZ="1.2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="sfBlkRs" label="#sfBlkRsLabel" name="BlackRoseSofa" holiday="halloween2015" icon="BlackRoseSofaIcon" gold="350" rating="875" tags="sit,cell" priority="909" loadType="file">
+                <dimension width="2" length="3" height="3" sitZ="1.3"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="proPhtSf" label="#proPhtSfLabel" name="SofaPhotostudio" professionId="phtghr" professionLevel="14" icon="SofaPhotostudioIcon" gold="150" rating="450" tags="sit,cell" priority="910" loadType="file">
+                <dimension width="3" length="5" height="2" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="gymBnchSofa" label="#gymBnchSofaLabel" name="SofaBenchGym" icon="SofaBenchGymIcon" silver="3500" rating="35" tags="sit,cell" priority="911" loadType="file" fileVersion="4">
+                <dimension width="1" length="3" height="1" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="hlwnBlrmSf" label="#hlwnBlrmSfLabel" name="SofaHalloweenBallroom" icon="SofaHalloweenBallroomIcon" gold="149" rating="373" tags="sit,cell" priority="912" loadType="file">
+                <dimension width="2" length="5" height="2" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="pnRmSf" label="#pnRmSfLabel" name="SofaPianoRoom" icon="SofaPianoRoomIcon" gold="30" rating="75" tags="sit,cell" priority="913" loadType="file" vipOnly="1">
+                <dimension width="2" length="4" height="2" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="rtrCfAnglSf" label="#rtrCfAnglSfLabel" name="AngularSofaRetroCafe2019" icon="CornerSofaRetroCafe2019Icon" silver="3000" rating="30" tags="sit,cell" priority="914" loadType="file">
+                <dimension width="2.5" length="2.5" height="2.2" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="rtrCfSf" label="#rtrCfSfLabel" name="SofaRetroCafe2019" icon="SofaRetroCafe2019Icon" gold="15" rating="38" tags="sit,cell" priority="913" loadType="file">
+                <dimension width="1.3" length="2" height="2.2" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="hw2019Sf" label="#orclSfLabel" name="SofaHW2019" icon="SofaHW2019Icon" gold="30" rating="90" tags="sit,cell" priority="914" loadType="file">
+                <dimension width="2" length="4" height="2" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+        </category>
+
+        
+        <category id="8" label="#chairCategory" priority="2" logCategory2="chair">
+            <item id="chair1" label="#chair1Title" name="ChairRose" icon="ChairRoseIcon" gold="9" rating="15" tags="sit,cell" priority="1" loadType="file">
+                <dimension width="1.0" length="1.0" height="3.0" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="chair2" label="#chair2Title" name="ChairLong" icon="ChairLongIcon" silver="320" rating="3" tags="sit,cell" priority="2" loadType="file">
+                <dimension width="1.0" length="1.0" height="2.0" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="chair3" label="#chair3Title" name="ChairFlat" icon="ChairFlatIcon" silver="350" rating="3" tags="sit,cell" priority="3" loadType="file">
+                <dimension width="1.0" length="1.0" height="3.0" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="chair4" label="#chair4Title" name="ChairForgetBlue" icon="ChairForgetBlueIcon" silver="800" rating="8" tags="sit,cell" priority="4" loadType="file">
+                <dimension width="1.0" length="1.0" height="3.0" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="chair5" label="#chair5Title" name="ChairForgetWhite" icon="ChairForgetWhiteIcon" silver="800" rating="8" tags="sit,cell" priority="5" loadType="file">
+                <dimension width="1.0" length="1.0" height="3.0" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="chair6" label="#chair6Title" name="ChairBachelor" icon="ChairBachelorIcon" gold="7" level="8" rating="12" tags="sit,cell" priority="6" loadType="file">
+                <dimension width="2" length="2" height="3.0" sitZ="1.3"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="chair7" label="#chair7Title" name="ChairBachelorBar" icon="ChairBachelorBarIcon" level="8" silver="1150" rating="11" tags="sit,cell" priority="7" loadType="file">
+                <dimension width="1" length="1" height="1.8" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="chair8" label="#chair8Title" name="ChairBachelorWood" icon="ChairBachelorWoodIcon" level="8" silver="900" rating="9" tags="sit,cell" priority="8" loadType="file">
+                <dimension width="1" length="1" height="1.8" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="chair9" label="#chair9Title" name="ChairMen" icon="ChairMenIcon" silver="1550" rating="15" tags="sit,cell" level="7" priority="9" loadType="file">
+                <dimension width="1" length="1" height="1.3" sitZ="1.5"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="chair10" label="#chair10Title" name="ChairViolent" icon="ChairViolentIcon" gold="12" rating="25" tags="sit,cell" priority="10" vipOnly="1" loadType="file">
+                <dimension width="1" length="1" height="3" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="chair11" label="#chair11Title" name="PaddenCastle" icon="PaddenCastleIcon" gold="24" rating="55" tags="sit,cell" priority="11" vipOnly="1" loadType="file">
+                <dimension width="1" length="3" height="1" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="chair12" label="#chair12Title" name="PaddenViolent" icon="PaddenViolentIcon" gold="21" rating="50" tags="sit,cell" priority="12" vipOnly="1" loadType="file">
+                <dimension width="1" length="2" height="1" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="chair13" label="#chair13Title" name="VipArmChair" icon="VipArmChairIcon" gold="24" rating="55" tags="sit,cell" priority="13" vipOnly="1" loadType="file">
+                <dimension width="1" length="1" height="3.2" sitZ="1.3"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="chair14" label="#chair14Title" name="BaseArmChair" icon="BaseArmChairIcon" silver="4500" rating="45" tags="sit,cell" priority="38" loadType="file">
+                <dimension width="1" length="1" height="3" sitZ="1.3"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="chair15" label="#chair15Title" name="ChairStyle" icon="ChairStyleIcon" silver="3760" rating="37" tags="sit,cell" priority="39" loadType="file">
+                <dimension width="1" length="1" height="2.7" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="chair16" label="#chair16Title" name="ArmChairGreen" icon="ArmChairGreenIcon" gold="19" rating="38" tags="sit,cell" priority="40" loadType="file">
+                <dimension width="1" length="1" height="3" sitZ="1.3"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="chair17" label="#chair17Title" name="ArmChairAlt" icon="ArmChairAltIcon" gold="14" rating="28" tags="sit,cell" priority="41" loadType="file">
+                <dimension width="1" length="1" height="3" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="chair18" label="#chair17Title" name="ArmChairAltNew" icon="ArmChairAltIcon" gold="14" rating="28" tags="sit,cell" priority="41" loadType="file">
+                <dimension width="1" length="1" height="3" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="bathroomChair1" label="#bathroomChair1Title" name="Chair" icon="ChairIcon" silver="1400" rating="14" tags="sit,cell" priority="6" loadType="file">
+                <dimension width="1" length="1" height="2.8" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="bathroomChair2" label="#bathroomChair2Title" name="MarbleChair" icon="MarbleChairIcon" gold="18" rating="36" tags="sit,cell" priority="7" loadType="file">
+                <dimension width="1" length="1" height="3" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="computerChair1" label="#computerChair1Title" name="ChairGrey" icon="ChairGreyIcon" silver="325" rating="3" tags="sit,cell" priority="8" loadType="file">
+                <dimension width="1" length="1" height="2.4" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="computerChair2" label="#computerChair2Title" name="ChairBlueRoll" icon="ChairBlueRollIcon" silver="1100" rating="11" tags="sit,cell" priority="9" loadType="file">
+                <dimension width="1" length="1" height="3" sitZ="1.3"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="computerChair3" label="#computerChair3Title" name="ChairBlackRoll" icon="ChairBlackRollIcon" gold="7" rating="11" tags="sit,cell" priority="10" loadType="file">
+                <dimension width="1" length="1" height="3" sitZ="1.3"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="artDecoChair1" label="#artDecoChair1Title" name="ChairArtdeko" icon="ChairArtdekoIcon" silver="2300" rating="23" tags="sit,cell" priority="11" loadType="file">
+                <dimension width="1" length="1" height="2.5" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="paddedStool1" label="#paddedStool1Title" name="PaddedStool" icon="PaddedStoolIcon" gold="4" rating="6" tags="sit,cell" priority="12" loadType="file">
+                <dimension width="1" length="2" height="1" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="hlwnChair1" label="#halloweenChair1Title" name="ChairHelloweenEvilRed" holiday="halloween" icon="ChairHelloweenEvilRedIcon" gold="7" rating="12" tags="sit,cell" priority="13" loadType="file">
+                <dimension width="1" length="1" height="3.7" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="hlwnChair2" label="#halloweenChair2Title" name="ChairHelloweenEvilBlue" holiday="halloween" icon="ChairHelloweenEvilBlueIcon" gold="7" rating="12" tags="sit,cell" priority="14" loadType="file">
+                <dimension width="1" length="1" height="3.7" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="hlwnChair3" label="#halloweenChair3Title" name="ChairHelloweenDevilRed" holiday="halloween" icon="ChairHelloweenDevilRedIcon" silver="750" rating="7" tags="sit,cell" priority="15" loadType="file">
+                <dimension width="1" length="1" height="3" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="hlwnChair4" label="#halloweenChair4Title" name="ChairHelloweenDevilBlue" holiday="halloween" icon="ChairHelloweenDevilBlueIcon" silver="750" rating="7" tags="sit,cell" priority="16" loadType="file">
+                <dimension width="1" length="1" height="3" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="wddngChair1" label="#weddingChairTitle" name="ChairBridegroomWedding" icon="ChairBridegroomWeddingIcon" gold="8" rating="14" tags="sit,cell" priority="17" wedding="1" loadType="file">
+                <dimension width="1" length="1" height="3.2" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="wddngChair2" label="#weddingChairTitle" name="ChairBridegroomWeddingOrange" icon="ChairBridegroomWeddingOrangeIcon" gold="8" rating="14" tags="sit,cell" priority="18" wedding="1" loadType="file">
+                <dimension width="1" length="1" height="3.2" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="wddngChair3" label="#weddingChairTitle" name="ChairBrideWedding" icon="ChairBrideWeddingIcon" gold="9" rating="15" tags="sit,cell" priority="19" wedding="1" loadType="file">
+                <dimension width="1" length="1" height="3.2" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="wddngChair4" label="#weddingChairTitle" name="ChairBrideWeddingOrange" icon="ChairBrideWeddingOrangeIcon" gold="9" rating="15" tags="sit,cell" priority="20" wedding="1" loadType="file">
+                <dimension width="1" length="1" height="3.2" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="wddngChair5" label="#weddingChairTitle" name="ChairGuestWedding" icon="ChairGuestWeddingIcon" silver="2950" rating="29" tags="sit,cell" priority="21" wedding="1" loadType="file">
+                <dimension width="1" length="1" height="3.2" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="wddngChair6" label="#weddingChairTitle" name="ChairGuestWeddingOrange" icon="ChairGuestWeddingOrangeIcon" silver="2950" rating="29" tags="sit,cell" priority="22" wedding="1" loadType="file">
+                <dimension width="1" length="1" height="3.2" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="trChair1" label="#canoeTitle" name="ChairCanoe" buyCount="0" icon="ChairCanoeIcon" gold="600" rating="1500" tags="sit,cell" priority="30" loadType="file">
+                <dimension width="4" length="1" height="1" sitZ="0.7"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="shChari1" label="#schoolChair1Title" name="TeacherChair" icon="TeacherChairIcon" silver="1100" rating="11" tags="sit,cell" priority="31" loadType="file">
+                <dimension width="1.0" length="1.0" height="3.0" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="shChari2" label="#schoolChair2Title" name="SchoolChair" icon="SchoolChairIcon" silver="2000" rating="20" tags="sit,cell" priority="32" loadType="file">
+                <dimension width="2.0" length="2.0" height="2.0" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="chrAln1" label="#chairAlien1Title" name="ChairAlienBlack" icon="ChairAlienBlackIcon" gold="37" rating="95" tags="sit,cell" priority="33" loadType="file">
+                <dimension width="2" length="1" height="3" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="chrAln2" label="#chairAlien2Title" name="ChairAlienWhite" icon="ChairAlienWhiteIcon" gold="37" rating="95" tags="sit,cell" priority="34" loadType="file">
+                <dimension width="2" length="1" height="3" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="chrAln3" label="#chairAlien3Title" name="ChairAlienSphere" icon="ChairAlienSphereIcon" gold="45" rating="115" tags="sit,cell" priority="35" loadType="file">
+                <dimension width="1" length="1" height="2" sitZ="1.2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="chrBch" label="#chairBeachTitle" name="ChairBeach" icon="ChairBeachIcon" gold="77" rating="195" tags="sit,cell" priority="36" vipOnly="1" loadType="file">
+                <dimension width="1" length="1" height="3" sitZ="1.2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="chrNY14" label="#chairNY14Title" name="PaddedStoolIce" holiday="newyear14" icon="PaddedStoolIceIcon" gold="60" rating="150" tags="sit,cell" priority="37" loadType="file">
+                <dimension width="1" length="2" height="0.6" sitZ="0.6"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="chrSV14" label="#chairSV14Title" name="ChairValentine" icon="ChairValentineIcon" gold="25" rating="50" tags="sit,cell" priority="38" loadType="file" canBuy="1">
+                <dimension width="1" length="1" height="1" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            <category id="lovemeter" label="#lovemeterCategory" visible="false">
+                <item id="lvmtrSV14" label="#lovemeterSV14Title" name="LovemeterValentine" icon="LovemeterValentineIcon" gold="250" rating="150" tags="sit,cell" priority="39" loadType="file" canBuy="1" fileVersion="2">
+                    <dimension width="2" length="2" height="6" sitZ="2"/>
+                    <placement floor="1"/>
+                    <direction names="SW"/>
+                </item>
+            </category>
+
+            
+            <category id="predictionPavilion" label="#predictionPavilionCategory" visible="false">
+                <item id="lvprpvnSV15" label="#predictionPavilionSV15Title" name="PavillionSV15" icon="PavillionSV15Icon" gold="75" rating="150" tags="sit,cell" priority="9999" loadType="file">
+                    <dimension width="7" length="7" height="10" sitZ="1"/>
+                    <placement floor="1"/>
+                    <direction names="SW"/>
+                </item>
+            </category>
+
+            
+            <item id="armPrncssBrwn" label="#armchairPrincessBrownLabel" name="ArmchairPrincessBrown" icon="ArmchairPrincessBrownIcon" gold="85" rating="220" tags="sit,cell" priority="40" loadType="file">
+                <dimension width="2" length="2" height="3" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="armPrncssGrn" label="#armchairPrincessGreenLabel" name="ArmchairPrincessGreen" icon="ArmchairPrincessGreenIcon" gold="95" rating="250" tags="sit,cell" priority="41" loadType="file">
+                <dimension width="2" length="2" height="3" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="chrNYRf" label="#chairNYRoofLabel" name="ChairNYRoof" icon="ChairNYRoofIcon" gold="35" rating="90" tags="sit,cell" priority="42" loadType="file">
+                <dimension width="3" length="1" height="2" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="thrnCnn" label="#throneConanLabel" name="ThroneConan" vipOnly="1" icon="ThroneConanIcon" gold="75" rating="190" tags="sit,cell" priority="43" loadType="file">
+                <dimension width="2.1" length="4.7" height="5" sitZ="1.5"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="chrGrdGft" label="#chrGrdGft" name="ChairGardenerGift" icon="ChairGardenerGiftIcon" gold="9999" rating="90" tags="sit,cell" priority="44" loadType="file">
+                <dimension width="1.4" length="1.4" height="2.4" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="chrTrBth" label="#chrTrBthLabel" name="SeatTropicalBedroom" icon="SeatTropicalBedroomIcon" gold="10" rating="25" tags="sit,cell" priority="45" loadType="file">
+                <dimension width="1" length="1" height="1" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="proPhtChr" label="#proPhtChrLabel" name="ChairPhotostudio" professionId="phtghr" professionLevel="6" icon="ChairPhotostudioIcon" gold="15" rating="45" tags="sit,cell" priority="46" loadType="file">
+                <dimension width="1" length="1" height="2" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="ny2016Schr" label="#ny2016chr" name="ChairSnowboundPolar" icon="ChairPolarIcon" gold="99999" rating="1" tags="sit,cell,cantEdit" priority="47" loadType="file">
+                <dimension width="1" length="1" height="1" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="ny2016Dchr" label="#ny2016chr" name="ChairDarkPolar" icon="ChairPolarIcon" gold="99999" rating="1" tags="sit,cell,cantEdit" priority="48" loadType="file">
+                <dimension width="1" length="1" height="1" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="ny2016Lchr" label="#ny2016chr" name="ChairLightPolar" icon="ChairPolarIcon" gold="99999" rating="299" tags="sit,cell,cantEdit" priority="49" loadType="file">
+                <dimension width="1" length="1" height="2" sitZ="1.1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="shChr" label="#shChrLabel" name="ChairSuperHero" icon="ChairSuperHeroIcon" silver="7000" priority="50" rating="70" loadType="file" tags="sit,cell" vipOnly="1">
+                <dimension width="1" length="1" height="2" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="prtrChr" label="#prtrChrLabel" name="ChairPirateRoom" icon="ChairPirateRoomIcon" gold="60" rating="150" priority="51" loadType="file" tags="sit,cell" vipOnly="1">
+                <dimension width="2" length="2" height="2.1" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="gymBllChr" label="#gymBllChrLabel" name="ChairBallGym" icon="ChairBallGymIcon" silver="5000" rating="50" priority="52" loadType="file" tags="sit,cell">
+                <dimension width="2" length="2" height="1.7" sitZ="1.7"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="hlwnBlrmChr" label="#hlwnBlrmChrLabel" name="ChairHalloweenBallroom" icon="ChairHalloweenBallroomIcon" gold="66" rating="165" tags="sit,cell" priority="53" loadType="file">
+                <dimension width="1" length="2" height="1" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="pnRmChr" label="#pnRmChrLabel" name="ChairPianoRoom" icon="ChairPianoRoomIcon" silver="3900" rating="39" tags="sit,cell" priority="54" loadType="file">
+                <dimension width="1" length="2" height="1" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="gamerChair" label="#gamerChairTitle" name="GamerChair" icon="GamerChairIcon" gold="49" rating="123" tags="sit,cell" priority="55" loadType="file">
+                <dimension width="1" length="1" height="3.5" sitZ="1.3"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="ny19Chair" label="#ny19ChairLabel" name="ChairNYIce" icon="ChairNYIceIcon" gold="90" rating="225" tags="sit,cell" priority="56" loadType="file">
+                <dimension width="1" length="1" height="2" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="rtrCfBarChr" label="#rtrCfBarChrTitle" name="BarChairRetroCafe2019" icon="ChairBarRetroCafe2019Icon" gold="7" rating="18" tags="sit,cell" priority="57" loadType="file">
+                <dimension width="1" length="1" height="2" sitZ="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="rtrCfGrnChr" label="#rtrCfGrnChrTitle" name="ChairGreenRetroCafe2019" icon="ChairGreenRetroCafe2019Icon" gold="8" rating="20" tags="sit,cell" priority="58" loadType="file">
+                <dimension width="1.0" length="1.0" height="2.3" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="rtrCfRdChr" label="#rtrCfRdChrTitle" name="ChairRedRetroCafe2019" icon="ChairPinkRetroCafe2019Icon" gold="8" rating="20" tags="sit,cell" priority="59" loadType="file">
+                <dimension width="1.0" length="1.0" height="2.3" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="rtrCfGrnPf" label="#rtrCfGrnPfTitle" name="PoofGreenRetroCafe2019" icon="PoofGreenRetroCafe2019Icon" gold="7" rating="18" tags="sit,cell" priority="60" loadType="file">
+                <dimension width="1" length="1" height="1" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="rtrCfRdPf" label="#rtrCfRdPfTitle" name="PoofRedRetroCafe2019" icon="PoofRedRetroCafe2019Icon" gold="9" rating="23" tags="sit,cell" priority="61" loadType="file">
+                <dimension width="1.2" length="1.2" height="1.3" sitZ="1.3"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="hw2019Chr" label="#orclPfLabel" name="ChairHW2019" icon="ChairHW2019Icon" silver="2620" rating="80" tags="sit,cell" priority="62" loadType="file">
+                <dimension width="1" length="1" height="1" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+        </category>
+
+        
+        <category id="armchair" label="#armchairCategory" logCategory2="armchair" priority="3">
+            <item id="armchair1" label="#armchair1Title" name="ArmchairEliteGold" icon="ArmchairEliteGoldIcon" gold="15" rating="30" tags="sit,cell" priority="23" loadType="file">
+                <dimension width="2" length="2" height="2.7" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="armchair2" label="#armchair2Title" name="ArmchairEliteSkin" icon="ArmchairEliteSkinIcon" gold="13" rating="26" tags="sit,cell" priority="24" loadType="file">
+                <dimension width="2" length="2" height="2.6" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="armchair3" label="#armchair3Title" name="ArmchairHightech" icon="ArmchairHightechIcon" silver="760" rating="7" tags="sit,cell" priority="25" loadType="file">
+                <dimension width="2" length="2" height="2.6" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="armchair4" label="#armchair4Title" name="ArmchairPillowRed" icon="ArmchairPillowRedIcon" silver="350" rating="3" tags="sit,cell" priority="26" loadType="file">
+                <dimension width="2" length="2" height="2.0" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="armchair5" label="#armchair5Title" name="ArmchairRose" icon="ArmchairRoseIcon" gold="12" rating="24" tags="sit,cell" priority="27" loadType="file">
+                <dimension width="2" length="3" height="2.0" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="armchair6" label="#armchair6Title" name="ArmchairTapestry" icon="ArmchairTapestryIcon" silver="1000" rating="10" tags="sit,cell" priority="28" loadType="file">
+                <dimension width="2" length="2" height="2.2" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="armchair7" label="#armchair7Title" name="ArmchairForget" icon="ArmchairForgetIcon" gold="15" rating="30" tags="sit,cell" priority="29" loadType="file">
+                <dimension width="2" length="2" height="2.5" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="armchair8" label="#armchair8Title" name="ArmchairRed" level="6" icon="ArmchairRedIcon" silver="1340" rating="13" tags="sit,cell" priority="30" loadType="file">
+                <dimension width="2" length="2" height="2" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="armchair9" label="#armchair9Title" name="ArmchairOrange" level="8" icon="ArmchairOrangeIcon" silver="1860" rating="18" tags="sit,cell" priority="31" loadType="file">
+                <dimension width="2" length="2" height="1.7" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="armchair10" label="#armchair10Title" name="ArmchairEliteWhite" level="10" icon="ArmchairEliteWhiteIcon" gold="17" rating="34" tags="sit,cell" priority="32" loadType="file">
+                <dimension width="2" length="2" height="2.5" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="armchair11" label="#armchair11Title" name="ArmchairEliteRed" level="12" icon="ArmchairEliteRedIcon" gold="21" rating="47" tags="sit,cell" priority="33" loadType="file">
+                <dimension width="2" length="2" height="2.7" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="armchair12" label="#armchair12Title" name="ArmchairEliteBrown" level="8" icon="ArmchairEliteBrownIcon" gold="9" rating="16" tags="sit,cell" priority="34" loadType="file">
+                <dimension width="2" length="3" height="2.7" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="armchair13" label="#armchair13Title" name="ArmchairCurl" level="8" icon="ArmchairCurlIcon" silver="1650" rating="16" tags="sit,cell" priority="35" loadType="file">
+                <dimension width="2" length="2" height="1.9" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="armchair14" label="#armchair14Title" name="ArmchairCamomile" level="6" icon="ArmchairCamomileIcon" silver="1480" rating="14" tags="sit,cell" priority="36" loadType="file">
+                <dimension width="2" length="2" height="2" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="armchairArtdeco1" label="#armchairArtdeco1Title" name="ArmchairArtdeko" icon="ArmchairArtdekoIcon" silver="3400" rating="34" tags="sit,cell" priority="37" loadType="file">
+                <dimension width="2" length="3" height="3.5" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="armchairVip1" label="#armchairVip1Title" name="ArmchairCockleshell" icon="ArmchairCockleshellIcon" gold="42" rating="110" tags="sit,cell" priority="951" vipOnly="1" loadType="file">
+                <dimension width="2" length="2" height="5" sitZ="1.2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="armchairVip2" label="#armchairVip2Title" name="ArmchairHeart" icon="ArmchairHeartIcon" gold="58" rating="150" tags="sit,cell" priority="952" vipOnly="1" loadType="file">
+                <dimension width="1" length="2" height="3.5" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="armchairVip3" label="#armchairVip3Title" name="ArmChairCastle" icon="ArmChairCastleIcon" gold="74" rating="190" tags="sit,cell" priority="953" vipOnly="1" loadType="file">
+                <dimension width="1" length="2" height="5" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="armchrNY14" label="#armchairNY14Title" name="ArmchairThroneIce" holiday="newyear14" icon="ArmchairThroneIceIcon" gold="600" rating="1500" tags="sit,cell" priority="954" loadType="file">
+                <dimension width="2" length="2" height="6" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="armchrBlkRs" label="#armchrBlkRsLabel" name="BlackRoseArmchair" holiday="halloween2015" icon="BlackRoseArmchairIcon" silver="27999" rating="280" tags="sit,cell" priority="955" loadType="file">
+                <dimension width="2" length="2" height="4" sitZ="1.5"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="prtrArmchr" label="#prtrArmchrLabel" name="ArmchairPirateRoom" icon="ArmchairPirateRoomIcon" gold="120" rating="300" priority="956" loadType="file" tags="sit,cell" vipOnly="1">
+                <dimension width="2" length="2" height="2.9" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="armchairSV18" label="#armchairSV18Title" name="DoubleArmchair" icon="DoubleArmchairIcon" gold="99" rating="500" tags="sit,cell" priority="957" loadType="file">
+                <dimension width="1" length="3" height="2.2" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="drgnThrn2019" label="#drgCvChrLabel" name="DragonThrone2019" icon="DragonThrone2019Icon" gold="48" rating="144" tags="sit,cell" priority="958" loadType="file">
+                <dimension width="3" length="3" height="6" sitZ="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+        </category>
+
+        
+        <category id="10" label="#wardrobeCategory" priority="4" logCategory2="wardrobe">
+            
+            <item id="csCtr" label="#caseCountryTitle" name="CaseCountry" vipOnly="1" fileVersion="2" icon="CaseCountryIcon" gold="79" rating="200" tags="cell" priority="11" loadType="file">
+                <dimension width="1" length="2" height="4"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="furnitureMisc2" label="#furnitureMisc2Title" name="WardrobeBase" icon="WardrobeBaseIcon" silver="900" rating="9" tags="cell" priority="1" loadType="file">
+                <dimension width="1" length="2" height="5"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="wardrobeForget1" label="#wardrobeForgetTitle" name="WardrobeForget" icon="WardrobeForgetIcon" gold="21" rating="46" tags="cell" priority="2" loadType="file">
+                <dimension width="1" length="2" height="5"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="wardrobeNarrow1" label="#wardrobeNarrowTitle" name="WardrobeNarrow" icon="WardrobeNarrowIcon" silver="2750" rating="27" tags="cell" priority="3" loadType="file">
+                <dimension width="1" length="1.4" height="4.5"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="wardrobeWindow" label="#wardrobeWindowTitle" name="WardrobeWindow" icon="WardrobeWindowIcon" silver="3400" rating="34" tags="cell" priority="4" loadType="file">
+                <dimension width="1" length="2" height="4.5"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="caseRoseLong" label="#caseRoseLongTitle" name="WardrobeRoseLong" icon="WardrobeRoseLongIcon" gold="17" rating="34" tags="cell" priority="5" loadType="file">
+                <dimension width="1" length="2" height="5"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+
+            
+            <item id="wrdrbHW2019" label="#orclWrdLabel" name="WardrobeHW2019" icon="WardrobeHW2019Icon" gold="29" rating="87" tags="cell" priority="6" loadType="file">
+                <dimension width="1" length="2" height="4"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+        </category>
+
+        
+        <category id="6" label="#tableCategory" priority="5" logCategory2="table">
+            <item id="table1" label="#table1Title" name="TableBase" icon="TableBaseIcon" silver="1050" rating="10" tags="table,cell" priority="1" loadType="file">
+                <dimension width="2" length="2" height="1"/>
+                <placement floor="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="table4" label="#table4Title" name="TableRound" icon="TableRoundIcon" silver="860" rating="8" tags="table,cell" priority="4" loadType="file">
+                <dimension width="2" length="2" height="1.6"/>
+                <placement floor="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="table5" label="#table5Title" name="TableTree" icon="TableTreeIcon" silver="825" rating="8" tags="table,cell" priority="5" loadType="file">
+                <dimension width="2" length="2" height="1.4"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="table6" label="#table6Title" name="TableTvBase" icon="TableTvBaseIcon" silver="375" rating="3" tags="table,cell" priority="6" loadType="file">
+                <dimension width="1" length="1.8" height="1.6"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="table7" label="#table7Title" name="TableTvWindow" icon="TableTvWindowIcon" silver="430" rating="4" tags="table,cell" priority="7" loadType="file">
+                <dimension width="1" length="2.5" height="1.6"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="table11" label="#table11Title" name="TableBachelorBase" icon="TableBachelorBaseIcon" silver="1600" level="8" rating="16" tags="table,cell" priority="11" loadType="file">
+                <dimension width="2" length="2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="table12" label="#table12Title" name="TableBachelor" icon="TableBachelorIcon" silver="2450" level="8" rating="24" tags="table,cell" priority="12" loadType="file">
+                <dimension width="2" length="3" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="bar1" label="#bar1Title" name="BarBachelor" icon="BarBachelorIcon" gold="17" level="8" rating="34" tags="cell,table" priority="14" loadType="file">
+                <dimension width="1" length="4" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="furnitureMisc1" label="#furnitureMisc1Title" name="BarBase" icon="BarBaseIcon" gold="5" rating="8" tags="table,cell" priority="11" loadType="file">
+                <dimension width="1" length="2" height="1.6"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="computerTable1" label="#computerTable1Title" name="TableComputerRound" icon="TableComputerRoundIcon" silver="410" rating="4" tags="table,cell" priority="12" loadType="file">
+                <dimension width="1" length="1" height="1.5"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NW,NE"/>
+            </item>
+            <item id="computerTable2" label="#computerTable2Title" name="TableComputerOval" icon="TableComputerOvalIcon" silver="780" rating="7" tags="table,cell" priority="13" loadType="file">
+                <dimension width="1" length="1" height="1.5"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NW,NE"/>
+            </item>
+            <item id="computerTable3" label="#computerTable3Title" name="TableComputerBase" icon="TableComputerBaseIcon" silver="690" rating="6" tags="table,cell" priority="14" loadType="file">
+                <dimension width="1" length="1.4" height="1.5"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NW,NE"/>
+            </item>
+            <item id="shelfDVDGray1" label="#shelfDVDGray1Title" name="ShelfDVDGray" icon="ShelfDVDGrayIcon" silver="690" rating="6" tags="table,cell" priority="15" loadType="file">
+                <dimension width="0.8" length="2" height="0.8"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="tableArtdeco1" label="#tableArtdeco1Title" name="TableArtdeko" icon="TableArtdekoIcon" silver="1700" rating="17" tags="cell,table" priority="17" loadType="file">
+                <dimension width="2" length="3" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="hlwnTable1" label="#halloweenTable1Title" name="TableHelloween" holiday="halloween" icon="TableHelloweenIcon" silver="1700" rating="17" tags="cell,table" priority="18" loadType="file">
+                <dimension width="2" length="4" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="wddngTable1" label="#weddingTable1Title" name="TableGuestBigWedding" wedding="1" icon="TableGuestBigWeddingIcon" silver="6500" rating="65" tags="cell,table" priority="19" loadType="file">
+                <dimension width="2" length="8" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="wddngTable2" label="#weddingTable2Title" name="TableBrideBridegroomOrange" wedding="1" icon="TableBrideBridegroomOrangeIcon" silver="5200" rating="52" tags="cell,table" priority="19" loadType="file">
+                <dimension width="2" length="5" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="wddngTable3" label="#weddingTable3Title" name="TableBrideBridegroom" wedding="1" icon="TableBrideBridegroomIcon" silver="5200" rating="52" tags="cell,table" priority="20" loadType="file">
+                <dimension width="2" length="5" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="wddngTable4" label="#weddingTable4Title" name="TableCakeWedding" wedding="1" fileVersion="2" icon="TableCakeWeddingIcon" gold="15" rating="30" tags="cell,table" priority="21" loadType="file">
+                <dimension width="1.2" length="1.2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="wddngTable5" label="#weddingTable5Title" name="TableCakeWeddingOrange" wedding="1" fileVersion="2" icon="TableCakeWeddingOrangeIcon" silver="2500" rating="25" tags="cell,table" priority="22" loadType="file">
+                <dimension width="1.2" length="1.2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="wddngTable6" label="#weddingTable6Title" name="TableGuestWedding" wedding="1" icon="TableGuestWeddingIcon" gold="25" rating="55" tags="cell,table" priority="23" loadType="file">
+                <dimension width="3" length="3" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="manTable1" label="#manTable1Title" name="TableMen" level="7" icon="TableMenIcon" silver="1970" rating="19" tags="cell,table" priority="24" loadType="file">
+                <dimension width="1" length="3" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="manTable2" label="#manTable2Title" name="TableMenSmall" level="7" icon="TableMenSmallIcon" silver="1300" rating="13" tags="cell,table" priority="24" loadType="file">
+                <dimension width="1" length="2" height="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="vlnsTable1" label="#violensTable1Title" name="TableViolens" icon="TableViolensIcon" gold="11" rating="22" tags="cell,table" priority="24" loadType="file">
+                <dimension width="2" length="2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="table14" label="#table14Title" name="BaseTable" icon="BaseTableIcon" silver="1325" rating="13" tags="cell,table" priority="25" loadType="file">
+                <dimension width="1" length="3" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="table15" label="#table15Title" name="TableAlt" icon="TableAltIcon" gold="29" rating="65" tags="cell,table" priority="26" loadType="file">
+                <dimension width="2" length="3" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="table16" label="#table16Title" name="TableStyle" icon="TableStyleIcon" silver="9350" rating="93" tags="cell,table" priority="27" loadType="file">
+                <dimension width="2.5" length="4" height="1.9"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="vpTbl1" label="#vipTable1Title" name="VipTable" icon="VipTableIcon" gold="43" rating="115" tags="cell,table" priority="26" vipOnly="1" loadType="file">
+                <dimension width="2" length="4" height="2.1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="caseBachelorWood" label="#caseBachelorWoodTitle" name="CaseBachelorWood" level="8" icon="CaseBachelorWoodIcon" silver="950" rating="9" tags="cell,table" priority="11" loadType="file">
+                <dimension width="1" length="2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            <category id="awardTables" label="#tableCategory" visible="false">
+                <item id="awrdTbl1" label="#awardTable1Title" name="TableAwardSmall" icon="TableAwardSmallIcon" silver="3000" rating="30" tags="cell,table" priority="901" loadType="file">
+                    <dimension width="1.1" length="2" height="1.3"/>
+                    <placement floor="1"/>
+                    <direction names="SW,SE,NE,NW"/>
+                </item>
+                <item id="awrdTbl2" label="#awardTable2Title" name="TableAwardMiddle" icon="TableAwardMiddleIcon" gold="25" rating="55" tags="cell,table" priority="902" loadType="file">
+                    <dimension width="1" length="3" height="1.3"/>
+                    <placement floor="1"/>
+                    <direction names="SW,SE,NE,NW"/>
+                </item>
+                <item id="awrdTbl3" label="#awardTable3Title" name="TableAwardBig" icon="TableAwardBigIcon" gold="30" rating="75" tags="cell,table" priority="903" loadType="file">
+                    <dimension width="1.1" length="4.1" height="1.4"/>
+                    <placement floor="1"/>
+                    <direction names="SW,SE,NE,NW"/>
+                </item>
+                <item id="awrdTbl4" label="#awardTable4Title" name="VipTableAward" vipOnly="1" icon="VipTableAwardIcon" gold="30" rating="75" tags="cell,table" priority="904" loadType="file">
+                    <dimension width="2" length="3" height="1.5"/>
+                    <placement floor="1"/>
+                    <direction names="SW,SE,NE,NW"/>
+                </item>
+            </category>
+
+            <item id="shTbl1" label="#schoolTableTitle" name="SchoolTeacherDesk" icon="SchoolTeacherDeskIcon" silver="2750" rating="27" tags="table,cell" priority="1" loadType="file">
+                <dimension width="1" length="2" height="1.5"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="tblJpn1" label="#tableJapanTitle" name="TableJapan" icon="TableJapanIcon" gold="24" rating="55" tags="table,cell" priority="905" loadType="file">
+                <dimension width="2" length="2" height="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="tblAln" label="#tableAlienTitle" name="TableAlienBlack" vipOnly="1" icon="TableAlienBlackIcon" gold="51" rating="130" tags="table,cell" priority="906" loadType="file">
+                <dimension width="1" length="1" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW"/>
+            </item>
+
+            
+            <item id="tblCtr1" label="#tableCountryTitle" name="TableCountry" icon="TableCountryIcon" gold="44" rating="110" tags="table,cell" priority="907" loadType="file">
+                <dimension width="4" length="2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="tblArtNv1" label="#tableArtNouveauTitle" name="TableArtNouveau" vipOnly="1" icon="TableArtNouveauIcon" gold="47" rating="120" tags="table,cell" priority="908" loadType="file">
+                <dimension width="2" length="1" height="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="tblArtNv2" label="#tableArtNouveauTitle" name="TableRoundArtNouveau" vipOnly="1" icon="TableRoundArtNouveauIcon" gold="49" rating="125" tags="table,cell" priority="909" loadType="file">
+                <dimension width="1" length="1" height="1.5"/>
+                <placement floor="1"/>
+                <direction names="SW"/>
+            </item>
+
+            
+            <item id="tblBch1" label="#tableBeachTitle" name="TableBeach" vipOnly="1" icon="TableBeachIcon" gold="75" rating="190" tags="table,cell" priority="910" loadType="file">
+                <dimension width="2" length="2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="tblSV14" label="#tableSV14Title" name="TableValentine" icon="TableValentineIcon" gold="125" rating="250" tags="table,cell" priority="911" loadType="file" canBuy="1">
+                <dimension width="2" length="2" height="1.5"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="tblNYRf" label="#tableNYRoofLabel" name="TableNYRoof" icon="TableNYRoofIcon" gold="30" rating="75" tags="table,cell" priority="912" loadType="file">
+                <dimension width="2" length="2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW"/>
+            </item>
+
+            
+            <item id="tblGRtr" label="#garageRetroTable" name="TableGarageRetro" icon="TableGarageRetroIcon" gold="80" rating="200" tags="table,cell" priority="192" loadType="file">
+                <dimension width="2.4" length="5.5" height="2.1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="tblGrdnrGft" label="#tblGrdnrGft" name="TableGardenerGift" icon="TableGardenerGiftIcon" gold="9999" rating="270" tags="table,cell" priority="193" loadType="file">
+                <dimension width="1.8" length="1.8" height="1.2"/>
+                <placement floor="1"/>
+                <direction names="SW"/>
+            </item>
+
+            
+            <item id="tblTrBth" label="#tblTrBthLabel" name="TableTropicalBedroom" icon="TableTropicalBedroomIcon" silver="15000" rating="150" tags="table,cell" priority="194" loadType="file">
+                <dimension width="1" length="2" height="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="tblBlkRs" label="#tblBlkRsLabel" name="BlackRoseTable" holiday="halloween2015" icon="BlackRoseTableIcon" silver="47999" rating="480" tags="table,cell" priority="195" loadType="file">
+                <dimension width="2" length="2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW"/>
+            </item>
+
+            
+            <item id="proPhtTbl" label="#proPhtTblLabel" name="TablePhotostudio" professionId="phtghr" professionLevel="8" icon="TablePhotostudioIcon" gold="15" rating="45" tags="table,cell" priority="196" loadType="file">
+                <dimension width="1.5" length="1.5" height="1"/>
+                <placement floor="1"/>
+                <direction names="SW"/>
+            </item>
+
+            
+            <item id="ny2016Stbl" label="#ny2016tbl" name="TableSnowboundPolar" icon="TablePolarIcon" gold="99999" rating="1" tags="table,cell,cantEdit" priority="197" loadType="file">
+                <dimension width="3" length="3" height="1"/>
+                <placement floor="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="ny2016Dtbl" label="#ny2016tbl" name="TableDarkPolar" icon="TablePolarIcon" gold="99999" rating="1" tags="table,cell,cantEdit" priority="198" loadType="file">
+                <dimension width="3" length="3" height="1"/>
+                <placement floor="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="ny2016Ltbl" label="#ny2016tbl" name="TableLightPolar" icon="TablePolarIcon" gold="99999" rating="399" tags="table,cell,cantEdit" priority="199" loadType="file">
+                <dimension width="3" length="3" height="1.5"/>
+                <placement floor="1"/>
+                <direction names="SW"/>
+            </item>
+
+            <category id="interactiveTable" visible="false">
+                
+                <item id="shWpl" label="#shWplLabel" name="SuperHeroWorkplace" icon="SuperHeroWorkplaceIcon" gold="80" rating="200" priority="200" tags="table,cell" vipOnly="1" loadType="file">
+                    <dimension width="2" length="5" height="2"/>
+                    <placement floor="1"/>
+                    <direction names="SE,SW"/>
+                    <params>
+                        <param name="immunityTime" value="10799"/>
+                    </params>
+                </item>
+
+                
+                <item id="gamerTable" label="#gamerTableTitle" name="GamerTable" icon="GamerTableIcon" gold="59" rating="148" priority="201" tags="table,cell" loadType="file">
+                    <dimension width="2.2" length="4.2" height="1.6"/>
+                    <placement floor="1"/>
+                    <direction names="SE,SW"/>
+                    <params>
+                        <param name="immunityTime" value="10799"/>
+                    </params>
+                </item>
+            </category>
+
+            
+            <item id="prtrTbl" label="#prtrTblLabel" name="TablePirateRoom" icon="TablePirateRoomIcon" gold="140" rating="350" tags="table,cell" priority="201" loadType="file" vipOnly="1">
+                <dimension width="2" length="4.1" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="pnRmTbl" label="#pnRmTblLabel" name="TablePianoRoom" icon="TablePianoRoomIcon" silver="8700" rating="87" tags="table,cell" priority="202" loadType="file">
+                <dimension width="2" length="2" height="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="gamerNightstand" label="#gamerNightstandTitle" name="GamerNightstand" icon="GamerNightstandIcon" silver="1980" rating="20" tags="table,cell" priority="203" loadType="file">
+                <dimension width="1.45" length="1.65" height="1.6" sitZ="1.3"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="barCounterRtrCf" label="#barCounterRtrCfTitle" name="BarCounterRetroCafe2019" icon="BarCounterRetroCafe2019Icon" gold="21" rating="53" tags="table,cell" priority="204" loadType="file">
+                <dimension width="1.45" length="5.8" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="rndTblRtrCf" label="#rndTblRtrCfTitle" name="RoundTableRetroCafe2019" icon="RoundTableRetroCafe2019Icon" silver="1500" rating="15" tags="table,cell" priority="205" loadType="file">
+                <dimension width="1.5" length="1.5" height="2.1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="sqrTblRtrCf" label="#sqrTblRtrCfTitle" name="SquareTableRetroCafe2019" icon="SquareTableRetroCafe2019Icon" silver="2300" rating="23" tags="table,cell" priority="206" loadType="file">
+                <dimension width="1.5" length="1.5" height="2.1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+        </category>
+
+        
+
+        <category id="furnitureWall" label="#furnitureWallCategory" logCategory2="furnitureWall" priority="6">
+            <item id="frnWll1" label="#furnitureWall1Title" name="BaseWall" icon="BaseWallIcon" silver="4350" rating="43" tags="cell" loadType="file" priority="9">
+                <dimension width="1" length="5" height="5"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="frnWll2" label="#furnitureWall2Title" name="VipWall" vipOnly="1" icon="VipWallIcon" gold="73" rating="185" tags="cell" priority="901" loadType="file">
+                <dimension width="1" length="6" height="5"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="frnWll4" label="#furnitureWall4Title" name="WallAlt" icon="WallAltIcon" gold="59" rating="148" tags="cell" priority="7" loadType="file">
+                <dimension width="1" length="5" height="5"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="caseArtdecoLong" label="#caseArtdecoLongTitle" name="CaseArtdekoLong" icon="CaseArtdekoLongIcon" gold="49" rating="123" priority="6" loadType="file">
+                <dimension width="1" length="2.3" height="4.8"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="caseArtdecoNarrow" label="#caseArtdecoNarrowTitle" name="CaseArtdekoNarrow" icon="CaseArtdekoNarrowIcon" silver="2700" rating="27" priority="5" loadType="file">
+                <dimension width="1" length="1.4" height="4.8"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+
+            
+            <item id="wrdGrdnrGft" label="#wrdGrdnrGft" name="WardrobeGardenerGift" icon="WardrobeGardenerGiftIcon" gold="9999" rating="800" priority="6" loadType="file">
+                <dimension width="1" length="2.3" height="4.8"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+        </category>
+
+    </category>
+
+    <category id="bedroom" label="#bedroomCategory" priority="5" typeClass="furniture" library="furniture" logCategory1="furniture">
+
+        
+        <category id="9" label="#bedCategory" priority="1" logCategory2="bed">
+            <item id="bed1" label="#bed1Title" name="BedRose" icon="BedRoseIcon" silver="1200" rating="12" tags="cell,sit" priority="1" loadType="file">
+                <dimension width="4" length="2" height="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="bed2" label="#bed2Title" name="BedForget" icon="BedForgetIcon" gold="24" rating="52" tags="cell,sit" priority="2" loadType="file">
+                <dimension width="5" length="3" height="2.6" sitZ="0.7"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="bed3" label="#bed3Title" name="BedBlue" icon="BedBlueIcon" silver="500" rating="5" tags="cell,sit" priority="3" loadType="file">
+                <dimension width="4" length="2" height="1.8" sitZ="0.7"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="bed4" label="#bed4Title" name="BedGreen" icon="BedGreenIcon" silver="500" rating="5" tags="cell,sit" priority="4" loadType="file">
+                <dimension width="4" length="2" height="1.8" sitZ="0.7"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="bed5" label="#bed5Title" name="BedEllite" icon="BedElliteIcon" silver="1870" rating="18" tags="cell,sit" priority="5" loadType="file">
+                <dimension width="4" length="3" height="1.8" sitZ="0.7"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="bed6" label="#bed6Title" name="BedElliteGreen" icon="BedElliteGreenIcon" silver="1580" rating="15" tags="cell,sit" priority="6" loadType="file">
+                <dimension width="4" length="3" height="1.8" sitZ="0.7"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="bed7" label="#bed7Title" name="BedBachelor" level="8" icon="BedBachelorIcon" silver="1470" rating="14" tags="cell,sit" priority="7" loadType="file">
+                <dimension width="5" length="3" height="1.8" sitZ="0.7"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="bedArtdeko1" label="#bedArtdeko1Title" name="BedArtdeko" icon="BedArtdekoIcon" gold="30" rating="66" tags="cell,sit" priority="7" loadType="file">
+                <dimension width="4" length="3" height="2.9" sitZ="0.9"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="bedVip1" label="#bedVip1Title" name="BedLove" vipOnly="1" icon="BedLoveIcon" gold="99" rating="260" tags="cell,sit" priority="8" loadType="file">
+                <dimension width="6" length="7" height="1.3" sitZ="0.9"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="bedVip2" label="#bedVip2Title" name="BedCastle" vipOnly="1" icon="BedCastleIcon" gold="119" rating="300" tags="cell,sit" priority="8" loadType="file">
+                <dimension width="5" length="5" height="5" sitZ="0.9"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="bedVip3" label="#bedVip3Title" name="BedViolent" vipOnly="1" icon="BedViolentIcon" gold="105" rating="265" tags="cell,sit" priority="8" loadType="file">
+                <dimension width="5" length="4" height="4" sitZ="0.9"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+
+            
+            <item id="bdJpn1" label="#bedJapanTitle" name="BedJapan" vipOnly="1" icon="BedJapanIcon" gold="63" rating="160" tags="cell,sit" priority="9" loadType="file">
+                <dimension width="4" length="3" height="1.5" sitZ="0.9"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+
+            
+            <item id="bdPrncss" label="#bedPrincessLabel" name="BedPrincess" vipOnly="1" icon="BedPrincessIcon" gold="299" rating="800" tags="cell,sit" priority="10" loadType="file">
+                <dimension width="4" length="3" height="1.5" sitZ="0.9"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+
+            
+            <item id="bedBch" label="#bedBeachTitle" name="BedBeach" vipOnly="1" icon="BedBeachIcon" gold="55" rating="140" tags="cell,sit" priority="11" loadType="file">
+                <dimension width="3" length="1" height="2.5" sitZ="0.9"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+
+            
+            <item id="lngNYRf" label="#loungeNYRoofLabel" name="LoungeNYRoof" icon="LoungeNYRoofIcon" gold="47" rating="120" tags="sit,cell" priority="905" loadType="file">
+                <dimension width="5" length="1" height="2" sitZ="1.0"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="bdTrBth" label="#bdTrBthLabel" name="BedTropicalBedroom" icon="BedTropicalBedroomIcon" gold="135" rating="340" tags="cell,sit" priority="12" loadType="file">
+                <dimension width="5" length="4" height="1.5" sitZ="0.9"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+
+            
+            <item id="bdBlkRs" label="#bdBlkRsLabel" name="BlackRoseBed" holiday="halloween2015" icon="BlackRoseBedIcon" gold="432" rating="1080" tags="cell,sit" priority="13" loadType="file">
+                <dimension width="5" length="3" height="7" sitZ="0.9"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+
+            
+            <item id="bdHsptl" label="#bdHsptl" name="BedHospital" icon="BedHospitalIcon" silver="4999" rating="50" level="20" tags="cell,sit" priority="13" loadType="file" canBuy="1">
+                <dimension width="4.6" length="2" height="2" sitZ="0.9"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+
+            
+            <item id="gymMtsBed" label="#gymMtsBedLabel" name="BedMatsGym" icon="BedMatsGymIcon" gold="18" rating="45" tags="cell,sit" priority="14" loadType="file">
+                <dimension width="4" length="2" height="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+        </category>
+
+        
+        <category id="comodo" label="#comodoCategory" priority="2" logCategory2="comodo">
+            <item id="caseForgetLow" label="#caseForgetLowTitle" name="CaseForgetLow" icon="CaseForgetLowIcon" gold="12" rating="24" tags="cell,table" priority="1" loadType="file">
+                <dimension width="1" length="2" height="2.2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="caseForgetMirror" label="#caseForgetMirrorTitle" name="CaseForgetMirror" icon="CaseForgetMirrorIcon" gold="15" rating="30" tags="cell,table" priority="2" loadType="file">
+                <dimension width="1" length="2" height="2.2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="caseRoseLow" label="#caseRoseLowTitle" name="CaseRoseLow" icon="CaseRoseLowIcon" gold="9" rating="15" tags="cell,table" priority="3" loadType="file">
+                <dimension width="1" length="2" height="1.9"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="caseRoseMirror" label="#caseRoseMirrorTitle" name="CaseRoseMirror" icon="CaseRoseMirrorIcon" gold="11" rating="22" tags="cell,table" priority="4" loadType="file">
+                <dimension width="1" length="2" height="1.9"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="caseArtdecoMiddle" label="#caseArtdecoMiddleTitle" name="CaseArtdekoMiddle" icon="CaseArtdekoMiddleIcon" gold="19" rating="38" tags="table" priority="6" loadType="file">
+                <dimension width="1.3" length="2.3" height="2.2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="caseArtdecoLow" label="#caseArtdecoLowTitle" name="CaseArtdekoLow" icon="CaseArtdekoLowIcon" silver="1300" rating="13" tags="table" priority="7" loadType="file">
+                <dimension width="1" length="1" height="2.1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="caseBachelor" label="#caseBachelorTitle" name="CaseBachelor" level="8" icon="CaseBachelorIcon" silver="1300" rating="15" tags="cell,table" priority="11" loadType="file">
+                <dimension width="1" length="2" height="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="caseHlwn1" label="#caseHalloween1Title" name="CaseCoffinHelloweenBlue" holiday="halloween" icon="CaseCoffinHelloweenBlueIcon" gold="27" rating="60" tags="cell" priority="9" loadType="file">
+                <dimension width="1" length="2" height="5.5"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="caseHlwn2" label="#caseHalloween2Title" name="CaseCoffinHelloweenRed" holiday="halloween" icon="CaseCoffinHelloweenRedIcon" gold="27" rating="60" tags="cell" priority="10" loadType="file">
+                <dimension width="1" length="2" height="5.5"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item id="caseVlnt1" label="#caseViolent1Title" name="CaseViolent" icon="CaseViolentIcon" silver="870" rating="8" tags="cell,table" priority="10" loadType="file">
+                <dimension width="1" length="1.5" height="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+
+            
+            <item id="nsPrns" label="#casePrincessTitle" name="NightstandPrincess" vipOnly="1" icon="NightstandPrincessIcon" gold="48" rating="120" tags="table,cell" priority="12" loadType="file">
+                <dimension width="1.5" length="1" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="csMya" label="#caseMayaLabel" name="CaseMaya" vipOnly="1" icon="CaseMayaIcon" gold="75" rating="190" tags="cell" priority="13" loadType="file">
+                <dimension width="2" length="2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="nsHsptl" label="#nsHsptl" name="NightstandHospital" icon="NightstandHospitalIcon" silver="890" rating="9" tags="table,cell" priority="14" loadType="file" canBuy="1">
+                <dimension width="1" length="1" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+
+            
+            <item id="pnRmCs" label="#pnRmCsLabel" name="CasePianoRoom" icon="CasePianoRoomIcon" gold="30" rating="75" tags="table,cell" priority="15" loadType="file">
+                <dimension width="1" length="3" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+        </category>
+
+        
+        <category id="bedroomTables" label="#tableCategory" priority="3" logCategory2="table">
+            <item id="tableArtdecoSmall" label="#tableArtdecoSmallTitle" name="TableArtdekoSmall" icon="TableArtdekoSmallIcon" gold="23" rating="51" tags="cell,table" priority="16" loadType="file">
+                <dimension width="2" length="2" height="1"/>
+                <placement floor="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="table13" label="#table13Title" name="TableBachelorWindow" level="8" icon="TableBachelorWindowIcon" gold="12" rating="24" tags="table,cell" priority="13" loadType="file">
+                <dimension width="1.2" length="2" height="1.4"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="table10" label="#table10Title" name="TableForget" icon="TableForgetIcon" gold="20" rating="44" tags="table,cell" priority="10" loadType="file">
+                <dimension width="2" length="3" height="1"/>
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="table8" label="#table8Title" name="BedsideTableForget" icon="BedsideTableForgetIcon" gold="10" rating="20" tags="table,cell" priority="8" loadType="file">
+                <dimension width="1" length="1" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="table9" label="#table9Title" name="BedsideTableStone" icon="BedsideTableStoneIcon" gold="11" rating="22" tags="table,cell" priority="9" loadType="file">
+                <dimension width="1" length="1" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="table3" label="#table3Title" name="TableRoseSmall" icon="TableRoseSmallIcon" gold="7" rating="11" tags="table,cell" priority="3" loadType="file">
+                <dimension width="3" length="3" height="1"/>
+                <placement floor="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="table2" label="#table2Title" name="TableRoseBig" icon="TableRoseBigIcon" gold="17" rating="34" tags="table,cell" priority="2" loadType="file">
+                <dimension width="2" length="2" height="2"/>
+                <placement floor="1"/>
+                <direction names="SW"/>
+            </item>
+        </category>
+
+    </category>
+
+</config>

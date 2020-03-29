@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+        <message key="sd19ParticipationDialogTitle">Avataria'nın Doğum Günü!</message>
+        <message key="sd19ParticipationDialogDescription">Avataria 8 yaşında! Dilek gerçekleştirme zamanı! Teklifimizi tamamlayarak ödüller ve bir Toadie kıyafeti kazan!</message>
+        <message key="sd19ParticipationOkButtonTitle">Başla</message>
+
+        <message key="sd19StickerDialogMessage">İşte sana bir Toadie kıyafeti! Dilekler gerçekleştirmeye ve sikkeler elde etmeye devam et!</message>
+        <message key="sd19WallGetStickerMessage">Avataria 8 yaşında! Bir Toadie kıyafeti kazandım! Ödül ve hediyeler kazanmak için Avataria’da bana katıl! :link:</message>
+
+        <message key="sd19ProgressDialogTitle">Bir dilek tut!</message>
+        <message key="sd19ProgressDialogWishesTitle">Eşyalar Seç</message>
+        <message key="sd19ProgressDialogWishesDescription">Çeşmeye sikke at. Komşularını temiz tutarak, bahçıvanlık yaparak ve altın karşılığı VIP sağlayarak sikkeler kazanabilirsin (ödüller: 150, 225 ve 375 sikke)</message>
+        <message key="sd19ProgressDialogTrophyDescription">Sikke topla ve Toadie’nin kıyafetini elde et!</message>
+        <message key="sd19ProgressDialogStartButtonTitle">Başla</message>
+        <message key="sd19ProgressDialogCloseButtonMessage">Bu pencereyi kapatmak istediğinden emin misin?</message>
+
+        <message key="sd19SelectWishDialogTitle">Bir Eşya Seç</message>
+
+        <message key="sd19ConvertCoinsMessage">Tebrikler! Dileklerin için :coinsCount: sikke harcayabilirsin</message>
+        <message key="sd19WishCompleteMessage">Tebrikler! Rüyaların gerçek oldu!</message>
+
+        <message key="sd19FountainHintMessage">Çeşmeye para at ve hayallerin gerçek olsun</message>
+        <message key="sd19FriendHelpMessage">Buradan şanslı para alabilirsin</message>
+
+        <message key="sd19TotalTitle">Toplam: :value:</message>
+
+        <message key="sd19NpcMessage1">Selam! Beni özledin mi?</message>
+        <message key="sd19NpcMessage2">Yeni dilekleri sevdin mi? Hangisini seçtin?</message>
+        <message key="sd19NpcMessage3">Git ve kıyafet için de biraz biriktir! Seninle uyumlu kıyafetler içinde bir selfie patlatmak için sabırsızlanıyorum!</message>
+        <message key="sd19NpcMessage4">İyi ki doğdun Avataria!</message>
+        <message key="sd19NpcMessage5">Kendi kulübümü kurmak istiyorum. Toadie’nin kulübüne katılmak ister misin?</message>
+        <message key="sd19NpcMessage6">Innocentius’un herkese selamı var!</message>
+        <message key="sd19NpcMessage7">Selfie çekinelim mi?</message>
+        <message key="sd19NpcMessage8">Çeşmeye sikke at! Yeni hediyelerin tadını çıkar!</message>
+        <message key="sd19NpcMessage9">Avataria’nın doğum gününü hâlâ kutlamadın mı?</message>
+        <message key="sd19NpcMessage10">Toadie’nin saçı sende harika durdu. Güzellik salonuna bir geziye ne dersin?</message>
+
+        <message key="sd19BuyPhotoDescription">Toadie ile muhteşem bir fotoğrafa ne dersin?</message>
+        <message key="sd19MakePhotoDialogDescription">İşte Toadie ile fotoğrafın. Harika değil mi? Arkadaşlarınla paylaş ya da sürücüne kaydet!</message>
+        <message key="sd19PublishPhotoDescription">#avataria #selfie #Toadie #:nick: Toadie ile eşsiz bir fotoğraf çektirme şansını kaçırma! Onunla hemen Dilek Çeşmesi’nde tanış! :link:</message>
+
+        <message key="sd19NpcName">Toadie</message>
+    </locale>
+</dictionary>

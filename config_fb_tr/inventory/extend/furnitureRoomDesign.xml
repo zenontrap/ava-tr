@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rooms>
+    <room id="halloween2015" label="#halloween15RoomLabel" description="#halloween15Room1Description">
+        <item id="1" typeId="wllBlkRs" direction="3"/>
+        <item id="2" typeId="wllBlkRs" direction="5" x="13"/>
+        <item id="3" typeId="flrBlkRs"/>
+        <item id="4" typeId="drBlkRs" direction="3" x="4.3" y="0" z="0" targetRoomId="livingroom"/>
+
+        <item id="7" typeId="bdBlkRs" x="1" y="0" z="0" direction="3"/>
+        <item id="8" typeId="armchrBlkRs" x="7" y="1" z="0" direction="3"/>
+
+        <item id="9" typeId="pctBlkRs1" x="10.76" y="0" z="2.0" direction="3"/>
+        <item id="10" typeId="pctBlkRs2" x="7.84" y="0" z="1.7" direction="3"/>
+        <item id="11" typeId="pctBlkRs3" x="12.9" y="0.53125" z="2" direction="5"/>
+        <item id="12" typeId="pctBlkRs4" x="12.9" y="11.0" z="2" direction="5"/>
+
+        <item id="13" typeId="wdwBlkRs" x="13" y="3" direction="5"/>
+        <item id="14" typeId="bookBlkRs" x="10" y="10.2" z="2" direction="3"/>
+        <item id="15" typeId="tblBlkRs" x="10" y="10" z="0" direction="5"/>
+        <item id="16" typeId="musCentBlkRs" x="10.9" y="10.5" z="2" direction="3"/>
+        <item id="17" typeId="sfBlkRs" x="10" y="4" z="0" direction="5"/>
+    </room>
+
+    <room id="superHeroRoom_boy" label="#superHeroRoomLabel">
+        <item id="1" typeId="shWll" direction="3"/>
+        <item id="2" typeId="shWll" direction="5" x="13"/>
+        <item id="3" typeId="shFlr"/>
+        <item id="4" typeId="shDr" direction="3" x="0.4" targetRoomId="livingroom"/>
+        <item id="5" typeId="shWdw" x="13" direction="5"/>
+
+        <item id="6" typeId="shChr" x="4" y="6" direction="5"/>
+        <item id="7" typeId="shWldm" x="8" y="9.5" direction="5"/>
+        <item id="8" typeId="shMdmm" x="3" y="0" direction="3"/>
+        <item id="9" typeId="shJPck" x="0.5" y="10" direction="1"/>
+        <item id="10" typeId="shGlb" x="9" y="4.5" direction="5"/>
+        <item id="11" typeId="shWpl" x="5" y="4" direction="5"/>
+    </room>
+
+    <room id="superHeroRoom_girl" label="#superHeroRoomLabel">
+        <item id="1" typeId="shWll" direction="3"/>
+        <item id="2" typeId="shWll" direction="5" x="13"/>
+        <item id="3" typeId="shFlr"/>
+        <item id="4" typeId="shDr" direction="3" x="0.4" targetRoomId="livingroom"/>
+        <item id="5" typeId="shWdw" x="13" direction="5"/>
+
+        <item id="6" typeId="shChr" x="4" y="6" direction="5"/>
+        <item id="7" typeId="shWldm" x="8" y="9.5" direction="5"/>
+        <item id="8" typeId="shWdmm" x="3" y="0" direction="3"/>
+        <item id="9" typeId="shJPck" x="0.5" y="10" direction="1"/>
+        <item id="10" typeId="shGlb" x="9" y="4.5" direction="5"/>
+        <item id="11" typeId="shWpl" x="5" y="4" direction="5"/>
+    </room>
+
+    <room id="pirateRoom" label="#pirateRoomLabel">
+        <item id="1" typeId="prtrWll" direction="3"/>
+        <item id="2" typeId="prtrWll" direction="5" x="13"/>
+        <item id="3" typeId="prtrFlr"/>
+        <item id="4" typeId="prtrDr" direction="5" x="13" y="7.8" targetRoomId="livingroom"/>
+        <item id="5" typeId="prtrWdw" x="3" direction="3"/>
+
+        <item id="6" typeId="prtrChr" x="9" y="7" direction="5"/>
+        <item id="7" typeId="prtrArmchr" x="5" y="1" direction="3"/>
+        <item id="8" typeId="prtrTbl" x="4" y="4" direction="3"/>
+        <item id="9" typeId="prtrCrpt" x="2.5" y="6.5" direction="3"/>
+        <item id="10" typeId="prtrLmp" x="1.5" z="3" direction="3"/>
+        <item id="11" typeId="prtrLmp" x="10.5" z="3" direction="3"/>
+        <item id="12" typeId="prtrBrl" x="11" direction="3"/>
+        <item id="13" typeId="prtrChst" x="0.5" direction="3"/>
+        <item id="14" typeId="prtrCore" x="3" y="10" direction="5"/>
+        <item id="15" typeId="prtrBrlSbr" x="12" y="12" direction="5"/>
+        <item id="16" typeId="prtrCndl" x="7" y="4" z="2" direction="5"/>
+        <item id="17" typeId="prtrMrt" x="1" y="8.5" direction="3"/>
+        <item id="18" typeId="prtrBook" x="4.5" y="4.5" z="2" direction="3"/>
+        <item id="19" typeId="prtrMap" x="13" y="1.5" z="1" direction="5"/>
+    </room>
+
+    <room id="gymRoom" label="#gymRoomLabel">
+        <item id="1" typeId="gymWll" direction="3"/>
+        <item id="2" typeId="gymWll" direction="5" x="13"/>
+        <item id="3" typeId="gymFlr"/>
+        <item id="4" typeId="gymDr" direction="3" x="3" y="0" targetRoomId="livingroom"/>
+        <item id="5" typeId="gymWdw" x="13" y="9.5" z="3.5" direction="5"/>
+        <item id="6" typeId="gymWdw" x="13" y="0.5" z="3.5" direction="5"/>
+
+        <item id="7" typeId="gymStr" x="12.5" y="4.4" direction="5"/>
+        <item id="8" typeId="gymStr" x="12.5" y="6.5" direction="5"/>
+        <item id="9" typeId="gymMtsBed" x="11" y="9" direction="3"/>
+        <item id="10" typeId="gymJmpRp" x="12.9" y="8.64" z="1" direction="5"/>
+        <item id="11" typeId="gymYgGrnCrpt" x="1" y="10" direction="3"/>
+        <item id="12" typeId="gymDmbl" x="2.63" y="10" direction="5"/>
+        <item id="13" typeId="gymDmbl" x="3.75" y="11" direction="3"/>
+        <item id="14" typeId="gymSlfDmbl" x="12" y="1" direction="5"/>
+        <item id="15" typeId="gymBllChr" x="7" y="10" direction="5"/>
+        <item id="16" typeId="gymPstr" x="10.5" y="0" z="1" direction="3"/>
+        <item id="17" typeId="gymYgBlkCrpt" x="2" y="7" direction="3"/>
+        <item id="18" typeId="gymRbrCrpt" x="6.5" y="0" direction="3"/>
+        <item id="19" typeId="gymPngBag" x="7" y="1" direction="3"/>
+        <item id="20" typeId="gymExit" x="1" y="0" z="2.5" direction="3"/>
+        <item id="21" typeId="gymCpbd" x="5" y="0" direction="5"/>
+        <item id="22" typeId="gymBnchSofa" x="2" y="1" direction="5"/>
+    </room>
+
+    <room id="pianoRoom" label="#pnRmCollectionLabel">
+        <item id="1" typeId="pnRmWll" direction="3"/>
+        <item id="2" typeId="pnRmWll" direction="5" x="13"/>
+        <item id="3" typeId="pnRmFlr"/>
+        <item id="4" typeId="pnRmDr" direction="3" x="4.85" y="0" targetRoomId="livingroom"/>
+        <item id="5" typeId="pnRmWdw" x="13" y="0.64" direction="5"/>
+        <item id="6" typeId="pnRmWdw" x="13" y="4.98" direction="5"/>
+        <item id="7" typeId="pnRmWdw" x="13" y="9.31" direction="5"/>
+
+        <item id="8" typeId="pnRmChr" x="8" y="9" direction="5"/>
+        <item id="9" typeId="pnRmTbl" x="0" y="3" direction="3"/>
+        <item id="10" typeId="pnRmSf" x="9" y="0" direction="3"/>
+        <item id="11" typeId="pnRmPn" x="2" y="7" direction="3"/>
+        <item id="12" typeId="pnRmCs" x="1" y="0" direction="3"/>
+        <item id="13" typeId="pnRmVs" x="10" y="12" direction="5"/>
+        <item id="14" typeId="pnRmLmp" x="10.14" y="0" z="3" direction="3"/>
+        <item id="15" typeId="pnRmLmp" x="1.5" y="0" z="3" direction="3"/>
+        <item id="16" typeId="pnRmMetro" x="0.33" y="3.33" z="1" direction="3"/>
+        <item id="17" typeId="pnRmViolin" x="1.06" y="0.06" z="2" direction="3"/>
+    </room>
+
+    <room id="retroCafeRoom" label="#rtrCfCollectionLabel">
+        <item id="1" typeId="rtrCfDr" x="13" y="4.8" direction="5" targetRoomId="livingroom"/>
+        <item id="2" typeId="rtrCfWll" direction="3"/>
+        <item id="3" typeId="rtrCfWll" x="13" direction="5"/>
+        <item id="4" typeId="rtrCfFlr" direction="5"/>
+        <item id="5" typeId="rtrCfWnd" x="12.95" y="1.19" z="1.5" direction="5"/>
+        <item id="6" typeId="rtrCfClmn" x="4.36" direction="3"/>
+        <item id="7" typeId="rtrCfClmn" x="8.97" direction="3"/>
+        <item id="8" typeId="rtrCfMscRcrd" x="0.74" z="3.5" direction="3"/>
+        <item id="9" typeId="rtrCfNeon" x="5.59" z="3" direction="3"/>
+        <item id="10" typeId="rtrCfOvrh" x="12.5" y="9.03" z="5.4" direction="5"/>
+        <item id="11" typeId="rtrCfOvrh" x="12.5" y="1.64" z="5.4" direction="5"/>
+        <item id="12" typeId="rtrCfWnd" x="12.95" y="8.64" z="1.5" direction="5"/>
+        <item id="13" typeId="rtrCfGrnPf" x="8" y="11" direction="3"/>
+        <item id="14" typeId="rtrCfGrnPf" x="8" y="8" direction="3"/>
+        <item id="15" typeId="rndTblRtrCf" x="0" y="7" direction="5"/>
+        <item id="16" typeId="rtrCfGrnChr" x="0" y="5" direction="3"/>
+        <item id="17" typeId="rtrCfRdChr" x="3" y="7" direction="5"/>
+        <item id="18" typeId="rtrCfSc" x="0.58" y="7.59" z="2.1" direction="3"/>
+        <item id="19" typeId="rtrCfBarChr" x="6" y="4" direction="5"/>
+        <item id="20" typeId="rtrCfBarChr" x="4" y="4" direction="5"/>
+        <item id="21" typeId="rtrCfMscMchn" x="0.83" y="0.32" direction="3"/>
+        <item id="22" typeId="rtrCfClckOwl" x="10.52" z="3" direction="3"/>
+        <item id="23" typeId="rtrCfAnglSf" x="10.5" direction="5"/>
+        <item id="24" typeId="rtrCfSf" x="11.7" y="11" direction="5"/>
+        <item id="25" typeId="rtrCfSf" x="11.7" y="8" direction="5"/>
+        <item id="26" typeId="sqrTblRtrCf" x="9" y="11" direction="5"/>
+        <item id="27" typeId="sqrTblRtrCf" x="9" y="8" direction="5"/>
+        <item id="28" typeId="rtrCfGumMchn" x="12" y="3.88" direction="3"/>
+        <item id="29" typeId="barCounterRtrCf" x="4" y="2" direction="3"/>
+        <item id="30" typeId="rtrCfBarChr" x="8" y="4" direction="5"/>
+        <item id="31" typeId="rtrCfRdPf" x="5" y="11" direction="3"/>
+        <item id="32" typeId="rtrCfRdPf" x="3" y="11" direction="3"/>
+        <item id="33" typeId="rtrCfSgnbrd" x="11" y="12.5" z="4" direction="5"/>
+        <item id="34" typeId="rtrCfCctl" x="8.32" y="2.49" z="2.05" direction="5"/>
+    </room>
+</rooms>
