@@ -37,6 +37,9 @@ Kurulum Talimatları
 ```
 # Komutlar
 --------
+- İlk olarak yeni bir terminal acıp şu komutları yazalım.
+- redis-server
+- redis-cli
 
 set uid: kullanıcı sayısı : role 1   "13" kullanıcının id        
 
