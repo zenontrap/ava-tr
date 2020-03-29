@@ -17,6 +17,8 @@ Kurulum Talimatları
 - apt install python3-pip
 - apt-get install redis-server
 - systemctl enable redis-server.service
+- apt-install git
+- git clone https://github.com/zenontrap/ava-tr
 - Dosyalar'dan "web.ini" dosyasını kendi serverınıza göre güncelliyorsunuz.
 - pip3 install --user -r requirements.txt " oyun gereksimilerini indiriyorsunuz."
 - cd [klasör]  dosyaların bulunduğu klasöre girin.
