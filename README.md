@@ -34,6 +34,7 @@ Kurulum Talimatları
 - python3 web.py
 - yeni bir terminal acıp dosyaların bulunduğu klasöre tekrardan giderek bu sefer'de
   python3 server.py yazıyoruz.
+  Not : Eğer sunucunuz ücretsiz bir cloud ise dosyaları düzenlemek için " chmod -R 777 " düzenleme erişimi verin.
 ```
 # Komutlar
 --------
